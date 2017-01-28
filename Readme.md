@@ -1,5 +1,4 @@
-## Author 📚📝
-<!-- ![@DDCreationStudios](https://s3-us-west-2.amazonaws.com/s.cdpn.io/854371/profile/profile-80_2.jpg) -->
+## 📚📝 Author
 [<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/854371/profile/profile-80_2.jpg" align="right">](http://ddcreationstudios.at/)
 
 ##### Daniel Deutsch <kbd>[Github](https://github.com/DDCreationStudios) / [FreeCodeCamp](https://www.freecodecamp.com/ddcreationstudios) / [CodePen](http://codepen.io/ddcreationstudios/) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [Medium](https://medium.com/@ddcreationstudi) / [Site](http://ddcreationstudios.at/) /  [E-Mail](mailto:deudan1010@gmail.com)</kbd>
@@ -8,7 +7,7 @@
 
 Starting to write different articles about different things and document here 😄 🎆
 
-### ToDo ✅
+### ✅ ToDo
 - [ ] find license with a suitable badge
 
 ![writing](http://i.makeagif.com/media/1-28-2017/Z7fziN.gif)
