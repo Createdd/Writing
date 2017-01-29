@@ -3,7 +3,7 @@
 
 ##### Daniel Deutsch <kbd>[Github](https://github.com/DDCreationStudios) / [FreeCodeCamp](https://www.freecodecamp.com/ddcreationstudios) / [CodePen](http://codepen.io/ddcreationstudios/) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [Medium](https://medium.com/@ddcreationstudi) / [Site](http://ddcreationstudios.at/) /  [E-Mail](mailto:deudan1010@gmail.com)</kbd>
 
-# 📓 Daniel's Notes  ![App Progress Status](https://img.shields.io/badge/Writing%20Status-In%20Progress-0520b7.svg?style=plastic) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-red.svg)](http://creativecommons.org/licenses/by/4.0/)
+# 📓 Daniel's Notes  ![App Progress Status](https://img.shields.io/badge/Writing%20Status-In%20Progress-0520b7.svg?style=plastic) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-red.svg?colorB=91001a)](http://creativecommons.org/licenses/by/4.0/)
 
 Starting to write different articles about different things and document here 😄 🎆
 
