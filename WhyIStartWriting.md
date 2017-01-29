@@ -13,8 +13,6 @@ Life is moving faster than ever and so are opportunities. Writing has many many 
  - [5. Structure learning with writing thoughts down and organising them](#5-structure-learning-with-writing-thoughts-down-and-organising-them)
 
 
-
-
 ---
 
 >“Writing is thinking on paper”
