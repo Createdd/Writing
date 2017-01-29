@@ -1,5 +1,5 @@
 # 📖 5 Reasons why I start writing
-[<img src="https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?dpr=2&auto=format&fit=crop&w=767&h=576&q=80&cs=tinysrgb&crop=">](http://ddcreationstudios.at/)
+<!-- [<img src="https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?dpr=2&auto=format&fit=crop&w=767&h=576&q=80&cs=tinysrgb&crop=">](http://ddcreationstudios.at/) -->
 
 Life is moving faster than ever and so are opportunities. Writing has many many benefits and some I want to address in my first article. You will find the following here:
 
