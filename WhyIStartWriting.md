@@ -1,19 +1,18 @@
 # 📖 5 Reasons why I start writing
-<!-- [<img src="https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?dpr=2&auto=format&fit=crop&w=767&h=576&q=80&cs=tinysrgb&crop=">](http://ddcreationstudios.at/) -->
+[<img src="https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?dpr=2&auto=format&fit=crop&w=767&h=576&q=80&cs=tinysrgb&crop=">](http://ddcreationstudios.at/)
 
 Life is moving faster than ever and so are opportunities. Writing has many many benefits and some I want to address in my first article. You will find the following here:
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [📖 5 Reasons why I start writing](#-5-reasons-why-i-start-writing)
-		- [1. Improving writing on a Computer](#1-improving-writing-on-a-computer)
-		- [2. Getting more comfortable with Atom as an editor](#2-getting-more-comfortable-with-atom-as-an-editor)
-		- [3. Improve English enunciation](#3-improve-english-enunciation)
-		- [4. Get comfortable writing regularly](#4-get-comfortable-writing-regularly)
-		- [5. Structure learning with writing thoughts down and organising them](#5-structure-learning-with-writing-thoughts-down-and-organising-them)
-			- [🚀 A goal written down is a goal acted upon - So let's do it!](#-a-goal-written-down-is-a-goal-acted-upon-so-lets-do-it)
 
-<!-- /TOC -->
+### [📄 Table of content](#-5-reasons-why-i-start-writing)
+ - [1. Improving writing on a Computer](#1-improving-writing-on-a-computer)
+ - [2. Getting more comfortable with Atom as an editor](#2-getting-more-comfortable-with-atom-as-an-editor)
+ - [3. Improve English enunciation](#3-improve-english-enunciation)
+ - [4. Get comfortable writing regularly](#4-get-comfortable-writing-regularly)
+ - [5. Structure learning with writing thoughts down and organising them](#5-structure-learning-with-writing-thoughts-down-and-organising-them)
+
+
 
 
 ---
