@@ -22,11 +22,15 @@ Also keep your goal of your article in mind. Shall it educate, inform, inspire, 
 #### 1.Research properly!
 My definition of quality is determined by the amount of thoughts that have been put into the article. And of course the quality of your thoughts themselves matter.
 `You build your thoughts on experience. The more experience or research you put in, the higher the quality of your thoughts are.`
+Look for sources that provide quality content themselves and always form your opinion on more than just one. Your own opinion stems from absorbing other opinions and critically reflecting in your own mind. Be aware that often the goal of an author is to inform, but unfortunately isn't able to reflect with a questioning attitude on what he had read.
 
 #### 2.Articulate with thought!
-Work with structure! Deliberate precisely what you want to express in one paragraph and how it fits in your document structure. 
+Work with structure! Deliberate precisely what you want to express in one paragraph and how it fits in your document structure. Make sure to identify your target audience and understand the language they use. `For example: The term author in the context of writing means simply the creator of that certain text. Now in the context of writing programs is the author the publisher, the writer, the graphic designer or the one who wrote the source code? Be sure to choose a definition that fits in the context and provides clarity. It definitely pays off in legal disputes!`
 
 #### 3.Complex topics? Break it down to first principles!
+As Elon Musk said in his [interview](https://www.youtube.com/watch?v=NV3sBlRgzTI), he likes to reason from first principles rather than analogy. This simply means that you should create solutions on the basis of proven principles. Most people today take similar solution, add their own input and provide a suboptimal result. Why is that? Because real existing solutions have a large amount of thought in them. `Let's take a look into physics: In aviation you have certain variables and behavior that are acknowledged as proven principles (behavior of gravity, speed, pressure, density). You have also established solutions from different companies that provide solutions on how their products act in those environments. If you choose to use established products you are most likely reasoning from analogy, which don't might work well if you use it for example for rocket science.`
+
+
 ### How to write in 2017?
 ### I am sure to review my thought after a few months
 This was a very, very short overview of some aspects of writing well. There are a lot of good books and articles on how to write better. Check out some of these to get going. Don't lose sight what you are aiming at! Get good in writing but don't lose yourself in the process. It all comes down to communicate your thoughts.
@@ -40,7 +44,8 @@ Share your thoughts - it's never been easier 😄
 ```
 
 
-
-["How to write medium stories - Quincy Larson"](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
-["Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
-[Hemingway Editor - To check quality](http://www.hemingwayapp.com/)
+### Dive deeper - some useful links
+- ["How to write medium stories - Quincy Larson"](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
+- ["Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
+- [Hemingway Editor - To check quality](http://www.hemingwayapp.com/)
+- [Reasoning from first principles - Elon Musk (Interview)](https://www.youtube.com/watch?v=NV3sBlRgzTI)
