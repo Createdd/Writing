@@ -33,4 +33,7 @@ Please leave comments, feedback and suggestions as I am always trying to improve
 Share your thoughts - it's never been easier 😄
 ```
 
-["Stilkunde" of Werner Doralt - Lawyer and Professor (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
+
+
+["How to write medium stories - Quincy Larson"](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
+["Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
