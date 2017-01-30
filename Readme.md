@@ -10,10 +10,12 @@ Starting to write different articles about different things and document here ðŸ
 ### âœ… ToDo
 - [X] find license with a suitable badge
 - [ ] find better toc package
-- [ ] enable spellcheck in atom
+- [X] enable spellcheck in atom
 - [ ] look for better markdown - medium integration
 - [ ] find better way to organize docs in atom/github
 - [ ] save atom settings / packages
+- [ ] add evernote feature?
+- [ ] develop a reading extension that highlights most import phrases and words
 - [x] set up basics in atom
 
 ![writing](http://i.makeagif.com/media/1-28-2017/Z7fziN.gif)

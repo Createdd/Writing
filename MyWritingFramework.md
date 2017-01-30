@@ -15,11 +15,17 @@ Here are some of my thoughts on writing in general and whats important to unders
 ---
 
 ### How to choose a topic?
-
+Choose a topic you have been working on or some experience. Most of the people with interest in a certain topic read your article. Educated people will spot guessing and bluffing immediately and call you out or simply stop reading. Therefore make sure that you know the topic or build an opinion based on facts.
+Also keep your goal of your article in mind. Shall it educate, inform, inspire, provide solutions or be entertaining? Be sure to set your goal accordingly to the knowledge on that topic.
 
 ### How to provide quality language?
 #### 1.Research properly!
+My definition of quality is determined by the amount of thoughts that have been put into the article. And of course the quality of your thoughts themselves matter.
+`You build your thoughts on experience. The more experience or research you put in, the higher the quality of your thoughts are.`
+
 #### 2.Articulate with thought!
+Work with structure! Deliberate precisely what you want to express in one paragraph and how it fits in your document structure. 
+
 #### 3.Complex topics? Break it down to first principles!
 ### How to write in 2017?
 ### I am sure to review my thought after a few months
@@ -37,3 +43,4 @@ Share your thoughts - it's never been easier 😄
 
 ["How to write medium stories - Quincy Larson"](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
 ["Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
+[Hemingway Editor - To check quality](http://www.hemingwayapp.com/)
