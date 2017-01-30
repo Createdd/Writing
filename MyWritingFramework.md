@@ -24,7 +24,7 @@ Here are some of my thoughts on writing in general and whats important to unders
 ### How to write in 2017?
 ### I am sure to review my thought after a few months
 This was a very, very short overview of some aspects of writing well. There are a lot of good books and articles on how to write better. Check out some of these to get going. Don't lose sight what you are aiming at! Get good in writing but don't lose yourself in the process. It all comes down to communicate your thoughts.
-For myself I am sure that I will revisit my opinion and ideas on writing after the first articles. Revisiting and questioning my basic principles and my progression. And for you: Maybe it pays off to do the same whether you are a professional for years or just started a few weeks ago. 
+For myself I am sure that I will revisit my opinion and ideas on writing after the first articles. Revisiting and questioning my basic principles and my progression. And for you: Maybe it pays off to do the same whether you are a professional for years or just started a few weeks ago.
 
 
 
