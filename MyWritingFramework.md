@@ -30,8 +30,9 @@ Work with structure! Deliberate precisely what you want to express in one paragr
 #### 3.Complex topics? Break it down to first principles!
 As Elon Musk said in his [interview](https://www.youtube.com/watch?v=NV3sBlRgzTI), he likes to reason from first principles rather than analogy. This simply means that you should create solutions on the basis of proven principles. Most people today take similar solution, add their own input and provide a suboptimal result. Why is that? Because real existing solutions have a large amount of thought in them. `Let's take a look into physics: In aviation you have certain variables and behavior that are acknowledged as proven principles (behavior of gravity, speed, pressure, density). You have also established solutions from different companies that provide solutions on how their products act in those environments. If you choose to use established products you are most likely reasoning from analogy, which don't might work well if you use it for example for rocket science.`
 
-
 ### How to write in 2017?
+
+
 ### I am sure to review my thought after a few months
 This was a very, very short overview of some aspects of writing well. There are a lot of good books and articles on how to write better. Check out some of these to get going. Don't lose sight what you are aiming at! Get good in writing but don't lose yourself in the process. It all comes down to communicate your thoughts.
 For myself I am sure that I will revisit my opinion and ideas on writing after the first articles. Revisiting and questioning my basic principles and my progression. And for you: Maybe it pays off to do the same whether you are a professional for years or just started a few weeks ago.
