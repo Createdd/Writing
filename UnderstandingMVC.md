@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1484504844383-7676f295d034?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=">](https://unsplash.com/search/architecture?photo=b6GavtrLBo4)
 
-Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. I want to focus on the model in the React environment.
+Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. This article provides an overview of MVC and it's use in the React environment.
 
 ---
 
@@ -36,14 +36,20 @@ The structure allows flexibility since responsibilities are clearly separated. T
 - an increased complex setup process
 - dependencies, i.e. changes in the model or controller affect the whole entity
 
+### What is React?
+[React](https://github.com/facebook/react) is JavaScript library from Facebook, that is designed to create interactive UIs. The main features are that it's
+- declarative: Design different views for each state, which will be efficiently updated and re-rendered
+- component-based: Build components, that manage their own state and structure them together into more complex UIs
+- maintains an internal representation of the rendered UI ("virtual DOM"), that renders only the changed elements
+
 ### Apply MVC with React = Flux?
 
 Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux). The problem with a MVC structure is it's bidirectional communication, which proved to be very hard to debug and understand when a change in one entity caused cascading effect across the codebase. Especially when the app is scaling into a much bigger one, like Facebook for example. The flow of data was not well enough or easy enough defined for large applications.
 
 <img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" align="right" alt="flux diagram">
 
-#### What is Flux und what is different compaired to MVC?
-Flux is made up of 4 key elements:
+#### What is Flux und what is different compared to MVC?
+[Flux](https://github.com/facebook/flux) is made up of 4 key elements:
 1. **Actions**
 Objects with property and data.
 2. **Stores**
@@ -60,7 +66,7 @@ Now the differences to a MVC are:
 - stores are able to store any application related state, whereas the model in MVC was designed to store single objects
 - the initiating point Dispatcher makes debugging much easier
 
-Although some are calling MVC dead, I think Flux is more of a refined and enhanced MVC, sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
+Despite the fact that some are calling MVC "dead", I think Flux is more of a refined and enhanced MVC, and thus sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
 
 #### What
 
@@ -77,6 +83,7 @@ Share your thoughts - it's never been easier 😄
 - [🔀"MVC Pattern" - Tutorialspoint (practical example)](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 - [🔀"Benefits of Using MVC Model" - Soroosh Pardaz (LinkedIn article)](https://www.linkedin.com/pulse/six-benefits-using-mvc-model-effective-web-soroosh-pardaz)
 - [🔀"Is MVC dead on the front end?" - Alex Moldovan (5min article)](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.5h3n45u4b)
+- [🔀"Flux Concepts" - Facebook (Github)](https://github.com/facebook/flux/tree/master/examples/flux-concepts)
 - [🔀"Flux vs MVC Design Patterns" - Amir Salihefendic (5min article)](https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.g4rga64ez)
 - [🔀"MVC does not scale" - Abel Avram](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
 - [🔀"Flux vs MVC" - Paul Shan](http://voidcanvas.com/flux-vs-mvc/)
