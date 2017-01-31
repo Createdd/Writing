@@ -36,8 +36,14 @@ The structure allows flexibility since responsibilities are clearly separated. T
 - an increased complex setup process
 - dependencies, i.e. changes in the model or controller affect the whole entity
 
-### Implementing it into React
-#### What
+### Apply with React
+
+Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux)
+<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" alt="flux diagram">
+
+#### What is Flux?
+
+
 #### What
 
 
