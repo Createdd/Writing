@@ -31,6 +31,7 @@ Work with structure! Deliberate precisely what you want to express in one paragr
 As Elon Musk said in his [interview](https://www.youtube.com/watch?v=NV3sBlRgzTI), he likes to reason from first principles rather than analogy. This simply means that you should create solutions on the basis of proven principles. Most people today take similar solution, add their own input and provide a suboptimal result. Why is that? Because real existing solutions have a large amount of thought in them. `Let's take a look into physics: In aviation you have certain variables and behavior that are acknowledged as proven principles (behavior of gravity, speed, pressure, density). You have also established solutions from different companies that provide solutions on how their products act in those environments. If you choose to use established products you are most likely reasoning from analogy, which don't might work well if you use it for example for rocket science.`
 
 ### How to write in 2017?
+The one thing we have to be aware of is attention.
 
 
 ### I am sure to review my thought after a few months
