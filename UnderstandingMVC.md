@@ -1,14 +1,13 @@
-# 🛠 📐📏 Understanding MVC Architecture
+# 🛠 📐📏 Understanding MVC Architecture with React
 
 [<img src="https://images.unsplash.com/photo-1484504844383-7676f295d034?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=">](https://unsplash.com/search/architecture?photo=b6GavtrLBo4)
 
-Publishing never has been easier. How can I stand out and put
-
+Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it to use more of its benefits.
 
 ---
 
->"One always has to do the work - it's either the author or the reader"
-― Werner Doralt
+>"If you can't understand it, you can't change it"
+― [Eric Evans, Technologist](https://en.wikipedia.org/wiki/Domain-driven_design)
 
 ---
 
