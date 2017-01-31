@@ -13,17 +13,16 @@ Model-View-Controller (MVC) is a very often used software design pattern for imp
 
 ### What is MVC?
 MVC is a way of thinking to structure your web application. It's popular because it's used by many frameworks that implement that structure (rails, cakephp, django etc.).
-The architecure stems from the traditional flow of a web application.
+The architecture stems from the traditional flow of a web application.
 
 1. **View - Client**
-Displays visualization ot the data to the user. Only connected to the controller.
+Displays visualization of the data to the user. Only connected to the controller.
 2. **Controller - Server**
 Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
 3. **Model - Database**
 Processing data from or to the database. Only connected to the controller.
 
-<img src="http://i.imgur.com/tpdHiZ5.png">
-
+<img src="http://i.imgur.com/5iBwlOS.png" align="left"/>
 
 
 ### What are it's benefits for coding?
