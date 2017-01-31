@@ -36,13 +36,28 @@ The structure allows flexibility since responsibilities are clearly separated. T
 - an increased complex setup process
 - dependencies, i.e. changes in the model or controller affect the whole entity
 
-### Apply with React
+### Apply MVC with React = Flux?
 
-Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux)
-<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" alt="flux diagram">
+Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux). The problem with a MVC structure is it's bidirectional communication, which proved to be very hard to debug and understand when a change in one entity caused cascading effect across the codebase. Especially when the app is scaling into a much bigger one, like Facebook for example. The flow of data was not well enough or easy enough defined for large applications.
 
-#### What is Flux?
+<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" align="right" alt="flux diagram">
 
+#### What is Flux und what is different compaired to MVC?
+Flux is made up of 4 key elements:
+1. **Actions**
+Objects with property and data.
+2. **Stores**
+Contain the application's state and logic.
+3. **The Dispatcher**
+Processes registered actions and callbacks.
+4. **Views**
+Listen to changes from the stores and re-render themselves.
+
+It's important to notice and understand the unidirectional flow here.
+
+Now the differences to a MVC are:
+- The flow of processing is unidirectional instead of bidirectional
+- stores are able to store any application related state, whereas the model in MVC was designed to store single objects
 
 #### What
 
@@ -58,6 +73,11 @@ Share your thoughts - it's never been easier 😄
 - [🔀"What is programming MVC" - DevMarketer (video)](https://www.youtube.com/watch?v=1IsL6g2ixak)
 - [🔀"MVC Pattern" - Tutorialspoint (practical example)](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 - [🔀"Benefits of Using MVC Model" - Soroosh Pardaz (LinkedIn article)](https://www.linkedin.com/pulse/six-benefits-using-mvc-model-effective-web-soroosh-pardaz)
+- [🔀"Is MVC dead on the front end?" - Alex Moldovan (5min article)](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.5h3n45u4b)
+- [🔀"Flux vs MVC Design Patterns" - Amir Salihefendic (5min article)](https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.g4rga64ez)
+- [🔀"MVC does not scale" - Abel Avram](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
+- [🔀"Model" - Microsoft]()
+- [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
