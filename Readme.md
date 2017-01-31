@@ -7,6 +7,11 @@
 
 Starting to write different articles about different things and document here 😄 🎆
 
+### 📰 Latest articles
+1. [Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/WhyIStartWriting.md)
+2. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/MyWritingFramework.md)
+3. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/UnderstandingMVC.md)
+
 ### ✅ ToDo
 - [X] find license with a suitable badge
 - [ ] find better toc package
