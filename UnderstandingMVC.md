@@ -58,6 +58,9 @@ It's important to notice and understand the unidirectional flow here.
 Now the differences to a MVC are:
 - The flow of processing is unidirectional instead of bidirectional
 - stores are able to store any application related state, whereas the model in MVC was designed to store single objects
+- the initiating point Dispatcher makes debugging much easier
+
+Although some are calling MVC dead, I think Flux is more of a refined and enhanced MVC, sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
 
 #### What
 
@@ -76,7 +79,7 @@ Share your thoughts - it's never been easier 😄
 - [🔀"Is MVC dead on the front end?" - Alex Moldovan (5min article)](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.5h3n45u4b)
 - [🔀"Flux vs MVC Design Patterns" - Amir Salihefendic (5min article)](https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.g4rga64ez)
 - [🔀"MVC does not scale" - Abel Avram](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
-- [🔀"Model" - Microsoft]()
+- [🔀"Flux vs MVC" - Paul Shan](http://voidcanvas.com/flux-vs-mvc/)
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
