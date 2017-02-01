@@ -2,10 +2,23 @@
 
 [<img src="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](http://ddcreationstudios.at/)
 
+
 Publishing never has been easier. How can I stand out and put quality thoughts on topics everyone is talking about? How can I set standards for myself to provide the cutting-edge quality people want?
 In law school I was able to learn the importance of language. The choice of words can have different consequences - so choose wisely!
 Also keep in mind that I am myself have still to learn a lot - be sure to read for inspiration and not for guidance.
 Here are some of my thoughts on writing in general and whats important to understand in the year 2017.
+
+
+📝 Table of Content
+  * [How to choose a topic?](#how-to-choose-a-topic)
+  * [How to provide quality language?](#how-to-provide-quality-language)
+    * [1.Research properly!](#1research-properly)
+    * [2.Articulate with thought!](#2articulate-with-thought)
+    * [3.Complex topics? Break it down to first principles!](#3complex-topics-break-it-down-to-first-principles)
+  * [How to write in 2017?](#how-to-write-in-2017)
+  * [I am sure to review my thoughts after a few months](#i-am-sure-to-review-my-thoughts-after-a-few-months)
+  * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
+
 
 ---
 
@@ -33,7 +46,7 @@ As Elon Musk said in his [interview](https://www.youtube.com/watch?v=NV3sBlRgzTI
 
 ### How to write in 2017?
 The one thing we have to be aware of is attention.Technology gives us the ability to consume everything we want in every form we want to. With so many alternatives and a very short span of attention, you as a writer or marketer have to be direct, fast and interesting. As Gary Vaynerchuk put it in [#Askgarryvee](https://www.amazon.de/gp/product/0062273124/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0062273124&linkCode=as2&tag=ddcrestu-21): Depth is more important than width. He preaches that connection to the visitor as a human being is so much more important than going for numbers and followers.
-And I think that's exactly the way how to write in this year. Focusing on quality and connecting with each reader as much as possible. Choosing titles and intros based on psychology and delivering content based on research. That looks like a good strategy for me. 🙏
+And I think that's exactly the way how to write in this year. Focusing on quality and connecting with each reader as much as possible. Choosing titles and intros based on psychology and delivering content based on research. That looks like a good strategy for me. 🙏˘
 
 ### I am sure to review my thoughts after a few months
 This was a very, very short overview of some aspects of writing well. There are a lot of good books and articles on how to write better. Check out some of these to get going. Don't lose sight what you are aiming at! Get good in writing but don't lose yourself in the process. It all comes down to communicate your thoughts.
