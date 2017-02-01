@@ -47,8 +47,8 @@ Share your thoughts - it's never been easier 😄
 
 
 ### Dive deeper - some useful links
-- ["How to write medium stories - Quincy Larson"](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
-- ["Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
-- [Hemingway Editor - To check quality](http://www.hemingwayapp.com/)
-- [Reasoning from first principles - Elon Musk (Interview)](https://www.youtube.com/watch?v=NV3sBlRgzTI)
--
+- [🔀"How to write medium stories" - Quincy Larson](https://medium.freecodecamp.com/how-to-write-medium-stories-people-will-actually-read-92e58a27c8d8#.rgi3vncum)
+- [🔀"Stilkunde" - Werner Doralt (in German)](http://cd.manz.at/rechtaktuell/pdf/Doralt_Steuerrecht_2014-15.pdf)
+- [🔀Hemingway Editor - To check quality](http://www.hemingwayapp.com/)
+- [🔀Reasoning from first principles - Elon Musk (Interview)](https://www.youtube.com/watch?v=NV3sBlRgzTI)
+- [🔀"#Askgarryvee" - Gary Vaynerchuk (book on amazon)](https://www.amazon.de/gp/product/0062273124/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0062273124&linkCode=as2&tag=ddcrestu-21)
