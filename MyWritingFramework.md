@@ -9,7 +9,8 @@ Also keep in mind that I am myself have still to learn a lot - be sure to read f
 Here are some of my thoughts on writing in general and whats important to understand in the year 2017.
 
 
-📝 Table of Content
+### 📄 Table of content
+
   * [How to choose a topic?](#how-to-choose-a-topic)
   * [How to provide quality language?](#how-to-provide-quality-language)
     * [1.Research properly!](#1research-properly)
