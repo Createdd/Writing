@@ -3,9 +3,7 @@
 [<img src="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/search/books?photo=jKU2NneZAbI)
 
 Publishing never has been easier. How can I stand out and put quality thoughts on topics everyone is talking about? How can I set standards for myself to provide the cutting-edge quality people want?
-In law school I was able to learn the importance of language. The choice of words can have different consequences - so choose wisely!
-Also keep in mind that I am myself have still to learn a lot - be sure to read for inspiration and not for guidance.
-Here are some of my thoughts on writing in general and whats important to understand in the year 2017.
+In law school I was able to learn the importance of language. The choice of words can have different consequences - so choose wisely! Here are some of my thoughts on writing in general and what's important to understand in the year 2017.
 
 
 ### 📄 Table of content
