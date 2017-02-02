@@ -6,7 +6,7 @@ Publishing never has been easier. How can I stand out and put quality thoughts o
 In law school I was able to learn the importance of language. The choice of words can have different consequences - so choose wisely! Here are some of my thoughts on writing in general and what's important to understand in the year 2017.
 
 
-### 📄 Table of content
+### 📄 Table of contents
 
   * [How to choose a topic?](#how-to-choose-a-topic)
   * [How to provide quality language?](#how-to-provide-quality-language)
@@ -48,7 +48,7 @@ And I think that's exactly the way how to write in this year. Focusing on qualit
 
 ### I am sure to review my thoughts after a few months
 This was a very, very short overview of some aspects of writing well. There are a lot of good books and articles on how to write better. Check out some of them to get going. Don't lose sight of what you are aiming at! Get good in writing but don't lose yourself in the process. It all comes down to communication of your thoughts.
-For myself I am sure that I will revisit my opinion and ideas on writing after the first articles. Revisiting and questioning basic principles and progression. Maybe it pays off for you to do the same whether you are a professional for years or just started a few weeks ago.
+For myself I am sure that I will revisit my opinion and ideas on writing after the first articles. Revisiting and questioning basic principles and progression. It may pay off for you to do the same whether you are a professional for years or just started a few weeks ago.
 
 
 
