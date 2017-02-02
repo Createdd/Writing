@@ -2,6 +2,20 @@
 
 [<img src="https://images.unsplash.com/photo-1484504844383-7676f295d034?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=">](https://unsplash.com/search/architecture?photo=b6GavtrLBo4)
 
+
+
+
+## 📄 Table of contents
+  * [What is MVC?](#what-is-mvc)
+  * [What are it's advantages and disadvantages for coding?](#what-are-its-advantages-and-disadvantages-for-coding)
+  * [What is React?](#what-is-react)
+  * [Apply MVC with React = Flux?](#apply-mvc-with-react-flux)
+    * [What is Flux und what is different compared to MVC?](#what-is-flux-und-what-is-different-compared-to-mvc)
+    * [Redux](#redux)
+  * [Dive deeper -> some useful links](#dive-deeper-some-useful-links)
+
+
+
 Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. This article provides an overview of MVC and it's use in the React environment.
 
 ---
@@ -68,8 +82,14 @@ Now the differences to a MVC are:
 
 Despite the fact that some are calling MVC "dead", I think Flux is more of a refined and enhanced MVC, and thus sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
 
-#### What
-
+#### What is Redux und what is different compared to Flux?
+Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
+1. **Only one single source of truth**
+The state of your entire application is stored in a **single** store.
+2. **State is read-only**
+The only way to change the state is to emit an **action** (an object describing what happened).
+3. **Changes are made with pure functions**
+Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
@@ -87,7 +107,7 @@ Share your thoughts - it's never been easier 😄
 - [🔀"Flux vs MVC Design Patterns" - Amir Salihefendic (5min article)](https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.g4rga64ez)
 - [🔀"MVC does not scale" - Abel Avram](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
 - [🔀"Flux vs MVC" - Paul Shan](http://voidcanvas.com/flux-vs-mvc/)
-- [🔀"Model" - Microsoft]()
+- [🔀"Docs" - Redux](http://redux.js.org/)
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
