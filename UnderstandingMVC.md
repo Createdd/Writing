@@ -94,6 +94,9 @@ Please leave comments, feedback and suggestions as I am always trying to improve
 Share your thoughts - it's never been easier 😄
 ```
 
+## TODO
+- [ ] render list elements properly
+
 
 ### Dive deeper - some useful links
 - **MVC**
