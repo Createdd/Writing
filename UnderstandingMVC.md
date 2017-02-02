@@ -3,6 +3,7 @@
 [<img src="https://images.unsplash.com/photo-1484504844383-7676f295d034?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=">](https://unsplash.com/search/architecture?photo=b6GavtrLBo4)
 
 
+Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. This article provides an **overview** of MVC and it's use in the React environment.
 
 
 ## 📄 Table of contents
@@ -14,9 +15,6 @@
     * [Redux](#redux)
   * [Dive deeper -> some useful links](#dive-deeper-some-useful-links)
 
-
-
-Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. This article provides an overview of MVC and it's use in the React environment.
 
 ---
 
@@ -98,16 +96,19 @@ Share your thoughts - it's never been easier 😄
 
 
 ### Dive deeper - some useful links
+- **MVC**
 - [🔀"Model-View-Controller" - Microsoft (retired content!)](https://msdn.microsoft.com/en-us/library/ff649643.aspx)
 - [🔀"What is programming MVC" - DevMarketer (video)](https://www.youtube.com/watch?v=1IsL6g2ixak)
 - [🔀"MVC Pattern" - Tutorialspoint (practical example)](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 - [🔀"Benefits of Using MVC Model" - Soroosh Pardaz (LinkedIn article)](https://www.linkedin.com/pulse/six-benefits-using-mvc-model-effective-web-soroosh-pardaz)
 - [🔀"Is MVC dead on the front end?" - Alex Moldovan (5min article)](https://medium.freecodecamp.com/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.5h3n45u4b)
+- **Flux**
 - [🔀"Flux Concepts" - Facebook (Github)](https://github.com/facebook/flux/tree/master/examples/flux-concepts)
 - [🔀"Flux vs MVC Design Patterns" - Amir Salihefendic (5min article)](https://medium.com/hacking-and-gonzo/flux-vs-mvc-design-patterns-57b28c0f71b7#.g4rga64ez)
-- [🔀"MVC does not scale" - Abel Avram](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
-- [🔀"Flux vs MVC" - Paul Shan](http://voidcanvas.com/flux-vs-mvc/)
-- [🔀"Docs" - Redux](http://redux.js.org/)
+- [🔀"MVC does not scale" - Abel Avram (5min article)](https://www.infoq.com/news/2014/05/facebook-mvc-flux)
+- **Redux**
+- [🔀"Flux vs MVC" - Paul Shan (5min article)](http://voidcanvas.com/flux-vs-mvc/)
+- [🔀"Redux Docs" - Redux (complete documentation)](http://redux.js.org/)
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
 - [🔀"Model" - Microsoft]()
