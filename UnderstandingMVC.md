@@ -21,7 +21,7 @@ Model-View-Controller (MVC) is a very often used software design pattern for imp
 
 ---
 
-### What is MVC?
+## What is MVC?
 MVC is a way of thinking to structure your web application. It's popular because it's used by many frameworks that implement that structure (rails, cakephp, django etc.).
 The architecture stems from the traditional flow of a web application.
 
@@ -39,7 +39,7 @@ The architecture stems from the traditional flow of a web application.
 
 See a practical example [here ➡️](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 
-### What are it's advantages and disadvantages for coding?
+## What are it's advantages and disadvantages for coding?
 The structure allows flexibility since responsibilities are clearly separated. This leads to
 - better and easier code maintenance and reusability
 - easier to coordinate in teams due to the separation
@@ -50,7 +50,7 @@ The structure allows flexibility since responsibilities are clearly separated. T
 - an increased complex setup process
 - dependencies, i.e. changes in the model or controller affect the whole entity
 
-### What is React?
+## What is React?
 [React](https://github.com/facebook/react) is JavaScript library from Facebook, that is designed to create interactive UIs. The main features are that it's
 - declarative: Design different views for each state, which will be efficiently updated and re-rendered
 - component-based: Build components, that manage their own state and structure them together into more complex UIs
@@ -62,7 +62,7 @@ Whereas React is often referred to as the View in a MVC structure, Facebook pres
 
 <img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" align="right" alt="flux diagram">
 
-#### What is Flux und what is different compared to MVC?
+### What is Flux und what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
   1. **Actions**
 
@@ -86,7 +86,7 @@ Now the differences to a MVC are:
 
 Despite the fact that some are calling MVC "dead", I think Flux is more of a refined and enhanced MVC, and thus sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
 
-#### What is Redux und what is different compared to Flux?
+### What is Redux und what is different compared to Flux?
 Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
   1. **Only one single source of truth**
 
@@ -107,7 +107,7 @@ Please leave comments, feedback and suggestions as I am always trying to improve
 Share your thoughts - it's never been easier 😄
 ```
 
-### Dive deeper - some useful links
+## Dive deeper - some useful links
 - **MVC**
 - [🔀"Model-View-Controller" - Microsoft (retired content!)](https://msdn.microsoft.com/en-us/library/ff649643.aspx)
 - [🔀"What is programming MVC" - DevMarketer (video)](https://www.youtube.com/watch?v=1IsL6g2ixak)
