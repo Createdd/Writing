@@ -89,6 +89,10 @@ The only way to change the state is to emit an **action** (an object describing 
 3. **Changes are made with pure functions**
 Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
+[Now what's different to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
+- Redux does not have the concept of a *dispatcher* because it relies on pure functions instead of event emitters.
+- Redux assumes you never mutate your data. You dont mutate them in a reducer but rather return a new object
+
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
 Share your thoughts - it's never been easier 😄
