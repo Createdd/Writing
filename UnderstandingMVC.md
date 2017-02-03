@@ -56,7 +56,7 @@ The structure allows flexibility since responsibilities are clearly separated. T
 - component-based: Build components, that manage their own state and structure them together into more complex UIs
 - maintains an internal representation of the rendered UI ("virtual DOM"), that renders only the changed elements
 
-### Apply MVC with React = Flux?
+## Apply MVC with React = Flux?
 
 Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux). The problem with a MVC structure is it's bidirectional communication, which proved to be very hard to debug and understand when a change in one entity caused cascading effect across the codebase. Especially when the app is scaling into a much bigger one, like Facebook for example. The flow of data was not well enough or easy enough defined for large applications.
 
