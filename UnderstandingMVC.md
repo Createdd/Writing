@@ -28,11 +28,11 @@ MVC is a way of thinking to structure your web application. It's popular because
 The architecture stems from the traditional flow of a web application.
 
 <img src="http://i.imgur.com/fPHzoBY.png" align="right" height="300">
-1. **View - Client**
+1. View - Client
 Displays visualization of the data to the user. Only connected to the controller.
-2. **Controller - Server**
+2. Controller - Server
 Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
-3. **Model - Database**
+3. Model - Database
 Processing data from or to the database. Only connected to the controller.
 
 See a practical example [here ➡️](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
