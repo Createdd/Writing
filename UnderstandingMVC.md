@@ -29,12 +29,14 @@ The architecture stems from the traditional flow of a web application.
 
 <img src="http://i.imgur.com/fPHzoBY.png" align="right" height="300">
 
-1. **View - Client**
-    Displays visualization of the data to the user. Only connected to the controller.
-2. **Controller - Server**
+  1. **View - Client**
+
+  Displays visualization of the data to the user. Only connected to the controller.
+  2. **Controller - Server**
 
   Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
-3. **Model - Database**
+  3. **Model - Database**
+
   Processing data from or to the database. Only connected to the controller.
 
 See a practical example [here ➡️](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
@@ -65,12 +67,16 @@ Whereas React is often referred to as the View in a MVC structure, Facebook pres
 #### What is Flux und what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
   1. **Actions**
+
   Objects with property and data.
   2. **Stores**
+
   Contain the application's state and logic.
   3. **The Dispatcher**
+
   Processes registered actions and callbacks.
   4. **Views**
+
   Listen to changes from the stores and re-render themselves.
 
 It's important to notice and understand the unidirectional flow here.
@@ -85,10 +91,13 @@ Despite the fact that some are calling MVC "dead", I think Flux is more of a ref
 #### What is Redux und what is different compared to Flux?
 Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
   1. **Only one single source of truth**
+
   The state of your entire application is stored in a **single** store.
   2. **State is read-only**
+
   The only way to change the state is to emit an **action** (an object describing what happened).
-  3. **Changes are made with pure functions**
+  3. **Changes are made with pure functions**3.
+
   Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
 [Now what's different to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
