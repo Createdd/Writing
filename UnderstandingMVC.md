@@ -32,9 +32,9 @@ The architecture stems from the traditional flow of a web application.
 1. **View - Client**
   Displays visualization of the data to the user. Only connected to the controller.
 2. **Controller - Server**
-Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
+  Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
 3. **Model - Database**
-Processing data from or to the database. Only connected to the controller.
+  Processing data from or to the database. Only connected to the controller.
 
 See a practical example [here ➡️](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 
@@ -64,13 +64,13 @@ Whereas React is often referred to as the View in a MVC structure, Facebook pres
 #### What is Flux und what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
 1. **Actions**
-Objects with property and data.
+  Objects with property and data.
 2. **Stores**
-Contain the application's state and logic.
+  Contain the application's state and logic.
 3. **The Dispatcher**
-Processes registered actions and callbacks.
+  Processes registered actions and callbacks.
 4. **Views**
-Listen to changes from the stores and re-render themselves.
+  Listen to changes from the stores and re-render themselves.
 
 It's important to notice and understand the unidirectional flow here.
 
@@ -84,11 +84,11 @@ Despite the fact that some are calling MVC "dead", I think Flux is more of a ref
 #### What is Redux und what is different compared to Flux?
 Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
 1. **Only one single source of truth**
-The state of your entire application is stored in a **single** store.
+  The state of your entire application is stored in a **single** store.
 2. **State is read-only**
-The only way to change the state is to emit an **action** (an object describing what happened).
+  The only way to change the state is to emit an **action** (an object describing what happened).
 3. **Changes are made with pure functions**
-Specify the transformation by actions with **reducers**, which allow to navigate through states.
+  Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
 [Now what's different to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
 - Redux does not have the concept of a *dispatcher* because it relies on pure functions instead of event emitters.
@@ -98,10 +98,6 @@ Specify the transformation by actions with **reducers**, which allow to navigate
 Please leave comments, feedback and suggestions as I am always trying to improve.
 Share your thoughts - it's never been easier 😄
 ```
-
-## TODO
-- [ ] render list elements properly
-
 
 ### Dive deeper - some useful links
 - **MVC**
@@ -117,6 +113,3 @@ Share your thoughts - it's never been easier 😄
 - **Redux**
 - [🔀"Flux vs MVC" - Paul Shan (5min article)](http://voidcanvas.com/flux-vs-mvc/)
 - [🔀"Redux Docs" - Redux (complete documentation)](http://redux.js.org/)
-- [🔀"Model" - Microsoft]()
-- [🔀"Model" - Microsoft]()
-- [🔀"Model" - Microsoft]()
