@@ -63,13 +63,13 @@ Whereas React is often referred to as the View in a MVC structure, Facebook pres
 
 #### What is Flux und what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
-1. **Actions**
+  1. **Actions**
   Objects with property and data.
-2. **Stores**
+  2. **Stores**
   Contain the application's state and logic.
-3. **The Dispatcher**
+  3. **The Dispatcher**
   Processes registered actions and callbacks.
-4. **Views**
+  4. **Views**
   Listen to changes from the stores and re-render themselves.
 
 It's important to notice and understand the unidirectional flow here.
