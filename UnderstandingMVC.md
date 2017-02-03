@@ -30,8 +30,9 @@ The architecture stems from the traditional flow of a web application.
 <img src="http://i.imgur.com/fPHzoBY.png" align="right" height="300">
 
 1. **View - Client**
-  Displays visualization of the data to the user. Only connected to the controller.
+    Displays visualization of the data to the user. Only connected to the controller.
 2. **Controller - Server**
+
   Processes server-side logic and acts as a middleware between View and Model, i.e. controlling the flow of data.
 3. **Model - Database**
   Processing data from or to the database. Only connected to the controller.
@@ -83,11 +84,11 @@ Despite the fact that some are calling MVC "dead", I think Flux is more of a ref
 
 #### What is Redux und what is different compared to Flux?
 Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
-1. **Only one single source of truth**
+  1. **Only one single source of truth**
   The state of your entire application is stored in a **single** store.
-2. **State is read-only**
+  2. **State is read-only**
   The only way to change the state is to emit an **action** (an object describing what happened).
-3. **Changes are made with pure functions**
+  3. **Changes are made with pure functions**
   Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
 [Now what's different to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
