@@ -5,16 +5,14 @@
 
 Model-View-Controller (MVC) is a very often used software design pattern for implementing user interfaces. Since I tried to use and understand the structure in my last projects, I decided to take a deeper look into it. This article provides an **overview** of MVC and it's use in the React environment.
 
-
 ## 📄 Table of contents
   * [What is MVC?](#what-is-mvc)
   * [What are it's advantages and disadvantages for coding?](#what-are-its-advantages-and-disadvantages-for-coding)
   * [What is React?](#what-is-react)
   * [Apply MVC with React = Flux?](#apply-mvc-with-react-flux)
     * [What is Flux und what is different compared to MVC?](#what-is-flux-und-what-is-different-compared-to-mvc)
-    * [Redux](#redux)
-  * [Dive deeper -> some useful links](#dive-deeper-some-useful-links)
-
+    * [What is Redux und what is different compared to Flux?](#what-is-redux-und-what-is-different-compared-to-flux)
+  * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
 ---
 
