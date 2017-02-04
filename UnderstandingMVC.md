@@ -12,6 +12,7 @@ Model-View-Controller (MVC) is a very often used software design pattern for imp
   * [Apply MVC with React = Flux?](#apply-mvc-with-react-flux)
     * [What is Flux und what is different compared to MVC?](#what-is-flux-und-what-is-different-compared-to-mvc)
     * [What is Redux und what is different compared to Flux?](#what-is-redux-und-what-is-different-compared-to-flux)
+  * [Conclusion](#conclusion)
   * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
 ---
