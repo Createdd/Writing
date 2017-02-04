@@ -25,7 +25,14 @@ When creating your Components and how the fit together remind yourself to [think
 React Router is the perfect tool for switching content components in your main components. Get yourself comfortable with the [React Docs](https://facebook.github.io/react/docs/react-api.html). And first of all how to handle and fit elements together (e.g. transforming elements will `Clone and return a new React element using element as the starting point. The resulting element will have the original element's props with the new props merged in shallowly.`).
 >[React Router](https://github.com/ReactTraining/react-router/blob/master/docs/Introduction.md) is a powerful routing library built on top of React that helps you add new screens and flows to your application incredibly quickly, all while keeping the URL in sync with what's being displayed on the page.
 
+Be sure to include `this.props.children` in your main component that is rendered in your main path, so props can be passed downwards.
+
 ## 4. Set up Redux store 🔻
+
+[<img src="https://image.slidesharecdn.com/netmeetforit-reactvsangular-160310091532/95/react-vs-angular-ups-downs-speaker-oleksandr-kovalov-binary-studio-32-638.jpg?cb=1457685087" alt="creadit to http://www.slideshare.net/binary-studio/react-vs-angular-ups-downs-speaker-oleksandr-kovalov">](http://www.slideshare.net/binary-studio/react-vs-angular-ups-downs-speaker-oleksandr-kovalov)
+
+
+
 ## 5. Plan Redux Actions and Reducers 🔻
 ## 6. Integrate Store with React Router 🔻
 ## 7. Updating State with Reducers 🔻
