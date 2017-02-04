@@ -15,7 +15,16 @@ As a reminder: Redux is builds on Flux as a refined MVC pattern and allows to ma
 
 ---
 
-## What is Redux?
+## 1. Set up your environment
+Set up your desired environment. [React boilerplates ➡️](http://andrewhfarmer.com/starter-project/) are a great start to get going.
+
+## 2. Set up your components and Layout
+## 3. Set up routing
+## 4. Set up Redux store
+## 5. Plan Redux Actions and Reducers
+## 6. Integrate Store with React Router
+## 7. Updating State with Reducers
+## 8. Debugging
 
 
 ### What is Redux?
@@ -28,10 +37,15 @@ Share your thoughts - it's never been easier 😄
 ```
 
 ## Dive deeper - some useful links
-- **MVC**
-- [🔀"Model](hasfd)
-- [🔀"Model](hasfd)
-- [🔀"Model](hasfd)
-- [🔀"Model](hasfd)
-- [🔀"Model](hasfd)
-- [🔀"Model](hasfd)
+- **For setup**
+- [🔀"Learn Redux" - Wes Bos (Great Video Tutorial)](https://learnredux.com/)
+- [🔀"List of React Starter Prjects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
+- [🔀"Model"](hasfd)
+- [🔀"Model"](hasfd)
+- [🔀"Model"](hasfd)
+- [🔀"Model"](hasfd)
+
+
+
+
+<!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
