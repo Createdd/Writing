@@ -29,7 +29,9 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 ## 4. Set up Redux store 🔻
 
-[<img src="https://image.slidesharecdn.com/netmeetforit-reactvsangular-160310091532/95/react-vs-angular-ups-downs-speaker-oleksandr-kovalov-binary-studio-32-638.jpg?cb=1457685087" alt="creadit to http://www.slideshare.net/binary-studio/react-vs-angular-ups-downs-speaker-oleksandr-kovalov">](http://www.slideshare.net/binary-studio/react-vs-angular-ups-downs-speaker-oleksandr-kovalov)
+[<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
+🔖 Image credit to  http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/
+
 
 
 
