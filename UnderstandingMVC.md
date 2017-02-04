@@ -106,10 +106,9 @@ Redux builds on Flux and can be described in [three fundamental principles](http
 As the [documentation](http://redux.js.org/docs/faq/General.html) already suggest, you should use the concept of redux after understanding React first. And:
 >`In general, use Redux when you have reasonable amounts of data changing over time, you need a single source of truth, and you find that approaches like keeping everything in a top-level React component's state are no longer sufficient.`
 
-That being said, in the end, Redux is just a tool. Be sure to know it's tradeoffs.
 
 ## Conclusion
-As we could see, software design patterns are evolving with time. The use of certain architecture depends heavily on it's used frameworks and goals of each project. That being said, in the end, MVC, Flux or Redux are just tools. Be sure to know their tradeoffs and use them accordingly
+As we could see, software design patterns are evolving with time. The use of certain architecture depends heavily on it's used frameworks and goals of each project. That being said, in the end, MVC, Flux or Redux are just tools. Be sure to know their tradeoffs and use them accordingly.
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
