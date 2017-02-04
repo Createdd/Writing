@@ -31,19 +31,21 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 [<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="left">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 🔖 Image credit to  http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/
-- create a (default)state
+- create a (default)*state*
 - create a [store](http://redux.js.org/docs/api/createStore.html)
 - if you want to sync history with store, use [syncHistoryWithStore](https://www.npmjs.com/package/react-router-redux)
 
-
-
 ## 5. Plan Redux Actions and Reducers 🔻
+Set [actions](http://redux.js.org/docs/basics/Actions.html) to handle data that is created in user interaction (e.g. clicking "like").
+>Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch().
+
+Set [reducers](http://redux.js.org/docs/basics/Reducers.html) to change the state accordingly to the happened actions. A reducer takes the action and a copy of the current state. Create a reducer for each state and combine all of them in a main reducer.
+
+
 ## 6. Integrate Store with React Router 🔻
 ## 7. Updating State with Reducers 🔻
 ## 8. Debugging 🔻
 
-
-### What is Redux?
 
 ## Conclusion
 
@@ -57,7 +59,7 @@ Share your thoughts - it's never been easier 😄
 - [🔀 "Learn Redux" - Wes Bos (Great Video Tutorial)](https://learnredux.com/)
 - [🔀 "List of React Starter Prjects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
 - [🔀 "Thinking in React" - facebook](https://facebook.github.io/react/docs/thinking-in-react.html)
-- [🔀 "Model"](hasfd)
+- [🔀 "Docs" - Redux](http://redux.js.org/docs/basics/)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 
