@@ -60,8 +60,6 @@ The structure allows flexibility since responsibilities are clearly separated. T
 
 Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux). The problem with a MVC structure is it's bidirectional communication, which proved to be very hard to debug and understand when a change in one entity caused cascading effect across the codebase. Especially when the app is scaling into a much bigger one, like Facebook for example. The flow of data was not well enough or easy enough defined for large applications.
 
-<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" align="right" alt="flux diagram">
-
 ### What is Flux und what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
   1. **Actions**
@@ -76,6 +74,8 @@ Whereas React is often referred to as the View in a MVC structure, Facebook pres
   4. **Views**
 
   Listen to changes from the stores and re-render themselves.
+
+<img src="https://github.com/facebook/flux/blob/master/docs/img/flux-diagram-white-background.png?raw=true" align="right" alt="flux diagram">
 
 It's important to notice and understand the unidirectional flow here.
 
