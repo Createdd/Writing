@@ -94,13 +94,21 @@ Redux builds on Flux and can be described in [three fundamental principles](http
   2. **State is read-only**
 
   The only way to change the state is to emit an **action** (an object describing what happened).
-  3. **Changes are made with pure functions**3.
+  3. **Changes are made with pure functions**
 
   Specify the transformation by actions with **reducers**, which allow to navigate through states.
 
-[Now what's different to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
+[Difference to Flux?](http://redux.js.org/docs/introduction/PriorArt.html)
 - Redux does not have the concept of a *dispatcher* because it relies on pure functions instead of event emitters.
-- Redux assumes you never mutate your data. You dont mutate them in a reducer but rather return a new object
+- Redux assumes you never mutate your data. You don't mutate them in a reducer but rather return a new object
+
+As the [documentation](http://redux.js.org/docs/faq/General.html) already suggest, you should use the concept of redux after understanding React first. And:
+>`In general, use Redux when you have reasonable amounts of data changing over time, you need a single source of truth, and you find that approaches like keeping everything in a top-level React component's state are no longer sufficient.`
+
+That being said, in the end, Redux is just a tool. Be sure to know it's tradeoffs.
+
+## Conclusion
+As we could see, software design patterns are evolving with time. The use of certain architecture depends heavily on it's used frameworks and goals of each project. That being said, in the end, MVC, Flux or Redux are just tools. Be sure to know their tradeoffs and use them accordingly
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
