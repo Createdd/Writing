@@ -8,6 +8,10 @@ As a reminder: Redux is builds on Flux as a refined MVC pattern and allows to ma
 ## 📄 Table of contents 🔻
 
 
+<img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png" alt="redux logo" height="200" align="right">
+
+
+
 ---
 
 >"In theory there's no difference between theory and practice. But, in practice, there is."
@@ -41,8 +45,11 @@ Set [actions](http://redux.js.org/docs/basics/Actions.html) to handle data that 
 
 Set [reducers](http://redux.js.org/docs/basics/Reducers.html) to change the state accordingly to the happened actions. A reducer takes the action and a copy of the current state. Create a reducer for each state and combine all of them in a main reducer.
 
-
 ## 6. Integrate Store with React Router 🔻
+Use [react-redux](http://redux.js.org/docs/basics/UsageWithReact.html) to implement the state into the React router.
+>Redux works especially well with libraries like React and Deku because they let you describe UI as a function of state, and Redux emits state updates in response to actions.
+
+
 ## 7. Updating State with Reducers 🔻
 ## 8. Debugging 🔻
 
