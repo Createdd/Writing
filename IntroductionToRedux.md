@@ -62,8 +62,16 @@ Use [react-redux](http://redux.js.org/docs/basics/UsageWithReact.html) to implem
 Everytime you run an action, every reducer is going to run (will be dispatched?).
 - [`bindActionCreators`](http://redux.js.org/docs/api/bindActionCreators.html) wrap action objects into dispatch calls, so that they may be invoked directly.
 - [`mapStateToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) and [`mapDispatchToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) connect the data from the store to a certain component.
+- render state into components with `this.props` on each component
+- pass onClick functions with `this.props`
+- handle the click in your according reducer file with copying the old state and setting a new one
+- as reminder on React: use `ref` to get the data of the input field
+- first get your data, then render it out in jsx
+- split up reducers with [reducer compositions](http://redux.js.org/docs/basics/Reducers.html) and handle just a slice of the state
 
 ## 8. Debugging 🔻
+
+- use the [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 
 ## Conclusion
