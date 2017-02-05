@@ -5,7 +5,17 @@
 In ["Understanding MVC Architecture with React"](https://medium.com/@ddcreationstudi/understanding-mvc-architecture-with-react-6cd38e91fefd#.r66jqp0ly) I came to the conclusion that redux seems to be the perfect fit for structuring apps with react. Now I want to provide a roadmap on how to use it in practice.
 As a reminder: Redux is builds on Flux as a refined MVC pattern and allows to manage state out of one hand.
 
-## 📄 Table of contents 🔻
+## 📄 Table of contents
+  * [1. Set up your environment 🔻](#1-set-up-your-environment)
+  * [2. Set up your components and Layout 🔻](#2-set-up-your-components-and-layout)
+  * [3. Set up routing 🔻](#3-set-up-routing)
+  * [4. Set up Redux store 🔻](#4-set-up-redux-store)
+  * [5. Plan Redux Actions and Reducers 🔻](#5-plan-redux-actions-and-reducers)
+  * [6. Integrate Store with React Router 🔻](#6-integrate-store-with-react-router)
+  * [7. Updating State with Reducers 🔻](#7-updating-state-with-reducers)
+  * [8. Debugging 🔻](#8-debugging)
+  * [Conclusion](#conclusion)
+  * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
 
 <img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png" alt="redux logo" height="200" align="right">
