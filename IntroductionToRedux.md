@@ -58,6 +58,11 @@ Use [react-redux](http://redux.js.org/docs/basics/UsageWithReact.html) to implem
 
 
 ## 7. Updating State with Reducers 🔻
+
+Everytime you run an action, every reducer is going to run (will be dispatched?).
+- [`bindActionCreators`](http://redux.js.org/docs/api/bindActionCreators.html) wrap action objects into dispatch calls, so that they may be invoked directly.
+- [`mapStateToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) and [`mapDispatchToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) connect the data from the store to a certain component.
+
 ## 8. Debugging 🔻
 
 
