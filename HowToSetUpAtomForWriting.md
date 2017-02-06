@@ -71,11 +71,13 @@ Because Atom can be extended with user-created packages, it makes it easy to fin
 - [auto-update-packages](https://atom.io/packages/auto-update-packages)
 > Auto updating installed packages
 
+What's missing till now are more integrations to online platforms like medium.com for example. However, I'm pretty sure the community will provide something in the near future. 😄
+
 
 ## Learn how to write a Readme file 🔻
 
 There are many guides on how to write a good Readme file. Unfortunately not enough people take time to read them, which causes irritation in many coding projects.
-Github itself provides a detailed guide on [how to write documentation on Github. ▶️](https://guides.github.com/features/wikis/)
+Github itself provides a detailed guide on [how to write documentation on Github ℹ️ ](https://guides.github.com/features/wikis/)
 
 As [The Art of Readme](https://github.com/noffle/art-of-readme) suggests:
 >A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
