@@ -1,18 +1,18 @@
-# ⚛ 💡 🏁 8 steps to get started with Redux - A roadmap
+# ⚛ 📝 How to set up Atom for writing
 
-[<img src="https://images.unsplash.com/photo-1476445704028-a36e0c798192?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/NFs6dRTBgaM)
+[<img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?dpr=2&auto=format&fit=crop&w=767&h=512&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/JgOeRuGD_Y4)
 
 In ["Understanding MVC Architecture with React"](https://medium.com/@ddcreationstudi/understanding-mvc-architecture-with-react-6cd38e91fefd#.r66jqp0ly) I came to
 
-<img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png" alt="redux logo" height="200" align="right">
+<img src="https://cdn-business.discourse.org/uploads/github_atom/optimized/3X/6/d/6d798ac61cf16288f5c67ac48ae170470af08b13_1_499x500.png" alt="atom logo" height="200" align="right">
 
 ## 📄 Table of contents
 
 
 ---
 
->"In theory there's no difference between theory and practice. But, in practice, there is."
-― [Jan L. A. Van De Snepscheut, Computer Scientist](https://en.wikiquote.org/wiki/Jan_L._A._van_de_Snepscheut)
+>"Out of perfection nothing can be made. Every process involves breaking something up."
+― [Joseph Campbell, Mythologist](https://de.wikipedia.org/wiki/Joseph_Campbell)
 
 ---
 
