@@ -60,15 +60,19 @@ Folders can be structured in [books](http://www.dausha.net/writing/writing-on-gi
 Because Atom can be extended with user-created packages, it makes it easy to find specialized ones for writing. What I found useful are:
 
 - [language-markdown](https://atom.io/packages/language-markdown)
-  >Adds grammar support for Markdown (including Github flavored, AtomDoc, Markdown Extra, CriticMark, YAML/TOML front-matter, and R Markdown), and smart context-aware behavior to lists, and keyboard shortcuts for inline emphasis.
+>Adds grammar support for Markdown (including Github flavored, AtomDoc, Markdown Extra, CriticMark, YAML/TOML front-matter, and R Markdown), and smart context-aware behavior to lists, and keyboard shortcuts for inline emphasis.
+
 - [markdown-enhanced-preview](https://atom.io/packages/markdown-preview-enhanced)
-  >Basically provides a preview, but with mainy additional features
+>Basically provides a preview, but with mainy additional features
+
 - [latex](https://atom.io/packages/latex)
-  > For compiling LaTeX documents from within Atom.
+> For compiling LaTeX documents from within Atom.
+
 - [git-plus](https://atom.io/packages/git-plus)
-  >using git inside atom without using a terminal
+>using git inside atom without using a terminal
+
 - [auto-update-packages](https://atom.io/packages/auto-update-packages)
-  > Auto updating installed packages
+> Auto updating installed packages
 
 What's missing till now are more integrations to online platforms like medium.com for example. However, I'm pretty sure the community will provide something in the near future. 😄
 
