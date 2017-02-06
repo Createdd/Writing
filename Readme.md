@@ -11,6 +11,8 @@ Starting to write different articles about different things and document here ðŸ
 1. [Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/WhyIStartWriting.md)
 2. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/MyWritingFramework.md)
 3. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/UnderstandingMVC.md)
+4. [Introduction to Redux](https://github.com/DDCreationStudios/Writing/blob/master/IntroductionToRedux.md)
+5. [How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/HowToSetUpAtom.md)
 
 ### âœ… ToDo
 - [X] find license with a suitable badge
