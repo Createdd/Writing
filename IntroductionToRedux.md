@@ -69,9 +69,12 @@ Everytime you run an action, every reducer is going to run (will be dispatched?)
 - first get your data, then render it out in jsx
 - split up reducers with [reducer compositions](http://redux.js.org/docs/basics/Reducers.html) and handle just a slice of the state
 
-## 8. Debugging 🔻
+## 8. Debugging and Monitoring🔻
 
 - use the [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [Sentry](https://sentry.io/) provides a lot of error tracking features
+- to hotreload reducers: recompile the root reducer and change the store, with accepting the hotreload and rerequiring the reducer.
+- use the [Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) to visualize the reducer process and timetravel
 
 
 ## Conclusion
