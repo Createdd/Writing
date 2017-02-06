@@ -22,23 +22,29 @@ With that in mind I tried to enhance it for writing purposes.
 
 ## Set up your basic atom environment 🔻
 Style your syntax highlighting and themes as you please. Scroll through your core settings and configure it the way you like.
+Core features:
 - Understand the **splitting pane** feature, which allows you to split your window. This way you can set your layout easily and simplifies previewing your markdown files or comparing with other files.
 - Use **multi select** with pressing `cmd` while clicking. It allows to have multiple cursors in your document.
 - Be aware of your **package management** which allows you to edit your settings for your packages.
 - Use the **mini map** feature to navigate through longer files
--
+
 
 **Key shortcuts are (Mac):**
 - **cmd + p**: opening a file with the [fuzzy finder](https://github.com/atom/fuzzy-finder)
 - **cmd + f**: opening the *find and replace* panel (also possible to open *find in project*)
--
+- **cmd + shift + p**: opening *command palette*
 
 
 ## Project Management 🔻
 
 -  The tree view displays your current project folder structure
 - Dragging folders into Atom opens a new window and displays it as new project
--
+- Organize local in the desired folder structure
+- Organize on [Github](https://github.com/showcases/writing):
+>GitHub repositories are places where writers can share their work with the world and solicit feedback, while others can fork the story and make their own variation. Here are some examples of researchers, textbook authors, event organizers, and novelists using GitHub for the written word.
+
+Folders can be structured in [books](http://www.dausha.net/writing/writing-on-github-organizing-the-book/) or [series with submodules](http://www.dausha.net/writing/writing-on-github/)
+
 
 
 ## Find special writing plugins 🔻
@@ -67,6 +73,9 @@ Share your thoughts - it's never been easier 😄
 - **For setup**
 - [🔀 Atom Editor](https://atom.io/)
 - [🔀 "Atom Editor Tutorial" - LevelUpTuts (Youtube)](https://www.youtube.com/watch?v=EyG20hhON6E)
+- [🔀 "Writing on Github: Organizing the Book" - Merovex (Article)](http://www.dausha.net/writing/writing-on-github-organizing-the-book/)
+- [🔀 "Writing Showcase" - Github](https://github.com/showcases/writing)
+- [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
