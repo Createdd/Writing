@@ -43,18 +43,29 @@ Core features:
 - Organize on [Github](https://github.com/showcases/writing):
 >GitHub repositories are places where writers can share their work with the world and solicit feedback, while others can fork the story and make their own variation. Here are some examples of researchers, textbook authors, event organizers, and novelists using GitHub for the written word.
 
-Folders can be structured in [books](http://www.dausha.net/writing/writing-on-github-organizing-the-book/) or [series with submodules](http://www.dausha.net/writing/writing-on-github/)
+Folders can be structured in [books](http://www.dausha.net/writing/writing-on-github-organizing-the-book/) or [series with submodules](http://www.dausha.net/writing/writing-on-github/).
 
 
+`⚖ Makes sure to know your licenses and copyrights when publishing online! ⚖`
 
-## Find special writing plugins 🔻
+
+## Atom Packages good for writing 🔻
+
+Because Atom is that easy to extend with user-created packages, it makes it easy to find specialized ones for writing. What I found useful are:
 
 - use linters and hinters
-
-## Get good with Atom 🔻
-## Atom Packages 🔻
 - git-plus
 
+## Get good with Atom 🔻
+
+
+## Learn how to write a Readme file 🔻
+
+There are many guides on how to write a good Readme file. Unfortunately not enough people take time to read them, which causes irritation in many coding projects.
+>A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
+
+
+https://github.com/noffle/art-of-readme
 
 
 
@@ -73,8 +84,11 @@ Share your thoughts - it's never been easier 😄
 - **For setup**
 - [🔀 Atom Editor](https://atom.io/)
 - [🔀 "Atom Editor Tutorial" - LevelUpTuts (Youtube)](https://www.youtube.com/watch?v=EyG20hhON6E)
-- [🔀 "Writing on Github: Organizing the Book" - Merovex (Article)](http://www.dausha.net/writing/writing-on-github-organizing-the-book/)
+- [🔀 "Writing on Github: Organizing the Book" - Merovex (article)](http://www.dausha.net/writing/writing-on-github-organizing-the-book/)
 - [🔀 "Writing Showcase" - Github](https://github.com/showcases/writing)
+- [🔀 "Top ten reasons why I won't use your open source project" - Adam Stacoviak"](https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project)
+- [🔀 "The Art of Readme"](https://github.com/noffle/art-of-readme)
+- [🔀 "Documenting your projects on GitHub" (10min article)](https://guides.github.com/features/wikis/)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
