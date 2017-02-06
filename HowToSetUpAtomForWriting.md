@@ -11,6 +11,12 @@ With that in mind I tried to enhance it for writing purposes.
 <img src="https://cdn-business.discourse.org/uploads/github_atom/optimized/3X/6/d/6d798ac61cf16288f5c67ac48ae170470af08b13_1_499x500.png" alt="atom logo" height="200" align="right">
 
 ## 📄 Table of contents
+  * [Set up your basic atom environment 🔻](#set-up-your-basic-atom-environment)
+  * [Project Management 🔻](#project-management)
+  * [Atom Packages good for writing 🔻](#atom-packages-good-for-writing)
+  * [Learn how to write a Readme file 🔻](#learn-how-to-write-a-readme-file)
+  * [Conclusion](#conclusion)
+  * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
 
 ---
@@ -49,14 +55,21 @@ Folders can be structured in [books](http://www.dausha.net/writing/writing-on-gi
 `⚖ Makes sure to know your licenses and copyrights when publishing online! ⚖`
 
 
-## Atom Packages good for writing 🔻
+## Atom Packages for writing 🔻
 
-Because Atom is that easy to extend with user-created packages, it makes it easy to find specialized ones for writing. What I found useful are:
+Because Atom can be extended with user-created packages, it makes it easy to find specialized ones for writing. What I found useful are:
 
-- use linters and hinters
-- git-plus
+- [language-markdown](https://atom.io/packages/language-markdown)
+>Adds grammar support for Markdown (including Github flavored, AtomDoc, Markdown Extra, CriticMark, YAML/TOML front-matter, and R Markdown), and smart context-aware behavior to lists, and keyboard shortcuts for inline emphasis.
+- [markdown-enhanced-preview](https://atom.io/packages/markdown-preview-enhanced)
+>Basically provides a preview, but with mainy additional features
 
-## Get good with Atom 🔻
+- [latex](https://atom.io/packages/latex)
+> For compiling LaTeX documents from within Atom.
+- [git-plus](https://atom.io/packages/git-plus)
+>using git inside atom without using a terminal
+- [auto-update-packages](https://atom.io/packages/auto-update-packages)
+> Auto updating installed packages
 
 
 ## Learn how to write a Readme file 🔻
@@ -75,11 +88,9 @@ and
     3. show them how they use it
     4. tell them any other relevant details
 
+This not only applies to writing code, but also to writing in general (on Github).
 
-
-
-## Set 🔻
-
+Make sure to provide an overview and sufficient information, but also excitement for visitors. 😉
 
 
 ## Conclusion
