@@ -68,6 +68,7 @@ Everytime you run an action, every reducer is going to run (will be dispatched?)
 - as reminder on React: use `ref` to get the data of the input field
 - first get your data, then render it out in jsx
 - split up reducers with [reducer compositions](http://redux.js.org/docs/basics/Reducers.html) and handle just a slice of the state
+- to get data asynchronous use redux thunk for example
 
 ## 8. Debugging and Monitoring🔻
 
