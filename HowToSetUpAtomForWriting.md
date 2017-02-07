@@ -64,7 +64,7 @@ Because Atom can be extended with user-created packages, it makes it easy to fin
 >Adds grammar support for Markdown (including Github flavored, AtomDoc, Markdown Extra, CriticMark, YAML/TOML front-matter, and R Markdown), and smart context-aware behavior to lists, and keyboard shortcuts for inline emphasis.
 
 - [markdown-enhanced-preview](https://atom.io/packages/markdown-preview-enhanced)
->Basically provides a preview, but with mainy additional features
+>Basically provides a preview, but with many additional features
 
 - [latex](https://atom.io/packages/latex)
 > For compiling LaTeX documents from within Atom.
