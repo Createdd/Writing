@@ -47,6 +47,7 @@ Core features:
 - Dragging folders into Atom opens a new window and displays it as new project
 - Organize local in the desired folder structure
 - Organize on [Github](https://github.com/showcases/writing):
+
 >GitHub repositories are places where writers can share their work with the world and solicit feedback, while others can fork the story and make their own variation. Here are some examples of researchers, textbook authors, event organizers, and novelists using GitHub for the written word.
 
 Folders can be structured in [books](http://www.dausha.net/writing/writing-on-github-organizing-the-book/) or [series with submodules](http://www.dausha.net/writing/writing-on-github/).
@@ -99,6 +100,8 @@ Make sure to provide an overview and sufficient information, but also excitement
 
 
 ## Conclusion
+
+As we can see Atom really allows to nearly everything you want it. You can setup it the way you like, and that's the power of it.
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
