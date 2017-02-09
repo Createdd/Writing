@@ -33,7 +33,7 @@ Set up your desired environment. [React boilerplates ➡️](http://andrewhfarme
 When creating your Components and how the fit together remind yourself to [think in React](https://facebook.github.io/react/docs/thinking-in-react.html).
 
 ## 3. Set up routing 🔻
-React Router is the perfect tool for switching content components in your main components. Get yourself comfortable with the [React Docs](https://facebook.github.io/react/docs/react-api.html). And first of all how to handle and fit elements together (e.g. transforming elements will `Clone and return a new React element using element as the starting point. The resulting element will have the original element's props with the new props merged in shallowly.`).
+React Router is the perfect tool for switching content components in your main components. Get yourself comfortable with the [React Docs](https://facebook.github.io/react/docs/react-api.html) and understand how to handle and fit elements together (e.g.`cloneElement` will `Clone and return a new React element using element as the starting point. The resulting element will have the original element's props with the new props merged in shallowly.`).
 >[React Router](https://github.com/ReactTraining/react-router/blob/master/docs/Introduction.md) is a powerful routing library built on top of React that helps you add new screens and flows to your application incredibly quickly, all while keeping the URL in sync with what's being displayed on the page.
 
 Be sure to include `this.props.children` in your main component that is rendered in your main path, so props can be passed downwards.
@@ -42,7 +42,8 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 [<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="left">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 🔖 Image credit to  http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/
-- create a (default)*state*
+- create or fetch your data/content
+- create a (default)state
 - create a [store](http://redux.js.org/docs/api/createStore.html)
 - if you want to sync history with store, use [syncHistoryWithStore](https://www.npmjs.com/package/react-router-redux)
 
@@ -68,7 +69,7 @@ Everytime you run an action, every reducer is going to run (will be dispatched?)
 - as reminder on React: use `ref` to get the data of the input field
 - first get your data, then render it out in jsx
 - split up reducers with [reducer compositions](http://redux.js.org/docs/basics/Reducers.html) and handle just a slice of the state
-- to get data asynchronous use redux thunk for example
+- to get data asynchronous use redux-thunk or redux-saga for example
 
 ## 8. Debugging and Monitoring🔻
 
