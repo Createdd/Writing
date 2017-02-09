@@ -68,7 +68,7 @@ Connect the router to the store with [`<Provider>`](https://github.com/reactjs/r
 
 ## 7. Updating State with Reducers 🔻
 
-Everytime you run an action, every reducer is going to run (will be dispatched?).
+Everytime you run an action, every reducer is going to run and actions will be dispatched.
 - the `connect` method of React-redux allows to pass props to a component
 - [`bindActionCreators`](http://redux.js.org/docs/api/bindActionCreators.html) wrap action objects into dispatch calls, so that they may be invoked directly.
 - [`mapStateToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) and [`mapDispatchToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) connect the data from the store to a certain component.
@@ -78,7 +78,7 @@ Everytime you run an action, every reducer is going to run (will be dispatched?)
 - as reminder on React: use `ref` to get the data of the input field
 - first get your data, then render it out in jsx
 - split up reducers with [reducer compositions](http://redux.js.org/docs/basics/Reducers.html) and handle just a slice of the state
-- to get data asynchronous use redux-thunk or redux-saga for example
+- to get data asynchronously use [redux-thunk](https://github.com/gaearon/redux-thunk) or [redux-saga](https://github.com/redux-saga/redux-saga) for example
 
 ## 8. Debugging and Monitoring🔻
 
