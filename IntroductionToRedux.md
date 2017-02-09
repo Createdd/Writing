@@ -48,7 +48,9 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 >Creates a Redux store that holds the complete state tree of your app.
 >There should only be a single store in your app.
+
 - if you want to sync history with store, use [syncHistoryWithStore](https://www.npmjs.com/package/react-router-redux)
+
 >This library helps you keep that bit of state in sync with your Redux store. We keep a copy of the current location hidden in state.
 
 ## 5. Plan Redux Actions and Reducers 🔻
@@ -87,6 +89,9 @@ Everytime you run an action, every reducer is going to run (will be dispatched?)
 
 
 ## Conclusion
+I wrote this roadmap while I was creating the ["reduxstagram"-app from wes bos](https://learnredux.com/). I think it's one of the better tutorials, as usual from Wes Bos, however I realized it's absolutely necessary to read the docs to understand the concept of Redux with React. I used the roadmap as guide for another app and it gave me a good direction for setting up a basic structure.
+
+
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
