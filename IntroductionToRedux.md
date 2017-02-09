@@ -1,4 +1,4 @@
-# ⚛ 💡 🏁 8 steps to get started with Redux - A roadmap
+# ⚛ 💡 🏁 8 steps to get started with Redux and React - A roadmap
 
 [<img src="https://images.unsplash.com/photo-1476445704028-a36e0c798192?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/NFs6dRTBgaM)
 
@@ -41,7 +41,7 @@ Be sure to include `this.props.children` in your main component that is rendered
 ## 4. Set up Redux store 🔻
 
 [<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="left">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
-🔖 Image credit to  http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/
+🔖 Image credit to [JS Lancer](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 - create or fetch your data/content
 - create a (default)state
 - create a [store](http://redux.js.org/docs/api/createStore.html)
