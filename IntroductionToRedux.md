@@ -45,7 +45,11 @@ Be sure to include `this.props.children` in your main component that is rendered
 - create or fetch your data/content
 - create a (default)state
 - create a [store](http://redux.js.org/docs/api/createStore.html)
+
+>Creates a Redux store that holds the complete state tree of your app.
+>There should only be a single store in your app.
 - if you want to sync history with store, use [syncHistoryWithStore](https://www.npmjs.com/package/react-router-redux)
+>This library helps you keep that bit of state in sync with your Redux store. We keep a copy of the current location hidden in state.
 
 ## 5. Plan Redux Actions and Reducers 🔻
 Set [actions](http://redux.js.org/docs/basics/Actions.html) to handle data that is created in user interaction (e.g. clicking "like").
