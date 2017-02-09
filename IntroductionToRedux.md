@@ -40,7 +40,7 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 ## 4. Set up Redux store 🔻
 
-[<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="left">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
+[<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="right">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 🔖 Image credit to [JS Lancer](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 - create or fetch your data/content
 - create a (default)state
@@ -61,10 +61,13 @@ Set [reducers](http://redux.js.org/docs/basics/Reducers.html) to change the stat
 Use [react-redux](http://redux.js.org/docs/basics/UsageWithReact.html) to implement the state into the React router.
 >Redux works especially well with libraries like React and Deku because they let you describe UI as a function of state, and Redux emits state updates in response to actions.
 
+Connect the router to the store with [`<Provider>`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#api).
+
 
 ## 7. Updating State with Reducers 🔻
 
 Everytime you run an action, every reducer is going to run (will be dispatched?).
+- the `connect` method of React-redux allows to pass props to a component
 - [`bindActionCreators`](http://redux.js.org/docs/api/bindActionCreators.html) wrap action objects into dispatch calls, so that they may be invoked directly.
 - [`mapStateToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) and [`mapDispatchToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) connect the data from the store to a certain component.
 - render state into components with `this.props` on each component
