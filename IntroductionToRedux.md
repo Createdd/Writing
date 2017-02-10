@@ -2,8 +2,8 @@
 
 [<img src="https://images.unsplash.com/photo-1476445704028-a36e0c798192?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/NFs6dRTBgaM)
 
-In ["Understanding MVC Architecture with React"](https://medium.com/@ddcreationstudi/understanding-mvc-architecture-with-react-6cd38e91fefd#.r66jqp0ly) I came to the conclusion that redux seems to be the perfect fit for structuring apps with react. Now I want to provide a roadmap on how to use it in practice.
-As a reminder: Redux is builds on Flux as a refined MVC pattern and allows to manage state out of one hand.
+In ["Understanding MVC Architecture with React"](https://medium.com/@ddcreationstudi/understanding-mvc-architecture-with-react-6cd38e91fefd#.r66jqp0ly) I came to the conclusion that *Redux* seems to be the perfect fit for structuring apps with *React*. Now I want to provide a roadmap on how to use it in practice.
+As a reminder: *Redux* builds on Flux as a refined MVC pattern and allows to manage the state out of one hand.
 
 <img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo-title-dark.png" alt="redux logo" height="200" align="right">
 
@@ -61,7 +61,7 @@ Set [reducers](http://redux.js.org/docs/basics/Reducers.html) to change the stat
 
 ## 6. Integrate Store with *React* Router 🔻
 Use [react-redux](http://redux.js.org/docs/basics/UsageWithReact.html) to implement the state into the *React* router.
->Redux works especially well with libraries like *React* and Deku because they let you describe UI as a function of state, and *Redux* emits state updates in response to actions.
+>*Redux* works especially well with libraries like *React* and Deku because they let you describe UI as a function of state, and *Redux* emits state updates in response to actions.
 
 Connect the router to the store with [`<Provider>`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#api).
 
