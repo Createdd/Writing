@@ -101,7 +101,7 @@ Make sure to provide an overview and sufficient information, but also excitement
 
 ## Conclusion
 
-As we can see Atom really allows to nearly everything you want it. You can setup it the way you like, and that's the power of it.
+In the end Atom is a text editor. One that you can setup  the way you like, and that's the power of it. Learn your tools and get the best out of them.
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
