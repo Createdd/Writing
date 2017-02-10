@@ -89,10 +89,10 @@ As [The Art of Readme](https://github.com/noffle/art-of-readme) suggests:
 and
 
 >Your job is to
-    1. tell them what it is (with context)
-    2. show them what it looks like in action
-    3. show them how they use it
-    4. tell them any other relevant details
+>   1. tell them what it is (with context)
+>   2. show them what it looks like in action
+>   3. show them how they use it
+>   4. tell them any other relevant details
 
 This not only applies to writing code, but also to writing in general (on Github).
 
@@ -117,10 +117,6 @@ Share your thoughts - it's never been easier 😄
 - [🔀 "Top ten reasons why I won't use your open source project" - Adam Stacoviak"](https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project)
 - [🔀 "The Art of Readme"](https://github.com/noffle/art-of-readme)
 - [🔀 "Documenting your projects on GitHub" (10min article)](https://guides.github.com/features/wikis/)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
 
 
 
