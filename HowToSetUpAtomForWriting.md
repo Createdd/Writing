@@ -7,7 +7,6 @@ Be sure to choose an editor you like. Understand what's on the market an make su
 
 With that in mind I tried to enhance it for writing purposes.
 
-
 <img src="https://cdn-business.discourse.org/uploads/github_atom/optimized/3X/6/d/6d798ac61cf16288f5c67ac48ae170470af08b13_1_499x500.png" alt="atom logo" height="200" align="right">
 
 ## 📄 Table of contents
@@ -18,11 +17,10 @@ With that in mind I tried to enhance it for writing purposes.
   * [Conclusion](#conclusion)
   * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
-
 ---
 
 >"Out of perfection nothing can be made. Every process involves breaking something up."
-― [Joseph Campbell, Mythologist](https://de.wikipedia.org/wiki/Joseph_Campbell)
+> ― [Joseph Campbell, Mythologist](https://de.wikipedia.org/wiki/Joseph_Campbell)
 
 ---
 
@@ -102,6 +100,7 @@ Make sure to provide an overview and sufficient information, but also excitement
 ## Conclusion
 
 In the end Atom is a text editor. One that you can setup  the way you like, and that's the power of it. Learn your tools and get the best out of them.
+I am very open for further suggestions. 😄
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
