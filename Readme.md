@@ -9,22 +9,21 @@ Starting to write different articles about different things and document here �
 
 ### 📰 Latest articles
 1. [Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/WhyIStartWriting.md)
-2. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/MyWritingFramework.md)
-3. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/UnderstandingMVC.md)
-4. [Introduction to Redux](https://github.com/DDCreationStudios/Writing/blob/master/IntroductionToRedux.md)
-5. [How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/HowToSetUpAtomForWriting.md)
+1. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/MyWritingFramework.md)
+1. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/UnderstandingMVC.md)
+1. [How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/HowToSetUpAtomForWriting.md)
+1. [Introduction to Redux](https://github.com/DDCreationStudios/Writing/blob/master/IntroductionToRedux.md)
 
 ### ✅ ToDo
-- [X] find license with a suitable badge
-- [ ] find better toc package
-- [X] enable spellcheck in atom
-- [ ] look for better markdown - medium integration
-- [ ] find better way to organize docs in atom/github
+- [X] find better toc package ➡️ found in enhanced markdown preview
+- [X] look for better markdown - medium integration ➡️ under development
+- [X] find better way to organize docs in atom/github ➡️ in normal folders
 - [ ] save atom settings / packages
 - [ ] add evernote feature?
 - [ ] develop a reading extension that highlights most import phrases and words
-- [x] set up basics in atom
 
 ![writing](http://i.makeagif.com/media/1-28-2017/Z7fziN.gif)
 
 <!-- <img src="https://images.unsplash.com/photo-1428940253195-53483a1de2e6?dpr=2&auto=format&fit=crop&w=767&h=528&q=80&cs=tinysrgb&crop="> -->
+
+<!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
