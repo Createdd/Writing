@@ -14,7 +14,7 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 
 ---
 
->"I have not failed. I've just fouind 1000 ways that won't work."
+>"I have not failed. I've just found 1000 ways that won't work."
 ― [Thomas Edison,  Prolific Inventor](https://en.wikipedia.org/wiki/Thomas_Edison)
 
 ---
