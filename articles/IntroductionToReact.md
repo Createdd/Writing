@@ -1,30 +1,47 @@
-# ⚛ 💡 🏁 Getting started with React
+# ⚛ 💡  Getting started with React
 
-[<img src="https://images.unsplash.com/photo-1476445704028-a36e0c798192?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/NFs6dRTBgaM)
+[<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
 
+[React](https://facebook.github.io/react/) is `a Jacascript library for building user interfaces`. I'll go into the topic and clarify some features to get the most out of my coding with React.
 
-<img src="" alt="react logo" height="200" align="right">
+Covering: ES6 React, virtual DOM, Component-driven development, Immutability, Top-down rendering, , debugging, routing, isomorphic React.
+
+<img src="https://facebook.github.io/react/img/logo.svg" alt="react logo" height="200" align="right">
 
 ## 📄 Table of contents
 
 
 ---
 
->"In theory there's no difference between theory and practice. But, in practice, there is."
-― [Jan L. A. Van De Snepscheut, Computer Scientist](https://en.wikiquote.org/wiki/Jan_L._A._van_de_Snepscheut)
+>"I have not failed. I've just fouind 1000 ways that won't work."
+― [Thomas Edison,  Prolific Inventor](https://en.wikipedia.org/wiki/Thomas_Edison)
 
 ---
 
 
-## 6. Integrate Store with *React* Router 🔻
+## 1. Components & Props  🔻
+>Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+
+The difference between functional components and class components, is that functional components simply take props and provide a function, whereas a class allows many more features.
+
+It is possible to compose or extract components to achieve the desired functional structure.
+
+### In terms of `props`:
+
+> ❗ All React components must act like pure functions with respect to their props. ❗
+
+This means that component is not allowed to modify it's own props.
 
 
-## 7. Updating State with Reducers 🔻
 
 
-## 8. Debugging and Monitoring🔻
 
+## 2. State and Lifecycle 🔻
+## 3. Events 🔻
+## 4. (Conditional) rendering 🔻
+## 5. Lifting State 🔻
+## 6. Compositions & Inheritance 🔻
 
 
 ## Conclusion
@@ -39,8 +56,8 @@ Share your thoughts - it's never been easier 😄
 
 ## Dive deeper - some useful links
 - **For setup*
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
+- [📄 "The React Way" - RisingStack (article)](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
+- [🌐 "React" - Facebook (official site)](https://facebook.github.io/react/)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
