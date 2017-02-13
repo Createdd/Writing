@@ -8,11 +8,11 @@
 Starting to write different articles about different things and document here 😄 🎆
 
 ### 📰 Latest articles
-1. [Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/WhyIStartWriting.md)
-1. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/MyWritingFramework.md)
-1. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/UnderstandingMVC.md)
-1. [How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/HowToSetUpAtomForWriting.md)
-1. [Introduction to Redux](https://github.com/DDCreationStudios/Writing/blob/master/IntroductionToRedux.md)
+1. [Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/articles/WhyIStartWriting.md)
+1. [My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/articles/MyWritingFramework.md)
+1. [Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/articles/UnderstandingMVC.md)
+1. [How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/articles/HowToSetUpAtomForWriting.md)
+1. [Introduction to Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/IntroductionToRedux.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
