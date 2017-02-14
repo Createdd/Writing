@@ -1,4 +1,4 @@
-# ⚛ 💡  Getting started with React
+# 💻  What is Free Code Camp?
 
 [<img src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/UqyHjOgYxYY">](https://unsplash.com/photos/UqyHjOgYxYY)
 
@@ -17,7 +17,13 @@
 ---
 
 
-## 1. Components & Props  🔻
+## 1. What is Free Code Camp 🔻
+https://www.freecodecamp.com/about/
+
+## 1. fbijdbfgifsjdfg  🔻
+## 1. fbijdbfgifsjdfg  🔻
+## 1. fbijdbfgifsjdfg  🔻
+## 1. fbijdbfgifsjdfg  🔻
 
 
 ## Conclusion
@@ -32,9 +38,9 @@ Share your thoughts - it's never been easier 😄
 
 ## Dive deeper - some useful links
 
+- [🌐 Free Code Camp on Github](https://github.com/freeCodeCamp/freeCodeCamp)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
+- [📖 Free Code Camp on Medium](https://medium.freecodecamp.com/)

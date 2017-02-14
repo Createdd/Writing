@@ -33,6 +33,10 @@ It is possible to compose or extract components to achieve the desired functiona
 
 This means that component is not allowed to modify it's own props.
 
+#### Routing in React
+Get familiar with the [react-router API](https://github.com/ReactTraining/react-router/blob/master/docs/API.md#redirect) since it provides a very easy and sufficient way of routing components on the client-side (but it's also able to render on server-side!)
+Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu) if you are not familiar with it.
+
 
 
 
@@ -58,7 +62,7 @@ Share your thoughts - it's never been easier 😄
 - **For setup*
 - [📄 "The React Way" - RisingStack (article)](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 - [🌐 "React" - Facebook (official site)](https://facebook.github.io/react/)
-- [🔀 "Model"](hasfd)
+- [📄 "Beginner's guide to React Routing"- Nader Dabit (11min article)](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
