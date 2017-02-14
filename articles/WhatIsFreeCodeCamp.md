@@ -29,10 +29,32 @@ It says:
 
 So in a nutshell it is another online source for learning to code.
 
-## 2. What's special about Free Code Camp? 🔻
+## 2. What's it about? - Cornerstones🔻
 
+First and foremost it's **free**, which is pretty amazing when you look at the quality they provide.
 
-## 1. fbijdbfgifsjdfg  🔻
+At the time of writing there are 4 certificates:
+#### 1. Front End
+- `HTML` & `CSS`
+- Frameworks
+- Basics of `Javascript`
+- Different JS Algorithms (a lot!)
+- JSON APIs and AJAX
+
+#### 2. Back End
+- `Node` and `Express` as runtime environment
+- `GIT` for version control
+- `MongoDB` for databases
+
+#### 3. Data Visualization
+- Different Projects using foremost `SASS` `React` and `D3`
+
+#### 4. Full Stack Development
+- 4 non-profit projects
+
+## 3. Why is it so good?  🔻
+What I really enjoyed was the fact that you can code real working projects with a very big community at your hand. 
+
 ## 1. fbijdbfgifsjdfg  🔻
 ## 1. fbijdbfgifsjdfg  🔻
 
