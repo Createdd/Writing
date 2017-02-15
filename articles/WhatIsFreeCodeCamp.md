@@ -69,24 +69,46 @@ It also shows how amazing open source projects can be. The whole platform has hu
 
 The [forum](https://forum.freecodecamp.com/c/wiki) also provides great interaction with other people on the same journey as you are.
 
+Another great thing are [local meetup groups](https://forum.freecodecamp.com/t/free-code-camp-unofficial-local-groups/19536). People gather to share their experience in Free Code Camp with others in their cities. Get together with like-minded people to improve and easify your learning experience. :)
+
 ## 4. How to use it?  🔻
-The [about section](https://www.freecodecamp.com/about/) actually covers also a FAQ. It explains what the curriculum provides and how you can incorporate it in your personal life to get the most out of it.
+The ["about" section](https://www.freecodecamp.com/about/) actually covers also a FAQ. It explains what the curriculum provides and how you can incorporate it in your personal life to get the most out of it.
 I personally think it serves perfectly as a primary education source but also just for freshing up basics.
 
 The navigation in the curriculum is simple, intuitive and on point. Dive into it and you I'll see quickly if it is for you.
+
 <img src="http://i.imgur.com/vf5gdNs.png" alt="fcc navigation" />
 
+#### How did I tackle the challenges so far?
 
+Of course I started with the `basic guided challenges`. They are separated in small steps, that are easy to understand and easy to look up on the internet.
 
+After that I went through all of the `algorithm challenges`. These are very important to understand logical programming and are much harder. I always tried to solve them with the references they provided. Looking up JavaScript methods and how to implement them. Here it is crucial to make up your own mind and NOT COPYING existing solutions. However, to broaden my comprehension, I looked up other solutions and tried to understand and reconstruct them. These challenges will take time! Be consistent and don't be afraid to spend more than a day on some of these!
 
+Ultimately I did the `coding projects`. These are the most rewarding, but also most challenging ones. Look for ways how other people did it to get going with your first ones. And then again: Keep looking, be consistent, create your own solutions and never give up!
+
+After finishing the **Front End Certificate** you are able to attack the next challenges on your own. At that point you should have a understanding how to find solutions online to your own problems.
+
+The `Back End-` and the `Visualization Certificate` just have projects to be solved. Currently the jump is too big. I am myself have been learning a lot on my own now to complete one of these challenges. They are very big compared to the Front End Challenges. However, when you master these you will be able to create something from scratch and truly mastered the basics of a **full stack developer**. 🚀
+
+The release of the new Free Code Camp platform will provide a lot of guided challenges on the Back End and VisualiZation part, which fill the current gap. Stay tuned 🌟
 
 
 
 ## 5. What's coming?  🔻
 Currently there is a beta version of the new Free Code Camp platform. [Check it out ➡️.](https://beta.freecodecamp.com/en/map) Unfortunately I didn't find any release date, but when you look at the challenges you see that there is coming a lot. It makes me really excited. In my opinion Free Code Camp brings online learning of web development to another level.
 
-<img src="http://i.imgur.com/7U4eLGK.png" alt="fcc beta" />
+<img src="http://i.imgur.com/7U4eLGK.png" alt="fcc beta" height="300" align="middle"/>
 
+The [Github repo](https://github.com/freeCodeCamp/freeCodeCamp/pulls) shows current pull requests and issues. You can easily see how far they got and where certain problems lie. If you have solutions don't hesitate to contribute!
+
+What I also really enjoy and is a good way keeping up are newsletters and articles of Quincy Larson and the Free Code Camp community.
+
+- [Free Code Camp on Medium ](https://medium.com/@FreeCodeCamp)
+- [Publishing in Free Code Camp on Medium ](https://medium.freecodecamp.com/)
+- [Quincy Larson on Medium](https://medium.freecodecamp.com/@quincylarson)
+
+On medium you'll also discover other amazing individuals that share their experience and knowledge. Definitely check it out!
 
 ## Conclusion
 
