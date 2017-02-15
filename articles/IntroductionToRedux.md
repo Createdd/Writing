@@ -108,6 +108,4 @@ Share your thoughts - it's never been easier 😄
 - [🔀 "Model"](hasfd)
 
 
-
-
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
