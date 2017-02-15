@@ -50,9 +50,10 @@ So in a nutshell it is another online source for learning to code.
 
 First and foremost it's **free**, which is pretty amazing when you look at the quality they provide.
 
+At the time of writing there are 4 certificates:
+
 <img src="http://i.imgur.com/U3gPpRt.png" alt="fcc challenges" align="left" height="500"/>
 
-At the time of writing there are 4 certificates:
 #### 1. Front End
 - `HTML` & `CSS`
 - Frameworks
