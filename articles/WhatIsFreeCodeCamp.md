@@ -10,6 +10,20 @@ I started to learn coding on my own last year and tried many different sources t
 
 ## 📄 Table of contents
 
+* [1. What is Free Code Camp 🔻](#1-what-is-free-code-camp)
+* [2. What's it about? - Cornerstones🔻](#2-whats-it-about-cornerstones)
+    * [1. Front End](#1-front-end)
+    * [2. Back End](#2-back-end)
+    * [3. Data Visualization](#3-data-visualization)
+    * [4. Full Stack Development](#4-full-stack-development)
+* [3. Why is it so good?  🔻](#3-why-is-it-so-good)
+    * [Real projects](#real-projects)
+    * [Community](#community)
+* [4. How to use it?  🔻](#4-how-to-use-it)
+    * [How did I tackle the challenges so far?](#how-did-i-tackle-the-challenges-so-far)
+* [5. What's coming?  🔻](#5-whats-coming)
+* [Conclusion](#conclusion)
+* [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
 ---
 
@@ -93,8 +107,6 @@ The `Back End-` and the `Visualization Certificate` just have projects to be sol
 
 The release of the new Free Code Camp platform will provide a lot of guided challenges on the Back End and VisualiZation part, which fill the current gap. Stay tuned 🌟
 
-
-
 ## 5. What's coming?  🔻
 Currently there is a beta version of the new Free Code Camp platform. [Check it out ➡️.](https://beta.freecodecamp.com/en/map) Unfortunately I didn't find any release date, but when you look at the challenges you see that there is coming a lot. It makes me really excited. In my opinion Free Code Camp brings online learning of web development to another level.
 
@@ -111,8 +123,8 @@ What I also really enjoy and is a good way keeping up are newsletters and articl
 On medium you'll also discover other amazing individuals that share their experience and knowledge. Definitely check it out!
 
 ## Conclusion
-
-
+Free Code Camp helped me a lot to get going in a field I had no experience in. It provides a great entry in the world of programming the web. Till now it is definitely the best learning experience on the internet for me. Make sure to check out the links and give it a try! :)
+And if you are from Vienna (Austria), join our [local meetup group](https://www.meetup.com/de-DE/Free-Code-Camp-Vienna/). 🎆
 
 
 ```
@@ -123,8 +135,4 @@ Share your thoughts - it's never been easier 😄
 ## Dive deeper - some useful links
 
 - [🌐 Free Code Camp on Github](https://github.com/freeCodeCamp/freeCodeCamp)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
 - [📖 Free Code Camp on Medium](https://medium.freecodecamp.com/)
