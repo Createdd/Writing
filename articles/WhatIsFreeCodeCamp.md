@@ -1,9 +1,9 @@
-# 💻  What is Free Code Camp?
+# 💻  Free Code Camp - The world's best learning platform for coding?
 
 [<img src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/UqyHjOgYxYY">](https://unsplash.com/photos/UqyHjOgYxYY)
 
 Since I'm one of many who learn to code online, I want to share my experiences and thoughts.
-I started to learn coding on my own last year and tried many different sources to get the knowledge into my head. I learned on online courses (like Free Code Camp), watched a lot of tutorials on youtube, paid for online courses, read a bunch of books, joined local meetups and started to write own projects. I'm still a very beginner (after 6 months) and everyone has to realize that understanding a programming language takes time.
+I started to learn coding on my own last year and tried many different sources to get the knowledge into my head. I learned on online courses (like Free Code Camp), watched a lot of tutorials on Youtube, paid for online courses, read a bunch of books, joined local meetups and started to write own projects. I'm still a very beginner (after 6 months) and everyone has to realize that understanding a programming language takes time.
 
 
 ## 📄 Table of contents
@@ -48,7 +48,7 @@ So in a nutshell it is another online source for learning to code.
 
 ## 2. What's it about? - Cornerstones🔻
 
-First and foremost it's **free**, which is pretty amazing when you look at the quality they provide.
+First and foremost, it's **free**, which is pretty amazing when you look at the quality they provide.
 
 At the time of writing there are 4 certificates:
 
@@ -106,7 +106,7 @@ After that I went through all of the `algorithm challenges`. These are very impo
 
 Ultimately I did the `coding projects`. These are the most rewarding, but also most challenging ones. Look for ways how other people did it, to get going with your first ones. And then again: Keep looking, be consistent, create your own solutions and never give up!
 
-After finishing the **Front End Certificate** you are able to attack the next challenges on your own. At that point you should have a understanding how to find solutions online to your own problems.
+After finishing the **Front End Certificate**, you are able to attack the next challenges on your own. At that point you should have an understanding how to find solutions online to your own problems.
 
 The `Back End-` and the `Visualization Certificate` just have projects to be solved. Currently the jump is too big. I am myself have been learning a lot on my own now to complete one of these challenges. They are very big compared to the Front End Challenges. However, when you master these you will be able to create something from scratch and truly mastered the basics of a **full stack developer**. 🚀
 
