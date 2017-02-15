@@ -64,8 +64,13 @@ Free Code Camp itself provides various social media and chatting platforms. But 
 Especially in the beginning I was really delighted that there are so many well documented solutions of different people. It helped a lot to solve problems in different ways and see the opportunities in coding.
 It also shows how amazing open source projects can be. The whole platform has hundreds of contributors, who not only bring new content into the project, but also provide solutions for existing bugs and other issues. ([See Github ➡️](https://github.com/freeCodeCamp/freeCodeCamp))
 
+The [forum](https://forum.freecodecamp.com/c/wiki) also provides great interaction with other people on the same journey as you are.
+
 ## 1. fbijdbfgifsjdfg  🔻
-## 1. fbijdbfgifsjdfg  🔻
+## 1. What's coming?  🔻
+Currently there is a beta version of the new Free Code Camp platform. [Check it out ➡️.](https://beta.freecodecamp.com/en/map) Unfortunately I didn't find any release date, but when you look at the challenges you see that there is coming a lot. It makes me really excited. In my opinion Free Code Camp brings online learning of web development to another level.
+
+<img src="http://i.imgur.com/7U4eLGK.png" alt="fcc beta" />
 
 
 ## Conclusion
