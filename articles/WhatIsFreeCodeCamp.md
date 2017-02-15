@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/photo-1465311440653-ba9b1d9b0f5b?dpr=2&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/UqyHjOgYxYY">](https://unsplash.com/photos/UqyHjOgYxYY)
 
 Since I'm one of many who learn to code online, I want to share my experiences and thoughts.
-I started to learn coding on my own last year and tried many different sources to get the knowledge into my head. I learned on online courses (like Free Code Camp), watched a lot of tutorials on Youtube, paid for online courses, read a bunch of books, joined local meetups and started to write own projects. I'm still a very beginner (after 6 months) and everyone has to realize that understanding a programming language takes time.
+I started to learn coding on my own last year and tried many different sources to get the knowledge into my head. I learned on online courses (like Free Code Camp), watched a lot of tutorials on Youtube, paid for online courses, read a bunch of books, joined local Meetups and started to write own projects.
 
 
 ## 📄 Table of contents
@@ -91,6 +91,9 @@ Another great thing are [local meetup groups](https://forum.freecodecamp.com/t/f
 
 
 ## 4. How to use it?  🔻
+
+<img src="http://i.imgur.com/IOBzlJL.png" alt="code example"/>
+
 The ["about" section](https://www.freecodecamp.com/about/) actually covers also a FAQ. It explains what the curriculum provides and how you can incorporate it in your personal life to get the most out of it.
 In my opinion the curriculum serves perfectly as a primary education source but also just for freshing up basics.
 
