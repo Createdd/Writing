@@ -6,9 +6,8 @@ Since I'm one of many who learn to code online, I want to share my experiences a
 I started to learn coding on my own last year and tried many different sources to get the knowledge into my head. I learned on online courses (like Free Code Camp), watched a lot of tutorials on youtube, paid for online courses, read a bunch of books, joined local meetups and started to write own projects. I'm still a very beginner (after 6 months) and everyone has to realize that understanding a programming language takes time.
 
 
-<img src="https://camo.githubusercontent.com/60c67cf9ac2db30d478d21755289c423e1f985c6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f66726565636f646563616d702f776964652d736f6369616c2d62616e6e65722e706e67" alt="react logo" width="200" align="right">
-
 ## 📄 Table of contents
+<img src="https://camo.githubusercontent.com/60c67cf9ac2db30d478d21755289c423e1f985c6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f66726565636f646563616d702f776964652d736f6369616c2d62616e6e65722e706e67" alt="react logo" width="400" align="right">
 
 * [1. What is Free Code Camp 🔻](#1-what-is-free-code-camp)
 * [2. What's it about? - Cornerstones🔻](#2-whats-it-about-cornerstones)
@@ -46,6 +45,7 @@ It says:
 
 So in a nutshell it is another online source for learning to code.
 
+
 ## 2. What's it about? - Cornerstones🔻
 
 First and foremost it's **free**, which is pretty amazing when you look at the quality they provide.
@@ -72,6 +72,7 @@ At the time of writing there are 4 certificates:
 #### 4. Full Stack Development
 - 4 non-profit projects
 
+
 ## 3. Why is it so good?  🔻
 
 #### Real projects
@@ -87,6 +88,7 @@ It also shows how amazing open source projects can be. The whole platform has hu
 The [forum](https://forum.freecodecamp.com/c/wiki) also provides great interaction with people, who are on the same journey as you are.
 
 Another great thing are [local meetup groups](https://forum.freecodecamp.com/t/free-code-camp-unofficial-local-groups/19536). People gather to share their experience in Free Code Camp with others in their cities. Get together with like-minded people to improve and easify your learning experience. :)
+
 
 ## 4. How to use it?  🔻
 The ["about" section](https://www.freecodecamp.com/about/) actually covers also a FAQ. It explains what the curriculum provides and how you can incorporate it in your personal life to get the most out of it.
@@ -124,6 +126,7 @@ What I also really enjoy and actually is a good way of keeping up, are newslette
 - [Quincy Larson on Medium](https://medium.freecodecamp.com/@quincylarson)
 
 On medium you'll also discover other amazing individuals that share their experience and knowledge. Definitely check it out!
+
 
 ## Conclusion
 Free Code Camp helped me a lot to get going in a field I had no experience in. It provides a great entry point in the world of programming the web. Till now it is definitely the best learning experience on the internet for me. Make sure to check out the links and give it a try! :)
