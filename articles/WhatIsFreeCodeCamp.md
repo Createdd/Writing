@@ -20,6 +20,9 @@ I started to learn coding on my own last year and tried many different sources t
 
 
 ## 1. What is Free Code Camp 🔻
+
+<img src="http://i.imgur.com/aOlf9Qd.png" alt="fcc homepage" />
+
 The [homepage](https://www.freecodecamp.com/about/) itself explains quite well what they want to accomplish and provide.
 The [FAQ](https://www.freecodecamp.com/about/) also covers a lot.
 It says:
