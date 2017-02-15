@@ -69,8 +69,20 @@ It also shows how amazing open source projects can be. The whole platform has hu
 
 The [forum](https://forum.freecodecamp.com/c/wiki) also provides great interaction with other people on the same journey as you are.
 
-## 1. fbijdbfgifsjdfg  🔻
-## 1. What's coming?  🔻
+## 4. How to use it?  🔻
+The [about section](https://www.freecodecamp.com/about/) actually covers also a FAQ. It explains what the curriculum provides and how you can incorporate it in your personal life to get the most out of it.
+I personally think it serves perfectly as a primary education source but also just for freshing up basics.
+
+The navigation in the curriculum is simple, intuitive and on point. Dive into it and you I'll see quickly if it is for you.
+<img src="http://i.imgur.com/vf5gdNs.png" alt="fcc navigation" />
+
+
+
+
+
+
+
+## 5. What's coming?  🔻
 Currently there is a beta version of the new Free Code Camp platform. [Check it out ➡️.](https://beta.freecodecamp.com/en/map) Unfortunately I didn't find any release date, but when you look at the challenges you see that there is coming a lot. It makes me really excited. In my opinion Free Code Camp brings online learning of web development to another level.
 
 <img src="http://i.imgur.com/7U4eLGK.png" alt="fcc beta" />
