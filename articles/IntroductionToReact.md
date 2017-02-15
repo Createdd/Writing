@@ -17,6 +17,8 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 * [⚛ 💡  Getting started with React](#getting-started-with-react)
   * [📄 Table of contents](#table-of-contents)
   * [1. Components & Props  🔻](#1-components-props)
+      * [High-order component](#high-order-component)
+      * [Uncontrolled components ➡️](#uncontrolled-components-️httpsfacebookgithubioreactdocsuncontrolled-componentshtml)
       * [In terms of `props`:](#in-terms-of-props)
       * [Routing in React](#routing-in-react)
   * [2. State and Lifecycle 🔻](#2-state-and-lifecycle)
@@ -26,7 +28,7 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
   * [5. Lifting State 🔻](#5-lifting-state)
   * [6. Compositions & Inheritance 🔻](#6-compositions-inheritance)
   * [Conclusion](#conclusion)
-  * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
+  * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
@@ -47,6 +49,26 @@ The difference between functional components and class components, is that funct
 
 It is possible to compose or extract components to achieve the desired functional structure.
 
+#### High-order component
+>Concretely, a higher-order component is a function that takes a component and returns a new component.
+>HOCs are common in third-party React libraries, such as Redux's connect and Relay's createContainer.
+
+[High-order components (HOCs)](https://facebook.github.io/react/docs/higher-order-components.html) are more advanced and are useful for:
+- Code reuse, logic and bootstrap abstraction
+- Render Highjacking (HOC takes control of the render output of the WrappedComponent)
+- State abstraction and manipulation
+- Props manipulation
+
+Check out [this article ⬆️](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.yce1tzuw6) for more.
+
+[Jack Franklin sums it up:](https://www.sitepoint.com/react-higher-order-components/)
+>By creating higher order components you’re able to keep data defined in only one place, making refactoring easier. Higher order function creators enable you to keep most data private and only expose pieces of data to the components that really need it. By doing this you make it obvious which components are using which bits of data, and as your application grows you’ll find this beneficial.
+
+#### Uncontrolled components [➡️](https://facebook.github.io/react/docs/uncontrolled-components.html)
+
+>The alternative is uncontrolled components, where form data is handled by the DOM itself.
+>To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.
+
 #### In terms of `props`:
 
 > ❗ All React components must act like pure functions with respect to their props. ❗
@@ -62,7 +84,7 @@ Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-
 #### Lifecycle
 >Each component has several "lifecycle methods" that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens.
 
-The following [methods](https://facebook.github.io/react/docs/react-component.html#constructor) are available:
+The following [method types](https://facebook.github.io/react/docs/react-component.html#constructor) are available:
 - Render
 - Mounting
 - Updating
@@ -76,7 +98,7 @@ The following [methods](https://facebook.github.io/react/docs/react-component.ht
 **Notes on common methods:**
 
 - `render()` is required and should be "pure", which means that it should not modify the component's state.
-- The `constructor()` for a React component is called *before* it is mounted.
+- `constructor()` is called *before* it is mounted.
 - `componentWillMount()` is invoked immediately before mounting occurs.
 - `componentDidMount()` is invoked immediately after a component is mounted.
 - Use `shouldComponentUpdate()` to let React know if a component's output is not affected by the current change in state or props.
@@ -104,13 +126,12 @@ Please leave comments, feedback and suggestions as I am always trying to improve
 Share your thoughts - it's never been easier 😄
 ```
 
-## Dive deeper - some useful links
-- **For setup**
+## Useful links & credits
 - [📄 "The React Way" - RisingStack (article)](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 - [🌐 "React" - Facebook (official site)](https://facebook.github.io/react/)
 - [📄 "Beginner's guide to React Routing"- Nader Dabit (11min article)](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
+- [📄 "HOCs in depth" - franleplant (10min article)](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.yce1tzuw6)
+- [📄 "React HOCs" - Sitepoint /Jack Franklin (article)](https://www.sitepoint.com/react-higher-order-components/)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
