@@ -120,6 +120,12 @@ You can bind callbacks automatically with **property initializers** or **arrow f
 ❗Keep in mind that binding with arrow functions can cause performance issues due to extra re-rendering of the according components.
 
 ## 4. (Conditional) rendering 🔻
+
+>[Conditional rendering](https://facebook.github.io/react/docs/conditional-rendering.html) in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
+
+For lifecycle methods:
+>Returning null from a component's render method does not affect the firing of the component's lifecycle methods. For instance, componentWillUpdate and componentDidUpdate will still be called.
+
 ## 5. Lifting State 🔻
 ## 6. Compositions & Inheritance 🔻
 
