@@ -127,6 +127,17 @@ For lifecycle methods:
 >Returning null from a component's render method does not affect the firing of the component's lifecycle methods. For instance, componentWillUpdate and componentDidUpdate will still be called.
 
 ## 5. Lifting State 🔻
+
+[Sharing a state](https://facebook.github.io/react/docs/lifting-state-up.html) is accomplished by moving a local state  up to the closest common ancestor of the components that need it - the state is "lifted up".
+It is used when several components need to reflect the same changing data. This technique stems from one core principle of React:
+> There should be a single "source of truth" for any data that changes in a React application. Usually, the state is first added to the component that needs it for rendering. Then, if other components also need it, you can lift it up to their closest common ancestor. Instead of trying to sync the state between different components, you should rely on the top-down data flow.
+
+In short, the following steps happen on every change:
+- the event handler gets triggered
+- the parent component is set up to re-render on that certain change
+- React calls the render methods on the child components with new props
+- ReactDOM updates the DOM
+
 ## 6. Compositions & Inheritance 🔻
 
 
