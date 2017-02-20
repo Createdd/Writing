@@ -111,6 +111,12 @@ The following [method types](https://facebook.github.io/react/docs/react-compone
 
 
 ## 3. Events 🔻
+[Handling Events](https://facebook.github.io/react/docs/handling-events.html) in React is similar to handling DOM elements except events use camelCase and you pass functions as event handlers.
+
+>You have to be careful about the meaning of this in JSX callbacks. In JavaScript, class methods are not bound by default. If you forget to bind this.handleClick and pass it to onClick, this will be undefined when the function is actually called.
+
+You can bind callbacks automatically with **property initializers** or **arrow functions**. Keep in mind that binding with arrow functions can cause performance issues due to extra re-rendering of the according components.
+
 ## 4. (Conditional) rendering 🔻
 ## 5. Lifting State 🔻
 ## 6. Compositions & Inheritance 🔻
