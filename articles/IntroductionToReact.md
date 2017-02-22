@@ -117,7 +117,7 @@ The following [method types](https://facebook.github.io/react/docs/react-compone
 **Notes on common methods:**
 
 - `render()` is required and should be "pure", which means that it should not modify the component's state.
-- `constructor()` is called *before* it is mounted.
+- `constructor()` is called *before* it is mounted. [✋ See  for JS constructors](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes#Constructor)
 - `componentWillMount()` is invoked immediately before mounting occurs.
 - `componentDidMount()` is invoked immediately after a component is mounted.
 - Use `shouldComponentUpdate()` to let React know if a component's output is not affected by the current change in state or props.
