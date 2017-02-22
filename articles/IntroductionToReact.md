@@ -17,11 +17,15 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 * [⚛ 💡  Getting started with React](#getting-started-with-react)
   * [📄 Table of contents](#table-of-contents)
   * [1. Components & Props  🔻](#1-components-props)
+      * [What is a component?](#what-is-a-component)
+      * [Types of components](#types-of-components)
       * [High-order component](#high-order-component)
       * [Uncontrolled components ➡️](#uncontrolled-components-️httpsfacebookgithubioreactdocsuncontrolled-componentshtml)
       * [In terms of `props`:](#in-terms-of-props)
       * [Routing in React](#routing-in-react)
   * [2. State and Lifecycle 🔻](#2-state-and-lifecycle)
+      * [State](#state)
+      * [Immutable](#immutable)
       * [Lifecycle](#lifecycle)
   * [3. Events 🔻](#3-events)
   * [4. (Conditional) rendering 🔻](#4-conditional-rendering)
@@ -43,11 +47,15 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 
 
 ## 1. Components & Props  🔻
+
+#### What is a component?
 >Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
 
-React relies on component-driven development. In ["Thinking in React"](https://facebook.github.io/react/docs/thinking-in-react.html) Facebook explains how to develop your app using components. 
+React relies on component-driven development. In ["Thinking in React"](https://facebook.github.io/react/docs/thinking-in-react.html) Facebook explains how to develop your app using components.
 
 >But how do you know what should be its own component? Just use the same techniques for deciding if you should create a new function or object. One such technique is the single responsibility principle, that is, a component should ideally only do one thing. If it ends up growing, it should be decomposed into smaller subcomponents.
+
+#### Types of components
 
 The difference between functional components and class components, is that functional components simply take props and provide a function, whereas a class allows many more features.
 
@@ -84,6 +92,13 @@ Get familiar with the [react-router API](https://github.com/ReactTraining/react-
 Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu) if you are not familiar with it.
 
 ## 2. State and Lifecycle 🔻
+
+#### State
+>State is similar to props, but it is private and fully controlled by the component.
+
+
+#### Immutable
+
 
 #### Lifecycle
 >Each component has several "lifecycle methods" that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens.
