@@ -141,6 +141,13 @@ In short, the following steps happen on every change:
 
 ## 6. Compositions & Inheritance 🔻
 
+The question wheather to use composition or inheritance is basically a question of the use of JS classes. [This article](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose) by Steven Lowe goes into depth and he concludes:
+
+>In general, inheriting within one of these dimensions is fine. The problem becomes when we forget to separate the two dimensions, and start inheriting across inter-dimensional boundaries.
+>If you find that you are using a component to provide the vast majority of your functionality, creating forwarding methods on your class to call the component’s methods, exposing the component’s fields, etc., consider whether inheritance - for some or all of the desired behavior - might be more appropriate.
+
+
+
 
 ## Conclusion
 
@@ -158,7 +165,7 @@ Share your thoughts - it's never been easier 😄
 - [📄 "Beginner's guide to React Routing"- Nader Dabit (11min article)](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu)
 - [📄 "HOCs in depth" - franleplant (10min article)](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.yce1tzuw6)
 - [📄 "React HOCs" - Sitepoint /Jack Franklin (article)](https://www.sitepoint.com/react-higher-order-components/)
-- [🔀 "Model"](hasfd)
+- [📄 "Composition vs. Inheritance: How to Choose?" - Steven Lowe (article)](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose)
 - [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 
