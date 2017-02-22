@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
 
-[React](https://facebook.github.io/react/) is `a Jacascript library for building user interfaces`. I'll go into the topic and clarify some features to get the most out of my coding with React.
+[React](https://facebook.github.io/react/) is "a Jacascript library for building user interfaces". I'll go into the topic and clarify some features to get the most out of my coding with React.
 
 Covering: ES6 React, virtual DOM, Component-driven development, Immutability, Top-down rendering, , debugging, routing, isomorphic React.
 
@@ -44,6 +44,10 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 
 ## 1. Components & Props  🔻
 >Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+
+React relies on component-driven development. In ["Thinking in React"](https://facebook.github.io/react/docs/thinking-in-react.html) Facebook explains how to develop your app using components. 
+
+>But how do you know what should be its own component? Just use the same techniques for deciding if you should create a new function or object. One such technique is the single responsibility principle, that is, a component should ideally only do one thing. If it ends up growing, it should be decomposed into smaller subcomponents.
 
 The difference between functional components and class components, is that functional components simply take props and provide a function, whereas a class allows many more features.
 
@@ -141,7 +145,7 @@ In short, the following steps happen on every change:
 
 ## 6. Compositions & Inheritance 🔻
 
-The question wheather to use composition or inheritance is basically a question of the use of JS classes. [This article](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose) by Steven Lowe goes into depth and he concludes:
+The question whether to use composition or inheritance is basically a question of the use of JS classes. [This article ⬆️](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose) by Steven Lowe goes into depth and he concludes:
 
 >In general, inheriting within one of these dimensions is fine. The problem becomes when we forget to separate the two dimensions, and start inheriting across inter-dimensional boundaries.
 >If you find that you are using a component to provide the vast majority of your functionality, creating forwarding methods on your class to call the component’s methods, exposing the component’s fields, etc., consider whether inheritance - for some or all of the desired behavior - might be more appropriate.
@@ -149,9 +153,6 @@ The question wheather to use composition or inheritance is basically a question 
 >A final consideration - when there is an established and officially-supported style, it is often more practical heed the advice. So for that reason, when using React, we recommend preferring composition vs inheritance, and only using inheritance when the using composition would be impractical.
 
 Facebook itself [recommends using composition](https://facebook.github.io/react/docs/composition-vs-inheritance.html) instead of inheritance, outlining it with examples.
-
-
-
 
 ## Conclusion
 
