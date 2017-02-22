@@ -96,6 +96,16 @@ Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-
 #### State
 >State is similar to props, but it is private and fully controlled by the component.
 
+Or as Christopher Pitt pointed out in his [article](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.jaj63757p)
+
+>Properties are defined when components are created, whether by JSX or by pure JavaScript. State, on the other hand, is only seen on the inside of component definitions. This is the first, and most important difference between the two.
+When you think of properties, you should be thinking of component initialisation. When you think of state, you should think of an internal data-set which affects the rendering of components.
+
+Tips for using State:
+- do not modify it directly, use `this.setSate`
+- state updates can be asynchronous, use `this.setSate` with a function (e.g.`this.setState((prevState, props) => ...`)
+- state updates are merged, which means that you can update variables separately
+
 
 #### Immutable
 
@@ -185,8 +195,8 @@ Share your thoughts - it's never been easier 😄
 - [📄 "Beginner's guide to React Routing"- Nader Dabit (11min article)](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu)
 - [📄 "HOCs in depth" - franleplant (10min article)](https://medium.com/@franleplant/react-higher-order-components-in-depth-cf9032ee6c3e#.yce1tzuw6)
 - [📄 "React HOCs" - Sitepoint /Jack Franklin (article)](https://www.sitepoint.com/react-higher-order-components/)
+- [📄 "React State" - Christopher Pitt (4min article)](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.jaj63757p)
 - [📄 "Composition vs. Inheritance: How to Choose?" - Steven Lowe (article)](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose)
-- [🔀 "Model"](hasfd)
 - [🔀 "Model"](hasfd)
 
 
