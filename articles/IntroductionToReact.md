@@ -146,6 +146,8 @@ The question wheather to use composition or inheritance is basically a question 
 >In general, inheriting within one of these dimensions is fine. The problem becomes when we forget to separate the two dimensions, and start inheriting across inter-dimensional boundaries.
 >If you find that you are using a component to provide the vast majority of your functionality, creating forwarding methods on your class to call the component’s methods, exposing the component’s fields, etc., consider whether inheritance - for some or all of the desired behavior - might be more appropriate.
 
+Facebook itself recommends using composition instead of inheritance, outlining it with common problems.
+
 
 
 
