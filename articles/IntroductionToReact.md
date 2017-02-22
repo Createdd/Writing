@@ -99,7 +99,8 @@ Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-
 Or as Christopher Pitt pointed out in his [article](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.jaj63757p)
 
 >Properties are defined when components are created, whether by JSX or by pure JavaScript. State, on the other hand, is only seen on the inside of component definitions. This is the first, and most important difference between the two.
-When you think of properties, you should be thinking of component initialisation. When you think of state, you should think of an internal data-set which affects the rendering of components.
+
+>When you think of properties, you should be thinking of component initialisation. When you think of state, you should think of an internal data-set which affects the rendering of components.
 
 Tips for using State:
 - do not modify it directly, use `this.setSate`
