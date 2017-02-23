@@ -24,7 +24,7 @@
       * [State](#state)
         * [When to use State](#when-to-use-state)
         * [Identify the components that use State](#identify-the-components-that-use-state)
-        * [Tips for using State:](#tips-for-using-state)
+        * [Tips for using State](#tips-for-using-state)
       * [Lifecycle](#lifecycle)
   * [3. Events](#3-events)
   * [4. (Conditional) rendering](#4-conditional-rendering)
@@ -114,7 +114,7 @@ Or as Christopher Pitt pointed out in his [article](https://medium.com/react-tut
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
 
-##### Tips for using State:
+##### Tips for using State
 - do not modify it directly, use `this.setSate`
 - state updates can be asynchronous, use `this.setSate` with a function (e.g.`this.setState((prevState, props) => ...`)
 - state updates are merged, which means that you can update variables separately
@@ -189,7 +189,7 @@ The question whether to use composition or inheritance is basically a question o
 Facebook itself [recommends using composition](https://facebook.github.io/react/docs/composition-vs-inheritance.html) instead of inheritance, outlining it with examples.
 
 ## Conclusion
-For me the key points in understanding React is to understand components and state. These 2 fundamental concepts have to be understood in depth to fully grasp what React is about. This is also reflected in the focus of this article.
+For me the key points in understanding React is to understand components and State. These 2 fundamental concepts have to be understood in depth to fully grasp what React is about. This is also reflected in the focus of this article.
 
 Dividing your application into many components, letting them communicate through props and manage them with State.
 That's my takeaway here.

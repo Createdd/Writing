@@ -104,8 +104,7 @@ Share your thoughts - it's never been easier 😄
 - [🔀 "List of *React* Starter Prjects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
 - [🔀 "Thinking in React" - facebook](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [🔀 "Docs" - Redux](http://redux.js.org/docs/basics/)
-- [🔀 "Model"](hasfd)
-- [🔀 "Model"](hasfd)
+
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
