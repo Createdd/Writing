@@ -1,4 +1,4 @@
-# ⚛ 💡  Getting started with React
+# ⚛ 💡  6 cornerstones in React
 
 [<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
@@ -14,25 +14,24 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [⚛ 💡  Getting started with React](#getting-started-with-react)
+* [⚛ 💡  6 cornerstones in React](#6-cornerstones-in-react)
   * [📄 Table of contents](#table-of-contents)
-  * [1. Components & Props  🔻](#1-components-props)
+  * [1. Components & Props](#1-components-props)
       * [What is a component?](#what-is-a-component)
       * [Types of components](#types-of-components)
       * [High-order component](#high-order-component)
       * [Uncontrolled components ➡️](#uncontrolled-components-️httpsfacebookgithubioreactdocsuncontrolled-componentshtml)
       * [In terms of `props`:](#in-terms-of-props)
       * [Routing in React](#routing-in-react)
-  * [2. State and Lifecycle 🔻](#2-state-and-lifecycle)
+  * [2. State and Lifecycle](#2-state-and-lifecycle)
       * [State](#state)
-      * [When to use State:](#when-to-use-state)
-      * [Identify the components that use State](#identify-the-components-that-use-state)
-      * [Immutable](#immutable)
+        * [When to use State](#when-to-use-state)
+        * [Identify the components that use State](#identify-the-components-that-use-state)
       * [Lifecycle](#lifecycle)
-  * [3. Events 🔻](#3-events)
-  * [4. (Conditional) rendering 🔻](#4-conditional-rendering)
-  * [5. Lifting State 🔻](#5-lifting-state)
-  * [6. Compositions & Inheritance 🔻](#6-compositions-inheritance)
+  * [3. Events](#3-events)
+  * [4. (Conditional) rendering](#4-conditional-rendering)
+  * [5. Lifting State](#5-lifting-state)
+  * [6. Compositions & Inheritance](#6-compositions-inheritance)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -48,7 +47,7 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
 ---
 
 
-## 1. Components & Props  🔻
+## 1. Components & Props
 
 #### What is a component?
 >Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
@@ -93,7 +92,7 @@ This means that component is not allowed to modify it's own props.
 Get familiar with the [react-router API](https://github.com/ReactTraining/react-router/blob/master/docs/API.md#redirect) since it provides a very easy and sufficient way of routing components on the client-side (but is also able to render on server-side!)
 Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.uyatb25eu) if you are not familiar with it.
 
-## 2. State and Lifecycle 🔻
+## 2. State and Lifecycle
 
 #### State
 >State is similar to props, but it is private and fully controlled by the component.
@@ -111,22 +110,19 @@ Tips for using State:
 
 >State is reserved only for interactivity, that is, data that changes over time.
 
-#### When to use State:
+##### When to use State
 - Don't Repeat Yourself. Figure out the absolute minimal representation of the state your application needs and compute everything else you need on-demand.
 - the data is not passed from a parent via props
 - the data will change
 - the data can't be computed based on another state or props in the component
 
-#### Identify the components that use State
+##### Identify the components that use State
 
 >For each piece of state in your application:
 - Identify every component that renders something based on that state.
 - Find a common owner component (a single component above all the components that need the state in the hierarchy).
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
-
-#### Immutable
-
 
 #### Lifecycle
 >Each component has several "lifecycle methods" that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens.
@@ -157,7 +153,7 @@ The following [method types](https://facebook.github.io/react/docs/react-compone
 - `this.props.children` is a special prop, defined by the child tags in the JSX expression rather than in the tag itself.
 
 
-## 3. Events 🔻
+## 3. Events
 [Handling Events](https://facebook.github.io/react/docs/handling-events.html) in React is similar to handling DOM elements except events use camelCase and you pass functions as event handlers.
 When a function is passed as event handler, that is a method on class, and the context of the function changes.
 
@@ -167,14 +163,14 @@ You can bind callbacks automatically with **property initializers** or **arrow f
 
 ❗Keep in mind that binding with arrow functions can cause performance issues due to extra re-rendering of the according components.
 
-## 4. (Conditional) rendering 🔻
+## 4. (Conditional) rendering
 
 >[Conditional rendering](https://facebook.github.io/react/docs/conditional-rendering.html) in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
 
 For lifecycle methods:
 >Returning null from a component's render method does not affect the firing of the component's lifecycle methods. For instance, componentWillUpdate and componentDidUpdate will still be called.
 
-## 5. Lifting State 🔻
+## 5. Lifting State
 
 [Sharing a state](https://facebook.github.io/react/docs/lifting-state-up.html) is accomplished by moving a local state  up to the closest common ancestor of the components that need it - the state is "lifted up".
 It is used when several components need to reflect the same changing data. This technique stems from one core principle of React:
@@ -186,7 +182,7 @@ In short, the following steps happen on every change:
 - React calls the render methods on the child components with new props
 - ReactDOM updates the DOM
 
-## 6. Compositions & Inheritance 🔻
+## 6. Compositions & Inheritance
 
 The question whether to use composition or inheritance is basically a question of the use of JS classes. [This article ⬆️](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose) by Steven Lowe goes into depth and he concludes:
 
