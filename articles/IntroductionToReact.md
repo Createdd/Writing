@@ -25,6 +25,8 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
       * [Routing in React](#routing-in-react)
   * [2. State and Lifecycle 🔻](#2-state-and-lifecycle)
       * [State](#state)
+      * [When to use State:](#when-to-use-state)
+      * [Identify the components that use State](#identify-the-components-that-use-state)
       * [Immutable](#immutable)
       * [Lifecycle](#lifecycle)
   * [3. Events 🔻](#3-events)
@@ -107,6 +109,21 @@ Tips for using State:
 - state updates can be asynchronous, use `this.setSate` with a function (e.g.`this.setState((prevState, props) => ...`)
 - state updates are merged, which means that you can update variables separately
 
+>State is reserved only for interactivity, that is, data that changes over time.
+
+#### When to use State:
+- Don't Repeat Yourself. Figure out the absolute minimal representation of the state your application needs and compute everything else you need on-demand.
+- the data is not passed from a parent via props
+- the data will change
+- the data can't be computed based on another state or props in the component
+
+#### Identify the components that use State
+
+>For each piece of state in your application:
+- Identify every component that renders something based on that state.
+- Find a common owner component (a single component above all the components that need the state in the hierarchy).
+- Either the common owner or another component higher up in the hierarchy should own the state.
+- If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
 
 #### Immutable
 
