@@ -27,6 +27,7 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
       * [State](#state)
         * [When to use State](#when-to-use-state)
         * [Identify the components that use State](#identify-the-components-that-use-state)
+        * [Tips for using State:](#tips-for-using-state)
       * [Lifecycle](#lifecycle)
   * [3. Events](#3-events)
   * [4. (Conditional) rendering](#4-conditional-rendering)
@@ -97,18 +98,13 @@ Check out this great [introduction](https://medium.com/@dabit3/beginner-s-guide-
 #### State
 >State is similar to props, but it is private and fully controlled by the component.
 
+>State is reserved only for interactivity, that is, data that changes over time.
+
 Or as Christopher Pitt pointed out in his [article](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.jaj63757p)
 
 >Properties are defined when components are created, whether by JSX or by pure JavaScript. State, on the other hand, is only seen on the inside of component definitions. This is the first, and most important difference between the two.
 
 >When you think of properties, you should be thinking of component initialisation. When you think of state, you should think of an internal data-set which affects the rendering of components.
-
-Tips for using State:
-- do not modify it directly, use `this.setSate`
-- state updates can be asynchronous, use `this.setSate` with a function (e.g.`this.setState((prevState, props) => ...`)
-- state updates are merged, which means that you can update variables separately
-
->State is reserved only for interactivity, that is, data that changes over time.
 
 ##### When to use State
 - Don't Repeat Yourself. Figure out the absolute minimal representation of the state your application needs and compute everything else you need on-demand.
@@ -123,6 +119,11 @@ Tips for using State:
 - Find a common owner component (a single component above all the components that need the state in the hierarchy).
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
+
+##### Tips for using State:
+- do not modify it directly, use `this.setSate`
+- state updates can be asynchronous, use `this.setSate` with a function (e.g.`this.setState((prevState, props) => ...`)
+- state updates are merged, which means that you can update variables separately
 
 #### Lifecycle
 >Each component has several "lifecycle methods" that you can override to run code at particular times in the process. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens.
