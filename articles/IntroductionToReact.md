@@ -1,21 +1,15 @@
-# ⚛ 💡  6 cornerstones in React
+# ⚛ 💡  6 cornerstones of React
 
 [<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
 
 [React](https://facebook.github.io/react/) is "a Jacascript library for building user interfaces". I'll go into the topic and clarify some features to get the most out of my coding with React.
 
-Covering: ES6 React, virtual DOM, Component-driven development, Immutability, Top-down rendering, , debugging, routing, isomorphic React.
 
 <img src="https://facebook.github.io/react/img/logo.svg" alt="react logo" height="200" align="right">
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [⚛ 💡  6 cornerstones in React](#6-cornerstones-in-react)
-  * [📄 Table of contents](#table-of-contents)
   * [1. Components & Props](#1-components-props)
       * [What is a component?](#what-is-a-component)
       * [Types of components](#types-of-components)
@@ -35,9 +29,6 @@ Covering: ES6 React, virtual DOM, Component-driven development, Immutability, To
   * [6. Compositions & Inheritance](#6-compositions-inheritance)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
 
 
 ---
@@ -195,8 +186,10 @@ The question whether to use composition or inheritance is basically a question o
 Facebook itself [recommends using composition](https://facebook.github.io/react/docs/composition-vs-inheritance.html) instead of inheritance, outlining it with examples.
 
 ## Conclusion
+For me the key points in understanding React is to understand components and state. These 2 fundamental concepts have to be understood in depth to fully grasp what React is about. This is also reflected in the focus of this article.
 
-
+Dividing your application into many components, letting them communicate through props and manage them with State.
+That's my takeaway here.
 
 
 ```
@@ -212,7 +205,6 @@ Share your thoughts - it's never been easier 😄
 - [📄 "React HOCs" - Sitepoint /Jack Franklin (article)](https://www.sitepoint.com/react-higher-order-components/)
 - [📄 "React State" - Christopher Pitt (4min article)](https://medium.com/react-tutorials/react-state-14a6d4f736f5#.jaj63757p)
 - [📄 "Composition vs. Inheritance: How to Choose?" - Steven Lowe (article)](https://www.thoughtworks.com/insights/blog/composition-vs-inheritance-how-choose)
-- [🔀 "Model"](hasfd)
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
