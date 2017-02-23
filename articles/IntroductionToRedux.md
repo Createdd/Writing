@@ -99,7 +99,6 @@ Share your thoughts - it's never been easier 😄
 ```
 
 ## Dive deeper - some useful links
-- **For setup**
 - [🔀 "Learn Redux" - Wes Bos (Great Video Tutorial)](https://learnredux.com/)
 - [🔀 "List of *React* Starter Prjects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
 - [🔀 "Thinking in React" - facebook](https://facebook.github.io/react/docs/thinking-in-react.html)
