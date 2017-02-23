@@ -10,11 +10,14 @@
 
 ## 📄 Table of contents
 
+
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
   * [1. Components & Props](#1-components-props)
       * [What is a component?](#what-is-a-component)
-      * [Types of components](#types-of-components)
-      * [High-order component](#high-order-component)
-      * [Uncontrolled components ➡️](#uncontrolled-components-️httpsfacebookgithubioreactdocsuncontrolled-componentshtml)
+        * [Types of components](#types-of-components)
+        * [High-order component](#high-order-component)
+        * [Uncontrolled components ➡️](#uncontrolled-components-️httpsfacebookgithubioreactdocsuncontrolled-componentshtml)
       * [In terms of `props`:](#in-terms-of-props)
       * [Routing in React](#routing-in-react)
   * [2. State and Lifecycle](#2-state-and-lifecycle)
@@ -48,13 +51,13 @@ React relies on component-driven development. In ["Thinking in React"](https://f
 
 >But how do you know what should be its own component? Just use the same techniques for deciding if you should create a new function or object. One such technique is the single responsibility principle, that is, a component should ideally only do one thing. If it ends up growing, it should be decomposed into smaller subcomponents.
 
-#### Types of components
+##### Types of components
 
 The difference between functional components and class components, is that functional components simply take props and provide a function, whereas a class allows many more features.
 
 It is possible to compose or extract components to achieve the desired functional structure.
 
-#### High-order component
+##### High-order component
 >Concretely, a higher-order component is a function that takes a component and returns a new component.
 >HOCs are common in third-party React libraries, such as Redux's connect and Relay's createContainer.
 
@@ -69,7 +72,7 @@ Check out [this article ⬆️](https://medium.com/@franleplant/react-higher-ord
 [Jack Franklin sums it up:](https://www.sitepoint.com/react-higher-order-components/)
 >By creating higher order components you’re able to keep data defined in only one place, making refactoring easier. Higher order function creators enable you to keep most data private and only expose pieces of data to the components that really need it. By doing this you make it obvious which components are using which bits of data, and as your application grows you’ll find this beneficial.
 
-#### Uncontrolled components [➡️](https://facebook.github.io/react/docs/uncontrolled-components.html)
+##### Uncontrolled components [➡️](https://facebook.github.io/react/docs/uncontrolled-components.html)
 
 >The alternative is uncontrolled components, where form data is handled by the DOM itself.
 >To write an uncontrolled component, instead of writing an event handler for every state update, you can use a ref to get form values from the DOM.
