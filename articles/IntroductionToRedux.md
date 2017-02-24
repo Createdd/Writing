@@ -1,4 +1,4 @@
-# ⚛ 💡 🏁 8 steps to get started with Redux and React - A roadmap
+# 8 steps to get started with Redux and React - A roadmap ⚛ 💡 🏁
 
 [<img src="https://images.unsplash.com/photo-1476445704028-a36e0c798192?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/NFs6dRTBgaM)
 
@@ -27,7 +27,7 @@ As a reminder: *Redux* builds on Flux as a refined MVC pattern and allows to man
 ---
 
 ## 1. Set up your environment 🔻
-Set up your desired environment. [React boilerplates ➡️](http://andrewhfarmer.com/starter-project/) are a great way to get going. Be sure to understand the according bundler at least a little bit.
+Set up your desired environment. [React boilerplates ➡️](http://andrewhfarmer.com/starter-project/) are a great way to get going. Be sure to understand the corresponding bundler at least a little bit.
 
 ## 2. Set up your components and Layout 🔻
 When creating your Components and how the fit together remind yourself to [think in React](https://facebook.github.io/react/docs/thinking-in-react.html).
@@ -40,7 +40,7 @@ Be sure to include `this.props.children` in your main component that is rendered
 
 ## 4. Set up *Redux* store 🔻
 
-[<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="right">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
+[<img src="http://jslancer.com/wp-content/uploads/2016/09/rre-2.png" alt="credit to http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/" height="200" align="middle">](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 🔖 Image credit to [JS Lancer](http://jslancer.com/2016/09/28/migrating-my-first-angularjs-app-to-reduxangularjs/)
 - create or fetch your data/content
 - create a (default)state
@@ -68,7 +68,7 @@ Connect the router to the store with [`<Provider>`](https://github.com/reactjs/r
 
 ## 7. Updating State with Reducers 🔻
 
-Everytime you run an action, every reducer is going to run and actions will be dispatched.
+Every time you run an action, every reducer is going to run and actions will be dispatched.
 - the `connect` method of React-redux allows to pass props to a component
 - [`bindActionCreators`](http://redux.js.org/docs/api/bindActionCreators.html) wrap action objects into dispatch calls, so that they may be invoked directly.
 - [`mapStateToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) and [`mapDispatchToProps`](https://github.com/reactjs/react-redux/blob/master/docs/api.md) connect the data from the store to a certain component.
@@ -84,7 +84,7 @@ Everytime you run an action, every reducer is going to run and actions will be d
 
 - use the [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [Sentry](https://sentry.io/) provides a lot of error tracking features
-- to hotreload reducers: recompile the root reducer and change the store, with accepting the hotreload and rerequiring the reducer.
+- to hotreload reducers: recompile the root reducer and change the store, with accepting the hotreload and re-requiring the reducer.
 - use the [Redux Developer Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) to visualize the reducer process and timetravel
 
 
@@ -100,7 +100,7 @@ Share your thoughts - it's never been easier 😄
 
 ## Dive deeper - some useful links
 - [🔀 "Learn Redux" - Wes Bos (Great Video Tutorial)](https://learnredux.com/)
-- [🔀 "List of *React* Starter Prjects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
+- [🔀 "List of *React* Starter Projects" - Andrew H Farmer](http://andrewhfarmer.com/starter-project/)
 - [🔀 "Thinking in React" - facebook](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [🔀 "Docs" - Redux](http://redux.js.org/docs/basics/)
 
