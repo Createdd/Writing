@@ -24,13 +24,13 @@ Reading the latest articles it seems that React Native will be the number 1 fram
 
 ## 1. Comparing ReactJS and React Native
 
-To sum up Alexis Mangins great [article on comparing ReactJS and Reacht Native](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.cv0kqhbe2):
+To sum up Alexis Mangins great [article on comparing ReactJS and React Native](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.cv0kqhbe2):
 - ReactJS is a JS library and React Native is a framework
 - ReactJS uses a bundler, React Native uses Android Studio/XCode
 - React-Native doesn’t use HTML to render the app, but provides alternative components that work in a similar way
 - Animations in React Native are done with its own API and gestures play an important role, in ReactJS simple CSS animations have been sufficient
 - Navigation in ReactJS was easily done with react-router, React Native has it's own API
-- Cross platforms in React Native are Android and iOS. Since each has their own guidelines developing has to be done separately
+- Most common used platforms in React Native are Android and iOS. Since each has their own guidelines, development considerations have to be done independently
 - Development tools in React Native are similar to ReactJS, however the DOM inspector in Native isn't that good
 - Publishing to the app stores with React Native requires to know their guidelines
 
