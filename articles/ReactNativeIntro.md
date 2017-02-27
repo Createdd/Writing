@@ -45,13 +45,24 @@ The homepage states:
 1. Use Native Code When You Need To
 
 
-
-
-
 >React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
 
 
-## 3. Comparing
+## 3. Building an application
+The [tutorial](https://facebook.github.io/react-native/docs/tutorial.html) itself recommends to understand the basics of React, especially JSX, components, state and props.
+
+The new thing here is, that a component has to be registered in the `App.Registry` and will be established as the root component.
+
+The first "React Native specific" components are:
+- The `<view>`component provides a container for other components to control style and layout
+- The `<Text>`component for displaying text
+- The `<Image>`component to provide images
+- The `<TextInput>`component allows to enter text
+- The `<ScrollView>`component provides a scrollable container to host components and views
+- The `<ListView>`component displays a vertical list of changing data
+
+
+
 ## 4. Comparing
 ## 5. Comparing
 
