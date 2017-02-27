@@ -72,7 +72,7 @@ Share your thoughts - it's never been easier 😄
 ## Useful links & credits
 - [🌐 "React Native" - Facebook (official site)](https://facebook.github.io/react-native/)
 - [📄 "Differences between React and React Native" - Alexis Mangin (9min article) ](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.6finwtvj6)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Designing for Both Android and iOS" - Chris O'Sullivan (article)](https://webdesign.tutsplus.com/articles/a-tale-of-two-platforms-designing-for-both-android-and-ios--cms-23616)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
