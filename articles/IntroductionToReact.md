@@ -1,4 +1,4 @@
-# ⚛ 💡  6 cornerstones of React
+# 6 cornerstones of React ⚛ 💡
 
 [<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
