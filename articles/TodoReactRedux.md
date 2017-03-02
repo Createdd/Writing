@@ -18,8 +18,8 @@ Building the Todo List Example with React and Redux
 
 ---
 
->"One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man."
-― [Elbert Hubbard](https://en.wikipedia.org/wiki/Elbert_Hubbard)
+>"In the business world, the rearview mirror is always clearer than the windshield."
+― [Warren Buffett](https://de.wikipedia.org/wiki/Warren_Buffett)
 
 ---
 
@@ -38,8 +38,8 @@ Share your thoughts - it's never been easier 😄
 ```
 
 ## Useful links & credits
-- [🌐 "React Native" - Facebook (official site)](https://facebook.github.io/react-native/)
-- [📄 "Begin"](afgafgadgads)
+- [🌐 "React" - Facebook (official site)](https://facebook.github.io/react/)
+- [🌐 "Redux" - Facebook (official site)](http://redux.js.org/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
