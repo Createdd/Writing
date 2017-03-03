@@ -3,15 +3,12 @@
 [<img src="https://images.unsplash.com/photo-1466951561471-9a9a7b99cd77?dpr=2&auto=format&fit=crop&w=767&h=513&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/uD1ieQvG81c">](https://unsplash.com/photos/uD1ieQvG81c)
 
 
-[React](https://facebook.github.io/react/) is "a Jacascript library for building user interfaces". I'll go into the topic and clarify some features to get the most out of my coding with React.
+[React](https://facebook.github.io/react/) is "a Javascript library for building user interfaces". I'll go into the topic and clarify some features to get the most out of my coding with React.
 
 
 <img src="https://facebook.github.io/react/img/logo.svg" alt="react logo" height="200" align="right">
 
 ## 📄 Table of contents
-
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
   * [1. Components & Props](#1-components-props)
       * [What is a component?](#what-is-a-component)
