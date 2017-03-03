@@ -39,13 +39,48 @@ Cut down you need:
 1. a list that renders the todo items (TodoList)
 1. and additionally a filter component that shows your items accordingly (Filter)
 
-## 3. Get Redux input
+## 3. Get the state and actions right
 In previous articles we learned what `State` is all about. It's data that changes and cannot or should not be passed via props.
-Also, remember `Actions` from Redux, which are events from user interaction.
+Also, remember `Actions` from Redux, which are information loads about events from user interaction.
 
 Revisit your components and think about theirs State and Actions:
 - AddTodo: No State is needed, since data doesn't change based on input. The components allows to add items - that's the action.
--
+- TodoList: Needs 1 State for displaying an array of items and 1 state for rendering out accordingly to the filter. The action here is to display the status whether an item is completed or not.
+- Filter: Needs State for rendering accordingly to the currently set filter. The action comes from clicking on a link to display other lists.
+
+`ActionCreators` return an actual JavaScript object for your previously designed action-information-loads.
+
+
+## 4. Next: Reducers
+
+[Reducers](http://redux.js.org/docs/basics/Reducers.html) actually take the current State combine it with the actions and provide a new State.
+Each action needs a corresponding reducer.
+Be sure to put the reducer logic into container components to keep presentational components clean.
+
+With reducers we have to:
+- define the shape of State
+- handle Actions
+- and maybe split reducers
+
+**Therefore:**
+
+- The state has to be extended by an item when the addTodo action is called
+- The state has to be reorganized when the filter action is called
+
+## 5. Store and Dispatching
+
+The Store brings actions and reducers together, and allows the state being updated with dispatching actions. You should only have one Store in your application.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
