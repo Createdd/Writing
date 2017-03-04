@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/1/work-station-straight-on-view.jpg?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/xII7efH1G6o">](https://unsplash.com/photos/xII7efH1G6o) https://unsplash.com/photos/xII7efH1G6o
 
 
-Building the Todo List Example with React and Redux. I found the documentation not good enough - so here is another approach to introduce the famous basic app.
+Building the Todo List Example with React and Redux. The official documentation is good, but sometimes it helps to have a quick overview. 
 
 See my [Github Repo](https://github.com/DDCSLearning/reduxTodo) for actual code (Using create-react-app, redux, [ducks](https://github.com/erikras/ducks-modular-redux)).
 
@@ -70,6 +70,14 @@ With reducers we have to:
 ## 5. Store and Dispatching
 
 The Store brings actions and reducers together, and allows the state being updated with dispatching actions. You should only have one Store in your application.
+
+For dispatching make use of container components.
+>a container component is just a React component that uses store.subscribe() to read a part of the Redux state tree and supply props to a presentational component it renders.
+
+
+- Displaying the list requires the container of TodoList to define a function that filters the items according to the filter variable. Return that function in `mapStateToProps` to transform Redux state into Props. Additionally we want to dispatch the action like `toggleTodo` with `mapDispatchToProps`. Finally the container will be created with `connect`, connecting the passed props to the presentational component.
+- Create AddTodoForm as container needs the same steps for reading Redux state and dispatching an `onSubmit` function.
+- The filter component needs the same steps for reading Redux state and dispatching an `onClick` function.
 
 
 
