@@ -13,11 +13,6 @@ See my [Github Repo](https://github.com/DDCSLearning/reduxTodo) for actual code 
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Fast guide o the Todo App in React and Redux ⚛ ⏩](#fast-guide-o-the-todo-app-in-react-and-redux)
-  * [📄 Table of contents](#table-of-contents)
   * [1. Before writing code](#1-before-writing-code)
   * [2. Write your basic components outlay](#2-write-your-basic-components-outlay)
   * [3. Get the state and actions right](#3-get-the-state-and-actions-right)
@@ -26,7 +21,7 @@ See my [Github Repo](https://github.com/DDCSLearning/reduxTodo) for actual code 
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
-<!-- tocstop -->
+
 
 
 ---
