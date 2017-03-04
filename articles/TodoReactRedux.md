@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/1/work-station-straight-on-view.jpg?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/xII7efH1G6o">](https://unsplash.com/photos/xII7efH1G6o) https://unsplash.com/photos/xII7efH1G6o
 
 
-Building the Todo List Example with React and Redux. The official documentation is good, but sometimes it helps to have a quick overview. 
+Building the Todo List Example with React and Redux. The official documentation is good, but sometimes it helps to have a quick overview.
 
 See my [Github Repo](https://github.com/DDCSLearning/reduxTodo) for actual code (Using create-react-app, redux, [ducks](https://github.com/erikras/ducks-modular-redux)).
 
@@ -79,21 +79,8 @@ For dispatching make use of container components.
 - Create AddTodoForm as container needs the same steps for reading Redux state and dispatching an `onSubmit` function.
 - The filter component needs the same steps for reading Redux state and dispatching an `onClick` function.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Conclusion
-
+As we can see the core concept and ideas are really simple. It's just hard to stay focused an not get lost in the syntax specific issues when creating redux apps.
 
 
 ```
