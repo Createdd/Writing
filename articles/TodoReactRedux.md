@@ -1,4 +1,4 @@
-# Fast guide of the Todo App in React and Redux ⚛ ⏩
+# Fast guide on the Todo App in React and Redux ⚛ ⏩
 
 [<img src="https://images.unsplash.com/1/work-station-straight-on-view.jpg?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/xII7efH1G6o">](https://unsplash.com/photos/xII7efH1G6o) https://unsplash.com/photos/xII7efH1G6o
 
@@ -13,6 +13,20 @@ See my [Github Repo](https://github.com/DDCSLearning/reduxTodo) for actual code 
 
 ## 📄 Table of contents
 
+
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Fast guide o the Todo App in React and Redux ⚛ ⏩](#fast-guide-o-the-todo-app-in-react-and-redux)
+  * [📄 Table of contents](#table-of-contents)
+  * [1. Before writing code](#1-before-writing-code)
+  * [2. Write your basic components outlay](#2-write-your-basic-components-outlay)
+  * [3. Get the state and actions right](#3-get-the-state-and-actions-right)
+  * [4. Next: Reducers](#4-next-reducers)
+  * [5. Store and Dispatching](#5-store-and-dispatching)
+  * [Conclusion](#conclusion)
+  * [Useful links & credits](#useful-links-credits)
+
+<!-- tocstop -->
 
 
 ---
@@ -30,7 +44,7 @@ As always [think in React](https://facebook.github.io/react/docs/thinking-in-rea
 
 ## 2. Write your basic components outlay
 
-Find the [code](http://redux.js.org/docs/basics/ExampleTodoList.html) a Facebook's example.
+Find the [code](http://redux.js.org/docs/basics/ExampleTodoList.html) of Facebook's example.
 
 If that's already overwhelming start with the basics.
 
@@ -80,7 +94,7 @@ For dispatching make use of container components.
 - The filter component needs the same steps for reading Redux state and dispatching an `onClick` function.
 
 ## Conclusion
-As we can see the core concept and ideas are really simple. It's just hard to stay focused an not get lost in the syntax specific issues when creating redux apps.
+As we can see the core concept and ideas are really simple. It's just hard to stay focused and not get lost in the syntax specific issues when creating redux apps.
 
 
 ```
@@ -93,8 +107,5 @@ Share your thoughts - it's never been easier 😄
 - [🌐 "Redux" - Facebook (official site)](http://redux.js.org/)
 - [📄 "Build React apps using mocks" - rajaraodv (8min article)](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.nyiqb1biq)
 - [📄 "Ducks file structure for Redux" - S.C.Barrus (3min article)](https://medium.com/@scbarrus/the-ducks-file-structure-for-redux-d63c41b7035c#.305a6da9k)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
