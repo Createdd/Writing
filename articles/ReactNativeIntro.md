@@ -62,7 +62,9 @@ The first "React Native specific" components are:
 - The `<ListView>`component displays a vertical list of changing data
 
 
-## 4. Comparing
+## 4. Developing on iOS vs Android
+
+
 ## 5. Comparing
 
 
