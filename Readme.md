@@ -17,6 +17,7 @@ Starting to write different articles about different things and document here �
 1. [💻 What is Free Code Camp?](https://github.com/DDCreationStudios/Writing/blob/master/articles/WhatIsFreeCodeCamp.md)
 1. [⚛️ React Native Introduction](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReactNativeIntro.md)
 1. [⚛️ Todo App with React & Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/TodoReactRedux.md)
+1. [📝 How to write User Stories - The practical way ](https://github.com/DDCreationStudios/Writing/blob/master/articles/UserStoriesHowTo.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
