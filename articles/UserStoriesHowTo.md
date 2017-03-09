@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/3/doctype-hi-res.jpg?dpr=2&auto=format&fit=crop&w=767&h=515&q=80&cs=tinysrgb&crop=" alt="https://unsplash.com/photos/xII7efH1G6o">](https://unsplash.com/photos/nJdwUHmaY8A) https://unsplash.com/photos/nJdwUHmaY8A
 
 
-User stories are the connection between users and developers. They close the gap between human understanding and engineering. 
+User stories are the connection between users and developers. They close the gap between human understanding and engineering. There are many articles on how to write User Stories, but none of them gave a useable practical guide. Therefore, I try to create my own. 
 
 
 ## 📄 Table of contents
