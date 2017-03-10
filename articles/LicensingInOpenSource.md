@@ -17,7 +17,22 @@ A short introduction to licensing in open source. There are already many documen
 ---
 
 
-## 1.
+## 1. Before contributing
+
+Before you write any code it's very beneficiary to rethink your goals for the project. Are you planning to write a small application just for yourself and feedback, or are you planning to build a large application with hundreds of contributors?
+The bigger your application gets, the more important your thoughts about the best suitable license are!
+
+As a core contributor or maintainer of the project be sure to acquire knowledge about licensing yourself. Since code projects can grow extremely quick over night be sure to address licensing better sooner than later.
+
+When you are at a point where someone is making money with your project it is time to get some professional legal advice. Money spent in advance will help you tremendously with upcoming issues and gets you on the safe side. 
+
+
+
+
+
+
+## Licensing on Github
+
 
 ####
 
@@ -35,8 +50,8 @@ Share your thoughts - it's never been easier 😄
 ```
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [🌐 "Open Source Guide" - Github](https://opensource.guide/legal/)
+- [📄 "Licensing a repository" - Github (article)](https://help.github.com/articles/licensing-a-repository/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
