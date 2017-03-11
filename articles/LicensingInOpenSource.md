@@ -24,10 +24,14 @@ The bigger your application gets, the more important your thoughts about the bes
 
 As a core contributor or maintainer of the project be sure to acquire knowledge about licensing yourself. Since code projects can grow extremely quick over night be sure to address licensing better sooner than later.
 
-When you are at a point where someone is making money with your project it is time to get some professional legal advice. Money spent in advance will help you tremendously with upcoming issues and gets you on the safe side. 
+When you are at a point where someone is making money with your project it is time to get some professional legal advice. Money spent in advance will help you tremendously with upcoming issues and gets you on the safe side.
 
 
+## 2. What's important when writing code
 
+Especially when writing software in open source you have to take a look at the license of projects you use in your own project.
+For example:
+You are writing a small application or microservice and decide to use another open source library.
 
 
 
@@ -52,7 +56,7 @@ Share your thoughts - it's never been easier 😄
 ## Useful links & credits
 - [🌐 "Open Source Guide" - Github](https://opensource.guide/legal/)
 - [📄 "Licensing a repository" - Github (article)](https://help.github.com/articles/licensing-a-repository/)
-- [📄 "Begin"](afgafgadgads)
+- [🌐 Open Source Initiative](https://opensource.org/licenses)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 
