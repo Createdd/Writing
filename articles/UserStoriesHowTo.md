@@ -18,9 +18,21 @@ User stories are the connection between users and developers. They close the gap
 ---
 
 
-## 1.
+## 1. What is a User Story?
 
-####
+In short, User Stories are a description of the software functionality from the perspective of a user.
+
+## 2. Why is it valueable input in project management?
+
+## 3. How do I write a good User Story
+
+For writing a good User Story it is an necessity for the writer to see things from the perspective of a actual user. This can be hard when you have already been working on the project and even wrote some code yourself.
+
+That's why
+- try to get many different people to write User Stories, since each has a different view on the functionality aspect
+
+
+
 
 
 <img src="https://images.unsplash.com/photo-1480694313141-fce5e697ee25?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="apps" height="200"/>
