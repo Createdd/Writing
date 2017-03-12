@@ -35,7 +35,7 @@ Try to get many different people to write User Stories, since each has a differe
 
 Depending from which field you're coming, you tend to use jargon. That can lead to misunderstanding and slows down the processes of the project. The goal is to use as simple language as possible. Depending on the context language is interpreted differently. Be sure to stay neutral and to the point.
 
-The component approach that is used in programming, can be used in this context as well. Try to write the User Story as small as possible. User Stories already fit in the bigger project management context - let them be small. 
+The component approach that is used in programming, can be used in this context as well. Try to write the User Story as small as possible. User Stories already fit in the bigger project management context - let them be small.
 They can be used like a checklist for the development team.
 
 
