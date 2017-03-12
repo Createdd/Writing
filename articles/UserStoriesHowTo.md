@@ -26,10 +26,12 @@ In short, User Stories are a description of the software functionality from the 
 
 ## 3. How do I write a good User Story
 
+#### More People
 For writing a good User Story it is an necessity for the writer to see things from the perspective of a actual user. This can be hard when you have already been working on the project and even wrote some code yourself.
 
-That's why
-- try to get many different people to write User Stories, since each has a different view on the functionality aspect
+Try to get many different people to write User Stories, since each has a different view on the functionality aspect. The more input you have the better your project will be covered and in the end provide a result in the first result that is capable to fit a broad audience.
+
+
 
 
 
