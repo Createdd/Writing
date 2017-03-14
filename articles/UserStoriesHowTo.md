@@ -58,7 +58,7 @@ Share your thoughts - it's never been easier 😄
 
 ## Useful links & credits
 - [📄 "Advantages of User Stories" - Mike Cohn (article)](https://www.mountaingoatsoftware.com/articles/advantages-of-user-stories-for-requirements)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "User Stories" - Mountaingoatsoftware (article)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
