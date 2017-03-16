@@ -89,7 +89,7 @@ Be yourself and punch people with content and emotions in their face.
 Think about your legacy and live on the offense. Don’t be afraid to show your emotions and go for what you want. Life is about the climb. Care about your health.
 
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/5116VhH3Z3L._SX322_BO1,204,203,200_.jpg" alt="apps" height="200"/>
+[<img src="https://images-na.ssl-images-amazon.com/images/I/5116VhH3Z3L._SX322_BO1,204,203,200_.jpg" alt="apps" height="200"/>](https://www.amazon.de/gp/product/0062273124/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0062273124&linkCode=as2&tag=ddcr-21)
 
 
 ## Conclusion
@@ -102,7 +102,7 @@ Share your thoughts - it's never been easier 😄
 ```
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+
+- [📖 "#AskGaryVee: One Entrepreneur's Take on Leadership, Social Media, and Self-Awareness" - Gary Vaynerchuk (Amazon Affiliate-Link)](https://www.amazon.de/gp/product/0062273124/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0062273124&linkCode=as2&tag=ddcr-21)
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
