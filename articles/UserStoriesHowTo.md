@@ -21,7 +21,7 @@ User stories are the connection between users and developers. They close the gap
 
 ---
 
->"Art is the elimination of the unnecessary.""
+>"Art is the elimination of the unnecessary."
 ― Pablo Picasso
 
 ---
@@ -89,15 +89,15 @@ https://unsplash.com/photos/xjSkI_seiZY
 
 ## 4. How all comes together
 
-`User Stories` are the smallest units that are checked off in a certain timeframe (`sprint`). These accomplished software components are only small units that can be delivered to the customer.
+`User Stories` are the smallest units that are checked off in a certain timeframe (`sprint`). The result should be small software components, which can be delivered to the customer.
 
-`Epics` contain more User Stories and are completed over more sprints. Epics not only contain a small software component, but a collection of components that unify a software feature.
+`Epics` contain more User Stories and are completed over more sprints. Epics not only contain a small software component, but a collection of components that unify into a software feature.
 
 `Versions` contain multiple epics and represent a shippable product for the customer.
 
 
 ## Conclusion
-As we can see, User Stories are a great and necessary tool in a very commonly used project management pattern. The Story itself is the connection between the human perception the technical implementation. It is the small brick, that is used with other bricks to build a great wall. 🔨
+As we can see, User Stories are a great and necessary tool in a very commonly used project management pattern. The User Story itself is the connection between the human perception the technical implementation. It is the small brick, that is used with other bricks to build a great wall. 🔨
 
 
 ## Useful links & credits
