@@ -20,9 +20,15 @@ User stories are the connection between users and developers. They close the gap
 
 ## 1. What is a User Story?
 
-In short, User Stories are a description of the software functionality from the perspective of a user.
+In short, User Stories are a description of the software functionality from the perspective of a user. In the past User Stories were simple notes written on small cards. Today most people use software with different types of issue system, but the concept remains:
+>Use small units of tasks and group them in you project.
 
-## 2. Why is it valueable input in project management?
+
+## 2. Where is it useful?
+User Stories are used in an agile project management environment.
+
+
+
 
 ## 3. How do I write a good User Story
 
@@ -38,7 +44,9 @@ Depending from which field you're coming, you tend to use jargon. That can lead 
 The component approach that is used in programming, can be used in this context as well. Try to write the User Story as small as possible. User Stories already fit in the bigger project management context - let them be small.
 They can be used like a checklist for the development team.
 
+## 4. After writing - the implementation
 
+Writing a User Story is an important step, but more important is the discussion with the developer team afterwards.
 
 
 
@@ -59,7 +67,7 @@ Share your thoughts - it's never been easier 😄
 ## Useful links & credits
 - [📄 "Advantages of User Stories" - Mike Cohn (article)](https://www.mountaingoatsoftware.com/articles/advantages-of-user-stories-for-requirements)
 - [📄 "User Stories" - Mountaingoatsoftware (article)](https://www.mountaingoatsoftware.com/agile/user-stories)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "User Stories acceptance definition" - Yodiz (4min article)](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 
