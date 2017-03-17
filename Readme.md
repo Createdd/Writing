@@ -18,7 +18,8 @@ Starting to write different articles about different things and document here �
 1. [⚛️ React Native Introduction](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReactNativeIntro.md)
 1. [⚛️ Todo App with React & Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/TodoReactRedux.md)
 1. [📝 How to write User Stories - The practical way ](https://github.com/DDCreationStudios/Writing/blob/master/articles/UserStoriesHowTo.md)
-2. [📝 Introduction to licensing in open source ](https://github.com/DDCreationStudios/Writing/blob/master/articles/LicensingInOpenSource.md)
+1. [📝 Introduction to licensing in open source ](https://github.com/DDCreationStudios/Writing/blob/master/articles/LicensingInOpenSource.md)
+1. [📖 Summary of #AskGaryVee ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AskGaryVee.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
