@@ -3,7 +3,7 @@
 [<img src="https://images.unsplash.com/photo-1470160710819-b3bd5ec85c66?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/mHaNv8ajVis) https://unsplash.com/photos/mHaNv8ajVis
 
 
-Here is a short summary and my takeaways from Gary's newest book #AskGaryVee. I'm following him for a long time and I am in love with his business philosophy and attitude. This summary contains some quotes from the book and is designed to provide an introduction and give an idea what this book is about.
+Here is a short summary and my takeaways from Gary's newest book #AskGaryVee. I'm following him for a long time and really admire his business philosophy and attitude. This summary contains some quotes from the book and is designed to provide an overview about what this book is about.
 
 
 ## 📄 Table of contents
@@ -30,7 +30,7 @@ Here is a short summary and my takeaways from Gary's newest book #AskGaryVee. I'
       * [Investing](#investing)
       * [Self-Awareness](#self-awareness)
       * [Public Speaking](#public-speaking)
-      * [The last Chapters contain](#the-last-chapters-contain)
+      * [The last chapters contain](#the-last-chapters-contain)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -111,14 +111,14 @@ The best and easiest way to get to know your strengths and weaknesses is just as
 
 Be yourself and punch people with content and emotions in their face.
 
-#### The last Chapters contain
+#### The last chapters contain
 
 Think about your legacy and live on the offense. Don’t be afraid to show your emotions and go for what you want. Life is about the climb. Care about your health.
 
 
 ## Conclusion
 
-I think this book provides a really good overview of entrepreneurship and current marketing. Many of his ideas are often covered in literature.I can definitely recommend reading this book. I enjoyed it a lot. Easy to read, down to earth examples and very good insights into the business world.
+I think this book provides a really good introduction to entrepreneurship and the current marketing world. Many of his ideas are backed up in literature as well, but he knows how to bring his point across. I can definitely recommend reading this book - I enjoyed it a lot. Easy to read, down to earth examples and very good insights into the business world.
 
 
 [<img src="https://images-na.ssl-images-amazon.com/images/I/5116VhH3Z3L._SX322_BO1,204,203,200_.jpg" alt="apps" height="200"/>](https://www.amazon.de/gp/product/0062273124/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0062273124&linkCode=as2&tag=ddcr-21)
