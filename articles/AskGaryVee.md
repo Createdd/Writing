@@ -43,7 +43,7 @@ He talks about the importance of have a clear big goal in mind always push to th
 
 #### Starting out
 
-Be thankful for the opportunities you have. Don’t try to convince people, who don’t like your product. Focus on the ones that already do. For the start you have to grind hard. Always deliver a lot of high quality content. For finding partners be self aware and choose someone that compliments your weaknesses. Don’t listen to excuses when it comes to investing in you. When they believe in you, they support you.
+Be thankful for the opportunities you have. Don’t try to convince people, who don’t like your product. Focus on the ones that already do. For the start you have to grind hard. Always deliver a lot of high quality content. For finding partners be self-aware and choose someone that compliments your weaknesses. Don’t listen to excuses when it comes to investing in you. When they believe in you, they support you.
 
 #### Education
 
@@ -63,7 +63,7 @@ Is working hard and smart. Build yourself a lot of knowledge and experience, bec
 
 #### Content and Context
 
-The quality of your brand is determined by the quality of your content. For social media: Respect the platforms and its audience. Length doesn’t matter, but heart, message and fun does. Never abandon a platform entirely. It’s all about depth not width. Pinterest is becoming a search engine in visual form. Never generate content or fake human interaction. For posts: Find a balance between the art and science (automation). Bet on your strengths instead of working on your weaknesses. Figure out whom you’re trying to sell to, and storytell on the platform you love.
+The quality of your brand is determined by the quality of your content. For social media: Respect the platforms and its audience. Length doesn’t matter, but heart, message and fun does. Never abandon a platform entirely. It’s all about depth not width. Pinterest is becoming a search engine in visual form. Never generate content or fake human interaction. For posts: Find a balance between the art and science (automation). Bet on your strengths instead of working on your weaknesses. Figure out whom you’re trying to sell to, and story tell on the platform you love.
 
 #### Jabs and right Hooks
 
@@ -108,7 +108,7 @@ Be yourself and punch people in the face with content and emotions.
 
 #### The last chapters contain
 
-Think about your legacy and live on the offense. 
+Think about your legacy and live on the offense.
 Don’t be afraid to show your emotions and go for what you want.
 Life is about the climb.
 Care about your health.
