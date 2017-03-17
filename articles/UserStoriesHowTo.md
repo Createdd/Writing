@@ -29,19 +29,27 @@ User Stories consist of acceptance criteria, which are even smaller tasks that c
 
 Yodiz provided an excellent list in their [article](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk), that these criteria should contain:
 >Negative scenarios of the functionality.
-The impact of a user story to other features.
-UX concerns
-Functional and non-functional use cases
-Performance concerns and guidelines
-What system/feature intend to do
-System of feature doesn't do anything, isn't supposed to do
-End-to-end user flow
+
+>The impact of a user story to other features.
+
+>UX concerns
+
+>Functional and non-functional use cases
+
+>Performance concerns and guidelines
+
+>What system/feature intend to do
+
+>System of feature doesn't do anything, isn't supposed to do
+
+>End-to-end user flow
+
 
 
 ## 2. Where is it useful?
 User Stories are used in an agile project management environment.
 [cPRIME](https://en.wikipedia.org/wiki/Scrum_(software_development)) defines it as:
->Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams. Agile methods or Agile processes generally promote a disciplined project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, self-organization and accountability, a set of engineering best practices intended to allow for rapid delivery of high-quality software, and a business approach that aligns development with customer needs and company goals. 
+>Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams. Agile methods or Agile processes generally promote a disciplined project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, self-organization and accountability, a set of engineering best practices intended to allow for rapid delivery of high-quality software, and a business approach that aligns development with customer needs and company goals.
 
 Yodiz's [article](http://www.yodiz.com/blog/agile-scrum-explained-in-12-steps/) provides a perfect introduction.
 They break down an agile scrum process into 12 steps:
