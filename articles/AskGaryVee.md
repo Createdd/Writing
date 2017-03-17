@@ -8,33 +8,27 @@ Here is a short summary and my takeaways from Gary's newest book #AskGaryVee. I'
 
 ## 📄 Table of contents
 
+* [Clouds and Dirt](#clouds-and-dirt)
+* [Starting out](#starting-out)
+* [Education](#education)
+* [Family](#family)
+* [Parenting](#parenting)
+* [Hustle](#hustle)
+* [Content and Context](#content-and-context)
+* [Jabs and right Hooks](#jabs-and-right-hooks)
+* [The Platforms](#the-platforms)
+* [Facebook Ads](#facebook-ads)
+* [Influencer Marketing](#influencer-marketing)
+* [Gratitude](#gratitude)
+* [Leadership](#leadership)
+* [Management](#management)
+* [Investing](#investing)
+* [Self-Awareness](#self-awareness)
+* [Public Speaking](#public-speaking)
+* [The last chapters contain](#the-last-chapters-contain)
+* [Conclusion](#conclusion)
+* [Useful links & credits](#useful-links-credits)
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Summary of #AskGaryVee by Gary Vaynerchuk](#summary-of-askgaryvee-by-gary-vaynerchuk)
-  * [📄 Table of contents](#table-of-contents)
-      * [Clouds and Dirt](#clouds-and-dirt)
-      * [Starting out](#starting-out)
-      * [Education](#education)
-      * [Family](#family)
-      * [Parenting](#parenting)
-      * [Hustle](#hustle)
-      * [Content and Context](#content-and-context)
-      * [Jabs and right Hooks](#jabs-and-right-hooks)
-      * [The Platforms](#the-platforms)
-      * [Facebook Ads](#facebook-ads)
-      * [Influencer Marketing](#influencer-marketing)
-      * [Gratitude](#gratitude)
-      * [Leadership](#leadership)
-      * [Management](#management)
-      * [Investing](#investing)
-      * [Self-Awareness](#self-awareness)
-      * [Public Speaking](#public-speaking)
-      * [The last chapters contain](#the-last-chapters-contain)
-  * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
 
 
 ---
