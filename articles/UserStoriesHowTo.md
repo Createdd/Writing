@@ -21,7 +21,21 @@ User stories are the connection between users and developers. They close the gap
 ## 1. What is a User Story?
 
 In short, User Stories are a description of the software functionality from the perspective of a user. In the past User Stories were simple notes written on small cards. Today most people use software with different types of issue system, but the concept remains:
->Use small units of tasks and group them in you project.
+
+Use small units of tasks and group them in you project.
+
+
+User Stories consist of acceptance criteria, which are even smaller tasks that can be checked off by the developers.
+
+Yodiz provided an excellent list in their [article](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk), that these criteria should contain:
+>Negative scenarios of the functionality.
+The impact of a user story to other features.
+UX concerns
+Functional and non-functional use cases
+Performance concerns and guidelines
+What system/feature intend to do
+System of feature doesn't do anything, isn't supposed to do
+End-to-end user flow
 
 
 ## 2. Where is it useful?
@@ -67,7 +81,12 @@ Share your thoughts - it's never been easier 😄
 ## Useful links & credits
 - [📄 "Advantages of User Stories" - Mike Cohn (article)](https://www.mountaingoatsoftware.com/articles/advantages-of-user-stories-for-requirements)
 - [📄 "User Stories" - Mountaingoatsoftware (article)](https://www.mountaingoatsoftware.com/agile/user-stories)
-- [📄 "User Stories acceptance definition" - Yodiz (4min article)](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk)
+- [📄 "User Stories acceptance definition ..." - Yodiz (4min article)](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk)
+- [📄 "Writing User Stories Examples and Templates..." - Yodiz (8min article)](https://medium.com/agile-project-management-scrum-lean-kanban/writing-user-stories-examples-and-templates-in-agile-methodologies-5179f6c4398d#.38dpqkoe4)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 
