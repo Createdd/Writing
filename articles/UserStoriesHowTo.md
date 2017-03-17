@@ -40,6 +40,16 @@ End-to-end user flow
 
 ## 2. Where is it useful?
 User Stories are used in an agile project management environment.
+[cPRIME](https://en.wikipedia.org/wiki/Scrum_(software_development)) defines it as:
+>Agile software development refers to a group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams. Agile methods or Agile processes generally promote a disciplined project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, self-organization and accountability, a set of engineering best practices intended to allow for rapid delivery of high-quality software, and a business approach that aligns development with customer needs and company goals. 
+
+Yodiz's [article](http://www.yodiz.com/blog/agile-scrum-explained-in-12-steps/) provides a perfect introduction.
+They break down an agile scrum process into 12 steps:
+- Step 1,2 - User Stories and their evaluation
+- Step 3,4 - Story prioritization in the backlog
+- Step 5 - Set time frame
+- Step 6,7 - Sprint planning and task creation
+- Step 8,9,10,11,12 - Sprint iteration (cycle of sprint output and reviews)
 
 
 
@@ -83,8 +93,8 @@ Share your thoughts - it's never been easier 😄
 - [📄 "User Stories" - Mountaingoatsoftware (article)](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [📄 "User Stories acceptance definition ..." - Yodiz (4min article)](https://medium.com/agile-project-management-scrum-lean-kanban/user-stories-acceptance-definition-and-criteria-in-agile-methodologies-e6d04769adb#.okg9y77yk)
 - [📄 "Writing User Stories Examples and Templates..." - Yodiz (8min article)](https://medium.com/agile-project-management-scrum-lean-kanban/writing-user-stories-examples-and-templates-in-agile-methodologies-5179f6c4398d#.38dpqkoe4)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Agile Project Management ... " - Yodiz (9min article)](https://medium.com/agile-project-management-scrum-lean-kanban/what-is-kanban-system-kanban-board-scrum-vs-kanban-8a08673b0e55#.p7b6hf3aa)
+- [📄 "Agile Scrum Explained ..." - Yodiz (article)](http://www.yodiz.com/blog/agile-scrum-explained-in-12-steps/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
