@@ -1,4 +1,4 @@
-# Summary of #AskGaryVee by Gary Vaynerchuk
+# Quick read of #AskGaryVee 📖
 
 [<img src="https://images.unsplash.com/photo-1470160710819-b3bd5ec85c66?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/mHaNv8ajVis) https://unsplash.com/photos/mHaNv8ajVis
 
