@@ -54,6 +54,12 @@ Constants are treated like regular variables except that their values cannot be 
 
 An operator tells the compiler to perform specific mathematical or logical manipulations.
 
+#### Decision making, loops and encapsulation
+If else statements and for and while loops are pretty much the same as in other languages.
+
+The object-oriented principle of Encapsulation helps avoid duplicate relationships between information, allowing you to hide internal state and abstract access to it though type members such as methods, properties, and indexers.
+>Encapsulation helps you reduce coupling between objects and increases the maintainability of your code.
+
 
 
 
