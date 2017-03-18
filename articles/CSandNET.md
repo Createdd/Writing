@@ -1,4 +1,4 @@
-# Introduction to C# and .NET
+# Start with C# and .NET
 
 [<img src="https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/ZMraoOybTLQ) https://unsplash.com/photos/ZMraoOybTLQ
 
@@ -16,7 +16,11 @@ Coming from a javascript world I have to get familiar with C# and it's .NET envi
 ---
 
 
-##
+## What is C#?
+Microsoft define it themselves:
+>C# is an elegant and type-safe object-oriented language that enables developers to build a variety of secure and robust applications that run on the .NET Framework. You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much, much more. Visual C# provides an advanced code editor, convenient user interface designers, integrated debugger, and many other tools to make it easier to develop applications based on the C# language and the .NET Framework.
+
+
 ## 2. What's important when writing code
 
 
@@ -34,7 +38,7 @@ https://unsplash.com/photos/o2KD7JtqTlk
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Introduction to C#" - Microsoft (article) ](https://msdn.microsoft.com/en-us/library/z1zx9t92.aspx)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
