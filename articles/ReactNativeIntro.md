@@ -65,7 +65,8 @@ The first "React Native specific" components are:
 ## 4. Developing on iOS vs Android
 
 
-## 5. Comparing
+## 5. The future of React Native
+
 
 
 
@@ -85,7 +86,7 @@ Share your thoughts - it's never been easier 😄
 - [🌐 "React Native" - Facebook (official site)](https://facebook.github.io/react-native/)
 - [📄 "Differences between React and React Native" - Alexis Mangin (9min article) ](https://medium.com/@alexmngn/from-reactjs-to-react-native-what-are-the-main-differences-between-both-d6e8e88ebf24#.6finwtvj6)
 - [📄 "Designing for Both Android and iOS" - Chris O'Sullivan (article)](https://webdesign.tutsplus.com/articles/a-tale-of-two-platforms-designing-for-both-android-and-ios--cms-23616)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Is it the end of native development?" - Novoda (article)](https://www.novoda.com/blog/is-it-the-end-of-native-development/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
