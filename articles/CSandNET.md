@@ -36,6 +36,26 @@ C# is an **object-oriented language**, which means that a program consists of va
 Actions that are used by objects are called **methods**. Objects of the same kind are said to be in the same **class**.
 A simple program includes namespaces and classes, which are in it's widest sense objects that interact with each other.
 
+#### Data types
+These types are categorized into:
+- Value types, whom can be assigned a value directly
+- Reference types, that store a reference like objects, dynamics or strings
+- Pointer types, which store the memory address of another type
+
+#### Type conversion
+Is converting one type of data to another type (also known as Type Casting). In C#, type casting can be implicit or explicit. Whereas explicit type conversion is done by using a pre-defined function, implicit type conversion relies on using the same type environment (e.g. from smaller to larger integral types).
+
+#### Variables, constants and operators
+These don't really differ much from other languages. In C# they are categorized into different types. There is a lot content on the internet with a full list of types [(example)](http://www.techotopia.com/index.php/C_Sharp_Variables_and_Constants#C.23_Integer_Variable_Types).
+
+A variable is a name for a storage area that the program can manipulate.
+
+Constants are treated like regular variables except that their values cannot be modified after their definition.
+
+An operator tells the compiler to perform specific mathematical or logical manipulations.
+
+
+
 
 
 
