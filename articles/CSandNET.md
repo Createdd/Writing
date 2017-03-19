@@ -22,6 +22,8 @@ Coming from a javascript world I wanted to get familiar with C# and it's NET env
       * [Polymorphism, inheritance and encapsulation](#polymorphism-inheritance-and-encapsulation)
       * [Operator Overloading](#operator-overloading)
       * [Interfaces](#interfaces)
+      * [Namespaces and "using"](#namespaces-and-using)
+      * [Preprocessor directives](#preprocessor-directives)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -115,6 +117,26 @@ Interfaces contain only the declaration of the members and define properties, me
 The deriving class defines the members themselves accordingly to the laid out interface.
 In essence interfaces provide a standard structure that the deriving classes would follow.
 
+#### Namespaces and "using"
+
+Are used
+-  to organize the .NET framework's classes
+-  to help control the scope of class and method names in larger programming projects
+
+Namespaces are accessed through the keyword `using`.
+>Most C# applications begin with a section of `using` directives. The section lists the namespaces that the application will be using frequently, and saves the programmer from specifying a fully qualified name every time that a method that is contained within is used.
+
+#### Preprocessor directives
+
+They instruct the compiler to preprocess the information before actual compilation starts.
+
+All preprocessor directives begin with # and, since they are not statements, they do not end with a semicolon (;).
+
+In a real time environment, the preprocessor directives are very helpful to set conditional compilation like setting up of default parameters based on the defined symbol, and prompting developers in terms of building project, and making conditional warnings and errors, etc.
+
+Check out the [list](https://msdn.microsoft.com/en-us/library/ed8yd1ha.aspx) of preprocessor directives to get a feeling what they can do.
+
+
 
 
 
@@ -138,7 +160,7 @@ https://unsplash.com/photos/o2KD7JtqTlk
 - [🌐 "Csharp-station" provides articles, books, links, documentation and tutorials](http://csharp-station.com/)
 - [📄 "Polymorphism in NET" - Manish Agrahari (article)](https://www.codeproject.com/Articles/602141/Polymorphism-in-NET)
 - [📄 "Operator overloading" - Rahul Rajat Singh (article)](https://www.codeproject.com/Articles/452727/A-Beginners-Tutorial-on-Operator-Overloading-in-Cs)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Preprocessor directives in C#" Sridhar Patnayak (article)](https://www.codeproject.com/Articles/304175/Preprocessor-Directives-in-Csharp)
 - [📄 "Begin"](afgafgadgads)
 
 ```
