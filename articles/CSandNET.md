@@ -7,30 +7,22 @@ Coming from a javascript world I wanted to get familiar with C# and it's NET env
 
 ## 📄 Table of contents
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Start with C# and .NET](#start-with-c-and-net)
-  * [📄 Table of contents](#table-of-contents)
-  * [1. What is C#?](#1-what-is-c)
-  * [2. Notes on some C# keywords](#2-notes-on-some-c-keywords)
-      * [Syntax](#syntax)
-      * [Data types](#data-types)
-      * [Type conversion](#type-conversion)
-      * [Variables, constants and operators](#variables-constants-and-operators)
-      * [Arrays and strings](#arrays-and-strings)
-      * [Structures and classes](#structures-and-classes)
-      * [Polymorphism, inheritance and encapsulation](#polymorphism-inheritance-and-encapsulation)
-      * [Operator Overloading](#operator-overloading)
-      * [Interfaces](#interfaces)
-      * [Namespaces and "using"](#namespaces-and-using)
-      * [Preprocessor directives](#preprocessor-directives)
-  * [3. The .NET (Core) environment](#3-the-net-core-environment)
-  * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
-
+* [1. What is C#?](#1-what-is-c)
+* [2. Notes on some C# keywords](#2-notes-on-some-c-keywords)
+  * [Syntax](#syntax)
+  * [Data types](#data-types)
+  * [Type conversion](#type-conversion)
+  * [Variables, constants and operators](#variables-constants-and-operators)
+  * [Arrays and strings](#arrays-and-strings)
+  * [Structures and classes](#structures-and-classes)
+  * [Polymorphism, inheritance and encapsulation](#polymorphism-inheritance-and-encapsulation)
+  * [Operator Overloading](#operator-overloading)
+  * [Interfaces](#interfaces)
+  * [Namespaces and "using"](#namespaces-and-using)
+  * [Preprocessor directives](#preprocessor-directives)
+* [3. The .NET (Core) environment](#3-the-net-core-environment)
+* [Conclusion](#conclusion)
+* [Useful links & credits](#useful-links-credits)
 
 
 ---
@@ -162,7 +154,7 @@ He also says:
 
 >Basically, Microsoft built a version of .NET to allow developers to write cross-platform and cloud-optimized applications.
 
->First, .NET is cross-platform. It runs on Windows, macOS and Linux, which allows the developer to share and run the exact same code between machines running different operating systems, with no changes in code and minimum or no changes in the deveopment process. (Watch out for OS specific APIs!)
+>First, .NET is cross-platform. It runs on Windows, macOS and Linux, which allows the developer to share and run the exact same code between machines running different operating systems, with no changes in code and minimum or no changes in the development process. (Watch out for OS specific APIs!)
 
 >But the true innovation in .NET came with the modularization in design and architecture. The compiler (Roslyn) and the runtime (CoreCLR) are separate components that allow you to use different implementations (or even write your own).
 
@@ -170,19 +162,12 @@ He also says:
 
 He sums up pretty well, what I was reading on different sites and various introductions. Check out [his article](https://radu-matei.github.io/blog/dot-net-core-introduction/) for more.
 
-
-
-
-
-
-
-
-
-####
-
-
 ## Conclusion
+While researching and writing I couldn't neglect the fact that, compared to the huge JavaScript/ Node.js community, the community behind .NET and C# is rather small and different.
 
+For me it looks like Microsoft tries to adapt their strategy to the new digital age and takes much input from the open source community and established ideas from other web development systems.
+
+It will be interesting to see how it evolves in the near future.
 
 
 
@@ -198,11 +183,8 @@ He sums up pretty well, what I was reading on different sites and various introd
 )
 - [🌐 "Introduction to ASP.NET Core" - Microsoft ](afgafgadgads)
 - [📄 "Introduction to NET Core" - Pradeep Shet (article) ](https://www.codeproject.com/Articles/1126303/Introduction-to-NET-Core)
-- [📄 ".NET Core Introduction" - Radu Matei (article)](https://radu-matei.github.io/blog/dot-net-core-introduction/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
+- [📄 ".NET Core Introduction" - Radu Matei (6min article)](https://radu-matei.github.io/blog/dot-net-core-introduction/)
+
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
