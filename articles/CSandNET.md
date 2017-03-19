@@ -2,10 +2,31 @@
 
 [<img src="https://images.unsplash.com/photo-1485856407642-7f9ba0268b51?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/ZMraoOybTLQ) https://unsplash.com/photos/ZMraoOybTLQ
 
-Coming from a javascript world I have to get familiar with C# and it's .NET environment. Since the gap between those 2 languages seems huge to me, I decided to write a short introduction.
+Coming from a javascript world I wanted to get familiar with C# and it's NET environment. Since the gap between those 2 languages seemed huge to me, I decided to write a short introduction. To understand this introduction though, you have to have a little knowledge of programming fundamentals and core concepts.
 
 
 ## 📄 Table of contents
+
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Start with C# and .NET](#start-with-c-and-net)
+  * [📄 Table of contents](#table-of-contents)
+  * [What is C#?](#what-is-c)
+  * [2. Notes on some C# keywords](#2-notes-on-some-c-keywords)
+      * [Syntax](#syntax)
+      * [Data types](#data-types)
+      * [Type conversion](#type-conversion)
+      * [Variables, constants and operators](#variables-constants-and-operators)
+      * [Arrays and strings](#arrays-and-strings)
+      * [Structures and classes](#structures-and-classes)
+      * [Polymorphism, inheritance and encapsulation](#polymorphism-inheritance-and-encapsulation)
+      * [Operator Overloading](#operator-overloading)
+      * [Interfaces](#interfaces)
+  * [Conclusion](#conclusion)
+  * [Useful links & credits](#useful-links-credits)
+
+<!-- tocstop -->
+
 
 
 
@@ -88,7 +109,11 @@ Well that sounds super complicated? Check out this [amazing article](https://www
 #### Interfaces
 
 
+>An interface is defined as a syntactical contract that all the classes inheriting the interface should follow. The interface defines the 'what' part of the syntactical contract and the deriving classes define the 'how' part of the syntactical contract.
 
+Interfaces contain only the declaration of the members and define properties, methods and events.
+The deriving class defines the members themselves accordingly to the laid out interface.
+In essence interfaces provide a standard structure that the deriving classes would follow.
 
 
 
