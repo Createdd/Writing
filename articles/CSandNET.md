@@ -11,7 +11,7 @@ Coming from a javascript world I wanted to get familiar with C# and it's NET env
 
 * [Start with C# and .NET](#start-with-c-and-net)
   * [📄 Table of contents](#table-of-contents)
-  * [What is C#?](#what-is-c)
+  * [1. What is C#?](#1-what-is-c)
   * [2. Notes on some C# keywords](#2-notes-on-some-c-keywords)
       * [Syntax](#syntax)
       * [Data types](#data-types)
@@ -24,6 +24,7 @@ Coming from a javascript world I wanted to get familiar with C# and it's NET env
       * [Interfaces](#interfaces)
       * [Namespaces and "using"](#namespaces-and-using)
       * [Preprocessor directives](#preprocessor-directives)
+  * [3. The .NET (Core) environment](#3-the-net-core-environment)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -39,7 +40,7 @@ Coming from a javascript world I wanted to get familiar with C# and it's NET env
 ---
 
 
-## What is C#?
+## 1. What is C#?
 Microsoft define it themselves:
 >C# is an elegant and type-safe object-oriented language that enables developers to build a variety of secure and robust applications that run on the .NET Framework. You can use C# to create Windows client applications, XML Web services, distributed components, client-server applications, database applications, and much, much more. Visual C# provides an advanced code editor, convenient user interface designers, integrated debugger, and many other tools to make it easier to develop applications based on the C# language and the .NET Framework.
 
@@ -136,6 +137,8 @@ In a real time environment, the preprocessor directives are very helpful to set 
 
 Check out the [list](https://msdn.microsoft.com/en-us/library/ed8yd1ha.aspx) of preprocessor directives to get a feeling what they can do.
 
+## 3. The .NET (Core) environment
+I will
 
 
 
@@ -161,7 +164,15 @@ https://unsplash.com/photos/o2KD7JtqTlk
 - [📄 "Polymorphism in NET" - Manish Agrahari (article)](https://www.codeproject.com/Articles/602141/Polymorphism-in-NET)
 - [📄 "Operator overloading" - Rahul Rajat Singh (article)](https://www.codeproject.com/Articles/452727/A-Beginners-Tutorial-on-Operator-Overloading-in-Cs)
 - [📄 "Preprocessor directives in C#" Sridhar Patnayak (article)](https://www.codeproject.com/Articles/304175/Preprocessor-Directives-in-Csharp)
+- [📄 "Begin"](https://docs.microsoft.com/en-us/aspnet/core/
+)
+- [🌐 "Introduction to ASP.NET Core" - Microsoft ](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+-
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
