@@ -137,8 +137,41 @@ In a real time environment, the preprocessor directives are very helpful to set 
 
 Check out the [list](https://msdn.microsoft.com/en-us/library/ed8yd1ha.aspx) of preprocessor directives to get a feeling what they can do.
 
+
+<img src="https://images.unsplash.com/36/IAG5tj7gThy5rOupZ5FK_IMG_3906.jpg?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="apps" height="200"/>
+https://unsplash.com/photos/o2KD7JtqTlk
+
 ## 3. The .NET (Core) environment
-I will
+I will focus on ASP.NET Core, since it's the newest redesign of ASP.NET and regarded as the future of the framework.
+
+Microsoft defines it as:
+>ASP.NET Core is a new open-source and cross-platform framework for building modern cloud based internet connected applications, such as web apps, IoT apps and mobile backends. ASP.NET Core apps can run on .NET Core or on the full .NET Framework. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac and Linux. ASP.NET Core is open source at GitHub.
+
+Take time to read this paragraph well, since this official definition already answers many questions beforehand.
+
+<img src="https://www.codeproject.com/KB/dotnet/1126303/image001.png" alt="MSDN Microsoft" height="200"/>
+Source: https://blogs.msdn.microsoft.com
+
+Radu Madei concluded in his [article](https://radu-matei.github.io/blog/dot-net-core-introduction/):
+>It is one of the most exciting times to be a .NET developer, being able to write code that runs across IoT devices, phones, tablets, laptops, desktops, holographic devices, servers or the cloud and share it across multiple operating systems, with familiar processes and tools.
+
+<img src="https://tl4blw.bn1301.livefilestore.com/y3m6sNWtdUd2Htc9yvtCL6sEvqjaJaEHh-2uGizu_fLU3hH7DL23-0nW104ESwTFZ32v6KmBeekCkZLmPQZIh6RklD-zE2vG4fi5Zo1mnqIR_gWugP1Es97QkxhK74JazU8NFgWomXCkbvgO7jZd5nxThPRrMGdCfwwc4THeX7eqU4?width=1280&height=720&cropmode=none" alt="MSDN Microsoft" height="200"/>
+Source: https://radu-matei.github.io/blog/dot-net-core-introduction/
+
+He also says:
+
+>Basically, Microsoft built a version of .NET to allow developers to write cross-platform and cloud-optimized applications.
+
+>First, .NET is cross-platform. It runs on Windows, macOS and Linux, which allows the developer to share and run the exact same code between machines running different operating systems, with no changes in code and minimum or no changes in the deveopment process. (Watch out for OS specific APIs!)
+
+>But the true innovation in .NET came with the modularization in design and architecture. The compiler (Roslyn) and the runtime (CoreCLR) are separate components that allow you to use different implementations (or even write your own).
+
+>Every library comes as a NuGet package, so when you start a new project, you don’t have any libraries, but a project file (currently a .json, in the future a .csproj to maintain consistency with all .NET projects) and a Program.cs. As you develop your app, you add libraries as you need them, allowing you to minimize the size of your application.
+
+He sums up pretty well, what I was reading on different sites and various introductions. Check out [his article](https://radu-matei.github.io/blog/dot-net-core-introduction/) for more.
+
+
+
 
 
 
@@ -147,9 +180,6 @@ I will
 
 ####
 
-
-<img src="https://images.unsplash.com/36/IAG5tj7gThy5rOupZ5FK_IMG_3906.jpg?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="apps" height="200"/>
-https://unsplash.com/photos/o2KD7JtqTlk
 
 ## Conclusion
 
@@ -167,8 +197,8 @@ https://unsplash.com/photos/o2KD7JtqTlk
 - [📄 "Begin"](https://docs.microsoft.com/en-us/aspnet/core/
 )
 - [🌐 "Introduction to ASP.NET Core" - Microsoft ](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Introduction to NET Core" - Pradeep Shet (article) ](https://www.codeproject.com/Articles/1126303/Introduction-to-NET-Core)
+- [📄 ".NET Core Introduction" - Radu Matei (article)](https://radu-matei.github.io/blog/dot-net-core-introduction/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
