@@ -54,12 +54,6 @@ Constants are treated like regular variables except that their values cannot be 
 
 An operator tells the compiler to perform specific mathematical or logical manipulations.
 
-#### Decision making, loops and encapsulation
-If else statements and for and while loops are pretty much the same as in other languages.
-
-The object-oriented principle of Encapsulation helps avoid duplicate relationships between information, allowing you to hide internal state and abstract access to it though type members such as methods, properties, and indexers.
->Encapsulation helps you reduce coupling between objects and increases the maintainability of your code.
-
 #### Arrays and strings
 An array stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type stored at contiguous memory locations.
 
@@ -75,6 +69,23 @@ Microsoft provides an excellent [definition of structs and classes](https://msdn
 
 >In general, classes are used to model more complex behavior, or data that is intended to be modified after a class object is created. Structs are best suited for small data structures that contain primarily data that is not intended to be modified after the struct is created.
 
+#### Polymorphism, inheritance and encapsulation
+
+>Inheritance, together with encapsulation and polymorphism, is one of the three primary characteristics (or pillars) of object-oriented programming.
+
+Inheritance allows you to create new classes that reuse, extend, and modify the behavior that is defined in other classes.
+
+The object-oriented principle of Encapsulation helps avoid duplicate relationships between information, allowing you to hide internal state and abstract access to it though type members such as methods, properties, and indexers.
+> ▶️ Encapsulation helps you reduce coupling between objects and increases the maintainability of your code.
+
+Polymorphism allows you to invoke derived class methods through a base class reference during run-time. This is handy when you need to assign a group of objects to an array and then invoke each of their methods.
+
+Well that sounds super complicated? Check out this [amazing article](https://www.codeproject.com/Articles/602141/Polymorphism-in-NET), that explains it sooo well :)
+
+#### Operator Overloading
+> In an object oriented programming language like C#, operator overloading provides a much more natural way of implementing the operations on custom types. Suppose that we have a class created for Complex number and we want to perform all the arithmetic operations on this type. One way to do this is by having functions like Add, Subtract inside the class and have the functionality. Another way is to actually have the overloaded version of operators to act on this type.
+
+#### Interfaces
 
 
 
@@ -100,8 +111,8 @@ https://unsplash.com/photos/o2KD7JtqTlk
 - [📄 "Introduction to C#" - Microsoft (article) ](https://msdn.microsoft.com/en-us/library/z1zx9t92.aspx)
 - [🌐 "CSharp" - Tutorialspoint (guide)](https://www.tutorialspoint.com/csharp/index.htm)
 - [🌐 "Csharp-station" provides articles, books, links, documentation and tutorials](http://csharp-station.com/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Polymorphism in NET" - Manish Agrahari (article)](https://www.codeproject.com/Articles/602141/Polymorphism-in-NET)
+- [📄 "Operator overloading" - Rahul Rajat Singh (article)](https://www.codeproject.com/Articles/452727/A-Beginners-Tutorial-on-Operator-Overloading-in-Cs)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 
