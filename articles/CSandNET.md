@@ -60,6 +60,13 @@ If else statements and for and while loops are pretty much the same as in other 
 The object-oriented principle of Encapsulation helps avoid duplicate relationships between information, allowing you to hide internal state and abstract access to it though type members such as methods, properties, and indexers.
 >Encapsulation helps you reduce coupling between objects and increases the maintainability of your code.
 
+#### Arrays and strings
+An array stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type stored at contiguous memory locations.
+
+Strings are an array of characters. Most of time the string keyword is used to declare a string variable, it's an alias for the System.String class.
+
+
+
 
 
 
@@ -82,7 +89,7 @@ https://unsplash.com/photos/o2KD7JtqTlk
 ## Useful links & credits
 - [📄 "Introduction to C#" - Microsoft (article) ](https://msdn.microsoft.com/en-us/library/z1zx9t92.aspx)
 - [🌐 "CSharp" - Tutorialspoint (guide)](https://www.tutorialspoint.com/csharp/index.htm)
-- [📄 "Begin"](afgafgadgads)
+- [🌐 "Csharp-station" provides articles, books, links, documentation and tutorials](http://csharp-station.com/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
