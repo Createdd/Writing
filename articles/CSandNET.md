@@ -63,7 +63,17 @@ The object-oriented principle of Encapsulation helps avoid duplicate relationshi
 #### Arrays and strings
 An array stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type stored at contiguous memory locations.
 
-Strings are an array of characters. Most of time the string keyword is used to declare a string variable, it's an alias for the System.String class.
+Strings are an array of characters. Most of time the string keyword is used to declare a string variable - it's an alias for the System.String class.
+
+#### Structures and classes
+
+Microsoft provides an excellent [definition of structs and classes](https://msdn.microsoft.com/en-us/library/ms173109.aspx):
+
+>A class is a reference type. When an object of the class is created, the variable to which the object is assigned holds only a reference to that memory. When the object reference is assigned to a new variable, the new variable refers to the original object. Changes made through one variable are reflected in the other variable because they both refer to the same data.
+
+>A struct is a value type. When a struct is created, the variable to which the struct is assigned holds the struct's actual data. When the struct is assigned to a new variable, it is copied. The new variable and the original variable therefore contain two separate copies of the same data. Changes made to one copy do not affect the other copy.
+
+>In general, classes are used to model more complex behavior, or data that is intended to be modified after a class object is created. Structs are best suited for small data structures that contain primarily data that is not intended to be modified after the struct is created.
 
 
 
