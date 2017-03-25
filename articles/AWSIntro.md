@@ -11,7 +11,7 @@
 
 ---
 
->"To be a good professional engineer, always start to study late for exams. Because it teaches you how to manage time and tackle emergencies." - Bill Gates
+>"I believe you have to be willing to be misunderstood if you're going to innovate." - Jeff Bezos
 
 ---
 
