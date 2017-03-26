@@ -25,13 +25,27 @@ The whole concept builds on top of the cloud computing principle. It provides IT
 
 And it's commonly used for:
 >- Store public or private data.
-- Host a static website. These websites use client-side technologies (such as HTML, CSS, and JavaScript) to display content that doesn't change frequently. A static website doesn't require server-side technologies (such as PHP and ASP.NET).
-- Host a dynamic website, or web app. These websites include classic three-tier applications, with web, application, and database tiers.
-- Support students or online training programs.
-- Process business and scientific data.
-- Handle peak loads.
+>- Host a static website. These websites use client-side technologies (such as HTML, CSS, and JavaScript) to display content that doesn't change frequently. A static website doesn't require server-side technologies (such as PHP and ASP.NET).
+>- Host a dynamic website, or web app. These websites include classic three-tier applications, with web, application, and database tiers.
+>- Support students or online training programs.
+>- Process business and scientific data.
+>- Handle peak loads.
 
-## No need for capacity planning
+## What are it's benefits for me?
+
+## How do I use it?
+
+AWS can be accessed through:
+- AWS Management Console
+- AWS Command Line Interface (AWS CLI)
+- Command Line Tools
+- AWS Software Development Kits (SDK)
+- Query APIs
+
+There is a detailed guide on how to install and use each of these options in the documentation.
+
+As you can see it takes a while to get familiar with each tool to get into some sort of workflow.
+
 ## A variety of services
 ## A global infrastructure
 Low costs
