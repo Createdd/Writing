@@ -9,27 +9,21 @@ If you want to start learning more about AWS check out my provided links at the 
 
 ## 📄 Table of contents
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [Introduction Amazon Web Services (AWS)](#introduction-amazon-web-services-aws)
-  * [📄 Table of contents](#table-of-contents)
-  * [What is AWS?](#what-is-aws)
-  * [AWS Products](#aws-products)
-      * [Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)](#compute-and-networking-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-compute-networkhtmlcompute-network-concepts)
-      * [Storage and Content Delivery Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-storage-cdn.html)](#storage-and-content-delivery-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-storage-cdnhtml)
-      * [Security and Identity Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-security-identity.html)](#security-and-identity-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-security-identityhtml)
-      * [Database Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-database.html)](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
-      * [Analytics Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-analytics.html)](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
-      * [Application Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-app.html)](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
-      * [Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
-  * [How do I use it?](#how-do-i-use-it)
-  * [Keypoints on AWS and what is good?](#keypoints-on-aws-and-what-is-good)
-  * [Example Steps for deploying an app](#example-steps-for-deploying-an-app)
-  * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
+* [What is AWS?](#what-is-aws)
+* [AWS Products](#aws-products)
+    * [Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)](#compute-and-networking-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-compute-networkhtmlcompute-network-concepts)
+    * [Storage and Content Delivery Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-storage-cdn.html)](#storage-and-content-delivery-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-storage-cdnhtml)
+    * [Security and Identity Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-security-identity.html)](#security-and-identity-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-security-identityhtml)
+    * [Database Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-database.html)](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
+    * [Analytics Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-analytics.html)](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
+    * [Application Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-app.html)](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
+    * [Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
+* [How do I use it?](#how-do-i-use-it)
+* [Keypoints on AWS and what is good?](#keypoints-on-aws-and-what-is-good)
+* [Example Steps for deploying an app](#example-steps-for-deploying-an-app)
+* [Conclusion](#conclusion)
+* [Useful links & credits](#useful-links-credits)
 
 
 ---
@@ -168,9 +162,6 @@ Diving into AWS requires you to understand their own keywords and concepts. Ther
 - [📄 "Introduction to AWS" - Slideshare (slides)](https://de.slideshare.net/AmazonWebServices/introduction-to-amazon-web-services-7708257)
 - [📄 "Intro to AWS cloud" - Amazon (PDF)](https://d0.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
 - [📄 "Getting started with AWS" - Ashok Karale (article)](http://www.c-sharpcorner.com/article/introduction-to-aws-getting-started-with-aws-account/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
