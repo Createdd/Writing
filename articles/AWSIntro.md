@@ -4,6 +4,8 @@
 
 During my web development learning experience I came stumbled very often over Amazon Web Services but never really understood what it's capabilities are. The following article contains the things I have learned from my research.
 
+If you want to start learning more about AWS check out my provided links at the end. Unfortunately there is a lot of outdated or simple badly explained content on the web. Be sure to consolidate a good resource.
+
 
 ## 📄 Table of contents
 
@@ -15,7 +17,7 @@ During my web development learning experience I came stumbled very often over Am
 
 ---
 
-
+##
 ## No need for capacity planning
 ## A variety of services
 ## A global infrastructure
