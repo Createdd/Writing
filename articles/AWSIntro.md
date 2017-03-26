@@ -31,7 +31,44 @@ And it's commonly used for:
 >- Process business and scientific data.
 >- Handle peak loads.
 
-## What are it's benefits for me?
+## AWS Products
+
+The following categories represent the core products of AWS.
+
+#### Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)
+
+This section contains services and their structure.
+
+- Amazon EC2
+Provides virtual servers in the AWS cloud.
+
+- Amazon VPC
+Provides an isolated virtual network for your virtual servers.
+
+- Elastic Load Balancing
+Distributes network traffic across your set of virtual servers.
+
+- Auto Scaling
+Automatically scales your set of virtual servers based on changes in demand.
+
+- Amazon Route 53
+Routes traffic to your domain name to a resource, such as a virtual server or a load balancer.
+
+- AWS Lambda
+Runs your code on virtual servers from Amazon EC2 in response to events.
+
+- Amazon ECS
+Provides Docker containers on virtual servers from Amazon EC2.
+
+
+#### Storage and Content Delivery Services
+#### Security and Identity Services
+#### Database Services
+#### Analytics Services
+#### Application Services
+#### Management Tools
+
+
 
 ## How do I use it?
 
