@@ -26,9 +26,9 @@ Content delivery CloudFront
 ## Security
 
 ## Example App
-- Load Balancer tier (eg Elastic Load Balancing)
+- Load balancer tier (eg Elastic Load Balancing)
 - Web/app tier (eg EC2 AutoScaling Group)
-- Caching tier (eg Elasticache for Memcached)
+- Caching tier (eg ElastiCache for Memcached)
 - Database tier (eg Multi-AZ RDS)
 - Static content (eg Amazon S3)
 - Content Delivery (with Amazon CloudFront)
