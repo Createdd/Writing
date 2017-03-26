@@ -66,8 +66,22 @@ The following categories represent the core products of AWS.
 - Amazon ElastiCache (An in-memory caching service)
 
 
-#### Analytics Services [[Details]](sfdsdfsdfdsfdsfs)
+#### Analytics Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-analytics.html)
+
+Amazon EMR (Amazon EMR) uses Hadoop, an open source framework, to manage and process data. Hadoop uses the MapReduce engine to distribute processing using a cluster.
+
+- Amazon EMR (You identify the data source, specify the number and type of EC2 instances for the cluster and what software should be on them, and provide a MapReduce program or run interactive queries)
+
+- AWS Data Pipeline (to regularly move and process data)
+
+- Amazon Kinesis (real-time processing of streaming data at a massive scale)
+
+- ❗Amazon ML  (use machine learning technology to obtain predictions for their applications using simple APIs. Amazon ML finds patterns in your existing data, creates machine learning models, and then uses those models to process new data and generate predictions) ❗
+
 #### Application Services [[Details]](sfdsdfsdfdsfdsfs)
+
+
+
 #### Management Tools [[Details]](sfdsdfsdfdsfdsfs)
 
 
