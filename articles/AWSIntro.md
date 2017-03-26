@@ -1,8 +1,8 @@
-# Introduction Amazon Web Services (AWS)
+# Introducing Amazon Web Services (AWS)
 
 [<img src="https://images.unsplash.com/photo-1484157737210-f58966446e05?dpr=2&auto=format&fit=crop&w=767&h=508&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/WbIEX9Hq-EI) https://unsplash.com/photos/WbIEX9Hq-EI
 
-During my web development learning experience I came stumbled very often over Amazon Web Services but never really understood what it's capabilities are. The following article contains the things I have learned from my research.
+During my web development learning experience I stumbled very often over Amazon Web Services but never really understood what it's capabilities are. The following article contains a starting point on what I have learned from my research.
 
 If you want to start learning more about AWS check out my provided links at the end. Unfortunately there is a lot of outdated or simple badly explained content on the web. Be sure to consolidate a good resource.
 
@@ -12,13 +12,13 @@ If you want to start learning more about AWS check out my provided links at the 
 
 * [What is AWS?](#what-is-aws)
 * [AWS Products](#aws-products)
-    * [Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)](#compute-and-networking-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-compute-networkhtmlcompute-network-concepts)
-    * [Storage and Content Delivery Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-storage-cdn.html)](#storage-and-content-delivery-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-storage-cdnhtml)
-    * [Security and Identity Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-security-identity.html)](#security-and-identity-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-security-identityhtml)
-    * [Database Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-database.html)](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
-    * [Analytics Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-analytics.html)](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
-    * [Application Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-app.html)](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
-    * [Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
+    * [Compute and Networking Services ](#compute-and-networking-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-compute-networkhtmlcompute-network-concepts)
+    * [Storage and Content Delivery Services](#storage-and-content-delivery-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-storage-cdnhtml)
+    * [Security and Identity Services ](#security-and-identity-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-security-identityhtml)
+    * [Database Services ](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
+    * [Analytics Services ](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
+    * [Application Services ](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
+    * [Management Tools ](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
 * [How do I use it?](#how-do-i-use-it)
 * [Keypoints on AWS and what is good?](#keypoints-on-aws-and-what-is-good)
 * [Example Steps for deploying an app](#example-steps-for-deploying-an-app)
