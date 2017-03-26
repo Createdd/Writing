@@ -9,6 +9,27 @@ If you want to start learning more about AWS check out my provided links at the 
 
 ## 📄 Table of contents
 
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Introduction Amazon Web Services (AWS)](#introduction-amazon-web-services-aws)
+  * [📄 Table of contents](#table-of-contents)
+  * [What is AWS?](#what-is-aws)
+  * [AWS Products](#aws-products)
+      * [Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)](#compute-and-networking-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-compute-networkhtmlcompute-network-concepts)
+      * [Storage and Content Delivery Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-storage-cdn.html)](#storage-and-content-delivery-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-storage-cdnhtml)
+      * [Security and Identity Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-security-identity.html)](#security-and-identity-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-security-identityhtml)
+      * [Database Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-database.html)](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
+      * [Analytics Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-analytics.html)](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
+      * [Application Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-app.html)](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
+      * [Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
+  * [How do I use it?](#how-do-i-use-it)
+  * [Keypoints on AWS and what is good?](#keypoints-on-aws-and-what-is-good)
+  * [Example Steps for deploying an app](#example-steps-for-deploying-an-app)
+  * [Conclusion](#conclusion)
+  * [Useful links & credits](#useful-links-credits)
+
+<!-- tocstop -->
+
 
 
 ---
@@ -89,9 +110,14 @@ Amazon EMR (Amazon EMR) uses Hadoop, an open source framework, to manage and pro
 - Amazon SWF (Coordinate tasks across the components of your application)
 
 
+#### Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)
 
-#### Management Tools [[Details]](sfdsdfsdfdsfdsfs)
-
+- Amazon CloudWatch (Monitor resources and applications)
+- AWS CloudFormation (Provision your AWS resources using templates)
+- AWS CloudTrail (Track the usage history for your AWS resources by logging AWS API calls)
+- AWS Config (View the current and previous configuration of your AWS resources, and monitor changes to your AWS resources)
+- AWS OpsWorks (Configure and manage the environment for your application, whether in the AWS cloud or your own data center)
+- AWS Service Catalog (Distribute servers, databases, websites, and applications to users using AWS resources)
 
 
 ## How do I use it?
@@ -107,15 +133,17 @@ There is a detailed guide on how to install and use each of these options in the
 
 As you can see it takes a while to get familiar with each tool to get into some sort of workflow.
 
-## A variety of services
-## A global infrastructure
-Low costs
-Deployment and management
-Content delivery CloudFront
+## Keypoints on AWS and what is good?
+- Elastic pay-per-use infrastructure
+- On demand resources
+- Scalability
+- Global infrastructure
+- Reduced time to market
+- Increased opportunities for innovation
+- Enhanced security
 
-## Security
 
-## Example App
+## Example Steps for deploying an app
 - Load balancer tier (eg Elastic Load Balancing)
 - Web/app tier (eg EC2 AutoScaling Group)
 - Caching tier (eg ElastiCache for Memcached)
@@ -125,23 +153,21 @@ Content delivery CloudFront
 
 
 
-####
-
-
 <img src="https://images.unsplash.com/photo-1455735459330-969b65c65b1c?dpr=2&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=" alt="apps" height="200"/>
 https://unsplash.com/photos/BdQk6Qm3vAU
 
 ## Conclusion
 
+AWS provides building blocks that you can assemble quickly to support any workload. With AWS, you’ll find a complete set of highly available services that are designed to work together to build scalable applications.
 
-
+Diving into AWS requires you to understand their own keywords and concepts. There is really a whole cloud computing world waiting for you. I am eager to explore more, seeing that I steadly gains popularity.
 
 
 ## Useful links & credits
 - [📹 "Getting Started with Amazon Web Services"  - CS50 (YouTube)](https://www.youtube.com/watch?v=VgzzHCukwpc&t=276s)
 - [📄 "Introduction to AWS" - Slideshare (slides)](https://de.slideshare.net/AmazonWebServices/introduction-to-amazon-web-services-7708257)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Intro to AWS cloud" - Amazon (PDF)](https://d0.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
+- [📄 "Getting started with AWS" - Ashok Karale (article)](http://www.c-sharpcorner.com/article/introduction-to-aws-getting-started-with-aws-account/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
