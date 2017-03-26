@@ -78,7 +78,15 @@ Amazon EMR (Amazon EMR) uses Hadoop, an open source framework, to manage and pro
 
 - ❗Amazon ML  (use machine learning technology to obtain predictions for their applications using simple APIs. Amazon ML finds patterns in your existing data, creates machine learning models, and then uses those models to process new data and generate predictions) ❗
 
-#### Application Services [[Details]](sfdsdfsdfdsfdsfs)
+#### Application Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-app.html)
+
+- Amazon AppStream (Host your streaming application in the AWS cloud and stream the input and output to your users' devices)
+- Amazon CloudSearch (Add search to your website)
+- Amazon Elastic Transcoder (Convert digital media into the formats required by your users' devices)
+- Amazon SES (Send email from the cloud)
+- Amazon SNS (Send or receive notifications from the cloud)
+- Amazon SQS (Enable components in your application to store data in a queue to be retrieved other components)
+- Amazon SWF (Coordinate tasks across the components of your application)
 
 
 
