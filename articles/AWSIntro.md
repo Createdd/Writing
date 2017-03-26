@@ -37,8 +37,6 @@ The following categories represent the core products of AWS.
 
 #### Compute and Networking Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-compute-network.html#compute-network-concepts)
 
-This section contains services and their structure.
-
 - Amazon EC2 (Provides virtual servers in the AWS cloud)
 - Amazon VPC (Provides an isolated virtual network for your virtual servers)
 - Elastic Load Balancing (Distributes network traffic across your set of virtual servers)
@@ -47,13 +45,30 @@ This section contains services and their structure.
 - AWS Lambda (Runs your code on virtual servers from Amazon EC2 in response to events)
 - Amazon ECS (Provides Docker containers on virtual servers from Amazon EC2)
 
+#### Storage and Content Delivery Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-storage-cdn.html)
 
-#### Storage and Content Delivery Services
-#### Security and Identity Services
-#### Database Services
-#### Analytics Services
-#### Application Services
-#### Management Tools
+- Amazon S3 (Scalable storage in the AWS cloud)
+- CloudFront (A global content delivery network (CDN))
+- Amazon EBS (Network attached storage volumes for your virtual servers)
+- Amazon Glacier (Low-cost archival storage)
+
+
+#### Security and Identity Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-security-identity.html)
+
+- AWS Identity and Access Management (Manage user access to AWS resources through policies)
+- AWS Directory Service (Manage user access to AWS through your existing Microsoft Active Directory, or a directory you create in the AWS cloud)
+
+#### Database Services [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-database.html)
+
+- Amazon RDS (Provides managed relational databases)
+- Amazon Redshift (A fast, fully-managed, petabyte-scale data warehouse)
+- Amazon DynamoDB (Provides managed NoSQL databases)
+- Amazon ElastiCache (An in-memory caching service)
+
+
+#### Analytics Services [[Details]](sfdsdfsdfdsfdsfs)
+#### Application Services [[Details]](sfdsdfsdfdsfdsfs)
+#### Management Tools [[Details]](sfdsdfsdfdsfdsfs)
 
 
 
