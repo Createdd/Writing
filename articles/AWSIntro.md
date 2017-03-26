@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1484157737210-f58966446e05?dpr=2&auto=format&fit=crop&w=767&h=508&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/WbIEX9Hq-EI) https://unsplash.com/photos/WbIEX9Hq-EI
 
-
+During my web development learning experience I came stumbled very often over Amazon Web Services but never really understood what it's capabilities are. The following article contains the things I have learned from my research.
 
 
 ## 📄 Table of contents
@@ -34,7 +34,7 @@ https://unsplash.com/photos/BdQk6Qm3vAU
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- [📹 "Getting Started with Amazon Web Services"  - CS50 (YouTube)](https://www.youtube.com/watch?v=VgzzHCukwpc&t=276s)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
