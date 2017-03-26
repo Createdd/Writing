@@ -39,26 +39,13 @@ The following categories represent the core products of AWS.
 
 This section contains services and their structure.
 
-- Amazon EC2
-Provides virtual servers in the AWS cloud.
-
-- Amazon VPC
-Provides an isolated virtual network for your virtual servers.
-
-- Elastic Load Balancing
-Distributes network traffic across your set of virtual servers.
-
-- Auto Scaling
-Automatically scales your set of virtual servers based on changes in demand.
-
-- Amazon Route 53
-Routes traffic to your domain name to a resource, such as a virtual server or a load balancer.
-
-- AWS Lambda
-Runs your code on virtual servers from Amazon EC2 in response to events.
-
-- Amazon ECS
-Provides Docker containers on virtual servers from Amazon EC2.
+- Amazon EC2 (Provides virtual servers in the AWS cloud)
+- Amazon VPC (Provides an isolated virtual network for your virtual servers)
+- Elastic Load Balancing (Distributes network traffic across your set of virtual servers)
+- Auto Scaling (Automatically scales your set of virtual servers based on changes in demand)
+- Amazon Route 53 (Routes traffic to your domain name to a resource, such as a virtual server or a load balancer)
+- AWS Lambda (Runs your code on virtual servers from Amazon EC2 in response to events)
+- Amazon ECS (Provides Docker containers on virtual servers from Amazon EC2)
 
 
 #### Storage and Content Delivery Services
