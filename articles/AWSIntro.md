@@ -154,7 +154,7 @@ https://unsplash.com/photos/BdQk6Qm3vAU
 
 AWS provides building blocks that you can assemble quickly to support any workload. With AWS, you’ll find a complete set of highly available services that are designed to work together to build scalable applications.
 
-Diving into AWS requires you to understand their own keywords and concepts. There is really a whole cloud computing world waiting for you. I am eager to explore more, seeing that I steadly gains popularity.
+Diving into AWS requires you to understand their own keywords and concepts. There is really a whole cloud computing world waiting for you. I am eager to explore more, seeing that it steadily gains more popularity.
 
 
 ## Useful links & credits
