@@ -18,7 +18,14 @@ The AWS Management Console provides different guides to get started. I started w
 ---
 
 
-##
+## Set up a user management
+Firstly create an AWS account - simply follow the instructions on their homepage.
+
+Next set up an "Identity and Access Management" (IAM) to create access keys and not being forced to use your own account credentials.
+Use the [IAM console](https://console.aws.amazon.com/iam/) to add a new user and a new group.
+
+>Tip: When logging in with the new user, be sure to use the password from your main account and not the set "console password" - since it isn't refering to your AWS Management Console password.
+
 ##
 
 
@@ -36,8 +43,8 @@ Source https://aws.amazon.com
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Hosting a static Website" - Amazon (guide)](https://aws.amazon.com/de/getting-started/projects/host-static-website/?c_1)
+- [📄 "sfdsdgd"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
