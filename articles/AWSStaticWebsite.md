@@ -1,4 +1,4 @@
-# First Steps Amazon Web Services (AWS)
+# Hosting a static Website with Amazon Web Services (AWS)
 
 [<img src="https://images.unsplash.com/reserve/wBE2ADjQzK2ubCBMiy7T_DSC_0285.JPG?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/IT4Za_Q_dTA) https://unsplash.com/photos/IT4Za_Q_dTA
 
