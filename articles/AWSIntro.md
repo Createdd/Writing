@@ -18,7 +18,7 @@ If you want to start learning more about AWS check out my provided links at the 
     * [Database Services ](#database-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-databasehtml)
     * [Analytics Services ](#analytics-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-analyticshtml)
     * [Application Services ](#application-services-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-apphtml)
-    * [Management Tools [[Details]](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-management.html)](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
+    * [Management Tools ](#management-tools-detailshttpdocsawsamazoncomgettingstartedlatestawsgsg-introgsg-aws-managementhtml)
 * [How do I use it?](#how-do-i-use-it)
 * [Keypoints on AWS and what is good?](#keypoints-on-aws-and-what-is-good)
 * [Example Steps for deploying an app](#example-steps-for-deploying-an-app)
