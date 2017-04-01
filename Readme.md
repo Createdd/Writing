@@ -22,7 +22,7 @@ Starting to write different articles about different things and document here �
 1. [📖 Summary of #AskGaryVee ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AskGaryVee.md)
 1. [💻 Introduction to C# and .NET ](https://github.com/DDCreationStudios/Writing/blob/master/articles/CSandNET.md)
 1. [🌐 Introduction to AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSIntro.md)
-1. [🌐 First steps in AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSFirstSteps.md)
+1. [🌐 Hosting a static website with AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSStaticWebsite.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
