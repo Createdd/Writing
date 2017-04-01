@@ -78,6 +78,7 @@ CloudFront simply provides CDN functionality.
 Use the [CloudFront console](https://console.aws.amazon.com/cloudfront/) to set up data centers around the world.
 
 ❗ Don't forget to update you **record sets** to point to the CloudFront distributions as well. ❗
+
 This again is done in the [Route53 console](https://console.aws.amazon.com/route53/).
 
 
