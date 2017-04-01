@@ -18,15 +18,26 @@ The AWS Management Console provides different guides to get started. I started w
 ---
 
 
-## Set up a user management
+## 1. Set up a user management
 Firstly create an AWS account - simply follow the instructions on their homepage.
 
 Next set up an "Identity and Access Management" (IAM) to create access keys and not being forced to use your own account credentials.
 Use the [IAM console](https://console.aws.amazon.com/iam/) to add a new user and a new group.
 
->Tip: When logging in with the new user, be sure to use the password from your main account and not the set "console password" - since it isn't refering to your AWS Management Console password.
+>Tip: When logging in with the new user, be sure to use the password from your main account and not the set "console password" - since it isn't referring to your AWS Management Console password.
 
-##
+## 2. Create Buckets
+
+>You can use Amazon Simple Storage Service (Amazon S3) to store all the content that makes up your static website, including HTML pages, images, CSS files, videos, and JavaScript files. Each file is stored in Amazon S3 as an object in a location called a bucket.
+
+The buckets need to have the same name as your domain to be resolved properly.
+
+To create the bucket use the [S3 console](https://console.aws.amazon.com/s3/).
+
+## 3. Configure buckets
+
+
+
 
 
 
