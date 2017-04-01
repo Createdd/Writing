@@ -35,8 +35,14 @@ The buckets need to have the same name as your domain to be resolved properly.
 To create the bucket use the [S3 console](https://console.aws.amazon.com/s3/).
 
 ## 3. Configure buckets
+S3 delivers the files in the bucket to the web browsers as if they were hosted on a server. Permissions have to be granted to make the files accessible for everyone.
 
+Use the [S3 console](https://console.aws.amazon.com/s3/) to change permissions and properties of the bucket.
 
+**Logging** allows to track the number of visitors, that are accessing the website.
+>There is no extra charge for enabling logging on a bucket; however, you will accrue charges to store the resulting log files in the bucket that you specify.
+
+## 4. Deploy Website
 
 
 
