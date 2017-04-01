@@ -44,6 +44,26 @@ Use the [S3 console](https://console.aws.amazon.com/s3/) to change permissions a
 
 ## 4. Deploy Website
 
+Create and upload a Index and Custom Error document.
+Use the [S3 console](https://console.aws.amazon.com/s3/) to upload your files to the bucket.
+It is also possible to create folders in the bucket itself.
+
+Configure your bucket as a website, so that files are served as if they were hosted on a web server.
+
+**Redirecting**
+By redirecting traffic from the www subdomain bucket to the root domain bucket, you can maintain a single version of your website files in Amazon S3 while still supporting both the root and www subdomain versions of your website's address.
+
+**Test**
+To see if the deployment was successful navigate to the provided URL.
+
+In my case it was: http://ddcshelloworld.s3-website.eu-central-1.amazonaws.com
+
+## 5. Using your own domain name
+
+
+
+
+
 
 
 
