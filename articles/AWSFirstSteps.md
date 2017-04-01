@@ -56,11 +56,29 @@ By redirecting traffic from the www subdomain bucket to the root domain bucket, 
 **Test**
 To see if the deployment was successful navigate to the provided URL.
 
-In my case it was: http://ddcshelloworld.s3-website.eu-central-1.amazonaws.com
 
-## 5. Using your own domain name
+## 5. Variation: Using your own domain name
 
+Again: Before you pay to register a domain name, check that the domain name that you used when you created your buckets in Amazon S3 (as described in Step 1: Create the Buckets for Your Website) is available with a domain name registrar.
 
+>A Domain Name System (DNS) web service routes visitors to websites by translating domain names (such as www.example.com) into the numeric IP addresses (such as 192.0.2.1) that computers use to connect to each other.
+
+Use Amazon Route 53 as your DNS service, to associate a domain name with your website.
+
+To do that us the [Route53 console](https://console.aws.amazon.com/route53/)
+
+- a "hosted zone" allows you to handle your domain and subdomain management
+- "record sets" re-direct route queries for your domain name to your S3 bucked
+
+## 6. Addition: Speed up your Website with CloudFront
+
+CloudFront simply provides CDN functionality.
+>When a visitor requests a file from your website, the request is automatically redirected to a copy of the file at the nearest edge location, which results in faster download times than if the visitor had requested the content from a data center farther away
+
+Use the [CloudFront console](https://console.aws.amazon.com/cloudfront/) to set up data centers around the world.
+
+❗ Don't forget to update you **record sets** to point to the CloudFront distributions as well. ❗
+This again is done in the [Route53 console](https://console.aws.amazon.com/route53/).
 
 
 
@@ -70,23 +88,18 @@ In my case it was: http://ddcshelloworld.s3-website.eu-central-1.amazonaws.com
 ####
 
 
-<img src="https://media.amazonwebservices.com/blog/2007/big_pbaws_logo_300px.jpg" alt="apps" height="200"/>
-Source https://aws.amazon.com
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" alt="AWS logo"/>
+Source https://commons.wikimedia.org/wiki/File:AmazonWebservices_Logo.svg
 
 ## Conclusion
 
+The guide shows how easy it actually is to set up a static hosting site. It can be done in a few hours and provides a lot of features. This first tutorial already demonstrates the power of AWS. Every beginner can easily publish his first website without complex knowledge of how to set up a hosting structure. I'm pleased :)
 
 
 
 
 ## Useful links & credits
 - [📄 "Hosting a static Website" - Amazon (guide)](https://aws.amazon.com/de/getting-started/projects/host-static-website/?c_1)
-- [📄 "sfdsdgd"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
