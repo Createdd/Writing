@@ -3,17 +3,24 @@
 [<img src="https://images.unsplash.com/reserve/wBE2ADjQzK2ubCBMiy7T_DSC_0285.JPG?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/IT4Za_Q_dTA) https://unsplash.com/photos/IT4Za_Q_dTA
 
 Amazon Web Services provide a 12-month free trial with a certain usage threshold. Let's jump into it and see what we can do with it.
-The AWS Management Console provides different guides to get started. I started with a simple website.
-
+The AWS Management Console provides different guides to get started. I started with a simple static website.
 
 
 ## 📄 Table of contents
 
+* [1. Set up a user management](#1-set-up-a-user-management)
+* [2. Create Buckets](#2-create-buckets)
+* [3. Configure buckets](#3-configure-buckets)
+* [4. Deploy Website](#4-deploy-website)
+* [5. Variation: Using your own domain name](#5-variation-using-your-own-domain-name)
+* [6. Addition: Speed up your Website with CloudFront](#6-addition-speed-up-your-website-with-cloudfront)
+* [Conclusion](#conclusion)
+* [Useful links & credits](#useful-links-credits)
 
 
 ---
 
->"“If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.”" - Jeff Bezos
+>"If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table." - Jeff Bezos
 
 ---
 
