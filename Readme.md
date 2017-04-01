@@ -20,8 +20,9 @@ Starting to write different articles about different things and document here �
 1. [📝 How to write User Stories - The practical way ](https://github.com/DDCreationStudios/Writing/blob/master/articles/UserStoriesHowTo.md)
 1. [⚖️ Introduction to licensing in open source ](https://github.com/DDCreationStudios/Writing/blob/master/articles/LicensingInOpenSource.md)
 1. [📖 Summary of #AskGaryVee ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AskGaryVee.md)
-1. [💻 Introduction to C# and .NET ](https://github.com/DDCreationStudios/Writing/blob/master/articles/CSandNET.md) #
+1. [💻 Introduction to C# and .NET ](https://github.com/DDCreationStudios/Writing/blob/master/articles/CSandNET.md)
 1. [🌐 Introduction to AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSIntro.md)
+1. [🌐 First steps in AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSFirstSteps.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
