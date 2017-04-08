@@ -39,7 +39,9 @@ That's a very good example of how easy it actually can get. I also list these, b
 
 Francis Kim explained in his [article](https://franciskim.co/promise-based-scraper-in-node-js/) how he scraped an certification website and automatically renders out an up-to-date list of developers. He uses promises and mongodb. It's amazing how he  turns a callback based MongoDB native Node.js driver into a promise based one. Definitely check it out.
 
-Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Headless WebKit
+Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit PhantomJS with the Horseman API. He created a CLI micro-framework that crawls your github repositories as an example.
+
+
 
 
 ##
