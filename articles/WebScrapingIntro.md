@@ -13,6 +13,7 @@ From the point I started to learn about web development I was enthusiastic about
 * [Introduction to Webscraping with Javascript and Node.js](#introduction-to-webscraping-with-javascript-and-nodejs)
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
+  * [A list of established Node.js crawlers on Github](#a-list-of-established-nodejs-crawlers-on-github)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -41,6 +42,13 @@ Francis Kim explained in his [article](https://franciskim.co/promise-based-scrap
 
 Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit PhantomJS with the Horseman API. He created a CLI micro-framework that crawls your github repositories as an example.
 
+
+
+## A list of established Node.js crawlers on Github
+
+- [spider by Mikeal](https://github.com/mikeal/spider)
+- [node-simplecrawler by cgiffard](https://github.com/cgiffard/node-simplecrawler)
+- [node-crawler by bda-research](https://github.com/bda-research/node-crawler)
 
 
 
