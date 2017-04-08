@@ -1,4 +1,4 @@
-# First Steps Amazon Web Services (AWS)
+# Introduction to Webscraping with Javascript and Node.js
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
@@ -10,8 +10,9 @@ From the point I started to learn about web development I was enthusiastic about
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [First Steps Amazon Web Services (AWS)](#first-steps-amazon-web-services-aws)
+* [Introduction to Webscraping with Javascript and Node.js](#introduction-to-webscraping-with-javascript-and-nodejs)
   * [📄 Table of contents](#table-of-contents)
+  * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -25,7 +26,16 @@ From the point I started to learn about web development I was enthusiastic about
 ---
 
 
-##
+## 1. Frameworks and libraries
+
+In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/scraping-the-web-with-node-js) by Scotch.io following frameworks are used to simple traverse a film review website:
+
+- NodeJS
+- ExpressJS: minimal and flexible Node.js web application framework with features for web and mobile applications
+- Request: Helps making HTTP calls
+- Cheerio: Implementation of core jQuery specifically for the server (helps to traverse the DOM and extract data)
+
+That's a very good example of how easy it actually can get.
 
 ##
 
@@ -44,7 +54,7 @@ https://unsplash.com/photos/ywJPwawYR08
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Scraping the web with node js" - scotch.io](https://scotch.io/tutorials/scraping-the-web-with-node-js)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
