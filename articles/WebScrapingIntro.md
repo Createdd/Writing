@@ -42,6 +42,9 @@ Francis Kim explained in his [article](https://franciskim.co/promise-based-scrap
 
 Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit PhantomJS with the Horseman API. He created a CLI micro-framework that crawls your github repositories as an example.
 
+Stephen from netinstructions.com reveals the sheer simplicity of web scrapting in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
+His strategy is to identify the structure of the site he wants to crawl with the chrome devtools and then put the the scraped elements in a .txt file together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup a such crawlers in Node.js.
+
 
 
 ## A list of established Node.js crawlers on Github
@@ -76,8 +79,8 @@ Web Crawling with Node, PhantomJS and Horseman
 - [📄 "Promise Based Scraper in Node.js" - Francis Kim](https://franciskim.co/promise-based-scraper-in-node-js/)
 - [📄 "MongoDB For Beginners: Introduction And Installation" -  Jake Rocheleau](http://www.hongkiat.com/blog/webdev-with-mongodb-part1/)
 - [📄 "Web Crawling with Node, PhantomJS and Horseman" - Andrew Forth](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Simple web scraping with Node.js and Javascript" - Stephen from Netinstructions.com](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/)
+- [📄 "How to make a simple web crawler with Node.js and Javascript" - Stephen from Netinstructions.com"](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
