@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/reserve/wBE2ADjQzK2ubCBMiy7T_DSC_0285.JPG?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/IT4Za_Q_dTA) https://unsplash.com/photos/IT4Za_Q_dTA
 
-Amazon Web Services provide a 12-month free trial with a certain usage threshold. Let's jump into it and see what we can do with it.
+Amazon Web Services provides a 12-month free trial with a certain usage threshold. Let's jump into it and see what we can do with it.
 The AWS Management Console provides different guides to get started. I started with a simple static website.
 
 
@@ -86,15 +86,7 @@ Use the [CloudFront console](https://console.aws.amazon.com/cloudfront/) to set 
 
 ❗ Don't forget to update you **record sets** to point to the CloudFront distributions as well. ❗
 
-This again is done in the [Route53 console](https://console.aws.amazon.com/route53/).
-
-
-
-
-
-
-####
-
+This again, is done in the [Route53 console](https://console.aws.amazon.com/route53/).
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" alt="AWS logo"/>
 Source https://commons.wikimedia.org/wiki/File:AmazonWebservices_Logo.svg
@@ -102,8 +94,6 @@ Source https://commons.wikimedia.org/wiki/File:AmazonWebservices_Logo.svg
 ## Conclusion
 
 The guide shows how easy it actually is to set up a static hosting site. It can be done in a few hours and provides a lot of features. This first tutorial already demonstrates the power of AWS. Every beginner can easily publish his first website without complex knowledge of how to set up a hosting structure. I'm pleased :)
-
-
 
 
 ## Useful links & credits
