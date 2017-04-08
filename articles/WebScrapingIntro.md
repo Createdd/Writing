@@ -35,7 +35,12 @@ In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/s
 - Request: Helps making HTTP calls
 - Cheerio: Implementation of core jQuery specifically for the server (helps to traverse the DOM and extract data)
 
-That's a very good example of how easy it actually can get.
+That's a very good example of how easy it actually can get. I also list these, because they are actually the most used ones in the tutorials available.
+
+Francis Kim explained in his [article](https://franciskim.co/promise-based-scraper-in-node-js/) how he scraped an certification website and automatically renders out an up-to-date list of developers. He uses promises and mongodb. It's amazing how he  turns a callback based MongoDB native Node.js driver into a promise based one. Definitely check it out.
+
+Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Headless WebKit
+
 
 ##
 
@@ -49,16 +54,24 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
+Web Crawling with Node, PhantomJS and Horseman
+
 
 
 
 
 ## Useful links & credits
 - [📄 "Scraping the web with node js" - scotch.io](https://scotch.io/tutorials/scraping-the-web-with-node-js)
+- [📄 "Web Scraping / Web Crawling Pages with Node.js" - JonathanMH](https://jonathanmh.com/web-scraping-web-crawling-pages-with-node-js/)
+- [📄 "Promise Based Scraper in Node.js" - Francis Kim](https://franciskim.co/promise-based-scraper-in-node-js/)
+- [📄 "MongoDB For Beginners: Introduction And Installation" -  Jake Rocheleau](http://www.hongkiat.com/blog/webdev-with-mongodb-part1/)
+- [📄 "Web Crawling with Node, PhantomJS and Horseman" - Andrew Forth](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+-
 
 ```
 Please leave comments, feedback and suggestions as I am always trying to improve.
