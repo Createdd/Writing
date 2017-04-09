@@ -67,6 +67,11 @@ This makes perfect sense because people put effort and knowledge into their onli
 
 This extends to social media platforms in particular. Using their data and creating automated bots violate their fundamental principle of human interaction. It's therefore safe to assume that any kind of bots violate some applicable law.
 
+This [article](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes) from 2013 shows the legal complexity in more detail.
+
+They conclude:
+>Ultimately, while the claims and theories that may be advanced in connection with the use of web crawling and scraping tools for analytics purposes have yet to be deeply explored by courts, this is likely a temporary state of affairs. Rather, given the increasing number and availability of tools for aggregation and analysis of content in the Big Data era, courts will ultimately be required to address these complicated issues.
+
 Having that said, be prepared to face the consequences when site operators ban or sue you for infringing their principles.
 
 ## A list of established Node.js crawlers on Github
@@ -103,14 +108,13 @@ Web Crawling with Node, PhantomJS and Horseman
 - [📄 "Web Crawling with Node, PhantomJS and Horseman" - Andrew Forth](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/)
 - [📄 "Simple web scraping with Node.js and Javascript" - Stephen from Netinstructions.com](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/)
 - [📄 "How to make a simple web crawler with Node.js and Javascript" - Stephen from Netinstructions.com"](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Legal issues raused by the use of web crawling tools" -  Bloomberg Law Reports ](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 -
 
 ```
-Please leave comments, feedback and suggestions as I am always trying to improve.
-Share your thoughts - it's never been easier 😄
+If you gained something from this article let me know as a comment or heart. Make sure to follow for more :)
 ```
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
