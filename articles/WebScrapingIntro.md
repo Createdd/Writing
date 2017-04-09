@@ -65,7 +65,9 @@ Copyright, privacy, competitive and civil law aspects may be violated depending 
 In my opinion it's safe to say that, if you have the feeling that some web scrapping actions are not legal, it probably isn't. Websites and, or databases often protected by simple intellectual property law. It means that others are not allowed to use the data that is presented on the website.
 This makes perfect sense because people put effort and knowledge into their online presentation and created data.
 
-This
+This extends to social media platforms in particular. Using their data and creating automated bots violate their fundamental principle of human interaction. It's therefore safe to assume that any kind of bots violate some applicable law.
+
+Having that said, be prepared to face the consequences when site operators ban or sue you for infringing their principles.
 
 ## A list of established Node.js crawlers on Github
 
