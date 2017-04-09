@@ -14,7 +14,7 @@ From the point I started to learn about web development I was enthusiastic about
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
-  * [The legal side of web crawling](#the-legal-side-of-web-crawling)
+  * [3. The legal side of web crawling](#3-the-legal-side-of-web-crawling)
       * [Terms of use](#terms-of-use)
       * [Law in a wider sense](#law-in-a-wider-sense)
   * [A list of established Node.js crawlers on Github](#a-list-of-established-nodejs-crawlers-on-github)
@@ -40,7 +40,7 @@ In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/s
 - Request: Helps making HTTP calls
 - Cheerio: Implementation of core jQuery specifically for the server (helps to traverse the DOM and extract data)
 
-That's a very good example of how easy it actually can get. I also list these, because they are actually the most used ones in the tutorials available.
+That's a very good example of how easy it actually can get. I list these, because they are actually the most used ones in most of the tutorials available.
 
 ## 2. Examples
 
@@ -51,7 +51,9 @@ That's a very good example of how easy it actually can get. I also list these, b
 - Stephen from netinstructions.com reveals the sheer simplicity of web scrapting in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
 His strategy is to identify the structure of the site he wants to crawl with the chrome devtools, grabs elements with **`cheerio` and then put the the scraped elements in a .txt file** together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
 
-## The legal side of web crawling
+- The article ["My open source Instagram bot got me 2,500 real followers"](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) by TimG serves a great example for using **web crawling in Python with the Selenium framework** for real life purposes. Social media steadily gains importance in the marketing of businesses and using bots can be a valuable variable in executive decisions. His approach shows the effectiveness of simply programming. Definitely worth checking out!
+
+## 3. The legal side of web crawling
 
 Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
 
@@ -109,7 +111,7 @@ Web Crawling with Node, PhantomJS and Horseman
 - [📄 "Simple web scraping with Node.js and Javascript" - Stephen from Netinstructions.com](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/)
 - [📄 "How to make a simple web crawler with Node.js and Javascript" - Stephen from Netinstructions.com"](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/)
 - [📄 "Legal issues raused by the use of web crawling tools" -  Bloomberg Law Reports ](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "My open source Instagram bot" - TimG ](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340)
 - [📄 "Begin"](afgafgadgads)
 -
 
