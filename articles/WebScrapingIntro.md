@@ -14,6 +14,7 @@ From the point I started to learn about web development I was enthusiastic about
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
+  * [Scraping JavaScript rendered sites?](#scraping-javascript-rendered-sites)
   * [3. The legal side of web crawling](#3-the-legal-side-of-web-crawling)
       * [Terms of use](#terms-of-use)
       * [Law in a wider sense](#law-in-a-wider-sense)
@@ -53,6 +54,10 @@ His strategy is to identify the structure of the site he wants to crawl with the
 
 - The article ["My open source Instagram bot got me 2,500 real followers"](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) by TimG serves a great example for using **web crawling in Python with the Selenium framework** for real life purposes. Social media steadily gains importance in the marketing of businesses and using bots can be a valuable variable in executive decisions. His approach shows the effectiveness of simply programming. Definitely worth checking out!
 
+## Scraping JavaScript rendered sites?
+
+The discussion about crawlabilty of JavaScript rendered websites reaches back many years and mostly discussed in terms of search engine optimization (SEO).
+
 ## 3. The legal side of web crawling
 
 Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
@@ -64,7 +69,7 @@ First thing to look for are terms of use. Some Site explicitly address the possi
 
 Copyright, privacy, competitive and civil law aspects may be violated depending on each case. It's important to see the difficulties between court rulings in different countries (especially America and Europe) and simply missing legislation caused by the fast progression of "internet cases".
 
-In my opinion it's safe to say that, if you have the feeling that some web scrapping actions are not legal, it probably isn't. Websites and, or databases often protected by simple intellectual property law. It means that others are not allowed to use the data that is presented on the website.
+It's safe to say that, if you have the feeling that some web scrapping actions are not legal, they probably aren't. Websites and, or databases often protected by simple intellectual property law. Which means that others are not allowed to use the data that is presented on the website.
 This makes perfect sense because people put effort and knowledge into their online presentation and created data.
 
 This extends to social media platforms in particular. Using their data and creating automated bots violate their fundamental principle of human interaction. It's therefore safe to assume that any kind of bots violate some applicable law.
@@ -112,8 +117,13 @@ Web Crawling with Node, PhantomJS and Horseman
 - [📄 "How to make a simple web crawler with Node.js and Javascript" - Stephen from Netinstructions.com"](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/)
 - [📄 "Legal issues raused by the use of web crawling tools" -  Bloomberg Law Reports ](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes)
 - [📄 "My open source Instagram bot" - TimG ](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340)
+- [📄 "Ultimate guide for scraping JavaScript rendered web pages" - Naren Aryan](https://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/)
 - [📄 "Begin"](afgafgadgads)
--
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
+- [📄 "Begin"](afgafgadgads)
 
 ```
 If you gained something from this article let me know as a comment or heart. Make sure to follow for more :)
