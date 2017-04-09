@@ -14,6 +14,9 @@ From the point I started to learn about web development I was enthusiastic about
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
+  * [The legal side of web crawling](#the-legal-side-of-web-crawling)
+      * [Terms of use](#terms-of-use)
+      * [Law in a wider sense](#law-in-a-wider-sense)
   * [A list of established Node.js crawlers on Github](#a-list-of-established-nodejs-crawlers-on-github)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -41,14 +44,28 @@ That's a very good example of how easy it actually can get. I also list these, b
 
 ## 2. Examples
 
-- Francis Kim explained in his [article](https://franciskim.co/promise-based-scraper-in-node-js/) how he scraped an certification website and automatically renders out an up-to-date list of developers. He uses promises and mongodb. It's amazing how he  turns a callback based MongoDB native Node.js driver into a promise based one. Definitely check it out.
+- Francis Kim explained in his [article](https://franciskim.co/promise-based-scraper-in-node-js/) how he scraped an certification website and automatically renders out an up-to-date list of developers. He uses **promises and mongodb**. It's amazing how he turns a callback based MongoDB native Node.js driver into a promise based one. Definitely check it out.
 
-- Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit PhantomJS with the Horseman API. He created a CLI micro-framework that crawls your github repositories as an example.
+- Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit **PhantomJS with the Horseman API**. He created a CLI micro-framework that crawls your github repositories as an example.
 
 - Stephen from netinstructions.com reveals the sheer simplicity of web scrapting in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
-His strategy is to identify the structure of the site he wants to crawl with the chrome devtools and then put the the scraped elements in a .txt file together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
+His strategy is to identify the structure of the site he wants to crawl with the chrome devtools, grabs elements with **`cheerio` and then put the the scraped elements in a .txt file** together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
 
+## The legal side of web crawling
 
+Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
+
+#### Terms of use
+First thing to look for are terms of use. Some Site explicitly address the possibility of using their website with scrapping APIs. Always be sure to take a look at these before.
+
+#### Law in a wider sense
+
+Copyright, privacy, competitive and civil law aspects may be violated depending on each case. It's important to see the difficulties between court rulings in different countries (especially America and Europe) and simply missing legislation caused by the fast progression of "internet cases".
+
+In my opinion it's safe to say that, if you have the feeling that some web scrapping actions are not legal, it probably isn't. Websites and, or databases often protected by simple intellectual property law. It means that others are not allowed to use the data that is presented on the website.
+This makes perfect sense because people put effort and knowledge into their online presentation and created data.
+
+This
 
 ## A list of established Node.js crawlers on Github
 
