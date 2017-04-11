@@ -57,6 +57,10 @@ His strategy is to identify the structure of the site he wants to crawl with the
 ## Scraping JavaScript rendered sites?
 
 The discussion about crawlabilty of JavaScript rendered websites reaches back many years and mostly discussed in terms of search engine optimization (SEO).
+An easy answer for writing your own crawlers are HTML-rendering-engines that allow you to do the same as a normal browser.
+Whereas there are many tools that allow you to meme such behavior, a practical example would be a [webdriver](http://webdriver.io/) used by [Selenium](http://www.seleniumhq.org/projects/webdriver/).
+
+
 
 ## 3. The legal side of web crawling
 
@@ -101,7 +105,7 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
-Web Crawling with Node, PhantomJS and Horseman
+
 
 
 
@@ -123,7 +127,7 @@ Web Crawling with Node, PhantomJS and Horseman
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Web crawler development tutorials" - PatentPages](https://potentpages.com/web-crawler-development/tutorials/nodejs/)
 
 ```
 If you gained something from this article let me know as a comment or heart. Make sure to follow for more :)
