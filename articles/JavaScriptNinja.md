@@ -3,7 +3,8 @@
 [<img src="https://images.unsplash.com/photo-1476799460608-daf4ca3ef6c2?dpr=2&auto=format&fit=crop&w=767&h=510&q=80&cs=tinysrgb&crop=&bg=">](https://unsplash.com/photos/VDlG0OfIanU)https://unsplash.com/photos/VDlG0OfIanU
 
 
-Here is a short summary and my takeaways from Resig, Bibeault, Maras book Secrets of the JavaScript Ninja.  As an advanced beginner I was looking for a book that provides not only a great introduction, but also some in-depth content about JavaScript. The exceeded my expectations - it simply was a great read. The Manning publications always are able to provide great, high quality introductions to a topic with their well designed structure in their books.
+Here is a short summary and my takeaways from Resig, Bibeault, Maras book "Secrets of the JavaScript Ninja".  As an advanced beginner I was looking for a book that provides not only a great introduction, but also some in-depth content about JavaScript. The book exceeded my expectations - it simply was a great read. The Manning publications always provide great, high quality introductions to a topic with their well designed structure.
+
 This summary contains some quotes from the book and is designed to provide an overview about what this book is about.
 
 ## 📄 Table of contents
