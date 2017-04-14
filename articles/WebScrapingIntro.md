@@ -1,8 +1,8 @@
-# Introduction to Webscraping with Javascript and Node.js
+# Webscraping /-crawling with Javascript and Node.js
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
-From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I demonstrate the basics with an easy example.
+From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scrapping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
 
 
 ## 📄 Table of contents
@@ -10,12 +10,12 @@ From the point I started to learn about web development I was enthusiastic about
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [Introduction to Webscraping with Javascript and Node.js](#introduction-to-webscraping-with-javascript-and-nodejs)
+* [Webscraping /-crawling with Javascript and Node.js](#webscraping-crawling-with-javascript-and-nodejs)
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
-  * [Scraping JavaScript rendered sites?](#scraping-javascript-rendered-sites)
-  * [3. The legal side of web crawling](#3-the-legal-side-of-web-crawling)
+  * [3. Scraping JavaScript rendered sites?](#3-scraping-javascript-rendered-sites)
+  * [4. The legal side of web crawling](#4-the-legal-side-of-web-crawling)
       * [Terms of use](#terms-of-use)
       * [Law in a wider sense](#law-in-a-wider-sense)
   * [A list of established Node.js crawlers on Github](#a-list-of-established-nodejs-crawlers-on-github)
@@ -47,14 +47,17 @@ That's a very good example of how easy it actually can get. I list these, becaus
 
 - Francis Kim explained in his [article](https://franciskim.co/promise-based-scraper-in-node-js/) how he scraped an certification website and automatically renders out an up-to-date list of developers. He uses **promises and mongodb**. It's amazing how he turns a callback based MongoDB native Node.js driver into a promise based one. Definitely check it out.
 
+
 - Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit **PhantomJS with the Horseman API**. He created a CLI micro-framework that crawls your github repositories as an example.
+
 
 - Stephen from netinstructions.com reveals the sheer simplicity of web scrapting in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
 His strategy is to identify the structure of the site he wants to crawl with the chrome devtools, grabs elements with **`cheerio` and then put the the scraped elements in a .txt file** together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
 
+
 - The article ["My open source Instagram bot got me 2,500 real followers"](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) by TimG serves a great example for using **web crawling in Python with the Selenium framework** for real life purposes. Social media steadily gains importance in the marketing of businesses and using bots can be a valuable variable in executive decisions. His approach shows the effectiveness of simply programming. Definitely worth checking out!
 
-## Scraping JavaScript rendered sites?
+## 3. Scraping JavaScript rendered sites?
 
 The discussion about crawlabilty of JavaScript rendered websites reaches back many years and mostly discussed in terms of search engine optimization (SEO).
 An easy answer for writing your own crawlers are HTML-rendering-engines that allow you to do the same as a normal browser.
@@ -62,7 +65,7 @@ Whereas there are many tools that allow you to meme such behavior, a practical e
 
 
 
-## 3. The legal side of web crawling
+## 4. The legal side of web crawling
 
 Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
 
