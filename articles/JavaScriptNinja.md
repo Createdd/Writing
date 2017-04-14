@@ -208,19 +208,14 @@ Cross-browser development involves:
 Techniques like feature detection with polyfills assure that the code is complete and protect against attacks from different directions.
 
 
-
 <img src="https://images.unsplash.com/photo-1482682862782-8673966590d3?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="apps" height="200"/>
 https://unsplash.com/photos/7WImcXVzyHk
 
 ## Conclusion
 
+
+
 <a rel="nofollow" href="https://www.amazon.de/gp/product/1617292850/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=1617292850&linkCode=as2&tag=ddcr-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1617292850&Format=_SL110_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=ddcr-21" ></a><img src="http://ir-de.amazon-adsystem.com/e/ir?t=ddcr-21&l=as2&o=3&a=1617292850" width="200" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-
-<img src="https://images-na.ssl-images-amazon.com/images/I/51UYwOhvQPL._SX395_BO1,204,203,200_.jpg" alt="apps" height="200"/>
-https://unsplash.com/photos/7WImcXVzyHk
-
-
 
 
 <a rel="nofollow" href="https://www.amazon.de/gp/product/1617292850/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=1617292850&linkCode=as2&tag=ddcr-21">Secrets of the JavaScript Ninja, Second Edition</a><img src="http://ir-de.amazon-adsystem.com/e/ir?t=ddcr-21&l=as2&o=3&a=1617292850" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
