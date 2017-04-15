@@ -23,6 +23,8 @@ Starting to write different articles about different things and document here �
 1. [💻 Introduction to C# and .NET ](https://github.com/DDCreationStudios/Writing/blob/master/articles/CSandNET.md)
 1. [🌐 Introduction to AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSIntro.md)
 1. [🌐 Hosting a static website with AWS ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AWSStaticWebsite.md)
+1. [🌐 Web scraping ](https://github.com/DDCreationStudios/Writing/blob/master/articles/WebScrapingIntro.md)
+1. [📖 Summary of Secrets of a JavaScript Ninja ](https://github.com/DDCreationStudios/Writing/blob/master/articles/JavaScriptNinja.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
