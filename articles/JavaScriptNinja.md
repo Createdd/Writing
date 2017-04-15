@@ -19,6 +19,7 @@ This summary contains some quotes from the book and is designed to provide an ov
   * [3.First-class functions: definitions and arguments](#3first-class-functions-definitions-and-arguments)
   * [4.Understanding function invocation](#4understanding-function-invocation)
   * [5.Closures and Scopes](#5closures-and-scopes)
+  * [6.Generators and promises](#6generators-and-promises)
   * [7.Object orientation with prototypes](#7object-orientation-with-prototypes)
   * [8.Controlling access to objects](#8controlling-access-to-objects)
   * [9.Dealing with collections](#9dealing-with-collections)
@@ -102,17 +103,17 @@ Closures are especially useful for:
 
 JS engines track function execution through an execution stack and identifiers with lexical environments (scopes).
 Variables can be globally-scoped, function-scoped and block-scoped:
-* the var keyword defines a variable in the closest function or global scope
-* let and const define a variable in the closest scope (including blocks)
-* const allows to define variables whose values can be assigned only once
+* the `var` keyword defines a variable in the closest function or global scope
+* `let` and `const` define a variable in the closest scope (including blocks)
+* `const` allows to define variables whose values can be assigned only once
 
-6.Generators and promises
+## 6.Generators and promises
 Generators are functions that generate sequences of values - not all at once, but on a per request basis.
 Unlike standard functions, generators can suspend and resume their execution. Within the body of a generator, the yield keyword yields a value and suspends the execution of the generator.
 Calling a generator creates an iterator object through which we control the execution of the generator. New values are requested with the next method and exceptions are thrown with the throw method.
 
 A promise is a placeholder for the results of a computation; most often asynchronous computation. A promise can either succeed or fail, and after it has done so, no more changes will be made.
-Promises simplify the handling of asynchronous tasks significantly as interdependent asynchronous steps by using the then method to chain promises. The Promise.all method allows parallel handling of multiple asynchronous steps.
+Promises simplify the handling of asynchronous tasks significantly as interdependent asynchronous steps by using the then method to chain promises. The `Promise.all` method allows parallel handling of multiple asynchronous steps.
 
 When combining promises and generators, asynchronous tasks can be handled elegantly with the simplicity of synchronous code.
 
@@ -125,8 +126,8 @@ ES6 allows the class keyword that enables to mimic classes in JS (still based on
 
 ## 8.Controlling access to objects
 Objects can be monitored with getters, setters and proxies.
-Accessor properties can be defined by using get or set syntax as part of the object literal or ES6 classes.
-A get method is implicitly called whenever a value is read, a set method is called whenever a value is assigned to the matching object’s property.
+Accessor properties can be defined by using `get` or `set` syntax as part of the object literal or ES6 classes.
+A `get` method is implicitly called whenever a value is read, a set method is called whenever a value is assigned to the matching object’s property.
 Getter methods are used for defining computed properties, whereas setter methods are used for data validation and logging.
 
 Proxies are ES6 features that allow to control other objects in JS. They enable to define custom actions that will be executed when an object is interacted with. All interactions have to go through the proxy, which traps specific actions.
@@ -134,17 +135,18 @@ Proxies are used for logging, performance measurements, data validation, auto-po
 Be aware that proxies are not fast and can effect performance.
 
 ## 9.Dealing with collections
-Arrays are a special type of object with a length property and an Array.prototype as their prototype.
+Arrays are a special type of object with a length property and an `Array.prototype` as their prototype.
 Common methods for modifying an array are:
-* push and pop methods for adding and removing an item from the end of an array
-* shift and unshift methods for adding and removing an item from the beginning of an array
-* splice method for adding and removing an item from arbitrary array positions
-* map method for calling a callback on every element and creating a new array
-* every and some methods for determining whether items satisfy certain criterions
-* find and filter methods for  finding items that satisfy certain conditions
-* sort method for sorting an array
-* reduce method aggregates all items in an array into one single value
-Setting call or apply methods allow to reuse built-in array methods on objects.
+* `push` and `pop` methods for adding and removing an item from the end of an array
+* `shift` and `unshift` methods for adding and removing an item from the beginning of an array
+* `splice` method for adding and removing an item from arbitrary array positions
+* `map` method for calling a callback on every element and creating a new array
+* `every` and `some` methods for determining whether items satisfy certain criterions
+* `find` and `filter` methods for  finding items that satisfy certain conditions
+* `sort` method for sorting an array
+* `reduce` method aggregates all items in an array into one single value
+
+Setting `call` or `apply` methods allow to reuse built-in array methods on objects.
 
 Maps and dictionaries are objects that contain mappings between a key and a value.
 Objects aren’t made for mapping because only string values can be used as keys and therefore running the risk of accessing prototype properties. Use the map collection instead.
@@ -157,16 +159,19 @@ Regular Expressions trivialize the process of tearing apart strings and looking 
 * locating partial selectors within a CSS selector expression
 * determining whether an element has a specific class name
 * input validation
-ReEx can be created using literals (/test/) or the RegExp constructor ( new RegExp(„test“)).
+
+RegEx can be created using literals (/test/) or the RegExp constructor ( new RegExp(„test“)).
 Flags can be used to qualify your target:
 * i for case-insensitive
 * g for all instances of a pattern
 * m for multiple lines
 * y for sticky matching
 * u for the use of Unicode escapes
+
 Every string has access to the match function, which takes in a regular expression and returns an array containing the entire matched string along with any matched captures. The replace function, which causes a replacement on pattern matches rather than on a fixed string.
 
 ## 11.Code modularization
+
 Modules are larger units of organizing code and allow to divide a program into more understandable , easier maintainable and improved reusable clusters of code.
 Before ES6 modules has only been created by combining immediately invoked functions with closures. The immediate function created a new scope for defining variables and closures kept the variables alive from the outside. Two other module pattern are Asynchronous Module Definition (AMD)  and CommonJS.
 
@@ -177,24 +182,32 @@ ES6 modules combine the features of CommonJS and AMD:
 * imports and exports can be renamed with the as keyword
 
 ## 12.Working the DOM
+
 Converting an HTML string into DOM elements includes the following steps:
+
 * the HTML string has to be valid HTML code
 * wrap it into enclosing markup
 * insert HTML into a DOM element
 * extract the created DOM node
-DOM attributes can be handled by getAttribute or setAttribute, DOM properties can be used with object property notation.
+
+DOM attributes can be handled by `getAttribute` or `setAttribute`, DOM properties can be used with object property notation.
 The style element property is an object that holds properties corresponding to the style values specified in the element markup.
 
 ## 13.Surviving events
+
 Event-loop tasks represent an action performed by the browser. Tasks are grouped into two categories:
+
 * Macrotasks are self-contained browser actions like creating the main document, handling events, and making URL changes
 * Microtasks are smaller tasks, that are executed as soon as possible. For example promise callbacks and DOM mutation changes
-JS works with a single-threaded execution model with at least two queues. (One for makrotasks and one for microtasks)
+
+JS works with a single-threaded execution model with at least two queues. (One for macrotasks and one for microtasks)
 Timers can be used to break up computationally expensive code into manageable chunks.
 
 An event that occurs on an element is usually propagated through the DOM. There are two propagation mechanisms:
+
 * In event capturing, the event goes down from the top element to the target element
 * In event bubbling, the event goes up from the target element to the top element
+
 When calling event handlers, the browser passes in an event object. Elements can be accessed with the target property, and the  this keyword is used to refer to the element on which the action has been registered.
 Dispatch with the dispatchEvent method to reduce compiling between different parts of your application.
 
