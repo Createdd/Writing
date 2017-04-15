@@ -65,7 +65,7 @@ JS is a functional language and functions are first-class objects. Therefore the
 * returned as function results
 * assigned properties and methods
 
-Callback functions are functions that will be called later and is often used in event handling.Passing Properties to a function allows to store functions in functions to call later or to create a cache (memoization).
+Callback functions are functions that will be called later and are often used in event handling. Passing properties to a function allows to store functions in functions to call later or to create a cache (memorization).
 Types of functions are:
 1. function declarations
 2. function expressions
@@ -77,7 +77,7 @@ Rest parameters enable to reference the remaining arguments that don’t have ma
 Default parameters enable to specify default parameter values that will be used if no value is supplied during function invocation.
 
 ## 4.Understanding function invocation
-Implicit parameters are this and arguments. The arguments parameter is a collection of arguments passed to the function. The  this parameter represents the function context, an object to which the function invocation is associated. How this is determined can depend on the way a function is defined as well as on how it’s invoked.
+Implicit parameters are `this` and arguments. The arguments parameter is a collection of arguments passed to the function. The `this` parameter represents the function context, an object to which the function invocation is associated. How this is determined can depend on the way a function is defined as well as on how it’s invoked.
 
 Functions can be invoked as:
 * a function: skulk()
@@ -85,12 +85,12 @@ Functions can be invoked as:
 * a constructor: new Ninja ()
 * apply or call: skulk.apply(ninja) / skulk.call(ninja)
 
-Function invocation and the value of this:
-* Invoked as function: this is global window object (or undefined when using „strict mode“)
-* Invoked as method: this is the object on which the function was invoked
-* Invoked as constructor: this is the new constructed object
-* Invoked with call or apply: this is the first argument supplied
-* arrow functions inherit this from the function in which they are defined in
+Function invocation and the value of `this`:
+* Invoked as function: `this` is global window object (or undefined when using „strict mode“)
+* Invoked as method: `this` is the object on which the function was invoked
+* Invoked as constructor: `this` is the new constructed object
+* Invoked with call or apply: `this` is the first argument supplied
+* arrow functions inherit `this` from the function in which they are defined in
 
 The bind method creates a new function. It has the same body, but it’s context is always bound to the passed in argument (a certain object), regardless of the way it’s invoked.
 
