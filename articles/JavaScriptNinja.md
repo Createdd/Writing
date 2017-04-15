@@ -10,10 +10,6 @@ This summary contains some quotes from the book and is designed to provide an ov
 ## 📄 Table of contents
 
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Secrets of a JavaScript Ninja - book summary](#secrets-of-a-javascript-ninja-book-summary)
-  * [📄 Table of contents](#table-of-contents)
   * [1.JavaScript (JS) is everywhere](#1javascript-js-is-everywhere)
   * [2.Building the page at runtime](#2building-the-page-at-runtime)
   * [3.First-class functions: definitions and arguments](#3first-class-functions-definitions-and-arguments)
@@ -30,8 +26,6 @@ This summary contains some quotes from the book and is designed to provide an ov
   * [14.Developing cross-browser strategies](#14developing-cross-browser-strategies)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
 
 
 ---
@@ -150,7 +144,7 @@ Setting `call` or `apply` methods allow to reuse built-in array methods on objec
 
 Maps and dictionaries are objects that contain mappings between a key and a value.
 Objects aren’t made for mapping because only string values can be used as keys and therefore running the risk of accessing prototype properties. Use the map collection instead.
-Maps are collections that can be iterated over using a for…of loop.
+Maps are collections that can be iterated over using a `for…of` loop.
 Sets are collections of unique items.
 
 ## 10.Wrangling regular expressions
