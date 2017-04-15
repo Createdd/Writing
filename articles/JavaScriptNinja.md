@@ -209,23 +209,25 @@ An event that occurs on an element is usually propagated through the DOM. There 
 * In event bubbling, the event goes up from the target element to the top element
 
 When calling event handlers, the browser passes in an event object. Elements can be accessed with the target property, and the  this keyword is used to refer to the element on which the action has been registered.
-Dispatch with the dispatchEvent method to reduce compiling between different parts of your application.
+Dispatch with the `dispatchEvent` method to reduce compiling between different parts of your application.
 
 ## 14.Developing cross-browser strategies
+
 Browsers aren’t bug-free and usually don’t support web standards consistently. Since it’s not possible to support all combinations, quality should never be sacrificed for coverage.
 Cross-browser development involves:
+
 * Code size - the smaller the better
 * Performance Overhead - Keeping the performance level above a palatable minimum
 * API quality - APIs should work across browsers
 
 Techniques like feature detection with polyfills assure that the code is complete and protect against attacks from different directions.
 
-
 <img src="https://images.unsplash.com/photo-1482682862782-8673966590d3?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="apps" height="200"/>
 https://unsplash.com/photos/7WImcXVzyHk
 
 ## Conclusion
 
+As you can see, the books covers all the basics of JavaScript and explains it pretty well. What's of course missing in this summary are all graphics and the good examples. Those things actually makes the book so good. Learning a programming language is not about theory only, it's about practice. In this book you get both. 😉
 
 
 <a rel="nofollow" href="https://www.amazon.de/gp/product/1617292850/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=1617292850&linkCode=as2&tag=ddcr-21"><img border="0" src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1617292850&Format=_SL110_&ID=AsinImage&MarketPlace=DE&ServiceVersion=20070822&WS=1&tag=ddcr-21" ></a><img src="http://ir-de.amazon-adsystem.com/e/ir?t=ddcr-21&l=as2&o=3&a=1617292850" width="200" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
