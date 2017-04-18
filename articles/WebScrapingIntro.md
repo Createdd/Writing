@@ -41,7 +41,7 @@ In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/s
 - Request: Helps making HTTP calls
 - Cheerio: Implementation of core jQuery specifically for the server (helps to traverse the DOM and extract data)
 
-That's a very good example of how easy it actually can get. I list these, because they are actually the most used ones in most of the tutorials available. 
+That's a very good example of how easy it actually can get. I list these, because they are actually the most used ones in most of the tutorials available.
 
 ## 2. Examples
 
@@ -102,7 +102,8 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
-
+With this introduction I really just scratched the surface. There is much more to discover! The reason this article somehow ended up too short, is because I got lost in programming my own webcrawler. Playing around with `Promises` derailed me from my main goal.
+So another take-away for me as a programmer was: "Don't get distracted by other things! - Stay focused on your objective and get it!"
 
 
 
