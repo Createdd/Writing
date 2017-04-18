@@ -102,11 +102,10 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
+As this article showed, it is actually really easy to build a webcrawler/web scrapper with JavaScript. It is one of the examples of programming, that show how to get to the same result pursuing different ways.
+
 With this introduction I really just scratched the surface. There is much more to discover! The reason this article somehow ended up too short, is because I got lost in programming my own webcrawler. Playing around with `Promises` derailed me from my main goal.
 So another take-away for me as a programmer was: "Don't get distracted by other things! - Stay focused on your objective and get it!"
-
-
-
 
 
 ## Useful links & credits
@@ -120,11 +119,6 @@ So another take-away for me as a programmer was: "Don't get distracted by other 
 - [📄 "Legal issues raused by the use of web crawling tools" -  Bloomberg Law Reports ](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes)
 - [📄 "My open source Instagram bot" - TimG ](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340)
 - [📄 "Ultimate guide for scraping JavaScript rendered web pages" - Naren Aryan](https://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 - [📄 "Web crawler development tutorials" - PatentPages](https://potentpages.com/web-crawler-development/tutorials/nodejs/)
 
 ```
