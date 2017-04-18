@@ -1,4 +1,4 @@
-# Webscraping /-crawling with Javascript and Node.js
+# Introduction to Webscraping /-crawling (with Javascript and Node.js)
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
@@ -10,7 +10,7 @@ From the point I started to learn about web development I was enthusiastic about
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [Webscraping /-crawling with Javascript and Node.js](#webscraping-crawling-with-javascript-and-nodejs)
+* [Introduction to Webscraping /-crawling (with Javascript and Node.js)](#introduction-to-webscraping-crawling-with-javascript-and-nodejs)
   * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
