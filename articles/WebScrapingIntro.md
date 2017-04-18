@@ -27,7 +27,7 @@ From the point I started to learn about web development I was enthusiastic about
 
 ---
 
->"“If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.”" - Jeff Bezos
+>“If you decide that you’re going to do only the things you know are going to work, you’re going to leave a lot of opportunity on the table.” - Jeff Bezos
 
 ---
 
