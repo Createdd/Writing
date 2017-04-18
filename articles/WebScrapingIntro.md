@@ -7,11 +7,6 @@ From the point I started to learn about web development I was enthusiastic about
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Introduction to Webscraping /-crawling (with Javascript and Node.js)](#introduction-to-webscraping-crawling-with-javascript-and-nodejs)
-  * [📄 Table of contents](#table-of-contents)
   * [1. Frameworks and libraries](#1-frameworks-and-libraries)
   * [2. Examples](#2-examples)
   * [3. Scraping JavaScript rendered sites?](#3-scraping-javascript-rendered-sites)
@@ -21,8 +16,6 @@ From the point I started to learn about web development I was enthusiastic about
   * [Additional: A list of established Node.js crawlers on Github](#additional-a-list-of-established-nodejs-crawlers-on-github)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
 
 
 ---
@@ -51,7 +44,7 @@ That's a very good example of how easy it actually can get. I list these, becaus
 - Andrew Forth shows an alternative approach in his [article](https://www.sitepoint.com/web-crawling-node-phantomjs-horseman/). He combines Node.js with Phantom.js and Horseman. Node is able to use the headless WebKit **PhantomJS with the Horseman API**. He created a CLI micro-framework that crawls your github repositories as an example.
 
 
-- Stephen from netinstructions.com reveals the sheer simplicity of web scrapting in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
+- Stephen from netinstructions.com reveals the sheer simplicity of web scraping in his [article](http://www.netinstructions.com/simple-web-scraping-with-node-js-and-javascript/). He crawls Reddit, Hackernews and Buzzfeed.
 His strategy is to identify the structure of the site he wants to crawl with the chrome devtools, grabs elements with **`cheerio` and then put the the scraped elements in a .txt file** together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
 
 
@@ -102,7 +95,7 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
-As this article showed, it is actually really easy to build a webcrawler/web scrapper with JavaScript. It is one of the examples of programming, that show how to get to the same result pursuing different ways.
+As this article showed, it is actually really easy to build a webcrawler/web scrapper with JavaScript. It is one of the examples of programming, that show how to get to the same result pursuing different ways. I recommend checking out the additional links, since some of them provide great inspiration!
 
 With this introduction I really just scratched the surface. There is much more to discover! The reason this article somehow ended up too short, is because I got lost in programming my own webcrawler. Playing around with `Promises` derailed me from my main goal.
 So another take-away for me as a programmer was: "Don't get distracted by other things! - Stay focused on your objective and get it!"
@@ -119,7 +112,7 @@ So another take-away for me as a programmer was: "Don't get distracted by other 
 - [📄 "Legal issues raused by the use of web crawling tools" -  Bloomberg Law Reports ](https://www.bna.com/legal-issues-raised-by-the-use-of-web-crawling-and-scraping-tools-for-analytics-purposes)
 - [📄 "My open source Instagram bot" - TimG ](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340)
 - [📄 "Ultimate guide for scraping JavaScript rendered web pages" - Naren Aryan](https://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/)
-- [📄 "Web crawler development tutorials" - PatentPages](https://potentpages.com/web-crawler-development/tutorials/nodejs/)
+- [📄 "Web crawler development tutorials" - PotentPages](https://potentpages.com/web-crawler-development/tutorials/nodejs/)
 
 ```
 If you gained something from this article let me know as a comment or heart. Make sure to follow for more :)
