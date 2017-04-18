@@ -13,7 +13,7 @@ From the point I started to learn about web development I was enthusiastic about
   * [4. The legal side of web crawling](#4-the-legal-side-of-web-crawling)
       * [Terms of use](#terms-of-use)
       * [Law in a wider sense](#law-in-a-wider-sense)
-  * [Additional: A list of established Node.js crawlers on Github](#additional-a-list-of-established-nodejs-crawlers-on-github)
+  * [5. Additional - a list of established Node.js crawlers on Github](#additional-a-list-of-established-nodejs-crawlers-on-github)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -55,7 +55,7 @@ These are just some examples! Check out this [comprehensive collection](https://
 ## 3. Scraping JavaScript rendered sites?
 
 The discussion about crawlabilty of JavaScript rendered websites reaches back many years and mostly discussed in terms of search engine optimization (SEO).
-An easy answer for writing your own crawlers are HTML-rendering-engines that allow you to do the same as a normal browser.
+An easy answer for writing your own solution are HTML-rendering-engines, that allow you to act the same way as a normal browser.
 Whereas there are many tools that allow you to meme such behavior, a practical example would be a [webdriver](http://webdriver.io/) used by [Selenium](http://www.seleniumhq.org/projects/webdriver/).
 
 
@@ -83,7 +83,7 @@ They conclude:
 
 Having that said, be prepared to face the consequences when site operators ban or sue you for infringing their principles.
 
-## Additional: A list of established Node.js crawlers on Github
+## 5. Additional - a list of established Node.js crawlers on Github
 
 - [spider by Mikeal](https://github.com/mikeal/spider)
 - [node-simplecrawler by cgiffard](https://github.com/cgiffard/node-simplecrawler)
@@ -115,7 +115,7 @@ So another take-away for me as a programmer was: "Don't get distracted by other 
 - [📄 "Web crawler development tutorials" - PotentPages](https://potentpages.com/web-crawler-development/tutorials/nodejs/)
 
 ```
-If you gained something from this article let me know as a comment or heart. Make sure to follow for more :)
+If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 ```
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
