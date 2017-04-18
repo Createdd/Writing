@@ -18,7 +18,7 @@ From the point I started to learn about web development I was enthusiastic about
   * [4. The legal side of web crawling](#4-the-legal-side-of-web-crawling)
       * [Terms of use](#terms-of-use)
       * [Law in a wider sense](#law-in-a-wider-sense)
-  * [A list of established Node.js crawlers on Github](#a-list-of-established-nodejs-crawlers-on-github)
+  * [Additional: A list of established Node.js crawlers on Github](#additional-a-list-of-established-nodejs-crawlers-on-github)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -41,7 +41,7 @@ In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/s
 - Request: Helps making HTTP calls
 - Cheerio: Implementation of core jQuery specifically for the server (helps to traverse the DOM and extract data)
 
-That's a very good example of how easy it actually can get. I list these, because they are actually the most used ones in most of the tutorials available.
+That's a very good example of how easy it actually can get. I list these, because they are actually the most used ones in most of the tutorials available. 
 
 ## 2. Examples
 
@@ -55,7 +55,9 @@ That's a very good example of how easy it actually can get. I list these, becaus
 His strategy is to identify the structure of the site he wants to crawl with the chrome devtools, grabs elements with **`cheerio` and then put the the scraped elements in a .txt file** together. In another [post](http://www.netinstructions.com/how-to-make-a-simple-web-crawler-in-javascript-and-node-js/) he also explains how to setup crawlers in Node.js.
 
 
-- The article ["My open source Instagram bot got me 2,500 real followers"](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) by TimG serves a great example for using **web crawling in Python with the Selenium framework** for real life purposes. Social media steadily gains importance in the marketing of businesses and using bots can be a valuable variable in executive decisions. His approach shows the effectiveness of simply programming. Definitely worth checking out!
+- The article ["My open source Instagram bot got me 2,500 real followers"](https://medium.freecodecamp.com/my-open-source-instagram-bot-got-me-2-500-real-followers-for-5-in-server-costs-e40491358340) by TimG serves a great example for using **web crawling in Python with the Selenium framework** for real life purposes. Social media steadily gains importance in the marketing of businesses and using bots can be a valuable variable in executive decisions. His approach shows the effectiveness of simple programming. Definitely worth checking out!
+
+These are just some examples! Check out this [comprehensive collection](https://potentpages.com/web-crawler-development/tutorials/nodejs/) from potentpages.com.
 
 ## 3. Scraping JavaScript rendered sites?
 
@@ -88,19 +90,11 @@ They conclude:
 
 Having that said, be prepared to face the consequences when site operators ban or sue you for infringing their principles.
 
-## A list of established Node.js crawlers on Github
+## Additional: A list of established Node.js crawlers on Github
 
 - [spider by Mikeal](https://github.com/mikeal/spider)
 - [node-simplecrawler by cgiffard](https://github.com/cgiffard/node-simplecrawler)
 - [node-crawler by bda-research](https://github.com/bda-research/node-crawler)
-
-
-
-##
-
-
-
-####
 
 
 <img src="https://images.unsplash.com/photo-1485609315582-cfffa02888e8?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="apps" height="200"/>
