@@ -1,4 +1,4 @@
-# Introduction to Webscraping /-crawling (with Javascript and Node.js)
+# Introduction to Webcrawling (with Javascript and Node.js)
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
