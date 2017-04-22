@@ -4,7 +4,7 @@
 https://unsplash.com/photos/GmhL-vCXnL0)
 https://unsplash.com/photos/GmhL-vCXnL0
 
-From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scrapping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
+
 
 
 ## 📄 Table of contents
