@@ -100,6 +100,13 @@ Check out [this guide](https://ecommerceguide.com/ecommerce-platforms/magento-re
 
 #### WooCommerce (WordPress)
 
+A good conclusion from this [article](https://www.merchantmaverick.com/reviews/woocommerce-review/):
+
+>WooCommerce is a low price solution (if you keep your extensions reasonably priced), and it does an excellent job of harnessing WordPress’s SEO and functionality for your benefit. And, if you’re willing to work through technical issues with only some guides and forums to lean on, WooCommerce could be the right option for you.
+
+or this [article](https://www.websitetooltester.com/en/reviews/woocommerce/)
+
+>Stan Lee, the author of the first Spiderman, wrote: “With great power there must also come great responsibility!” This is exactly what you’ll have with WooCommerce. It’s powerful, but at the same time it can give you a really hard time. There are so many possibilities for what you can do with WooCommerce, but this can become quite overwhelming for a beginner. Even though WordPress and WooCommerce are pre-installed with Bluehost, the technical knowledge that’s required is pretty high (and we’re not even talking about coding).
 
 #### Open Cart
 
@@ -124,8 +131,8 @@ https://unsplash.com/photos/OCrPJce6GPk
 - [📄 "Magento Ecommerce review 2015" - Catalin Zorzini](http://ecommerce-platforms.com/ecommerce-reviews/the-ultimate-magento-ecommerce-review-2015)
 - [📄 "Magento in a nutshell"](https://ecommerceguide.com/ecommerce-platforms/magento-review/#Magento_review_in_a_nutshell)
 - [📄 "Magento Review" - Liz Hull](https://www.merchantmaverick.com/reviews/magento-review/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Woocommerce Review" - Liz Hull](https://www.merchantmaverick.com/reviews/woocommerce-review/)
+- [📄 "WooCommerce Review – Should I host it with Bluehost?"](https://www.websitetooltester.com/en/reviews/woocommerce/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
