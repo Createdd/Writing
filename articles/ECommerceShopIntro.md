@@ -100,9 +100,9 @@ Check out [this guide](https://ecommerceguide.com/ecommerce-platforms/magento-re
 
 #### WooCommerce (WordPress)
 
-A good conclusion from this [article](https://www.merchantmaverick.com/reviews/woocommerce-review/):
+A good conclusion from this [article](https://www.merchantmaverick.com/reviews/woocommerce-review/) states:
 
->WooCommerce is a low price solution (if you keep your extensions reasonably priced), and it does an excellent job of harnessing WordPress’s SEO and functionality for your benefit. And, if you’re willing to work through technical issues with only some guides and forums to lean on, WooCommerce could be the right option for you.
+>[WooCommerce](https://woocommerce.com/) is a low price solution (if you keep your extensions reasonably priced), and it does an excellent job of harnessing WordPress’s SEO and functionality for your benefit. And, if you’re willing to work through technical issues with only some guides and forums to lean on, WooCommerce could be the right option for you.
 
 or this [article](https://www.websitetooltester.com/en/reviews/woocommerce/)
 
@@ -110,7 +110,7 @@ or this [article](https://www.websitetooltester.com/en/reviews/woocommerce/)
 
 #### OpenCart
 
-OpenCart fits great for starting your first self-hosted shop service, since it's easier and cheaper compared to it's bigger competitors.
+[OpenCart](https://www.opencart.com/) fits great for starting your first self-hosted shop service, since it's easier and cheaper compared to it's bigger competitors.
 
 One [article](https://ecommerceguide.com/ecommerce-platforms/opencart-review/) from ecommerceguide concludes:
 
