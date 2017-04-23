@@ -19,6 +19,9 @@ Without a doubt the internet changed the way business is conducted. Selling prod
       * [2. BigCommerce](#2-bigcommerce)
       * [3. Wix eCommerce](#3-wix-ecommerce)
   * [Self-hosted E-Commerce Software](#self-hosted-e-commerce-software)
+      * [Magento](#magento)
+      * [WooCommerce (WordPress)](#woocommerce-wordpress)
+      * [Open Cart](#open-cart)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -78,6 +81,16 @@ A good way to start is using Open Source Software. They require you to install t
 Afterwards you can design your own shop appearance the way you want. (Templates can reduce time and still provide great looks)
 
 Anything else, for example any functionality features can added accordingly to your needs, which provides great flexibility.
+
+Examples for Open Source shopping carts are:
+
+#### Magento
+
+
+#### WooCommerce (WordPress)
+
+
+#### Open Cart
 
 
 
