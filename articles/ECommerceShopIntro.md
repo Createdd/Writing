@@ -16,6 +16,7 @@ Without a doubt the internet changed the way business is conducted. Selling prod
   * [📄 Table of contents](#table-of-contents)
   * [Hosted E-Commerce Software](#hosted-e-commerce-software)
       * [Shopify](#shopify)
+      * [BigCommerce](#bigcommerce)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -50,7 +51,14 @@ They provide
 - 24/7 support
 - Experts for additional features for your shop
 
+They provide different pricing models depending on your desired size, scalability and features.
+
 [Start your Shopify experience right here]()
+
+#### BigCommerce
+
+[BigCommerce](https://www.bigcommerce.com/) is the biggest competitor to Shopify and provides pretty similar features. BigCommerce provides more features in the basic version than Shopify and adds some specialized features for promotion in certain "sales channels". Due to the fact that Shopify is so large and well-known it provides a little less options overall in my opinion. Nevertheless they provide a lot and should definitely be considered when building your own web store.
+
 
 
 
