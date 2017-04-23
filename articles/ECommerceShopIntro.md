@@ -1,4 +1,4 @@
-# Introduction to E-Commerce Shops in JavaScript
+# Introduction to E-Commerce Shops
 
 [<img src="https://images.unsplash.com/photo-1431347602106-1608ccc66b67?dpr=2&auto=format&fit=crop&w=767&h=467&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/GmhL-vCXnL0)
@@ -10,10 +10,6 @@ Without a doubt the internet changed the way business is conducted. Selling prod
 ## 📄 Table of contents
 
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Introduction to E-Commerce Shops in JavaScript](#introduction-to-e-commerce-shops-in-javascript)
-  * [📄 Table of contents](#table-of-contents)
   * [Hosted E-Commerce Software](#hosted-e-commerce-software)
       * [1. Shopify](#1-shopify)
       * [2. BigCommerce](#2-bigcommerce)
@@ -25,16 +21,11 @@ Without a doubt the internet changed the way business is conducted. Selling prod
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
-<!-- tocstop -->
-
-
-
 ---
 
 >“Intensity is the price of excellence.” - Warren Buffett
 
 ---
-##
 
 Now there are literally hundreds of possibilities to create your own web shop.
 
@@ -145,10 +136,6 @@ The article really addresses the key aspects. In the end, businesses have to wei
 - [📄 "Woocommerce Review" - Liz Hull](https://www.merchantmaverick.com/reviews/woocommerce-review/)
 - [📄 "WooCommerce Review – Should I host it with Bluehost?"](https://www.websitetooltester.com/en/reviews/woocommerce/)
 - [📄 "OpenCart Review" - Ecommerceguide](https://ecommerceguide.com/ecommerce-platforms/opencart-review/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
 
 ```
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
