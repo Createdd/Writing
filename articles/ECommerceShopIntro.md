@@ -86,6 +86,17 @@ Examples for Open Source shopping carts are:
 
 #### Magento
 
+[Magento](https://magento.com/) knows its main market - it encourages intermediate developers to build their site.
+
+-  it’s available as a free download and can be installed at any server
+-  it’s available as a hosted service for money
+
+Magento is your all-in-one solution for e-commerce, offering a ton of features with basically nothing missing from the platform.
+
+Or, as Liz Hull concluded in her [article](https://www.merchantmaverick.com/reviews/magento-review/):
+>As far as open-source software goes, Magento is one of the best. Its rich feature set and ever-expanding pool of add-ons and integrations make Magento a reliable option for a store that’s hoping to expand. If you’re prepared to trudge up that steep learning curve, Magento could be the platform you’ve been looking for.
+
+Check out [this guide](https://ecommerceguide.com/ecommerce-platforms/magento-review/#Magento_review_in_a_nutshell) for more.
 
 #### WooCommerce (WordPress)
 
@@ -110,9 +121,9 @@ https://unsplash.com/photos/OCrPJce6GPk
 
 ## Useful links & credits
 - [📄 "Best Ecommerce software" - Jeremy Wong](http://www.websitebuilderexpert.com/best-ecommerce-software/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Magento Ecommerce review 2015" - Catalin Zorzini](http://ecommerce-platforms.com/ecommerce-reviews/the-ultimate-magento-ecommerce-review-2015)
+- [📄 "Magento in a nutshell"](https://ecommerceguide.com/ecommerce-platforms/magento-review/#Magento_review_in_a_nutshell)
+- [📄 "Magento Review" - Liz Hull](https://www.merchantmaverick.com/reviews/magento-review/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
