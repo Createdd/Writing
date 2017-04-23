@@ -18,7 +18,7 @@ Without a doubt the internet changed the way business is conducted. Selling prod
       * [1. Shopify](#1-shopify)
       * [2. BigCommerce](#2-bigcommerce)
       * [3. Wix eCommerce](#3-wix-ecommerce)
-  * [Self osted E-Commerce Software](#self-osted-e-commerce-software)
+  * [Self-hosted E-Commerce Software](#self-hosted-e-commerce-software)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -69,7 +69,18 @@ They are also a great fit for test driving your business ideas.
 
 Pricing isn't really that transparent though. It depends on your pricing model, time frame, amount of features, storage, etc. For me as user it takes time to actually compare that to other web shop services like BigCommerce or Shopify.
 
-## Self hosted E-Commerce Software
+## Self-hosted E-Commerce Software
+
+Self-hosted shops require technical and coding understanding or a developer to build something. It's the counterexample for hosted shop software. They provide a lot of flexibility but aren't that easy to set up without knowledge of the corresponding necessary services.
+
+A good way to start is using Open Source Software. They require you to install them into your own host - so you’ll have to set up, configure and manage your own hosting service. After that you need to install a shopping cart software into your hosting account. Some hosting services provide a 1-click installation process, but be aware to invest time for this process.
+
+Afterwards you can design your own shop appearance the way you want. (Templates can reduce time and still provide great looks)
+
+Anything else, for example any functionality features can added accordingly to your needs, which provides great flexibility.
+
+
+
 
 
 
