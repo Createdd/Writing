@@ -17,7 +17,8 @@ Without a doubt the internet changed the way business is conducted. Selling prod
   * [Hosted E-Commerce Software](#hosted-e-commerce-software)
       * [1. Shopify](#1-shopify)
       * [2. BigCommerce](#2-bigcommerce)
-      * [3Wix eCommerce](#3wix-ecommerce)
+      * [3. Wix eCommerce](#3-wix-ecommerce)
+  * [Self osted E-Commerce Software](#self-osted-e-commerce-software)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -68,6 +69,8 @@ They are also a great fit for test driving your business ideas.
 
 Pricing isn't really that transparent though. It depends on your pricing model, time frame, amount of features, storage, etc. For me as user it takes time to actually compare that to other web shop services like BigCommerce or Shopify.
 
+## Self hosted E-Commerce Software
+
 
 
 
@@ -82,7 +85,7 @@ https://unsplash.com/photos/OCrPJce6GPk
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Best Ecommerce software" - Jeremy Wong](http://www.websitebuilderexpert.com/best-ecommerce-software/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
