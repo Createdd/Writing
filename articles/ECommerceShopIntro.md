@@ -21,7 +21,7 @@ Without a doubt the internet changed the way business is conducted. Selling prod
   * [Self-hosted E-Commerce Software](#self-hosted-e-commerce-software)
       * [Magento](#magento)
       * [WooCommerce (WordPress)](#woocommerce-wordpress)
-      * [Open Cart](#open-cart)
+      * [OpenCart](#opencart)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -108,7 +108,17 @@ or this [article](https://www.websitetooltester.com/en/reviews/woocommerce/)
 
 >Stan Lee, the author of the first Spiderman, wrote: “With great power there must also come great responsibility!” This is exactly what you’ll have with WooCommerce. It’s powerful, but at the same time it can give you a really hard time. There are so many possibilities for what you can do with WooCommerce, but this can become quite overwhelming for a beginner. Even though WordPress and WooCommerce are pre-installed with Bluehost, the technical knowledge that’s required is pretty high (and we’re not even talking about coding).
 
-#### Open Cart
+#### OpenCart
+
+OpenCart fits great for starting your first self-hosted shop service, since it's easier and cheaper compared to it's bigger competitors.
+
+One [article](https://ecommerceguide.com/ecommerce-platforms/opencart-review/) from ecommerceguide concludes:
+
+>That being said, OpenCart is actually quite simple to learn, and the interfaces are very friendly. Right off the gate, you get all the functionality required to get you started and selling your first products.
+
+>However, if you’re a bit further down the road, installing new features in OpenCart can become expensive. New modules go for anything up to even $300. So at that point, you are probably better off with other solutions that offer more features free of charge.
+
+>In short, OpenCart is a good platform to get started with. Probably not perfect to scale.
 
 
 
@@ -133,7 +143,7 @@ https://unsplash.com/photos/OCrPJce6GPk
 - [📄 "Magento Review" - Liz Hull](https://www.merchantmaverick.com/reviews/magento-review/)
 - [📄 "Woocommerce Review" - Liz Hull](https://www.merchantmaverick.com/reviews/woocommerce-review/)
 - [📄 "WooCommerce Review – Should I host it with Bluehost?"](https://www.websitetooltester.com/en/reviews/woocommerce/)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "OpenCart Review" - Ecommerceguide](https://ecommerceguide.com/ecommerce-platforms/opencart-review/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
