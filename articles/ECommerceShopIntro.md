@@ -15,8 +15,9 @@ Without a doubt the internet changed the way business is conducted. Selling prod
 * [Introduction to E-Commerce Shops in JavaScript](#introduction-to-e-commerce-shops-in-javascript)
   * [📄 Table of contents](#table-of-contents)
   * [Hosted E-Commerce Software](#hosted-e-commerce-software)
-      * [Shopify](#shopify)
-      * [BigCommerce](#bigcommerce)
+      * [1. Shopify](#1-shopify)
+      * [2. BigCommerce](#2-bigcommerce)
+      * [3Wix eCommerce](#3wix-ecommerce)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -39,9 +40,9 @@ A basic distinction can be:
 
 ## Hosted E-Commerce Software
 
-Hosted ecommerce software doesn't need your technical understanding at all. There a fixed features you can use and combine to build your store. The user experience is mostly designed for simple drag and drop. It is a fast setup but not really flexible to your personal wishes.
+Hosted ecommerce software doesn't need your technical understanding at all. There a fixed features you can use and combine to build your store. The user experience is mostly designed for simple drag and drop. It is a fast setup but not really flexible to your personal wishes. The following services are the biggest in my opinion:
 
-#### Shopify
+#### 1. Shopify
 
 The most famous one is [Shopify](https://www.shopify.com/).
 
@@ -55,9 +56,18 @@ They provide different pricing models depending on your desired size, scalabilit
 
 [Start your Shopify experience right here]()
 
-#### BigCommerce
+#### 2. BigCommerce
 
-[BigCommerce](https://www.bigcommerce.com/) is the biggest competitor to Shopify and provides pretty similar features. BigCommerce provides more features in the basic version than Shopify and adds some specialized features for promotion in certain "sales channels". Due to the fact that Shopify is so large and well-known it provides a little less options overall in my opinion. Nevertheless they provide a lot and should definitely be considered when building your own web store.
+[BigCommerce](https://www.bigcommerce.com/) is the biggest competitor to Shopify and provides pretty similar features. BigCommerce provides more features in the basic version than Shopify and adds some specialized features for promotion in certain "sales channels". Due to the fact that Shopify is so large and well-known it provides overall a little less options in my opinion. Nevertheless they provide a lot and should definitely be considered when building your own web store.
+
+#### 3. Wix eCommerce
+
+[Wix](https://wix.com/) is well known for their services since they put a lot of money in their marketing.
+Their shop system suits beginners and smaller businesses perfectly. They are purely drag and drop, and are very well-versed in that. Very fast and easy users can create very professional and good looking shop interfaces with basic features.
+They are also a great fit for test driving your business ideas.
+
+Pricing isn't really that transparent though. It depends on your pricing model, time frame, amount of features, storage, etc. For me as user it takes time to actually compare that to other web shop services like BigCommerce or Shopify.
+
 
 
 
