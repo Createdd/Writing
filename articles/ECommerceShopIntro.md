@@ -120,21 +120,22 @@ One [article](https://ecommerceguide.com/ecommerce-platforms/opencart-review/) f
 
 >In short, OpenCart is a good platform to get started with. Probably not perfect to scale.
 
-
-
-
-
-
-
-
-
-
 <img src="https://images.unsplash.com/photo-1475650522725-015d35677789?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
 https://unsplash.com/photos/OCrPJce6GPk
 
 ## Conclusion
 
+These are just some examples for frequently used software.
 
+In my opinion estimated growth is an important factor for choosing your platform.
+
+As the Jeremy Wong argues in his [article](http://www.websitebuilderexpert.com/best-ecommerce-software/):
+
+>But what if your business starts to grow?  Sales volumes are up, new product creations are being demanded from our shoppers, and you now have a lot less time to deal with a lot of operational and administrative issues.  This is where picking a good ecommerce software with a strong platform will help save your sanity!
+
+>Self-hosted, open source shopping cart software do have a lot of options for this.  But if you are looking for similar solutions for hosted shopping carts, Shopify and BigCommerce both have Apps that can be bolted to your online store to “extend” their functionality.  This will automate a lot of business tasks for you, freeing up your time to address more important issues instead of doing a lot of tasks manually.
+
+The article really addresses the key aspects. In the end, businesses have to weigh price, effort and scalability for their ultimate decision.
 
 ## Useful links & credits
 - [📄 "Best Ecommerce software" - Jeremy Wong](http://www.websitebuilderexpert.com/best-ecommerce-software/)
