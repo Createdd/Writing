@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
-From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scrapping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
+From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scraping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
 
 
 ## 📄 Table of contents
@@ -27,7 +27,7 @@ From the point I started to learn about web development I was enthusiastic about
 
 ## 1. Frameworks and libraries
 
-In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/scraping-the-web-with-node-js) by Scotch.io following frameworks are used to simple traverse a film review website:
+In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/scraping-the-web-with-node-js) by Scotch.io following frameworks are used to simply traverse a film review website:
 
 - NodeJS
 - ExpressJS: minimal and flexible Node.js web application framework with features for web and mobile applications
@@ -62,7 +62,7 @@ Whereas there are many tools that allow you to meme such behavior, a practical e
 
 ## 4. The legal side of web crawling
 
-Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
+Web scrapping is an amazing way to gather much data with comparably low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
 
 #### Terms of use
 First thing to look for are terms of use. Some Site explicitly address the possibility of using their website with scrapping APIs. Always be sure to take a look at these before.
