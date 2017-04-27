@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=">](https://images.unsplash.com/photo-1489747125620-900d12828f0d?dpr=2&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg=)https://unsplash.com/photos/lOsbnJKTaI8
 
-From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scrapping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
+From the point I started to learn about web development I was enthusiastic about web crawling or web scraping. Most of the time it is called "web crawling", "web scraping" or "web spider". Going through the web and using it's content for your ideas seems like an awesome idea to me. That's why I gathered some information and examples to provide an introduction to the topic.
 
 
 ## 📄 Table of contents
@@ -27,7 +27,7 @@ From the point I started to learn about web development I was enthusiastic about
 
 ## 1. Frameworks and libraries
 
-In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/scraping-the-web-with-node-js) by Scotch.io following frameworks are used to simple traverse a film review website:
+In the [tutorial "Scraping the web with Node.js" ](https://scotch.io/tutorials/scraping-the-web-with-node-js) by Scotch.io following frameworks are used to simply traverse a film review website:
 
 - NodeJS
 - ExpressJS: minimal and flexible Node.js web application framework with features for web and mobile applications
@@ -62,16 +62,16 @@ Whereas there are many tools that allow you to meme such behavior, a practical e
 
 ## 4. The legal side of web crawling
 
-Web scrapping is an amazing way to gather much data with comparable low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
+Web scraping is an amazing way to gather much data with comparably low effort. Using and analyzing the collected data may provide advantages on a competition aspect und gives great insights on how a platform behaves.
 
 #### Terms of use
-First thing to look for are terms of use. Some Site explicitly address the possibility of using their website with scrapping APIs. Always be sure to take a look at these before.
+First thing to look for are terms of use. Some Site explicitly address the possibility of using their website with scraping APIs. Always be sure to take a look at these before.
 
 #### Law in a wider sense
 
 Copyright, privacy, competitive and civil law aspects may be violated depending on each case. It's important to see the difficulties between court rulings in different countries (especially America and Europe) and simply missing legislation caused by the fast progression of "internet cases".
 
-It's safe to say that, if you have the feeling that some web scrapping actions are not legal, they probably aren't. Websites and, or databases often protected by simple intellectual property law. Which means that others are not allowed to use the data that is presented on the website.
+It's safe to say that, if you have the feeling that some web scraping actions are not legal, they probably aren't. Websites and, or databases often protected by simple intellectual property law. Which means that others are not allowed to use the data that is presented on the website.
 This makes perfect sense because people put effort and knowledge into their online presentation and created data.
 
 This extends to social media platforms in particular. Using their data and creating automated bots violate their fundamental principle of human interaction. It's therefore safe to assume that any kind of bots violate some applicable law.
@@ -95,7 +95,7 @@ https://unsplash.com/photos/ywJPwawYR08
 
 ## Conclusion
 
-As this article showed, it is actually really easy to build a webcrawler/web scrapper with JavaScript. It is one of the examples of programming, that show how to get to the same result pursuing different ways. I recommend checking out the additional links, since some of them provide great inspiration!
+As this article showed, it is actually really easy to build a webcrawler/web scraper with JavaScript. It is one of the examples of programming, that show how to get to the same result pursuing different ways. I recommend checking out the additional links, since some of them provide great inspiration!
 
 With this introduction I really just scratched the surface. There is much more to discover! The reason this article somehow ended up too short, is because I got lost in programming my own webcrawler. Playing around with `Promises` derailed me from my main goal.
 So another take-away for me as a programmer was: "Don't get distracted by other things! - Stay focused on your objective and get it!"
