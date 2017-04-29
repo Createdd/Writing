@@ -91,7 +91,7 @@ Check out [this guide](https://ecommerceguide.com/ecommerce-platforms/magento-re
 
 #### WooCommerce (WordPress)
 
-A good conclusion from this [article](https://www.merchantmaverick.com/reviews/woocommerce-review/) states:
+A good conclusion from this [article](https://www.merchantmaverick.com/reviews/woocommerce-review/):
 
 >[WooCommerce](https://woocommerce.com/) is a low price solution (if you keep your extensions reasonably priced), and it does an excellent job of harnessing WordPress’s SEO and functionality for your benefit. And, if you’re willing to work through technical issues with only some guides and forums to lean on, WooCommerce could be the right option for you.
 
@@ -120,7 +120,7 @@ These are just some examples for frequently used software.
 
 In my opinion estimated growth is an important factor for choosing your platform.
 
-As the Jeremy Wong argues in his [article](http://www.websitebuilderexpert.com/best-ecommerce-software/):
+As Jeremy Wong argues in his [article](http://www.websitebuilderexpert.com/best-ecommerce-software/):
 
 >But what if your business starts to grow?  Sales volumes are up, new product creations are being demanded from our shoppers, and you now have a lot less time to deal with a lot of operational and administrative issues.  This is where picking a good ecommerce software with a strong platform will help save your sanity!
 
