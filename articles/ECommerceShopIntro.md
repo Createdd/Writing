@@ -4,7 +4,7 @@
 https://unsplash.com/photos/GmhL-vCXnL0)
 https://unsplash.com/photos/GmhL-vCXnL0
 
-Without a doubt the internet changed the way business is conducted. Selling products and services can easily be scaled, promoted and realized through your own interactive webpage. For full stack developers it's another way of bringing additional value to the market. I love the idea of selling things so easily - that's why I wanted to take a look at it
+Without a doubt the internet changed the way business is conducted. Selling products and services can easily be scaled, promoted and realized through your own interactive webpage. For full stack developers it's another way of bringing additional value to the market. I love the idea of selling things so easily - that's why I wanted to take a look at it.
 
 
 ## 📄 Table of contents
