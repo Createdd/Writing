@@ -22,7 +22,6 @@ Motivation is key for getting anything done. Why are some people more motivated 
       * [What's actually hard](#whats-actually-hard)
   * [Create your environment accordingly](#create-your-environment-accordingly)
   * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
@@ -90,20 +89,14 @@ https://unsplash.com/photos/CjS3QsRuxnE
 
 ## Conclusion
 
+To conclude a few things to stay motivated:
+
+1.Be consistent
+2.Stay true to yourself
+3.Create an environment that supports you
 
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
+
 
 ```
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
