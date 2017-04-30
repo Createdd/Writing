@@ -18,6 +18,7 @@ Motivation is key for getting anything done. Why are some people more motivated 
 * [A note on motivation](#a-note-on-motivation)
   * [📄 Table of contents](#table-of-contents)
   * [Stay consistent](#stay-consistent)
+* [Don't let the noise of disbelievers distract you](#dont-let-the-noise-of-disbelievers-distract-you)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -42,7 +43,18 @@ The more you get into something, they easier you get bored, but also the you're 
 So make sure to harness that ability and attack new things immediately.
 New things provide new motivation.
 
+A great [article from Thomas Oppong](https://medium.com/personal-growth/persist-it-matters-7e4270f7c078) describes the importance of persistency in detail ➡️.
+
 <img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
+
+# Don't let the noise of disbelievers distract you
+
+Not everyone shares your believes. Not everyone likes your way of thinking. And that's ok.
+
+It's important to treat it properly. Set yourself up for the best of you can be. Outside factors are temporary - your mindset is for eternity.
+
+It happens to me at university and business all the time.
+Many 
 
 
 
