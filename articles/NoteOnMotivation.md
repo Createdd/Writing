@@ -4,7 +4,10 @@
 https://unsplash.com/photos/3N5ccOE3wGg)
 https://unsplash.com/photos/3N5ccOE3wGg
 
-Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. 
+If you are currently struggling with motivation this article might give you a boost.
+
+
+Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. I'm a vigorous reader and my reading list contains many books on how to stay inspired and manage yourself.
 
 
 ## 📄 Table of contents
@@ -14,6 +17,7 @@ Motivation is key for getting anything done. Why are some people more motivated 
 
 * [A note on motivation](#a-note-on-motivation)
   * [📄 Table of contents](#table-of-contents)
+  * [Stay consistent](#stay-consistent)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -26,7 +30,12 @@ Motivation is key for getting anything done. Why are some people more motivated 
 >“You are what you do repeatedly. If excellence is something you’re striving for, then it’s not an accident. It’s a habit.” – Greg Plitt
 
 ---
-##
+## Stay consistent
+
+Nothing is as important as staying consistent. Whether it's writing code, practicing examples for your studies or writing articles. 
+
+<img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
+
 
 
 
