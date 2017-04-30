@@ -18,7 +18,9 @@ Motivation is key for getting anything done. Why are some people more motivated 
 * [A note on motivation](#a-note-on-motivation)
   * [📄 Table of contents](#table-of-contents)
   * [Stay consistent](#stay-consistent)
-* [Don't let the noise of disbelievers distract you](#dont-let-the-noise-of-disbelievers-distract-you)
+  * [Don't let the noise of disbelievers distract you](#dont-let-the-noise-of-disbelievers-distract-you)
+      * [What's actually hard](#whats-actually-hard)
+  * [Create your environment accordingly](#create-your-environment-accordingly)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -47,14 +49,27 @@ A great [article from Thomas Oppong](https://medium.com/personal-growth/persist-
 
 <img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
 
-# Don't let the noise of disbelievers distract you
+## Don't let the noise of disbelievers distract you
 
 Not everyone shares your believes. Not everyone likes your way of thinking. And that's ok.
 
 It's important to treat it properly. Set yourself up for the best of you can be. Outside factors are temporary - your mindset is for eternity.
 
 It happens to me at university and business all the time.
-Many 
+Many assure you that "things are not meant to be", "it's impossible" or "things won't work out that way". It took me a while to understand that most people talk a lot. Without knowledge. They just deliver unqualified opinions. Not more, not less. Developing a mindset to simply acknowledge these messages as not significant helps a lot when pursuing your vision.
+
+
+#### What's actually hard
+
+The hardest thing is to have your mind open enough for letting innovation take place, but closed enough to ignore bullshit.
+
+## Create your environment accordingly
+
+Your environment influences your behavior and way of thinking. So make sure to create one that supports your goals. Select friends accordingly. Stay with people that are doing what you like to accomplish in the future as well.
+
+Always challenge yourself. When you're the smartest person in a room, you're in the wrong room.
+
+But not only People. Change literally everything in your sourrundings to support your goal. 
 
 
 
