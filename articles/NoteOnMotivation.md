@@ -1,4 +1,4 @@
-# A note on motivation
+# 3 things to level-up your motivation
 
 [<img src="https://images.unsplash.com/photo-1490237014491-822aee911b99?dpr=2&auto=format&fit=crop&w=767&h=512&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/3N5ccOE3wGg)
@@ -7,7 +7,7 @@ https://unsplash.com/photos/3N5ccOE3wGg
 If you are currently struggling with motivation this article might give you a boost.
 
 
-Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. I'm a vigorous reader and my reading list contains many books on how to stay inspired and manage yourself.
+Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. I'm a vigorous reader and my reading list contains many books on how to stay inspired and manage yourself. So here's something I could take away.
 
 
 ## 📄 Table of contents
@@ -15,11 +15,10 @@ Motivation is key for getting anything done. Why are some people more motivated 
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [A note on motivation](#a-note-on-motivation)
+* [3 things to level-up your motivation](#3-things-to-level-up-your-motivation)
   * [📄 Table of contents](#table-of-contents)
   * [Stay consistent](#stay-consistent)
   * [Don't let the noise of disbelievers distract you](#dont-let-the-noise-of-disbelievers-distract-you)
-      * [What's actually hard](#whats-actually-hard)
   * [Create your environment accordingly](#create-your-environment-accordingly)
   * [Conclusion](#conclusion)
 
@@ -49,6 +48,7 @@ A great [article from Thomas Oppong](https://medium.com/personal-growth/persist-
 >⭐ Whatever it it you want to accomplish - do it as often as possible to become great.
 
 <img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
+Your motivation compounds with the amount of work you put in
 
 ## Don't let the noise of disbelievers distract you
 
@@ -59,10 +59,7 @@ It's important to treat it properly. Set yourself up for the best of you can be.
 It happens to me at university and business all the time.
 Many assure you that "things are not meant to be", "it's impossible" or "things won't work out that way". It took me a while to understand that most people talk a lot. Without knowledge. They just deliver unqualified opinions. Not more, not less. Developing a mindset to simply acknowledge these messages as not significant helps a lot when pursuing your vision.
 
-
-#### What's actually hard
-
-The hardest thing is to have your mind open enough for letting innovation take place, but closed enough to ignore bullshit.
+**The hard part** is to have your mind open enough for letting innovation take place, but closed enough to ignore bullshit.
 
 
 >⭐ Stay true to yourself and filter external input.
@@ -76,12 +73,6 @@ Always challenge yourself. When you're the smartest person in a room, you're in 
 But not only People. Change literally everything in your surroundings to support your goal. Your house/apartment/room, your desktop/mobile wallpapers, your working place. Get to places that inspire your creativity - cafes, libraries, rooftop bars. What ever gets you going. Be sure to be there and let creativity ignite your greatness.
 
 >⭐ Control your environment and don't let your environment control you.
-
-
-
-
-
-
 
 <img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?dpr=2&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
 https://unsplash.com/photos/CjS3QsRuxnE
