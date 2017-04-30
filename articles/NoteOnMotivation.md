@@ -47,6 +47,8 @@ New things provide new motivation.
 
 A great [article from Thomas Oppong](https://medium.com/personal-growth/persist-it-matters-7e4270f7c078) describes the importance of persistency in detail ➡️.
 
+>⭐ Whatever it it you want to accomplish - do it as often as possible to become great.
+
 <img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
 
 ## Don't let the noise of disbelievers distract you
@@ -63,13 +65,18 @@ Many assure you that "things are not meant to be", "it's impossible" or "things 
 
 The hardest thing is to have your mind open enough for letting innovation take place, but closed enough to ignore bullshit.
 
+
+>⭐ Stay true to yourself and filter external input.
+
 ## Create your environment accordingly
 
 Your environment influences your behavior and way of thinking. So make sure to create one that supports your goals. Select friends accordingly. Stay with people that are doing what you like to accomplish in the future as well.
 
 Always challenge yourself. When you're the smartest person in a room, you're in the wrong room.
 
-But not only People. Change literally everything in your sourrundings to support your goal. 
+But not only People. Change literally everything in your surroundings to support your goal. Your house/apartment/room, your desktop/mobile wallpapers, your working place. Get to places that inspire your creativity - cafes, libraries, rooftop bars. What ever gets you going. Be sure to be there and let creativity ignite your greatness.
+
+>⭐ Control your environment and don't let your environment control you.
 
 
 
