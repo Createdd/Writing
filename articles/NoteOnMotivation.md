@@ -4,7 +4,7 @@
 https://unsplash.com/photos/3N5ccOE3wGg)
 https://unsplash.com/photos/3N5ccOE3wGg
 
-
+Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. 
 
 
 ## 📄 Table of contents
