@@ -10,21 +10,18 @@ If you are currently struggling with motivation this article might give you a bo
 Motivation is key for getting anything done. Why are some people more motivated than others? Why do some seem to have this urge to do more and additionally get more done? Just a few thoughts out of my life since I keep getting asked how I do it. I'm a vigorous reader and my reading list contains many books on how to stay inspired and manage yourself. So here's something I could take away.
 
 
+
+
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [3 things to level-up your motivation](#3-things-to-level-up-your-motivation)
-  * [📄 Table of contents](#table-of-contents)
   * [Stay consistent](#stay-consistent)
   * [Don't let the noise of disbelievers distract you](#dont-let-the-noise-of-disbelievers-distract-you)
   * [Create your environment accordingly](#create-your-environment-accordingly)
   * [Conclusion](#conclusion)
 
-<!-- tocstop -->
 
-
+<img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?dpr=2&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="pic"/>
+https://unsplash.com/photos/CjS3QsRuxnE
 
 ---
 
@@ -47,7 +44,7 @@ A great [article from Thomas Oppong](https://medium.com/personal-growth/persist-
 
 >⭐ Whatever it it you want to accomplish - do it as often as possible to become great.
 
-<img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
+<img src="../assets/workMotivation.001.jpeg" alt="pic"/>
 Your motivation compounds with the amount of work you put in
 
 ## Don't let the noise of disbelievers distract you
@@ -64,6 +61,8 @@ Many assure you that "things are not meant to be", "it's impossible" or "things 
 
 >⭐ Stay true to yourself and filter external input.
 
+<img src="../assets/categorizingInput.001.jpeg" alt="pic"/>
+
 ## Create your environment accordingly
 
 Your environment influences your behavior and way of thinking. So make sure to create one that supports your goals. Select friends accordingly. Stay with people that are doing what you like to accomplish in the future as well.
@@ -74,8 +73,8 @@ But not only People. Change literally everything in your surroundings to support
 
 >⭐ Control your environment and don't let your environment control you.
 
-<img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?dpr=2&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/CjS3QsRuxnE
+<img src="../assets/progressEnvironment.001.jpeg" alt="pic"/>
+
 
 
 ## Conclusion
