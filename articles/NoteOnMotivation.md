@@ -32,7 +32,15 @@ Motivation is key for getting anything done. Why are some people more motivated 
 ---
 ## Stay consistent
 
-Nothing is as important as staying consistent. Whether it's writing code, practicing examples for your studies or writing articles. 
+Nothing is as important as staying consistent. Whether it's writing code, practicing examples for your studies or writing articles.
+
+The simple act of just doing it consistently, repeatedly, gets your mind into the state where it looks for more experiences. Humans get bored very easily. The brains searches for new stimulants all the time, but especially when the current situation doesn't provide any new stimuli.
+
+The paradox here is:
+The more you get into something, they easier you get bored, but also the you're looking for more new things in that certain topic.
+
+So make sure to harness that ability and attack new things immediately.
+New things provide new motivation.
 
 <img src="http://i.imgur.com/LnAozlx.jpg" alt="pic"/>
 
