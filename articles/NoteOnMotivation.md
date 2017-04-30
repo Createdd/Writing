@@ -81,8 +81,11 @@ But not only People. Change literally everything in your surroundings to support
 
 To conclude a few things to stay motivated:
 
+
 1.Be consistent
+
 2.Stay true to yourself
+
 3.Create an environment that supports you
 
 
