@@ -20,8 +20,6 @@ Motivation is key for getting anything done. Why are some people more motivated 
   * [Conclusion](#conclusion)
 
 
-<img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?dpr=2&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="pic"/>
-https://unsplash.com/photos/CjS3QsRuxnE
 
 ---
 
@@ -88,10 +86,12 @@ To conclude, a few things to stay motivated:
 3. Create an environment that supports you
 
 
+<img src="https://images.unsplash.com/photo-1491947153227-33d59da6c448?dpr=2&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="pic"/>
+https://unsplash.com/photos/CjS3QsRuxnE
 
 
 ```
-If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
+If you took something away from this article let me know with a comment or heart. Make sure to follow for more :)
 ```
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
