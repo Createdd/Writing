@@ -73,6 +73,10 @@ Should look like that and work properly:
 
 #### Handle HTTP Home Route
 
+- Create a function that handles a URL with "/" ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/http.html#http_message_url))
+- Set statusCode, Header and "end" response
+- Call the function as callback function when creating the server, and pass it's arguments as parameters
+
 
 
 
