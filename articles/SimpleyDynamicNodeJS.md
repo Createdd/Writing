@@ -18,6 +18,8 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
   * [Prepare](#prepare)
   * [Plan](#plan)
   * [Perform](#perform)
+      * [Basic Webserver](#basic-webserver)
+      * [Handle HTTP Home Route](#handle-http-home-route)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -61,6 +63,18 @@ Using Node.js to look up profiles and get the data via http
 Go through the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synopsis.html) to see examples and get help if you're stuck.
 
 ## Perform
+
+#### Basic Webserver
+- Copy the webserver example from the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synopsis.html)
+- Read and understand what's written in the docs
+- Adapt the webserver example to your needs
+
+Should look like that and work properly:
+
+#### Handle HTTP Home Route
+
+
+
 
 
 
