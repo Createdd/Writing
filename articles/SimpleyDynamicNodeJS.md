@@ -15,8 +15,9 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
 * [Introduction to E-Commerce Shops in JavaScript](#introduction-to-e-commerce-shops-in-javascript)
   * [📄 Table of contents](#table-of-contents)
   * [Start](#start)
-      * [Plan](#plan)
-      * [Plan](#plan-1)
+  * [Prepare](#prepare)
+  * [Plan](#plan)
+  * [Perform](#perform)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -42,7 +43,7 @@ Treehouse encourage you to start with the 4 P's of Problem Solving:
 
 I read about this solving strategy multiple times and like the approach when tackling building applications.
 
-#### Plan
+## Prepare
 
 Problem:
 We want to look at a user's badge count and his points in JavaScript.
@@ -50,12 +51,16 @@ We want to look at a user's badge count and his points in JavaScript.
 Solution:
 Using Node.js to look up profiles and get the data via http
 
-#### Plan
+## Plan
 
 - Create a web server
 - Handle HTTP home route GET and POST
 - Handle HTTP rout GET of the username
 - Function to read the data and output it in our app
+
+Go through the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synopsis.html) to see examples and get help if you're stuck.
+
+## Perform
 
 
 
