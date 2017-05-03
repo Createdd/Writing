@@ -78,8 +78,19 @@ Should look like that and work properly:
 - Set statusCode, Header and "end" response
 - Call the function as callback function when creating the server, and pass it's arguments as parameters
 
+Should look like that and work properly:
+
 #### Handle HTTP Username Route
 
+- Create a function that takes the `url` parameter and replace the "/" with ""
+- Execute function when the user types in a username (`username.length > 0`)
+- Create a new profile object when you receive a response (`... .on("end", function ...)`)
+- Store the values of the data in an object
+- Write out your values
+- Add an error handler
+- Since the app.js file is getting too big, store routing code in an own "router"-file. (Be sure to use import and export syntax properly)
+
+Should look like that and work properly:
 
 
 
