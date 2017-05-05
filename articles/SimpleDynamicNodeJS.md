@@ -21,6 +21,7 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
       * [Basic Webserver](#basic-webserver)
       * [Handle HTTP Home Route](#handle-http-home-route)
       * [Handle HTTP Username Route](#handle-http-username-route)
+      * [Function to read the data and output it in our app](#function-to-read-the-data-and-output-it-in-our-app)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -92,6 +93,14 @@ Should look like that and work properly:
 
 Should look like that and work properly:
 
+
+
+---
+Now you have the very basics of getting and handling JSON data!
+
+---
+
+#### Function to read the data and output it in our app
 
 
 
