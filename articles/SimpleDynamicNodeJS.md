@@ -105,6 +105,13 @@ Now you have the very basics of getting and handling JSON data!
 
 - Create your HTML and CSS layouts
 - Structure your folders accordingly (1 file for designs/styles)
+- For simplicity I'll style the components in the HTML file, however, normally you should create own CSS files
+- Keep everything dynamic with creation of an own "views" folder, that connects different parts of your designs
+- create a render function file to bring everything together
+  - use the `readFile` method from the fs object
+- use the render function in your routes to render all your html instead writing simple responses
+
+
 
 
 
@@ -115,8 +122,6 @@ Now you have the very basics of getting and handling JSON data!
 
 
 
-<img src="https://images.unsplash.com/photo-1475650522725-015d35677789?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/OCrPJce6GPk
 
 ## Conclusion
 
