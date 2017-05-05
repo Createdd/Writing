@@ -21,7 +21,8 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
       * [Basic Webserver](#basic-webserver)
       * [Handle HTTP Home Route](#handle-http-home-route)
       * [Handle HTTP Username Route](#handle-http-username-route)
-      * [Function to read the data and output it in our app](#function-to-read-the-data-and-output-it-in-our-app)
+      * [Structure according to the DRY (Don't repeat yourself) principle](#structure-according-to-the-dry-dont-repeat-yourself-principle)
+      * [Create functions to read the data and output it in our app](#create-functions-to-read-the-data-and-output-it-in-our-app)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -100,7 +101,16 @@ Now you have the very basics of getting and handling JSON data!
 
 ---
 
-#### Function to read the data and output it in our app
+#### Structure according to the DRY (Don't repeat yourself) principle
+
+- Create your HTML and CSS layouts
+- Structure your folders accordingly (1 file for designs/styles)
+
+
+
+#### Create functions to read the data and output it in our app
+
+
 
 
 
