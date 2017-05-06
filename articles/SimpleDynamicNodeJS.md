@@ -108,7 +108,7 @@ Now you have the very basics of getting and handling JSON data!
 - For simplicity I'll style the components in the HTML file, however, normally you should create own CSS files
 - Keep everything dynamic with creation of an own "views" folder, that connects different parts of your designs
 - create a render function file to bring everything together
-  - use the `readFile` method from the fs object
+  - use the `readFile` method from the fs object ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/fs.html#fs_fs_readfile_file_options_callback))
 - use the render function in your routes to render all your html instead writing simple responses
 
 
