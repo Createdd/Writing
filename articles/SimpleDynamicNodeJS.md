@@ -23,6 +23,7 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
       * [Handle HTTP Username Route](#handle-http-username-route)
       * [Structure according to the DRY (Don't repeat yourself) principle](#structure-according-to-the-dry-dont-repeat-yourself-principle)
       * [Create functions to read the data and output it in our app](#create-functions-to-read-the-data-and-output-it-in-our-app)
+      * [Get data from body and send POST request to route accordingly](#get-data-from-body-and-send-post-request-to-route-accordingly)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -119,6 +120,20 @@ Now you have the very basics of getting and handling JSON data!
 
 - Create a `mergeValues`function, that replaces your placeholders with the actual values generated from the API
 - Make sure to encode your files in a "utf8"-string instead using the raw buffer ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/fs.html#fs_fs_readfile_file_options_callback))
+- Refactor code creating a common header
+- Set the response head to HTML content type
+
+By now the render file should look like this:
+
+#### Get data from body and send POST request to route accordingly
+
+- Be sure that your search HTML performs a POST action
+- Handle the POST request with a querystring ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/querystring.html))
+- 
+
+
+The POST handling should look like this:
+
 
 
 
