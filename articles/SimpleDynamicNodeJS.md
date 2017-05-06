@@ -117,7 +117,8 @@ Now you have the very basics of getting and handling JSON data!
 
 #### Create functions to read the data and output it in our app
 
-
+- Create a `mergeValues`function, that replaces your placeholders with the actual values generated from the API
+- Make sure to encode your files in a "utf8"-string instead using the raw buffer ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/fs.html#fs_fs_readfile_file_options_callback))
 
 
 
