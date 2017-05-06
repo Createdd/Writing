@@ -27,6 +27,7 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
 ― Albert Einstein
 
 ---
+
 ## Start
 
 Treehouse encourage you to start with the 4 P's of Problem Solving:
