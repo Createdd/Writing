@@ -25,7 +25,6 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
       * [Create functions to read the data and output it in our app](#create-functions-to-read-the-data-and-output-it-in-our-app)
       * [Get data from body and send POST request to route accordingly](#get-data-from-body-and-send-post-request-to-route-accordingly)
   * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
@@ -73,7 +72,9 @@ Go through the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synop
 - Read and understand what's written in the docs
 - Adapt the webserver example to your needs
 
-Should look like that and work properly:
+<img src="../assets/SDN/webserver.png" alt="pic"/>
+Should look like that and work properly.
+
 
 #### Handle HTTP Home Route
 
@@ -81,7 +82,8 @@ Should look like that and work properly:
 - Set statusCode, Header and "end" response
 - Call the function as callback function when creating the server, and pass it's arguments as parameters
 
-Should look like that and work properly:
+<img src="../assets/SDN/homeroute.png" alt="pic"/>
+Should look like that and work properly.
 
 #### Handle HTTP Username Route
 
@@ -93,7 +95,8 @@ Should look like that and work properly:
 - Add an error handler
 - Since the app.js file is getting too big, store routing code in an own "router"-file. (Be sure to use import and export syntax properly)
 
-Should look like that and work properly:
+<img src="../assets/SDN/userroute.png" alt="pic"/>
+Should look like that and work properly.
 
 
 
@@ -113,9 +116,6 @@ Now you have the very basics of getting and handling JSON data!
 - use the render function in your routes to render all your html instead writing simple responses
 
 
-
-
-
 #### Create functions to read the data and output it in our app
 
 - Create a `mergeValues`function, that replaces your placeholders with the actual values generated from the API
@@ -123,38 +123,32 @@ Now you have the very basics of getting and handling JSON data!
 - Refactor code creating a common header
 - Set the response head to HTML content type
 
-By now the render file should look like this:
+<img src="../assets/SDN/render.png" alt="pic"/>
+By now the render file should look like this.
 
 #### Get data from body and send POST request to route accordingly
 
 - Be sure that your search HTML performs a POST action
-- Handle the POST request with a querystring ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/querystring.html))
-- 
+- Handle the POST request ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/http.html#http_class_http_incomingmessage)) with a querystring ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/querystring.html))
+- Use the http header "location" to with the response of 303 to redirect to the typed in username
 
+---
+⭐ Now the functionality of your dynamic site is fully established!
 
-The POST handling should look like this:
+---
 
+This is how it looks:
+<img src="../assets/SDN/preview.png" alt="pic"/>
 
-
-
-
+Checkout my [repo on github](https://github.com/DDCreationStudios/simpleDynamicNodeJS) for the code.
 
 ## Conclusion
 
+This is a great example how easy a simple application can be build in Node.js. So far I am really happy with the course on Treehouse. It breaks complex topics down and explains them very well.
 
+Start for [free here]("http://referrals.trhou.se/danieldeutsch3"):
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
+<a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png"/></a>
 
 ```
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
