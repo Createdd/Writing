@@ -9,11 +9,6 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Simple Dynamic Node.js Site](#simple-dynamic-nodejs-site)
-  * [📄 Table of contents](#table-of-contents)
   * [Start](#start)
   * [Prepare](#prepare)
   * [Plan](#plan)
@@ -25,10 +20,6 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
       * [Create functions to read the data and output it in our app](#create-functions-to-read-the-data-and-output-it-in-our-app)
       * [Get data from body and send POST request to route accordingly](#get-data-from-body-and-send-post-request-to-route-accordingly)
   * [Conclusion](#conclusion)
-
-<!-- tocstop -->
-
-
 
 ---
 
