@@ -83,6 +83,14 @@ https://unsplash.com/photos/OCrPJce6GPk
 
 ## Conclusion
 
+Was this a little bit more provocative? Yes? It should. Because wherever you are. Whether it's on your phone in a tram or your laptop in a library or your computer at home. Most of you will read it and go on with everything you do. Maybe you smile because you were slightly entertained. 80% will act like that and guess what? You won't achieve your dream because you don't take action. But some of you do. Some of you might start mapping out there future of greatness. Or better, continue to work their ass of to achieve everything they want in life. Stop wishing and start doing.
+
+>"Momma said, you could be anything in this world
+You could be anything in this world
+But of all things in this life you could pick to be
+You sure look like a hater or a bitch to me" - G-Eazy
+
+(because he's awesome ;) ) 
 
 
 ## Useful links & credits
