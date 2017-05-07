@@ -19,6 +19,7 @@ You decided to start programming? You are doing it on the side? You have another
   * [Get comfortable being a disappointment](#get-comfortable-being-a-disappointment)
   * [Start loving the pain of failure and fatigue](#start-loving-the-pain-of-failure-and-fatigue)
   * [The ultimate factor: WORK](#the-ultimate-factor-work)
+  * [Why you should keep going anyway](#why-you-should-keep-going-anyway)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -59,9 +60,19 @@ That's especially important for family. All of them have their own vision for yo
 
 >"Late Nights, Early Mornings. Lots Of Associates, Very Few Friends. You Will Be Misunderstood Constantly. You Will Be Single Unless You're Lucky Enough To Find Someone Who Understands Your Lifestyle. People Will Want You To Do Good But Never Better Than Them And For That Reason You Will Do A Lot Of Things Alone." - The Cost Of Ambition
 
+This goes even more for coding. You WILL spend a lot of time in front of your computer. Doesn't matter how many classes you take, hackathons or pair programming you do. Coding is learnt where it's done - on your seat in front of a display doing a lot of think in your own head.
+
+So get comfortable being alone.
+
+
 ## Start loving the pain of failure and fatigue
 
+This is true for nearly any endeavor in life, but goes very well for coding. OMG I freaking love it when I'm sitting hours for 10 lines of code and when I'm finished everything breaks.
+
 ## The ultimate factor: WORK
+
+## Why you should keep going anyway
+steve jobs
 
 
 
