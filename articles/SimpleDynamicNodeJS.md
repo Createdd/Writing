@@ -4,8 +4,9 @@
 https://unsplash.com/photos/QdAAasrZhdk)
 https://unsplash.com/photos/QdAAasrZhdk
 
-This is a tutorial for a small dynamic Node.js application. The full tutorial is available at [Treehouse.com](https://teamtreehouse.com/). This article is designed to provide some insights for the great JavaScript Path from Treehouse.com, but also to help beginners build a small app for themselves.
+This is a tutorial for a small dynamic Node.js application. The full tutorial is available at [Treehouse.com](https://teamtreehouse.com/). The article is designed to provide some insights for the great JavaScript Path from Treehouse.com, but also to help beginners build a small app for themselves.
 
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/simpleDynamicNodeJS)
 
 ## 📄 Table of contents
 
@@ -30,15 +31,15 @@ This is a tutorial for a small dynamic Node.js application. The full tutorial is
 
 ## Start
 
-Treehouse encourage you to start with the 4 P's of Problem Solving:
+The course encourages you to start with the 4 P's of Problem Solving:
 
-- Preperation
+- Prepare
 - Plan
 - Perform
 - Perfect
 
 
-I read about this solving strategy multiple times and like the approach when tackling building applications.
+I read about this solving strategy multiple times and like the approach when tackling building applications. So that’s why we are doing it here as well. ➡️
 
 ## Prepare
 
@@ -55,7 +56,7 @@ Using Node.js to look up profiles and get the data via http
 - Handle HTTP rout GET of the username
 - Function to read the data and output it in our app
 
-Go through the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synopsis.html) to see examples and get help if you're stuck.
+Alwas go through the [Node.js docs](https://nodejs.org/dist/latest-v7.x/docs/api/synopsis.html) to see examples and get help if you're stuck.
 
 ## Perform
 
@@ -93,7 +94,7 @@ Should look like that and work properly.
 
 
 ---
-Now you have the very basics of getting and handling JSON data!
+⭐ Now you have the very basics of getting and handling JSON data!
 
 ---
 
@@ -102,7 +103,7 @@ Now you have the very basics of getting and handling JSON data!
 - Create your HTML and CSS layouts
 - Structure your folders accordingly (1 file for designs/styles)
 - For simplicity I'll style the components in the HTML file, however, normally you should create own CSS files
-- Keep everything dynamic with creation of an own "views" folder, that connects different parts of your designs
+- Keep everything dynamic with creating an own "views" folder, that connects different parts of your designs
 - create a render function file to bring everything together
   - use the `readFile` method from the fs object ([see docs](https://nodejs.org/dist/latest-v7.x/docs/api/fs.html#fs_fs_readfile_file_options_callback))
 - use the render function in your routes to render all your html instead writing simple responses
@@ -136,9 +137,9 @@ Checkout my [repo on github](https://github.com/DDCreationStudios/simpleDynamicN
 
 ## Conclusion
 
-This is a great example how easy a simple application can be build in Node.js. So far I am really happy with the course on Treehouse. It breaks complex topics down and explains them very well.
+This is a great example how easy a simple application can be build in Node.js. I like this example, because it’s easy enough to code it pretty quickly, but complex enough to call it a real app. 
 
-Start for [free here]("http://referrals.trhou.se/danieldeutsch3"):
+So far I am really happy with the course on Treehouse. It breaks complex topics down and explains them very well. Start for [free here]("http://referrals.trhou.se/danieldeutsch3"):
 
 <a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png"/></a>
 
