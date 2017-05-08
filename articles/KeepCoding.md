@@ -90,7 +90,7 @@ You could be anything in this world
 But of all things in this life you could pick to be
 You sure look like a hater or a bitch to me" - G-Eazy
 
-(because he's awesome ;) ) 
+(because he's awesome ;) )
 
 
 ## Useful links & credits
