@@ -1,4 +1,4 @@
-# Simple Dynamic Node.js Site
+# A Simple Dynamic Node.js Site — Treehouse Profile Finder
 
 [<img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/QdAAasrZhdk)
