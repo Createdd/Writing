@@ -71,6 +71,8 @@ This is true for nearly any endeavor in life, but goes very well for coding. OMG
 
 ## The ultimate factor: WORK
 
+However you define "work", without explaining you know what I mean. For me it's doing the things that bring you one step closer to your goal. 
+
 ## Why you should keep going anyway
 steve jobs
 
