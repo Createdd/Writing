@@ -71,7 +71,15 @@ This is true for nearly any endeavor in life, but goes very well for coding. OMG
 
 ## The ultimate factor: WORK
 
-However you define "work", without explaining you know what I mean. For me it's doing the things that bring you one step closer to your goal. 
+However you define "work", without explaining you know what I mean. For me it's doing the things that bring you one step closer to your goal.
+
+There is one person that preaches work and that's Gary Vaynerchuk. [Here is a great motivational video](https://www.youtube.com/watch?v=XrVvFUYtYwI), which I for sure watched more than 100 times.
+
+What does work mean?
+Work is NOT doing something 9to5. It is NOT doing what everyone does on a daily basis. Work starts when the normal things are done. The work starts when you come home from your job. The work starts on the weekend. There is no weekend. But there is work. Work starts when you don't feel like it.
+What's work in programming? Work is coming home and firing up your PC to get shit done. Writing code every day. Learning things about programming every day. 
+
+Too tired? Too exhausted? Not in the mood? Start working!
 
 ## Why you should keep going anyway
 steve jobs
