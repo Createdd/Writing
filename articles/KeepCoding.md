@@ -77,11 +77,13 @@ There is one person that preaches work and that's Gary Vaynerchuk. [Here is a gr
 
 What does work mean?
 Work is NOT doing something 9to5. It is NOT doing what everyone does on a daily basis. Work starts when the normal things are done. The work starts when you come home from your job. The work starts on the weekend. There is no weekend. But there is work. Work starts when you don't feel like it.
-What's work in programming? Work is coming home and firing up your PC to get shit done. Writing code every day. Learning things about programming every day. 
+What's work in programming? Work is coming home and firing up your PC to get shit done. Writing code every day. Learning things about programming every day. Progressing on curricula, reading more books on that topic, contributing to open source. Do it - all day every day. That's work. And not just for a week. Not for a month. Not for a year. Do it as long as it takes to reach your goal. When your goal is to be the best, then there will never be "good enough".
 
 Too tired? Too exhausted? Not in the mood? Start working!
 
 ## Why you should keep going anyway
+
+
 steve jobs
 
 
