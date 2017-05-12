@@ -17,6 +17,8 @@ Authentication is an important issue when creating a dynamic web application. Th
   * [Authentication?](#authentication)
   * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
   * [User registration](#user-registration)
+      * [Connect to MongoDB](#connect-to-mongodb)
+      * [Create a schema](#create-a-schema)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -59,6 +61,8 @@ For the login mask I will use the awesome [template from w3layouts](https://w3la
 Following dependencies will I use
 - body-parser (for parsing incoming requests)
 - express (to make the application run)
+- [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
+- [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 
 The tutorial will be structured in:
 - User registration (setting up routes and database)
@@ -66,6 +70,43 @@ The tutorial will be structured in:
 - Creating custom middleware (to improve the performance)
 
 ## User registration
+
+I'll start with a basic express starter setup, which simply creates a webserver and serves the static files from the template on the home route. [(see on Github commit)](https://github.com/DDCSLearning/authenticationIntro/commit/97da94b5b6b52c4f2452d92eb0e92a110a97a1f4)
+
+#### Connect to MongoDB
+
+- install [Mongoose](http://mongoosejs.com/docs/)
+- install mondodb
+- setup up mongod if you haven't [(tutorial)](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
+- be sure to start nodemon again with the running mongod on localhost!
+
+#### Create a schema
+
+MongoDB is a document database, which stores JSON like objects. The model/schema describes what this objects should contain.
+
+- create a schema according to the [docs](http://mongoosejs.com/docs/guide.html) and store it in an own folder
+- the schema should describe the fields we have in our form and specify the data it can expect
+
+It should look something like this:
+
+```javascript
+var mongoose = require('mongoose');
+var UserSchema = new mongoose.Schema({
+  email: {
+    type: String,
+    unique: true,
+    required: true,
+    trim: true
+  },
+  password: {
+    type: String,
+    required: true,
+  }
+});
+var User = mongoose.model('User', UserSchema);
+module.exports = User;
+```
+
 
 
 
