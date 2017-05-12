@@ -19,6 +19,7 @@ Authentication is an important issue when creating a dynamic web application. Th
   * [User registration](#user-registration)
       * [Connect to MongoDB](#connect-to-mongodb)
       * [Create a schema](#create-a-schema)
+      * [Insert data into MongoDB](#insert-data-into-mongodb)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -56,7 +57,7 @@ In this example here I will use
 
 for writing the authentication.
 
-For the login mask I will use the awesome [template from w3layouts](https://w3layouts.com/proficient-login-form-flat-responsive-widget-template/).
+For the login mask I will use the awesome [template from w3layouts](https://w3layouts.com/register-login-widget-flat-responsive-widget-template/).
 
 Following dependencies will I use
 - body-parser (for parsing incoming requests)
@@ -98,7 +99,17 @@ var UserSchema = new mongoose.Schema({
     required: true,
     trim: true
   },
+  username: {
+    type: String,
+    unique: true,
+    required: true,
+    trim: true
+  },
   password: {
+    type: String,
+    required: true,
+  },
+  passwordConf: {
     type: String,
     required: true,
   }
@@ -107,8 +118,38 @@ var User = mongoose.model('User', UserSchema);
 module.exports = User;
 ```
 
+#### Insert data into MongoDB
 
+- add [body-parser](https://github.com/expressjs/body-parser) for parsing incoming request bodies in a middleware
+- create a POST route for sending the data to the server
+- store the values of the filled out form and store the data in the db with the schema
+- it should look like this:
 
+```javascript
+if (req.body.email &&
+    req.body.username &&
+    req.body.password &&
+    req.body.passwordConf) {
+
+    var userData = {
+      email: req.body.email,
+      username: req.body.username,
+      password: req.body.password,
+      passwordConf: req.body.passwordConf,
+    }
+
+    //use schema.create to insert data into the db
+    User.create(userData, function (err, user) {
+      if (err) {
+        return next(err)
+      } else {
+        return res.redirect('/profile');
+      }
+    });
+
+```
+
+- use the [mongo shell](https://docs.mongodb.com/manual/reference/mongo-shell/) to see if your data has been saved to the database (it should show a document in `db.users.find()` )
 
 
 
