@@ -43,6 +43,13 @@ It's necessary to understand:
 
 ## What I will use for this introduction
 
+In this example here I will use
+- Plain JavaScript
+- Node.js
+- Express (JS framework)
+- MongoDB (Database)
+
+
 
 
 
