@@ -1,4 +1,4 @@
-# Starting with Authentication
+# Starting with Authentication (A tutorial with Node.js and MongoDB)
 
 [<img src="https://images.unsplash.com/photo-1463136729667-22694f9bbc52?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/tGbugCIBaCo)
@@ -12,10 +12,11 @@ Authentication is an important issue when creating a dynamic web application. Th
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [Starting with Authentication](#starting-with-authentication)
+* [Starting with Authentication (A tutorial with Node.js and MongoDB)](#starting-with-authentication-a-tutorial-with-nodejs-and-mongodb)
   * [📄 Table of contents](#table-of-contents)
   * [Authentication?](#authentication)
   * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
+  * [User registration](#user-registration)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -49,6 +50,7 @@ In this example here I will use
 - Express (JS framework)
 - MongoDB (Database)
 - Yarn (package management)
+- Visual Studio Code as editor
 
 for writing the authentication.
 
@@ -57,7 +59,15 @@ For the login mask I will use the awesome [template from w3layouts](https://w3la
 Following dependencies will I use
 - body-parser (for parsing incoming requests)
 - express (to make the application run)
-- pug (template engine)
+
+The tutorial will be structured in:
+- User registration (setting up routes and database)
+- Sessions and Cookies (connecting them to login routes)
+- Creating custom middleware (to improve the performance)
+
+## User registration
+
+
 
 
 
