@@ -116,10 +116,9 @@ You sure look like a hater or a bitch to me" - G-Eazy
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
--
 
-```
+
+
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
-```
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
