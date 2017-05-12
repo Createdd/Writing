@@ -20,6 +20,7 @@ Authentication is an important issue when creating a dynamic web application. Th
       * [Connect to MongoDB](#connect-to-mongodb)
       * [Create a schema](#create-a-schema)
       * [Insert data into MongoDB](#insert-data-into-mongodb)
+      * [Hashing and salting](#hashing-and-salting)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -150,6 +151,10 @@ if (req.body.email &&
 ```
 
 - use the [mongo shell](https://docs.mongodb.com/manual/reference/mongo-shell/) to see if your data has been saved to the database (it should show a document in `db.users.find()` )
+
+#### Hashing and salting
+
+
 
 
 
