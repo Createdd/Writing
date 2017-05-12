@@ -14,6 +14,8 @@ Authentication is an important issue when creating a dynamic web application. Th
 
 * [Starting with Authentication](#starting-with-authentication)
   * [📄 Table of contents](#table-of-contents)
+  * [Authentication?](#authentication)
+  * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -27,8 +29,19 @@ Authentication is an important issue when creating a dynamic web application. Th
 
 ---
 
-##
+## Authentication?
 
+Authentication is for identifying users and provide different access rights and content depending on their id.
+In most cases the application provides a login form with certain credentials to verify a user.
+
+It's necessary to understand:
+- authentication as
+- authorization as
+- a session
+- cookies
+
+
+## What I will use for this introduction
 
 
 
