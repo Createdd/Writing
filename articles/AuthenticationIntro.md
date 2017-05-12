@@ -48,6 +48,19 @@ In this example here I will use
 - Node.js
 - Express (JS framework)
 - MongoDB (Database)
+- Yarn (package management)
+
+for writing the authentication.
+
+For the login mask I will use the awesome [template from w3layouts](https://w3layouts.com/proficient-login-form-flat-responsive-widget-template/).
+
+Following dependencies will I use
+- body-parser (for parsing incoming requests)
+- express (to make the application run)
+- pug (template engine)
+
+
+
 
 
 
