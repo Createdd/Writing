@@ -4,7 +4,7 @@
 https://unsplash.com/photos/tGbugCIBaCo)
 https://unsplash.com/photos/tGbugCIBaCo
 
-
+Authentication is an important issue when creating a dynamic web application. This article should clear things up and provide a basic instruction.
 
 
 ## 📄 Table of contents
