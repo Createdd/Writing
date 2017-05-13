@@ -65,6 +65,7 @@ Following dependencies will I use
 - express (to make the application run)
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
+- [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs) (for hashing and salting passwords)
 
 The tutorial will be structured in:
 - User registration (setting up routes and database)
@@ -154,6 +155,11 @@ if (req.body.email &&
 
 #### Hashing and salting
 
+**Cryptographic** hash functions take a piece of information and return a string, representing this information. Hash values cannot easily be "unhashed" or decrypted and that's why they are a perfect fit for passwords.
+
+**Salt values** are random data that is included with the input for the hash function.
+
+In this tutorial we are using [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs).
 
 
 
@@ -163,9 +169,8 @@ if (req.body.email &&
 
 
 
-
-<img src="https://images.unsplash.com/photo-1475650522725-015d35677789?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/OCrPJce6GPk
+<img src="https://images.unsplash.com/photo-1494583882007-bfd2321fb8e2?dpr=2&auto=format&fit=crop&w=1080&h=736&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
+https://unsplash.com/photos/qCrocisvGwc
 
 ## Conclusion
 
