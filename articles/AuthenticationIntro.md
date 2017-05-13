@@ -65,7 +65,7 @@ Following dependencies will I use
 - express (to make the application run)
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
-- [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs) (for hashing and salting passwords)
+- [bcrypt](https://www.npmjs.com/package/bcrypt) (for hashing and salting passwords)
 
 The tutorial will be structured in:
 - User registration (setting up routes and database)
@@ -129,26 +129,26 @@ module.exports = User;
 
 ```javascript
 if (req.body.email &&
-    req.body.username &&
-    req.body.password &&
-    req.body.passwordConf) {
+  req.body.username &&
+  req.body.password &&
+  req.body.passwordConf) {
 
-    var userData = {
-      email: req.body.email,
-      username: req.body.username,
-      password: req.body.password,
-      passwordConf: req.body.passwordConf,
+  var userData = {
+    email: req.body.email,
+    username: req.body.username,
+    password: req.body.password,
+    passwordConf: req.body.passwordConf,
+  }
+
+  //use schema.create to insert data into the db
+  User.create(userData, function (err, user) {
+    if (err) {
+      return next(err)
+    } else {
+      return res.redirect('/profile');
     }
-
-    //use schema.create to insert data into the db
-    User.create(userData, function (err, user) {
-      if (err) {
-        return next(err)
-      } else {
-        return res.redirect('/profile');
-      }
-    });
-
+  });
+}
 ```
 
 - use the [mongo shell](https://docs.mongodb.com/manual/reference/mongo-shell/) to see if your data has been saved to the database (it should show a document in `db.users.find()` )
@@ -159,7 +159,37 @@ if (req.body.email &&
 
 **Salt values** are random data that is included with the input for the hash function.
 
-In this tutorial we are using [bcrypt](https://www.npmjs.com/package/bcrypt-nodejs).
+In this tutorial we are using [bcrypt](https://www.npmjs.com/package/bcrypt).
+
+So next:
+
+- install the [bcrypt](https://www.npmjs.com/package/bcrypt) package
+- add a prehook to your mongoose schema. should look like this:
+
+```javascript
+//hashing a password before saving it to the database
+UserSchema.pre('save', function (next) {
+  var user = this;
+  bcrypt.hash(user.password, 10, function (err, hash){
+    if (err) {
+      return next(err);
+    }
+    user.password = hash;
+    next();
+  })
+});
+```
+- test with mongod if the new data is inserted with a hashed password (it should work)
+
+Compare with my working [commit](https://github.com/DDCSLearning/authenticationIntro/commit/33ac4662c38f7c3115615983cf60effe2ebbd7ed) if needed.
+
+
+
+
+
+
+
+
 
 
 
@@ -174,7 +204,9 @@ https://unsplash.com/photos/qCrocisvGwc
 
 ## Conclusion
 
+That's how easy an authentication system can be implemented with Node.js and MongoDB.
 
+If you want to follow along with my Github repo, be aware that I was refactoring my files constantly to fix issues and improve. So I'd suggest to just look at the finished version. Also note that my current develop environment is not optimized - I just started with VS Code and didn't set up a lot, which is why many errors are overseen. It was more of a quick introduction to get the point about authentication across. 
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
