@@ -28,6 +28,7 @@ Authentication is an important issue when creating a dynamic web application. Th
       * [Set up Sessions](#set-up-sessions)
   * [Refining the app](#refining-the-app)
   * [Creating custom middleware](#creating-custom-middleware)
+  * [A note on scalability with sessions](#a-note-on-scalability-with-sessions)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -281,11 +282,34 @@ There is much more to add but logging out and destroying the session is importan
 
 ## Creating custom middleware
 
-
-
 Middleware runs after a request is received, but before a response is sent back. In this example the body-parser package is used as middleware. It converts incoming requests into a format that is easy to use for a JS program.
 
 Middleware functions can be chained after each other and fit into the request/response cycle of the application. When writing custom middleware, `next()` always has to be called at the end of that middleware to move to the next one in the cycle.
+
+Middleware can be used in many cases in this example, however, for simplicity reasons, I just reference an example to give an idea.
+
+Example: Creating middleware that requires a login for certain pages.
+
+```javascript
+function requiresLogin(req, res, next) {
+  if (req.session && req.session.userId) {
+    return next();
+  } else {
+    var err = new Error('You must be logged in to view this page.');
+    err.status = 401;
+    return next(err);
+  }
+}
+```
+```javascript
+router.get('/profile', mid.requiresLogin, function(req, res, next) {
+  //...
+});
+```
+
+Writing your own middleware gives you the freedom for ultimate flexibility when refining authentication routes.
+
+##  A note on scalability with sessions
 
 
 
