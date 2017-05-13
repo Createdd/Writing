@@ -25,6 +25,7 @@ Authentication is an important issue when creating a dynamic web application. Th
       * [Insert data into MongoDB](#insert-data-into-mongodb)
       * [Hashing and salting](#hashing-and-salting)
   * [Sessions and Cookies](#sessions-and-cookies)
+      * [Set up Sessions](#set-up-sessions)
   * [Creating custom middleware](#creating-custom-middleware)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -74,6 +75,7 @@ Following packages are used
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [bcrypt](https://www.npmjs.com/package/bcrypt) (for hashing and salting passwords)
+- [express session](https://www.npmjs.com/package/express-session) (to handle sessions)
 
 #### Structure
 
@@ -197,8 +199,62 @@ ___
 ⭐ You have just reached 50% of the whole app and the hardest part is already finished! - Keep up! 🚀
 ___
 
-
 ## Sessions and Cookies
+
+HTTP is a stateless protocol, which means that web servers don't keep track of who is visiting a page. Displaying specific content to logged-in users require this tracking. Therefore **sessions** with a session ID are created.
+**Cookies** are key/value pairs managed by browsers. Those correspond with the sessions of the server.
+
+
+#### Set up Sessions
+
+- add the [express session](https://www.npmjs.com/package/express-session) package
+- add the session middleware in your app. A simple one looks like that:
+
+```javascript
+//use sessions for tracking logins
+app.use(session({
+  secret: 'work hard',
+  resave: true,
+  saveUninitialized: false
+}));
+```
+- store the MongoDB userId (`_id`) in the `req.session.userId`
+- setup the login route the same way you set up the register route (in the login you only have the username and password)
+- authenticate the input against the data in the database in the user schema. It should look like this:
+
+```javascript
+//authenticate input against database
+UserSchema.statics.authenticate = function (email, password, callback) {
+  User.findOne({ email: email })
+    .exec(function (err, user) {
+      if (err) {
+        return callback(err)
+      } else if (!user) {
+        var err = new Error('User not found.');
+        err.status = 401;
+        return callback(err);
+      }
+      bcrypt.compare(password, user.password, function (err, result) {
+        if (result === true) {
+          return callback(null, user);
+        } else {
+          return callback();
+        }
+      })
+    });
+}
+```
+
+___
+❗ Take your time to understand this block of code, since it is the key function in the whole authentication process in my opinion!
+___
+
+
+
+
+
+
+
 
 
 ## Creating custom middleware
