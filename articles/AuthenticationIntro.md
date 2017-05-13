@@ -26,6 +26,7 @@ Authentication is an important issue when creating a dynamic web application. Th
       * [Hashing and salting](#hashing-and-salting)
   * [Sessions and Cookies](#sessions-and-cookies)
       * [Set up Sessions](#set-up-sessions)
+  * [Refining the app](#refining-the-app)
   * [Creating custom middleware](#creating-custom-middleware)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -254,9 +255,37 @@ ___
 
 Compare with my working [commit](https://github.com/DDCSLearning/authenticationIntro/commit/1564715bf713b89bc622adb314577d509eed51ac) if needed.
 
+## Refining the app
+
+- make sure to adapt your layout accordingly to the sessions (hiding register fields and providing logout buttons)
+- create a middleware to make user IDs available in HTML
+- create a logout route that destroys the session id and redirects back to the home route. It can look like this:
+
+```javascript
+// GET /logout
+router.get('/logout', function(req, res, next) {
+  if (req.session) {
+    // delete session object
+    req.session.destroy(function(err) {
+      if(err) {
+        return next(err);
+      } else {
+        return res.redirect('/');
+      }
+    });
+  }
+});
+```
+
+There is much more to add but logging out and destroying the session is important for each authentication system! That's why I've included it here as well.
+
 ## Creating custom middleware
 
 
+
+Middleware runs after a request is received, but before a response is sent back. In this example the body-parser package is used as middleware. It converts incoming requests into a format that is easy to use for a JS program.
+
+Middleware functions can be chained after each other and fit into the request/response cycle of the application. When writing custom middleware, `next()` always has to be called at the end of that middleware to move to the next one in the cycle.
 
 
 
