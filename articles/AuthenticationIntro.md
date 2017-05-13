@@ -249,13 +249,10 @@ ___
 ❗ Take your time to understand this block of code, since it is the key function in the whole authentication process in my opinion!
 ___
 
+⭐ Now at this point your actual authenticaiton is working. Congratulation!
+___
 
-
-
-
-
-
-
+Compare with my working [commit](https://github.com/DDCSLearning/authenticationIntro/commit/1564715bf713b89bc622adb314577d509eed51ac) if needed.
 
 ## Creating custom middleware
 
