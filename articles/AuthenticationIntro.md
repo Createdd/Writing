@@ -16,11 +16,16 @@ Authentication is an important issue when creating a dynamic web application. Th
   * [📄 Table of contents](#table-of-contents)
   * [Authentication?](#authentication)
   * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
+      * [Development Environment](#development-environment)
+      * [Dependencies](#dependencies)
+      * [Structure](#structure)
   * [User registration](#user-registration)
       * [Connect to MongoDB](#connect-to-mongodb)
       * [Create a schema](#create-a-schema)
       * [Insert data into MongoDB](#insert-data-into-mongodb)
       * [Hashing and salting](#hashing-and-salting)
+  * [Sessions and Cookies](#sessions-and-cookies)
+  * [Creating custom middleware](#creating-custom-middleware)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -48,6 +53,7 @@ It's necessary to understand:
 
 ## What I will use for this introduction
 
+#### Development Environment
 In this example here I will use
 - Plain JavaScript
 - Node.js
@@ -60,12 +66,16 @@ for writing the authentication.
 
 For the login mask I will use the awesome [template from w3layouts](https://w3layouts.com/register-login-widget-flat-responsive-widget-template/).
 
-Following dependencies will I use
+#### Dependencies
+
+Following packages are used
 - body-parser (for parsing incoming requests)
 - express (to make the application run)
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [bcrypt](https://www.npmjs.com/package/bcrypt) (for hashing and salting passwords)
+
+#### Structure
 
 The tutorial will be structured in:
 - User registration (setting up routes and database)
@@ -183,9 +193,15 @@ UserSchema.pre('save', function (next) {
 
 Compare with my working [commit](https://github.com/DDCSLearning/authenticationIntro/commit/33ac4662c38f7c3115615983cf60effe2ebbd7ed) if needed.
 
+___
+⭐ You have just reached 50% of the whole app and the hardest part is already finished! - Keep up! 🚀
+___
 
 
+## Sessions and Cookies
 
+
+## Creating custom middleware
 
 
 
@@ -206,7 +222,7 @@ https://unsplash.com/photos/qCrocisvGwc
 
 That's how easy an authentication system can be implemented with Node.js and MongoDB.
 
-If you want to follow along with my Github repo, be aware that I was refactoring my files constantly to fix issues and improve. So I'd suggest to just look at the finished version. Also note that my current develop environment is not optimized - I just started with VS Code and didn't set up a lot, which is why many errors are overseen. It was more of a quick introduction to get the point about authentication across. 
+If you want to follow along with my Github repo, be aware that I was refactoring my files constantly to fix issues and improve. So I'd suggest to just look at the finished version. Also note that my current develop environment is not optimized - I just started with VS Code and didn't set up a lot, which is why many errors are overseen. It was more of a quick introduction to get the point about authentication across.
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
