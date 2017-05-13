@@ -78,6 +78,7 @@ Following packages are used
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [bcrypt](https://www.npmjs.com/package/bcrypt) (for hashing and salting passwords)
 - [express session](https://www.npmjs.com/package/express-session) (to handle sessions)
+- [connect-mongo](https://www.npmjs.com/package/connect-mongo) (for storing sessions in MongoDB)
 
 #### Structure
 
@@ -311,6 +312,25 @@ Writing your own middleware gives you the freedom for ultimate flexibility when 
 
 ##  A note on scalability with sessions
 
+Currently sessions are stored in RAM. To store have more size we can connect the session store to MongoDB. I'll use the [connect-mongo](https://www.npmjs.com/package/connect-mongo) package for that.
+
+- simply add the store like instructed on their docs. It should now look like this:
+
+```javascript
+//use sessions for tracking logins
+app.use(session({
+  secret: 'work hard',
+  resave: true,
+  saveUninitialized: false,
+  store: new MongoStore({
+    mongooseConnection: db
+  })
+}));
+```
+- when checking with the mongo shell you should see how the new collection "sessions" is created. When logging in or out the data in that collection changes accordingly.
+
+
+
 
 
 
@@ -325,6 +345,10 @@ Writing your own middleware gives you the freedom for ultimate flexibility when 
 https://unsplash.com/photos/qCrocisvGwc
 
 ## Conclusion
+
+To wrap up important issues here:
+- always make sure to transfer credentials in an encrypted way from the browser to the server and backwards
+- 
 
 That's how easy an authentication system can be implemented with Node.js and MongoDB.
 
