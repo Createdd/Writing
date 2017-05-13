@@ -29,8 +29,8 @@ Authentication is an important issue when creating a dynamic web application. Th
   * [Refining the app](#refining-the-app)
   * [Creating custom middleware](#creating-custom-middleware)
   * [A note on scalability with sessions](#a-note-on-scalability-with-sessions)
+  * [Wrap up](#wrap-up)
   * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
@@ -330,14 +330,13 @@ app.use(session({
 - when checking with the mongo shell you should see how the new collection "sessions" is created. When logging in or out the data in that collection changes accordingly.
 
 
+## Wrap up
 
-
-
-
-
-
-
-
+- always make sure to transfer credentials in an encrypted way from the browser to the server and backwards
+- be sure to add a security certificate to your HTTP (HTTPS)
+- keep in mind that this way (with sessions and cookies) was only one way to authenticate, others are for example
+  - token based authentication with OAuth or JSON Web Tokens
+  - or with the [passport middleware](http://passportjs.org/)
 
 
 
@@ -346,29 +345,13 @@ https://unsplash.com/photos/qCrocisvGwc
 
 ## Conclusion
 
-To wrap up important issues here:
-- always make sure to transfer credentials in an encrypted way from the browser to the server and backwards
-- 
-
 That's how easy an authentication system can be implemented with Node.js and MongoDB.
 
 If you want to follow along with my Github repo, be aware that I was refactoring my files constantly to fix issues and improve. So I'd suggest to just look at the finished version. Also note that my current develop environment is not optimized - I just started with VS Code and didn't set up a lot, which is why many errors are overseen. It was more of a quick introduction to get the point about authentication across.
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
 
-```
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
-```
+
+
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
