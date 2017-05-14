@@ -6,6 +6,8 @@ https://unsplash.com/photos/tGbugCIBaCo
 
 Authentication is an important issue when creating a dynamic web application. This article should clear things up and provide a basic instruction.
 
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/authenticationIntro)
+
 
 ## 📄 Table of contents
 
@@ -252,10 +254,13 @@ ___
 ❗ Take your time to understand this block of code, since it is the key function in the whole authentication process in my opinion!
 ___
 
-⭐ Now at this point your actual authenticaiton is working. Congratulation!
+⭐ Now at this point your actual authenticaton is working. Congratulation!
 ___
 
 Compare with my working [commit](https://github.com/DDCSLearning/authenticationIntro/commit/1564715bf713b89bc622adb314577d509eed51ac) if needed.
+
+<img src="https://images.unsplash.com/photo-1494583882007-bfd2321fb8e2?dpr=2&auto=format&fit=crop&w=1080&h=736&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
+https://unsplash.com/photos/qCrocisvGwc
 
 ## Refining the app
 
@@ -338,10 +343,9 @@ app.use(session({
   - token based authentication with OAuth or JSON Web Tokens
   - or with the [passport middleware](http://passportjs.org/)
 
+<img src="../assets/AUTH/preview.png" alt="pic"/>
 
-
-<img src="https://images.unsplash.com/photo-1494583882007-bfd2321fb8e2?dpr=2&auto=format&fit=crop&w=1080&h=736&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/qCrocisvGwc
+Checkout my [repo on github](https://github.com/DDCreationStudios/authenticationIntro) for the code.
 
 ## Conclusion
 
