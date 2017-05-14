@@ -14,6 +14,11 @@ https://unsplash.com/photos/th3rQu0K3aM
 
 * [Starting with Authentication](#starting-with-authentication)
   * [📄 Table of contents](#table-of-contents)
+  * [API](#api)
+  * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
+      * [Development Environment](#development-environment)
+      * [Dependencies](#dependencies)
+      * [Structure](#structure)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -25,7 +30,41 @@ https://unsplash.com/photos/th3rQu0K3aM
 >"We see our customers as invited guests to a party, and we are the hosts. It's our job every day to make every important aspect of the customer experience a little bit better."  - Jeff Bezos
 ---
 
+## API
 
+It's necessary to understand:
+
+
+## What I will use for this introduction
+
+#### Development Environment
+
+In this example here I will use
+
+Plain JavaScript
+- Node.js
+- Express (JS framework)
+- MongoDB (Database)
+- Yarn (package management)
+- Visual Studio Code as editor
+
+For the login mask I will use the awesome template from w3layouts.
+
+#### Dependencies
+
+Following packages are used
+
+- body-parser (for parsing incoming requests)
+- express (to make the application run)
+- nodemon (restarting server when changes occur)
+- mongoose (object data modeling to simplify interactions with MongoDB)
+- bcrypt (for hashing and salting passwords)
+- express session (to handle sessions)
+- connect-mongo (for storing sessions in MongoDB)
+
+#### Structure
+
+The tutorial will be structured in:
 
 
 
