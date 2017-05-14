@@ -27,7 +27,9 @@ Starting to write different articles about different things and document here �
 1. [📖 Summary of Secrets of a JavaScript Ninja ](https://github.com/DDCreationStudios/Writing/blob/master/articles/JavaScriptNinja.md)
 1. [💸 E-Commerce Shopping Intro ](https://github.com/DDCreationStudios/Writing/blob/master/articles/ECommerceShopIntro.md)
 1. [🌟 3 Things on Motivation ](https://github.com/DDCreationStudios/Writing/blob/master/articles/NoteOnMotivation.md)
-1. [⚛️ A simple dynamic Node.js app ](https://github.com/DDCreationStudios/Writing/blob/master/articles/SimpleDynamicNodeJS.md)
+1. [🌐 A simple dynamic Node.js app ](https://github.com/DDCreationStudios/Writing/blob/master/articles/SimpleDynamicNodeJS.md)
+1. [🌟 Why to keep coding ](https://github.com/DDCreationStudios/Writing/blob/master/articles/KeepCoding.md)
+1. [🌐 Introduction to Authentication with Node.js and MongoDB ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AuthenticationIntro.md)
 
 ### ✅ ToDo
 - [X] find better toc package ➡️ found in enhanced markdown preview
