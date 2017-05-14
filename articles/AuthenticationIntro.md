@@ -11,11 +11,6 @@ Authentication is an important issue when creating a dynamic web application. Th
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Starting with Authentication (A tutorial with Node.js and MongoDB)](#starting-with-authentication-a-tutorial-with-nodejs-and-mongodb)
-  * [📄 Table of contents](#table-of-contents)
   * [Authentication?](#authentication)
   * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
       * [Development Environment](#development-environment)
@@ -33,9 +28,6 @@ Authentication is an important issue when creating a dynamic web application. Th
   * [A note on scalability with sessions](#a-note-on-scalability-with-sessions)
   * [Wrap up](#wrap-up)
   * [Conclusion](#conclusion)
-
-<!-- tocstop -->
-
 
 
 ---
@@ -353,6 +345,8 @@ That's how easy an authentication system can be implemented with Node.js and Mon
 
 If you want to follow along with my Github repo, be aware that I was refactoring my files constantly to fix issues and improve. So I'd suggest to just look at the finished version. Also note that my current develop environment is not optimized - I just started with VS Code and didn't set up a lot, which is why many errors are overseen. It was more of a quick introduction to get the point about authentication across.
 
+This is also covered in more detail on treehouse:
+<a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png" height="150"/></a>
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
