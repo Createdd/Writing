@@ -61,6 +61,7 @@ Plain JavaScript
 - MongoDB (Database)
 - Yarn (package management)
 - Visual Studio Code as editor
+- [Postman](https://www.getpostman.com/) (testing APIs)
 
 For the login mask I will use the awesome template from w3layouts.
 
@@ -87,7 +88,8 @@ The tutorial will be structured in:
 
 ## Building the API routes
 
-- start with a basic web server in express (look up the docs of express for an example)
+- start with creating a basic web server in an express app (check out the docs of express for an example)
+- use express middleware to be as flexible as possible
 -
 
 
