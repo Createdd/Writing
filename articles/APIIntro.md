@@ -87,6 +87,9 @@ The tutorial will be structured in:
 
 ## Building the API routes
 
+- start with a basic web server in express (look up the docs of express for an example)
+-
+
 
 ## Modeling data for the API
 
