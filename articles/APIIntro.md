@@ -90,7 +90,8 @@ The tutorial will be structured in:
 
 - start with creating a basic web server in an express app (check out the docs of express for an example)
 - use express middleware to be as flexible as possible
--
+- add the body-parser package to parse requests
+- use the parser in a middleware
 
 
 ## Modeling data for the API
