@@ -23,6 +23,7 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Set up basics](#set-up-basics)
       * [Create question routes](#create-question-routes)
       * [Create answer routes](#create-answer-routes)
+      * [Set up error handlers](#set-up-error-handlers)
   * [Modeling data for the API](#modeling-data-for-the-api)
   * [Communicating with Mongo through Mongoose](#communicating-with-mongo-through-mongoose)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
@@ -169,6 +170,28 @@ router.post('/:qID/answers/:aID/vote-:dec', (req, res) => {
 });
 ```
 
+#### Set up error handlers
+
+- use middleware to catch errors efficiently
+- catch 404s and pass to custom error handler (if no error is passed use 500)
+- create an individual validation middleware for voting errors (only allowing up or down voting)
+- for example:
+
+```javascript
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+app.use((err, req, res, next) => {
+  res.status(err.status || 500);
+  res.json({
+    error: {
+      message: err.message
+    }
+  });
+});
+```
 
 ## Modeling data for the API
 
