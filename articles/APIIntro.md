@@ -26,6 +26,8 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Set up error handlers](#set-up-error-handlers)
   * [Connecting with MongoDB through Mongoose](#connecting-with-mongodb-through-mongoose)
       * [Modeling data for the API](#modeling-data-for-the-api)
+      * [Creating the Schema](#creating-the-schema)
+      * [Extend the functionality by sorting and voting](#extend-the-functionality-by-sorting-and-voting)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -203,7 +205,62 @@ I will use Mongoose to set the data handling for MongoDB. Schemas allow to defin
 
 In this case this is best implemented using only question objects with answer properties. However, bare in mind, that documents have a storage limit and therefore the amount of answers is limited.
 
-####
+#### Creating the Schema
+
+- create a Schema that follows your desired parent-children structure
+- build a model with the Schema
+- for example:
+```javascript
+const AnswerSchema = new Schema({
+  text: String,
+  createdAt: { type: Date, default: Date.now },
+  updatedAt: { type: Date, default: Date.now },
+  votes: { type: Number, default: 0 }
+});
+
+const QuestionSchema = new Schema({
+  text: String,
+  createdAt: { type: Date, default: Date.now },
+  answers: [AnswerSchema]
+});
+
+const Question = mongoose.model('Question', QuestionSchema);
+```
+
+#### Extend the functionality by sorting and voting
+
+- answers should be sorted by the newest
+- and voting should also be stored in the database
+- create a mongoose prehook to sort when saving
+- call the child document's parent method to reference the parent document (answer references the question)
+- for example:
+
+```javascript
+const sortAnswers = (a, b) => {
+  if (a.votes === b.votes) {
+    return b.updatedAt - a.updatedAt;
+  }
+  return b.votes - a.votes;
+};
+QuestionSchema.pre('save', next => {
+  this.answers.sort(sortAnswers);
+  next();
+});
+
+AnswerSchema.method('update', (updates, callback) => {
+  Object.assign(this, updates, { updatedAt: new Date() });
+  this.parent().save(callback);
+});
+
+AnswerSchema.method('vote', (vote, callback) => {
+  if (vote === 'up') {
+    this.votes += 1;
+  } else {
+    this.votes -= 1;
+  }
+  this.parent().save(callback);
+});
+```
 
 
 ## Finalizing and testing the API
