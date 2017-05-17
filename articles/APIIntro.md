@@ -29,6 +29,7 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Creating the Schema](#creating-the-schema)
       * [Extend the functionality by sorting and voting](#extend-the-functionality-by-sorting-and-voting)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
+      * [Connecting the API to the database](#connecting-the-api-to-the-database)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -262,8 +263,9 @@ AnswerSchema.method('vote', (vote, callback) => {
 });
 ```
 
-
 ## Finalizing and testing the API
+
+#### Connecting the API to the database
 
 
 <img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
