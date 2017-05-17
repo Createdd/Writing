@@ -20,6 +20,8 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Dependencies](#dependencies)
       * [Structure](#structure)
   * [Building the API routes](#building-the-api-routes)
+      * [Set up basics](#set-up-basics)
+      * [Create first routes](#create-first-routes)
   * [Modeling data for the API](#modeling-data-for-the-api)
   * [Communicating with Mongo through Mongoose](#communicating-with-mongo-through-mongoose)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
@@ -88,10 +90,16 @@ The tutorial will be structured in:
 
 ## Building the API routes
 
+#### Set up basics
+- install the nodemon package to simplify developing and add the script in the package.json accordingly
 - start with creating a basic web server in an express app (check out the docs of express for an example)
 - use express middleware to be as flexible as possible
 - add the body-parser package to parse requests
 - use the parser in a middleware
+
+#### Create first routes
+
+
 
 
 ## Modeling data for the API
