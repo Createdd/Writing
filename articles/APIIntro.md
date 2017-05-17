@@ -103,10 +103,71 @@ The tutorial will be structured in:
 
 - create a router.js file to store all routes
 - set up GET and POST routes to look at questions and create them
-- set up a GET route for specific questions using ``
+- set up a GET route for specific questions
+- for example:
+```javascript
+router.get('/', (req, res) => {
+  res.json({ response: 'a GET request for LOOKING at questions' });
+});
+
+router.post('/', (req, res) => {
+  res.json({
+    response: 'a POST request for CREATING questions',
+    body: req.body
+  });
+});
+
+router.get('/:qID', (req, res) => {
+  res.json({
+    response: `a GET request for LOOKING at a special answer id: ${req.params.qID}`
+  });
+});
+```
 
 #### Create answer routes
-- install the morgan package for logging http requests
+- install the morgan package for logging http requests (helps analyzing your requests in the console)
+- set up the POST route for creating answers
+- set up the PUT and DELETE route for editing and deleting answers
+- set up a POST route for creating voting on answers
+- for example:
+
+```javascript
+router.post('/:qID/answers', (req, res) => {
+  res.json({
+    response: 'a POST request for CREATING answers',
+    question: req.params.qID,
+    body: req.body
+  });
+});
+
+router.put('/:qID/answers/:aID', (req, res) => {
+  res.json({
+    response: 'a PUT request for EDITING answers',
+    question: req.params.qID,
+    answer: req.params.aID,
+    body: req.body
+  });
+});
+
+router.delete('/:qID/answers/:aID', (req, res) => {
+  res.json({
+    response: 'a DELETE request for DELETING answers',
+    question: req.params.qID,
+    answer: req.params.aID,
+    body: req.body
+  });
+});
+
+router.post('/:qID/answers/:aID/vote-:dec', (req, res) => {
+  res.json({
+    response: 'a POST request for VOTING on answers',
+    question: req.params.qID,
+    answer: req.params.aID,
+    vote: req.params.dec,
+    body: req.body
+  });
+});
+```
 
 
 ## Modeling data for the API
