@@ -24,8 +24,8 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Create question routes](#create-question-routes)
       * [Create answer routes](#create-answer-routes)
       * [Set up error handlers](#set-up-error-handlers)
-  * [Modeling data for the API](#modeling-data-for-the-api)
-  * [Communicating with Mongo through Mongoose](#communicating-with-mongo-through-mongoose)
+  * [Connecting with MongoDB through Mongoose](#connecting-with-mongodb-through-mongoose)
+      * [Modeling data for the API](#modeling-data-for-the-api)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -173,7 +173,7 @@ router.post('/:qID/answers/:aID/vote-:dec', (req, res) => {
 #### Set up error handlers
 
 - use middleware to catch errors efficiently
-- catch 404s and pass to custom error handler (if no error is passed use 500)
+- catch 404s and pass to custom error handler to send readable JSON messages (if no error is passed, use 500)
 - create an individual validation middleware for voting errors (only allowing up or down voting)
 - for example:
 
@@ -193,10 +193,17 @@ app.use((err, req, res, next) => {
 });
 ```
 
-## Modeling data for the API
+## Connecting with MongoDB through Mongoose
 
 
-## Communicating with Mongo through Mongoose
+#### Modeling data for the API
+
+Structure what kind of data has to be stored in a database and what type of relation the data has.
+I will use Mongoose to set the data handling for MongoDB. Schemas allow to define the data in JSON format.
+
+In this case this is best implemented using only question objects with answer properties. However, bare in mind, that documents have a storage limit and therefore the amount of answers is limited.
+
+####
 
 
 ## Finalizing and testing the API
