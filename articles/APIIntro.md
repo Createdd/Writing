@@ -21,7 +21,8 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Structure](#structure)
   * [Building the API routes](#building-the-api-routes)
       * [Set up basics](#set-up-basics)
-      * [Create first routes](#create-first-routes)
+      * [Create question routes](#create-question-routes)
+      * [Create answer routes](#create-answer-routes)
   * [Modeling data for the API](#modeling-data-for-the-api)
   * [Communicating with Mongo through Mongoose](#communicating-with-mongo-through-mongoose)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
@@ -73,8 +74,9 @@ Following packages are used
 
 - body-parser (for parsing incoming requests)
 - express (to make the application run)
-- nodemon (restarting server when changes occur)
-- mongoose (object data modeling to simplify interactions with MongoDB)
+- [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
+- [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
+- [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware )
 
 #### Structure
 
@@ -97,9 +99,14 @@ The tutorial will be structured in:
 - add the body-parser package to parse requests
 - use the parser in a middleware
 
-#### Create first routes
+#### Create question routes
 
+- create a router.js file to store all routes
+- set up GET and POST routes to look at questions and create them
+- set up a GET route for specific questions using ``
 
+#### Create answer routes
+- install the morgan package for logging http requests
 
 
 ## Modeling data for the API
