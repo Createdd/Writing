@@ -333,14 +333,66 @@ router.get('/:qID', (req, res) => {
 
 #### Update answer routes
 
+- for the POST route (creating answers) simply push the answer to the answer array in the question document and save it with the mongoose methods as JSON
+- for the PUT route (updating the answer) return the new JSON with the `update` method
+- for the DELETE route (to remove answers) use the `remove` method
+- for the POST route (to create voting) use middleware to check for the correct expression and use the `vote` method we defined in the model file
+- for example
 
+```javascript
+router.post('/:qID/answers', (req, res, next) => {
+  req.question.answers.push(req.body);
+  req.question.save((err, question) => {
+    if (err) return next(err);
+    res.status(201);
+    res.json(question);
+  });
+});
 
+router.put('/:qID/answers/:aID', (req, res, next) => {
+  req.answer.update(req.body, (err, result) => {
+    if (err) return next(err);
+    res.json(result);
+  });
+});
+
+router.delete('/:qID/answers/:aID', (req, res) => {
+  req.answer.remove(err => {
+    req.question.save((err, question) => {
+      if (err) return next(err);
+      res.json(question);
+    });
+  });
+});
+
+router.post(
+  '/:qID/answers/:aID/vote-:dec',
+  (req, res, next) => {
+    if (req.params.dec.search(/^(up|down)$/) === -1) {
+      const err = new Error(`Not possible to vot for ${req.params.dec}!`);
+      err.status = 404;
+      next(err);
+    } else {
+      req.vote = req.params.dec;
+      next();
+    }
+  },
+  (req, res, next) => {
+    req.answer.vote(req.vote, (err, question) => {
+      if (err) return next(err);
+      res.json(question);
+    });
+  }
+);
+```
+
+<img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
+https://unsplash.com/photos/PJCZOWuOxbU
 
 ## Finalizing and testing the API
 
 
-<img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/PJCZOWuOxbU
+
 
 ## Conclusion
 
