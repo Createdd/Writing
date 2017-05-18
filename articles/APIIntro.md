@@ -30,6 +30,8 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Extend the functionality by sorting and voting](#extend-the-functionality-by-sorting-and-voting)
   * [Connecting the API to the database](#connecting-the-api-to-the-database)
       * [Establish error handling](#establish-error-handling)
+      * [Update question routes](#update-question-routes)
+      * [Update answer routes](#update-answer-routes)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
@@ -300,7 +302,39 @@ router.param('aID', (req, res, next, id) => {
 });
 ```
 
--
+#### Update question routes
+
+- for the GET route find the questions in your database
+- return the questions
+- for the POST route (creating new questions) create a new question with the body of the request and save it to the database in JSON format
+- for the GET route on one question just response the specific question
+- for example:
+```javascript
+router.get('/', (req, res, next) => {
+  Question.find({}).sort({ createdAt: -1 }).exec((err, questions) => {
+    if (err) return next(err);
+    res.json(questions);
+  });
+});
+
+router.post('/', (req, res) => {
+  const question = new Question(req.body);
+  question.save((err, question) => {
+    if (err) return next(err);
+    res.status(201);
+    res.json(question);
+  });
+});
+
+router.get('/:qID', (req, res) => {
+  res.json(req.question);
+});
+```
+
+#### Update answer routes
+
+
+
 
 ## Finalizing and testing the API
 
