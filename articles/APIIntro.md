@@ -234,6 +234,7 @@ const Question = mongoose.model('Question', QuestionSchema);
 - and voting should also be stored in the database
 - create a mongoose prehook to sort when saving
 - call the child document's parent method to reference the parent document (answer references the question)
+- be sure to not use arrow functions when specifying this!
 - for example:
 
 ```javascript
@@ -271,7 +272,35 @@ ___
 
 #### Connecting the API to the database
 
--
+- use the `param` method of the router to trigger callbacks on certain routes (for qID and aID) ([see docs](http://expressjs.com/de/api.html#app.param))
+- this way you can always check for errors if the question or answer is not to find
+- for example:
+```javascript
+router.param('qID', (req, res, next, id) => {
+  Question.findById(id, (err, doc) => {
+    if (err) return next(err);
+    if (!doc) {
+      err = new Error('Document not found');
+      err.status = 404;
+      return next(err);
+    }
+    req.question = doc;
+    return next();
+  });
+});
+
+router.param('aID', (req, res, next, id) => {
+  req.answer = req.question.answers.id(id);
+  if (!req.answer) {
+    err = new Error('Answer not found');
+    err.status = 404;
+    return next(err);
+  }
+  return next();
+});
+```
+
+
 
 <img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
 https://unsplash.com/photos/PJCZOWuOxbU
