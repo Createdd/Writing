@@ -28,8 +28,9 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Modeling data for the API](#modeling-data-for-the-api)
       * [Creating the Schema](#creating-the-schema)
       * [Extend the functionality by sorting and voting](#extend-the-functionality-by-sorting-and-voting)
+  * [Connecting the API to the database](#connecting-the-api-to-the-database)
+      * [Establish error handling](#establish-error-handling)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
-      * [Connecting the API to the database](#connecting-the-api-to-the-database)
   * [Conclusion](#conclusion)
   * [Useful links & credits](#useful-links-credits)
 
@@ -264,13 +265,12 @@ AnswerSchema.method('vote', function (vote, callback) {
 });
 ```
 
-## Finalizing and testing the API
-
+## Connecting the API to the database
 ___
 ❗For me this part was the hardest one! Don't worry if you don't get it at the first try right. Make sure to study the mongoose docs properly :)
 ___
 
-#### Connecting the API to the database
+#### Establish error handling
 
 - use the `param` method of the router to trigger callbacks on certain routes (for qID and aID) ([see docs](http://expressjs.com/de/api.html#app.param))
 - this way you can always check for errors if the question or answer is not to find
@@ -300,6 +300,9 @@ router.param('aID', (req, res, next, id) => {
 });
 ```
 
+-
+
+## Finalizing and testing the API
 
 
 <img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
