@@ -243,17 +243,17 @@ const sortAnswers = (a, b) => {
   }
   return b.votes - a.votes;
 };
-QuestionSchema.pre('save', next => {
+QuestionSchema.pre('save', function (next) {
   this.answers.sort(sortAnswers);
   next();
 });
 
-AnswerSchema.method('update', (updates, callback) => {
+AnswerSchema.method('update', function (updates, callback) {
   Object.assign(this, updates, { updatedAt: new Date() });
   this.parent().save(callback);
 });
 
-AnswerSchema.method('vote', (vote, callback) => {
+AnswerSchema.method('vote', function (vote, callback) {
   if (vote === 'up') {
     this.votes += 1;
   } else {
@@ -265,8 +265,13 @@ AnswerSchema.method('vote', (vote, callback) => {
 
 ## Finalizing and testing the API
 
+___
+❗For me this part was the hardest one! Don't worry if you don't get it at the first try right. Make sure to study the mongoose docs properly :)
+___
+
 #### Connecting the API to the database
 
+-
 
 <img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
 https://unsplash.com/photos/PJCZOWuOxbU
