@@ -47,11 +47,12 @@ A great example is the [google calendar API](https://developers.google.com/googl
 
 REST stands for Representational State Transfer and is a way how a web server should respond to requests. This allows to not only read data, but also do different things like updating, deleting or creating data.
 
-I'm going to build an application that allows to ask questions to the stackoverflow API.
+I'm going to build an API that allows to create questions and create, edit, vote and delete asnwers.
+
 Therefore we need to be able to:
-- ask, read, answer questions
-- read, edit, delete answers
-- voting on answers
+- look at existing questions and create our own
+- read, create, edit, delete answers
+- vote on answers
 
 ## What I will use for this introduction
 
