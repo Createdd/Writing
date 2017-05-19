@@ -384,13 +384,13 @@ router.post(
   }
 );
 ```
+
 ___
 At this point the REST API is completely implemented and ready to be consumed.
 ___
 
-
-<img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
-https://unsplash.com/photos/PJCZOWuOxbU
+Check out a timelapse of my implementation: (click on the picture ;) )
+[![Youtube video](https://i.ytimg.com/vi_webp/KVHmi9vq-FU/maxresdefault.webp)](https://www.youtube.com/watch?v=KVHmi9vq-FU)
 
 ## Finalizing and testing the API
 
@@ -424,6 +424,9 @@ app.use((req, res, next) => {
   }
 });
 ```
+
+<img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
+https://unsplash.com/photos/PJCZOWuOxbU
 
 #### Connecting the Frontend
 
