@@ -33,8 +33,10 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [Update question routes](#update-question-routes)
       * [Update answer routes](#update-answer-routes)
   * [Finalizing and testing the API](#finalizing-and-testing-the-api)
+      * [Testing](#testing)
+      * [CORS](#cors)
+      * [Connecting the Frontend](#connecting-the-frontend)
   * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
@@ -56,8 +58,6 @@ Therefore we need to be able to:
 - ask, read, answer questions
 - read, edit, delete answers
 - voting on answers
-
-
 
 ## What I will use for this introduction
 
@@ -200,7 +200,6 @@ app.use((err, req, res, next) => {
 ```
 
 ## Connecting with MongoDB through Mongoose
-
 
 #### Modeling data for the API
 
@@ -385,34 +384,55 @@ router.post(
   }
 );
 ```
+___
+At this point the REST API is completely implemented and ready to be consumed.
+___
+
 
 <img src="https://images.unsplash.com/photo-1428605821565-9ffceeb3dc9a?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=" alt="pic" height="200"/>
 https://unsplash.com/photos/PJCZOWuOxbU
 
 ## Finalizing and testing the API
 
+#### Testing
 
+To test whether all routes are doing what they should I'll use the chrome extension of [Postman](https://www.getpostman.com/). The interface allows to test all HTTP methods efficiently.
 
+On a note: Instead of testing all routes manually automated tests can also be set up. ;)
+
+#### CORS
+
+Cross Origin Resource Sharing allows the browser though headers to access resources from a different domain. Due to security risk this is restricted. We have to build a middleware that allows domains to consume the API
+
+- set the header to allow access to all origins
+- allow HTTP methods
+- for example:
+```javascript
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  );
+  if (req.method === 'Options') {
+    res.header('Access-Control-Allow-Methods', 'PUT, POST, DELETE');
+    return res.status(200).json({});
+  }
+});
+```
+
+#### Connecting the Frontend
+
+The working API can be connected to all types of frontend frameworks.
 
 ## Conclusion
 
+As we can see a REST API is a great tool for setting up basic backend microservices. For actually implementing the API it is necessary to fully understand the database you are working with and it's interaction with routes. In this case this was mongoose.
+
+Also keep in mind, that for production you will certainly need User Authentication and Authorization to manage identity and access rights.
 
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
--
-
-```
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
-```
+
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
