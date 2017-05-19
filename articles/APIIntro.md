@@ -47,9 +47,11 @@ A great example is the [google calendar API](https://developers.google.com/googl
 
 REST stands for Representational State Transfer and is a way how a web server should respond to requests. This allows to not only read data, but also do different things like updating, deleting or creating data.
 
-I'm going to build an API that allows to create questions and create, edit, vote and delete asnwers.
+I'm going to build an API that allows to create questions and create, edit, vote and delete answers.
 
-Therefore we need to be able to:
+For programming the API it is key to structure the routes properly.
+
+Therefore we need to be able to program routes to:
 - look at existing questions and create our own
 - read, create, edit, delete answers
 - vote on answers
@@ -68,7 +70,6 @@ Plain JavaScript
 - Visual Studio Code as editor
 - [Postman](https://www.getpostman.com/) (testing APIs)
 
-For the login mask I will use the awesome template from w3layouts.
 
 #### Dependencies
 
@@ -82,8 +83,6 @@ Following packages are used
 - [eslint](https://www.npmjs.com/package/eslint) with Airbnb extension (for writing higher quality code)
 
 #### Structure
-
-For programming the API it is key to structure the routes properly. We will set url
 
 The tutorial will be structured in:
 
