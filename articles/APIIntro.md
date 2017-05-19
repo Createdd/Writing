@@ -402,7 +402,11 @@ On a note: Instead of testing all routes manually automated tests can also be se
 
 #### CORS
 
-Cross Origin Resource Sharing allows the browser though headers to access resources from a different domain. Due to security risk this is restricted. We have to build a middleware that allows domains to consume the API
+Cross Origin Resource Sharing allows the browser though headers to access resources from a different domain. Due to security risk this is restricted.
+
+Check out [this article](https://www.html5rocks.com/en/tutorials/cors/) for an introduction to CORS.
+
+We have to build a middleware that allows domains to consume the API
 
 - set the header to allow access to all origins
 - allow HTTP methods
@@ -423,7 +427,7 @@ app.use((req, res, next) => {
 
 #### Connecting the Frontend
 
-The working API can be connected to all types of frontend frameworks.
+The working API can be connected to all types of frontend frameworks. Maybe I'll do that and write another article. :)
 
 ## Conclusion
 
