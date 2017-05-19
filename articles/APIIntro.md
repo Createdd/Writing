@@ -5,15 +5,11 @@ https://unsplash.com/photos/th3rQu0K3aM)
 https://unsplash.com/photos/th3rQu0K3aM
 
 
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
 
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Starting with Authentication](#starting-with-authentication)
-  * [📄 Table of contents](#table-of-contents)
   * [REST API?](#rest-api)
   * [What I will use for this introduction](#what-i-will-use-for-this-introduction)
       * [Development Environment](#development-environment)
@@ -37,8 +33,6 @@ https://unsplash.com/photos/th3rQu0K3aM
       * [CORS](#cors)
       * [Connecting the Frontend](#connecting-the-frontend)
   * [Conclusion](#conclusion)
-
-<!-- tocstop -->
 
 
 
@@ -84,6 +78,7 @@ Following packages are used
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware )
+- [eslint](https://www.npmjs.com/package/eslint) with Airbnb extension (for writing higher quality code)
 
 #### Structure
 
@@ -431,6 +426,8 @@ https://unsplash.com/photos/PJCZOWuOxbU
 #### Connecting the Frontend
 
 The working API can be connected to all types of frontend frameworks. Maybe I'll do that and write another article. :)
+
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
 
 ## Conclusion
 
