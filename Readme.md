@@ -30,6 +30,11 @@
 1. [🌐 A simple dynamic Node.js app ](https://github.com/DDCreationStudios/Writing/blob/master/articles/SimpleDynamicNodeJS.md)
 1. [🌟 Why to keep coding ](https://github.com/DDCreationStudios/Writing/blob/master/articles/KeepCoding.md)
 1. [🌐 Introduction to Authentication with Node.js and MongoDB ](https://github.com/DDCreationStudios/Writing/blob/master/articles/AuthenticationIntro.md)
+1. [🌐 Building a REST API ](https://github.com/DDCreationStudios/Writing/blob/master/articles/APIIntro.md)
+1. [🌐 Building the FCC Voting App  ](https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md)
+
+
+
 
 ### ✅ ToDo
 - [ ] develop a reading extension that highlights most important phrases and words
