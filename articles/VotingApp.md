@@ -18,7 +18,7 @@ https://unsplash.com/photos/OwMTchwUTNw
   * [What this article is about](#what-this-article-is-about)
       * [Structure](#structure)
       * [Development Environment](#development-environment)
-      * [Dependencies](#dependencies)
+      * [Packages / Features / Dependencies](#packages-features-dependencies)
   * [Frontend](#frontend)
   * [Backend](#backend)
   * [Visualization](#visualization)
@@ -57,7 +57,38 @@ To break down this application I will divide it into sections for backend, front
 - [Postman](https://www.getpostman.com/) (testing APIs)
 
 
-#### Dependencies
+#### Packages / Features / Dependencies
+
+General
+- ([ES 6](http://es6-features.org/) (JS scripting-language specification))
+- [eslint](https://www.npmjs.com/package/eslint) with Airbnb extension (for writing higher quality code)
+- [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
+
+Frontend
+- [React]() (JS framework)
+- [Redux]() (state management for React)
+- [Materialize CSS](http://materializecss.com/) (framework for material design)
+- [Create React App](https://github.com/facebookincubator/create-react-app) (React Boilerplate)
+
+
+Backend
+- [Node.js](https://nodejs.org/) (JS runtime environment for server-side)
+- [MongoDB](https://www.mongodb.com/what-is-mongodb) (document based database)
+
+
+- [body-parser](https://github.com/expressjs/body-parser) (for parsing incoming requests)
+- [express](http://expressjs.com/de/) (to make the application run)
+- [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
+- [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware )
+
+
+
+Visualization
+
+
+Deployment / DevOps
+
+
 
 
 ## Frontend
