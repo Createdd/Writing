@@ -4,6 +4,17 @@
 https://unsplash.com/photos/OwMTchwUTNw)
 https://unsplash.com/photos/OwMTchwUTNw
 
+The Voting App on Free Code Camp is in my opinion the first challenge, that was really hard. I just couldn't do it as easy as all the other challenges. Too much knowledge in too much fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
+
+I will use:
+- MongoDB
+- Express
+- React + Redux
+- Node.js
+
+also known as "MERN-Stack".
+
+Have fun :)
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/https://github.com/DDCreationStudios/votingApp)
 
@@ -94,8 +105,10 @@ Deployment / DevOps
 
 - [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud)
 
+(Unit)Testing
 
-
+- Not implemented in this app (but normally it should)
+- Manual testing as long as feasible
 
 ## Frontend
 ## Backend
