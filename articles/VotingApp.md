@@ -63,6 +63,8 @@ General
 - ([ES 6](http://es6-features.org/) (JS scripting-language specification))
 - [eslint](https://www.npmjs.com/package/eslint) with Airbnb extension (for writing higher quality code)
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
+- [Babel](https://babeljs.io/) (javascript compiler)
+- [Webpack](https://webpack.github.io/) (module bundler/builder)
 
 Frontend
 - [React]() (JS framework)
@@ -79,14 +81,18 @@ Backend
 - [body-parser](https://github.com/expressjs/body-parser) (for parsing incoming requests)
 - [express](http://expressjs.com/de/) (to make the application run)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
-- [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware )
-
-
+- [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware)
 
 Visualization
 
+- react vis?
+- deck gl?
+- D3?
+- google charts?
 
 Deployment / DevOps
+
+- [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud)
 
 
 
