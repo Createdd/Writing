@@ -103,7 +103,10 @@ Visualization
 
 Deployment / DevOps
 
-- [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud)
+- [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud) ?
+- AWS?
+- CI Travis
+- Terraform?
 
 (Unit)Testing
 
@@ -130,6 +133,8 @@ Deployment / DevOps
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
+
+If you want to support me financially: https://www.paypal.me/DDCreationStudios
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
