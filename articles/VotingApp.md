@@ -30,8 +30,10 @@ Have fun :)
       * [Structure](#structure)
       * [Development Environment](#development-environment)
       * [Packages / Features / Dependencies](#packages-features-dependencies)
-  * [Frontend](#frontend)
+  * [First things first](#first-things-first)
   * [Backend](#backend)
+      * [Set up your routes](#set-up-your-routes)
+  * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
   * [Useful links & credits](#useful-links-credits)
@@ -77,12 +79,6 @@ General
 - [Babel](https://babeljs.io/) (javascript compiler)
 - [Webpack](https://webpack.github.io/) (module bundler/builder)
 
-Frontend
-- [React]() (JS framework)
-- [Redux]() (state management for React)
-- [Materialize CSS](http://materializecss.com/) (framework for material design)
-- [Create React App](https://github.com/facebookincubator/create-react-app) (React Boilerplate)
-
 
 Backend
 - [Node.js](https://nodejs.org/) (JS runtime environment for server-side)
@@ -93,6 +89,13 @@ Backend
 - [express](http://expressjs.com/de/) (to make the application run)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware)
+
+Frontend
+- [React]() (JS framework)
+- [Redux]() (state management for React)
+- [Materialize CSS](http://materializecss.com/) (framework for material design)
+- [Create React App](https://github.com/facebookincubator/create-react-app) (React Boilerplate)
+
 
 Visualization
 
@@ -113,8 +116,24 @@ Deployment / DevOps
 - Not implemented in this app (but normally it should)
 - Manual testing as long as feasible
 
-## Frontend
+## First things first
+
+First I will set up my environment:
+- add git for version control
+- create your package.json with yarn init (for managing all your dependencies)
+- add the create-react-app package (it will set up the basic structure and configure Babel and Webpack for me) - it's easy and fast ;)
+- add express for a fast web development
+-
+
 ## Backend
+
+I will start with the backend, since it's the most difficult in my opinion.
+
+
+#### Set up your routes
+
+
+## Frontend
 ## Visualization
 ## Deployment / DevOps
 
