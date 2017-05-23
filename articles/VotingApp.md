@@ -124,11 +124,15 @@ First I will set up my environment:
 - add express for a fast web development
 - add the nodemon package for restarting your server on changes
 - add eslint.rc for your eslint configuration
+- add babel and corresponding plugins for compiling JS
+-
 
 As additional integration I'll use:
 - Travis CI (for contineous integration)
 - Code Climate (for Code quality)
-- Assertible (Monitoring Web Services - Quality Assurance)
+- Assertible (Monitoring Web Services, especially checking deployment  - Quality Assurance)
+
+[Check out my commit on Github after the setup.](https://github.com/DDCreationStudios/votingApp/commits/master)
 
 ## Backend
 
