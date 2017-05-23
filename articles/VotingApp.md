@@ -94,7 +94,7 @@ Frontend
 - [React]() (JS framework)
 - [Redux]() (state management for React)
 - [Materialize CSS](http://materializecss.com/) (framework for material design)
-- [Create React App](https://github.com/facebookincubator/create-react-app) (React Boilerplate)
+
 
 
 Visualization
@@ -120,10 +120,15 @@ Deployment / DevOps
 
 First I will set up my environment:
 - add git for version control
-- create your package.json with yarn init (for managing all your dependencies)
-- add the create-react-app package (it will set up the basic structure and configure Babel and Webpack for me) - it's easy and fast ;)
+- create your package management with yarn init
 - add express for a fast web development
--
+- add the nodemon package for restarting your server on changes
+- add eslint.rc for your eslint configuration
+
+As additional integration I'll use:
+- Travis CI (for contineous integration)
+- Code Climate (for Code quality)
+- Assertible (Monitoring Web Services - Quality Assurance)
 
 ## Backend
 
@@ -134,6 +139,8 @@ I will start with the backend, since it's the most difficult in my opinion.
 
 
 ## Frontend
+
+
 ## Visualization
 ## Deployment / DevOps
 
