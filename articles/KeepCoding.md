@@ -9,11 +9,6 @@ You decided to start programming? You are doing it on the side? You have another
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [-why you should keep coding-](#-why-you-should-keep-coding-)
-  * [📄 Table of contents](#table-of-contents)
   * [I started a year ago](#i-started-a-year-ago)
   * [Be prepared to give up a lot of things](#be-prepared-to-give-up-a-lot-of-things)
   * [Get comfortable being a disappointment](#get-comfortable-being-a-disappointment)
@@ -21,18 +16,11 @@ You decided to start programming? You are doing it on the side? You have another
   * [The ultimate factor: WORK](#the-ultimate-factor-work)
   * [Why you should keep going anyway](#why-you-should-keep-going-anyway)
   * [Conclusion](#conclusion)
-        * [Act](#act)
-
-<!-- tocstop -->
-
+  * [Act](#act)
 
 
 ---
 
->“If you can't explain it to a six year old, you don't understand it yourself.”
-― Albert Einstein
-
----
 
 ## I started a year ago
 
@@ -110,7 +98,7 @@ A great talk, really great TEDX talk is from Justin Richards, where he talks not
 
 Was this a little bit more provocative? Yes? It should. Because wherever you are. Whether it's on your phone in a tram or your laptop in a library or your computer at home. Most of you will read it and go on with everything you do. Maybe you smile because you were slightly entertained. 80% will act like that and guess what? You won't achieve your dream because you don't take action. But some of you do. Some of you might start mapping out there future of greatness. Or better, continue to work their ass of to achieve everything they want in life. Stop wishing and start doing.
 
-##### Act
+#### Act
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zkTf0LmDqKI" frameborder="0" allowfullscreen></iframe>
 
 
