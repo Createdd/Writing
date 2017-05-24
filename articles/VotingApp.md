@@ -32,6 +32,7 @@ Have fun :)
       * [Packages / Features / Dependencies](#packages-features-dependencies)
   * [First things first](#first-things-first)
   * [Backend](#backend)
+      * [Set up Middleware and Mongoose](#set-up-middleware-and-mongoose)
       * [Set up your routes](#set-up-your-routes)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
@@ -125,18 +126,30 @@ First I will set up my environment:
 - add the nodemon package for restarting your server on changes
 - add eslint.rc for your eslint configuration
 - add babel and corresponding plugins for compiling JS
--
+
 
 As additional integration I'll use:
 - Travis CI (for contineous integration)
 - Code Climate (for Code quality)
 - Assertible (Monitoring Web Services, especially checking deployment  - Quality Assurance)
 
-[Check out my commit on Github after the setup.](https://github.com/DDCreationStudios/votingApp/commits/master)
+[Check out my commit on Github after the setup.](https://github.com/DDCreationStudios/votingApp/tree/23a05a550f6e2e34cb182d3a271a4c44028d07f9)
 
 ## Backend
 
 I will start with the backend, since it's the most difficult in my opinion.
+
+#### Set up Middleware and Mongoose
+
+I will use:
+- [body-parser](https://github.com/expressjs/body-parser) for parsing request bodies
+- [morgan](https://www.npmjs.com/package/morgan) for logging out HTTP requests
+- [compression](https://www.npmjs.com/package/compression) for compressing response bodies
+- [helmet](https://www.npmjs.com/package/helmet) for setting basic security with HTTP headers
+- [mongoose](https://www.npmjs.com/package/mongoose) object modelling tool for asynchronous database connection
+
+
+
 
 
 #### Set up your routes
