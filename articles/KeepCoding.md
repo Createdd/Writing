@@ -67,7 +67,9 @@ However you define "work", without explaining you know what I mean. For me it's 
 
 There is one person that preaches work and that's Gary Vaynerchuk. [Here is a great motivational video](https://www.youtube.com/watch?v=XrVvFUYtYwI), which I for sure watched more than 100 times.
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XrVvFUYtYwI" frameborder="0" allowfullscreen></iframe>
+
 
 What does work mean?
 Work is NOT doing something 9to5. It is NOT doing what everyone does on a daily basis. Work starts when the normal things are done. The work starts when you come home from your job. The work starts on the weekend. There is no weekend. But there is work. Work starts when you don't feel like it.
@@ -81,7 +83,9 @@ I want to answer this question with some quotes from Steve Jobs:
 
 >Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kYfNvmF0Bqw" frameborder="0" allowfullscreen></iframe>
+
 
 >When you grow up you tend to get told the world is the way it is and you're life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family, have fun, save a little money. That's a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again.
 
@@ -89,6 +93,7 @@ For me it reflects so much in programming:
 Nearly everything today is largely influenced by programmed machines.
 
 A great talk, really great TEDX talk is from Justin Richards, where he talks not about coding but creating:
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6rxWc-TNIJI" frameborder="0" allowfullscreen></iframe>
 
@@ -99,7 +104,10 @@ A great talk, really great TEDX talk is from Justin Richards, where he talks not
 Was this a little bit more provocative? Yes? It should. Because wherever you are. Whether it's on your phone in a tram or your laptop in a library or your computer at home. Most of you will read it and go on with everything you do. Maybe you smile because you were slightly entertained. 80% will act like that and guess what? You won't achieve your dream because you don't take action. But some of you do. Some of you might start mapping out there future of greatness. Or better, continue to work their ass of to achieve everything they want in life. Stop wishing and start doing.
 
 #### Act
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zkTf0LmDqKI" frameborder="0" allowfullscreen></iframe>
+
 
 
 >"Momma said, you could be anything in this world
