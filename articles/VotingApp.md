@@ -32,7 +32,7 @@ Have fun :)
       * [Packages / Features / Dependencies](#packages-features-dependencies)
   * [First things first](#first-things-first)
   * [Backend](#backend)
-      * [Set up Middleware and Mongoose](#set-up-middleware-and-mongoose)
+      * [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
       * [Set up your routes](#set-up-your-routes)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
@@ -139,14 +139,24 @@ As additional integration I'll use:
 
 I will start with the backend, since it's the most difficult in my opinion.
 
-#### Set up Middleware and Mongoose
+#### Set up Packages, Middleware and Mongoose
 
 I will use:
 - [body-parser](https://github.com/expressjs/body-parser) for parsing request bodies
 - [morgan](https://www.npmjs.com/package/morgan) for logging out HTTP requests
 - [compression](https://www.npmjs.com/package/compression) for compressing response bodies
 - [helmet](https://www.npmjs.com/package/helmet) for setting basic security with HTTP headers
-- [mongoose](https://www.npmjs.com/package/mongoose) object modelling tool for asynchronous database connection
+- [mongoose](https://www.npmjs.com/package/mongoose) object modeling tool for asynchronous database connection
+
+- create a constants file to set you different environment variables and corresponding settings
+- create a middleware file to pass in middleware to your app and differentiate for environments (especially use bodyparser and morgan packages here)
+- create a database file to set up the mongoDB connection
+- modularize your code and outsource your constants, middleware and database connection for keeping smaller files
+- don't forget to import everything in your app.js file, pass in the middleware function and test your setup with a simple http request
+
+[Check out my commit on Github after the setup.](https://github.com/DDCreationStudios/votingApp/tree/88a2436697be4147302ce2dbcd3104ed564c86fe)
+
+
 
 
 
