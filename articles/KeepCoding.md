@@ -21,7 +21,7 @@ You decided to start programming? You are doing it on the side? You have another
   * [The ultimate factor: WORK](#the-ultimate-factor-work)
   * [Why you should keep going anyway](#why-you-should-keep-going-anyway)
   * [Conclusion](#conclusion)
-  * [Useful links & credits](#useful-links-credits)
+  * [Act](#act)
 
 <!-- tocstop -->
 
@@ -83,8 +83,16 @@ Too tired? Too exhausted? Not in the mood? Start working!
 
 ## Why you should keep going anyway
 
+I want to answer this question with some quotes from Steve Jobs:
 
-steve jobs
+>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition.
+
+>When you grow up you tend to get told the world is the way it is and you're life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family, have fun, save a little money. That's a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use. Once you learn that, you'll never be the same again.
+
+
+
+
+
 
 
 
@@ -104,18 +112,8 @@ You sure look like a hater or a bitch to me" - G-Eazy
 
 (because he's awesome ;) )
 
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+## Act
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zkTf0LmDqKI" frameborder="0" allowfullscreen></iframe>
 
 
 
