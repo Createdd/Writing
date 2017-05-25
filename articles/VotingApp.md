@@ -34,6 +34,7 @@ Have fun :)
   * [Backend](#backend)
       * [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
       * [Set up your routes](#set-up-your-routes)
+      * [Set up Mongoose and your Schemas](#set-up-mongoose-and-your-schemas)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -53,6 +54,10 @@ Have fun :)
 In this article I will describe the process of building the Voting App for the [Free Code Camp Challenge](https://www.freecodecamp.com/challenges/build-a-voting-app).
 For beginners: Be sure to read the documentation of each tool you use properly. There is no shortcut to success. Try, fail and learn. ;)
 For everybody: This is no optimized example for building the application. I am open for feedback of any kind. I am still a beginner :)
+
+___
+Always read the documentation to each tool you use!
+___
 
 
 #### Structure
@@ -79,6 +84,7 @@ General
 - [nodemon](https://github.com/remy/nodemon) (restarting server when changes occur)
 - [Babel](https://babeljs.io/) (javascript compiler)
 - [Webpack](https://webpack.github.io/) (module bundler/builder)
+- [dotenv](https://www.npmjs.com/package/dotenv) (for configuring environment variables)
 
 
 Backend
@@ -148,6 +154,8 @@ I will use:
 - [helmet](https://www.npmjs.com/package/helmet) for setting basic security with HTTP headers
 - [mongoose](https://www.npmjs.com/package/mongoose) object modeling tool for asynchronous database connection
 
+
+Next
 - create a constants file to set you different environment variables and corresponding settings
 - create a middleware file to pass in middleware to your app and differentiate for environments (especially use bodyparser and morgan packages here)
 - create a database file to set up the mongoDB connection
@@ -156,13 +164,53 @@ I will use:
 
 [Check out my commit on Github after the setup.](https://github.com/DDCreationStudios/votingApp/tree/88a2436697be4147302ce2dbcd3104ed564c86fe)
 
-
-
-
-
-
-
 #### Set up your routes
+
+Revisit  the User stories and lay out your routes accordingly
+
+Following the [CRUD principle:](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
+
+As an unauthenticated user I want to
+- see all polls (R)
+- see individual polls (R)
+- vote on available polls (C)
+
+As an authenticated user I want to
+- see/read all polls (R)
+- see individual polls (R)
+- vote on available polls (C)
+- create new polls (C)
+- create new options/votes (C)
+- delete polls (D)
+
+Therefore:
+- set up [error handling as middleware](http://expressjs.com/en/guide/error-handling.html)
+- set up your [router object](http://expressjs.com/en/4x/api.html#router)
+- create your GET, POST, DELETE routes and response with json objects
+- test the set up routes with postman (all should have a status code of 200)
+- connect your routes to your middleware and app.js
+
+#### Set up Mongoose and your Schemas
+
+When setting up Schemas think about how you want to structure you documents that have to be stored in the database. In this example we need to store user for the authentication process and polls with answers.
+
+For polls we need:
+- the question
+- answers/votes
+
+- create your mongoose schemas and models
+- connect to [mlab](https://mlab.com/) to monitor your DB actions better
+___
+Be aware that mlab creates those "System Collections" that throw "duplicate key error index dup key: { : null }" error in postman, when creating new polls. Till now I didn't find a solution but deleting all collections allows to start again. ;)
+___
+- use the dotenv package to store your credentials in the environment and add the .env file to .gitignore (if you make your project open source)
+- connect you routes with your mongoose model to handle the documents in MongoDB
+
+
+> BE SURE TO READ THE [DOCS](http://mongoosejs.com/docs/models.html) when you are stuck. This part is the most complicated one!
+
+[Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/5dcd7359d2cb1b31e28a08869461b927094550c0)
+
 
 
 ## Frontend
