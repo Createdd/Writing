@@ -34,7 +34,8 @@ Have fun :)
   * [Backend](#backend)
       * [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
       * [Set up your routes](#set-up-your-routes)
-      * [Set up Mongoose and your Schemas](#set-up-mongoose-and-your-schemas)
+      * [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
+      * [Establish authentication and authorization](#establish-authentication-and-authorization)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -190,7 +191,7 @@ Therefore:
 - test the set up routes with postman (all should have a status code of 200)
 - connect your routes to your middleware and app.js
 
-#### Set up Mongoose and your Schemas
+#### Set up Mongoose and your Schemas and connect everything to your routes
 
 When setting up Schemas think about how you want to structure you documents that have to be stored in the database. In this example we need to store user for the authentication process and polls with answers.
 
@@ -210,6 +211,9 @@ ___
 > BE SURE TO READ THE [DOCS](http://mongoosejs.com/docs/models.html) when you are stuck. This part is the most complicated one!
 
 [Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/5dcd7359d2cb1b31e28a08869461b927094550c0)
+
+#### Establish authentication and authorization
+
 
 
 
