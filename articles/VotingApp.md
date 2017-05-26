@@ -214,7 +214,11 @@ ___
 
 #### Establish authentication and authorization
 
+First of all I will use the [Twitter Sign In API](https://dev.twitter.com/web/sign-in/implementing), since it's fast and easy.
 
+Therefore I use the [passport-twitter](https://www.npmjs.com/package/passport-twitter) package
+
+[Check out this great article](https://scotch.io/tutorials/easy-node-authentication-twitter) on how to set up the authentication process.
 
 
 ## Frontend
