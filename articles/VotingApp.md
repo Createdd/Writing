@@ -208,7 +208,7 @@ ___
 - connect you routes with your mongoose model to handle the documents in MongoDB
 
 
-> BE SURE TO READ THE [DOCS](http://mongoosejs.com/docs/models.html) when you are stuck. This part is the most complicated one!
+> BE SURE TO READ THE [DOCS](http://mongoosejs.com/docs/models.html) when you are stuck. This part is pretty hard when you haven't done a lot with mongoose and MongoDB!
 
 [Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/5dcd7359d2cb1b31e28a08869461b927094550c0)
 
