@@ -214,16 +214,21 @@ ___
 
 #### Establish authentication and authorization
 
-First of all I will use the [Twitter Sign In API](https://dev.twitter.com/web/sign-in/implementing).
+I want to use the twitter sign-on as an [OAuth](https://oauth.net/) provider to authenticate. It provides better user experience and I also got to explore OAuth.
 
 
-Of course I found [this great article](https://scotch.io/tutorials/easy-node-authentication-twitter) on how to set up the authentication process in Nodejs. Also after failing to implement it properly I decided to dive straight into the documentation!
+Of course I found [the great article](https://scotch.io/tutorials/easy-node-authentication-twitter) on how to set up the authentication process in Nodejs. After failing to implement it properly in my app (took me a whole day) I decided to dive straight into the [documentation of passport](http://passportjs.org/docs)!
+
+I love the quote the put up there:
+
+>Despite the complexities involved in authentication, code does not have to be complicated.
 
 ___
 ⭐ Again, as a reminder: Read the Documentation!
 ___
 
-
+- first create a user schema for mongoose (to track users)
+-
 
 
 ## Frontend
