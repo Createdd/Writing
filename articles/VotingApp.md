@@ -36,6 +36,7 @@ Have fun :)
       * [Set up your routes](#set-up-your-routes)
       * [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
       * [Establish authentication and authorization](#establish-authentication-and-authorization)
+  * [create a user schema for mongoose (to track users)](#create-a-user-schema-for-mongoose-to-track-users)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -216,6 +217,8 @@ ___
 
 I want to use the twitter sign-on as an [OAuth](https://oauth.net/) provider to authenticate. It provides better user experience and I also got to explore OAuth.
 
+>OAuth is a standard protocol that allows users to authorize API access to web and desktop or mobile applications. Once access has been granted, the authorized application can utilize the API on behalf of the user.
+
 
 Of course I found [the great article](https://scotch.io/tutorials/easy-node-authentication-twitter) on how to set up the authentication process in Nodejs. After failing to implement it properly in my app (took me a whole day) I decided to dive straight into the [documentation of passport](http://passportjs.org/docs)!
 
@@ -227,7 +230,18 @@ ___
 ⭐ Again, as a reminder: Read the Documentation!
 ___
 
-- first create a user schema for mongoose (to track users)
+- first register your app on [twitter apps](https://apps.twitter.com/) and get your settings right (access level and the Callback URL have to be determined!)
+- add passport, passport-twitter and express-session packages to your application
+- create a file defining a passport strategy (twitter)
+- to support login session passport has to serialize and deserialize user
+- pass passport to your passport cofiguration and connect both `passport.initialize` and `passport.session` to your app as middleware (make sure that the express-session is used before!)
+- 
+
+
+
+
+
+create a user schema for mongoose (to track users)
 -
 
 
