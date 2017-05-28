@@ -18,6 +18,8 @@ Have fun :)
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/https://github.com/DDCreationStudios/votingApp)
 
+If you like to follow this article in depth, make sure to read it also on github [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md). (Since Github provides more specific styling possibilities)
+
 
 ## 📄 Table of contents
 
@@ -35,7 +37,8 @@ Have fun :)
       * [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
       * [Set up your routes](#set-up-your-routes)
       * [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
-      * [Establish authentication and authorization](#establish-authentication-and-authorization)
+      * [Establish authentication and authorization with Twitter](#establish-authentication-and-authorization-with-twitter)
+      * [Establish local authentication and authorization](#establish-local-authentication-and-authorization)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -212,7 +215,7 @@ ___
 
 [Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/5dcd7359d2cb1b31e28a08869461b927094550c0)
 
-#### Establish authentication and authorization
+#### Establish authentication and authorization with Twitter
 
 I want to use the twitter sign-on as an [OAuth](https://oauth.net/) provider to authenticate. It provides better user experience and I also got to explore OAuth.
 
@@ -240,7 +243,9 @@ ___
 [Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/d398cce56b1df2d042c07d2849223e88a5a2ed7f)
 
 After that, connect the authentication process to your database
-
+___
+⭐ Tip: Use for your callback and testing always `http://127.0.0.1:3000/` instead of `http://localhost:3000/`, since it solves a lot of problems, that might occur using passport-twitter. 😉
+___
 - create a mongoose Schema for your users (to track them in your database)
 - fill the callback function of your passport.js file when implementing the twitter strategy, with filtering your database for the user and creating a new one if a user is not existing
 - create a function to test if a user is authenticated and implement it in your desired routes (providing sufficient **authorization**)
@@ -300,6 +305,13 @@ passport.use(
 After that your authentication and authorization with twitter is done.
 
 [Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/cb96c8b2062f5c634efcba2b258e3ad054799c48)
+
+#### Establish local authentication and authorization
+
+The next step is to authenticate locally. There is actually not much to it, since we have already set up the environment.
+
+
+
 
 
 
