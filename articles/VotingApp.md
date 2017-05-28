@@ -36,7 +36,6 @@ Have fun :)
       * [Set up your routes](#set-up-your-routes)
       * [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
       * [Establish authentication and authorization](#establish-authentication-and-authorization)
-  * [create a user schema for mongoose (to track users)](#create-a-user-schema-for-mongoose-to-track-users)
   * [Frontend](#frontend)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -235,14 +234,18 @@ ___
 - create a file defining a passport strategy (twitter)
 - to support login session passport has to serialize and deserialize user
 - pass passport to your passport cofiguration and connect both `passport.initialize` and `passport.session` to your app as middleware (make sure that the express-session is used before!)
-- 
+- set up routes for authenticating and the callback
 
 
+[Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/d398cce56b1df2d042c07d2849223e88a5a2ed7f)
 
+After that, connect the authentication process to your database
 
+- create a mongoose Schema for your users
+- fill the callback function of your passport.js file when implementing the twitter strategy, with filtering your database for the user and creating a new one if a user is not existing
+- create a user schema for mongoose (to track users)
+- create a function to test if a user is authenticated and implement it in your desired routes
 
-create a user schema for mongoose (to track users)
--
 
 
 ## Frontend
