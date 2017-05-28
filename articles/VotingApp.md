@@ -241,10 +241,65 @@ ___
 
 After that, connect the authentication process to your database
 
-- create a mongoose Schema for your users
+- create a mongoose Schema for your users (to track them in your database)
 - fill the callback function of your passport.js file when implementing the twitter strategy, with filtering your database for the user and creating a new one if a user is not existing
-- create a user schema for mongoose (to track users)
-- create a function to test if a user is authenticated and implement it in your desired routes
+- create a function to test if a user is authenticated and implement it in your desired routes (providing sufficient **authorization**)
+- the implementation can look like this:
+```javascript
+passport.use(
+		new Strategy(constants.TWITTER_STRATEGY, (req, token, tokenSecret, profile, cb) => {
+  process.nextTick(() => {
+    if (!req.user) {
+      User.findOne({ 'twitter.id': profile.id }, (err, user) => {
+        if (err) return cb(err);
+        if (user) {
+          if (!user.twitter.token) {
+            user.twitter.token = token;
+            user.twitter.username = profile.username;
+            user.twitter.displayName = profile.displayName;
+            user.save(() => {
+              if (err) return cb(err);
+              return cb(null, user);
+            });
+          }
+          return cb(null, user);
+        }
+
+						// if no user is found create one
+        const newUser = new User();
+
+        newUser.twitter.id = profile.id;
+        newUser.twitter.token = token;
+        newUser.twitter.username = profile.username;
+        newUser.twitter.displayName = profile.displayName;
+
+        newUser.save(() => {
+          if (err) return cb(err);
+          return cb(null, newUser);
+        });
+      });
+    } else {
+					// when user already exists and is logged in
+      const user = req.user;
+
+      user.twitter.id = profile.id;
+      user.twitter.token = token;
+      user.twitter.username = profile.username;
+      user.twitter.displayName = profile.displayName;
+
+      user.save((err) => {
+        if (err) return cb(err);
+        return cb(null, user);
+      });
+    }
+  });
+}),
+	);
+```
+
+After that your authentication and authorization with twitter is done.
+
+[Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/cb96c8b2062f5c634efcba2b258e3ad054799c48)
 
 
 
