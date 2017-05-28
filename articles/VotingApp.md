@@ -248,6 +248,7 @@ ___
 ___
 - create a mongoose Schema for your users (to track them in your database)
 - fill the callback function of your passport.js file when implementing the twitter strategy, with filtering your database for the user and creating a new one if a user is not existing
+- use the connect-mongo package to create a mongoStore and store your sessions in MongoDB
 - create a function to test if a user is authenticated and implement it in your desired routes (providing sufficient **authorization**)
 - the implementation can look like this:
 ```javascript
@@ -310,6 +311,11 @@ After that your authentication and authorization with twitter is done.
 
 The next step is to authenticate locally. There is actually not much to it, since we have already set up the environment.
 
+- first, update your user schema for local (defining email and password)
+- add the bcrypt package for securing passwords
+- then I define the routes (this process always clarifies what I actually want to implement)
+- make sure to differentiate between signup and login!
+-
 
 
 
