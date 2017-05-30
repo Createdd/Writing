@@ -312,10 +312,11 @@ After that your authentication and authorization with twitter is done.
 The next step is to authenticate locally. There is actually not much to it, since we have already set up the environment.
 
 - first, update your user schema for local (defining email and password)
-- add the bcrypt package for securing passwords
-- then I define the routes (this process always clarifies what I actually want to implement)
+- add the bcrypt-nodejs package for securing passwords
+- add hashing and validating password methods to your Schema
+- then define the routes (this process always clarifies what I actually want to implement)
 - make sure to differentiate between signup and login!
--
+- I installed EJS as view engine to actually being able to test my signup and login properly
 
 
 
