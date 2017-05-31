@@ -315,13 +315,31 @@ The next step is to authenticate locally. There is actually not much to it, sinc
 - add the bcrypt-nodejs package for securing passwords
 - add hashing and validating password methods to your Schema
 - then define the routes (this process always clarifies what I actually want to implement)
-- make sure to differentiate between signup and login!
-- I installed EJS as view engine to actually being able to test my signup and login properly
+- here happened actually a main issue, which I was only able to resolve after many, many hours of searching (here the example from the [docs](http://passportjs.org/docs/configure)):
+```javascript
+app.get('/login', function(req, res, next) {
+  passport.authenticate('local', function(err, user, info) {
+    if (err) { return next(err); }
+    if (!user) { return res.redirect('/login'); }
+    req.logIn(user, function(err) {
+      if (err) { return next(err); }
+      return res.redirect('/users/' + user.username);
+    });
+  })(req, res, next);
+});
+```
+
+Only this way provided enough flexibility for displaying errors, but it's very important to create the session explicitly with `logIn()`!
+
+- make sure to differentiate in the routes between signup and login!
+- I installed EJS as view engine to actually being able to test my signup and login properly and efficient
 
 
 ___
-I set so many days on that Error that I want to display it here again:
+I set so many hours on that Error that I want to display it here again:
 `MongooseError: Cast to ObjectId failed for value "favicon.ico" at path "_id"`
+
+I solved it through checking all middleware (there was a major error) and routes. Turned out that setting a route to ('/:xxx') is not good when working in development. :D
 ___
 
 
