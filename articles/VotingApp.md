@@ -319,6 +319,12 @@ The next step is to authenticate locally. There is actually not much to it, sinc
 - I installed EJS as view engine to actually being able to test my signup and login properly
 
 
+___
+I set so many days on that Error that I want to display it here again:
+`MongooseError: Cast to ObjectId failed for value "favicon.ico" at path "_id"`
+___
+
+
 
 
 
