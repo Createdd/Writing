@@ -329,20 +329,21 @@ app.get('/login', function(req, res, next) {
 });
 ```
 
-Only this way provided enough flexibility for displaying errors, but it's very important to create the session explicitly with `logIn()`!
+Only this way, passing in the authentication in the callback function,  provided enough flexibility for displaying errors, but it's very important to create the session explicitly with `logIn()`!
 
 - make sure to differentiate in the routes between signup and login!
 - I installed EJS as view engine to actually being able to test my signup and login properly and efficient
+- create a logout route, that destroys your session
 
 
 ___
 I set so many hours on that Error that I want to display it here again:
 `MongooseError: Cast to ObjectId failed for value "favicon.ico" at path "_id"`
 
-I solved it through checking all middleware (there was a major error) and routes. Turned out that setting a route to ('/:xxx') is not good when working in development. :D
+I solved it through checking all middleware (there was a major error) and routes. Turned out that setting a route to ('/:pID') is not good when working in development. :D
 ___
 
-
+[Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/30e9627ba3ac2c6b45c64bf2bad4df5726e15a67)
 
 
 
