@@ -343,9 +343,15 @@ I set so many hours on that Error that I want to display it here again:
 I solved it through checking all middleware (there was a major error) and routes. Turned out that setting a route to ('/:pID') is not good when working in development. :D
 ___
 
-[Check out my commit on Github after these steps.](https://github.com/DDCreationStudios/votingApp/tree/30e9627ba3ac2c6b45c64bf2bad4df5726e15a67)
+[Check out my commit on Github after the backend setup.](https://github.com/DDCreationStudios/votingApp/tree/30e9627ba3ac2c6b45c64bf2bad4df5726e15a67)
 
+Of course at this point the backend is not perfect. But it's stable enough to go to the next step, the frontend.
 
+Things to do:
+- use validation ( with [joi](https://www.npmjs.com/package/joi))
+- write unit tests
+
+___
 
 ## Frontend
 
@@ -354,8 +360,8 @@ ___
 ## Deployment / DevOps
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Scotch-IO Passport Authentication"](https://github.com/scotch-io/easy-node-authentication)
+- [📄 "Official Passport Site"](http://passportjs.org/)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
