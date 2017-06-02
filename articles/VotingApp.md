@@ -40,6 +40,8 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Establish authentication and authorization with Twitter](#establish-authentication-and-authorization-with-twitter)
       * [Establish local authentication and authorization](#establish-local-authentication-and-authorization)
   * [Frontend](#frontend)
+      * [Think before you do!](#think-before-you-do)
+      * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
   * [Useful links & credits](#useful-links-credits)
@@ -354,6 +356,19 @@ Things to do:
 ___
 
 ## Frontend
+
+#### Think before you do!
+
+First of all think about what you want to create. Draw out some sketches to visualize what you want to build. Then consider appropriate frameworks.
+I will choose React.js and the state management library Redux. The size of this application does NOT necessarily require the use of Redux, however since I want to build it as a single page experience, want to have scalability and like to practice the use of Redux, it's a good fit.
+
+Start planning everything out [thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html).
+
+#### Necessary setup with Babel and Webpack
+
+It's important to realize that Babel and Webpack are not too complicated to set it up yourself. There are so many tutorials for both that you can do it easily yourself.
+
+
 
 
 ## Visualization
