@@ -13,9 +13,10 @@ Thinking in React lays out how to structure components in React. When using Redu
 * [Components, Components, Components - React/Redux](#components-components-components-reactredux)
   * [📄 Table of contents](#table-of-contents)
   * [Why to layout the components before writing code](#why-to-layout-the-components-before-writing-code)
-  * [Presentational](#presentational)
+  * [Presentational components](#presentational-components)
       * [Logical](#logical)
       * [Pure](#pure)
+  * [Container components](#container-components)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -31,8 +32,7 @@ Planning your application and components before you start writing code will help
 Make sure to read the [article from Dan Abramov](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0), where he explains the key ideas between those components in detail.
 
 
-
-## Presentational
+## Presentational components
 
 #### Logical
 - React Component
@@ -46,7 +46,7 @@ Make sure to read the [article from Dan Abramov](https://medium.com/@dan_abramov
 - Pure functions
 - Don't take place in React Lifecycle
 
-
+## Container components
 
 ---
 >"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
