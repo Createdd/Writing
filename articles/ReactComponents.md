@@ -24,8 +24,6 @@ Thinking in React lays out how to structure components in React. When using Redu
 >"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
 ---
 
-
-
 ## Why to layout the components before writing code
 
 Planning your application and components before you start writing code will help you save a lot of time later on. With all the possible features React components can have, they clutter very fast and become soon not manageable. Dividing the purpose and functionality of your components will significantly improve your workflow when your app starts to grow.
@@ -103,7 +101,7 @@ See [this article](https://medium.com/@learnreact/container-components-c0e67432e
 >"I call containers React components that are aware of Redux, Router, etc. They are more coupled to the app. Same as “smart components”." - Dan Abramov
 
 
-
+___
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
 
