@@ -42,6 +42,7 @@ If you like to follow this article in depth, make sure to read it also on github
   * [Frontend](#frontend)
       * [Think before you do!](#think-before-you-do)
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
+      * [Structure components](#structure-components)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
   * [Useful links & credits](#useful-links-credits)
@@ -367,6 +368,26 @@ Start planning everything out [thinking in React](https://facebook.github.io/rea
 #### Necessary setup with Babel and Webpack
 
 It's important to realize that Babel and Webpack are not too complicated to set it up yourself. There are so many tutorials for both that you can do it easily yourself.
+
+#### Structure components
+
+I sketched everything out on a paper and came to the conclusion to build 11 components:
+
+- the app component, that hosts everything
+- a header
+- a footer
+- a sidebar
+- a signup/login/logout component
+- a home screen
+- a list of all polls
+- the display of a single poll
+- a component for the poll and it's answers
+- the answers as a list
+- the chart
+
+That's just for the start. I am sure to adapt it when actually programming the app.
+
+
 
 
 
