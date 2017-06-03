@@ -42,9 +42,11 @@ If you like to follow this article in depth, make sure to read it also on github
   * [Frontend](#frontend)
       * [Think before you do!](#think-before-you-do)
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
+      * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
       * [Structure components](#structure-components)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
+      * [Docker](#docker)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -369,6 +371,15 @@ Start planning everything out [thinking in React](https://facebook.github.io/rea
 
 It's important to realize that Babel and Webpack are not too complicated to set it up yourself. There are so many tutorials for both that you can do it easily yourself.
 
+- add babel for react and es2015 with adding `babel-preset-react babel-preset-es2015` to your dev dependencies (to compile JSX into JS and having all es6 features)
+- update your .babelrc file
+- update your webpack config and add the react-hot-loader package
+
+#### Connect React to the Express Backend with React Router
+
+- add the react-router package
+- axios?
+
 #### Structure components
 
 I sketched everything out on a paper and came to the conclusion to build 11 components:
@@ -393,7 +404,12 @@ That's just for the start. I am sure to adapt it when actually programming the a
 
 
 ## Visualization
+
 ## Deployment / DevOps
+
+#### Docker
+
+
 
 ## Useful links & credits
 - [📄 "Scotch-IO Passport Authentication"](https://github.com/scotch-io/easy-node-authentication)
