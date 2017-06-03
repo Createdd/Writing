@@ -21,6 +21,11 @@ Thinking in React lays out how to structure components in React. When using Redu
 
 <!-- tocstop -->
 
+---
+>"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
+---
+
+
 
 ## Why to layout the components before writing code
 
@@ -34,11 +39,15 @@ Make sure to read the [article from Dan Abramov](https://medium.com/@dan_abramov
 
 ## Presentational components
 
+<img src="../assets/COMP/pres.jpeg" alt="presentational">
+
+
+
+
 #### Logical
 - React Component
 - Manage own State
 - May take place in React Lifecycle
--
 
 #### Pure
 - Stateless
@@ -48,11 +57,8 @@ Make sure to read the [article from Dan Abramov](https://medium.com/@dan_abramov
 
 ## Container components
 
----
->"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
----
+<img src="../assets/COMP/cont.jpeg" alt="container">
 
-##
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
