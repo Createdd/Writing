@@ -12,15 +12,37 @@ Thinking in React lays out how to structure components in React. When using Redu
 
 * [Components, Components, Components - React/Redux](#components-components-components-reactredux)
   * [📄 Table of contents](#table-of-contents)
+  * [Presentational](#presentational)
+      * [Logical](#logical)
+      * [Pure](#pure)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
 
 
+- presentational components (how things look)
+- container components (how things work)
+-
+
+
+## Presentational
+
+#### Logical
+- React Component
+- Manage own State
+- May take place in React Lifecycle
+-
+
+#### Pure
+- Stateless
+- Rely on Props
+- Pure functions
+- Don't take place in React Lifecycle
+
 
 
 ---
->"dsasfasfasf"  - Bezos
+>"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
 ---
 
 ##
