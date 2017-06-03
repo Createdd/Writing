@@ -12,6 +12,7 @@ Thinking in React lays out how to structure components in React. When using Redu
 
 * [Components, Components, Components - React/Redux](#components-components-components-reactredux)
   * [📄 Table of contents](#table-of-contents)
+  * [Why to layout the components before writing code](#why-to-layout-the-components-before-writing-code)
   * [Presentational](#presentational)
       * [Logical](#logical)
       * [Pure](#pure)
@@ -20,9 +21,15 @@ Thinking in React lays out how to structure components in React. When using Redu
 <!-- tocstop -->
 
 
+## Why to layout the components before writing code
+
+Planning your application and components before you start writing code will help you save a lot of time later on. With all the possible features React components can have, they clutter very fast and become soon not manageable. Dividing the purpose and functionality of your components will significantly improve your workflow when your app starts to grow.
+
 - presentational components (how things look)
 - container components (how things work)
--
+
+Make sure to read the [article from Dan Abramov](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0), where he explains the key ideas between those components in detail.
+
 
 
 ## Presentational
