@@ -42,8 +42,8 @@ If you like to follow this article in depth, make sure to read it also on github
   * [Frontend](#frontend)
       * [Think before you do!](#think-before-you-do)
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
-      * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
       * [Structure components](#structure-components)
+      * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
       * [Docker](#docker)
@@ -375,10 +375,16 @@ It's important to realize that Babel and Webpack are not too complicated to set 
 - update your .babelrc file
 - update your webpack config and add the react-hot-loader package
 
-#### Connect React to the Express Backend with React Router
+At first I want to structure my frontend without the backend in order to connect the whole frontend with the backend at the end. The reason for that is because for now I don't know how my Redux implementation will look like and therefore progressively connecting to the backend wouldn't be efficient.
 
-- add the react-router package
-- axios?
+Therefore:
+
+- restructure your current app.js into an own folder
+- create a new app.js as entry point and provide the [basic setup code](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669) for rendering a simple page
+- the get the setup working install the react-router, webpack-dev-server and of course react and react-dom packages
+- opening a page on the dev-server port should display your react component
+
+[➡️ Check out my commit on Github after the new setup ⬅️](https://github.com/DDCreationStudios/votingApp/tree/9ed98937551ad5eb3208be392040b39c35d4d231)
 
 #### Structure components
 
@@ -401,6 +407,10 @@ That's just for the start. I am sure to adapt it when actually programming the a
 
 
 
+#### Connect React to the Express Backend with React Router
+
+- add the react-router package
+- axios?
 
 
 ## Visualization
