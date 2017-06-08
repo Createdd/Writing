@@ -43,6 +43,7 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Think before you do!](#think-before-you-do)
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
       * [Structure components](#structure-components)
+      * [Set up React Router and start with the smallest components](#set-up-react-router-and-start-with-the-smallest-components)
       * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -403,6 +404,10 @@ I sketched everything out on a paper and came to the conclusion to build 11 comp
 - the chart
 
 That's just for the start. I am sure to adapt it when actually programming the app.
+
+#### Set up React Router and start with the smallest components
+
+
 
 
 
