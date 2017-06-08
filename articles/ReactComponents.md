@@ -7,18 +7,12 @@ Thinking in React lays out how to structure components in React. When using Redu
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Components, Components, Components - React/Redux](#components-components-components-reactredux)
-  * [📄 Table of contents](#table-of-contents)
   * [Why to layout the components before writing code](#why-to-layout-the-components-before-writing-code)
   * [Presentational components](#presentational-components)
       * [Logical presentation](#logical-presentation)
       * [Pure presentation](#pure-presentation)
   * [Container components](#container-components)
 
-<!-- tocstop -->
 
 ---
 >"Plans are only good intentions unless they immediately degenerate into hard work." - Peter Drucker
