@@ -407,16 +407,34 @@ That's just for the start. I am sure to adapt it when actually programming the a
 
 #### Set up React Router and start with the smallest components
 
-React Router:
-- enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
-- 
+
 
 Component's wise:
+
+- first of all I lay out all components and simply style them with materialize css
+- remember that styling with React is more complicated than styling normal HTML elements. For simplicity reasons I fix everything with inline styling on the component itself
+
+>Tip: For 100vh on your main content use this inline style on a div, it fits perfectly into the materialize flexbox:
+```javascript
+style={{
+  display: 'flex',
+  minHeight: '100vh',
+  flexDirection: 'column',
+}}
+```
+
+
+
+
 - I start with the footer, since it is completely independent
 - after that I create the home screen since it also only renders the same
 - then the header, which needs to now the status if a user is logged in
 - the the sidebar, which also need the status of the login in rendering accordingly
 - after that I
+
+React Router:
+- enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
+-
 
 
 
