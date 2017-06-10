@@ -70,7 +70,7 @@ The information age with it’s mostly free services and improvements provides d
 
 With this new age, income is very spread. Meaning there is the way to make millions having a new idea, or just competing with machines and get paid nearly nothing. New software doesn’t often needs more than a few programmers and designers. The result can be replicated and updated easily. It can be delivered to millions at almost zero cost.
 The best way to use new technologies is not to replace human workers with machines, but restructure processes.
-Jobs with routine tasks will fall and be replaced by machine workers, however nonroutine jobs (mental or manual) like financial analysts or hairdresser, will held up.
+Jobs with routine tasks will fall and be replaced by machine workers, however non-routine jobs (mental or manual) like financial analysts or hairdresser, will held up.
 
 ## 10.The biggest winners: stars and superstars
 
@@ -86,7 +86,7 @@ Even though computers are much faster in computing certain tasks, at this time, 
 
 ## 13.Policy recommendations
 
-Focus on education. Not only what is tought but how it is tought. Focus on Startups. Entrepreneurship stems from innovation and digitalization allows much more innovation to happen. Hence, increased efforts to boost entrepreneurship will lead to more innovation and productivity. Focus on matching employees and employers. Focus on science.  And lastly, adapt taxation accordingly.
+Focus on education. Not only what is taught but how it is taught. Focus on Startups. Entrepreneurship stems from innovation and digitalization allows much more innovation to happen. Hence, increased efforts to boost entrepreneurship will lead to more innovation and productivity. Focus on matching employees and employers. Focus on science.  And lastly, adapt taxation accordingly.
 
 ## 14.Long-term recommendations
 
@@ -101,7 +101,7 @@ Technology brings opportunities. Technology is not destiny. We shape our destiny
 
 ## Useful links & credits
 
-<a target="_blank" href="https://www.amazon.de/gp/product/0393350649/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0393350649&linkCode=as2&tag=ddcr-21&linkId=4be9ca959103c4cec64bd17bedcda893">The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies</a>
+[The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies](https://www.amazon.de/gp/product/0393350649/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0393350649&linkCode=as2&tag=ddcr-21&linkId=4be9ca959103c4cec64bd17bedcda893)
 
 
 
