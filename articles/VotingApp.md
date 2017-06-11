@@ -43,7 +43,7 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Think before you do!](#think-before-you-do)
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
       * [Structure components](#structure-components)
-      * [Set up React Router and start with the smallest components](#set-up-react-router-and-start-with-the-smallest-components)
+      * [Design and build components](#design-and-build-components)
       * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -389,27 +389,25 @@ Therefore:
 
 #### Structure components
 
-I sketched everything out on a paper and came to the conclusion to build 11 components:
+I sketched everything out on a paper and came to the conclusion to build 14 components:
 
 - the app component, that hosts everything
 - a header
 - a footer
 - a sidebar
-- a signup/login/logout component
+- a signup/login/social media component
 - a home screen
 - a list of all polls
 - the display of a single poll
 - a component for the poll and it's answers
 - the answers as a list
 - the chart
+- a 404 page
 
 That's just for the start. I am sure to adapt it when actually programming the app.
 
-#### Set up React Router and start with the smallest components
+#### Design and build components
 
-
-
-Component's wise:
 
 - first of all I lay out all components and simply style them with materialize css
 - remember that styling with React is more complicated than styling normal HTML elements. For simplicity reasons I fix everything with inline styling on the component itself
@@ -426,13 +424,14 @@ style={{
 
 
 
-- I start with the footer, since it is completely independent
-- after that I create the home screen since it also only renders the same
-- then the header, which needs to now the status if a user is logged in
-- the the sidebar, which also need the status of the login in rendering accordingly
-- after that I
+- in the process of building components you will slowly get a feeling on how you need to structure your state management with React and Redux
 
-React Router:
+
+
+[➡️ Check out my commit on Github after the components are built and styled ⬅️](https://github.com/DDCreationStudios/votingApp/tree/eb17c360e09515f22f8ac38574f576a53855037b)
+
+Now we have to set up React Router to get a basic functionality and feeling for the app:
+
 - enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
 -
 
