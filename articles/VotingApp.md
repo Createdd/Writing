@@ -430,12 +430,10 @@ style={{
 
 [➡️ Check out my commit on Github after the components are built and styled ⬅️](https://github.com/DDCreationStudios/votingApp/tree/eb17c360e09515f22f8ac38574f576a53855037b)
 
-Now we have to set up React Router to get a basic functionality and feeling for the app:
-
+- Now we have to set up React Router to get a basic functionality and feeling for the app
 - enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
+- add state and it's management to the components
 -
-
-
 
 
 
