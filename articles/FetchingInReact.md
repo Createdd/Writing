@@ -16,6 +16,9 @@ Since Unsplash.com released their API and I just love their content, I decided t
 * [How to fetch Images from Unsplash.com in React](#how-to-fetch-images-from-unsplashcom-in-react)
   * [📄 Table of contents](#table-of-contents)
   * [Set up basics](#set-up-basics)
+  * [Fetching data](#fetching-data)
+      * [Using easy fetch link](#using-easy-fetch-link)
+      * [Using the Unsplash.js library](#using-the-unsplashjs-library)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -29,7 +32,28 @@ To set up the basics, I use the code base from another project I did:
 - eslint with [equimper extension](https://github.com/EQuimper/eslint-config-equimper)
 - simply setting up React components that render images in a list
 
-##
+## Fetching data
+
+#### Using easy fetch link
+
+- use fetch like:
+
+```javascript
+
+```
+- use 'componentDidMount' lifecycle when fetching data (DOM is represented)
+- describe a fetch method using Promise functionality
+- transform the call into a JSON object and pass it into state
+- 
+
+
+#### Using the Unsplash.js library
+
+- add the [unsplash-js](https://github.com/unsplash/unsplash-js) package
+- add your [developer credentials](https://unsplash.com/developers) from Unsplash
+- I'll use the [dotenv package](https://www.npmjs.com/package/dotenv) to hide my credentials
+
+-
 
 
 
