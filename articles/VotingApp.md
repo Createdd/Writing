@@ -433,7 +433,9 @@ style={{
 - Now we have to set up React Router to get a basic functionality and feeling for the app
 - enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
 - add state and it's management to the components
--
+- realize that Redux might be a good next step
+
+
 
 
 
