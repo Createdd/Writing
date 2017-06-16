@@ -44,6 +44,7 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
       * [Structure components](#structure-components)
       * [Design and build components](#design-and-build-components)
+      * [Add Redux](#add-redux)
       * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
   * [Visualization](#visualization)
   * [Deployment / DevOps](#deployment-devops)
@@ -434,6 +435,20 @@ style={{
 - enable `historyApiFallback: true` on your webpack dev server to allow proper routing with react router
 - add state and it's management to the components
 - realize that Redux might be a good next step
+
+#### Add Redux
+
+The [Principles](http://redux.js.org/docs/introduction/ThreePrinciples.html) of Redux are:
+- Single source of truth
+- State is read-only
+- Changes are made with pure functions
+
+Keep in mind, that local state doesn't need to take part in Redux when it's state isn't used by other components.
+
+
+
+
+
 
 
 
