@@ -24,13 +24,14 @@ I will build a small application for simply rating questions. This is designed a
 
 
 ---
->"dsasfasfasf"  - Bezos
+>"Everything is practice." - Pele
 ---
 
 ## Motivation for this article
 
-Another small application to understand Redux and React. It feels like it's the 100th app trying to grasp Redux. But 1 month without Redux and you start at basically nothing again. I am like: "Yeah I have heard about that" - and that's it. Action, Action Creators, Reducers, Dispatch, blabla. Too many things to understand :D
+Another small application to understand Redux and React. It feels like it's the 100th app trying to grasp Redux. But 1 month without Redux and you start at basically nothing again. I am like: "Yeah I have heard about that" - and that's it. Action, Action Creators, Reducers, Dispatch, blabla. Too many things to understand :D So once again ↗️
 
+## 
 
 
 ## Useful links & credits
