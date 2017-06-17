@@ -34,6 +34,7 @@
 1. [📩 Building the FCC Voting App  ](https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md)
 1. [⚛️ React Components](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReactComponents.md)
 1. [📖 Summary of The second machine age](https://github.com/DDCreationStudios/Writing/blob/master/articles/TheSecondMachineAge.md)
+1. [⚛️ Fetching data in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingInReact.md)
 
 
 
