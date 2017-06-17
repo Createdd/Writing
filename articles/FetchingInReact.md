@@ -16,11 +16,11 @@ Since Unsplash.com released their API and I just love their content, I decided t
 * [How to fetch Images from Unsplash.com in React](#how-to-fetch-images-from-unsplashcom-in-react)
   * [📄 Table of contents](#table-of-contents)
   * [Set up basics](#set-up-basics)
-  * [Fetch data with a method](#fetch-data-with-a-method)
+  * [Fetch data with the fetch API](#fetch-data-with-the-fetch-api)
   * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
   * [Add search feature](#add-search-feature)
   * [Polish up React code](#polish-up-react-code)
-      * [Using the Unsplash.js library](#using-the-unsplashjs-library)
+  * [Using the Unsplash.js library](#using-the-unsplashjs-library)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -34,9 +34,9 @@ To set up the basics, I use the code base from another project I did:
 - eslint with [equimper extension](https://github.com/EQuimper/eslint-config-equimper)
 - simply setting up React components that render images in a list
 
-## Fetch data with a method
+## Fetch data with the fetch API
 
-- use fetch like:
+- use  the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) like:
 
 ```javascript
 componentDidMount() {
@@ -138,7 +138,11 @@ ref={input => (this.query = input)}
 [➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/axiosSearch
 )
 
-#### Using the Unsplash.js library
+___
+⭐ That was incredible easy and already shows how much you can do with the API :)
+___
+
+## Using the Unsplash.js library
 
 - add the [unsplash-js](https://github.com/unsplash/unsplash-js) package
 - add your [developer credentials](https://unsplash.com/developers) from Unsplash
