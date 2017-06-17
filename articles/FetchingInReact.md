@@ -173,10 +173,10 @@ const Img = props =>
 
 ## Useful links & credits
 
-I did a treehouse course, that covers an app with a similar approach:
+- [Unsplash.com](https://unsplash.com/)
+- I did a treehouse course, that covers an app with a similar approach:
 
-<a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png"/></a>
-
+<a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png" height="200"/></a>
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
