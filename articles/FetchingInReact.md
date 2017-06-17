@@ -1,4 +1,4 @@
-# How to fetch Images from Unsplash.com in React
+# 2 easy ways to get data from Unsplash.com in  React
 [<img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/k_T9Zj3SE8k)
 https://unsplash.com/photos/k_T9Zj3SE8k
