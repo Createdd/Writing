@@ -3,9 +3,9 @@
 https://unsplash.com/photos/k_T9Zj3SE8k)
 https://unsplash.com/photos/k_T9Zj3SE8k
 
-Since Unsplash.com released their API and I just love their content, I decided to write a short article on how to use it. Enjoy.
+Since Unsplash.com released their API and I just love their content, I decided to write a short article on how to use it with React. Unsplash is awesome! :) Enjoy.
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fetchingInReact)
 
 ---
 >"Everything negative - pressure, challenges - is all an opportunity for me to rise." - Kobe Bryant
@@ -13,10 +13,6 @@ Since Unsplash.com released their API and I just love their content, I decided t
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [How to fetch Images from Unsplash.com in React](#how-to-fetch-images-from-unsplashcom-in-react)
   * [📄 Table of contents](#table-of-contents)
   * [Set up basics](#set-up-basics)
   * [Fetch data with the fetch API](#fetch-data-with-the-fetch-api)
@@ -26,7 +22,6 @@ Since Unsplash.com released their API and I just love their content, I decided t
   * [Adapt to Unsplash guidelines](#adapt-to-unsplash-guidelines)
   * [Useful links & credits](#useful-links-credits)
 
-<!-- tocstop -->
 
 ## Set up basics
 
@@ -172,28 +167,15 @@ const Img = props =>
 
 
 
+[➡️ See the finished Github Repo ⬅️](https://github.com/DDCreationStudios/fetchingInReact
+)
 
-
-
-
-
-
-
-
-##
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
+I did a treehouse course, that covers an app with a similar approach:
+
+<a href="http://referrals.trhou.se/danieldeutsch3" target="_blank"><img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png"/></a>
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
