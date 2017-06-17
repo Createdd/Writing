@@ -13,22 +13,22 @@ Since Unsplash.com released their API and I just love their content, I decided t
 
 ## 📄 Table of contents
 
-  * [📄 Table of contents](#table-of-contents)
-  * [Set up basics](#set-up-basics)
-  * [Fetch data with the fetch API](#fetch-data-with-the-fetch-api)
-  * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
-  * [Add search feature](#add-search-feature)
-  * [Polish up React code](#polish-up-react-code)
-  * [Adapt to Unsplash guidelines](#adapt-to-unsplash-guidelines)
-  * [Useful links & credits](#useful-links-credits)
+
+* [Set up basics](#set-up-basics)
+* [Fetch data with the fetch API](#fetch-data-with-the-fetch-api)
+* [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
+* [Add search feature](#add-search-feature)
+* [Polish up React code](#polish-up-react-code)
+* [Adapt to Unsplash guidelines](#adapt-to-unsplash-guidelines)
+* [Useful links & credits](#useful-links-credits)
 
 
-## Set up basics
+## Set up the basics
 
 To set up the basics, I use the code base from another project I did, using:
 
 - create-react-app
-- React components that render images in a list
+- React components that basically render images in a list
 
 ## Fetch data with the fetch API
 
@@ -46,14 +46,14 @@ componentDidMount() {
 		});
 }
 ```
-- use 'componentDidMount' lifecycle when fetching data (DOM is represented)
+- use `componentDidMount` lifecycle when fetching data (DOM is represented)
 - describe a fetch method using Promise functionality
 - transform the call into a JSON object and pass it into state
 - after that, simply render out each image from the fetched link
 
 [➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
 
-## Fetch data using a library (like Axios)
+## Fetch data using a library
 
 Fetching can also be accomplished by one of many libraries. I will use [axios](https://github.com/mzabriskie/axios), since it provides cool features like:
 - Make XMLHttpRequests from the browser
