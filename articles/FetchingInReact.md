@@ -55,8 +55,7 @@ componentDidMount() {
 
 ## Fetch data using a library (like Axios)
 
-Fetching can also be accomplished by one of many libraries. I will use
-[axios](https://github.com/mzabriskie/axios). Since it provides cool features like:
+Fetching can also be accomplished by one of many libraries. I will use [axios](https://github.com/mzabriskie/axios), since it provides cool features like:
 - Make XMLHttpRequests from the browser
 - Make http requests from node.js
 - Supports the Promise API
@@ -87,6 +86,7 @@ Very easy and works well:)
 
 [➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
 
+#### Looks like this:
 <img src="../assets/RFETCH/Screenshot1.png" alt=""/>
 
 ## Add search feature
@@ -161,11 +161,13 @@ const Img = props =>
 	</li>;
 ```
 
+#### Now it looks like
+
 <img src="../assets/RFETCH/Screenshot2.png" alt=""/>
 
 
 
-[➡️ See the finished Github Repo ⬅️](https://github.com/DDCreationStudios/fetchingInReact
+[➡️ See the finished app on Github ⬅️](https://github.com/DDCreationStudios/fetchingInReact
 )
 
 
