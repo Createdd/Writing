@@ -7,6 +7,9 @@ Since Unsplash.com released their API and I just love their content, I decided t
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
 
+---
+>"Everything negative - pressure, challenges - is all an opportunity for me to rise." - Kobe Bryant
+---
 
 ## 📄 Table of contents
 
@@ -20,6 +23,7 @@ Since Unsplash.com released their API and I just love their content, I decided t
   * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
   * [Add search feature](#add-search-feature)
   * [Polish up React code](#polish-up-react-code)
+  * [Adapt to Unsplash guidelines](#adapt-to-unsplash-guidelines)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -90,6 +94,8 @@ Very easy and works well:)
 
 [➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
 
+<img src="../assets/RFETCH/Screenshot1.png" alt=""/>
+
 ## Add search feature
 
 - adapt your fetched link (add query and search parameters)
@@ -141,15 +147,38 @@ ___
 ⭐ That was incredible easy and already shows how much you can do with the API :)
 ___
 
+## Adapt to Unsplash guidelines
+
+When using an API always, ALWAYS, make sure to read their guidelines.
+➡️ [Unsplash API guidelines](https://community.unsplash.com/developersblog/unsplash-api-guidelines)
+
+So as an example here, I didn't credit Unsplash or the photographer. Therefore I have to improve my app by retrieving more information from the data and adding credits to the owners:
+
+```javascript
+const Img = props =>
+	<li>
+		<a href={props.link}>
+			<img src={props.url} alt="Unsplash Image here" />
+		</a>
+		<p>
+			Photo by
+			<a href={props.user}>{props.name}</a>
+			<a href={props.link}> See on Unsplash</a>
+		</p>
+	</li>;
+```
+
+<img src="../assets/RFETCH/Screenshot2.png" alt=""/>
 
 
 
 
 
 
----
->"Everything negative - pressure, challenges - is all an opportunity for me to rise." - Kobe Bryant
----
+
+
+
+
 
 ##
 
