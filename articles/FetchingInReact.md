@@ -20,7 +20,6 @@ Since Unsplash.com released their API and I just love their content, I decided t
   * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
   * [Add search feature](#add-search-feature)
   * [Polish up React code](#polish-up-react-code)
-  * [Using the Unsplash.js library](#using-the-unsplashjs-library)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -142,13 +141,7 @@ ___
 ⭐ That was incredible easy and already shows how much you can do with the API :)
 ___
 
-## Using the Unsplash.js library
 
-- add the [unsplash-js](https://github.com/unsplash/unsplash-js) package
-- add your [developer credentials](https://unsplash.com/developers) from Unsplash
-- I'll use the [dotenv package](https://www.npmjs.com/package/dotenv) to hide my credentials
-
--
 
 
 
