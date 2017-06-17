@@ -16,9 +16,10 @@ Since Unsplash.com released their API and I just love their content, I decided t
 * [How to fetch Images from Unsplash.com in React](#how-to-fetch-images-from-unsplashcom-in-react)
   * [📄 Table of contents](#table-of-contents)
   * [Set up basics](#set-up-basics)
-  * [Fetching data](#fetching-data)
-      * [Using easy fetch link](#using-easy-fetch-link)
-      * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
+  * [Fetch data with a method](#fetch-data-with-a-method)
+  * [Fetch data using a library (like Axios)](#fetch-data-using-a-library-like-axios)
+  * [Add search feature](#add-search-feature)
+  * [Polish up React code](#polish-up-react-code)
       * [Using the Unsplash.js library](#using-the-unsplashjs-library)
   * [Useful links & credits](#useful-links-credits)
 
@@ -33,9 +34,7 @@ To set up the basics, I use the code base from another project I did:
 - eslint with [equimper extension](https://github.com/EQuimper/eslint-config-equimper)
 - simply setting up React components that render images in a list
 
-## Fetching data
-
-#### Using easy fetch link
+## Fetch data with a method
 
 - use fetch like:
 
@@ -58,7 +57,7 @@ componentDidMount() {
 
 [➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
 
-#### Fetch data using a library (like Axios)
+## Fetch data using a library (like Axios)
 
 Fetching can also be accomplished by one of many libraries. I will use
 [axios](https://github.com/mzabriskie/axios). Since it provides cool features like:
@@ -73,7 +72,71 @@ Fetching can also be accomplished by one of many libraries. I will use
 
 So the next steps are:
 - add the axios package
--
+- simply adapt the fetch method to the methods from the axios package
+
+```javascript
+componentDidMount() {
+	axios
+		.get('https://api.unsplash.com/photos/?client_id=' + cred.APP_ID)
+		.then(data => {
+			this.setState({ imgs: data.data });
+		})
+		.catch(err => {
+			console.log('Error happened during fetching!', err);
+		});
+}
+```
+
+Very easy and works well:)
+
+[➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/basicFetch)
+
+## Add search feature
+
+- adapt your fetched link (add query and search parameters)
+- make your request dynamic, connecting the search query to your app
+- add a searchbar component
+- make sure to bind all methods (use the arrow functions or bind them manually)
+
+```javascript
+performSearch = query => {
+  axios
+    .get(
+      `https://api.unsplash.com/search/photos/?page=1&per_page=10&query=${query}&client_id=${cred.APP_ID}`
+    )
+    .then(data => {
+      this.setState({ imgs: data.data.results });
+    })
+    .catch(err => {
+      console.log('Error happened during fetching!', err);
+    });
+};
+```
+
+## Polish up React code
+
+- use the ref-attribute for the input
+```javascript
+this.props.onSearch(this.query.value);
+---
+ref={input => (this.query = input)}
+```
+
+-  set a default for your performSearch method and put the performSearch into the componentDidMount lifecycle
+- render out a different component when no images can be found with an if statement
+- use conditional rendering to render a paragraph when the fetch is not finished (setting a flag to the state and changing it in the fetch method)
+
+```javascript
+<div className="main-content">
+	{this.state.loadingState
+		? <p>Loading</p>
+		: <ImgList data={this.state.imgs} />}
+</div>
+```
+
+
+[➡️ See the Github Repo after those steps ⬅️](https://github.com/DDCreationStudios/fetchingInReact/tree/axiosSearch
+)
 
 #### Using the Unsplash.js library
 
