@@ -446,8 +446,9 @@ The [Principles](http://redux.js.org/docs/introduction/ThreePrinciples.html) of 
 Keep in mind, that local state doesn't need to take part in Redux when it's state isn't used by other components.
 
 - add the [react-redux](https://github.com/reactjs/react-redux) and [redux](https://github.com/reactjs/redux) packages
-- make use of the [ducks structure](https://github.com/erikras/ducks-modular-redux) the manage the redux files better 
-- add a store
+- make use of the [ducks structure](https://github.com/erikras/ducks-modular-redux) the manage the redux files better
+- create a store in Redux and wrap your rendering app in a `Provider` tag from react-redux
+- connect state to your application with `connect`
 
 
 
