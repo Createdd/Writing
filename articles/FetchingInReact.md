@@ -25,12 +25,10 @@ Since Unsplash.com released their API and I just love their content, I decided t
 
 ## Set up basics
 
-To set up the basics, I use the code base from another project I did:
+To set up the basics, I use the code base from another project I did, using:
 
-- (treehouse gif searcher)
 - create-react-app
-- eslint with [equimper extension](https://github.com/EQuimper/eslint-config-equimper)
-- simply setting up React components that render images in a list
+- React components that render images in a list
 
 ## Fetch data with the fetch API
 
