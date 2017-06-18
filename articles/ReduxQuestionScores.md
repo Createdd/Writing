@@ -18,6 +18,8 @@ I will build a small application for simply rating questions. This is designed a
   * [Motivation for this article](#motivation-for-this-article)
   * [Modularizing the base](#modularizing-the-base)
   * [Adding Redux](#adding-redux)
+      * [Action Types](#action-types)
+      * [Reducers](#reducers)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -55,7 +57,57 @@ Modularizing helps to
 
 ## Adding Redux
 
-#### 
+#### Action Types
+
+Decide which components should take part in the Redux store.
+-> In this application only the questions have to be made available to all components.
+
+Find what events happen in your application for this specific state. -> In this application it is
+- changing the score
+- adding questions
+- removing questions
+
+#### Reducers
+
+Reducers are pure functions, that change state according to the action type.
+
+The reducer function provides different switch statements on how change the state. (Make sure to never change the state itself! It should be a pure function! #immutability)
+
+For example:
+```javascript
+export default function Player(state = initialState, action) {
+  switch (action.type) {
+    case QuestionActionTypes.ADD_PLAYER:
+      return [
+        ...state,
+        {
+          name: action.name,
+          score: 0,
+        },
+      ];
+    case QuestionActionTypes.REMOVE_QUESTION:
+      return [...state.slice(0, action.index), ...state.sclice(action.index + 1)];
+    case QuestionActionTypes.UPDATE_QUESTION_SCORE:
+      return state.map((question, index) => {
+        if (index === action.index) {
+          return {
+            ...question,
+            score: question.score + question.score,
+          };
+        }
+        return question;
+      });
+    default:
+      return state;
+  }
+}
+```
+
+
+
+
+
+
 
 
 
