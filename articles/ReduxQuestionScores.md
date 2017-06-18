@@ -17,6 +17,7 @@ I will build a small application for simply rating questions. This is designed a
   * [📄 Table of contents](#table-of-contents)
   * [Motivation for this article](#motivation-for-this-article)
   * [Modularizing the base](#modularizing-the-base)
+  * [Adding Redux](#adding-redux)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -37,7 +38,7 @@ Another small application to understand Redux and React. It feels like it's the 
 Structure the components in order to fit perfectly into a Redux application.
 
 
-[➡️ This is the codebase on Github ⬅️](https://github.com/DDCreationStudios/questionScores/tree/ad0543f1d6607048482ecec409041a3b3329e80d)
+[➡️ Codebase on Github ⬅️](https://github.com/DDCreationStudios/questionScores/tree/ad0543f1d6607048482ecec409041a3b3329e80d)
 
 - the stopwatch component has it's own local state is not dependent on other components
 - the stats and counter components are dependent on other components
@@ -48,6 +49,14 @@ Modularizing helps to
 - isolate responsibilities, which means easier testing and debugging
 - better scale the app and easier for the use of Redux
 - better organize between teams
+
+
+[➡️ Modularized Code on Github ⬅️](https://github.com/DDCreationStudios/questionScores/tree/fe8fd2a45b6c3c4129d7abb970541d3f2541147b)
+
+## Adding Redux
+
+#### 
+
 
 
 
