@@ -20,6 +20,7 @@ I will build a small application for simply rating questions. This is designed a
   * [Adding Redux](#adding-redux)
       * [Action Types](#action-types)
       * [Reducers](#reducers)
+      * [Actions and Action Creators](#actions-and-action-creators)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -102,6 +103,15 @@ export default function Player(state = initialState, action) {
   }
 }
 ```
+
+#### Actions and Action Creators
+
+Submiting an action to Redux
+- action creators generate an action (action = an event that will result in a change in state)
+- action is dispatched to the Redux store
+- a reducer passes the action to a component and returns the new state
+
+
 
 
 
