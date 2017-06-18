@@ -111,6 +111,14 @@ Submiting an action to Redux
 - action is dispatched to the Redux store
 - a reducer passes the action to a component and returns the new state
 
+For example for adding a question:
+```javascript
+export const addQuestion = name => ({
+  type: QuestionActionTypes.ADD_QUESTION,
+  name,
+});
+```
+
 
 
 
