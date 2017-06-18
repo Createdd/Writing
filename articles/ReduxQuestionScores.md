@@ -137,8 +137,8 @@ const removeQuestion = bindActionCreators(QuestionActionCreators.removeQuestion,
 const updateQuestionScore = bindActionCreators(QuestionActionCreators.updateQuestionScore, dispatch);
 ```
 
-- update the event handlers on the components accordingly
--
+- update the event handlers on the components accordingly (counter, question and scoreboard components)
+- the header and stopwatch components don't need changes, because they do not participate in the Redux cycle
 
 
 
