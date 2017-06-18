@@ -21,6 +21,8 @@ I will build a small application for simply rating questions. This is designed a
       * [Action Types](#action-types)
       * [Reducers](#reducers)
       * [Actions and Action Creators](#actions-and-action-creators)
+      * [Create the Redux Store](#create-the-redux-store)
+      * [Connect the container to the store](#connect-the-container-to-the-store)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -119,8 +121,24 @@ export const addQuestion = name => ({
 });
 ```
 
+#### Create the Redux Store
 
+Create a store in your index.js passing it the main reducer and wrap it around your scoreboard component in order to provide the store to the whole application.
 
+#### Connect the container to the store
+
+- use `mapStateToProps` to assign the state to a prop value -> assign the state of the questions as props
+- for automatically dispatching actions, that are created use:
+
+```javascript
+const {dispatch, questions} = this.props;
+const addQuestion = bindActionCreators(QuestionActionCreators.addQuestion, dispatch);
+const removeQuestion = bindActionCreators(QuestionActionCreators.removeQuestion, dispatch);
+const updateQuestionScore = bindActionCreators(QuestionActionCreators.updateQuestionScore, dispatch);
+```
+
+- update the event handlers on the components accordingly
+-
 
 
 
