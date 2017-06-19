@@ -23,6 +23,7 @@ I will build a small application for simply rating questions. This is designed a
       * [Actions and Action Creators](#actions-and-action-creators)
       * [Create the Redux Store](#create-the-redux-store)
       * [Connect the container to the store](#connect-the-container-to-the-store)
+      * [Chrome Redux DevTools](#chrome-redux-devtools)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -140,6 +141,22 @@ const updateQuestionScore = bindActionCreators(QuestionActionCreators.updateQues
 - update the event handlers on the components accordingly (counter, question and scoreboard components)
 - the header and stopwatch components don't need changes, because they do not participate in the Redux cycle
 
+
+#### Chrome Redux DevTools
+
+- Download the [Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- add the necessary line of code to your store
+
+```javascript
+const store = createStore(
+	QuestionReducer,
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+);
+```
+
+The DevTools help to develop and debug your Redux app. Check out this [article](https://medium.com/@zalmoxis/improve-your-development-workflow-with-redux-devtools-extension-f0379227ff83) for more.
+
+<img src="../assets/REDSCORE/screenshot.png" alt="" />
 
 
 
