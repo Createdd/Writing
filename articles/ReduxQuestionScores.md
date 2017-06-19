@@ -1,4 +1,4 @@
-# Rate Questions with React and Redux
+# Rate Questions with React and Redux - A baby example 👶
 [<img src="https://images.unsplash.com/photo-1497562424514-9bf21ad16ffe?dpr=2&auto=format&fit=crop&w=1080&h=608&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/s0XDLfhyN34)
 https://unsplash.com/photos/s0XDLfhyN34
@@ -10,11 +10,6 @@ I will build a small application for simply rating questions. This is designed a
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Rate Questions with React and Redux](#rate-questions-with-react-and-redux)
-  * [📄 Table of contents](#table-of-contents)
   * [Motivation for this article](#motivation-for-this-article)
   * [Modularizing the base](#modularizing-the-base)
   * [Adding Redux](#adding-redux)
@@ -25,12 +20,6 @@ I will build a small application for simply rating questions. This is designed a
       * [Connect the container to the store](#connect-the-container-to-the-store)
   * [Add another component in the Redux App](#add-another-component-in-the-redux-app)
   * [Chrome Redux DevTools](#chrome-redux-devtools)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
-
-
 
 ---
 >"Everything is practice." - Pele
@@ -180,27 +169,6 @@ The DevTools help to develop and debug your Redux app. Check out this [article](
 ___
 [➡️ Result on Github ⬅️](https://github.com/DDCreationStudios/questionScores)
 ___
-
-
-
-
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-
-
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
