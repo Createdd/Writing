@@ -19,6 +19,7 @@ I will build a small application for simply rating questions. This is designed a
       * [Create the Redux Store](#create-the-redux-store)
       * [Connect the container to the store](#connect-the-container-to-the-store)
   * [Add another component in the Redux App](#add-another-component-in-the-redux-app)
+  * [Implement ducks](#implement-ducks)
   * [Chrome Redux DevTools](#chrome-redux-devtools)
 
 ---
@@ -147,6 +148,115 @@ Now we want to display details to each question
 
 [➡️ See the commit with the implementation of the detail component on Github ⬅️](https://github.com/DDCreationStudios/questionScores/commit/e23757d34620b8a5f6c5aac9d0fe63dba621c5ca)
 
+## Implement ducks
+
+For smaller apps the [ducks concept](https://github.com/erikras/ducks-modular-redux) can help to develop a Redux application faster. Basically instead of keeping everything modular (actions, reducers, actionCreators), we can also keep them in one file to have a better overview.
+
+This file looks like:
+```javascript
+// Actions
+const ADD_QUESTION = 'question/ADD_QUESTION';
+const REMOVE_QUESTION = 'question/REMOVE_QUESTION';
+const UPDATE_QUESTION_SCORE = 'question/UPDATE_QUESTION_SCORE';
+const SELECT_QUESTION = 'question/SELECT_QUESTION';
+
+// Reducers
+const initialState = {
+  questions: [
+    {
+      name: 'Do you like AI?',
+      score: 31,
+      created: '00:00',
+      updated: '00:00',
+    },
+    {
+      name: 'Do you like Engineering?',
+      score: 20,
+      created: '00:00',
+      updated: '00:00',
+    },
+    {
+      name: 'How many Redux Apps?',
+      score: 50,
+      created: '00:00',
+      updated: '00:00',
+    },
+  ],
+  selectedQuestionIndex: -1,
+};
+
+export default function Question(state = initialState, action) {
+  const date = `${new Date().getHours()}:00`;
+  switch (action.type) {
+    case ADD_QUESTION:
+      const addQuestionList = [
+        ...state.questions,
+        {
+          name: action.name,
+          score: 0,
+          created: date,
+        },
+      ];
+      return {
+        ...state,
+        questions: addQuestionList,
+      };
+    case REMOVE_QUESTION:
+      const removeQuestionList = [
+        ...state.questions.slice(0, action.index),
+        ...state.questions.slice(action.index + 1),
+      ];
+      return {
+        ...state,
+        questions: removeQuestionList,
+      };
+    case UPDATE_QUESTION_SCORE:
+      const updateQuestionList = state.questions.map((question, index) => {
+        if (index === action.index) {
+          return {
+            ...question,
+            score: question.score + action.score,
+            updated: date,
+          };
+        }
+        return question;
+      });
+      return {
+        ...state,
+        questions: updateQuestionList,
+      };
+    case SELECT_QUESTION:
+      return {
+        ...state,
+        selectedQuestionIndex: action.index,
+      };
+    default:
+      return state;
+  }
+}
+
+// ActionCreators
+export const addQuestion = name => ({
+  type: ADD_QUESTION,
+  name,
+});
+export const removeQuestion = index => ({
+  type: REMOVE_QUESTION,
+  index,
+});
+export const updateQuestionScore = (index, score) => ({
+  type: UPDATE_QUESTION_SCORE,
+  index,
+  score,
+});
+export const selectQuestion = index => ({
+  type: SELECT_QUESTION,
+  index,
+});
+
+```
+
+[➡️ See the commit with the implementation of ducks on Github ⬅️](https://github.com/DDCreationStudios/questionScores/commit/4e7b107f6d7a2232e6a7543271d137886d6d2d70)
 
 ## Chrome Redux DevTools
 
