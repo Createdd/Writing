@@ -154,7 +154,7 @@ Now we want to display details to each question
 - create a QuestionDetail component to display details
 - update the event handler on the question component
 
-<img src="../assets/REDSCORE/screenshot2.png" alt="" />
+<img src="../assets/REDSCORE/Screenshot2.png" alt="" />
 
 [➡️ See the commit with the implementation of the detail component on Github ⬅️](https://github.com/DDCreationStudios/questionScores/commit/e23757d34620b8a5f6c5aac9d0fe63dba621c5ca)
 
@@ -173,7 +173,7 @@ const store = createStore(
 
 The DevTools help to develop and debug your Redux app. Check out this [article](https://medium.com/@zalmoxis/improve-your-development-workflow-with-redux-devtools-extension-f0379227ff83) for more.
 
-<img src="../assets/REDSCORE/screenshot1.png" alt="" />
+<img src="../assets/REDSCORE/Screenshot1.png" alt="" />
 
 
 
