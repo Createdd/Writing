@@ -156,6 +156,8 @@ Now we want to display details to each question
 
 <img src="../assets/REDSCORE/screenshot2.png" alt="" />
 
+[➡️ See the commit with the implementation of the detail component on Github ⬅️](https://github.com/DDCreationStudios/questionScores/commit/e23757d34620b8a5f6c5aac9d0fe63dba621c5ca)
+
 
 ## Chrome Redux DevTools
 
@@ -175,6 +177,9 @@ The DevTools help to develop and debug your Redux app. Check out this [article](
 
 
 
+___
+[➡️ Result on Github ⬅️](https://github.com/DDCreationStudios/questionScores)
+___
 
 
 
