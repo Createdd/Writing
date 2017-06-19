@@ -23,7 +23,8 @@ I will build a small application for simply rating questions. This is designed a
       * [Actions and Action Creators](#actions-and-action-creators)
       * [Create the Redux Store](#create-the-redux-store)
       * [Connect the container to the store](#connect-the-container-to-the-store)
-      * [Chrome Redux DevTools](#chrome-redux-devtools)
+  * [Add another component in the Redux App](#add-another-component-in-the-redux-app)
+  * [Chrome Redux DevTools](#chrome-redux-devtools)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -141,8 +142,22 @@ const updateQuestionScore = bindActionCreators(QuestionActionCreators.updateQues
 - update the event handlers on the components accordingly (counter, question and scoreboard components)
 - the header and stopwatch components don't need changes, because they do not participate in the Redux cycle
 
+## Add another component in the Redux App
 
-#### Chrome Redux DevTools
+Now we want to display details to each question
+
+- add a new action type (select a question)
+- extend the reducer with a new switch case and additional state
+- add a new action creator for selecting a question
+- create a new bindActionCreator in the scoreboard component
+- update mapStateToProps with the selected question index
+- create a QuestionDetail component to display details
+- update the event handler on the question component
+
+
+
+
+## Chrome Redux DevTools
 
 - Download the [Redux DevTools Extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 - add the necessary line of code to your store
