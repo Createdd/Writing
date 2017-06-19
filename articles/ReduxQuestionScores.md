@@ -154,7 +154,7 @@ Now we want to display details to each question
 - create a QuestionDetail component to display details
 - update the event handler on the question component
 
-
+<img src="../assets/REDSCORE/screenshot2.png" alt="" />
 
 
 ## Chrome Redux DevTools
@@ -171,7 +171,7 @@ const store = createStore(
 
 The DevTools help to develop and debug your Redux app. Check out this [article](https://medium.com/@zalmoxis/improve-your-development-workflow-with-redux-devtools-extension-f0379227ff83) for more.
 
-<img src="../assets/REDSCORE/screenshot.png" alt="" />
+<img src="../assets/REDSCORE/screenshot1.png" alt="" />
 
 
 
