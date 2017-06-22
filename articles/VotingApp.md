@@ -451,7 +451,7 @@ Keep in mind, that local state doesn't need to take part in Redux when it's stat
 - connect state to your application with `connect`
 - add the [Redux DevTool](https://github.com/zalmoxisus/redux-devtools-extension) to debug faster
 
-Now that State is available through Redux, it's time to create the event handlers and render everything accordingly.
+Now that State is available through Redux, it's time to create the event handlers and render everything accordingly. At least now you should validate your propTypes as well.
 
 
 
@@ -468,7 +468,7 @@ Now that State is available through Redux, it's time to create the event handler
 #### Connect React to the Express Backend with React Router
 
 - add the react-router package
-- axios?
+- fetch with axios?
 
 
 ## Visualization
