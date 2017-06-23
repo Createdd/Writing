@@ -428,6 +428,10 @@ style={{
 - in the process of building components you will slowly get a feeling on how you need to structure your state management with React and Redux
 
 
+Here is a list of painful learnings I had to undergo thorughout this process:
+
+- for accessing obejct properties dynamically use bracket instead of dot notation (used here: `javascript answers = answers.concat(this.refs[temp].value);`)
+-
 
 [➡️ Check out my commit on Github after the components are built and styled ⬅️](https://github.com/DDCreationStudios/votingApp/tree/eb17c360e09515f22f8ac38574f576a53855037b)
 
