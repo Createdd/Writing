@@ -45,8 +45,8 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Structure components](#structure-components)
       * [Design and build components](#design-and-build-components)
       * [Add Redux](#add-redux)
-      * [Connect React to the Express Backend with React Router](#connect-react-to-the-express-backend-with-react-router)
   * [Visualization](#visualization)
+  * [Connect Frontend to the Express Backend with React Router](#connect-frontend-to-the-express-backend-with-react-router)
   * [Deployment / DevOps](#deployment-devops)
       * [Docker](#docker)
   * [Useful links & credits](#useful-links-credits)
@@ -466,6 +466,7 @@ Now that State is available through Redux, it's time to create the event handler
 
 
 
+## Visualization
 
 
 
@@ -474,13 +475,12 @@ Now that State is available through Redux, it's time to create the event handler
 
 
 
-#### Connect React to the Express Backend with React Router
+
+## Connect Frontend to the Express Backend with React Router
 
 - add the react-router package
 - fetch with axios?
 
-
-## Visualization
 
 ## Deployment / DevOps
 
