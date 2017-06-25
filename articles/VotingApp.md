@@ -440,7 +440,9 @@ style={{
 Here is a list of painful learnings I had to undergo throughout this process:
 
 - for accessing object properties dynamically use bracket instead of dot notation (used here: `javascript answers = answers.concat(this.refs[temp].value);`)
-- importing everythin as * (`import * as Polls from './ducks/polls';`) from ducks, because else it's not working
+- importing everything as * (`import * as Polls from './ducks/polls';`) from ducks, because else it's not working
+- I have often read to not use the index of a map function as key value for a component. However, when rendering with onChange and generating a unique key, the input loses focus and is not working properly (`const answerList = this.state.answers.map((answer, ind) => {
+return (<div className="input-field col s10" key={ind}>`)
 -
 
 #### Add Redux
