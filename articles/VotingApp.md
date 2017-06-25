@@ -468,7 +468,13 @@ Now that State is available through Redux, it's time to create the event handler
 
 ## Visualization
 
+For displaying the results I chose between:
 
+- [Recharts](http://recharts.org/#/en-US/examples/SimpleAreaChart)
+- [Victory](http://formidable.com/open-source/victory/docs)
+- [React-Vis](http://uber.github.io/react-vis/#/)
+- [ReactD3](http://www.reactd3.org/docs/basic/#area)
+- [React-Google-Charts](https://github.com/RakanNimer/react-google-charts)
 
 
 
