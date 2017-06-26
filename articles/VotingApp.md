@@ -45,7 +45,7 @@ If you like to follow this article in depth, make sure to read it also on github
       * [Structure components](#structure-components)
       * [Design and build components](#design-and-build-components)
       * [Add Redux](#add-redux)
-  * [Visualization](#visualization)
+      * [Visualization](#visualization)
   * [Connect Frontend to the Express Backend with React Router](#connect-frontend-to-the-express-backend-with-react-router)
   * [Deployment / DevOps](#deployment-devops)
       * [Docker](#docker)
@@ -443,6 +443,7 @@ Here is a list of painful learnings I had to undergo throughout this process:
 - importing everything as * (`import * as Polls from './ducks/polls';`) from ducks, because else it's not working
 - I have often read to not use the index of a map function as key value for a component. However, when rendering with onChange and generating a unique key, the input loses focus and is not working properly (`const answerList = this.state.answers.map((answer, ind) => {
 return (<div className="input-field col s10" key={ind}>`)
+- when iterating over an array of object and you want to change properties on an object, you have to return an object `return{ answer: answ.answer, votes: 0};` (took me 4 hours to understand 😞)
 -
 
 #### Add Redux
@@ -466,7 +467,7 @@ Now that State is available through Redux, it's time to create the event handler
 
 
 
-## Visualization
+#### Visualization
 
 For displaying the results I chose between:
 
@@ -475,6 +476,10 @@ For displaying the results I chose between:
 - [React-Vis](http://uber.github.io/react-vis/#/)
 - [ReactD3](http://www.reactd3.org/docs/basic/#area)
 - [React-Google-Charts](https://github.com/RakanNimer/react-google-charts)
+
+Quickly skimming all docs and trying a few things out I ended up choosing React-Google-Charts. Google provides many options and the React wrapper makes it easy to implement in a React application.
+
+
 
 
 
