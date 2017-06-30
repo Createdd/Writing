@@ -1,4 +1,4 @@
-# Innovative structure of contracts in the IT sector
+# Are you still using expensive contract structures in the IT sector?
 [<img src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?dpr=2&auto=format&fit=crop&w=1080&h=715&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/E7RLgUjjazc)
 https://unsplash.com/photos/E7RLgUjjazc (Photo by Olu Eletu on Unsplash)
