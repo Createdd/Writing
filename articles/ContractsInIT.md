@@ -3,7 +3,7 @@
 https://unsplash.com/photos/E7RLgUjjazc)
 https://unsplash.com/photos/E7RLgUjjazc (Photo by Olu Eletu on Unsplash)
 
-Structuring contracts can be a very difficult task. Combining that with services in volatile environments and asynchronous information distribution, the overall value of this task can decrease at best and provide legal traps at worst. Immerse yourself in some newer concepts, that I came across working working on a project.
+Structuring contracts can be a very difficult task. Combine that with services in volatile environments and asynchronous information distribution, the overall value of this task can decrease at best and provide legal traps at worst. Immerse yourself in some newer concepts, that I came across working on a project.
 
 This article is mainly aimed at entrepreneurs, who have to deal heavily with lawyers and contracts. It should broaden your understanding of contracting in a more professional manner.
 
@@ -12,17 +12,10 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Innovative structure of contracts in the IT sector](#innovative-structure-of-contracts-in-the-it-sector)
-  * [📄 Table of contents](#table-of-contents)
   * [Current situation and 90% of all contracts](#current-situation-and-90-of-all-contracts)
   * [Better approach](#better-approach)
   * [Possibilities](#possibilities)
   * [Conclusion](#conclusion)
-
-<!-- tocstop -->
 
 
 
