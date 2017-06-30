@@ -20,7 +20,7 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
   * [Current situation and 90% of all contracts](#current-situation-and-90-of-all-contracts)
   * [Better approach](#better-approach)
   * [Possibilities](#possibilities)
-  * [Useful links & credits](#useful-links-credits)
+  * [Conclusion](#conclusion)
 
 <!-- tocstop -->
 
@@ -66,21 +66,11 @@ Creating single ("sub") contracts under a master agreement, results in a bigger 
 
 The real power of this structure will be visible in long-term relationships and big cooperation projects. After more than 10 years of work with a dozen projects, the legal effort for stipulating new projects will be a breeze for both parties and money spent on lawyers will be very concise and effective.
 
+## Conclusion
 
+Combining powerful concepts from different areas often result in exponential results. It's not different in Law and Tech. Unifying the stability of jurisdiction with the innovation of programming allows to stay on top of fast developing world.
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-
-
+___
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
