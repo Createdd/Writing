@@ -35,13 +35,17 @@ As I have seen, most of the contracts are written poorly, because not enough tim
 
 A main distinction has to be made between whether a product or a service is owed under the contract. Each one has different consequences for the contract parties. Now the problem that arises in the IT sector, is that you cannot always determine the product or service in the beginning of the cooperation.
 
+<img src="../assets/CONTRACTIT/overall.png" alt=""/>
+
 Most of the current solutions are single documents that describe the service or product as accurate as possible. Payments are stipulated on these terms.
 
 Changes in conditions or the environment forces the contracting parties to re-evaluate the terms, set up a new contract and reconcile completed payments and transactions. This is very time consuming and costs a lot. What might be remunerative for the lawyer, isn't really cost-efficient for the entrepreneur.
 
 ## Better approach
 
+To minimize costs and increase overall consulting value from your lawyers try this way:
 
+<img src="../assets/CONTRACTIT/modular.png" alt=""/>
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
