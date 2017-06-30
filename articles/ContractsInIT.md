@@ -18,6 +18,7 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
 * [The structure of contracts in the development sector](#the-structure-of-contracts-in-the-development-sector)
   * [📄 Table of contents](#table-of-contents)
   * [Current situation and 90% of all contracts](#current-situation-and-90-of-all-contracts)
+  * [Better approach](#better-approach)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -36,7 +37,11 @@ A main distinction has to be made between whether a product or a service is owed
 
 Most of the current solutions are single documents that describe the service or product as accurate as possible. Payments are stipulated on these terms.
 
-Changes in conditions or the environment forces the contracting parties to re-evaluate the terms, set up a new contract and reconcile completed payments and transactions. 
+Changes in conditions or the environment forces the contracting parties to re-evaluate the terms, set up a new contract and reconcile completed payments and transactions. This is very time consuming and costs a lot. What might be remunerative for the lawyer, isn't really cost-efficient for the entrepreneur.
+
+## Better approach
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
