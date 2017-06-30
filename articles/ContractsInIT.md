@@ -25,9 +25,9 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
 
 ## Current situation and 90% of all contracts
 
-As I have seen, most of the contracts are written poorly, because not enough time is spend writing them. Always make sure to stay on the right side of the track and cover it with contracts!
+As I have seen most of the contracts are written poorly, because not enough time is spend writing them. Always make sure to stay on the right side of the track and cover it with contracts!
 
-A main distinction has to be made between whether a product or a service is owed under the contract. Each one has different consequences for the contract parties. Now the problem that arises in the IT sector, is that you cannot always determine the product or service in the beginning of the cooperation.
+A main distinction has to be made between whether a product or a service is owed under the contract. Each one has different consequences for the contract parties. Now the problem that arises in the IT sector, is that you cannot always determine the product or service at the beginning of the cooperation.
 
 <img src="../assets/CONTRACTIT/overall.png" alt=""/>
 
@@ -49,7 +49,7 @@ To minimize costs and increase overall consulting value from your lawyers try th
 
 ## Possibilities
 
-This concept follows the modularization concept, that is already established in the programming world.
+This concept follows the idea of modularization, which is already established in the programming world.
 
 When writing code and trying to keep it as small and sufficient as possible, incredible positive scaling effects can be achieved.
 
@@ -61,7 +61,7 @@ The real power of this structure will be visible in long-term relationships and 
 
 ## Conclusion
 
-Combining powerful concepts from different areas often result in exponential results. It's not different in Law and Tech. Unifying the stability of jurisdiction with the innovation of programming allows to stay on top of fast developing world.
+Combining powerful concepts from different areas often result in exponential results. The same applies in Law and Tech. Unifying the stability of jurisdiction with the innovation of programming allows to stay on top of fast developing world.
 
 ___
 
