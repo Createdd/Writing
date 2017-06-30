@@ -56,7 +56,15 @@ To minimize costs and increase overall consulting value from your lawyers try th
 
 ## Possibilities
 
+This concept follows the modularization concept, that is already established in the programming world.
 
+When writing code and trying to keep it as small and sufficient as possible, incredible positive scaling effects can be achieved.
+
+It's not different with contracts. This structure allows to keep the relationship between the parties clear and organized, but also extremely flexible.
+
+Creating single ("sub") contracts under a master agreement, results in a bigger initial setup but enables the contract parties to add, adapt or remove parts of their cooperation without the necessity to change other areas.
+
+The real power of this structure will be visible in long-term relationships and big cooperation projects. After more than 10 years of work with a dozen projects, the legal effort for stipulating new projects will be a breeze for both parties and money spent on lawyers will be very concise and effective.
 
 
 
