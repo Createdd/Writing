@@ -36,6 +36,7 @@
 1. [📖 Summary of The second machine age](https://github.com/DDCreationStudios/Writing/blob/master/articles/TheSecondMachineAge.md)
 1. [⚛️ Fetching data in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingInReact.md)
 1. [⚛️ Rating questions in React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReduxQuestionScores.md)
+1. [⚖️ Contracts in the IT sector ](https://github.com/DDCreationStudios/Writing/blob/master/articles/ContractsInIT.md)
 
 
 
