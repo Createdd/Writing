@@ -1,4 +1,4 @@
-# The structure of contracts in the development sector
+# Innovative structure of contracts in the IT sector
 [<img src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?dpr=2&auto=format&fit=crop&w=1080&h=715&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/E7RLgUjjazc)
 https://unsplash.com/photos/E7RLgUjjazc (Photo by Olu Eletu on Unsplash)
@@ -15,7 +15,7 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [The structure of contracts in the development sector](#the-structure-of-contracts-in-the-development-sector)
+* [Innovative structure of contracts in the IT sector](#innovative-structure-of-contracts-in-the-it-sector)
   * [📄 Table of contents](#table-of-contents)
   * [Current situation and 90% of all contracts](#current-situation-and-90-of-all-contracts)
   * [Better approach](#better-approach)
