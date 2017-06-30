@@ -19,6 +19,7 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
   * [📄 Table of contents](#table-of-contents)
   * [Current situation and 90% of all contracts](#current-situation-and-90-of-all-contracts)
   * [Better approach](#better-approach)
+  * [Possibilities](#possibilities)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -46,6 +47,18 @@ Changes in conditions or the environment forces the contracting parties to re-ev
 To minimize costs and increase overall consulting value from your lawyers try this way:
 
 <img src="../assets/CONTRACTIT/modular.png" alt=""/>
+
+- On top of all other documents and contracts you have a master agreement, that determines the cooperation conditions. This contract should act as a framework.
+
+- Underneath are the individual service or product contracts. Those describe bigger projects and should not only contain a basic service description, but also arrangements for (service-) management, data privacy and documentation requirements.
+
+- The last tier are separate documents containing a very detailed description of the product or service.
+
+## Possibilities
+
+
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
