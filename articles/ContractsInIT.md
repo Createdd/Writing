@@ -30,7 +30,13 @@ Disclaimer: Those concepts do work well in Austrian and German Law. I don't know
 
 ## Current situation and 90% of all contracts
 
-As I have seen, most of the contracts are written poorly. A main distinction has to be made between whether a product or a service is owed under the contract. 
+As I have seen, most of the contracts are written poorly, because not enough time is spend writing them. Always make sure to stay on the right side of the track and cover it with contracts!
+
+A main distinction has to be made between whether a product or a service is owed under the contract. Each one has different consequences for the contract parties. Now the problem that arises in the IT sector, is that you cannot always determine the product or service in the beginning of the cooperation.
+
+Most of the current solutions are single documents that describe the service or product as accurate as possible. Payments are stipulated on these terms.
+
+Changes in conditions or the environment forces the contracting parties to re-evaluate the terms, set up a new contract and reconcile completed payments and transactions. 
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
