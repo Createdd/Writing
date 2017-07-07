@@ -492,6 +492,13 @@ Quickly skimming all docs and trying a few things out I ended up choosing React-
 - add the react-router package
 - fetch with axios?
 
+- async Actions in Redux (http://redux.js.org/docs/advanced/AsyncActions.html)
+Asynchronous means they are totally independent and neither one must consider the other in any way, either in initiation or in execution.
+
+- using redux thunk
+Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met
+
+
 
 ## Deployment / DevOps
 
