@@ -66,7 +66,7 @@ These 3 lines of code save you a lot of time when you have to click many times. 
 
 ### If a developer of meetup.com is reading this
 
-please adapt your functionality :D
+please adapt the UX of the homepage. Thanks a lot :D
 
 
 ## Useful links & credits
