@@ -10,18 +10,11 @@ Since I am an organizer of a meetup ([FCC Vienna](https://www.meetup.com/de-DE/F
 ## 📄 Table of contents
 
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Reduce your time clicking forms on the web](#reduce-your-time-clicking-forms-on-the-web)
-  * [📄 Table of contents](#table-of-contents)
   * [Using the power of JavaScript on the web](#using-the-power-of-javascript-on-the-web)
-    * [The Problem](#the-problem)
+    * [The problem](#the-problem)
     * [The solution](#the-solution)
     * [If a developer of meetup.com is reading this](#if-a-developer-of-meetupcom-is-reading-this)
   * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
 
 ---
 >"The less effort, the faster and more powerful you will be." - Bruce Lee
@@ -31,7 +24,7 @@ Since I am an organizer of a meetup ([FCC Vienna](https://www.meetup.com/de-DE/F
 
 The fact that all webpages are or can be controlled by JavaScript provides additional opportunities for those who are capable of using it in the console.
 
-### The Problem
+### The problem
 
 In order to change the email notification settings for each meetup you have to click on each meetup and the uncheck each of those boxes. When I am now a member of many groups I have to go through the process many times, which offends me in some way since my time is very valueable.
 
