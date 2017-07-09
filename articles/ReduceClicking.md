@@ -15,6 +15,9 @@ Since I am an organizer of a meetup ([FCC Vienna](https://www.meetup.com/de-DE/F
 * [Reduce your time clicking forms on the web](#reduce-your-time-clicking-forms-on-the-web)
   * [📄 Table of contents](#table-of-contents)
   * [Using the power of JavaScript on the web](#using-the-power-of-javascript-on-the-web)
+    * [The Problem](#the-problem)
+    * [The solution](#the-solution)
+    * [If a developer of meetup.com is reading this](#if-a-developer-of-meetupcom-is-reading-this)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -27,6 +30,8 @@ Since I am an organizer of a meetup ([FCC Vienna](https://www.meetup.com/de-DE/F
 ## Using the power of JavaScript on the web
 
 The fact that all webpages are or can be controlled by JavaScript provides additional opportunities for those who are capable of using it in the console.
+
+### The Problem
 
 In order to change the email notification settings for each meetup you have to click on each meetup and the uncheck each of those boxes. When I am now a member of many groups I have to go through the process many times, which offends me in some way since my time is very valueable.
 
@@ -41,6 +46,8 @@ After that I am using the `document.querySelector` to grab those elements and st
 `[...document.querySelectorAll('.icon-s')]`
 
 <img src="http://recordit.co/yWtOhgoZju.gif" alt="gif"/>
+
+### The solution
 
 Now use `.foreach` on the array and click each item.
 
@@ -57,11 +64,14 @@ ___
 
 These 3 lines of code save you a lot of time when you have to click many times. Be sure to use your powerful knowledge of JavaScript in your day-to-day work. 😃
 
+### If a developer of meetup.com is reading this
 
+please adapt your functionality :D
 
 
 ## Useful links & credits
-- [📄 "Wes Bos fights recruiter SPAM programmatically"](https://www.youtube.com/watch?v=Ddu1T3BdATg)
+- [MDN querySelectors](https://developer.mozilla.org/en/docs/Web/API/Document/querySelector)
+- [Wes Bos fights recruiter SPAM programmatically](https://www.youtube.com/watch?v=Ddu1T3BdATg)
 
 
 
