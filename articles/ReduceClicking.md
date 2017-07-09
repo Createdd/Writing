@@ -61,16 +61,8 @@ These 3 lines of code save you a lot of time when you have to click many times. 
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
+- [📄 "Wes Bos fights recruiter SPAM programmatically"](https://www.youtube.com/watch?v=Ddu1T3BdATg)
+
 
 
 
