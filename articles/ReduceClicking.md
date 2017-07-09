@@ -28,6 +28,31 @@ Since I am an organizer of a meetup ([FCC Vienna](https://www.meetup.com/de-DE/F
 
 The fact that all webpages are or can be controlled by JavaScript provides additional opportunities for those who are capable of using it in the console.
 
+In order to change the email notification settings for each meetup you have to click on each meetup and the uncheck each of those boxes. When I am now a member of many groups I have to go through the process many times, which offends me in some way since my time is very valueable.
+
+<img src="../assets/REDCLICK/emailUpdates.png" alt="screenshot"/>
+
+So to solve that task programmatically, I identify the checkbox element in the chrome inspector:
+
+<img src="../assets/REDCLICK/inspector.png" alt="screenshot"/>
+
+After that I am using the `document.querySelector` to grab those elements and store it in an array:
+
+`[...document.querySelectorAll('.icon-s')]`
+
+<img src="http://recordit.co/yWtOhgoZju.gif" alt="gif"/>
+
+Now use `.foreach` on the array and click each item.
+
+`[...document.querySelectorAll(".icon-s")].forEach(box=> {
+  box.click();
+})`
+
+
+
+
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
