@@ -49,7 +49,13 @@ Now use `.foreach` on the array and click each item.
 })`
 
 
+<img src="http://g.recordit.co/LcTYPfxEEj.gif" alt="gif"/>
 
+___
+🚀 That's how fast and easy you can solve that problem
+___
+
+These 3 lines of code save you a lot of time when you have to click many times. Be sure to use your powerful knowledge of JavaScript in your day-to-day work. 😃
 
 
 
