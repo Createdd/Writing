@@ -3,9 +3,7 @@
 https://unsplash.com/photos/Ya3FqJdKVaw)
 https://unsplash.com/photos/Ya3FqJdKVaw Photo by Samuele Errico Piccarini
 
-In my
-
-
+In my previous article I described how to use JavaScript in the browser console to get tedious tasks on the web much faster done. Of course this approach is limited. A way to go much further and beyond is to use a automation framework like Selenium. In this article I show how flexible and fast you can program a script that helps you save a lot of time.
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/seleniumExample)
 
