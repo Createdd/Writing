@@ -1,18 +1,20 @@
-# asdasfas
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
+# Automate email settings with JavaScript
+[<img src="https://images.unsplash.com/photo-1486758206125-94d07f414b1c?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=" alt="unsplash">](
+https://unsplash.com/photos/Ya3FqJdKVaw)
+https://unsplash.com/photos/Ya3FqJdKVaw Photo by Samuele Errico Piccarini
+
+In my
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
+
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/seleniumExample)
 
 
 ## 📄 Table of contents
 
-
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [asdasfas](#asdasfas)
+* [Automate email settings with JavaScript](#automate-email-settings-with-javascript)
   * [📄 Table of contents](#table-of-contents)
   * [Useful links & credits](#useful-links-credits)
 
@@ -22,7 +24,7 @@ fsdgsdgsdgsdgds
 
 
 ---
->"dsasfasfasf"  - Bezos
+>"The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency." - Bill Gates
 ---
 
 ##
