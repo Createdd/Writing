@@ -20,7 +20,7 @@ In my previous article I described how to use JavaScript in the browser console 
     * [Setup](#setup)
     * [Going to the settings](#going-to-the-settings)
     * [Identify the elements and iterate over them](#identify-the-elements-and-iterate-over-them)
-  * [Useful links & credits](#useful-links-credits)
+  * [See the result in Youtube](#see-the-result-in-youtube)
 
 <!-- tocstop -->
 
@@ -48,7 +48,9 @@ Therefore I decided to write an automated script that does all that for me.
 
 The process of automating is simple:
 
-- identify an element with  `driver.findElement`
+- find the element with the inspector in your browser
+<img src="../assets/SELEX/inspector.png" alt="screenshot"/>
+- get the element with  `driver.findElement`
 - perform actions on that element with `.then` (promises in JS) or functions from the framework like `.click()`
 - after performing the tasks, be sure to `driver.quit();` to end the driver
 
@@ -156,22 +158,9 @@ var clickingAll = () => {
 };
 ```
 
+## See the result in Youtube
 
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-
+[<img src="../assets/SELEX/screenshotYoutube.png" alt="screenshot" />](https://youtu.be/-fPcsgR6uHk)
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
