@@ -50,6 +50,7 @@ The process of automating is simple:
 
 - find the element with the inspector in your browser
 <img src="../assets/SELEX/inspector.png" alt="screenshot"/>
+
 - get the element with  `driver.findElement`
 - perform actions on that element with `.then` (promises in JS) or functions from the framework like `.click()`
 - after performing the tasks, be sure to `driver.quit();` to end the driver
