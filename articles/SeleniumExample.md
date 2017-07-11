@@ -10,26 +10,21 @@ In my previous article I described how to use JavaScript in the browser console 
 
 ## 📄 Table of contents
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Automate email settings with JavaScript](#automate-email-settings-with-javascript)
-  * [📄 Table of contents](#table-of-contents)
-  * [What I will do](#what-i-will-do)
-  * [Automate with Selenium webdriver](#automate-with-selenium-webdriver)
+  * [The problem](#the-problem)
+  * [How to automate with Selenium webdriver](#how-to-automate-with-selenium-webdriver)
   * [Using it on clicking SPAM checkboxes on meetup.com](#using-it-on-clicking-spam-checkboxes-on-meetupcom)
     * [Setup](#setup)
     * [Going to the settings](#going-to-the-settings)
     * [Identify the elements and iterate over them](#identify-the-elements-and-iterate-over-them)
   * [See the result in Youtube](#see-the-result-in-youtube)
 
-<!-- tocstop -->
 
 
 ---
 >"The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency." - Bill Gates
 ---
 
-## What I will do
+## The problem
 
 The Meetup.com page requires me to check on/off each checkbox for an email notification of each group.
 
@@ -42,7 +37,7 @@ Therefore I decided to write an automated script that does all that for me.
 
 <img src="http://g.recordit.co/wc1jG5oRLW.gif" alt="gif"/>
 
-## Automate with Selenium webdriver
+## How to automate with Selenium webdriver
 
 [Selenium](http://www.seleniumhq.org/) allows to use a webdriver to go through the browser and performs actions, that a human being could also do (like clicking on elements).
 
@@ -165,6 +160,5 @@ var clickingAll = () => {
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
-
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
