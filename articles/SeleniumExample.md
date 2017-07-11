@@ -154,7 +154,7 @@ var clickingAll = () => {
 };
 ```
 
-## See the result in Youtube
+## See the result on Youtube
 
 [<img src="../assets/SELEX/screenshotYoutube.png" alt="screenshot" />](https://youtu.be/-fPcsgR6uHk)
 
