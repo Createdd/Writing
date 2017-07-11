@@ -18,6 +18,7 @@ In my previous article I described how to use JavaScript in the browser console 
   * [Automate with Selenium webdriver](#automate-with-selenium-webdriver)
     * [Setup](#setup)
     * [Going to the settings](#going-to-the-settings)
+    * [Identify the elements and iterate over them](#identify-the-elements-and-iterate-over-them)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
@@ -84,7 +85,70 @@ driver.findElement(webdriver.By.xpath('//a[text()="Settings"]')).click();
 driver.findElement(webdriver.By.xpath('//a[text()="Email Updates"]')).click();
 ```
 
-### 
+### Identify the elements and iterate over them
+
+I identify all checkboxes and dropdowns and call a function (`clickingAll`) on each element.
+
+```javascript
+const list = driver.findElements(
+	webdriver.By.xpath('//li[@class="list-item"]/a')
+);
+
+list.then(function(elements) {
+	var links = elements.map(elem => {
+		return elem.getAttribute('href');
+	});
+	promise.all(links).then(linkRefs => {
+		linkRefs.forEach(element => {
+			driver.navigate().to(element);
+			clickingAll();
+		});
+	});
+});
+```
+
+The `clickingAll()` function actually clicks the elements and tests if the boxes are already unchecked (since we don't want to simply click everything, but rather uncheck all boxes).
+
+```javascript
+var clickingAll = () => {
+	driver
+		.findElements(
+			webdriver.By.xpath('//i[@class="icon-s icon-checkbox pseudocheckbox "]')
+		)
+		.then(elements => {
+			elements.map(elem => {
+				elem.getAttribute('aria-checked').then(check => {
+					if (check === 'true') {
+						elem.click();
+					}
+				});
+			});
+		});
+	driver
+		.findElement(webdriver.By.xpath('//select[@class="j-selectbox"]'))
+		.click();
+	driver
+		.findElement(webdriver.By.xpath('//option[@value="NO_RECEIVE"]'))
+		.click();
+
+	try {
+		driver
+			.findElement(webdriver.By.xpath('//option[@value="OFF]'))
+			.then(null, err => {
+				if (err) {
+					return false;
+				}
+			})
+			.click();
+	} catch (e) {
+		return false;
+	}
+	driver.navigate().back();
+};
+```
+
+
+
 
 
 ## Useful links & credits
