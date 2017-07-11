@@ -161,4 +161,7 @@ var clickingAll = () => {
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
+
+
+
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
