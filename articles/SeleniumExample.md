@@ -16,6 +16,7 @@ In my previous article I described how to use JavaScript in the browser console 
   * [📄 Table of contents](#table-of-contents)
   * [What I will do](#what-i-will-do)
   * [Automate with Selenium webdriver](#automate-with-selenium-webdriver)
+  * [Using it on clicking SPAM checkboxes on meetup.com](#using-it-on-clicking-spam-checkboxes-on-meetupcom)
     * [Setup](#setup)
     * [Going to the settings](#going-to-the-settings)
     * [Identify the elements and iterate over them](#identify-the-elements-and-iterate-over-them)
@@ -44,6 +45,14 @@ Therefore I decided to write an automated script that does all that for me.
 ## Automate with Selenium webdriver
 
 [Selenium](http://www.seleniumhq.org/) allows to use a webdriver to go through the browser and performs actions, that a human being could also do (like clicking on elements).
+
+The process of automating is simple:
+
+- identify an element with  `driver.findElement`
+- perform actions on that element with `.then` (promises in JS) or functions from the framework like `.click()`
+- after performing the tasks, be sure to `driver.quit();` to end the driver
+
+## Using it on clicking SPAM checkboxes on meetup.com
 
 ### Setup
 
