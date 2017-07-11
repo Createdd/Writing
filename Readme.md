@@ -37,6 +37,8 @@
 1. [⚛️ Fetching data in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingInReact.md)
 1. [⚛️ Rating questions in React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReduxQuestionScores.md)
 1. [⚖️ Contracts in the IT sector ](https://github.com/DDCreationStudios/Writing/blob/master/articles/ContractsInIT.md)
+1. [🌟 Reduce your time clicking elements on the web ](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReduceClicking.md)
+1. [🌐 Automate email settings with JavaScript ](https://github.com/DDCreationStudios/Writing/blob/master/articles/SeleniumExample.md)
 
 
 
