@@ -14,18 +14,78 @@ In my previous article I described how to use JavaScript in the browser console 
 
 * [Automate email settings with JavaScript](#automate-email-settings-with-javascript)
   * [📄 Table of contents](#table-of-contents)
+  * [What I will do](#what-i-will-do)
+  * [Automate with Selenium webdriver](#automate-with-selenium-webdriver)
+    * [Setup](#setup)
+    * [Going to the settings](#going-to-the-settings)
   * [Useful links & credits](#useful-links-credits)
 
 <!-- tocstop -->
-
-
 
 
 ---
 >"The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency." - Bill Gates
 ---
 
-##
+## What I will do
+
+The Meetup.com page requires me to check on/off each checkbox for an email notification of each group.
+
+<img src="../assets/SELEX/emailUpdates.png" alt="screenshot"/>
+
+I don't waste my time clicking through all my groups. Meetup.com offers an option to disable all notifications, but I want to receive updates from some selected groups.
+Another thing is that they have "Reminders", that require even more clicking with a dropdown menu. This dropdown menu can't even be handled by the console code, that I have shown in the previous article.
+
+Therefore I decided to write an automated script that does all that for me.
+
+<img src="http://g.recordit.co/wc1jG5oRLW.gif" alt="gif"/>
+
+## Automate with Selenium webdriver
+
+[Selenium](http://www.seleniumhq.org/) allows to use a webdriver to go through the browser and performs actions, that a human being could also do (like clicking on elements).
+
+### Setup
+
+In this example I am using the [Selenium webdriver](https://github.com/SeleniumHQ/selenium/tree/master/javascript/node/selenium-webdriver).
+
+The setup in Node.js is pretty easy:
+
+```javascript
+var webdriver = require('selenium-webdriver'),
+	By = webdriver.By,
+	until = webdriver.until;
+
+var driver = new webdriver.Builder().forBrowser('chrome').build();
+driver.manage().window().maximize();
+```
+
+### Going to the settings
+
+To get to the notifications section I simply go to their login page, send my credentials to log in and click all the way to the settings.
+
+```javascript
+driver.get('https://secure.meetup.com/login/');
+
+var mail = driver.findElement(webdriver.By.id('email'));
+var pass = driver.findElement(webdriver.By.id('password'));
+
+mail.sendKeys(cred.cred.user);
+pass.sendKeys(cred.cred.pass);
+
+driver.findElement(webdriver.By.name('submitButton')).click();
+driver
+	.findElement(
+		webdriver.By.className(
+			'valign--middle display--none atMedium_display--inline'
+		)
+	)
+	.click();
+driver.findElement(webdriver.By.xpath('//a[text()="Settings"]')).click();
+driver.findElement(webdriver.By.xpath('//a[text()="Email Updates"]')).click();
+```
+
+### 
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
