@@ -16,7 +16,9 @@ As with everything in life only practice makes you good in a certain field. Ther
 
 - [Fetching Gtihub with React and Redux](#fetching-gtihub-with-react-and-redux)
   - [📄 Table of contents](#📄-table-of-contents)
-- [](#)
+  - [What I am going to build](#what-i-am-going-to-build)
+  - [The building process](#the-building-process)
+    - [The Redux process](#the-redux-process)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -26,7 +28,32 @@ As with everything in life only practice makes you good in a certain field. Ther
 > “Think Big And Don’t Listen To People Who Tell You It Can’t Be Done. Life’s Too Short To Think Small.” - Tim Ferriss
 ---
 
-##
+## What I am going to build
+
+I am going to build a simple app, that fetches repositories from Github by typing the name of the Github user:
+
+<img src="https://camo.githubusercontent.com/c0b94d5f36a091f0c2e915cec5441045c5aca8ec/687474703a2f2f672e7265636f726469742e636f2f586c6b36696a4a7769432e676966" alt="gif">
+
+## The building process
+
+To quickstart the the configuration I used the [React Slingshot boilerplate](https://github.com/coryhouse/react-slingshot) by Cory House. It provides nice linting and feedback during the whole building process. 
+
+First I started out with defining basic React Components. I used the provided structure and adapted it for a home page and an about page.
+For jumping across routes I also used the provided React Router features because it's simple and fast.
+
+The next step was adding some basic styling. I wanted to use Material-UI but quickly realized that I have to dive into the framework. After some minutes with bugs, I decided to stay with [MaterializeCSS](http://materializecss.com/getting-started.html), which I used in the past. It provides great documentation and simple CSS components. It's the CSS framework I enjoy working with the most. 
+
+### The Redux process
+
+After that I wired up a basic Redux flow, providing a store, actions and a reducer. One way when working [async in Redux](http://redux.js.org/docs/advanced/) is to use [redux-thunk](https://github.com/gaearon/redux-thunk). I have choosen this way because it's fast and reliable. (I didn't want to tackle Redux-Saga, since I need more knowledge on Promises)
+
+From redux-thunk's docs: 
+>Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
+
+That's the whole magic. Returning a function instead an action. It allows to wait for an answer after a http call (or whatever call) and dispatching the action after receiving the data.
+
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
