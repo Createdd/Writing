@@ -12,17 +12,11 @@ As with everything in life only practice makes you good in a certain field. Ther
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [Fetching Gtihub with React and Redux](#fetching-gtihub-with-react-and-redux)
-  - [📄 Table of contents](#📄-table-of-contents)
-  - [What I am going to build](#what-i-am-going-to-build)
-  - [The building process](#the-building-process)
-  - [The Redux process](#the-redux-process)
-  - [Building the search feature with Redux](#building-the-search-feature-with-redux)
-  - [Result](#result)
-
-<!-- /TOC -->
+- [What I am going to build](#what-i-am-going-to-build)
+- [The building process](#the-building-process)
+- [The Redux process](#the-redux-process)
+- [Building the search feature with Redux](#building-the-search-feature-with-redux)
+- [Result](#result)
 
 
 ---
