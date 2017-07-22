@@ -4,39 +4,31 @@
 https://unsplash.com/photos/6IxGFVz0wPM)
 https://unsplash.com/photos/6IxGFVz0wPM Photo by Osman Rana on Unsplash
 
+As with everything in life only practice makes you good in a certain field. Therefore I decided to create another application using React and Redux. This time I wanted to focus on asynchronous action flow with Redux, which is a little different from the synchronous dispatching process.
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
+
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fetchingReactRedux)
 
 
 ## 📄 Table of contents
 
+<!-- TOC -->
 
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+- [Fetching Gtihub with React and Redux](#fetching-gtihub-with-react-and-redux)
+  - [📄 Table of contents](#📄-table-of-contents)
+- [](#)
+  - [Useful links & credits](#useful-links--credits)
 
-* [asdasfas](#asdasfas)
-  * [📄 Table of contents](#table-of-contents)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
-
+<!-- /TOC -->
 
 
 ---
->"dsasfasfasf"  - Bezos
+> “Think Big And Don’t Listen To People Who Tell You It Can’t Be Done. Life’s Too Short To Think Small.” - Tim Ferriss
 ---
 
 ##
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 - [📄 "Begin"](afgafgadgads)
 
