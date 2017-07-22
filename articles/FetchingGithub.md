@@ -18,7 +18,8 @@ As with everything in life only practice makes you good in a certain field. Ther
   - [📄 Table of contents](#📄-table-of-contents)
   - [What I am going to build](#what-i-am-going-to-build)
   - [The building process](#the-building-process)
-    - [The Redux process](#the-redux-process)
+  - [The Redux process](#the-redux-process)
+  - [Building the search feature with Redux](#building-the-search-feature-with-redux)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -43,7 +44,9 @@ For jumping across routes I also used the provided React Router features because
 
 The next step was adding some basic styling. I wanted to use Material-UI but quickly realized that I have to dive into the framework. After some minutes with bugs, I decided to stay with [MaterializeCSS](http://materializecss.com/getting-started.html), which I used in the past. It provides great documentation and simple CSS components. It's the CSS framework I enjoy working with the most. 
 
-### The Redux process
+
+
+## The Redux process
 
 After that I wired up a basic Redux flow, providing a store, actions and a reducer. One way when working [async in Redux](http://redux.js.org/docs/advanced/) is to use [redux-thunk](https://github.com/gaearon/redux-thunk). I have choosen this way because it's fast and reliable. (I didn't want to tackle Redux-Saga, since I need more knowledge on Promises)
 
@@ -121,13 +124,155 @@ export default function reposReducer(state = [], action) {
 }
 ```
 
+>On a side note: I used [axios](https://www.npmjs.com/package/axios) because I initially thought I would create a bigger app. A simple "fetch" method would have been sufficient as well. :)
 
 
+## Building the search feature with Redux
+
+This was a little bit more complicated, since I needed to make the fetch depended on another user action. But that's why Redux is so great.
+
+The key thing was to regulate the flow with the store in the index.js, because I wanted to subscribe to the store and only dispatch an action when a certain change in state has occured. I found the "handleChange" helper function as solution:
 
 
 ```javascript
+//index.js
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import 'materialize-css/dist/css/materialize.min.css';
+import { Provider } from 'react-redux';
+
+import routes from './routes';
+import configureStore from './store/configureStore';
+import { loadRepos } from './actions/reposAction';
+
+let currentValue;
+function handleChange() {
+	let previousValue = currentValue;
+	currentValue = store.getState().user;
+
+	if (previousValue !== currentValue) {
+		store.dispatch(loadRepos(store.getState().user));
+	}
+}
+
+const store = configureStore();
+store.dispatch(loadRepos(store.getState().user));
+store.subscribe(handleChange);
+
+render(
+	<Provider store={store}>
+		<Router history={browserHistory} routes={routes} />
+	</Provider>,
+	document.getElementById('app')
+);
+```
+
+Now the fetching of data was called only when the state of user changed in the store. Heureka! 
+
+Then I adapted the other files accordingly:
 
 
+```javascript
+//reducer index.js
+
+import { combineReducers } from 'redux';
+
+import repos from './reposReducer';
+import user from './userReducer';
+
+const rootReducer = combineReducers({
+	repos,
+	user
+});
+
+export default rootReducer;
+```
+
+```javascript
+//initialState.js
+export default {
+	repos: [],
+	user: 'DDCreationStudios'
+};
+```
+
+```javascript
+//updated repo reducer
+import * as types from '../actions/actionTypes';
+import initialState from './initialState';
+
+export default function reposReducer(state = initialState.repos, action) {
+	switch (action.type) {
+		case types.LOAD_REPOS_SUCCESS: {
+			return action.repos;
+		}
+		default:
+			return state;
+	}
+
+```
+
+```javascript
+//user reducer
+import * as types from '../actions/actionTypes';
+import initialState from './initialState';
+
+export default function userReducer(state = initialState.user, action) {
+	switch (action.type) {
+		case types.LOAD_USER_SUCCESS: {
+			return action.user;
+		}
+		default:
+			return state;
+	}
+}
+```
+
+```javascript
+//user action
+import axios from 'axios';
+import * as types from './actionTypes';
+
+export function loadUser(user) {
+	return {
+		type: types.LOAD_USER_SUCCESS,
+		user
+	};
+}
+```
+
+```javascript
+//updated repo action
+import axios from 'axios';
+import * as types from './actionTypes';
+
+export function loadReposSuccess(repos) {
+	return {
+		type: types.LOAD_REPOS_SUCCESS,
+		repos
+	};
+}
+
+export function loadRepos(user) {
+	return function(dispatch) {
+		return axios
+			.get(`https://api.github.com/users/${user}/repos`)
+			.then(repos => {
+				dispatch(loadReposSuccess(repos.data));
+				console.log("receiving following data: "+repos.data);
+			})
+			.catch(err => {
+				throw err;
+			});
+	};
+}
+```
+
+```javascript
+//actionTypes
+export const LOAD_REPOS_SUCCESS = 'LOAD_REPOS_SUCCESS';
+export const LOAD_USER_SUCCESS = 'LOAD_USER_SUCCESS';
 ```
 
 
