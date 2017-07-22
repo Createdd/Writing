@@ -42,12 +42,11 @@
 1. [⚛️ Fetching Github Repos with React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingGithub.md)
 
 
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="gif">
 
 ### ✅ ToDo
 - [ ] develop a reading extension that highlights most important phrases and words
 
-![writing](http://i.makeagif.com/media/1-28-2017/Z7fziN.gif)
 
-<!-- <img src="https://images.unsplash.com/photo-1428940253195-53483a1de2e6?dpr=2&auto=format&fit=crop&w=767&h=528&q=80&cs=tinysrgb&crop="> -->
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
