@@ -52,6 +52,84 @@ From redux-thunk's docs:
 
 That's the whole magic. Returning a function instead an action. It allows to wait for an answer after a http call (or whatever call) and dispatching the action after receiving the data.
 
+The code looked like: 
+
+```javascript
+//Action
+import axios from 'axios';
+import * as types from './actionTypes';
+
+export function loadReposSuccess(repos) {
+	return {
+		type: types.LOAD_REPOS_SUCCESS,
+		repos
+	};
+}
+
+export function loadRepos() {
+	return function(dispatch) {
+		return axios
+			.get('https://api.github.com/users/DDCreationStudios/repos')
+			.then(repos => {
+				dispatch(loadReposSuccess(repos.data));
+				console.warn(repos.data);
+			})
+			.catch(err => {
+				throw err;
+			});
+	};
+}
+
+```
+
+```javascript
+//index.js
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import 'materialize-css/dist/css/materialize.min.css';
+import { Provider } from 'react-redux';
+
+import routes from './routes';
+import configureStore from './store/configureStore';
+import { loadRepos } from './actions/reposAction';
+
+const store = configureStore();
+store.dispatch(loadRepos());
+
+render(
+	<Provider store={store}>
+		<Router history={browserHistory} routes={routes} />
+	</Provider>,
+	document.getElementById('app')
+);
+
+```
+
+```javascript
+//reducer
+import * as types from '../actions/actionTypes';
+
+export default function reposReducer(state = [], action) {
+	switch (action.type) {
+		case types.LOAD_REPOS_SUCCESS: {
+			return action.repos;
+		}
+		default:
+			return state;
+	}
+}
+```
+
+
+
+
+
+```javascript
+
+
+```
+
 
 
 
