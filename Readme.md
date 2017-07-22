@@ -44,8 +44,14 @@
 
 ![gif](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
+[![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com)
+
+[![forthebadge](http://forthebadge.com/images/badges/powered-by-water.svg)](http://forthebadge.com)
+
+
 ### ✅ ToDo
 - [ ] develop a reading extension that highlights most important phrases and words
+
 
 
 
