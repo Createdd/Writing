@@ -21,7 +21,6 @@ As with everything in life only practice makes you good in a certain field. Ther
   - [The Redux process](#the-redux-process)
   - [Building the search feature with Redux](#building-the-search-feature-with-redux)
   - [Result](#result)
-  - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
@@ -362,16 +361,7 @@ Check out my [Github Repo](https://github.com/DDCreationStudios/fetchingReactRed
 
 Also see a timelapse of the whole project on Youtube. According to [WakaTime](https://wakatime.com/i/cfaa854f-8e87-484b-9023-b8ba1d660e85) I spent 13 hours on the codebase and the whole recording was over 1 hour long. :) 
 
-
-
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-
+[<img src="../assets/SELEX/screenshotYoutube.png" alt="screenshot" />](https://youtu.be/-fPcsgR6uHk)
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
