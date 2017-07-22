@@ -1,5 +1,5 @@
 ## 📝 Author
-[<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/854371/profile/profile-80_2.jpg" align="right">](http://ddcreationstudios.at/)
+[<img src="https://avatars1.githubusercontent.com/u/22077628?v=4&s=460" align="right" height="100">](http://createdd.com)
 
 ##### Daniel Deutsch <kbd>[Github](https://github.com/DDCreationStudios) / [FreeCodeCamp](https://www.freecodecamp.com/ddcreationstudios) / [CodePen](http://codepen.io/ddcreationstudios/) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [Medium](https://medium.com/@ddcreationstudi) / [Hashnode](https://hashnode.com/@DDCreationStudio) / [Site](http://ddcreationstudios.at/) /  [E-Mail](mailto:deudan1010@gmail.com)</kbd>
 
@@ -42,7 +42,7 @@
 1. [⚛️ Fetching Github Repos with React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingGithub.md)
 
 
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="gif">
+![gif](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
 ### ✅ ToDo
 - [ ] develop a reading extension that highlights most important phrases and words
