@@ -14,8 +14,7 @@ A short introduction to licensing in open source. There are already many documen
   - [📄 Table of contents](#📄-table-of-contents)
   - [Before contributing](#before-contributing)
   - [Overview](#overview)
-    - [](#)
-  - [Conclusion](#conclusion)
+  - [Github's part in the equation](#githubs-part-in-the-equation)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -53,34 +52,49 @@ The home route instantly presents the most important licenses for the average de
 - Apache license 2.0 (you have to mark changes from the original and patents from the previous author are protected)
 - GNU GPLv3 license (you are forced to use the same license and previous authors have more detailled patent/copyright protection)
 
-<img src="../ASSETS/LICENSE/choosealicense.png" alt="screenshot">
+Moving further on the page, they also provide a very good and precise overview over other licenses:
+
+<img src="http://g.recordit.co/uXcCl0d4k4.gif" alt="gif">
+
+The simplicity and structure makes it the perfect page for a first overview. 
+
+However, there is a reason why licenses are formulated the way they are. Wording is key and very complex in legal aspects. So always make sure to really understand each of them in depth when using. Most of the pages provide links to the original terms. Use it ;)
+
+>Note: "Open source licenses are licenses that comply with the Open Source Definition — in brief, they allow software to be freely used, modified, and shared. To be approved by the Open Source Initiative (also known as the OSI), a license must go through the Open Source Initiative's license review process."
+
+## Github's part in the equation
+
+Github provides a [great page](https://help.github.com/articles/licensing-a-repository/) reagarding licensing. 
+
+First of all: 
+>"Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software."
+
+In my experience people seem not to be aware of the following. And I am here quoting their [page](https://help.github.com/articles/licensing-a-repository/):
+
+>You're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license.
+
+>If you publish your source code in a public repository on GitHub, according to the Terms of Service, other GitHub users have the right to view and fork your repository within the GitHub site. If you have already created a public repository and no longer want users to have access to it, you can make your repository private. When you convert a public repository to a private repository, existing forks or local copies created by other users will still exist. For more information, see "Making a public repository private."
+
+Ans also check the [Github terms of service](https://help.github.com/articles/github-terms-of-service/), which include:
+
+>4. License Grant to Us ... That means you're giving us the right to do things like reproduce your content (so we can do things like copy it to our database and make backups); display it (so we can do things like show it to you and other users); modify it (so our server can do things like parse it into a search index); distribute it (so we can do things like share it with other users); and perform it (in case your content is something like music or video).
+
+So what does that all mean?
+Simple: Again, know where you want to go with your project. Most copyright laws (depending on your country) see tight connections to publishing content. In many cases you lose a significant amount of rights after your intagible assets are made public. 
+
+> Only publish code you are 100% sure you want it to be "open source"
+
 
 <img src="../ASSETS/LICENSE/choosealicense.png" alt="screenshot">
 
 
 
+If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
-
-####
-
-
-<img src="https://images.unsplash.com/photo-1458819757519-7581bade511d?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=" alt="apps" height="200"/>
-https://unsplash.com/photos/w17rvzEglgY
-
-## Conclusion
-
-
-
-```
-Please leave comments, feedback and suggestions as I am always trying to improve.
-Share your thoughts - it's never been easier 😄
-```
 
 ## Useful links & credits
 - [🌐 "Open Source Guide" - Github](https://opensource.guide/legal/)
 - [📄 "Licensing a repository" - Github (article)](https://help.github.com/articles/licensing-a-repository/)
 - [🌐 Open Source Initiative](https://opensource.org/licenses)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
