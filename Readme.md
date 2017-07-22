@@ -42,7 +42,7 @@
 1. [⚛️ Fetching Github Repos with React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingGithub.md)
 
 
-![gif](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
 
 [![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com)
 
