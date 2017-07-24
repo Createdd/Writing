@@ -45,7 +45,7 @@ https://choosealicense.com/
 
 This was the first site for the breaks down the complexity of licensing in easy understandable terms and provides an amazing overview.
 
-<img src="../ASSETS/LICENSE/choosealicense.png" alt="screenshot"/>
+<img src="../assets/LICENSE/choosealicense.png" alt="screenshot"/>
 
 The home route instantly presents the most important licenses for the average developer. Those are the 
 
@@ -97,7 +97,7 @@ Simple: Again, know where you want to go with your project. Most copyright laws 
 > Only publish code you are 100% sure you want it to be "open source"
 
 
-<img src="../ASSETS/LICENSE/choosealicense.png" alt="screenshot"/>
+<img src="../assets/LICENSE/choosealicense.png" alt="screenshot"/>
 
 
 
