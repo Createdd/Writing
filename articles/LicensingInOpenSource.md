@@ -3,7 +3,8 @@
 [<img src="https://images.unsplash.com/photo-1467664631004-58beab1ece0d?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/TTPMpLl_2lcA) https://unsplash.com/photos/TTPMpLl_2lc
 
 
-A short introduction to licensing in open source. There are already many documents about licensing, however most of them are going to deep into the topic and confuse the reader. That's why I write a simplistic introduction with additional thoughts on more complex fields.
+A short introduction to licensing in open source. There are already many documents about licensing, however most of them are going to deep into the topic and confuse the reader. 
+Please note, that this is not a comparison of the advantages and disantvantages of open source code, but merely a short overview on it's legal aspect.
 
 
 ## 📄 Table of contents
@@ -16,7 +17,7 @@ A short introduction to licensing in open source. There are already many documen
   - [Overview](#overview)
   - [Github's part in the equation](#githubs-part-in-the-equation)
     - [Open repositories and the (missing) license](#open-repositories-and-the-missing-license)
-    - [Changes regarding licenses](#changes-regarding-licenses)
+    - [License changes](#license-changes)
   - [Conclusion](#conclusion)
   - [Useful links & credits](#useful-links--credits)
 
@@ -90,7 +91,7 @@ And also check the [Github terms of service](https://help.github.com/articles/gi
 
 >4. License Grant to Us ... That means you're giving us the right to do things like reproduce your content (so we can do things like copy it to our database and make backups); display it (so we can do things like show it to you and other users); modify it (so our server can do things like parse it into a search index); distribute it (so we can do things like share it with other users); and perform it (in case your content is something like music or video).
 
-### Changes regarding licenses
+### License changes
 
 Any change in licenses leads to 
 - the requirement to rise awareness in the developer team and their working behaviour,
