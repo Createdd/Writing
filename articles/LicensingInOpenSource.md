@@ -1,6 +1,6 @@
-# Intro to licensing open source projects
+# Introduction to licensing open source projects on Github
 
-[<img src="https://images.unsplash.com/photo-1467664631004-58beab1ece0d?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/TTPMpLl_2lcA) https://unsplash.com/photos/TTPMpLl_2lc
+[<img src="https://images.unsplash.com/photo-1467664631004-58beab1ece0d?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=">](https://unsplash.com/photos/TTPMpLl_2lcA) https://unsplash.com/photos/TTPMpLl_2lc Photo by Andrew Neel on Unsplash
 
 
 A short introduction to licensing in open source. There are already many documents about licensing, however most of them are going to deep into the topic and confuse the reader. 
