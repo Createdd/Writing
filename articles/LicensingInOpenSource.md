@@ -15,6 +15,7 @@ A short introduction to licensing in open source. There are already many documen
   - [Before contributing](#before-contributing)
   - [Overview](#overview)
   - [Github's part in the equation](#githubs-part-in-the-equation)
+  - [Conclusion](#conclusion)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -64,7 +65,9 @@ However, there is a reason why licenses are formulated the way they are. Wording
 
 ## Github's part in the equation
 
-Github provides a [great page](https://help.github.com/articles/licensing-a-repository/) reagarding licensing. 
+Github does a lot to provide as much help as possible for developers to understand the legal aspects of open source.
+
+They provide a [help page reagarding licensing your repository](https://help.github.com/articles/licensing-a-repository/) and even a [complete open source legal guide](https://opensource.guide/legal/). 
 
 First of all: 
 >"Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software."
@@ -73,11 +76,20 @@ In my experience people seem not to be aware of the following. And I am here quo
 
 >You're under no obligation to choose a license. However, without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. If you're creating an open source project, we strongly encourage you to include an open source license.
 
+and
+
+>If you want others to use, copy, modify, or contribute back to your project, you need to include an open source license. For example, someone cannot legally use any part of your GitHub project in their code, even if it’s public, unless you explicitly give them the right to do so.
+
 >If you publish your source code in a public repository on GitHub, according to the Terms of Service, other GitHub users have the right to view and fork your repository within the GitHub site. If you have already created a public repository and no longer want users to have access to it, you can make your repository private. When you convert a public repository to a private repository, existing forks or local copies created by other users will still exist. For more information, see "Making a public repository private."
 
-Ans also check the [Github terms of service](https://help.github.com/articles/github-terms-of-service/), which include:
+And also check the [Github terms of service](https://help.github.com/articles/github-terms-of-service/), which include:
 
 >4. License Grant to Us ... That means you're giving us the right to do things like reproduce your content (so we can do things like copy it to our database and make backups); display it (so we can do things like show it to you and other users); modify it (so our server can do things like parse it into a search index); distribute it (so we can do things like share it with other users); and perform it (in case your content is something like music or video).
+
+
+
+
+## Conclusion
 
 So what does that all mean?
 Simple: Again, know where you want to go with your project. Most copyright laws (depending on your country) see tight connections to publishing content. In many cases you lose a significant amount of rights after your intagible assets are made public. 
