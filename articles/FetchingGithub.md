@@ -355,7 +355,7 @@ Check out my [Github Repo](https://github.com/DDCreationStudios/fetchingReactRed
 
 Also see a timelapse of the whole project on Youtube. According to [WakaTime](https://wakatime.com/i/cfaa854f-8e87-484b-9023-b8ba1d660e85) I spent 13 hours on the codebase and the whole recording was over 1 hour long. :) 
 
-[<img src="../assets/SELEX/screenshotYoutube.png" alt="screenshot" />](https://youtu.be/-fPcsgR6uHk)
+[<img src="../assets/FETCHRR/youtube.png" alt="screenshot" />](https://www.youtube.com/watch?v=3U5mD-iXH1U)
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
