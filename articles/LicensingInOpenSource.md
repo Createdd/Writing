@@ -15,6 +15,8 @@ A short introduction to licensing in open source. There are already many documen
   - [Before contributing](#before-contributing)
   - [Overview](#overview)
   - [Github's part in the equation](#githubs-part-in-the-equation)
+    - [Open repositories and the (missing) license](#open-repositories-and-the-missing-license)
+    - [Changes regarding licenses](#changes-regarding-licenses)
   - [Conclusion](#conclusion)
   - [Useful links & credits](#useful-links--credits)
 
@@ -67,7 +69,9 @@ However, there is a reason why licenses are formulated the way they are. Wording
 
 Github does a lot to provide as much help as possible for developers to understand the legal aspects of open source.
 
-They provide a [help page reagarding licensing your repository](https://help.github.com/articles/licensing-a-repository/) and even a [complete open source legal guide](https://opensource.guide/legal/). 
+They provide a [help page reagarding licensing your repository](https://help.github.com/articles/licensing-a-repository/) and even a [complete open source legal guide](https://opensource.guide/legal/).
+
+### Open repositories and the (missing) license
 
 First of all: 
 >"Public repositories on GitHub are often used to share open source software. For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software."
@@ -86,20 +90,22 @@ And also check the [Github terms of service](https://help.github.com/articles/gi
 
 >4. License Grant to Us ... That means you're giving us the right to do things like reproduce your content (so we can do things like copy it to our database and make backups); display it (so we can do things like show it to you and other users); modify it (so our server can do things like parse it into a search index); distribute it (so we can do things like share it with other users); and perform it (in case your content is something like music or video).
 
+### Changes regarding licenses
 
+Any change in licenses leads to 
+- the requirement to rise awareness in the developer team and their working behaviour,
+- increasing the complexity of the existing license structure, and
+- consulting previous license holders and checking their scopes. 
+
+In short: It demands much mure legal work. 
 
 
 ## Conclusion
 
 So what does that all mean?
-Simple: Again, know where you want to go with your project. Most copyright laws (depending on your country) see tight connections to publishing content. In many cases you lose a significant amount of rights after your intagible assets are made public. 
+Simple: Know where you want to go with your project. Most copyright laws (depending on your country) see tight connections to publishing content. In many cases you lose a significant amount of rights after your intagible assets are made public. 
 
-> Only publish code you are 100% sure you want it to be "open source"
-
-
-<img src="../assets/LICENSE/choosealicense.png" alt="screenshot"/>
-
-
+> Only publish code you are 100% sure you want it to be "open source" and be sure to do research (on law) if your project is getting bigger.
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
