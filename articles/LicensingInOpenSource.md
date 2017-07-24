@@ -9,19 +9,14 @@ Please note, that this is not a comparison of the advantages and disantvantages 
 
 ## 📄 Table of contents
 
-<!-- TOC -->
+- [Before contributing](#before-contributing)
+- [Overview](#overview)
+- [Github's part in the equation](#githubs-part-in-the-equation)
+  - [Open repositories and the (missing) license](#open-repositories-and-the-missing-license)
+  - [License changes](#license-changes)
+- [Conclusion](#conclusion)
+- [Useful links & credits](#useful-links--credits)
 
-- [Intro to licensing open source projects](#intro-to-licensing-open-source-projects)
-  - [📄 Table of contents](#📄-table-of-contents)
-  - [Before contributing](#before-contributing)
-  - [Overview](#overview)
-  - [Github's part in the equation](#githubs-part-in-the-equation)
-    - [Open repositories and the (missing) license](#open-repositories-and-the-missing-license)
-    - [License changes](#license-changes)
-  - [Conclusion](#conclusion)
-  - [Useful links & credits](#useful-links--credits)
-
-<!-- /TOC -->
 
 ---
 
