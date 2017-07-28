@@ -1,4 +1,4 @@
-# Fetching Gtihub with React and Redux
+# Fetching Github with React and Redux
 
 [<img src="https://images.unsplash.com/photo-1495420047114-9f6ef7fc0cbc?dpr=2&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/6IxGFVz0wPM)
