@@ -38,6 +38,10 @@ Being entitled to somehting and owning something only can lead to loss. There is
 
 You change your mentality. You're up there. You only can look downwards. You lost the drive that was needed to get you up there. 
 
+You also stopped to respect the competition to that goal, since you already own it. You stop giving credit for trying and failing. You levitate yourself in a state of superior presence.
+
+---
+
 We expect that something will happen. Our limited mind with all is biases tricks us into thinking that action A lead to result B. This misevaluation causes failure and we don't see it. 
 
 Only after the fall we start to realize what went wrong but then it's too late for this round and you start to questioning yourself. 
@@ -54,6 +58,8 @@ Our mind is like the rider on a horse. Every change in our mind changes the dire
 There are thoughts, that can derail you from your goal and thoughts that can help you towards your goal.
 
 A goal is pure. Once the goal is reached, maintaining the state is a new goal. You can't expect. All you can do is put in the work.  
+
+Failing is part of the process. Learn from it and cultivate motivation. You're back in the race. 
 
 
 
