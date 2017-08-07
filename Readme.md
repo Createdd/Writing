@@ -41,6 +41,7 @@
 1. [🌟 Reduce your time clicking elements on the web ](https://github.com/DDCreationStudios/Writing/blob/master/articles/ReduceClicking.md)
 1. [🌐 Automate email settings with JavaScript ](https://github.com/DDCreationStudios/Writing/blob/master/articles/SeleniumExample.md)
 1. [⚛️ Fetching Github Repos with React and Redux](https://github.com/DDCreationStudios/Writing/blob/master/articles/FetchingGithub.md)
+1. [🌟 Expectations](https://github.com/DDCreationStudios/Writing/blob/master/articles/Expectations.md)
 
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
