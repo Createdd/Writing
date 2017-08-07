@@ -20,7 +20,7 @@ Most of us work towards a goal we set ourselves. Accomplishing the goal sets exp
 We compare the previous journey to the one that's ahead. 
 We give our actions a new frame. We already know what it's like to be on top. We develop a sense of ownership to that goal.
 
-We start to think and act differently. We "know" what had lead to previous success. We start to redefine our approach to the problems in that field, without giving it all. 
+We start to think and act differently. We "know" what had lead to previous success. We start to redefine our approach to the problems without giving it all. 
 
 And that's where we start losing. The moment we think we are entiteld to something, we stop going all in. 
 
@@ -28,7 +28,7 @@ Being entitled to somehting and owning something only can lead to loss. There is
 
 You change your mentality. You're up there. You only can look downwards. You lost the drive that was needed to get you up there. 
 
-You also stopped to respect the competition to that goal, since you already own it. You stop giving credit for trying and failing. You levitate yourself in a state of superior presence.
+You also stop to respect the competition, since you already own it. You stop giving credit for trying and failing. You levitate yourself in a state of superior presence.
 
 ---
 
@@ -55,7 +55,7 @@ Learn from your setback.
 
 Learn from your shortcomings.
 
-Star with an earthquake.
+Start with an earthquake.
 
 Focus on the "is" rather than the "should".
 
@@ -67,6 +67,11 @@ Focus on the "is" rather than the "should".
 ---
 
 Thanks for reading my article! Feel free to leave any feedback! 
+
+[<img src="https://images.unsplash.com/photo-1478001517127-fccc92f54906?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=">](
+https://unsplash.com/photos/xEh4hvxRKXM)
+
+Photo by Joshua Earle on Unsplash
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
