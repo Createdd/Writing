@@ -14,6 +14,7 @@ I thought I share some thoughts on that topic.
 - [Are expectations killing your success?](#are-expectations-killing-your-success)
   - [📄 Table of contents](#📄-table-of-contents)
   - [Expectations](#expectations)
+  - [](#)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -26,7 +27,7 @@ I thought I share some thoughts on that topic.
 
 It doesn't matter in what field you excel. Whether it's sport or programming or any endeavour in life. Often we encounter success followed by failure. How can we overcome the temporary discomfort and keep our eyes on the goal?
 
-Most of us work towards a goal we set ourselves. Accomplishing the goal sets expectations for our next achievement. And that's we have to be careful. 
+Most of us work towards a goal we set ourselves. Accomplishing the goal sets expectations for our next achievement. And that's where we have to be careful. 
 
 We compare the previous journey to the one that's ahead. 
 We give our actions a new frame. We already know what it's like to be on top. We develop a sense of ownership to that goal.
@@ -45,8 +46,14 @@ You already have been one of the best.
 It's in you. Now it's again on you to take it back. 
 
 
+## 
 
 
+Where do expectations happen? They happen in our own head. In our mind. 
+
+Our mind is like the rider on a horse. Every change in our mind changes the direction of that horse.
+
+There are thoughts, which can derail you from that goal and thoughts that can help you towards that goal. 
 
 
 
