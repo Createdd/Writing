@@ -14,8 +14,6 @@ I thought I share some thoughts on that topic.
 - [Are expectations killing your success?](#are-expectations-killing-your-success)
   - [📄 Table of contents](#📄-table-of-contents)
   - [Expectations](#expectations)
-  - [](#)
-  - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
@@ -36,6 +34,10 @@ We start to think and act differently. We "know" what had lead to previous succe
 
 And that's where we start losing. The moment we think we are entiteld to something, we stop going all in. 
 
+Being entitled to somehting and owning something only can lead to loss. There is nothing more to win, since you already have it.
+
+You change your mentality. You're up there. You only can look downwards. You lost the drive that was needed to get you up there. 
+
 We expect that something will happen. Our limited mind with all is biases tricks us into thinking that action A lead to result B. This misevaluation causes failure and we don't see it. 
 
 Only after the fall we start to realize what went wrong but then it's too late for this round and you start to questioning yourself. 
@@ -43,26 +45,13 @@ Only after the fall we start to realize what went wrong but then it's too late f
 That's the moment when you have to refocus. Reevaluate. Resharp. And start all over. 
 
 You already have been one of the best. 
-It's in you. Now it's again on you to take it back. 
-
-
-## 
-
+It's in you. Now it's again on you to take it back. But your future is only as bright as you can see it.
 
 Where do expectations happen? They happen in our own head. In our mind. 
 
 Our mind is like the rider on a horse. Every change in our mind changes the direction of that horse.
 
-There are thoughts, which can derail you from that goal and thoughts that can help you towards that goal. 
-
-
-
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+There are thoughts, that can derail you from your goal and thoughts that can help you towards your goal. 
 
 
 
