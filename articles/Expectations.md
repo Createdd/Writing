@@ -7,16 +7,6 @@ Recently I heard a story about a guy. He was one of the best in his sport. Last 
 I thought I share some thoughts on that topic.
 
 
-## 📄 Table of contents
-
-<!-- TOC -->
-
-- [Are expectations killing your success?](#are-expectations-killing-your-success)
-  - [📄 Table of contents](#📄-table-of-contents)
-  - [Expectations](#expectations)
-
-<!-- /TOC -->
-
 ---
 >"We can each define ambition and progress for ourselves. The goal is to work toward a world where expectations are not set by the stereotypes that hold us back, but by our personal passion, talents and interests." - Sheryl Sandberg
 ---
@@ -61,7 +51,20 @@ A goal is pure. Once the goal is reached, maintaining the state is a new goal. Y
 
 Failing is part of the process. Learn from it and cultivate motivation. You're back in the race. 
 
+Learn from your setback. 
 
+Learn from your shortcomings.
+
+Star with an earthquake.
+
+Focus on the "is" rather than the "should".
+
+---
+
+>"In life, it’s not the genetic guy who wins or the guy with the most potential who wins; it’s the person with the greatest perseverance who wins. Always be willing to get up and go at it again and again. That’s the guy who has his hands raised later in life. That’s the guy you guys need to be." – Greg Plitt
+
+
+---
 
 Thanks for reading my article! Feel free to leave any feedback! 
 
