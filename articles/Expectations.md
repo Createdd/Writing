@@ -3,7 +3,7 @@
 https://unsplash.com/photos/ISI5DlnYvuY)
 Photo by Vincent Guth on Unsplash
 
-Recently I heard a story about a guy. He was one of the best in his sport. Last year he was winning the overall championship. This year he failed to do so. The overwhelming frustrations got him thinking to quit, what he loves most. 
+Recently I heard a story about a guy. He was one of the best in his sport. Last year he won the overall championship. This year he failed to do so. The overwhelming frustrations got him thinking to quit, what he loves most. 
 I thought I share some thoughts on that topic.
 
 
@@ -13,18 +13,18 @@ I thought I share some thoughts on that topic.
 
 ## Expectations
 
-It doesn't matter in what field you excel. Whether it's sport or programming or any endeavour in life. Often we encounter success followed by failure. How can we overcome the temporary discomfort and keep our eyes on the goal?
+It doesn't matter in what field you excel. Whether it's sport or programming or any endeavor in life. Often we encounter success followed by failure. How can we overcome the temporary discomfort and keep our eyes on the goal?
 
 Most of us work towards a goal we set ourselves. Accomplishing the goal sets expectations for our next achievement. And that's where we have to be careful. 
 
 We compare the previous journey to the one that's ahead. 
 We give our actions a new frame. We already know what it's like to be on top. We develop a sense of ownership to that goal.
 
-We start to think and act differently. We "know" what had lead to previous success. We start to redefine our approach to the problems without giving it all. 
+We start to think and act differently. We "know" what had led to previous success. We start to redefine our approach to the problems without giving it all. 
 
-And that's where we start losing. The moment we think we are entiteld to something, we stop going all in. 
+And that's where we start losing. The moment we think we are entitled to something, we stop going all in. 
 
-Being entitled to somehting and owning something only can lead to loss. There is nothing more to win, since you already have it.
+Being entitled to something and owning something only can lead to loss. There is nothing more to win, since you already have it.
 
 You change your mentality. You're up there. You only can look downwards. You lost the drive that was needed to get you up there. 
 
@@ -32,7 +32,7 @@ You also stop to respect the competition, since you already own it. You stop giv
 
 ---
 
-We expect that something will happen. Our limited mind with all is biases tricks us into thinking that action A lead to result B. This misevaluation causes failure and we don't see it. 
+We expect that something will happen. Our limited mind with all is biases tricks us into thinking that action A lead to result B. This misvaluation causes failure and we don't see it. 
 
 Only after the fall we start to realize what went wrong but then it's too late for this round and you start to questioning yourself. 
 
