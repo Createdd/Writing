@@ -45,7 +45,7 @@ Where do expectations happen? They happen in our own head. In our mind.
 
 Our mind is like the rider on a horse. Every change in our mind changes the direction of that horse.
 
-There are thoughts, that can derail you from your goal and thoughts that can help you towards your goal.
+There are thoughts that can derail you from your goal and thoughts that can help you towards your goal.
 
 A goal is pure. Once the goal is reached, maintaining the state is a new goal. You can't expect. All you can do is put in the work.  
 
