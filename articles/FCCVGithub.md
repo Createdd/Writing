@@ -10,6 +10,13 @@ I am organizing a local group meetup of [FreeCodeCamp](https://www.freecodecamp.
 
 ## 📄 Table of contents
 
+  - [Name your repository](#name-your-repository)
+  - [Build your Homepage](#build-your-homepage)
+  - [Put your Code on Github](#put-your-code-on-github)
+  - [Set the source for your Github Pages](#set-the-source-for-your-github-pages)
+  - [See your amazing homepage at the provided link](#see-your-amazing-homepage-at-the-provided-link)
+  - [See the result for FreeCodeCamp Vienna](#see-the-result-for-freecodecamp-vienna)
+
 
 ---
 >"Opportunities Don’t Come Knocking On The Door. They Present Themselves When You Knock The Door Down!" – Greg Plitt
