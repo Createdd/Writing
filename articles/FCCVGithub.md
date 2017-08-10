@@ -6,6 +6,8 @@ Photo by Eugene Lim on Unsplash
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fccvienna.github.io)
 
+I am organizing a local group meetup of [FreeCodeCamp](https://www.freecodecamp.org/) called [FreeCodeCamp Vienna](https://www.meetup.com/Free-Code-Camp-Vienna/). Months ago we decided to create a simple homepage to represent the group and it's progress online, but we never seemed to find the time to do it. Following the idea "better a quick homepage than no homepage at all" I decided to create one and publish it on Github Pages. Not only does it allow us to host our static page, but also serves as a perfect example on how easy something can be published online.
+
 
 ## 📄 Table of contents
 
