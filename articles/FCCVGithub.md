@@ -16,7 +16,18 @@ I am organizing a local group meetup of [FreeCodeCamp](https://www.freecodecamp.
 >"Opportunities Don’t Come Knocking On The Door. They Present Themselves When You Knock The Door Down!" – Greg Plitt
 ---
 
-##
+## Name your repository
+
+When publishing to Github Pages choosing the right repository name is crucial. 
+
+[This page](https://help.github.com/articles/user-organization-and-project-pages/) from Github explains it perfectly:
+
+![img](../assets/FCCVGIT/overviewGithub.png)
+
+Therefore you need to name the repository exactely like the organization with ".github.io" at the end.
+
+![gif](http://g.recordit.co/NnMOakU8MX.gif)
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
