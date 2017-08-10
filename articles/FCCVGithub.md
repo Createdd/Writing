@@ -1,7 +1,6 @@
 # Publishing an organization homepage on Github Pages
-[<img src="https://images.unsplash.com/photo-1495073613335-7af8e711f273?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=">](
-https://unsplash.com/photos/cTO6DWSIdWI)
-Photo by Eugene Lim on Unsplash
+[<img src="../assets/FCCVGIT/screenshot.png">](
+https://fccvienna.github.io/)
 
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/fccvienna.github.io)
@@ -28,10 +27,44 @@ Therefore you need to name the repository exactely like the organization with ".
 
 ![gif](http://g.recordit.co/NnMOakU8MX.gif)
 
+## Build your Homepage
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+After the naming simply build your homepage using html, css and javascript. 
 
+>Tip: I was using [codepen](https://codepen.io/ddcreationstudios/pen/yogdXX) during development. It allows you to receive instant feedback from the code you are writing. 
+
+In order to speed up the layout process and add cool features I was using [Materializecss](http://materializecss.com/getting-started.html). I have used it in the past and always have been happy with the results.
+
+## Put your Code on Github
+
+Put your files on Github follwing the instructions.
+
+>Be sure to have the files on your "Master" branch
+
+![img](../assets/FCCVGIT/GithubRepo.png)
+
+And choose the source of your Github Pages for the master branch.
+
+>Organization pages need the source files in the Master branch according to Github.
+
+## Set the source for your Github Pages
+
+![gif](http://g.recordit.co/i2Zke7MvkH.gif)
+
+Settings should look like this:
+
+![img](../assets/FCCVGIT/GithubSettings.png) 
+
+## See your amazing homepage at the provided link
+
+Follow the provided link or type your organization name with ".github.io" in the URL bar. 
+
+![gif](http://g.recordit.co/ClGV6ETsgD.gif)
+
+
+## See the result for FreeCodeCamp Vienna
+
+https://fccvienna.github.io/
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
