@@ -97,7 +97,7 @@ For example "JaeaScript" would fit well to continue a successful evolution.
 
 ## Summarizing the candidates
 
-Thinking it object oriented programming we can lay out the following:
+Thinking in object oriented programming we can lay out the following:
 
 We have a candidate class with 
 
@@ -112,7 +112,7 @@ as property and
 
 as methods.
 
-## Build a group
+## Building a group
 
 We will choose a population size and evolve the candidates inside.
 The group has to experience different stages. In those stages we need to
@@ -122,6 +122,7 @@ The group has to experience different stages. In those stages we need to
 - altering the best candidates
 - altering candidates randomly
 - a completness test to check if the correct string is found
+
 
 
 
