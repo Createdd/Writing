@@ -1,4 +1,4 @@
-# asdasfas
+# Basic JavaScript AI Algorithm
 [<img src="https://images.unsplash.com/photo-1500835176302-48dbd01f6437?dpr=2&auto=format&fit=crop&w=1080&h=784&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/7FNOH-qSxMI)
 Photo by Tom Barrett on Unsplash
@@ -35,10 +35,13 @@ This is an example for understanding basic concepts. It is very basic and even c
 
 There are many possible outcomes for building the desired string. Assuming a certain length for the solution the possibilities are getting smaller. 
 
+For example:
+```
 - JavsScrip!
 - Javahztrew
 - WerdScript
 - JavaScript
+```
 
 These would all be possible candidates for a solution regarding their length, but obviously only the last one is correct. 
 
@@ -68,7 +71,7 @@ For example:
 - JavaScripd
 ```
 
-can be cut in half and combine one string with the other like:
+can be cut in half and afterwards combining one string with the other like:
 
 ```
 - SavaScripd
