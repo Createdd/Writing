@@ -33,7 +33,7 @@ This is an example for understanding basic concepts. It is very basic and even c
 
 ## The reducing possible outcome
 
-There are many possible outcomes for building the desired string. Assuming a certain length for the solution the possibilities are getting smaller. 
+There are many possible outcomes for building the desired string. Assuming a certain length for the solution, like 10 characters long, will reduce the amount of candidates. 
 
 For example:
 ```
@@ -60,7 +60,7 @@ To get to our desired goal to reproduce the string we are aiming for a cost of 0
 
 In this basic example it is safe to assume that the algorithm can be stopped after it had reached the cost of 0. Be aware that other, more complex problems might need to run a certain time and evaluate their own minimized result.
 
-## Compairing results
+## Comparing results
 
 Next we need to combine and compare the results.
 
@@ -79,6 +79,55 @@ can be cut in half and afterwards combining one string with the other like:
 ```
 
 The result now shows one correct string and one that is not.
+
+## Changing candidates
+
+In order to avoid in-breeding we need to alter the candidates after combining.
+
+For example:
+```
+- JadaScript
+- JadaScript
+```
+
+This situation will never yield improving results, since they are the candidates are exactely the same. 
+
+We need to alter at least one of them a little to evolve. 
+For example "JaeaScript" would fit well to continue a successful evolution.
+
+## Summarizing the candidates
+
+Thinking it object oriented programming we can lay out the following:
+
+We have a candidate class with 
+
+- the string
+- cost score 
+
+as property and 
+
+- combining
+- altering
+- calculating the cost score
+
+as methods.
+
+## Build a group
+
+We will choose a population size and evolve the candidates inside.
+The group has to experience different stages. In those stages we need to
+- calculate the cost score for each candidate
+- sort the candidates by the score
+- removing unfit candidates
+- altering the best candidates
+- altering candidates randomly
+- a completness test to check if the correct string is found
+
+
+
+
+
+
 
 
 ## Useful links & credits
