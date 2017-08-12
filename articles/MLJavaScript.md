@@ -55,7 +55,27 @@ Quoting the article:
 
 To get to our desired goal to reproduce the string we are aiming for a cost of 0.
 
->In this basic example it is safe to assume that the algorithm can be stopped after it reached the cost of 0. Be aware that other, more complex problems might need to run a certain time and evaluate their own minimized result.
+In this basic example it is safe to assume that the algorithm can be stopped after it had reached the cost of 0. Be aware that other, more complex problems might need to run a certain time and evaluate their own minimized result.
+
+## Compairing results
+
+Next we need to combine and compare the results.
+
+For example:
+
+```
+- SavaScript
+- JavaScripd
+```
+
+can be cut in half and combine one string with the other like:
+
+```
+- SavaScripd
+- JavaScript
+```
+
+The result now shows one correct string and one that is not.
 
 
 ## Useful links & credits
