@@ -17,7 +17,46 @@ AI and machine learning was number 1 on my list when I started to code. Now I am
 ― Herbert A. Simon, The Sciences of the Artificial
 ---
 
-##
+## Resources
+
+In this article I am simply going to build something similiar to that from [Burak Kanber's article "Machine Learning: Introduction to Genetic Algorithms"](http://burakkanber.com/blog/machine-learning-genetic-algorithms-part-1-javascript/)
+
+In his article he not only explains fundamentals very well but also uses his knowledge in a JavaScript example. 
+I was very enlighted and amazed. 
+Visit [his homepage](https://www.burakkanber.com/) for more great stuff. :) 
+
+## What we are building
+
+We are programing an algorithm in Javascript that reproduces the word "JavaScript".
+
+This is an example for understanding basic concepts. It is very basic and even contrived, since the algorithm itself contains the desired outcome (the typed word).
+
+## The reducing possible outcome
+
+There are many possible outcomes for building the desired string. Assuming a certain length for the solution the possibilities are getting smaller. 
+
+- JavsScrip!
+- Javahztrew
+- WerdScript
+- JavaScript
+
+These would all be possible candidates for a solution regarding their length, but obviously only the last one is correct. 
+
+## Cost function
+
+A [cost function](https://en.wikipedia.org/wiki/Loss_function) helps us to minimize the cost (the difference to the desired outcome). 
+
+![img](https://wikimedia.org/api/rest_v1/media/math/render/svg/cf4beff1dc104f16784ac54e594efbdaa72480b6)
+
+Quoting the article: 
+>For each character in the string, figure out the difference in ASCII representation between the candidate character and the target character, and then square it so that the "cost" is always positive.
+
+>For example, if we have a capital "A" (ASCII 65) but it's supposed to be a capital "C" (ASCII 67), then our cost for that character is 4 (67 - 65 = 2, and 2^2 = 4).
+
+To get to our desired goal to reproduce the string we are aiming for a cost of 0.
+
+>In this basic example it is safe to assume that the algorithm can be stopped after it reached the cost of 0. Be aware that other, more complex problems might need to run a certain time and evaluate their own minimized result.
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
