@@ -123,7 +123,86 @@ The group has to experience different stages. In those stages we need to
 - altering candidates randomly
 - a completness test to check if the correct string is found
 
+## Code
 
+First we set a class with a string as constructor and set a method for building a random string:
+
+```javascript
+var Candidates = function(code) {
+    if (code) this.code = code;
+    this.cost = 9999;
+};
+Candidates.prototype.code = '';
+Candidates.prototype.random = function(length) {
+    while (length--) {
+        this.code += String.fromCharCode(Math.floor(Math.random() * 255));
+    }
+};
+```
+
+Next we need to add the cost function, which finds the differences between the ASCII code and squares them.
+
+```javascript
+Candidates.prototype.calcCost = function(compareTo) {
+	var total = 0;
+	for (i = 0; i < this.code.length; i++) {
+		total +=
+			(this.code.charCodeAt(i) - compareTo.charCodeAt(i)) *
+			(this.code.charCodeAt(i) - compareTo.charCodeAt(i));
+	}
+	this.cost = total;
+};
+```
+
+After that we build the combine function, which takes a candidate as an argument, finds the middle and returns an array of two new children.
+
+```javascript
+Candidates.prototype.combine = function(cand) {
+	var pivot = Math.round(this.code.length / 2) - 1;
+
+	var child1 = this.code.substr(0, pivot) + cand.code.substr(pivot);
+	var child2 = cand.code.substr(0, pivot) + this.code.substr(pivot);
+
+	return [new Candidates(child1), new Candidates(child2)];
+};
+```
+
+Next we need to alter a chracter from the string. Therefore we pick a random position in the string and randomly increase the character by 1 or -1. Afterwards we replace the old string with the new string.
+
+
+```javascript
+Candidates.prototype.mutate = function(chance) {
+	if (Math.random() > chance) return;
+
+	var index = Math.floor(Math.random() * this.code.length);
+	var upOrDown = Math.random() <= 0.5 ? -1 : 1;
+	var newChar = String.fromCharCode(this.code.charCodeAt(index) + upOrDown);
+	var newString = '';
+	for (i = 0; i < this.code.length; i++) {
+		if (i == index) newString += newChar;
+		else newString += this.code[i];
+	}
+
+	this.code = newString;
+};
+```
+
+
+```javascript
+
+```
+
+```javascript
+
+```
+
+```javascript
+
+```
+
+```javascript
+
+```
 
 
 
