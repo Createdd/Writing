@@ -187,9 +187,19 @@ Candidates.prototype.mutate = function(chance) {
 };
 ```
 
+Next we need to build a group of candidates. The class constractor takes the target string and the size of the group as arguments and fills it with random candidates.
 
 ```javascript
-
+var Group = function(goal, size) {
+	this.members = [];
+	this.goal = goal;
+	this.generationNumber = 0;
+	while (size--) {
+		var gene = new Candidates();
+		gene.random(this.goal.length);
+		this.members.push(gene);
+	}
+};
 ```
 
 ```javascript
