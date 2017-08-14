@@ -226,7 +226,7 @@ Group.prototype.display = function() {
 };
 ```
 
-The next step is to actually create a stage or generation. Therefore we calculate the costs, sort the candidates, display 
+The next step is to actually create a stage. Therefore we calculate the costs, sort the candidates, display the result, combine the best results and mutate the result. Then repeat the cycle. We set the break with an if-statement when the string of member equals our goal.
 
 
 ```javascript
