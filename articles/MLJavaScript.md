@@ -263,7 +263,11 @@ var population = new Group('JavaScript', 25);
 population.stage();
 ```
 
-Great! It works! :) 
+## Recap
+
+As you can see I wasn't changing much in the code. Simply because I think it's straight forward and understandable. The whole algorithm gets his concept across and offers a great entry into some basics of machine learning. 
+
+In case of any questions, feel free to ask!
 
 
 
@@ -271,7 +275,7 @@ Great! It works! :)
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- [📄  "Machine Learning: Introduction to Genetic Algorithms"](http://burakkanber.com/blog/machine-learning-genetic-algorithms-part-1-javascript/)
 
 
 
