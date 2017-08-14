@@ -11,6 +11,19 @@ AI and machine learning was number 1 on my list when I started to code. Now I am
 
 ## 📄 Table of contents
 
+- [Resources](#resources)
+- [What we are building](#what-we-are-building)
+- [Reducing possible outcome](#reducing-possible-outcome)
+- [Cost function](#cost-function)
+- [Comparing results](#comparing-results)
+- [Changing candidates](#changing-candidates)
+- [Summarizing the candidates](#summarizing-the-candidates)
+- [Building a group](#building-a-group)
+- [Code](#code)
+- [Recap](#recap)
+- [See the result on Codepen](#see-the-result-on-codepen)
+- [Useful links & credits](#useful-links--credits)
+
 
 ---
 >“Human beings, viewed as behaving systems, are quite simple. The apparent complexity of our behavior over time is largely a reflection of the complexity of the environment in which we find ourselves.” 
@@ -31,7 +44,7 @@ We are programing an algorithm in Javascript that reproduces the word "JavaScrip
 
 This is an example for understanding basic concepts. It is very basic and even contrived, since the algorithm itself contains the desired outcome (the typed word).
 
-## The reducing possible outcome
+## Reducing possible outcome
 
 There are many possible outcomes for building the desired string. Assuming a certain length for the solution, like 10 characters long, will reduce the amount of candidates. 
 
