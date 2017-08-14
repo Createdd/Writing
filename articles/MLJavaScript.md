@@ -269,6 +269,8 @@ As you can see I wasn't changing much in the code. Simply because I think it's s
 
 In case of any questions, feel free to ask!
 
+## See the result on [Codepen](https://codepen.io/ddcreationstudios/pen/QMMryj)
+
 
 ## Useful links & credits
 - [📄  "Machine Learning: Introduction to Genetic Algorithms"](http://burakkanber.com/blog/machine-learning-genetic-algorithms-part-1-javascript/)
