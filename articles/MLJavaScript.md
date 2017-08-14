@@ -4,7 +4,7 @@ https://unsplash.com/photos/7FNOH-qSxMI)
 Photo by Tom Barrett on Unsplash
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/MLJavascriptString)
 
 AI and machine learning was number 1 on my list when I started to code. Now I am facing the problem that there are so many resources to dive into the topic. My goal is clear: I want to implement the basics of machine learning with JavaScript - so I did.
 
@@ -268,10 +268,6 @@ population.stage();
 As you can see I wasn't changing much in the code. Simply because I think it's straight forward and understandable. The whole algorithm gets his concept across and offers a great entry into some basics of machine learning. 
 
 In case of any questions, feel free to ask!
-
-
-
-
 
 
 ## Useful links & credits
