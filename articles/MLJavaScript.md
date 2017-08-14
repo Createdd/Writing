@@ -114,7 +114,7 @@ as methods.
 
 ## Building a group
 
-We will choose a population size and evolve the candidates inside.
+We will choose a group size and evolve the candidates inside.
 The group has to experience different stages. In those stages we need to
 - calculate the cost score for each candidate
 - sort the candidates by the score
@@ -256,11 +256,14 @@ Group.prototype.stage = function() {
 	}, 20);
 };
 ```
+Last thing we have to do is to form a new group with the desired goal of the string and the size of the group as arguments. Then call the stage function and kickstart the calculations. 
 
 ```javascript
-
+var population = new Group('JavaScript', 25);
+population.stage();
 ```
 
+Great! It works! :) 
 
 
 
