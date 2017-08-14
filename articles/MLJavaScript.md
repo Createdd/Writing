@@ -193,7 +193,7 @@ Next we need to build a group of candidates. The class constractor takes the tar
 var Group = function(goal, size) {
 	this.members = [];
 	this.goal = goal;
-	this.generationNumber = 0;
+	this.stageNumber = 0;
 	while (size--) {
 		var gene = new Candidates();
 		gene.random(this.goal.length);
@@ -201,13 +201,60 @@ var Group = function(goal, size) {
 	}
 };
 ```
+After that we need to sort the Candidates by their cost score.
 
 ```javascript
-
+Group.prototype.sort = function() {
+	this.members.sort(function(a, b) {
+		return a.cost - b.cost;
+	});
+};
 ```
 
-```javascript
+Then we need to write a simple display function to actually build some HTML on the page. Basically we want to display the stage we are in and all the current candidates of the group.
 
+```javascript
+Group.prototype.display = function() {
+	document.body.innerHTML = '';
+	document.body.innerHTML += '<h2>Stage: ' + this.stageNumber + '</h2>';
+	document.body.innerHTML += '<ul>';
+	for (var i = 0; i < this.members.length; i++) {
+		document.body.innerHTML +=
+			'<li>' + this.members[i].code + ' (' + this.members[i].cost + ')';
+	}
+	document.body.innerHTML += '</ul>';
+};
+```
+
+The next step is to actually create a stage or generation. Therefore we calculate the costs, sort the candidates, display 
+
+
+```javascript
+Group.prototype.stage = function() {
+	for (var i = 0; i < this.members.length; i++) {
+		this.members[i].calcCost(this.goal);
+	}
+
+	this.sort();
+	this.display();
+	var children = this.members[0].combine(this.members[1]);
+	this.members.splice(this.members.length - 2, 2, children[0], children[1]);
+
+	for (var i = 0; i < this.members.length; i++) {
+		this.members[i].mutate(0.5);
+		this.members[i].calcCost(this.goal);
+		if (this.members[i].code == this.goal) {
+			this.sort();
+			this.display();
+			return true;
+		}
+	}
+	this.stageNumber++;
+	var scope = this;
+	setTimeout(function() {
+		scope.stage();
+	}, 20);
+};
 ```
 
 ```javascript
