@@ -93,7 +93,18 @@ You can't do projects like this on one weekend. Make yourself aware how long the
 
 ## Developer beginner takeaways
 
+Analyzing the [app](https://github.com/DDCreationStudios/votingApp) a little bit in depth you will realize it is pretty unfinished. I myself have openend issues and see many things to improve. 
 
+![gif](
+https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
+)
+
+Now why is that?
+
+For me each project has it's own key learnings. In this it was the connection of frontend and backend and using Redux in React. To keep my eyes on the learning path I force myself to tackle the next app. Reuse the things I have learned and be able to see new problems in a different light. 
+
+Continuing this app and powering it up with more features, more functionality and tests would take a lot of time but diminish my learning results. 
+It's open source and always available. If I want to continue my work I can do it easily. 
 
 
 
