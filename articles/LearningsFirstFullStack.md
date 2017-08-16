@@ -40,15 +40,19 @@ Looking on [Github](https://github.com/DDCreationStudios/votingApp/graphs/contri
 
 ![screenshot](../assets/LEARNFIRST/gitContributors.png)
 
-So keep in mind that even the data I am showing doesn't come close to my real efforts.
+---
 
-### Now the numbers:
+So keep in mind that even the data I am showing doesn't come close to my real efforts!
+
+---
+
+### Numbers:
 
 ![screenshot](../assets/LEARNFIRST/wakaVoting.png)
 
 - I was spending around 120 hours on this app.
 - Most of it (13hours) was spent creating the routes file. Basically implementing the REST API.
-- Second place with 12 hours spent, was the NewPoll.js file. This was due to the efforts integrating a new poll in the React & Redux eco system, which lead to 3rd place.
+- Second place with 12 hours spent, was the NewPoll.js file for the frontend. This was due to the efforts integrating a new poll in the React & Redux eco system, which brings me to the 3rd place.
 - With 12 hours on the ducks for Redux. The ducks file contains most code related to Redux, ie. ActionCreators, Actions, Reducers. Immutable state and asynchronous actions cost so much time to understand and implement correctly.
 
 [See the WakaTime results yourself.](https://wakatime.com/@cfaa854f-8e87-484b-9023-b8ba1d660e85/projects/uleadaknfi?start=2016-11-01&end=2017-08-16)
@@ -60,9 +64,26 @@ Again, especially for beginners of interest, my overall time spend coding from M
 - I spend somewhere around 240 hours coding in that timeframe
 - most of it in JavaScript 
 - most of it using Visual Studio Code
-- on an average of 2 hours per week
+- on an average of 2 hours per day
 
-## Conclusions from the data
+
+### Putting it into perspective
+
+Remember that this is only a very small scope of my efforts. 
+- This is on Github. 
+- Tracked too late with WakaTime. 
+- Just spend in the editor actually coding.  
+
+Alone from the Github Repo you can see, that I have easily spend more than 200 hours for this application. Here you also have to take into account, that I was learning a lot on the way - so I actually was improving a lot and becoming much faster with the time.
+
+I was also doing other tutorials and projects, watching videos and writing articles on the side to understand concepts better.
+
+## General and motivational takeaway
+
+
+
+
+
 
 
 
