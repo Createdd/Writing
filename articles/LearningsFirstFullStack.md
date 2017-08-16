@@ -66,7 +66,6 @@ Again, especially for beginners of interest, my overall time spend coding from M
 - most of it using Visual Studio Code
 - on an average of 2 hours per day
 
-
 ### Putting it into perspective
 
 Remember that this is only a very small scope of my efforts. 
@@ -79,6 +78,24 @@ Alone from the Github Repo you can see, that I have easily spend more than 200 h
 I was also doing other tutorials and projects, watching videos and writing articles on the side to understand concepts better.
 
 ## General and motivational takeaway
+
+Maybe this sounds a lot to you, maybe it sounds not much for you. Doesn't matter. Key thing here is to see how things can be quantified in the development area. 
+
+Spending more than 250 hours coding (+ side projects and code at work) in 4 months leads to approximately 60 hours per month and to 15 hours per week. 
+
+So when you want to embark this journey and you see people spending months on projects, keep those numbers in mind. 
+
+See what it takes to progress in an area you had no idea or knowledge of. This underestimated 15 hours are equal to a part time job. So if you think that progress is slow and poor, realize what it takes. 
+
+I am no genius, but certainly not dumb. ( At least according to some tests :D)
+See that consistency is everything. 
+You can't do projects like this on one weekend. Make yourself aware how long the journey is. Realize that it is hard and remind yourself where you are going constantely.
+
+## Developer beginner takeaways
+
+
+
+
 
 
 
