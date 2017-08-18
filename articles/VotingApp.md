@@ -634,6 +634,9 @@ If you have questions feel free to ask :)
 - Live version of the result is available [here](https://ddcs-votingapp.herokuapp.com/).
 - Learnings and numbers are available [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md).
 
+![gif](
+https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
+)
 
 
 Thanks for reading my article! Feel free to leave any feedback!
