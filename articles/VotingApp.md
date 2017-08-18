@@ -479,13 +479,38 @@ For displaying the results I chose between:
 
 Quickly skimming all docs and trying a few things out I ended up choosing React-Google-Charts. Google provides many options and the React wrapper makes it easy to implement in a React application.
 
+With the React Wrapper (listed above) this step was super easy and fast. 
 
+That's basically it: 
 
-
-
-
-
-
+```javascript
+const resultChart = (props) => {
+  basic = [['Answer', 'Votes']];
+  (() => props.poll.answers.map(ans => basic.push([ans.answer, ans.votes])))();
+  return (
+    <Chart
+      chartType="PieChart"
+      data={basic}
+      options={{
+        title: `${props.poll.question}`,
+        pieSliceText: 'label',
+        slices: {
+          1: { offset: 0.1 },
+          2: { offset: 0.1 },
+          3: { offset: 0.1 },
+          4: { offset: 0.1 },
+        },
+        is3D: true,
+        backgroundColor: '#616161',
+      }}
+      graph_id="PieChart"
+      width="100%"
+      height="400px"
+      legend_toggle
+    />
+  );
+};
+```
 
 ## Connect Frontend to the Express Backend with React Router
 
@@ -502,27 +527,14 @@ Redux Thunk middleware allows you to write action creators that return a functio
 
 ## Deployment / DevOps
 
-#### Docker
 
 
 
-## Useful links & credits
-- [📄 "Scotch-IO Passport Authentication"](https://github.com/scotch-io/easy-node-authentication)
-- [📄 "Official Passport Site"](http://passportjs.org/)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
-- [📄 "Begin"](afgafgadgads)
 
 
 
 If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
 
-If you want to support me financially: https://www.paypal.me/DDCreationStudios
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
