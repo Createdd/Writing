@@ -514,27 +514,75 @@ const resultChart = (props) => {
 
 ## Connect Frontend to the Express Backend with React Router
 
-- add the react-router package
-- fetch with axios?
+As this is my first real full stack app connecting the frontend and backend was a mystery to me
 
-- async Actions in Redux (http://redux.js.org/docs/advanced/AsyncActions.html)
-Asynchronous means they are totally independent and neither one must consider the other in any way, either in initiation or in execution.
+I found a pretty good answer to my question on [Stackoverflow](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually).
 
-- using redux thunk
-Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met
+To summarize and quote the answer of [Stijn](https://stackoverflow.com/users/286685/stijn-de-witt):
+
+>With client-side routing, which is what React-Router provides, things are less simple. At first, the client does not have any JS code loaded yet. So the very first request will always be to the server. That will then return a page that contains the needed script tags to load React and React Router etc. Only when those scripts have loaded does phase 2 start. In phase 2, when the user clicks on the 'About us' navigation link for example, the URL is changed locally only to http://example.com/about (made possible by the History API), but no request to the server is made. Instead, React Router does it's thing on the client side, determines which React view to render and renders it.
+
+Combining server- and client-side routing
+
+>If you want the http://example.com/about URL to work on both the server- and the client-side, you need to set up routes for it on both the server- and the client side. Makes sense right?
+
+>And this is where your choices begin. Solutions range from bypassing the problem altogether, via a catch-all route that returns the bootstrap HTML, to the full-on isomorphic approach where both the server and the client run the same JS code.
+
+
+Bypassing the problem altogether: Hash History
+
+>With Hash History i.s.o Browser History, your URL for the about page would look something like this: http://example.com/#/about The part after the hash (#) symbol is not sent to the server. So the server only sees http://example.com/ and sends the index page as expected. React-Router will pick up the #/about part and show the correct page.
+
+>Downsides:
+'ugly' URLs
+Server-side rendering is not possible with this approach. As far as SEO is concerned, your website consists of a single page with hardly any content on it.
+
+Catch-all
+
+>With this approach you do use Browser History, but just set up a catch-all on the server that sends /* to index.html, effectively giving you much the same situation as with Hash History. You do have clean URLs however and you could improve upon this scheme later without having to invalidate all your user's favorites.
+
+>Downsides:
+More complex to set up
+Still no good SEO
+
+
+Hybrid
+
+>In the hybrid approach you expand upon the catch-all scenario by adding specific scripts for specific routes. You could make some simple PHP scripts to return the most important pages of your site with content included, so Googlebot can at least see what's on your page.
+
+>Downsides:
+Even more complex to set up
+Only good SEO for those routes you give the special treatment
+Duplicating code for rendering content on server and client
+
+
+Isomorphic
+
+>What if we use Node JS as our server so we can run the same JS code on both ends? Now, we have all our routes defined in a single react-router config and we don't need to duplicate our rendering code. This is 'the holy grail' so to speak. The server sends the exact same markup as we would end up with if the page transition had happened on the client. This solution is optimal in terms of SEO.
+
+>Downsides:
+Server must (be able to) run JS. I've experimented with Java i.c.w. Nashorn but it's not working for me. In practice it mostly means you must use a Node JS based server.
+Many tricky environmental issues (using window on server-side etc)
+Steep learning curve
 
 
 
 ## Deployment / DevOps
 
 
+## Conclusion
+
+As you can see my documentation gets worse and worse with the progress of the app. This is due to the fact, that get completely overwhelmed with Redux. I did other projects on the side and wasn't able to keep track. You can traverse all commits for details in my Repository. 
+
+If you have questions feel free to ask :) 
+
+- Repository on Github is available [here](https://github.com/DDCreationStudios/votingApp).
+- Live version of the result is available [here](https://ddcs-votingapp.herokuapp.com/).
+- Learnings and numbers are available [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md).
 
 
 
-
-
-If you gained something from this article let me know with a comment or heart. Make sure to follow for more :)
-
+Thanks for reading my article! Feel free to leave any feedback!
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
