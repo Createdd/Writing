@@ -514,7 +514,9 @@ const resultChart = (props) => {
 
 ## Connect Frontend to the Express Backend with React Router
 
-As this is my first real full stack app connecting the frontend and backend was a mystery to me
+#### Rendering client- and server-side
+
+As this was my first real full-stack app, connecting the frontend and backend was a mystery to me
 
 I found a pretty good answer to my question on [Stackoverflow](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writting-manually).
 
@@ -522,14 +524,14 @@ To summarize and quote the answer of [Stijn](https://stackoverflow.com/users/286
 
 >With client-side routing, which is what React-Router provides, things are less simple. At first, the client does not have any JS code loaded yet. So the very first request will always be to the server. That will then return a page that contains the needed script tags to load React and React Router etc. Only when those scripts have loaded does phase 2 start. In phase 2, when the user clicks on the 'About us' navigation link for example, the URL is changed locally only to http://example.com/about (made possible by the History API), but no request to the server is made. Instead, React Router does it's thing on the client side, determines which React view to render and renders it.
 
-Combining server- and client-side routing
+- Combining server- and client-side routing
 
->If you want the http://example.com/about URL to work on both the server- and the client-side, you need to set up routes for it on both the server- and the client side. Makes sense right?
+>If you want the http://example.com/about URL to work on both the server- and the client-side, you need to set up routes for it on both the server- and the client side.
 
 >And this is where your choices begin. Solutions range from bypassing the problem altogether, via a catch-all route that returns the bootstrap HTML, to the full-on isomorphic approach where both the server and the client run the same JS code.
 
 
-Bypassing the problem altogether: Hash History
+- Bypassing the problem altogether: Hash History
 
 >With Hash History i.s.o Browser History, your URL for the about page would look something like this: http://example.com/#/about The part after the hash (#) symbol is not sent to the server. So the server only sees http://example.com/ and sends the index page as expected. React-Router will pick up the #/about part and show the correct page.
 
@@ -537,7 +539,7 @@ Bypassing the problem altogether: Hash History
 'ugly' URLs
 Server-side rendering is not possible with this approach. As far as SEO is concerned, your website consists of a single page with hardly any content on it.
 
-Catch-all
+- Catch-all
 
 >With this approach you do use Browser History, but just set up a catch-all on the server that sends /* to index.html, effectively giving you much the same situation as with Hash History. You do have clean URLs however and you could improve upon this scheme later without having to invalidate all your user's favorites.
 
@@ -546,7 +548,7 @@ More complex to set up
 Still no good SEO
 
 
-Hybrid
+- Hybrid
 
 >In the hybrid approach you expand upon the catch-all scenario by adding specific scripts for specific routes. You could make some simple PHP scripts to return the most important pages of your site with content included, so Googlebot can at least see what's on your page.
 
@@ -556,7 +558,7 @@ Only good SEO for those routes you give the special treatment
 Duplicating code for rendering content on server and client
 
 
-Isomorphic
+- Isomorphic
 
 >What if we use Node JS as our server so we can run the same JS code on both ends? Now, we have all our routes defined in a single react-router config and we don't need to duplicate our rendering code. This is 'the holy grail' so to speak. The server sends the exact same markup as we would end up with if the page transition had happened on the client. This solution is optimal in terms of SEO.
 
@@ -565,6 +567,47 @@ Server must (be able to) run JS. I've experimented with Java i.c.w. Nashorn but 
 Many tricky environmental issues (using window on server-side etc)
 Steep learning curve
 
+In the end I was going with the catch-all solution: See in my [routes.js file](https://github.com/DDCreationStudios/votingApp/blob/master/src/serverSideES6/routes.js).
+
+```javascript
+//routes.js
+router.get('/*', (req, res) => {
+  const options = {
+    root: `${__dirname}/../../public/`,
+    dotfiles: 'deny',
+  };
+  res.sendFile('index.html', options);
+});
+```
+
+It was easy and fast to implement and covers the basic problems.
+
+#### Serving everything all together
+
+To understand that, the best way is to take a look at my [package.json file](https://github.com/DDCreationStudios/votingApp/blob/master/package.json).
+
+The scripts say:
+
+```json
+"scripts": {
+		"start": "node src/serverSide/server.js",
+		"serve": "babel-node src/serverSideES6/server.js",
+		"dev": "npm-run-all --parallel dev:*",
+		"dev:client": "webpack-dev-server --hot",
+		"dev:server": "nodemon src/serverSide/server.js",
+		"build": "npm-run-all --parallel build:*",
+		"build:client": "webpack --progress",
+		"build:server": "babel src/serverSideES6 --out-dir src/serverSide"
+	},
+```
+
+The `build` script builds the files on the client and server side.
+- It compiles all my ES6 node.js code into ES5 (so Heroku can read it as well)
+- Webpack starts the bundeling and transpiling of the client side. (ES6 to ES5, JSX to JavaScript, etc. - see webpack config )
+
+The `dev` script serves everything in a development environment and (hot) reloading, so that everything is as fast and smooth as possible, when changing the codebase.
+
+The `start` script actually starts the backend server, which also consumes the built and bundled frontend HTML/CSS/JS, presenting the whole application.
 
 
 ## Deployment / DevOps
