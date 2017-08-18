@@ -610,12 +610,23 @@ The `dev` script serves everything in a development environment and (hot) reload
 The `start` script actually starts the backend server, which also consumes the built and bundled frontend HTML/CSS/JS, presenting the whole application.
 
 
-## Deployment / DevOps
+## Deployment 
 
+For deploying the app, Heroku once again had proven to be the way to go.
+
+Using the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), the `Heroku logs` command helps a lot. I always had trouble setting up my app on the platform, but after simply solving all the errors the logs show, it becomes really easy.
+
+Always important:
+- Be aware that devDependencies are not installed 
+- Use the adequate buildpack (in this case for NodeJS)
+- Have start script or define one in your Procfile
+- Be sure to push the right branch from the right repository
 
 ## Conclusion
 
-As you can see my documentation gets worse and worse with the progress of the app. This is due to the fact, that get completely overwhelmed with Redux. I did other projects on the side and wasn't able to keep track. You can traverse all commits for details in my Repository. 
+As you can see my documentation for this article gets worse and worse with the progress of the app. This is due to the fact, that I got completely overwhelmed with Redux. I did other projects on the side and wasn't able to keep track. 
+
+But don't worry! I tried to name my commits as clear as possible. So, you can traverse all commits for details in my Repository. See [Commits here](https://github.com/DDCreationStudios/votingApp/commits/master). 
 
 If you have questions feel free to ask :) 
 
