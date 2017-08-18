@@ -633,6 +633,7 @@ If you have questions feel free to ask :)
 https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
 )
 
+Many, many thanks to [Edo Rivai](https://twitter.com/EdoRivai), who gave very valuable tips along the way. 
 
 Thanks for reading my article! Feel free to leave any feedback!
 
