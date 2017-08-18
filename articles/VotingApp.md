@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1495316364083-b5916626072e?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/OwMTchwUTNw)
-https://unsplash.com/photos/OwMTchwUTNw
+Photo by Johannes Plenio on Unsplash - https://unsplash.com/photos/OwMTchwUTNw
 
 The Voting App on Free Code Camp is in my opinion the first challenge, that was really hard. I just couldn't do it as easy as all the other challenges. Too much knowledge in too much fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
 
@@ -16,7 +16,7 @@ also known as "MERN-Stack".
 
 Have fun :)
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/https://github.com/DDCreationStudios/votingApp)
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/votingApp)
 
 If you like to follow this article in depth, make sure to read it also on github [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md). (Since Github provides more specific styling possibilities)
 
@@ -85,6 +85,7 @@ To break down this application I will divide it into sections for backend, front
 - Yarn (package management)
 - Visual Studio Code as editor
 - [Postman](https://www.getpostman.com/) (testing APIs)
+- [Robomongo / Robo 3T](https://robomongo.org/) (working faster with MongoDB)
 
 
 #### Packages / Features / Dependencies
@@ -96,43 +97,42 @@ General
 - [Babel](https://babeljs.io/) (javascript compiler)
 - [Webpack](https://webpack.github.io/) (module bundler/builder)
 - [dotenv](https://www.npmjs.com/package/dotenv) (for configuring environment variables)
-
+- [shortid](https://github.com/dylang/shortid) (random ID generator)
 
 Backend
 - [Node.js](https://nodejs.org/) (JS runtime environment for server-side)
 - [MongoDB](https://www.mongodb.com/what-is-mongodb) (document based database)
-
-
+- [connect-mongo](https://github.com/jdesboeufs/connect-mongo) (for storing sessions in MongoDB)
 - [body-parser](https://github.com/expressjs/body-parser) (for parsing incoming requests)
 - [express](http://expressjs.com/de/) (to make the application run)
 - [mongoose](http://mongoosejs.com/docs/) (object data modeling to simplify interactions with MongoDB)
 - [morgan](https://www.npmjs.com/package/morgan) (HTTP request logger middleware)
+- [passport](http://passportjs.org/) (authentication middleware for Node.js)
 
 Frontend
-- [React]() (JS framework)
-- [Redux]() (state management for React)
+- [React](https://facebook.github.io/react/) (JS framework)
+- [Redux](http://redux.js.org/docs/introduction/) (state management for React)
+- [Redux Thunk](http://redux.js.org/docs/introduction/) (asynchronous Redux)
 - [Materialize CSS](http://materializecss.com/) (framework for material design)
+- [React Router](https://github.com/ReactTraining/react-router) (routing in the frontend)
+
 
 
 
 Visualization
 
-- react vis?
-- deck gl?
-- D3?
-- google charts?
+- [React Google Charts](https://www.npmjs.com/package/react-google-charts) (React wrapper for Google Charts)
+- [Google Charts](https://developers.google.com/chart/) (for visiualizing data)
+
 
 Deployment / DevOps
 
-- [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud) ?
-- AWS?
-- CI Travis
-- Terraform?
+- [Heroku](https://www.heroku.com/) (PaaS to run applications in the cloud) 
+
 
 (Unit)Testing
 
 - Not implemented in this app (but normally it should)
-- Manual testing as long as feasible
 
 ## First things first
 
@@ -444,7 +444,7 @@ Here is a list of painful learnings I had to undergo throughout this process:
 - I have often read to not use the index of a map function as key value for a component. However, when rendering with onChange and generating a unique key, the input loses focus and is not working properly (`const answerList = this.state.answers.map((answer, ind) => {
 return (<div className="input-field col s10" key={ind}>`)
 - when iterating over an array of object and you want to change properties on an object, you have to return an object `return{ answer: answ.answer, votes: 0};` (took me 4 hours to understand 😞)
--
+
 
 #### Add Redux
 
