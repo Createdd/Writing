@@ -14,46 +14,41 @@ I will use:
 
 also known as "MERN-Stack".
 
-Have fun :)
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/votingApp)
+- Repository on Github is available [here](https://github.com/DDCreationStudios/votingApp).
+- Live version of the result is available [here](https://ddcs-votingapp.herokuapp.com/).
+- Learnings and numbers are available [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md).
 
-If you like to follow this article in depth, make sure to read it also on github [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md). (Since Github provides more specific styling possibilities)
+![gif](
+https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
+)
 
 
 ## 📄 Table of contents
 
-
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
-
-* [Building the Free Code Camp Voting App](#building-the-free-code-camp-voting-app)
-  * [📄 Table of contents](#table-of-contents)
-  * [What this article is about](#what-this-article-is-about)
-      * [Structure](#structure)
-      * [Development Environment](#development-environment)
-      * [Packages / Features / Dependencies](#packages-features-dependencies)
-  * [First things first](#first-things-first)
-  * [Backend](#backend)
-      * [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
-      * [Set up your routes](#set-up-your-routes)
-      * [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
-      * [Establish authentication and authorization with Twitter](#establish-authentication-and-authorization-with-twitter)
-      * [Establish local authentication and authorization](#establish-local-authentication-and-authorization)
-  * [Frontend](#frontend)
-      * [Think before you do!](#think-before-you-do)
-      * [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
-      * [Structure components](#structure-components)
-      * [Design and build components](#design-and-build-components)
-      * [Add Redux](#add-redux)
-      * [Visualization](#visualization)
-  * [Connect Frontend to the Express Backend with React Router](#connect-frontend-to-the-express-backend-with-react-router)
-  * [Deployment / DevOps](#deployment-devops)
-      * [Docker](#docker)
-  * [Useful links & credits](#useful-links-credits)
-
-<!-- tocstop -->
-
-
+- [What this article is about](#what-this-article-is-about)
+    - [Structure](#structure)
+    - [Development Environment](#development-environment)
+    - [Packages / Features / Dependencies](#packages--features--dependencies)
+- [First things first](#first-things-first)
+- [Backend](#backend)
+    - [Set up Packages, Middleware and Mongoose](#set-up-packages-middleware-and-mongoose)
+    - [Set up your routes](#set-up-your-routes)
+    - [Set up Mongoose and your Schemas and connect everything to your routes](#set-up-mongoose-and-your-schemas-and-connect-everything-to-your-routes)
+    - [Establish authentication and authorization with Twitter](#establish-authentication-and-authorization-with-twitter)
+    - [Establish local authentication and authorization](#establish-local-authentication-and-authorization)
+- [Frontend](#frontend)
+    - [Think before you do!](#think-before-you-do)
+    - [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
+    - [Structure components](#structure-components)
+    - [Design and build components](#design-and-build-components)
+    - [Add Redux](#add-redux)
+    - [Visualization](#visualization)
+- [Connect Frontend to the Express Backend with React Router](#connect-frontend-to-the-express-backend-with-react-router)
+    - [Rendering client- and server-side](#rendering-client--and-server-side)
+    - [Serving everything all together](#serving-everything-all-together)
+- [Deployment](#deployment)
+- [Conclusion](#conclusion)
 
 
 ---
