@@ -4,7 +4,7 @@
 https://unsplash.com/photos/OwMTchwUTNw)
 Photo by Johannes Plenio on Unsplash - https://unsplash.com/photos/OwMTchwUTNw
 
-In my opinion the voting app challenge on FreeCodeCamp was the first really hard on in the curriculum. I just couldn't do it as easy as all the other challenges. Too much knowledge in too many fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
+In my opinion the voting app challenge on FreeCodeCamp was the first one, that was really hard in the curriculum. I just couldn't do it as easy as all the other challenges. Too much knowledge in too many fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
 
 I will use:
 - MongoDB
@@ -609,7 +609,7 @@ Using the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), the `H
 Always important:
 - Be aware that devDependencies are not installed 
 - Use the adequate buildpack (in this case for NodeJS)
-- Have start script or define one in your Procfile
+- Have a start script or define one in your Procfile
 - Be sure to push the right branch from the right repository
 
 ## Conclusion
