@@ -107,19 +107,18 @@ Continuing this app and powering it up with more features, more functionality an
 It's open source and always available. If I want to continue my work I can do it easily. 
 
 
-
-
-
-
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- Repository on Github is available [here](https://github.com/DDCreationStudios/votingApp).
+- Live version of the result is available [here](https://ddcs-votingapp.herokuapp.com/).
+- Documentation of the building process [here](
+https://github.com/DDCreationStudios/Writing/blob/master/articles/VotingApp.md).
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
 
+---
+
+## Many, many thanks to [Edo Rivai](https://twitter.com/EdoRivai), who gave very valuable tips for the app along the way. :) 
+
+---
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
