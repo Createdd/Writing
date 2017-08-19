@@ -1,4 +1,4 @@
-# Building the Free Code Camp Voting App
+# Building the FreeCodeCamp Voting App
 
 [<img src="https://images.unsplash.com/photo-1495316364083-b5916626072e?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=&bg=">](
 https://unsplash.com/photos/OwMTchwUTNw)
@@ -227,7 +227,7 @@ I want to use the twitter sign-on as an [OAuth](https://oauth.net/) provider to 
 
 Of course I found [the great article](https://scotch.io/tutorials/easy-node-authentication-twitter) on how to set up the authentication process in Nodejs. After failing to implement it properly in my app (took me a whole day) I decided to dive straight into the [documentation of passport](http://passportjs.org/docs)!
 
-I love the quote the put up there:
+I love the quote they put up there:
 
 >Despite the complexities involved in authentication, code does not have to be complicated.
 
