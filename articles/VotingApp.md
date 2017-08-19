@@ -4,7 +4,7 @@
 https://unsplash.com/photos/OwMTchwUTNw)
 Photo by Johannes Plenio on Unsplash - https://unsplash.com/photos/OwMTchwUTNw
 
-The Voting App on Free Code Camp is in my opinion the first challenge, that was really hard. I just couldn't do it as easy as all the other challenges. Too much knowledge in too much fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
+In my opinion the voting app challenge on FreeCodeCamp was the first really hard on in the curriculum. I just couldn't do it as easy as all the other challenges. Too much knowledge in too many fields is required. Also, I didn't find any tutorials or examples, that broke this challenge down with up-to-date tools. So I decided to document it my building process.
 
 I will use:
 - MongoDB
@@ -12,12 +12,13 @@ I will use:
 - React + Redux
 - Node.js
 
-also known as "MERN-Stack".
+also known as the "MERN-Stack".
 
 
 - Repository on Github is available [here](https://github.com/DDCreationStudios/votingApp).
 - Live version of the result is available [here](https://ddcs-votingapp.herokuapp.com/).
 - Learnings and numbers are available [here](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md).
+
 
 ![gif](
 https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
@@ -42,7 +43,7 @@ https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/6874
     - [Necessary setup with Babel and Webpack](#necessary-setup-with-babel-and-webpack)
     - [Structure components](#structure-components)
     - [Design and build components](#design-and-build-components)
-    - [Add Redux](#add-redux)
+    - [Adding Redux](#adding-redux)
     - [Visualization](#visualization)
 - [Connect Frontend to the Express Backend with React Router](#connect-frontend-to-the-express-backend-with-react-router)
     - [Rendering client- and server-side](#rendering-client--and-server-side)
@@ -57,12 +58,12 @@ https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/6874
 
 ## What this article is about
 
-In this article I will describe the process of building the Voting App for the [Free Code Camp Challenge](https://www.freecodecamp.com/challenges/build-a-voting-app).
-For beginners: Be sure to read the documentation of each tool you use properly. There is no shortcut to success. Try, fail and learn. ;)
-For everybody: This is no optimized example for building the application. I am open for feedback of any kind. I am still a beginner :)
+In this article I will describe the process of building the voting app for the [FreeCodeCamp Challenge](https://www.freecodecamp.com/challenges/build-a-voting-app).
+
+This is not an optimized example for building the application. I am open for feedback of any kind. I am still a beginner and also left some things open. :)
 
 ___
-This is not designed as a tutorial! It's simply a documentation when a created it.
+This is not designed as a tutorial! It's simply a documentation I wrote while building the app.
 ___
 
 
@@ -400,7 +401,8 @@ I sketched everything out on a paper and came to the conclusion to build 14 comp
 - the chart
 - a 404 page
 
-That's just for the start. I am sure to adapt it when actually programming the app.
+That layout was for the start and should provide an overview. It is very natural to adapt the component structure when the application is evolving. 
+
 
 #### Design and build components
 
@@ -417,11 +419,7 @@ style={{
 }}
 ```
 
-
-
-
 - in the process of building components you will slowly get a feeling on how you need to structure your state management with React and Redux
-
 
 
 [➡️ Check out my commit on Github after the components are built and styled ⬅️](https://github.com/DDCreationStudios/votingApp/tree/eb17c360e09515f22f8ac38574f576a53855037b)
@@ -436,12 +434,12 @@ Here is a list of painful learnings I had to undergo throughout this process:
 
 - for accessing object properties dynamically use bracket instead of dot notation (used here: `javascript answers = answers.concat(this.refs[temp].value);`)
 - importing everything as * (`import * as Polls from './ducks/polls';`) from ducks, because else it's not working
-- I have often read to not use the index of a map function as key value for a component. However, when rendering with onChange and generating a unique key, the input loses focus and is not working properly (`const answerList = this.state.answers.map((answer, ind) => {
+- I have often read to not use the index of a map function as key value for a component. However, when rendering with onChange and generating an unique key, the input loses focus and is not working properly (`const answerList = this.state.answers.map((answer, ind) => {
 return (<div className="input-field col s10" key={ind}>`)
-- when iterating over an array of object and you want to change properties on an object, you have to return an object `return{ answer: answ.answer, votes: 0};` (took me 4 hours to understand 😞)
+- when iterating over an array of objects and you want to change properties on an object, you have to return an object, like:  `return{ answer: answ.answer, votes: 0};` (took me 4 hours to understand 😞)
 
 
-#### Add Redux
+#### Adding Redux
 
 The [Principles](http://redux.js.org/docs/introduction/ThreePrinciples.html) of Redux are:
 - Single source of truth
@@ -457,9 +455,6 @@ Keep in mind, that local state doesn't need to take part in Redux when it's stat
 - add the [Redux DevTool](https://github.com/zalmoxisus/redux-devtools-extension) to debug faster
 
 Now that State is available through Redux, it's time to create the event handlers and render everything accordingly. At least now you should validate your propTypes as well.
-
-
-
 
 
 #### Visualization
