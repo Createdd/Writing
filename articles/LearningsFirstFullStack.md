@@ -1,4 +1,4 @@
-# Learnings from my first full stack app in JavaScript
+# Learnings from my first full-stack app in JavaScript
 [<img src="https://images.unsplash.com/photo-1495985812444-236d6a87bdd9?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/BghGseQbAkA)
 Photo by Hugo Sousa on Unsplash
