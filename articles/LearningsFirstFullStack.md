@@ -14,10 +14,12 @@ The [FreeCodeCamp Curriculum](https://www.freecodecamp.org/challenges/build-a-vo
 
 - [A little background](#a-little-background)
 - [Some data](#some-data)
-  - [Numbers:](#numbers)
+  - [Numbers](#numbers)
   - [Putting it into perspective](#putting-it-into-perspective)
-- [General and motivational takeaway](#general-and-motivational-takeaway)
-- [Developer beginner takeaways](#developer-beginner-takeaways)
+- [General and motivational takeaways](#general-and-motivational-takeaways)
+- [Code beginner takeaways](#code-beginner-takeaways)
+- [Links](#links)
+
 
 
 ---
@@ -52,7 +54,7 @@ So keep in mind that even the data I am showing doesn't come close to my real ef
 
 ---
 
-### Numbers:
+### Numbers
 
 ![screenshot](../assets/LEARNFIRST/wakaVoting.png)
 
@@ -125,7 +127,7 @@ Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-## Many, many thanks to [Edo Rivai](https://twitter.com/EdoRivai), who gave very valuable tips for the app along the way. :) 
+### Many, many thanks to [Edo Rivai](https://twitter.com/EdoRivai), who gave very valuable tips for the app along the way. :) 
 
 ---
 
