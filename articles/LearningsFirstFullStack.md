@@ -83,7 +83,7 @@ Alone from the Github Repo you can see, that I have easily spent more than 200 h
 
 I was also doing other tutorials and projects, watching videos and writing articles on the side to understand concepts better.
 
-## General and motivational takeaway
+## General and motivational takeaways
 
 Maybe this sounds a lot to you, maybe it sounds not much for you. Doesn't matter. Key thing here is to see how things can be quantified in the development area. 
 
@@ -98,7 +98,7 @@ I am no genius, but certainly not dumb. (At least according to some tests :D)
 See that consistency is everything. 
 You can't do a project like this on one weekend. Make yourself aware how long the journey is. Realize that it is hard and remind yourself where you are going. Constantly!
 
-## Developer beginner takeaways
+## Code beginner takeaways
 
 Analyzing the [app](https://github.com/DDCreationStudios/votingApp) a little bit in depth you will realize it is pretty unfinished. I myself have openend issues and see many things to improve. 
 
