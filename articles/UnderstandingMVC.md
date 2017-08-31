@@ -10,8 +10,8 @@ Model-View-Controller (MVC) is a very often used software design pattern for imp
   * [What are it's advantages and disadvantages for coding?](#what-are-its-advantages-and-disadvantages-for-coding)
   * [What is React?](#what-is-react)
   * [Apply MVC with React = Flux?](#apply-mvc-with-react-flux)
-    * [What is Flux und what is different compared to MVC?](#what-is-flux-und-what-is-different-compared-to-mvc)
-    * [What is Redux und what is different compared to Flux?](#what-is-redux-und-what-is-different-compared-to-flux)
+    * [What is Flux and what is different compared to MVC?](#what-is-flux-and-what-is-different-compared-to-mvc)
+    * [What is Redux and what is different compared to Flux?](#what-is-redux-and-what-is-different-compared-to-flux)
   * [Conclusion](#conclusion)
   * [Dive deeper - some useful links](#dive-deeper-some-useful-links)
 
@@ -61,7 +61,7 @@ The structure allows flexibility since responsibilities are clearly separated. T
 
 Whereas React is often referred to as the View in a MVC structure, Facebook presented their own architecture called [Flux ➡️](https://github.com/facebook/flux). The problem with a MVC structure is it's bidirectional communication, which proved to be very hard to debug and understand when a change in one entity caused cascading effect across the codebase. Especially when the app is scaling into a much bigger one, like Facebook for example. The flow of data was not well enough or easy enough defined for large applications.
 
-### What is Flux und what is different compared to MVC?
+### What is Flux and what is different compared to MVC?
 [Flux](https://github.com/facebook/flux) is made up of 4 key elements:
   1. **Actions**
 
@@ -87,7 +87,7 @@ Now the differences to a MVC are:
 
 Despite the fact that some are calling MVC "dead", I think Flux is more of a refined and enhanced MVC, and thus sympathizing with [Paul Shan and his conclusion in his article.](http://voidcanvas.com/flux-vs-mvc/)
 
-### What is Redux und what is different compared to Flux?
+### What is Redux and what is different compared to Flux?
 Redux builds on Flux and can be described in [three fundamental principles](http://redux.js.org/docs/introduction/ThreePrinciples.html):
   1. **Only one single source of truth**
 
