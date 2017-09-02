@@ -70,6 +70,31 @@ Solutions:
 - Import jquery in ES6: https://stackoverflow.com/questions/37213647/es6-code-not-working-with-jquery
 - Provide jquery plugin in webpack config: https://github.com/erikras/react-redux-universal-hot-example/issues/596
 
+#### React, Redux, React-vis
+
+This time I wanted to use [react-vis](https://github.com/uber/react-vis) for visualizing the chart. It is a visualization library based on D3 and developed by Uber. To summarize and quote their docs:
+
+> A collection of react components to render common data visualization charts, such as line/area/bar charts, heat maps, scatterplots, contour plots, pie and donut charts, sunbursts, radar charts, parallel coordinates, and tree maps.
+
+Some notable features:
+
+- Simplicity. react-vis doesn't require any deep knowledge of data visualization libraries to start building your first visualizations.
+- Flexibility. react-vis provides a set of basic building blocks for different charts. For instance, separate X and Y axis components. This provides a high level of control of chart layout for applications that need it.
+- Ease of use. The library provides a set of defaults which can be overridden by the custom user's settings.
+- Integration with React. react-vis supports the React's lifecycle and doesn't create unnecessary nodes.
+
+Some practical issues I came across and solved were:
+
+- Make react-vis chart responsive: https://github.com/uber/react-vis/issues/262
+- To use gradients in react-vis properly, make sure tu include them in the Plot and adapt the reference points: http://uber.github.io/react-vis/#/documentation/general-principles/colors
+- Use LineSeries instead of LineMarkSeries for better performance: http://uber.github.io/react-vis/#/documentation/series-reference/line-series
+
+___
+At this point the app was already pretty nice. Now I had to check the last User Story, which is to display real-life changes using a "web socket" backend.
+___
+
+## Backend
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
