@@ -47,7 +47,29 @@ I learned from [my last full-stack app](https://github.com/DDCreationStudios/Wri
 
 ## Frontend
 
-I will only highlight the 
+I will only highlight the key cornerstones and not provide a step-by-step tutorial.
+
+#### Setup with the [create-react-app package](https://github.com/facebookincubator/create-react-app)
+
+This time I wanted to use this boilderplate because I have used it many times before but never on a full-stack project. Although it has some limitations with the pre-configured structure, the benefits outweight the problems by a mile. 
+
+Basically it provides an environment, that: 
+
+- React, JSX, ES6, and Flow syntax support.
+- Language extras beyond ES6 like the object spread operator.
+- A dev server that lints for common errors.
+- Import CSS and image files directly from JavaScript.
+- Autoprefixed CSS, so you don’t need -webkit or other prefixes.
+- A build script to bundle JS, CSS, and images for production, with sourcemaps.
+- An offline-first service worker and a web app manifest, meeting all the Progressive Web App criteria.
+
+Pretty early actually I came to the point where I had to eject the configuration ( = opening the environment configuration for changes) to modify the webpack config. 
+
+The problem was that I wanted to add jQuery for Materializecss and there always were some troubles. 
+Solutions:
+- Import jquery in ES6: https://stackoverflow.com/questions/37213647/es6-code-not-working-with-jquery
+- Provide jquery plugin in webpack config: https://github.com/erikras/react-redux-universal-hot-example/issues/596
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
