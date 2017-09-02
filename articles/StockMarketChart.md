@@ -20,7 +20,7 @@ Enjoy
 
 ## The challenge 
 
-See the full challange [here](https://www.freecodecamp.org/challenges/chart-the-stock-market).
+See the full challenge [here](https://www.freecodecamp.org/challenges/chart-the-stock-market).
 
 The user stories are pretty simple: 
 
@@ -51,7 +51,7 @@ I will only highlight the key cornerstones and not provide a step-by-step tutori
 
 #### Setup with the [create-react-app package](https://github.com/facebookincubator/create-react-app)
 
-This time I wanted to use this boilderplate because I have used it many times before but never on a full-stack project. Although it has some limitations with the pre-configured structure, the benefits outweight the problems by a mile. 
+This time I wanted to use this boilerplate because I have used it many times before but never on a full-stack project. Although it has some limitations with the pre-configured structure, the benefits outweigh the problems by a mile. 
 
 Basically it provides an environment, that: 
 
