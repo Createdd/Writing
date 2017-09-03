@@ -142,7 +142,7 @@ First I will set up my environment:
 
 
 As additional integration I'll use:
-- Travis CI (for contineous integration)
+- Travis CI (for continuous integration)
 - Code Climate (for Code quality)
 - Assertible (Monitoring Web Services, especially checking deployment  - Quality Assurance)
 
@@ -239,7 +239,7 @@ ___
 - add passport, passport-twitter and express-session packages to your application
 - create a file defining a passport strategy (twitter)
 - to support login session passport has to serialize and deserialize user
-- pass passport to your passport cofiguration and connect both `passport.initialize` and `passport.session` to your app as middleware (make sure that the express-session is used before!)
+- pass passport to your passport configuration and connect both `passport.initialize` and `passport.session` to your app as middleware (make sure that the express-session is used before!)
 - set up routes for authenticating and the callback
 
 
