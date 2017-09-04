@@ -14,6 +14,22 @@ Photo by Demi DeHerrera on Unsplash - https://unsplash.com/photos/L-sm1B4L1Ns
 >"dsasfasfasf"  - Bezos
 ---
 
+## Jest API
+
+One of the reasons Jest gets more and more popular is the straight-forward and easy API.
+
+Their global methods are: 
+
+[![screenshot](../assets/TESTREACT/globals.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+
+Their expect / matcher methods are:
+
+[![screenshot](../assets/TESTREACT/expect.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+
+[![screenshot](../assets/TESTREACT/matcherMethods.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+
+
+
 ## Enzymes methods
 
 #### Shallow rendering
