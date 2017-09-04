@@ -1,17 +1,28 @@
-# asdasfas
+# Overview on Jest and Enzyme 
 [<img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?dpr=2&auto=format&fit=crop&w=1080&h=721&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/L-sm1B4L1Ns)
 Photo by Demi DeHerrera on Unsplash - https://unsplash.com/photos/L-sm1B4L1Ns
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
-
-
 ## 📄 Table of contents
 
+<!-- TOC -->
+
+- [Overview on Jest and Enzyme](#overview-on-jest-and-enzyme)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [Jest API](#jest-api)
+      - [Testing methods](#testing-methods)
+      - [Snapshot Testing](#snapshot-testing)
+  - [Enzymes methods](#enzymes-methods)
+      - [Shallow rendering](#shallow-rendering)
+      - [Full rendering](#full-rendering)
+      - [Static rendering](#static-rendering)
+      - [Selectors](#selectors)
+
+<!-- /TOC -->
 
 ---
->"dsasfasfasf"  - Bezos
+>"Testing leads to failure, and failure leads to understanding." - Burt Rutan
 ---
 
 ## Jest API
@@ -38,7 +49,6 @@ From the [docs](https://facebook.github.io/jest/docs/en/snapshot-testing.html):
 > Snapshot testing is only one of more than 20 assertions that ship with Jest. The aim of snapshot testing is not to replace existing unit tests, but providing additional value and making testing painless. In some scenarios, snapshot testing can potentially remove the need for unit testing for a particular set of functionalities (e.g. React components), but they can work together as well.
 
 
-
 ## Enzymes methods
 
 #### Shallow rendering
@@ -52,11 +62,20 @@ From the [docs](http://airbnb.io/enzyme/docs/api/shallow.html):
 
 #### Static rendering
 
+#### Selectors
 
+Enzyme comes with a variety of great selectors. 
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+It allows for selecting
 
+- CSS Selectors
+  - class syntax (.foo, .foo-bar, etc.)
+  - tag syntax (input, div, span, etc.)
+  - id syntax (#foo, #foo-bar, etc.)
+  - prop syntax ([htmlFor="foo"], [bar], [baz=1], etc.);
+- React component constructors
+- React component displayName
+- Object Property Selector
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
