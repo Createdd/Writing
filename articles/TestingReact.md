@@ -24,9 +24,13 @@ Their global methods are:
 
 Their expect / matcher methods are:
 
-[![screenshot](../assets/TESTREACT/expect.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+|||
+|---|---|
+|[![screenshot](../assets/TESTREACT/expect.png)](https://facebook.github.io/jest/docs/en/api.html#methods)|[![screenshot](../assets/TESTREACT/matcherMethods.png)](https://facebook.github.io/jest/docs/en/api.html#methods)|
 
-[![screenshot](../assets/TESTREACT/matcherMethods.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+
+
+
 
 
 
