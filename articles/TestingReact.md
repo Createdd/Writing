@@ -20,7 +20,11 @@ One of the reasons Jest gets more and more popular is the straight-forward and e
 
 Their global methods are: 
 
-[![screenshot](../assets/TESTREACT/globals.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+||
+|--|
+|[![screenshot](../assets/TESTREACT/globals.png)](https://facebook.github.io/jest/docs/en/api.html#methods)
+|
+
 
 Their expect / matcher methods are:
 
