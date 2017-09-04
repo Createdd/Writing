@@ -3,7 +3,7 @@
 https://unsplash.com/photos/BghGseQbAkA)
 Photo by Hugo Sousa on Unsplash
 
-The [FreeCodeCamp Curriculum](https://www.freecodecamp.org/challenges/build-a-voting-app) qualifies the voting app as an advanced backend challenge. However I didn't really understand that qualification, since all user stories are pointing to a full stack app. Here are some of my findings when tackeling this app. These can be especially revealing for coding beginners, who are on the same path.
+The [FreeCodeCamp Curriculum](https://www.freecodecamp.org/challenges/build-a-voting-app) qualifies the voting app as an advanced backend challenge. However I didn't really understand that qualification, since all user stories are pointing to a full stack app. Here are some of my findings when tackling this app. These can be especially revealing for coding beginners, who are on the same path.
 
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/votingApp)
@@ -102,7 +102,7 @@ You can't do a project like this on one weekend. Make yourself aware how long th
 
 ## Code beginner takeaways
 
-Analyzing the [app](https://github.com/DDCreationStudios/votingApp) a little bit in depth you will realize it is pretty unfinished. I myself have openend issues and see many things to improve. 
+Analyzing the [app](https://github.com/DDCreationStudios/votingApp) a little bit in depth you will realize it is pretty unfinished. I myself have opened issues and see many things to improve. 
 
 ![gif](
 https://camo.githubusercontent.com/2c9cfb5ddf6b658bc9502facbba7b5b083d9b0e7/687474703a2f2f672e7265636f726469742e636f2f31687a643849537a6e742e676966
