@@ -10,6 +10,7 @@ Photo by Demi DeHerrera on Unsplash - https://unsplash.com/photos/L-sm1B4L1Ns
 
 - [Overview on Jest and Enzyme](#overview-on-jest-and-enzyme)
   - [📄 Table of contents](#📄-table-of-contents)
+  - [Thoughts on testing in general](#thoughts-on-testing-in-general)
   - [Jest API](#jest-api)
       - [Testing methods](#testing-methods)
       - [Snapshot Testing](#snapshot-testing)
@@ -25,6 +26,13 @@ Photo by Demi DeHerrera on Unsplash - https://unsplash.com/photos/L-sm1B4L1Ns
 ---
 >"Testing leads to failure, and failure leads to understanding." - Burt Rutan
 ---
+
+## Thoughts on testing in general
+
+I really like [Tucker Connelly's article on "Good Practices for Testing React Apps"](https://medium.com/@TuckerConnelly/good-practices-for-testing-react-apps-3a64154fa3b1). One of the things he advices is to start with end-to-end tests and go over unit tests and end with integration tests. Whereas unit tests should make around 70% of all tests, integration tests 20% and end-to-end test 10%. 
+
+I want to address that, because you can easily get lost in your testing and it's important to focus on what matters.
+
 
 ## Jest API
 
