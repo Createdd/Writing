@@ -18,6 +18,7 @@ Photo by Demi DeHerrera on Unsplash - https://unsplash.com/photos/L-sm1B4L1Ns
       - [Full rendering](#full-rendering)
       - [Static rendering](#static-rendering)
       - [Selectors](#selectors)
+      - [When testing](#when-testing)
 
 <!-- /TOC -->
 
@@ -60,7 +61,11 @@ From the [docs](http://airbnb.io/enzyme/docs/api/shallow.html):
 
 #### Full rendering
 
+Allows you to test whole DOM trees and gives you access to lifecycle methods in tests. 
+
 #### Static rendering
+
+Analyzes the resulting HTML structure. 
 
 #### Selectors
 
@@ -76,6 +81,11 @@ It allows for selecting
 - React component constructors
 - React component displayName
 - Object Property Selector
+
+#### When testing 
+
+As Ambroise Laurent states in his [article](https://www.theodo.fr/blog/2017/04/enzyme-fast-and-simple-react-testing/):
+> As a rule of thumb, shallow render is for unit testing and will probably be used for the majority of your test cases. Mounting would be more for a form of ‘front-end integration testing’ (seeing how a change in one component propagates to other components lower in the DOM tree). 
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
