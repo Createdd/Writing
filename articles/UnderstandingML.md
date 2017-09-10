@@ -57,6 +57,19 @@ Raw data has to be transformed in to training data by removing unnecessary items
 
 The training data contains features, which stand for important classifications and target values, which stand for the desired piece of information for the model.
 
+#### Problems
+
+- regressions (trying to find a line or curve that fit the data)
+- classification (trying to group data into classes)
+- clustering (trying to identify segments of the data)
+
+#### Algorithms
+
+Common styles are:
+- decision trees (construct a model based on actual values of attributes in a data)
+- neural networks (construct a model based on the recombination and reevaluation of results within the training data)
+- bayesian (filters according to probabilistic classifiers)
+- K-means (construct a model based on the *k* closest training examples)
 
 
 
