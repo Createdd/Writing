@@ -32,6 +32,17 @@ Typical languages used for ML are:
 - R
 - Python
 
+## The learning process
+
+### 1. Asking questions
+
+- what questions to ask 
+- what data helps you to answer the question
+- how do you measure success
+
+###
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
