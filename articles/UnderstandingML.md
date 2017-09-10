@@ -46,6 +46,16 @@ Typical languages used for ML are:
 - apply an algorithm on the data and create models over and over to increase your success rate
 - change successful models to different data
 
+## ML concepts 
+
+- supervised learning (the value you want to predict is already in the data)
+- unsupervised learning (the value you want to predict is not in the data)
+
+#### Data preprocessing with supervised learning
+
+Raw data has to be transformed in to training data by removing unnecessary items like duplicates, wrong/false information, useless information. 
+
+The training data contains features, which stand for important classifications and target values, which stand for the desired piece of information for the model.
 
 
 
