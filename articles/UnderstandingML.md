@@ -77,13 +77,7 @@ Common styles are:
 1. put a significant percentage of the features data into the algorithm
 1. generate a model
 1. test the model with the remaining percentage of the features data by comparing the target values with the values form the actual data
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-
+1. if the model is not accurate, change the features, change the algorithm or change the data
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
