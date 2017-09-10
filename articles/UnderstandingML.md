@@ -19,11 +19,18 @@ fsdgsdgsdgsdgds
 ML finds patterns in data and uses them to predict the future.
 
 Learning requires:
-  - identifying patterns
-  - recognizing those patterns
+- identifying patterns
+- recognizing those patterns
 
 Now it's easy to find patterns. But it is not easy to find patterns that are correct. Increasing the size of data allows to predict outcome that is more and more correct.
 
+|Data|Algorithm|Model|Application|
+|-|-|-|-|
+|contains patterns|finds patterns|recognizes patterns|uses to recognition on other data|
+
+Typical languages used for ML are:
+- R
+- Python
 
 
 ## Useful links & credits
