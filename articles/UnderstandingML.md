@@ -4,9 +4,6 @@ https://unsplash.com/photos/2vmT5_FeMck)
 Photo by Denys Nevozhai on Unsplash - https://unsplash.com/photos/2vmT5_FeMck
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
-
-
 ## 📄 Table of contents
 
   - [What is Machine Learning (ML)](#what-is-machine-learning-ml)
@@ -38,7 +35,7 @@ Now it's easy to find patterns. But it is not easy to find patterns that are cor
 |-|-|-|-|
 |contains patterns|finds patterns|recognizes patterns|uses to recognition on other data|
 
-Typical languages used for ML are:
+Common programming languages used for ML are:
 - R
 - Python
 
@@ -54,7 +51,7 @@ Typical languages used for ML are:
 
 - select and prepare your data over and over to make it useable for the algorithm
 - apply an algorithm on the data and create models over and over to increase your success rate
-- change successful models to different data
+- expose and test successful models to different data
 
 ## ML concepts 
 
