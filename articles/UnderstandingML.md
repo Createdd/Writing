@@ -34,13 +34,19 @@ Typical languages used for ML are:
 
 ## The learning process
 
-### 1. Asking questions
+#### 1. Asking questions
 
 - what questions to ask 
 - what data helps you to answer the question
 - how do you measure success
 
-###
+#### 2. Iterate
+
+- select and prepare your data over and over to make it useable for the algorithm
+- apply an algorithm on the data and create models over and over to increase your success rate
+- change successful models to different data
+
+
 
 
 
