@@ -69,7 +69,15 @@ Common styles are:
 - decision trees (construct a model based on actual values of attributes in a data)
 - neural networks (construct a model based on the recombination and reevaluation of results within the training data)
 - bayesian (filters according to probabilistic classifiers)
-- K-means (construct a model based on the *k* closest training examples)
+- K-means (construct a model based on vector quantization to the *k* closest training examples)
+
+#### Training the model
+
+1. find features that are relevant to identifying the target value
+1. put a significant percentage of the features data into the algorithm
+1. generate a model
+1. test the model with the remaining percentage of the features data by comparing the target values with the values form the actual data
+
 
 
 
