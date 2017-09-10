@@ -1,7 +1,7 @@
 # Understanding Machine Learning
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
+[<img src="https://images.unsplash.com/photo-1503642551022-c011aafb3c88?dpr=2&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=">](
+https://unsplash.com/photos/2vmT5_FeMck)
+Photo by Denys Nevozhai on Unsplash - https://unsplash.com/photos/2vmT5_FeMck
 
 
 [➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
@@ -9,9 +9,19 @@ fsdgsdgsdgsdgds
 
 ## 📄 Table of contents
 
+  - [What is Machine Learning (ML)](#what-is-machine-learning-ml)
+  - [The learning process](#the-learning-process)
+      - [1. Asking questions](#1-asking-questions)
+      - [2. Iterate](#2-iterate)
+  - [ML concepts](#ml-concepts)
+      - [Data preprocessing with supervised learning](#data-preprocessing-with-supervised-learning)
+      - [Problems](#problems)
+      - [Algorithms](#algorithms)
+      - [Training the model](#training-the-model)
+
 
 ---
->"dsasfasfasf"  - Bezos
+>"A wise man can learn more from a foolish question than a fool can learn from a wise answer." - Bruce Lee
 ---
 
 ## What is Machine Learning (ML)
