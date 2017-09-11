@@ -4,6 +4,9 @@ https://unsplash.com/photos/2vmT5_FeMck)
 Photo by Denys Nevozhai on Unsplash - https://unsplash.com/photos/2vmT5_FeMck
 
 
+This is short overview of machine learning. What it is, what learning is and what it's most common concepts are. It is designed as a first step into the topic.
+
+
 ## 📄 Table of contents
 
 - [What is Machine Learning (ML)](#what-is-machine-learning-ml)
@@ -100,8 +103,9 @@ By <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" title="User talk:
 
 - bayesian (filters according to probabilistic classifiers)
 
-
 [![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SimpleBayesNet.svg/1150px-SimpleBayesNet.svg.png)](https://en.wikipedia.org/wiki/Bayesian_network#/media/File:SimpleBayesNet.svg)
+
+By <a href="https://en.wikipedia.org/wiki/User:AnAj" class="extiw" title="en:User:AnAj">AnAj</a> - <span class="int-own-work" lang="en">Own work</span> (<span lang="en">Original text: self-made</span>), Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=19734596">Link</a>
 
 - K-means (construct a model based on vector quantization to the *k* closest training examples)
 
