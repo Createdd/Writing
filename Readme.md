@@ -45,6 +45,7 @@
 1. [🌐 Publishing an organization page to Github Pages](https://github.com/DDCreationStudios/Writing/blob/master/articles/FCCVGithub.md)
 1. [⚛️ Machine learning example in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/MLJavaScript.md)
 1. [🌟 Learnings from my first full-stack app in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md)
+1. [🌟 Understanding Machine Learning](https://github.com/DDCreationStudios/Writing/blob/master/articles/UnderstandingML.md)
 
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
