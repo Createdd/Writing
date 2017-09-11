@@ -74,8 +74,24 @@ The training data contains features, which stand for important classifications a
 
 Common styles are:
 - decision trees (construct a model based on actual values of attributes in a data)
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/f/f3/CART_tree_titanic_survivors.png)](https://commons.wikimedia.org/w/index.php?curid=14143467)
+
+By Stephen Milborrow - Own work, CC BY-SA 3.0
+
+
 - neural networks (construct a model based on the recombination and reevaluation of results within the training data)
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/296px-Colored_neural_network.svg.png)](https://commons.wikimedia.org/w/index.php?curid=24913461)
+
+By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0,
+
 - bayesian (filters according to probabilistic classifiers)
+
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SimpleBayesNet.svg/1150px-SimpleBayesNet.svg.png)]()
+[![img]()]()
+[![img]()]()
+
 - K-means (construct a model based on vector quantization to the *k* closest training examples)
 
 #### Training the model
