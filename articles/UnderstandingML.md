@@ -6,15 +6,15 @@ Photo by Denys Nevozhai on Unsplash - https://unsplash.com/photos/2vmT5_FeMck
 
 ## 📄 Table of contents
 
-  - [What is Machine Learning (ML)](#what-is-machine-learning-ml)
-  - [The learning process](#the-learning-process)
-      - [1. Asking questions](#1-asking-questions)
-      - [2. Iterate](#2-iterate)
-  - [ML concepts](#ml-concepts)
-      - [Data preprocessing with supervised learning](#data-preprocessing-with-supervised-learning)
-      - [Problems](#problems)
-      - [Algorithms](#algorithms)
-      - [Training the model](#training-the-model)
+- [What is Machine Learning (ML)](#what-is-machine-learning-ml)
+- [The learning process](#the-learning-process)
+    - [1. Asking questions](#1-asking-questions)
+    - [2. Iterate](#2-iterate)
+- [ML concepts](#ml-concepts)
+    - [Data preprocessing with supervised learning](#data-preprocessing-with-supervised-learning)
+    - [Problems](#problems)
+    - [Algorithms](#algorithms)
+    - [Training the model](#training-the-model)
 
 
 ---
@@ -74,15 +74,12 @@ The training data contains features, which stand for important classifications a
 
 #### Problems
 
-- regressions (trying to find a line or curve that fit the data)
-- classification (trying to group data into classes)
-- clustering (trying to identify segments of the data)
 
-|Problems|regressions|classification|clustering|
+| |regressions|classification|clustering|
 |-|:-:|:-:|:-:|
 |*Goal*|trying to find a line or curve that fit the data|trying to group data into classes|trying to identify segments of the data|
 |*Example*|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/438px-Linear_regression.svg.png)](https://en.wikipedia.org/wiki/Regression_analysis#/media/File:Linear_regression.svg)|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Perceptron_example.svg/1224px-Perceptron_example.svg.png)](https://en.wikipedia.org/wiki/Perceptron#/media/File:Perceptron_example.svg)|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/KMeans-density-data.svg/345px-KMeans-density-data.svg.png)](https://en.wikipedia.org/wiki/Cluster_analysis#/media/File:KMeans-density-data.svg)|
-|*Credit*|By <a href="//commons.wikimedia.org/w/index.php?title=User:Sewaqu&amp;action=edit&amp;redlink=1" class="new" title="User:Sewaqu (page does not exist)">Sewaqu</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11967659">Link</a>|By <a href="//commons.wikimedia.org/w/index.php?title=User:Elizabeth_goodspeed&amp;action=edit&amp;redlink=1" class="new" title="User:Elizabeth goodspeed (page does not exist)">Elizabeth Goodspeed</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40188333">Link</a>|By <a href="//commons.wikimedia.org/wiki/User:Chire" title="User:Chire">Chire</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=17085333">Link</a>|
+|*Image Credit*|By <a href="//commons.wikimedia.org/w/index.php?title=User:Sewaqu&amp;action=edit&amp;redlink=1" class="new" title="User:Sewaqu (page does not exist)">Sewaqu</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11967659">Link</a>|By <a href="//commons.wikimedia.org/w/index.php?title=User:Elizabeth_goodspeed&amp;action=edit&amp;redlink=1" class="new" title="User:Elizabeth goodspeed (page does not exist)">Elizabeth Goodspeed</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40188333">Link</a>|By <a href="//commons.wikimedia.org/wiki/User:Chire" title="User:Chire">Chire</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=17085333">Link</a>|
 
 
 
@@ -109,7 +106,10 @@ By <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" title="User talk:
 - K-means (construct a model based on vector quantization to the *k* closest training examples)
 
 [![img](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Iris_Flowers_Clustering_kMeans.svg/660px-Iris_Flowers_Clustering_kMeans.svg.png)](https://en.wikipedia.org/wiki/K-means_clustering#/media/File:Iris_Flowers_Clustering_kMeans.svg)
-Iris flower data set, clustered using k means (left) and true species in the data set (right). Note that k-means is non-determinicstic, so results vary. Cluster means are visualized using larger, semi-transparent markers. The visualization was generated using ELKI.
+
+By <a href="//commons.wikimedia.org/wiki/User:Chire" title="User:Chire">Chire</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11711077">Link</a>
+
+(Iris flower data set, clustered using k means (left) and true species in the data set (right). Note that k-means is non-determinicstic, so results vary. Cluster means are visualized using larger, semi-transparent markers. The visualization was generated using ELKI.)
 
 
 #### Training the model
@@ -125,7 +125,6 @@ Iris flower data set, clustered using k means (left) and true species in the dat
 
 [![img](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Generic_Michigan-style_Supervised_LCS_Schematic.png/1920px-Generic_Michigan-style_Supervised_LCS_Schematic.png)](https://en.wikipedia.org/wiki/Learning_classifier_system#/media/File:Generic_Michigan-style_Supervised_LCS_Schematic.png)
 By <a href="//commons.wikimedia.org/w/index.php?title=User:Docurbs&amp;action=edit&amp;redlink=1" class="new" title="User:Docurbs (page does not exist)">Docurbs</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52379695">Link</a>
-
 
 
 
