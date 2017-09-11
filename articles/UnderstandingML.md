@@ -88,11 +88,16 @@ By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC B
 - bayesian (filters according to probabilistic classifiers)
 
 
-[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SimpleBayesNet.svg/1150px-SimpleBayesNet.svg.png)]()
-[![img]()]()
-[![img]()]()
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SimpleBayesNet.svg/1150px-SimpleBayesNet.svg.png)](https://en.wikipedia.org/wiki/Bayesian_network#/media/File:SimpleBayesNet.svg)
 
 - K-means (construct a model based on vector quantization to the *k* closest training examples)
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Iris_Flowers_Clustering_kMeans.svg/660px-Iris_Flowers_Clustering_kMeans.svg.png)](https://en.wikipedia.org/wiki/K-means_clustering#/media/File:Iris_Flowers_Clustering_kMeans.svg)
+Iris flower data set, clustered using k means (left) and true species in the data set (right). Note that k-means is non-determinicstic, so results vary. Cluster means are visualized using larger, semi-transparent markers. The visualization was generated using ELKI.
+
+
+[![img]()]()
+
 
 #### Training the model
 
