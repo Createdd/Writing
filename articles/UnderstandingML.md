@@ -35,6 +35,13 @@ Now it's easy to find patterns. But it is not easy to find patterns that are cor
 |-|-|-|-|
 |contains patterns|finds patterns|recognizes patterns|uses to recognition on other data|
 
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/300px-Reinforcement_learning_diagram.svg.png)](https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg)
+
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Megajuice&amp;action=edit&amp;redlink=1" class="new" title="User:Megajuice (page does not exist)">Megajuice</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=57895741">Link</a>
+
+
+
 Common programming languages used for ML are:
 - R
 - Python
@@ -96,16 +103,24 @@ By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC B
 Iris flower data set, clustered using k means (left) and true species in the data set (right). Note that k-means is non-determinicstic, so results vary. Cluster means are visualized using larger, semi-transparent markers. The visualization was generated using ELKI.
 
 
-[![img]()]()
-
-
 #### Training the model
+
+
 
 1. find features that are relevant to identifying the target value
 1. put a significant percentage of the features data into the algorithm
 1. generate a model
 1. test the model with the remaining percentage of the features data by comparing the target values with the values form the actual data
 1. if the model is not accurate, change the features, change the algorithm or change the data
+
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Generic_Michigan-style_Supervised_LCS_Schematic.png/1920px-Generic_Michigan-style_Supervised_LCS_Schematic.png)](https://en.wikipedia.org/wiki/Learning_classifier_system#/media/File:Generic_Michigan-style_Supervised_LCS_Schematic.png)
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Docurbs&amp;action=edit&amp;redlink=1" class="new" title="User:Docurbs (page does not exist)">Docurbs</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=52379695">Link</a>
+
+
+
+
+___
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
