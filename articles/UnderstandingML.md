@@ -65,6 +65,7 @@ Common programming languages used for ML are:
 - supervised learning (the value you want to predict is already in the data)
 - unsupervised learning (the value you want to predict is not in the data)
 
+
 #### Data preprocessing with supervised learning
 
 Raw data has to be transformed in to training data by removing unnecessary items like duplicates, wrong/false information, useless information. 
@@ -77,6 +78,14 @@ The training data contains features, which stand for important classifications a
 - classification (trying to group data into classes)
 - clustering (trying to identify segments of the data)
 
+|Problems|regressions|classification|clustering|
+|-|-|-|-|
+|What?|trying to find a line or curve that fit the data|trying to group data into classes|trying to identify segments of the data|
+|Example|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/438px-Linear_regression.svg.png)](https://en.wikipedia.org/wiki/Regression_analysis#/media/File:Linear_regression.svg)|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Perceptron_example.svg/1224px-Perceptron_example.svg.png)](https://en.wikipedia.org/wiki/Perceptron#/media/File:Perceptron_example.svg)|[![img](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/KMeans-density-data.svg/345px-KMeans-density-data.svg.png)](https://en.wikipedia.org/wiki/Cluster_analysis#/media/File:KMeans-density-data.svg)|
+|Credit|By <a href="//commons.wikimedia.org/w/index.php?title=User:Sewaqu&amp;action=edit&amp;redlink=1" class="new" title="User:Sewaqu (page does not exist)">Sewaqu</a> - <span class="int-own-work" lang="en">Own work</span>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=11967659">Link</a>|By <a href="//commons.wikimedia.org/w/index.php?title=User:Elizabeth_goodspeed&amp;action=edit&amp;redlink=1" class="new" title="User:Elizabeth goodspeed (page does not exist)">Elizabeth Goodspeed</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=40188333">Link</a>|By <a href="//commons.wikimedia.org/wiki/User:Chire" title="User:Chire">Chire</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=17085333">Link</a>|
+
+
+
 #### Algorithms
 
 Common styles are:
@@ -84,13 +93,13 @@ Common styles are:
 
 [![img](https://upload.wikimedia.org/wikipedia/commons/f/f3/CART_tree_titanic_survivors.png)](https://commons.wikimedia.org/w/index.php?curid=14143467)
 
-By Stephen Milborrow - Own work, CC BY-SA 3.0
+By <a href="//commons.wikimedia.org/w/index.php?title=User:Stephen_Milborrow&amp;action=edit&amp;redlink=1" class="new" title="User:Stephen Milborrow (page does not exist)">Stephen Milborrow</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=14143467">Link</a>
 
 
 - neural networks (construct a model based on the recombination and reevaluation of results within the training data)
 [![img](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/296px-Colored_neural_network.svg.png)](https://commons.wikimedia.org/w/index.php?curid=24913461)
 
-By Glosser.ca - Own work, Derivative of File:Artificial neural network.svg, CC BY-SA 3.0,
+By <a href="//commons.wikimedia.org/wiki/User_talk:Glosser.ca" title="User talk:Glosser.ca">Glosser.ca</a> - <span class="int-own-work" lang="en">Own work</span>, Derivative of <a href="//commons.wikimedia.org/wiki/File:Artificial_neural_network.svg" title="File:Artificial neural network.svg">File:Artificial neural network.svg</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=24913461">Link</a>
 
 - bayesian (filters according to probabilistic classifiers)
 
