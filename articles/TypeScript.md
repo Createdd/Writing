@@ -118,6 +118,13 @@ function extend<T, U>(first: T, second: U): T & U {
 }
 ```
 
+## React and JSX
+
+> React can either render HTML tags (strings) or React components (classes). The JavaScript emit for these elements is different (React.createElement('div') vs. React.createElement(MyComponent)). The way this is determined is by the case of the first letter. foo is treated as an HTML tag and Foo is treated as a component.
+
+The fact that React renders strings or classes is essential for TypeScript. 
+
+Files that contain JSX have to end with `.tsx` instead of only `.ts` to be transpiled correctly.
 
 
 
