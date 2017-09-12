@@ -1,4 +1,4 @@
-# Introducing TypeScript
+# Introducing TypeScript (with a section on JSX)
 
 [<img src="https://images.unsplash.com/photo-1498309313100-e308c8946b45?dpr=2&auto=format&fit=crop&w=1080&h=1620&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/4Cjn0FDEud8)
@@ -14,6 +14,16 @@ For most of my conclusions I refer to:
 
 
 ## 📄 Table of contents
+
+  - [What is it and where is it heading?](#what-is-it-and-where-is-it-heading)
+  - [Concepts](#concepts)
+      - [Basics Types](#basics-types)
+      - [Interfaces](#interfaces)
+      - [Generics](#generics)
+      - [Intersections](#intersections)
+  - [React and JSX](#react-and-jsx)
+      - [Setup](#setup)
+      - [Concepts](#concepts-1)
 
 
 ---
@@ -148,13 +158,14 @@ declare namespace JSX {
 ```
 Whereas value based elements are identified in their own scope, like
 
-```javscript
+```javascript
 import MyComponent from "./myComponent";
 
 <MyComponent />; // ok
 <SomeOtherComponent />; // error
 ```
 
+Therefore, 
 > Components are type checked based on the props property of the component.
 
 For example:
@@ -169,6 +180,39 @@ class MyComponent extends React.Component<Props, {}> {
     }
 }
 
+<MyComponent foo="bar" />
+```
+
+Checking on attribute types on intrinsic elements is:
+
+```javascript
+declare namespace JSX {
+  interface IntrinsicElements {
+    foo: { bar?: boolean }
+  }
+}
+
+// element attributes type for 'foo' is '{bar?: boolean}'
+<foo bar />;
+```
+
+Whereas attributes on value based elements are checked like:
+
+```javascript
+declare namespace JSX {
+  interface ElementAttributesProperty {
+    props; // specify the property name to use
+  }
+}
+
+class MyComponent {
+  // specify the property on the element instance type
+  props: {
+    foo?: string;
+  }
+}
+
+// element attributes type for 'MyComponent' is '{foo?: string}'
 <MyComponent foo="bar" />
 ```
 
