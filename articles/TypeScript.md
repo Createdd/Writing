@@ -120,12 +120,57 @@ function extend<T, U>(first: T, second: U): T & U {
 
 ## React and JSX
 
+#### Setup
+
+Files that contain JSX have to end with `.tsx` instead of only `.ts` to be transpiled correctly.
+
+Depending on the project setup you can enable three [JSX modes: preserve, react, and react-native](https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/JSX.md#basic-usage).
+
+
+#### Concepts
+
 > React can either render HTML tags (strings) or React components (classes). The JavaScript emit for these elements is different (React.createElement('div') vs. React.createElement(MyComponent)). The way this is determined is by the case of the first letter. foo is treated as an HTML tag and Foo is treated as a component.
 
 The fact that React renders strings or classes is essential for TypeScript. 
 
-Files that contain JSX have to end with `.tsx` instead of only `.ts` to be transpiled correctly.
+> In order to understand type checking with JSX, you must first understand the difference between intrinsic elements and value-based elements. Given a JSX expression `<expr />`, `expr` may either refer to something intrinsic to the environment (e.g. a div or span in a DOM environment) or to a custom component that you've created.
 
+Intrinsic elements can be checked with interfaces, like 
+```javascript
+declare namespace JSX {
+    interface IntrinsicElements {
+        foo: any
+    }
+}
+
+<foo />; // ok
+<bar />; // error
+```
+Whereas value based elements are identified in their own scope, like
+
+```javscript
+import MyComponent from "./myComponent";
+
+<MyComponent />; // ok
+<SomeOtherComponent />; // error
+```
+
+> Components are type checked based on the props property of the component.
+
+For example:
+
+```javascript
+interface Props {
+  foo: string;
+}
+class MyComponent extends React.Component<Props, {}> {
+    render() {
+        return <span>{this.props.foo}</span>
+    }
+}
+
+<MyComponent foo="bar" />
+```
 
 
 
