@@ -52,7 +52,7 @@ ___
 
 #### Basics Types
 
-Types are annotated using `:TypeAnnotation` syntax.
+Types are annotated using `:TypeAnnotation` syntax. (For example `var num: number = 123;`)
 
 - Boolean (`let isDone: boolean = false;`)
 - Number (`let decimal: number = 6;`)
@@ -65,10 +65,47 @@ Types are annotated using `:TypeAnnotation` syntax.
 - Null / Undefined (are subtypes of all other types. That means you can assign null and undefined to something like number)
 - Never (is the return type for a function expression or an arrow function expression that always throws an exception or one that never returns)
 
+#### Interfaces
+
+Interfaces are the core way in TypeScript to compose multiple type annotations into a single named annotation.
+
+```javascript 
+interface Name {
+    first: string;
+    second: string;
+}
+
+var name: Name;
+name = {
+    first: 'John',
+    second: 'Doe'
+};
+```
+
+#### Generics
+
+In languages like C# and Java, one of the main tools in the toolbox for creating reusable components is generics, that is, being able to create a component that can work over a variety of types rather than a single one. 
+
+Without generics:
+```javascript
+function identity(arg: number): number {
+    return arg;
+}
+```
+While using any is certainly generic in that will accept any and all types for the type of arg, we actually are losing the information about what that type was when the function returns.
+
+
+With generics:
+```javascript
+function identity<T>(arg: T): T {
+    return arg;
+}
+```
+T allows us to capture the type the user provides (e.g. number), so that we can use that information later.
 
 
 
-
+```javascript```
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
