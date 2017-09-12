@@ -5,7 +5,7 @@ https://unsplash.com/photos/4Cjn0FDEud8)
 Photo by 张 学欢 on Unsplash - https://unsplash.com/photos/4Cjn0FDEud8
 
 
-Since I am getting more and more advanced, now it was time to take a look into Typescript. Not because of the simple linting of JavaScript, but rather because of the static typing concept.
+Since I am getting more and more advanced, now it was time to take a look into Typescript. Not because of the simple linting of JavaScript code, but rather because of the static typing concept.
 
 For most of my conclusions I refer to: 
 
@@ -45,6 +45,28 @@ It's goals (according to the official documentation) are:
 - Do not cause substantial breaking changes from TypeScript 1.0.
 
 ## Concepts
+
+___
+> Essentially TypeScript is linting JavaScript. Just doing a better job at it than other linters that don't have type information.
+___
+
+#### Basics Types
+
+Types are annotated using `:TypeAnnotation` syntax.
+
+- Boolean (`let isDone: boolean = false;`)
+- Number (`let decimal: number = 6;`)
+- String (`let color: string = "blue";`)
+- Array  (`let list: number[] = [1, 2, 3];` or `let list: Array<number> = [1, 2, 3];`)
+- Tuple (`let x: [string, number]; x = ["hello", 10];`)
+- Enum (`enum Color {Red, Green, Blue} let c: Color = Color.Green;`)
+- Any (opt-out of type-checking and let some values pass through compile-time checks)
+- Void (the absence of having any type at all)
+- Null / Undefined (are subtypes of all other types. That means you can assign null and undefined to something like number)
+- Never (is the return type for a function expression or an arrow function expression that always throws an exception or one that never returns)
+
+
+
 
 
 
