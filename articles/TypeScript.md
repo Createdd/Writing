@@ -5,7 +5,7 @@ https://unsplash.com/photos/4Cjn0FDEud8)
 Photo by 张 学欢 on Unsplash - https://unsplash.com/photos/4Cjn0FDEud8
 
 
-Since I am getting more and more advanced, it was time to take a look into Typescript. Not because of the simple linting of JavaScript code, but rather because of the static typing concept.
+Since I am getting more and more advanced, it was time to take a look into Typescript. Not because of the simple linting of JavaScript code, but rather because of the static typing concept. This article provides an introduction.
 
 In order to provide a certain standard of quality I mostly refer to and quote the following sources: 
 
