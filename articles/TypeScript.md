@@ -104,8 +104,27 @@ function identity<T>(arg: T): T {
 T allows us to capture the type the user provides (e.g. number), so that we can use that information later.
 
 
+#### Intersections
 
-```javascript```
+`extend` is a pattern in JavaScript where you take two objects and create a new one that has the features of both these objects.
+
+Intersections allow to define those objects.
+
+```javascript
+function extend<T, U>(first: T, second: U): T & U {
+    let result = <T & U> {};
+//some code
+    return result;
+}
+```
+
+
+
+
+
+
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
