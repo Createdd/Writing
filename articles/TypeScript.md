@@ -1,8 +1,8 @@
 # Introducing TypeScript
 
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
+[<img src="https://images.unsplash.com/photo-1498309313100-e308c8946b45?dpr=2&auto=format&fit=crop&w=1080&h=1620&q=80&cs=tinysrgb&crop=">](
+https://unsplash.com/photos/4Cjn0FDEud8)
+Photo by 张 学欢 on Unsplash - https://unsplash.com/photos/4Cjn0FDEud8
 
 
 Since I am getting more and more advanced, now it was time to take a look into Typescript. Not because of the simple transpiling of JavaScript, but rather because of the static typing concept.
