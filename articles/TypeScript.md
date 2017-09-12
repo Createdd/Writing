@@ -7,7 +7,7 @@ Photo by 张 学欢 on Unsplash - https://unsplash.com/photos/4Cjn0FDEud8
 
 Since I am getting more and more advanced, now it was time to take a look into Typescript. Not because of the simple linting of JavaScript code, but rather because of the static typing concept.
 
-In order to provide a certain standard of quality I content wise mostly refer to and quote the following sources: 
+In order to provide a certain standard of quality I mostly refer to and quote the following sources: 
 
 - [The Github repository and wiki of Microsoft](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals)
 (Licensed under [Apache License 2.0](https://github.com/Microsoft/TypeScript-Handbook/blob/master/LICENSE))
