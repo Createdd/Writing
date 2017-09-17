@@ -73,7 +73,7 @@ Use tracer bullets and prototyping to evaluate an environment and adapt it's too
 
 Regarding tools stick to powerful basics. 
 Use GUIs wisely. They might be easier to start with but are limited. Plain text is always on top in terms of speed and opportunity.
-Choose one editor that covers the basics (cofigurable, extensible, syntax highlighting, etc.) and always use source/version control.
+Choose one editor that covers the basics (configurable, extensible, syntax highlighting, etc.) and always use source/version control.
 
 For debugging:
 - focus on solving, rather than blaming
@@ -83,6 +83,13 @@ For debugging:
 - use rubber ducking (explain the bug to someone)
 
 Aim to write code, that writes code (for example uses JSX).
+
+## Pragmatic Paranoia
+
+Don't overestimate yourself. Nobody alone writes perfect code. 
+Create assertions where they are absolutely necessary. Exceptions should only be used for exceptional problems.
+
+## Bend or Break
 
 
 
