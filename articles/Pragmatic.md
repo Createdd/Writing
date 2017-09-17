@@ -22,7 +22,21 @@ This is a summary of the conclusions from ["The Pragmatic Programmer", by Andrew
 
 There are already many summaries of this book. But the concepts are important and worth repeating. At the end you will find a list with other summaries, in case you want other opinions as well.
 
-## 
+## Content
+
+The book divides itself into the following:
+
+1. the pragmatic philosophy
+1. the pragmatic approach
+1. the basic tools
+1. pragmatic paranoia
+1. bend or break
+1. while you are coding
+1. before a project
+1. pragmatic projects
+
+## Pragmatic Philosophy
+
 
 
 ## Useful links & credits
