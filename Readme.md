@@ -47,6 +47,7 @@
 1. [🌟 Learnings from my first full-stack app in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/LearningsFirstFullStack.md)
 1. [🌟 Understanding Machine Learning](https://github.com/DDCreationStudios/Writing/blob/master/articles/UnderstandingML.md)
 1. [⚛️ Introducing TypeScript (with a section on JSX)](https://github.com/DDCreationStudios/Writing/blob/master/articles/TypeScript.md)
+1. [🌐 Summary of the Pragmatic Programmer](https://github.com/DDCreationStudios/Writing/blob/master/articles/Pragmatic.md)
 
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
