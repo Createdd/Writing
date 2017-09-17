@@ -99,6 +99,21 @@ Create assertions where they are absolutely necessary. Exceptions should only be
 
 ## While Coding
 
+Program deliberately instead by coincidence. 
+- always be aware of what you are doing
+- only rely on reliable things
+- document you assumptions
+- not only test your code but also your assumptions
+- refactor often and early. Do not add functionality. Have good tests before refactoring. 
+- don't use wizard code
+- test units and against the contract. Set up a test environment to automate.
+
+
+ 
+
+
+
+
 
 
 
