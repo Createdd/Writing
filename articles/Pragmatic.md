@@ -51,7 +51,12 @@ In the first chapter of the book general concepts and approaches are described.
 - knowledge is power. Learn everyday as much as you can. diversify.
 - communicate efficiently. Know your stuff and know your audience
 
+## Pragmatic Approach
 
+Now concepts are more focused on the development area.
+
+- always stay as DRY as possible (Don't repeat yourself). Avoid duplicating code, information or documentation.
+- follow the principle of [orthogonality](https://en.wikipedia.org/wiki/Orthogonality_(programming)) (set a small set of primitive constructs, that can be combined in a small number of ways)
 
 
 
