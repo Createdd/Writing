@@ -7,7 +7,7 @@ Photo by Stacy Wyss on Unsplash - https://unsplash.com/photos/-aDl1z8_nGY
 
 I like to give myself the illusion that I handle many things in a "pragmatic" way. I like the concept. Therefore I dive into pragmatic concepts in programming.
 
-This is a summary of the conclusions from ["The Pragmatic Programmer", by Andrew Hunt and David Thomas](https://www.amazon.de/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?ie=UTF8&qid=1505644110&sr=8-1&keywords=pragmatic+programmer).
+This is a summary of the conclusions from ["The Pragmatic Programmer", by Andrew Hunt and David Thomas](https://www.amazon.de/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?ie=UTF8&qid=1505644110&sr=8-1&keywords=pragmatic+programmer) added with some of my thoughts.
 
 
 ## 📄 Table of contents
@@ -36,6 +36,25 @@ The book divides itself into the following:
 1. pragmatic projects
 
 ## Pragmatic Philosophy
+
+Before going into it's concepts I would like to revisit it's [definition and quote Wikipedia](https://en.wikipedia.org/wiki/Pragmatism):
+
+> Pragmatism considers thought an instrument or tool for prediction, problem solving and action, and rejects the idea that the function of thought is to describe, represent, or mirror reality. Pragmatists contend that most philosophical topics—such as the nature of knowledge, language, concepts, meaning, belief, and science—are all best viewed in terms of their practical uses and successes.
+
+In the first chapter of the book general concepts and approaches are described.
+
+- enjoy what you are doing
+- find solutions instead of excuses
+- fix problems where they occur and work on the source and not the result
+- zoom out to the big picture and welcome changes
+- set up a quality standard. Follow it.
+- knowledge is power. Learn everyday as much as you can. diversify.
+- communicate efficiently. Know your stuff and know your audience
+
+
+
+
+
 
 
 
