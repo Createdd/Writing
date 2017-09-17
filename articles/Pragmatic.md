@@ -109,7 +109,13 @@ Program deliberately instead by coincidence.
 - test units and against the contract. Set up a test environment to automate.
 
 
- 
+## Before the project 
+
+> The key to solving puzzles is both to recognize the constraints placed on you and to recognize the degrees of freedom you do have, for in those you'll find your solution.
+
+Never sacrifice the bigger picture for specialization. Remind yourself of the bigger picture whenever possible.
+
+## Pragmatic projects
 
 
 
