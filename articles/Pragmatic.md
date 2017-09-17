@@ -1,4 +1,4 @@
-# Programming the pragmatic side
+# Programming - the pragmatic approach
 
 [<img src="https://images.unsplash.com/reserve/NnDHkyxLTFe7d5UZv9Bk_louvre.jpg?dpr=2&auto=format&fit=crop&w=1080&h=730&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/-aDl1z8_nGY)
@@ -70,6 +70,26 @@ Use tracer bullets and prototyping to evaluate an environment and adapt it's too
 
 
 ## Basic tools
+
+Regarding tools stick to powerful basics. 
+Use GUIs wisely. They might be easier to start with but are limited. Plain text is always on top in terms of speed and opportunity.
+Choose one editor that covers the basics (cofigurable, extensible, syntax highlighting, etc.) and always use source/version control.
+
+For debugging:
+- focus on solving, rather than blaming
+- dive to the root of the problem and don't use quick fixes
+- find the root by elimination
+- try to reproduce the bug (identify the core problem)
+- use rubber ducking (explain the bug to someone)
+
+Aim to write code, that writes code (for example uses JSX).
+
+
+
+
+
+
+
 
 
 ## Useful links & credits
