@@ -53,14 +53,23 @@ In the first chapter of the book general concepts and approaches are described.
 
 ## Pragmatic Approach
 
-Now concepts are more focused on the development area.
-
-- always stay as DRY as possible (Don't repeat yourself). Avoid duplicating code, information or documentation.
-- follow the principle of [orthogonality](https://en.wikipedia.org/wiki/Orthogonality_(programming)) (set a small set of primitive constructs, that can be combined in a small number of ways)
+Now the authors focus more on the development area.
 
 
+Always stay as DRY as possible (Don't repeat yourself). Avoid duplicating code, information or documentation. Every piece of knowledge should be a single, unambiguous, authoritative representation within a system.
+
+Follow the principle of [orthogonality](https://en.wikipedia.org/wiki/Orthogonality_(programming)). Set a small set of primitive constructs, that can be combined in a small number of ways. It allows to:
+- reduce the numbers of errors
+- divide functions within an application easier
+- divide teams more logical
+- test faster
+
+Use tracer bullets and prototyping to evaluate an environment and adapt it's tools accordingly. Whereas tracer bullets (can be algorithms, techniques, languages, or libraries) should penetrate a bigger area, prototyping provides great feedback when exploring a more focused are of the project (can be new features in an existing system, contents of external data/tools, user interface design). 
+
+> Shoot tracer bullets to explore, prototype to learn!
 
 
+## Basic tools
 
 
 ## Useful links & credits
