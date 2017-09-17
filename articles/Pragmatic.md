@@ -91,6 +91,14 @@ Create assertions where they are absolutely necessary. Exceptions should only be
 
 ## Bend or Break
 
+- The law of Demeter: Minimize coupling, since each combination can lead to unexpected results.
+- Dynamic configuration: Put abstractions in Code and details into metadata. Program for the general case and de-module specifics.
+- Design for Concurrency: maximize parallelism wherever possible.
+- Separate the codebase into a MVC structure: Divide functions and use subscribe mechanisms to act only when needed. 
+- Use blackboard implementations: store active objects and retrieve data when necessary.
+
+## While Coding
+
 
 
 
