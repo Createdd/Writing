@@ -12,6 +12,18 @@ This is a summary of the conclusions from ["The Pragmatic Programmer", by Andrew
 
 ## 📄 Table of contents
 
+- [Intro](#intro)
+- [Content](#content)
+- [Pragmatic Philosophy](#pragmatic-philosophy)
+- [Pragmatic Approach](#pragmatic-approach)
+- [Basic tools](#basic-tools)
+- [Pragmatic Paranoia](#pragmatic-paranoia)
+- [Bend or Break](#bend-or-break)
+- [While Coding](#while-coding)
+- [Before the project](#before-the-project)
+- [Pragmatic projects](#pragmatic-projects)
+- [Useful links & credits](#useful-links--credits)
+
 
 ---
 >“Whenever a theory appears to you as the only possible one, take this as a sign that you have neither understood the theory nor the problem which it was intended to solve.” 
@@ -117,23 +129,20 @@ Never sacrifice the bigger picture for specialization. Remind yourself of the bi
 
 ## Pragmatic projects
 
-
-
-
-
-
-
-
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- organize a team by functionality rather than "job functions" and let them organize themselves within
+- ubiquitous automation: building the project, tests, statistics, etc.
+- always testing - early, often, automatically
+- always document: in the code and outside, use the same principles as when writing code
+- expect greatness: Exceed the users' expectations
 
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
+
+
+## Useful links & credits
+- [📄 Summary of The-Pragmatic-Programmer by HugoMatilla](https://github.com/HugoMatilla/The-Pragmatic-Programmer)
+- [📄 Summary of The-Pragmatic-Programmer by Nearsoft](http://academy.nearsoft.com/project-updates/summaryofthebookthepragmaticprogrammerfromjourneymantomaster)
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
