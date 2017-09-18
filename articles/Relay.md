@@ -17,12 +17,20 @@ Empty of essence, what learning has he whether upon him is firewood or book?”
 ― Saadi
 ---
 
-##
+## The eco system
+
+An application using Relay requires:
+- A GraphQL Schema
+- A GraphQL Server
+- Relay
+
+
 
 
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
+- [📄 "React + Relay Tutorial"](https://www.howtographql.com/react-relay/0-introduction/)
 
 
 
