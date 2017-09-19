@@ -42,6 +42,37 @@ An application using Relay requires:
 - A GraphQL Server ()
 - Relay
 
+In short:
+>  React lets you build your UI declaratively, Relay lets you describe your data declaratively using GraphQL.
+
+## Queries
+
+To make a request to a server a query has to be sent. 
+Data can be accessed by the identifier of an item (`node(id:$id)`) or by properties of a certain user (`viewer` object).
+
+#### Containers
+
+Containers are high-order components. They check if the data is available and update the component when the required data has been updated.
+
+Quoting the [learnrelay.org section](https://www.learnrelay.org/queries/containers-fragments#creating-a-relay-container):
+
+```javascript
+//A new Relay container is created and injects the prop 'viewer' to the ListPage component.
+export default Relay.createContainer(
+  ListPage,
+  {
+    fragments: {
+      viewer: () => Relay.QL`
+        fragment on Viewer {
+          id
+        }
+      `,
+    },
+  },
+)
+```
+
+
 
 
 
