@@ -50,18 +50,18 @@ In short:
 To make a request to a server a query has to be sent. 
 Data can be accessed by the identifier of an item (`node(id:$id)`) or by properties of a certain user (`viewer` object).
 
-#### Containers
+#### Containers and fragments
 
 **Containers** are high-order components. They check if the data is available and update the component when the required data has been updated.
 
-**Fragments** allow to compose components to queries. 
+**Fragments** allow to compose components to queries. The are used by containers to define its own data requirements by creating a list of fragments (Note, that container can also use fragments defined by other containers!).
 
 From the [learnrelay.org section](https://www.learnrelay.org/queries/containers-fragments#creating-a-relay-container):
 
 ```jsx
+//index.js
+const ViewerQueries = { viewer: () => Relay.QL`query { viewer }` }
 <Route path='/' component={ListPage} queries={ViewerQueries} />
-
-
 
 //A new Relay container is created and injects the prop 'viewer' to the ListPage component.
 // A fragment on top of the viewer object defined in ViewerQueries is built
@@ -78,9 +78,42 @@ export default Relay.createContainer(
   },
 )
 ```
+#### Variables
 
+> Using query variables in this situation can increase code quality and performance, as string building is quite a costly operation.
 
+From the [learnrelay.org section](https://www.learnrelay.org/queries/variables):
+```jsx
+//Initially, we sort descending by id and thus only query the first 100 Pokemons. If however the sortOrder variable is changed from within the component with a call to setVariables, we might change that amount to 1000.
 
+export default Relay.createContainer(
+  ListPage,
+  {
+    initialVariables: {
+      sortOrder: 'id_DESC'
+    },
+    prepareVariables: (prevVariables) => ({
+      amount: prevVariables.sortOrder.startsWith('id') ? 100 : 1000
+    }),
+    fragments: {
+      viewer: () => Relay.QL`
+        fragment on Viewer {
+          allPokemons (first: $amount, orderBy: $sortOrder) {
+            edges {
+              node {
+                ${PokemonPreview.getFragment('pokemon')}
+                id
+                name
+                url
+              }
+            }
+          }
+        }
+      `,
+    },
+  },
+)
+```
 
 
 
@@ -89,6 +122,7 @@ export default Relay.createContainer(
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
+- [📄 "learnrelay" on Github](https://github.com/learnrelay/learnrelay) under [MIT](https://github.com/learnrelay/learnrelay/blob/master/LICENSE)
 - [📄 "React + Relay Tutorial"](https://www.howtographql.com/react-relay/0-introduction/)
 
 
