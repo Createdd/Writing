@@ -52,12 +52,19 @@ Data can be accessed by the identifier of an item (`node(id:$id)`) or by propert
 
 #### Containers
 
-Containers are high-order components. They check if the data is available and update the component when the required data has been updated.
+**Containers** are high-order components. They check if the data is available and update the component when the required data has been updated.
 
-Quoting the [learnrelay.org section](https://www.learnrelay.org/queries/containers-fragments#creating-a-relay-container):
+**Fragments** allow to compose components to queries. 
 
-```javascript
+From the [learnrelay.org section](https://www.learnrelay.org/queries/containers-fragments#creating-a-relay-container):
+
+```jsx
+<Route path='/' component={ListPage} queries={ViewerQueries} />
+
+
+
 //A new Relay container is created and injects the prop 'viewer' to the ListPage component.
+// A fragment on top of the viewer object defined in ViewerQueries is built
 export default Relay.createContainer(
   ListPage,
   {
@@ -71,6 +78,9 @@ export default Relay.createContainer(
   },
 )
 ```
+
+
+
 
 
 
