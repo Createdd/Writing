@@ -5,14 +5,9 @@ Photo by gdtography on Unsplash - https://unsplash.com/photos/LCJ9iOli-uE
 
 GraphQL is on the rise and so is the React inspired, data-driven framework Relay.
 
-![RelayLogo](https://facebook.github.io/relay/img/logo.svg)(Source: [Facebook on Github](https://facebook.github.io/relay/))
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [Introducing Relay (Classic)](#introducing-relay-classic)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [The USP](#the-usp)
   - [Queries](#queries)
       - [Containers and fragments](#containers-and-fragments)
@@ -28,8 +23,6 @@ GraphQL is on the rise and so is the React inspired, data-driven framework Relay
   - [A note on Relay Modern](#a-note-on-relay-modern)
   - [Useful links & credits](#useful-links--credits)
 
-<!-- /TOC -->
-
 
 ---
 >“However much you study, you cannot know without action. 
@@ -37,6 +30,11 @@ A donkey laden with books is neither an intellectual nor a wise man.
 Empty of essence, what learning has he whether upon him is firewood or book?” 
 ― Saadi
 ---
+
+
+![RelayLogo](https://facebook.github.io/relay/img/logo.svg)
+
+(Source: [Facebook on Github](https://facebook.github.io/relay/))
 
 ## The USP
 
