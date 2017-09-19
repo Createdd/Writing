@@ -250,16 +250,17 @@ Overall improvements in Relay Modern:
 - flow type generation
 - routes don't need to know about a query root
 
+___
 
+Thanks for reading my article! Feel free to leave any feedback! 
+
+___
 
 ## Useful links & credits
 - [Relay on Github](afgafgadgads) under [BSD-3-Clause](https://github.com/facebook/relay/blob/master/LICENSE)
 - [Learnrelay on Github](https://github.com/learnrelay/learnrelay) under [MIT](https://github.com/learnrelay/learnrelay/blob/master/LICENSE)
-- ["React + Relay Tutorial"](https://www.howtographql.com/react-relay/0-introduction/) under [MIT](https://github.com/howtographql/howtographql/blob/master/LICENSE.txt)
+- [React + Relay Tutorial](https://www.howtographql.com/react-relay/0-introduction/) under [MIT](https://github.com/howtographql/howtographql/blob/master/LICENSE.txt)
 
-
-
-Thanks for reading my article! Feel free to leave any feedback! 
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
