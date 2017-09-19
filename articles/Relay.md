@@ -1,13 +1,34 @@
-# Introducing Relay
+# Introducing Relay (Classic)
 [<img src="https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?dpr=2&auto=format&fit=crop&w=1080&h=721&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/LCJ9iOli-uE)
 Photo by gdtography on Unsplash - https://unsplash.com/photos/LCJ9iOli-uE
 
 GraphQL is on the rise and so is the React inspired, data-driven framework Relay.
 
-
+![RelayLogo](https://facebook.github.io/relay/img/logo.svg)(Source: [Facebook on Github](https://facebook.github.io/relay/))
 
 ## 📄 Table of contents
+
+<!-- TOC -->
+
+- [Introducing Relay (Classic)](#introducing-relay-classic)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [The USP](#the-usp)
+  - [Queries](#queries)
+      - [Containers and fragments](#containers-and-fragments)
+      - [Variables](#variables)
+  - [Connections](#connections)
+  - [Routes](#routes)
+      - [React Router](#react-router)
+  - [Mutations](#mutations)
+      - [Methods](#methods)
+      - [Relay Store](#relay-store)
+      - [Types](#types)
+      - [Optimistic updates](#optimistic-updates)
+  - [A note on Relay Modern](#a-note-on-relay-modern)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 
 ---
@@ -17,7 +38,7 @@ Empty of essence, what learning has he whether upon him is firewood or book?”
 ― Saadi
 ---
 
-## The power
+## The USP
 
 Quoting Facebook's [introduction article](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html): 
 
@@ -27,20 +48,15 @@ Quoting Facebook's [introduction article](https://facebook.github.io/react/blog/
 
 > Relay provides a predictable environment for developers by maintaining an invariant: a component won't be rendered until all the data it requested is available. Additionally, queries are defined statically (ie. we can extract queries from a component tree before rendering) and the GraphQL schema provides an authoritative description of what queries are valid, so we can validate queries early and fail fast when the developer makes a mistake.
 
+React and Relay in short:
+> Relay couples React with GraphQL and develops the idea of encapsulation further. It allows components to specify what data they need and the Relay framework provides the data. 
+
+>  React lets you build your UI declaratively, Relay lets you describe your data declaratively using GraphQL.
+
 Relating to a FLUX architecture:
 
 > In some ways Relay is inspired by Flux, but the mental model is much simpler. Instead of multiple stores, there is one central store that caches all GraphQL data. Instead of explicit subscriptions, the framework itself can track which data each component requests, and which components should be updated whenever the data change. Instead of actions, modifications take the form of mutations.
 
-
-## The eco system
-
-An application using Relay requires:
-- A GraphQL Schema (description of a data model with associated methods to fetch data)
-- A GraphQL Server ()
-- Relay
-
-In short:
->  React lets you build your UI declaratively, Relay lets you describe your data declaratively using GraphQL.
 
 ## Queries
 
@@ -212,12 +228,34 @@ Allows to define a desired server response.
 
 > To specify the optimistic response for a mutation, you can use the `getOptimisticResponse` method. The optimistic response acts as a mock payload and should only contain fields that you also included in your `fat query`, or `viewer`.
 
+## A note on Relay Modern
+
+From the [docs](https://facebook.github.io/relay/docs/relay-modern.html):
+
+> Relay Modern is a new version of Relay designed from the ground up to be easier to use, more extensible and, most of all, able to improve performance on mobile devices. Relay Modern accomplishes this with static queries and ahead-of-time code generation.
+
+The new API offers compat mode (which allows to adopt an existing Relay app into Relay Modern):
+- removes the restrictions on mutation queries and `QueryRenderer` from Relay Classic
+- routes are optional
+- `QueryRenderer`supports rendering small data directly without requiring a container
+
+Overall improvements in Relay Modern:
+- better performance,
+- smaller bundle size
+- garbage collection (removing not referenced cache data)
+- GraphQL subscriptions
+- injectable custom field handlers
+- simpler mutation API
+- client schema extensions
+- flow type generation
+- routes don't need to know about a query root
+
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-- [📄 "learnrelay" on Github](https://github.com/learnrelay/learnrelay) under [MIT](https://github.com/learnrelay/learnrelay/blob/master/LICENSE)
-- [📄 "React + Relay Tutorial"](https://www.howtographql.com/react-relay/0-introduction/)
+- [Relay on Github](afgafgadgads) under [BSD-3-Clause](https://github.com/facebook/relay/blob/master/LICENSE)
+- [Learnrelay on Github](https://github.com/learnrelay/learnrelay) under [MIT](https://github.com/learnrelay/learnrelay/blob/master/LICENSE)
+- ["React + Relay Tutorial"](https://www.howtographql.com/react-relay/0-introduction/) under [MIT](https://github.com/howtographql/howtographql/blob/master/LICENSE.txt)
 
 
 
