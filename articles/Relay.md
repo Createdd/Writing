@@ -32,9 +32,6 @@ Relating to a FLUX architecture:
 > In some ways Relay is inspired by Flux, but the mental model is much simpler. Instead of multiple stores, there is one central store that caches all GraphQL data. Instead of explicit subscriptions, the framework itself can track which data each component requests, and which components should be updated whenever the data change. Instead of actions, modifications take the form of mutations.
 
 
-
-
-
 ## The eco system
 
 An application using Relay requires:
@@ -83,7 +80,7 @@ export default Relay.createContainer(
 > Using query variables in this situation can increase code quality and performance, as string building is quite a costly operation.
 
 From the [learnrelay.org section](https://www.learnrelay.org/queries/variables):
-```jsx
+```javascript
 //Initially, we sort descending by id and thus only query the first 100 Pokemons. If however the sortOrder variable is changed from within the component with a call to setVariables, we might change that amount to 1000.
 
 export default Relay.createContainer(
@@ -113,6 +110,28 @@ export default Relay.createContainer(
     },
   },
 )
+```
+
+## Connections
+
+Connections are relations between models. Relations between models or nodes are called 'edges' in Relay.
+
+
+```javascript
+//This will return a list of edges that all contain the id, name and url of every pokemon node in the allPokemons connection.
+query {
+  viewer {
+    allPokemons (first: 1000) {
+      edges {
+        node {
+          id
+          name
+          url
+        }
+      }
+    }
+  }
+}
 ```
 
 
