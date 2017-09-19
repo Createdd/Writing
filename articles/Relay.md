@@ -3,7 +3,7 @@
 https://unsplash.com/photos/LCJ9iOli-uE)
 Photo by gdtography on Unsplash - https://unsplash.com/photos/LCJ9iOli-uE
 
-GraphQL is on the rise and so is the React inspired, data-driven framework Relay.
+GraphQL is on the rise and so is the React inspired, data-driven framework Relay. This article introduces the concepts and is a composition of various sources and my own conclusions.
 
 
 ## 📄 Table of contents
@@ -32,7 +32,7 @@ Empty of essence, what learning has he whether upon him is firewood or book?”
 ---
 
 
-![RelayLogo](https://facebook.github.io/relay/img/logo.svg)
+[![RelayLogo](https://facebook.github.io/relay/img/logo.svg)](https://facebook.github.io/relay/)
 
 (Source: [Facebook on Github](https://facebook.github.io/relay/))
 
@@ -232,7 +232,7 @@ From the [docs](https://facebook.github.io/relay/docs/relay-modern.html):
 
 > Relay Modern is a new version of Relay designed from the ground up to be easier to use, more extensible and, most of all, able to improve performance on mobile devices. Relay Modern accomplishes this with static queries and ahead-of-time code generation.
 
-The new API offers compat mode (which allows to adopt an existing Relay app into Relay Modern):
+The new API offers "compat mode" (which allows to adopt an existing Relay app into Relay Modern). It:
 - removes the restrictions on mutation queries and `QueryRenderer` from Relay Classic
 - routes are optional
 - `QueryRenderer`supports rendering small data directly without requiring a container
