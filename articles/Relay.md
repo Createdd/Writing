@@ -176,6 +176,34 @@ const pokemonRoute = {
 </Router>
 ```
 
+## Mutations
+
+Modifying or deleting data in the store is called mutation. Mutations consist of two steps: writing data to the store and reading all changed data from the store.
+
+#### Methods
+
+- getMutation() (to specify a name of a GraphQL mutation that we want to use)
+- getVariables() (to prepare data that will be sent as input arguments in the GraphQL mutation)
+- getFatQuery() (to specify all fields in our Relay Store that could have changed due to the mutation)
+- getConfigs() (to tell Relay how to deal with the response data)
+
+#### Relay Store
+
+> Relay Store is a class that has two static methods for dispatching a mutation to the remote server, similar to calling an "Action" in Redux.
+
+- commitUpdate() (to dispatch our mutation to the server)
+- applyUpdate() (similar to commitUpdate but returns a transaction object to the mutation)
+
+#### Types
+
+Relay employs a client-side cache, which means that whenever a mutation is sent to the server, Relay needs to know how to update the cache with the mutation query result. Hence it's necessary to add mutation types to the `getConfigs` array.
+
+Those types can be:
+- RANGE_ADD (for creating a new node)
+- FIELDS_CHANGE (for updating existing nodes)
+- NODE_DELETE (for deleting a node)
+- RANGE_DELETE (for deleting edges between nodes)
+- REQUIRED_CHILDREN (for targeting fields that are not reachable, for example when a redirect to a newly created node is desired - rare cases)
 
 
 
