@@ -205,6 +205,13 @@ Those types can be:
 - RANGE_DELETE (for deleting edges between nodes)
 - REQUIRED_CHILDREN (for targeting fields that are not reachable, for example when a redirect to a newly created node is desired - rare cases)
 
+#### Optimistic updates
+Allows to define a desired server response. 
+
+> In practice, optimistic updates improve the user experience by providing quick positive feedback to the user for a comparatively low trade off of occasionally misinforming the user of a successful action when really some kind of error occurred.
+
+> To specify the optimistic response for a mutation, you can use the `getOptimisticResponse` method. The optimistic response acts as a mock payload and should only contain fields that you also included in your `fat query`, or `viewer`.
+
 
 
 ## Useful links & credits
