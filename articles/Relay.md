@@ -135,6 +135,46 @@ query {
 ```
 
 
+## Routes
+
+> Routes are normal objects that declare root queries. Relay will aggregate the defined queries with fragments by using Relay.Renderer and send them to a remote server to fetch data.
+
+```jsx
+//Relay.Renderer will extract the fragment from the ListPage container and combine it with the pokemonRoute. Relay now knows where the starting node is and which data it needs to fetch. It will then send a request to a remote server and put the returned data in the specified store.
+const pokemonRoute = {
+  queries: {
+    viewer: () => Relay.QL`
+      query { viewer(first: $limit) }
+    `
+  },
+  params: {
+    limit: '1000'
+  },
+  name: 'PokemonRoute'
+}
+
+<Relay.Renderer
+  Container={ListPage}                 // Relay Container
+  queryConfig={pokemonRoute}           // Our route that we defined previously
+  environment={Relay.Store}            // Default Relay store
+/>
+```
+
+#### React Router
+
+```jsx
+<Router                                         // Router is a root component
+  environment={Relay.Store}                     // Use the default Relay store to keep our data
+  render={applyRouterMiddleware(useRelay)}      // Tell React Router to use Relay routing system
+  history={browserHistory}                      // Use Browser History
+>
+  <Route                                        // Setup a path for the home page
+    path='/'
+    component={HomePage}
+    queries={ViewerQueries}
+  />
+</Router>
+```
 
 
 
