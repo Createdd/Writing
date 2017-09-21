@@ -214,7 +214,19 @@ Use the Socket docs to set up listeners to:
 - Save data to the database 
 - Remove data from the database
 
-Make sure to interact
+Make sure to interact in the listener function with the mongoose model to harness the power of MongoDB.
+
+---
+
+On an additional note and because I spend literally 1 week on this issue:
+
+Use `socket.BROADCAST.emit` to send the message to ALL sockets!!!
+
+See more [here](https://stackoverflow.com/questions/9837998/socket-io-client-not-receiving-messages-from-server).
+
+---
+
+
 
 
 
