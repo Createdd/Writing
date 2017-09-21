@@ -26,6 +26,8 @@ Enjoy
       - [Routes](#routes)
       - [Adding Websocket](#adding-websocket)
   - [Adapt Frontend to the websocket](#adapt-frontend-to-the-websocket)
+      - [Async actions in ducks/stocks.js (snippet):](#async-actions-in-ducksstocksjs-snippet)
+      - [Collapsible Container - CollapsibleCon.js (snippet)](#collapsible-container---collapsibleconjs-snippet)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -244,6 +246,176 @@ See more [here](https://stackoverflow.com/questions/9837998/socket-io-client-not
 ---
 
 ## Adapt Frontend to the websocket
+
+The "problem" you have to overcome here is to render the components accordingly to the emitted actions of the socket. 
+
+Key for these configurations are the handling in the component itself and in the ducks (Redux files).
+
+I solved it by wiring up the container component with socket.io client and listening for changes. I did this with the `componentDidMount` lifecycle. Every time a message is emitted by the socket the component shall consult the database with dispatching actions to the Redux files. 
+
+In the Redux files I fetch the data from the database and compare it with the current store of the application. Depending on this comparison the app fetches all data again from the Quandl service. This way every new socket client is able to check for themselves and always has the most up-to-date data.
+
+Note, that I am not sure if this way is a good practice for a Redux/react application, since I handle much logic in the async action. Feel free to point out mistakes or misunderstood concepts! :)
+
+
+#### Async actions in ducks/stocks.js (snippet):
+
+```javascript
+// Async actions with thunk
+export function checkDB(stocks) {
+	return dispatch =>
+		axios
+			.get('/api/stocks')
+			.then(res => {
+				if (stocks.length === 0) {
+					res.data.map(elem => {
+						dispatch(fetchStock(elem.stockName));
+					});
+				} else if (res.data.length < stocks.length) {
+					dispatch(removeStock(stocks.length - 1));
+				} else {
+					let diff = [];
+					res.data.map((item, i) => {
+						if (i < stocks.length) {
+							if (res.data[i].stockName !== stocks[i].dataset.dataset_code) {
+								diff.push({
+									stockName: item.stockName
+								});
+							}
+						} else if (i === stocks.length) {
+							diff.push({
+								stockName: item.stockName
+							});
+						} else {
+							diff = [];
+						}
+					});
+
+					diff.map(elem => {
+						dispatch(fetchStock(elem.stockName));
+					});
+					diff = [];
+					// console.log(res);
+				}
+			})
+			.catch(err => {
+				console.warn(err);
+			});
+}
+
+export function fetchStock(stockCode) {
+	return dispatch =>
+		axios
+			.get(
+				`https://www.quandl.com/api/v3/datasets/WIKI/${stockCode}.json?api_key=${process
+					.env.REACT_APP_QUANDL_KEY}`
+			)
+			.then(res => {
+				dispatch(addStock(res.data));
+				// console.log(res.data);
+			})
+			.catch(err => {
+				console.error(err);
+				toastr['warning'](' ', 'Stock Code cannot be found!');
+			});
+}
+
+export function newStock(stockCode, socket) {
+	socket.emit('update', stockCode);
+	return dispatch =>
+		axios
+			.get(
+				`https://www.quandl.com/api/v3/datasets/WIKI/${stockCode}.json?api_key=${process
+					.env.REACT_APP_QUANDL_KEY}`
+			)
+			.then(res => {
+				dispatch(addStock(res.data));
+				// console.log(res.data);
+			})
+			.then(socket.emit('addStock', stockCode))
+			.catch(err => {
+				console.error(err);
+				toastr['warning'](' ', 'Stock Code cannot be found!');
+			});
+}
+
+export function deleteStock(ind, stockCode) {
+	const socket = socketIOClient('https://createdd-stockmarketchart.herokuapp.com/');
+	socket.emit('removeStock', stockCode);
+	return dispatch => {
+		dispatch(removeStock(ind));
+		console.log(`Deleted ${stockCode}`);
+	};
+}
+```
+
+
+#### Collapsible Container - CollapsibleCon.js (snippet)
+
+```jsx
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import io from 'socket.io-client';
+
+import Collapsible from './Collapsible';
+import { checkDB, newStock, deleteStock } from '../../ducks/stocks';
+
+export class CollapsibleCon extends React.Component {
+	constructor(props) {
+		super(props);
+		const socket = io('https://createdd-stockmarketchart.herokuapp.com/');
+		this.state = {
+			value: '',
+			response: '',
+			lastAdd: '',
+			socket: socket
+		};
+		this.addStock = this.addStock.bind(this);
+		this.removeStock = this.removeStock.bind(this);
+		this.handleChange = this.handleChange.bind(this);
+	}
+	componentWillMount() {
+		this.props.checkDB(this.props.stocks);
+	}
+
+	componentDidMount() {
+		this.state.socket.on('connect', () => {
+			return console.warn('socket working! id: ' + this.state.socket.id);
+		});
+		this.state.socket.on('update', () => {
+			this.props.checkDB(this.props.stocks);
+		});
+		this.state.socket.on('removed', () => {
+			this.props.checkDB(this.props.stocks);
+		});
+	}
+	handleChange(e) {
+		this.setState({ value: e.target.value });
+	}
+	addStock(e) {
+		e.preventDefault();
+		this.props.newStock(this.state.value, this.state.socket);
+		this.setState({ value: '' });
+	}
+	removeStock(ind, stockCode) {
+		this.props.deleteStock(ind, stockCode);
+	}
+	render() {
+		return (
+			<div>
+				<Collapsible
+					stocks={this.props.stocks}
+					addStock={this.addStock}
+					removeStock={this.removeStock}
+					onChange={this.handleChange}
+					value={this.state.value}
+				/>
+			</div>
+		);
+	}
+}
+```
 
 
 
