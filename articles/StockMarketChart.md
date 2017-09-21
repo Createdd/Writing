@@ -31,7 +31,7 @@ The user stories are pretty simple:
 
 It looks like this:
 
-<img src="http://g.recordit.co/RlH1aQ7o9Q.gif" alt="gif"/>
+<img src="http://g.recordit.co/16EkuCTQSd.gif" alt="gif"/>
 
 ## Roadmap
 
@@ -94,6 +94,20 @@ At this point the app was already pretty nice. Now I had to check the last User 
 ___
 
 ## Backend
+
+#### Adding MongoDB
+
+<script src="https://gist.github.com/DDCreationStudios/7c2daccf456b8c4c919a03cb21982cc1.js"></script>
+
+
+
+
+#### Adding Socketio
+
+
+- See open source code [here.](https://github.com/DDCreationStudios/ChartTheStockMarket)
+- See 5min timelapse [here.](https://www.youtube.com/watch?v=8d6829bIxYg)
+- See 1hour relaxing coding session [here.](https://www.youtube.com/watch?v=iPnyrrWJpLU)
 
 
 ## Useful links & credits
