@@ -7,9 +7,6 @@ Once again I was working on an app from the [FreeCodeCamp curriculum](https://ww
 Enjoy
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/ChartTheStockMarket)
-
-
 ## 📄 Table of contents
 
 <!-- TOC -->
@@ -28,6 +25,8 @@ Enjoy
   - [Adapt Frontend to the websocket](#adapt-frontend-to-the-websocket)
       - [Async actions in ducks/stocks.js (snippet):](#async-actions-in-ducksstocksjs-snippet)
       - [Collapsible Container - CollapsibleCon.js (snippet)](#collapsible-container---collapsibleconjs-snippet)
+  - [Deploy to Heroku](#deploy-to-heroku)
+  - [See the result](#see-the-result)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -62,7 +61,8 @@ I learned from [my last full-stack app](https://github.com/DDCreationStudios/Wri
 4. Work over all components, divide them into container components and wire everything up with the Redux store
 5. Build the Chart component with React-Vis
 6. Build the backend using socket.io
-7. Deploy to Heroku
+7. Adapt the frontend to websockets
+8. Deploy to Heroku
 
 ## Frontend
 
@@ -113,6 +113,10 @@ At this point the app was already pretty nice. Now I had to check the last User 
 ___
 
 ## Backend
+
+
+For the data I use the open API from [Quandl](https://www.quandl.com/). 
+
 
 Server: index.js:
 
@@ -218,7 +222,8 @@ module.exports = mongoose.model('stockModel', stockSchema);
 - Connect the express sever to the mlab
 
 To solve the warning about the deprecated mongoose open connection, use openURI.
-For more see [here](http://mongoosejs.com/docs/connections.html).
+
+For more, see [here](http://mongoosejs.com/docs/connections.html).
 
 #### Routes
 
@@ -417,15 +422,26 @@ export class CollapsibleCon extends React.Component {
 }
 ```
 
+## Deploy to Heroku
+
+For the deployment to Heroku it's import
+- to use the create-react-app buildpack when using the webpack server
+- to use the nodeJs buildpack when using your own websocket with your express server
+- to set environment variables
 
 
+## See the result
 
-
-
-
+- See the live app [here](https://createdd-stockmarketchart.herokuapp.com/).
 - See open source code [here.](https://github.com/DDCreationStudios/ChartTheStockMarket)
 - See 5min timelapse [here.](https://www.youtube.com/watch?v=8d6829bIxYg)
 - See 1hour relaxing coding session [here.](https://www.youtube.com/watch?v=iPnyrrWJpLU)
+
+
+
+<img src="http://g.recordit.co/16EkuCTQSd.gif" alt="gif"/>
+
+[![screenshot](../assets/STOCK/youtube.png)](https://www.youtube.com/watch?v=8d6829bIxYg)
 
 
 ## Useful links & credits
