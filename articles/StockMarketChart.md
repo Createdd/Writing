@@ -12,6 +12,23 @@ Enjoy
 
 ## 📄 Table of contents
 
+<!-- TOC -->
+
+- [Charting the Stock Market with React](#charting-the-stock-market-with-react)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [The challenge](#the-challenge)
+  - [Roadmap](#roadmap)
+  - [Frontend](#frontend)
+      - [Setup with the create-react-app package](#setup-with-the-create-react-app-package)
+      - [React, Redux, React-vis](#react-redux-react-vis)
+  - [Backend](#backend)
+      - [Setting up the database (MongoDB hosted with Mlab)](#setting-up-the-database-mongodb-hosted-with-mlab)
+      - [Routes](#routes)
+      - [Adding Websocket](#adding-websocket)
+  - [Adapt Frontend to the websocket](#adapt-frontend-to-the-websocket)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 ---
 >“Failure isn’t a necessary evil. In fact, it isn’t evil at all. It is a necessary consequence of doing something new.” 
@@ -49,9 +66,9 @@ I learned from [my last full-stack app](https://github.com/DDCreationStudios/Wri
 
 I will only highlight the key cornerstones and not provide a step-by-step tutorial.
 
-#### Setup with the [create-react-app package](https://github.com/facebookincubator/create-react-app)
+#### Setup with the create-react-app package
 
-This time I wanted to use this boilerplate because I have used it many times before but never on a full-stack project. Although it has some limitations with the pre-configured structure, the benefits outweigh the problems by a mile. 
+This time I wanted to use [this boilerplate](https://github.com/facebookincubator/create-react-app) because I have used it many times before but never on a full-stack project. Although it has some limitations with the pre-configured structure, the benefits outweigh the problems by a mile. 
 
 Basically it provides an environment, that: 
 
@@ -179,9 +196,9 @@ module.exports = server;
 ___
 
 
-#### Setting up the database (MongoDB hosted with [Mlab](https://mlab.com/))
+#### Setting up the database (MongoDB hosted with Mlab)
 
-- Simply set up the mlab account and a collection for the new app
+- Simply set up the [mlab]((https://mlab.com/)) account and a collection for the new app
 - Create a mongoose model to simplify interactions with the database, like:
 
 ```javascript
@@ -225,6 +242,10 @@ Use `socket.BROADCAST.emit` to send the message to ALL sockets!!!
 See more [here](https://stackoverflow.com/questions/9837998/socket-io-client-not-receiving-messages-from-server).
 
 ---
+
+## Adapt Frontend to the websocket
+
+
 
 
 
