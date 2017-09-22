@@ -120,6 +120,8 @@ For the data I use the open API from [Quandl](https://www.quandl.com/).
 
 Server: index.js:
 
+<script src="https://gist.github.com/DDCreationStudios/7c2daccf456b8c4c919a03cb21982cc1.js"></script>
+
 ___
 ```javascript
 const express = require('express');
@@ -356,6 +358,8 @@ export function deleteStock(ind, stockCode) {
 
 
 #### Collapsible Container - CollapsibleCon.js (snippet)
+
+<script src="https://gist.github.com/DDCreationStudios/1c6ac00b7b2f11fbf0f495f06425cb9b.js"></script>
 
 ```jsx
 import React from 'react';
