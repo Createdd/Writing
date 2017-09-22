@@ -4,6 +4,7 @@
 https://unsplash.com/photos/a6z2tYFEjR8)
 Photo by peggy pardo on Unsplash - https://unsplash.com/photos/a6z2tYFEjR8
 
+
 Once again I was working on an app from the [FreeCodeCamp curriculum](https://www.freecodecamp.org/challenges/chart-the-stock-market). In this article you can read the full documentation on the building process. 
 Enjoy
 
