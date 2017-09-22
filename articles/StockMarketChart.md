@@ -9,10 +9,7 @@ Enjoy
 
 ## 📄 Table of contents
 
-<!-- TOC -->
 
-- [Charting the Stock Market with React](#charting-the-stock-market-with-react)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [The challenge](#the-challenge)
   - [Roadmap](#roadmap)
   - [Frontend](#frontend)
@@ -28,7 +25,6 @@ Enjoy
   - [Deploy to Heroku](#deploy-to-heroku)
   - [See the result](#see-the-result)
 
-<!-- /TOC -->
 
 ---
 >“Failure isn’t a necessary evil. In fact, it isn’t evil at all. It is a necessary consequence of doing something new.” 
@@ -446,7 +442,13 @@ For the deployment to Heroku it's import
 
 [![screenshot](../assets/STOCK/youtube.png)](https://www.youtube.com/watch?v=iPnyrrWJpLU)
 
+___
+
+
 Thanks for reading my article! Feel free to leave any feedback! 
+
+
+___
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
