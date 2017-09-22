@@ -27,7 +27,6 @@ Enjoy
       - [Collapsible Container - CollapsibleCon.js (snippet)](#collapsible-container---collapsibleconjs-snippet)
   - [Deploy to Heroku](#deploy-to-heroku)
   - [See the result](#see-the-result)
-  - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
@@ -438,20 +437,14 @@ For the deployment to Heroku it's import
 
 - See the live app [here](https://createdd-stockmarketchart.herokuapp.com/).
 - See open source code [here.](https://github.com/DDCreationStudios/ChartTheStockMarket)
-- See 5min timelapse [here.](https://www.youtube.com/watch?v=8d6829bIxYg)
-- See 1hour relaxing coding session [here.](https://www.youtube.com/watch?v=iPnyrrWJpLU)
+- See 5min timelapse [here.](https://www.youtube.com/watch?v=iPnyrrWJpLU)
+- See 1hour relaxing coding session [here.](https://www.youtube.com/watch?v=8d6829bIxYg)
 
 
 
 <img src="http://g.recordit.co/16EkuCTQSd.gif" alt="gif"/>
 
-[![screenshot](../assets/STOCK/youtube.png)](https://www.youtube.com/watch?v=8d6829bIxYg)
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-
-
+[![screenshot](../assets/STOCK/youtube.png)](https://www.youtube.com/watch?v=iPnyrrWJpLU)
 
 Thanks for reading my article! Feel free to leave any feedback! 
 
