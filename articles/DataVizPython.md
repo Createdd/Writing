@@ -22,6 +22,37 @@ fsdgsdgsdgsdgds
 - Matplotlib (data visualization library)
 - Pandas (for importing and processing data)
 - Jupyter (interactive Python Notebook)
+- Anaconda as package manager for Python
+
+
+## Distribution Data with Histograms
+
+Histograms help you understand the distribution of a numeric value in a way that you cannot with mean or median alone.
+
+## Time Series / Line Charts
+
+- shows trend of over time
+- test a hypothesis on a variety of conditions
+- reduced misinterpretation of data
+
+## Scatterplots
+
+- show relationships between multiple variables
+- helps you find outliners
+
+## Bar graphs
+
+- help compare numeric values
+- good for comparing multiple values
+
+## Data Aggregation / sampling
+
+- using mean, percentiles
+- evaluating samples multiple times
+
+
+
+
 
 
 
