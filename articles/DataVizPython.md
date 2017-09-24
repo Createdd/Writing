@@ -15,7 +15,15 @@ fsdgsdgsdgsdgds
 >"dsasfasfasf"  - Bezos
 ---
 
-##
+## Python and it's eco system.
+
+- Python as a solid established programming language
+- Has many libraries (especially in the field of science and data visualization)
+- Matplotlib (data visualization library)
+- Pandas (for importing and processing data)
+- Jupyter (interactive Python Notebook)
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
