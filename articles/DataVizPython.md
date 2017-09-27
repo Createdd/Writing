@@ -1,18 +1,18 @@
-# asdasfas
+# Introducing Data Visualization in Python
 
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
+[<img src="https://images.unsplash.com/photo-1495639867387-5423d6811583?dpr=1&auto=compress,format&fit=crop&w=2550&h=&q=80&cs=tinysrgb&crop=">](
+https://unsplash.com/photos/y3FkHW1cyBE)
+Photo by Arif Wahid on Unsplash - https://unsplash.com/photos/y3FkHW1cyBE
 
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/RESTAPIIntro)
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/pythonDataVis)
 
 
 ## 📄 Table of contents
 
 
 ---
->"dsasfasfasf"  - Bezos
+>"To accomplish great things we must first dream, then visualize, then plan... believe... act!" - Alfred A. Montapert
 ---
 
 ## Python and it's eco system.
