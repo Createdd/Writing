@@ -80,9 +80,18 @@ plt.legend(['United States', 'China'])
 plt.xlabel('year')
 plt.ylabel('GDP per capita')
 plt.show()
+
+usGrowth = us.gdpPerCapita / us.gdpPerCapita.iloc[0] * 100
+chinaGrowth = china.gdpPerCapita / china.gdpPerCapita.iloc[0] * 100
+
+plt.plot(us.year, usGrowth)
+plt.plot(china.year, chinaGrowth)
+plt.legend(['United States', 'China'])
+plt.xlabel('year')
+plt.ylabel('GDP growth per capita')
+plt.show()
 ```
 
-```python```
 
 
 ## Scatterplots
@@ -90,12 +99,68 @@ plt.show()
 - show relationships between multiple variables
 - helps you find outliners
 
+```python
+import numpy as np
+
+plt.scatter(data2007.gdpPerCapita, data2007.lifeExpectancy)
+plt.title('GDP per capita and life expectancy in 2007')
+plt.xlabel('GDP per capita')
+plt.ylabel('Life expectancy')
+plt.show()
+
+plt.scatter(np.log10(data2007.gdpPerCapita), data2007.lifeExpectancy)
+plt.title('GDP per capita and life expectancy in 2007')
+plt.xlabel('GDP per capita - log10')
+plt.ylabel('Life expectancy')
+plt.show()
+
+yearsSorted = sorted(set(data.year))
+
+for aYear in yearsSorted:
+    dataYear = data[data.year == aYear]
+    plt.scatter(dataYear.gdpPerCapita, dataYear.lifeExpectancy, 5)
+    plt.title(aYear)
+    plt.xlim(0,60000)
+    plt.ylim(25, 85)
+    plt.xlabel('GDP per capita')
+    plt.ylabel('Life expectancy')
+    plt.show()
+
+
+for aYear in yearsSorted:
+    dataYear = data[data.year == aYear]
+    plt.scatter(np.log10(dataYear.gdpPerCapita), dataYear.lifeExpectancy, 5)
+    plt.title(aYear)
+    plt.xlim(2,5)
+    plt.ylim(25, 85)
+    plt.xlabel('GDP per capita - log10')
+    plt.ylabel('Life expectancy')
+    plt.show()
+
+```
+
+
+
 ## Bar graphs
 
 - help compare numeric values
 - good for comparing multiple values
 
-## Data Aggregation / sampling
+
+
+```python
+top10 = data2007.sort_values('population', ascending=False).head(10)
+
+x = range(10)
+plt.bar(x, top10.population / 10**6)
+plt.xticks(x, top10.country, rotation='vertical')
+plt.title('10 most populous countries')
+plt.ylabel('Population in mil')
+plt.show()
+```
+
+
+## How to handle too much data?
 
 - using mean, percentiles
 - evaluating samples multiple times
@@ -103,11 +168,12 @@ plt.show()
 
 
 
-
-
-
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+
+
+[![pluralsight logo](https://www.pluralsight.com/content/dam/pluralsight/newsroom/brand-assets/logos/pluralsight-logo-hor-color-1@2x.png)](https://www.pluralsight.com/)
+
+See a in-depth tutorial on [Pluralsight](https://www.pluralsight.com/).
 
 
 
