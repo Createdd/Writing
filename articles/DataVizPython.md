@@ -70,8 +70,19 @@ plt.show()
 - reduced misinterpretation of data
 
 
-```python```
+```python
+us = data[data.country == 'United States']
+china = data[data.country == 'China']
 
+plt.plot(us.year, us.gdpPerCapita)
+plt.plot(china.year, china.gdpPerCapita)
+plt.legend(['United States', 'China'])
+plt.xlabel('year')
+plt.ylabel('GDP per capita')
+plt.show()
+```
+
+```python```
 
 
 ## Scatterplots
