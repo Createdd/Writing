@@ -8,9 +8,8 @@ Photo by Arif Wahid on Unsplash - https://unsplash.com/photos/y3FkHW1cyBE
 Exploring  data visualization in Python I came across a great course on Pluralsight. Here is a little overview and introduction on various charts and my code to example charts. Enjoy!
 
 
-[Github Repo is available here (Jupyter Code)](https://github.com/DDCreationStudios/pythonDataVis)
-
-[See a timelapse of my actual coding on Youtube](https://www.youtube.com/watch?v=o9sItbGtFRQ)
+- [Github Repo is available here (Jupyter Code)](https://github.com/DDCreationStudios/pythonDataVis)
+- [See a timelapse of my actual coding on Youtube](https://www.youtube.com/watch?v=o9sItbGtFRQ)
 
 ## 📄 Table of contents
 
