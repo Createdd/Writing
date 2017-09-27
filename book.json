@@ -1,0 +1,10 @@
+{
+	"gitbook": "3.x.x",
+	"title": "DevelopmentProgress2017",
+	"plugins": ["github", "anchorjs"],
+	"pluginsConfig": {
+		"github": {
+			"url": "https://github.com/DDCreationStudios/Writing"
+		}
+	}
+}
