@@ -24,16 +24,55 @@ Photo by Arif Wahid on Unsplash - https://unsplash.com/photos/y3FkHW1cyBE
 - Jupyter (interactive Python Notebook)
 - Anaconda as package manager for Python
 
+Draw a chart:
+```python
+import pandas as pd
+from matplotlib import pyplot as plt
+
+data = pd.read_csv('countries.csv')
+
+
+austria = data[data.country == 'Austria']
+plt.plot(austria.year, austria.gdpPerCapita)
+plt.title('GDP per Capita of Austria')
+plt.show()
+```
 
 ## Distribution Data with Histograms
 
 Histograms help you understand the distribution of a numeric value in a way that you cannot with mean or median alone.
+
+
+```python
+data2007 = data[data.year == 2007]
+asia2007 = data2007[data2007.continent == 'Asia']
+europe2007 = data2007[data2007.continent == 'Europe']
+
+plt.subplot(211)
+plt.title('Comparing GDP of EU and Asia in 2007')
+plt.hist(asia2007.gdpPerCapita, 30, edgecolor='black')
+plt.ylabel('Asia')
+plt.subplot(212)
+plt.hist(europe2007.gdpPerCapita, 30, edgecolor='black')
+plt.ylabel('Europe')
+plt.show()
+```
+
+
+
+
+
 
 ## Time Series / Line Charts
 
 - shows trend of over time
 - test a hypothesis on a variety of conditions
 - reduced misinterpretation of data
+
+
+```python```
+
+
 
 ## Scatterplots
 
