@@ -37,7 +37,8 @@ Exploring  data visualization in Python I came across a great course on Pluralsi
 - Jupyter (interactive Python Notebook)
 - Anaconda as package manager for Python
 
-Draw a chart:
+##  Draw an example chart:
+
 ```python
 import pandas as pd
 from matplotlib import pyplot as plt
