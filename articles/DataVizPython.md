@@ -5,7 +5,7 @@ https://unsplash.com/photos/y3FkHW1cyBE)
 Photo by Arif Wahid on Unsplash - https://unsplash.com/photos/y3FkHW1cyBE
 
 
-Exploring  data visualization in Python I came across a great course on Pluralsight. Here is a little overview and introduction on data visualization and my code to example charts. Enjoy!
+Exploring  data visualization in Python I came across a great course on Pluralsight. Here is a little overview and introduction on various charts and my code to example charts. Enjoy!
 
 
 [Github Repo is available here (Jupyter Code)](https://github.com/DDCreationStudios/pythonDataVis)
@@ -13,6 +13,16 @@ Exploring  data visualization in Python I came across a great course on Pluralsi
 [See a timelapse of my actual coding on Youtube](https://www.youtube.com/watch?v=o9sItbGtFRQ)
 
 ## 📄 Table of contents
+
+
+  - [Python and it's eco system.](#python-and-its-eco-system)
+  - [Distribution Data with Histograms](#distribution-data-with-histograms)
+  - [Time Series / Line Charts](#time-series--line-charts)
+  - [Scatterplots](#scatterplots)
+  - [Bar graphs](#bar-graphs)
+  - [How to handle too much data?](#how-to-handle-too-much-data)
+  - [Useful links & credits](#useful-links--credits)
+
 
 
 ---
