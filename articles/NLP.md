@@ -10,7 +10,20 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
 
 ## 📄 Table of contents
+<!-- TOC -->
 
+- [Natural Language Processing with Python](#natural-language-processing-with-python)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [Intro](#intro)
+    - [Challenges in NLP](#challenges-in-nlp)
+    - [Machine Learning Workflow](#machine-learning-workflow)
+  - [Auto summarizing texts](#auto-summarizing-texts)
+    - [Method Abstract Extraction](#method-abstract-extraction)
+  - [Classify text with machine learning](#classify-text-with-machine-learning)
+    - [Classification](#classification)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 ---
 >❝The limits of my language are the limits of my world.❞
@@ -42,6 +55,14 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 - find the most important words (important words are generally more often repeated)
 - calculate a score for sentences containing important words 
 - select import sentences
+
+## Classify text with machine learning
+
+To use machine learning we need to identify a problem. In this case we want 
+
+
+### Classification
+To apply any machine learning we need data. The data will be a set of articles. In those articles a certain theme will be identified. Those themes will be assigned to the new articles. 
 
 
 
