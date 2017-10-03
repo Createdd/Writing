@@ -20,6 +20,7 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
   - [Auto summarizing texts](#auto-summarizing-texts)
     - [Method Abstract Extraction](#method-abstract-extraction)
   - [Classify text with machine learning](#classify-text-with-machine-learning)
+    - [Connecting machine learning in our articles](#connecting-machine-learning-in-our-articles)
     - [Classification](#classification)
   - [Useful links & credits](#useful-links--credits)
 
@@ -58,11 +59,20 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
 ## Classify text with machine learning
 
-To use machine learning we need to identify a problem. In this case we want 
+### Connecting machine learning in our articles
 
+- Divide the articles into groups based on some common attributes (clustering) -> we want to maximize intracluster similarity
+- Use [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to find important words in an article and represent those documents 
+- apply the K-Means Clustering technique, by setting centers of the cluster, assigning each point to the center and rearrange the center of the cluster over again until the means do not change anymore
 
 ### Classification
-To apply any machine learning we need data. The data will be a set of articles. In those articles a certain theme will be identified. Those themes will be assigned to the new articles. 
+To apply any machine learning we need data. The data will be a set of articles. 
+
+In those articles a certain theme will be identified. Those themes will be assigned to the new articles. 
+
+For a new article a resulting model will be used and applies a theme.
+
+
 
 
 
