@@ -1,8 +1,10 @@
-# Natural Language Processing with Python
+# Introduction to Natural Language Processing with Python
 
 [<img src="https://images.unsplash.com/photo-1493492473127-f5b4cafeb0b1?dpr=1&auto=compress,format&fit=crop&w=2551&h=&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/iIV0PUqhs00)
 Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
+
+
 
 
 [Open Source Code on Github](https://github.com/DDCreationStudios/summarizeTextPy)
@@ -10,10 +12,7 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
 
 ## 📄 Table of contents
-<!-- TOC -->
 
-- [Natural Language Processing with Python](#natural-language-processing-with-python)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [Intro](#intro)
     - [Challenges in NLP](#challenges-in-nlp)
     - [Machine Learning Workflow](#machine-learning-workflow)
@@ -27,7 +26,6 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
     - [3.Find themes in articles](#3find-themes-in-articles)
   - [Useful links & credits](#useful-links--credits)
 
-<!-- /TOC -->
 
 ---
 >"The limits of my language are the limits of my world."
