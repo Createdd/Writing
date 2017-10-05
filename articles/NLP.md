@@ -22,9 +22,9 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
     - [Connecting machine learning to the articles](#connecting-machine-learning-to-the-articles)
     - [Classification](#classification)
   - [Code example](#code-example)
-    - [Getting text from a website](#getting-text-from-a-website)
-    - [Summarize text](#summarize-text)
-    - [Find themes in articles](#find-themes-in-articles)
+    - [1.Getting text from a website](#1getting-text-from-a-website)
+    - [2.Summarize text](#2summarize-text)
+    - [3.Find themes in articles](#3find-themes-in-articles)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -80,7 +80,14 @@ For a new article the model will be used and applies a corresponding theme.
 
 ## Code example
 
-### Getting text from a website
+In this example I am going to get the paragraphs of an article from a ruling of the European Court of Justice.
+
+I will display the most important paragraphs with the abstract extraction method.
+
+And classify the articles with the K-Means technique.
+
+
+### 1.Getting text from a website
 
 ```python
 from urllib.request import urlopen
@@ -98,7 +105,7 @@ text = getText(articleURL)
 ```
 
 
-### Summarize text
+### 2.Summarize text
 
 
 ```python
@@ -137,7 +144,7 @@ summaryArr = summarize(text, 10)
 ```
 
 
-### Find themes in articles
+### 3.Find themes in articles
 
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
