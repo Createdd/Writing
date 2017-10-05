@@ -5,7 +5,7 @@ https://unsplash.com/photos/iIV0PUqhs00)
 Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
 
-[Open Source Code on Github](asdfasdf)
+[Open Source Code on Github](https://github.com/DDCreationStudios/summarizeTextPy)
 
 
 
@@ -17,9 +17,8 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
   - [Intro](#intro)
     - [Challenges in NLP](#challenges-in-nlp)
     - [Machine Learning Workflow](#machine-learning-workflow)
-  - [Auto summarizing texts](#auto-summarizing-texts)
+  - [Theory summarizing and classifying texts](#theory-summarizing-and-classifying-texts)
     - [Method Abstract Extraction](#method-abstract-extraction)
-  - [Classify text with machine learning](#classify-text-with-machine-learning)
     - [Connecting machine learning to the articles](#connecting-machine-learning-to-the-articles)
     - [Classification](#classification)
   - [Useful links & credits](#useful-links--credits)
@@ -27,7 +26,7 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 <!-- /TOC -->
 
 ---
->❝The limits of my language are the limits of my world.❞
+>"The limits of my language are the limits of my world."
 ‒ Ludwig Wittgenstein
 ---
 
@@ -49,7 +48,7 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 1. Use an algorithm to find a model
 
 
-## Auto summarizing texts
+## Theory summarizing and classifying texts
 
 ### Method Abstract Extraction
 
@@ -57,7 +56,6 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 - calculate a score for sentences containing important words 
 - select import sentences
 
-## Classify text with machine learning
 
 ### Connecting machine learning to the articles
 
@@ -70,14 +68,11 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
 A typical classification workflow consists of testing data using numerical attributes, training the model with data and at the end test the model with other test data.
 
-
 To apply any machine learning we need data. The data will be a set of articles. 
 
 In those articles a certain theme will be identified. Those themes will be assigned to the new articles. 
 
 For a new article the model will be used and applies a corresponding theme.
-
-
 
 
 
