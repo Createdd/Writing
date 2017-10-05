@@ -67,11 +67,15 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 - 
 
 ### Classification
+
+A typical classification workflow consists of testing data using numerical attributes, training the model with data and at the end test the model with other test data.
+
+
 To apply any machine learning we need data. The data will be a set of articles. 
 
 In those articles a certain theme will be identified. Those themes will be assigned to the new articles. 
 
-For a new article a resulting model will be used and applies a theme.
+For a new article the model will be used and applies a corresponding theme.
 
 
 
