@@ -4,7 +4,7 @@
 https://unsplash.com/photos/iIV0PUqhs00)
 Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 
-
+An article introducing natural language processing with Python with some theory and a code example.
 
 
 [Open Source Code on Github](https://github.com/DDCreationStudios/summarizeTextPy)
