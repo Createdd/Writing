@@ -64,7 +64,7 @@ Photo by Warren Wong on Unsplash - https://unsplash.com/photos/iIV0PUqhs00
 - Divide the articles into groups based on some common attributes (clustering) -> we want to maximize intracluster similarity
 - Use [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) to find important words in an article and represent those documents 
 - apply the K-Means Clustering technique, by setting centers of the cluster, assigning each point to the center and rearrange the center of the cluster over again until the means do not change anymore
-- 
+
 
 ### Classification
 
