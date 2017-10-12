@@ -38,7 +38,16 @@ Again, try to optimize as much as possible. When you are faster and better in yo
 
 ### University
 
-For me university is additional knowledge. Unfortunately in Austria many universities require physical attendance, which is often good for your learnings, but can be to much if you have many other things to do. 
+For me university is additional knowledge. Unfortunately in Austria many universities require physical attendance, which is often good for your learnings, but can be too much if you have many other things to do. Therefore I invest more time at the start of a semester to plan everything accordingly.
+
+1. check all social platforms for summaries of classes
+1. download everything and organize with folders
+1. attend all first classes to get an overview of the course and what is necessary to get the most out of it
+1. 80/20 pareto principle - I learn only what's necessary for the course. 
+
+As a practical example this can be to merely being physically present in each class but working on other things. P Preparing only for the exam is most of the time sufficient. I stick to basic literature with principles. All in-depth books are great but not necessary to get through a course.
+
+
 
 
 
