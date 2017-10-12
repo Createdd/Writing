@@ -52,7 +52,7 @@ ___
 1. [🌐 Summary of the Pragmatic Programmer](https://github.com/DDCreationStudios/Writing/blob/master/articles/Pragmatic.md)
 1. [⚛️ Introducing Relay](https://github.com/DDCreationStudios/Writing/blob/master/articles/Relay.md)
 1. [🌐 Introducing Data Visualization in Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/DataVizPython.md)
-
+1. [🌐 Introduction to Natural Language Processing with Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/NLP.md)
 
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
