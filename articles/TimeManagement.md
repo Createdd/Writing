@@ -20,9 +20,29 @@ This is also designed as an overview for all my friends and family, since they o
 
 This is always the most important step. Try to optimize as early and often as possible. There is no optimal solution for time management because your day and routines are always changing and evolving.
 
-Routines are the key for any success. Therefore I try to get into a routine and then keep improving it until I am at a sufficient level.
+Routines are the key for any success. Therefore I try to get into a routine and then keep improving it until I am at an efficient level. 
+
+Note that this is subjective. Your improvements have to work for you and not someone else. Hence take time to revisit your progress and past experience.
+
 
 ## Some practical tips
+
+### Work
+
+I want to start with work because most people are dependent on income and therefore naturally have to weigh work as very important. 
+
+It is key to know your worth in the company you are working in. Identify your core value for the firm and build around it. 
+In case you are a software developer, focus on your code. Are you a project manager? Focus on the process around projects. It's nice to provide additional value for the company, but always make sure your core competence is covered.
+
+Again, try to optimize as much as possible. When you are faster and better in you job chances are high your employer likes your changes. Try to improve all the time. Revisit past process, change and build up from it.
+
+### University
+
+For me university is additional knowledge. Unfortunately in Austria many universities require physical attendance, which is often good for your learnings, but can be to much if you have many other things to do. 
+
+
+
+### University
 
 
 
