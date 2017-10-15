@@ -6,7 +6,7 @@ Photo by Meduana on Unsplash - https://unsplash.com/photos/PdnseHuDFZU
 
 Currently I am a business law student in a master program, work more than 20 hours as an employee, organize a non-profit organization, write articles regularly and learn about data science. In order to be successful in all those areas it's very important to enforce a tight schedule and always make decisions in line with my priorities. 
 
-This is also designed as an overview for all my friends and family, since they often feel neglected and I got asked many times.
+This is also designed as an overview for all my friends and family, since they often feel neglected. Also I got asked many times about it.
 
 ## 📄 Table of contents
 
@@ -47,10 +47,19 @@ For me university is additional knowledge. Unfortunately in Austria many univers
 
 As a practical example this can be to merely being physically present in each class but working on other things. P Preparing only for the exam is most of the time sufficient. I stick to basic literature with principles. All in-depth books are great but not necessary to get through a course.
 
-
 ### Private Learning
 
+Now learning is the most important part of all your activities. It separates you from the crowd. Allows you to step out of average and ultimately enjoy life much more. I try to spend as much free time as possible on that. This is pleasure time. While others enjoying entertainment in movies I enjoy learning new things. Not only will I be able to combine it with established knowledge, but also acts as a gateway for further improvements.
+
+Since private learning is the most flexible of all your areas, I fit it in my schedule whenever possible. This can mean, 1 hour before your class starts, lunch breaks or right before you go to bed. 
+
+However, with this flexibility comes temptation. Be sure to remind yourself how important and interesting your desired learning material is in order to stay motivated and avoid distracting consumption.  
+
 ### Sport
+
+Sport is vital. Period. 
+
+Always schedule 2-3 times of sport activity in your week. What t
 
 ### Social Life
 
