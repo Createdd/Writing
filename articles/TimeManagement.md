@@ -10,6 +10,21 @@ This is also designed as an overview for all my friends and family, since they o
 
 ## 📄 Table of contents
 
+<!-- TOC -->
+
+- [A current snapshot on my time management](#a-current-snapshot-on-my-time-management)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [Trying to optimize](#trying-to-optimize)
+  - [Some practical tips](#some-practical-tips)
+    - [Work](#work)
+    - [University](#university)
+    - [Private Learning](#private-learning)
+    - [Sport](#sport)
+    - [Social Life](#social-life)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
+
 
 ---
 >“It's lonely at the top. Ninety-nine percent of people in the world are convinced they are incapable of achieving great things, so they aim for the mediocre. The level of competition is thus fiercest for 'realistic' goals, paradoxically making them the most time and energy-consuming.” 
@@ -63,7 +78,11 @@ I always schedule 2-3 times of sports activity in my week. Currently this is 2 t
 
 I could really write a book about why sport is so incredibly important for a healthy happy life, but let's focus on the most important thing here: balance. Sport balances all your sitting and thinking with movement. It allows you to give you the extra ability to see everything different and use your body to the best possible. 
 
-### Social Life
+### Others
+
+Everything else falls into the category "others". This is the hard truth. Everything else I schedule behind behind my main goals. This can be very unrewarding and unsatisfying, but it is necessary since every day has only 24 hours and my body is just a human body as everybody elses. 
+
+Especially socializing, friends, relationships, family often come too short. That's why I try to fit them into breaks. Whenever I don't need to think hard or focus deliberately on tasks I get some socializing in. This can be a phone/video call, Whatsapp text, or a meeting scheduled for the break like lunch or dinner.   
 
 
 
