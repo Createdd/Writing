@@ -59,7 +59,9 @@ However, with this flexibility comes temptation. Be sure to remind yourself how 
 
 Sport is vital. Period. 
 
-Always schedule 2-3 times of sport activity in your week. What t
+I always schedule 2-3 times of sports activity in my week. Currently this is 2 times strength training and 1 yoga session. I love sport and therefore force myself to not overdo it. I consider this the bare minimum. As I am working as a developer and sitting at university and learning the whole day, my body needs movement. 
+
+I could really write a book about why sport is so incredibly important for a healthy happy life, but let's focus on the most important thing here: balance. Sport balances all your sitting and thinking with movement. It allows you to give you the extra ability to see everything different and use your body for optimal function. 
 
 ### Social Life
 
