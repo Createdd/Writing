@@ -48,10 +48,11 @@ For me university is additional knowledge. Unfortunately in Austria many univers
 As a practical example this can be to merely being physically present in each class but working on other things. P Preparing only for the exam is most of the time sufficient. I stick to basic literature with principles. All in-depth books are great but not necessary to get through a course.
 
 
+### Private Learning
 
+### Sport
 
-
-### University
+### Social Life
 
 
 
