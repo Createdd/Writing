@@ -20,7 +20,9 @@ This is also designed as an overview for all my friends and family, since they o
     - [University](#university)
     - [Private Learning](#private-learning)
     - [Sport](#sport)
-    - [Social Life](#social-life)
+    - [Others](#others)
+  - [The next months](#the-next-months)
+  - [Why it's important to push your limits](#why-its-important-to-push-your-limits)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -70,9 +72,12 @@ Since private learning is the most flexible of all your areas, I fit it in my sc
 
 However, with this flexibility comes temptation. Be sure to remind yourself how important and interesting your desired learning material is in order to stay motivated and avoid distracting consumption.  
 
+I try to incorporate as much real life as possible in line with my learning goals. For example when I started to code I tried to surround myself with programmers, contributing to open source and applying for a software engineer job. In addition to that comes my writing. I try to document as much as possible and aim for publishing it. Not only does this improve my learning, but also gives me credibility. 
+
+
 ### Sport
 
-Sport is vital. Period. 
+Sport is vital. 
 
 I always schedule 2-3 times of sports activity in my week. Currently this is 2 times strength training and 1 yoga session. I love sport and therefore force myself to not overdo it. I consider this the bare minimum. As I am working as a developer and sitting at university and learning the whole day, my body needs movement. 
 
@@ -82,7 +87,15 @@ I could really write a book about why sport is so incredibly important for a hea
 
 Everything else falls into the category "others". This is the hard truth. Everything else I schedule behind behind my main goals. This can be very unrewarding and unsatisfying, but it is necessary since every day has only 24 hours and my body is just a human body as everybody elses. 
 
-Especially socializing, friends, relationships, family often come too short. That's why I try to fit them into breaks. Whenever I don't need to think hard or focus deliberately on tasks I get some socializing in. This can be a phone/video call, Whatsapp text, or a meeting scheduled for the break like lunch or dinner.   
+Especially socializing, friends, relationships, family often come too short. That's why I try to fit them into breaks. Whenever I don't need to think hard or focus deliberately on tasks I get some socializing in. This can be a phone/video call, Whatsapp text, or a meeting scheduled for the break like lunch or dinner.  
+
+## The next months
+
+I will keep this schedule for the next 6 months and review it's fruits afterwards. In the time of writing I expect it to be a little bit too much pressure due to some exterior goals but I am happy to push my boundaries. I already see the lack of "non-thinking time" or "relaxation time" to be a problem for the future. Especially when exams are coming I see the lack of breaks risky for achieving all goals. It will be a great experience to see how I react to the rise in pressure and obligations. 
+
+##  Why it's important to push your limits
+
+
 
 
 
