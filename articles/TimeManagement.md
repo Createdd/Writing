@@ -89,7 +89,7 @@ Especially socializing, friends, relationships, family often come too short. Tha
 
 ## The next months
 
-I will keep this schedule for the next 6 months and review it's fruits afterwards. In the time of writing I expect it to be a little bit too much pressure due to some exterior goals but I am happy to push my boundaries. I already see the lack of "non-thinking time" or "relaxation time" to be a problem for the future. Especially when exams are coming I see the lack of breaks risky for achieving all goals. It will be a great experience to see how I react to the rise in pressure and obligations. 
+I will keep this schedule for the next 6 months and review it's fruits afterwards. In the time of writing I expect it to be a little bit too much pressure due to some deadlines but I am happy to push my boundaries. I already see the lack of "non-thinking time" or "relaxation time" to be a problem for the future. Especially when exams are coming I see the lack of breaks risky for achieving all goals. It will be a great experience to see how I react to the rise in pressure and obligations. 
 
 The reason why I try to push the limits as much as possible is because I fortunately was able to experience great achievements in the past. It is really true: If you want to have results like nobody else has you have to do things differently than most people.
 
