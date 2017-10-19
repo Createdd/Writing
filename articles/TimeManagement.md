@@ -10,10 +10,6 @@ This is also designed as an overview for all my friends and family, since they o
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [A current snapshot on my time management](#a-current-snapshot-on-my-time-management)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [Trying to optimize](#trying-to-optimize)
   - [Some practical tips](#some-practical-tips)
     - [Work](#work)
@@ -22,8 +18,6 @@ This is also designed as an overview for all my friends and family, since they o
     - [Sport](#sport)
     - [Others](#others)
   - [The next months](#the-next-months)
-
-<!-- /TOC -->
 
 
 ---
