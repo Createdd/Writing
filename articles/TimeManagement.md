@@ -1,4 +1,4 @@
-# A current snapshot on my time management
+# 5 practical tips for my time management
 [<img src="https://images.unsplash.com/photo-1422360902398-0a91ff2c1a1f?dpr=1&auto=compress,format&fit=crop&w=1432&h=&q=80&cs=tinysrgb&crop=">](
 https://unsplash.com/photos/PdnseHuDFZU)
 Photo by Meduana on Unsplash - https://unsplash.com/photos/PdnseHuDFZU
