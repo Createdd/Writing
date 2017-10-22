@@ -46,6 +46,10 @@ An amazing example for that is the discussion about climate change. It is incred
 
 The chances of adopting a belief increases with the amount of other people holding the belief. It is the engine of groupthink and causes unproductive meetings.
 
+## Authority Bias
+
+
+
 
 
 
