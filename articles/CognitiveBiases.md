@@ -34,7 +34,13 @@ Plausible information is even referenced when there is completely no reason to u
 Personally my favorite one. The easier information is to retrieve the more important we qualify it. And emotional experience enhances the effect. 
 People that got robbed estimate the probabilities of robberies significantly higher than non-robbed people. Smokers often denial the threat of cancer with a personal example reference of somebody, who did not get cancer and smoked a lot.
 
- 
+## Confirmation Bias
+
+Another massive one. 
+The tendency to search for and find confirming evidence for a belief while overlooking counter examples. 
+An amazing example for that is the discussion about climate change. It is incredible hard to have intelligent conversations about the topic, because each party only looks for evidence supporting their position.
+
+
 
 
 
