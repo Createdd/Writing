@@ -22,12 +22,14 @@ Two of the most famous people talking about human misjudgment are Charlie Munger
 
 This behavior is deeply rooted into our past. Humans do more of things that they like and do less of things they don't like. This is very simply, but also very strong. It's so obvious that many people neglect it. 
 
-## Framing - Disliking/Liking Tendency
+## Halo Effect - Disliking/Liking Tendency
+
+Is the tendency to like or dislike everything about a person — including things you have not observed. Humans let information based on impressions and intuitions cloud there judgment. Not only is the overall decision biased, but also finding further information is anchored to the first information and therefore will be experienced differently.
 
 ## Anchoring 
 
 Humans are heavily rely on the first piece of information they get. Sales negotiations evolve around the first price that was made. 
-Plausible information is even referenced when there is completely no reason to use it. (Tested in questions about scales).
+Plausible information is even referenced when there is completely no reason to use it. (Tested in questions about scaling objects).
 
 ## Availability Bias
 
@@ -39,6 +41,12 @@ People that got robbed estimate the probabilities of robberies significantly hig
 Another massive one. 
 The tendency to search for and find confirming evidence for a belief while overlooking counter examples. 
 An amazing example for that is the discussion about climate change. It is incredible hard to have intelligent conversations about the topic, because each party only looks for evidence supporting their position.
+
+## Social Proof / Bandwagon Effect
+
+The chances of adopting a belief increases with the amount of other people holding the belief. It is the engine of groupthink and causes unproductive meetings.
+
+
 
 
 
