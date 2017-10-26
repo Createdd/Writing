@@ -18,7 +18,7 @@ Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by s
     - [Priming](#priming)
     - [Cognitive Ease](#cognitive-ease)
     - [Coherence](#coherence)
-  - [Common Examples](#common-examples)
+  - [Common Examples of Biases and Tendencies](#common-examples-of-biases-and-tendencies)
     - [Reward and Punishment Tendency](#reward-and-punishment-tendency)
     - [Halo Effect - Disliking/Liking Tendency](#halo-effect---dislikingliking-tendency)
     - [Anchoring](#anchoring)
@@ -53,10 +53,12 @@ Repeating wrong statements over and over makes them very likely to believe.
 
 ### Coherence
 
+The human brains strives for coherence. This is very necessary to survive. We have to "connect the dots" to make sense of the world. 
+But often this leads to conclusions that have no valid base. They merely make sense to our story - "it has to be that way". 
+They most common mistake is to confuse causation with correlation. Just because similar things happen in similar places does not mean one causes the other. 
 
 
-
-## Common Examples
+## Common Examples of Biases and Tendencies
 
 ### Reward and Punishment Tendency
 
