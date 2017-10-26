@@ -4,17 +4,14 @@
 https://unsplash.com/photos/Hq1epA93Bj0)
 Photo by Rob Bates on Unsplash - https://unsplash.com/photos/Hq1epA93Bj0
 
-Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by statistics and all cognitive biases that come along with not understanding statistics. I think it's important to remind yourself from time to time of all the cognitive fallacies that can easily turn your life to the worse. So here is a little summary - enjoy!
+Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by statistics and all cognitive biases that come along with not understanding statistics. I think it's important to remind yourself from time to time of all the cognitive fallacies that can easily turn your life to the worse. So here is a little reminder - enjoy!
 
 
 ## 📄 Table of contents
 
-<!-- TOC -->
 
-- [Quick reminder on Cognitive Biases](#quick-reminder-on-cognitive-biases)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [Intro](#intro)
-  - [A primer on the brain](#a-primer-on-the-brain)
+  - [Ground rules for thinking](#ground-rules-for-thinking)
     - [Priming](#priming)
     - [Cognitive Ease](#cognitive-ease)
     - [Coherence](#coherence)
@@ -27,7 +24,6 @@ Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by s
     - [Social Proof / Bandwagon Effect](#social-proof--bandwagon-effect)
   - [Useful links & credits](#useful-links--credits)
 
-<!-- /TOC -->
 
 
 ---
@@ -38,7 +34,7 @@ Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by s
 
 Two of the most famous people talking about human misjudgment are Charlie Munger and Warren Buffett. The Vice Chairman and Chairman of Berkshire Hathaway both have talked about their efforts of overcoming cognitive fallacies in order to make decisions that yield great investments and made them some of the richest men in history. 
 
-## A primer on the brain
+## Ground rules for thinking
 
 ### Priming
 
@@ -93,6 +89,7 @@ The chances of adopting a belief increases with the amount of other people holdi
 
 - ["Thinking, Fast and Slow" by Daniel Kahneman"](https://www.amazon.de/gp/product/0141033576/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0141033576&linkCode=as2&tag=ddcr-21&linkId=5de7faf70475041d7ee09179ac34a7d9)
 
+___
 
 Thanks for reading my article! Feel free to leave any feedback! 
 
