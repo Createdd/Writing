@@ -89,20 +89,9 @@ An amazing example for that is the discussion about climate change. It is incred
 The chances of adopting a belief increases with the amount of other people holding the belief. It is the engine of groupthink and causes unproductive meetings.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
 
+- ["Thinking, Fast and Slow" by Daniel Kahneman"](https://www.amazon.de/gp/product/0141033576/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0141033576&linkCode=as2&tag=ddcr-21&linkId=5de7faf70475041d7ee09179ac34a7d9)
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
