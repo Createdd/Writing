@@ -17,6 +17,7 @@ Ever since I read "Thinking, Fast and Slow" by Daniel Kahneman I was amazed by s
   - [A primer on the brain](#a-primer-on-the-brain)
     - [Priming](#priming)
     - [Cognitive Ease](#cognitive-ease)
+    - [Coherence](#coherence)
   - [Common Examples](#common-examples)
     - [Reward and Punishment Tendency](#reward-and-punishment-tendency)
     - [Halo Effect - Disliking/Liking Tendency](#halo-effect---dislikingliking-tendency)
@@ -45,6 +46,13 @@ Remember that even things we are completely unaware of influence our behavior. C
 to think about an associated idea. When we have been talking about food for many hours we are more likely to act "foodrelated".
 
 ### Cognitive Ease
+
+A ver general rule for the brain:
+Things that are easier to compute, more familiar, or easier to read seem more true than things that require hard thought, are novel, or are hard to see. 
+Repeating wrong statements over and over makes them very likely to believe.
+
+### Coherence
+
 
 
 
