@@ -1,4 +1,4 @@
-# Going into Natural Language Processing
+# Natural Language Processing Algorithms
 
 
 [<img src="https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=1500&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D">](
@@ -16,18 +16,28 @@ Natural Language Processing focuses on making the human language available for t
 >"dsasfasfasf"  - Bezos
 ---
 
-## The start
+## Starting in NLP
 
 The starting point for NLP is a (large) text. 
 The computer can't understand text like we humans do, therefore we need to break the text into it's meaningful parts.
 That's called tokenization and provides the foundation for re-combining them in to new sentences.
+
+Linguistic analysis:
+- syntax (grammer, spelling)
+- semantics (identifying the meaning of a text)
+- pragmatics (purpose of a text)
+
 
 
 
 
 
 ## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+- https://en.wikipedia.org/wiki/Natural_language_processing
+- https://medium.com/@NicolasPapernot/natural-language-processing-bfa888e4e429
+- https://medium.com/towards-data-science/a-beginners-guide-to-natural-language-processing-e21e3e016f84
+- https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78
+- https://medium.com/towards-data-science/how-to-get-started-in-nlp-6a62aa4eaeff
 
 
 
