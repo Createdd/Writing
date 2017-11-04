@@ -19,6 +19,10 @@ Natural Language Processing focuses on making the human language available for t
 ## The start
 
 The starting point for NLP is a (large) text. 
+The computer can't understand text like we humans do, therefore we need to break the text into it's meaningful parts.
+That's called tokenization and provides the foundation for re-combining them in to new sentences.
+
+
 
 
 
