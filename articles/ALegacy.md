@@ -6,7 +6,7 @@ Photo by Kash Goudarzi on Unsplash - https://unsplash.com/photos/G3JsoE2CAvw
 
 Often I get frustrated due to all the stress and workload. Then it's important to remind myself. 
 
-Greg Plitt has always been one of the most important roles models in my life. Enjoy some of his talk. 
+Greg Plitt has always been one of the most important roles models in my life. Enjoy some of his believes. 
 
 ---
 
