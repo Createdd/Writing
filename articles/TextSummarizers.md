@@ -12,7 +12,7 @@ I am a law student and always need to go through huge amounts of text. On my way
 
 - [asdasfas](#asdasfas)
   - [📄 Table of contents](#📄-table-of-contents)
-  - [[http://smmry.com/](http://smmry.com/)](#httpsmmrycomhttpsmmrycom)
+  - [SMMRY](#smmry)
     - [What it does](#what-it-does)
     - [How it works](#how-it-works)
   - [Useful links & credits](#useful-links--credits)
@@ -23,7 +23,11 @@ I am a law student and always need to go through huge amounts of text. On my way
 >"dsasfasfasf"  - Bezos
 ---
 
-## [http://smmry.com/](http://smmry.com/)
+## SMMRY
+
+
+![img](../assets/TEXTSUM/smmry.png)
+[SMMRY](http://smmry.com/)
 
 ### What it does
 
