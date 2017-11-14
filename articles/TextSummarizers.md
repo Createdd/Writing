@@ -17,6 +17,7 @@ I am a law student and always need to go through huge amounts of text. On my way
     - [What it does](#what-it-does)
     - [How it works](#how-it-works)
   - [Autosummarizer](#autosummarizer)
+  - [Summarize Tool (tools4noobs)](#summarize-tool-tools4noobs)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -64,6 +65,21 @@ As the homepage states:
 >"The project is in development. Summarize your articles, splitting the most important sentences and ranking a sentence based on importance."
 
 I assume that the core algorithm is similar to the one used in [SMMRY](#how-it-works)
+
+
+## Summarize Tool (tools4noobs)
+
+![img](../assets/TEXTSUM/tools4noobs.png)
+[Online summarize tool](https://www.tools4noobs.com/summarize/)
+
+This tool is a little bit more sophisticated then the previous systems.
+Here you can choose to add additional criteria like:
+- Setting a threshold
+- Setting a minimum for sentence or word length
+- Show most important words and highlight them
+- Show most important sentences and highlight them
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
