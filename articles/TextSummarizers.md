@@ -16,6 +16,7 @@ I am a law student and always need to go through huge amounts of text. On my way
   - [SMMRY](#smmry)
     - [What it does](#what-it-does)
     - [How it works](#how-it-works)
+  - [Autosummarizer](#autosummarizer)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -49,6 +50,20 @@ I am a law student and always need to go through huge amounts of text. On my way
 - Return X of the most highly ranked sentences in chronological order.
 
 [Source](http://smmry.com/about) 
+
+## Autosummarizer
+
+
+![img](../assets/TEXTSUM/autosummerizer.png)
+[Autosummarizer](http://autosummarizer.com/)
+
+The project is under development according to the homepage. 
+
+As the homepage states: 
+
+>"The project is in development. Summarize your articles, splitting the most important sentences and ranking a sentence based on importance."
+
+I assume that the core algorithm is similar to the one used in [SMMRY](#how-it-works)
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
