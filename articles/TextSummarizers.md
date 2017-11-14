@@ -8,12 +8,42 @@ I am a law student and always need to go through huge amounts of text. On my way
 
 ## 📄 Table of contents
 
+<!-- TOC -->
+
+- [asdasfas](#asdasfas)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [[http://smmry.com/](http://smmry.com/)](#httpsmmrycomhttpsmmrycom)
+    - [What it does](#what-it-does)
+    - [How it works](#how-it-works)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 ---
 >"dsasfasfasf"  - Bezos
 ---
 
-##
+## [http://smmry.com/](http://smmry.com/)
+
+### What it does
+
+- Ranking sentences by importance using the core algorithm.
+- Reorganizing the summary to focus on a topic; by selection of a keyword.
+- Removing transition phrases.
+- Removing unnecessary clauses.
+- Removing excessive examples.
+
+### How it works
+
+- Associate words with their grammatical counterparts. (e.g. "city" and "cities")
+- Calculate the occurrence of each word in the text.
+- Assign each word with points depending on their popularity.
+- Detect which periods represent the end of a sentence. (e.g "Mr." does not).
+- Split up the text into individual sentences.
+- Rank sentences by the sum of their words' points.
+- Return X of the most highly ranked sentences in chronological order.
+
+[Source](http://smmry.com/about) 
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
