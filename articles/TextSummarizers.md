@@ -14,8 +14,8 @@ I am a law student and always need to go through huge amounts of text. On my way
 - [Online Text Summarizers 2017](#online-text-summarizers-2017)
   - [📄 Table of contents](#📄-table-of-contents)
   - [SMMRY](#smmry)
-    - [What it does](#what-it-does)
-    - [How it works](#how-it-works)
+      - [What it does](#what-it-does)
+      - [How it works](#how-it-works)
   - [Autosummarizer](#autosummarizer)
   - [Summarize Tool (tools4noobs)](#summarize-tool-tools4noobs)
   - [Useful links & credits](#useful-links--credits)
@@ -32,7 +32,7 @@ I am a law student and always need to go through huge amounts of text. On my way
 ![img](../assets/TEXTSUM/smmry.png)
 [SMMRY](http://smmry.com/)
 
-### What it does
+#### What it does
 
 - Ranking sentences by importance using the core algorithm.
 - Reorganizing the summary to focus on a topic; by selection of a keyword.
@@ -40,7 +40,7 @@ I am a law student and always need to go through huge amounts of text. On my way
 - Removing unnecessary clauses.
 - Removing excessive examples.
 
-### How it works
+#### How it works
 
 - Associate words with their grammatical counterparts. (e.g. "city" and "cities")
 - Calculate the occurrence of each word in the text.
