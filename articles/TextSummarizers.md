@@ -18,6 +18,8 @@ I am a law student and always need to go through huge amounts of text. On my way
       - [How it works](#how-it-works)
   - [Autosummarizer](#autosummarizer)
   - [Summarize Tool (tools4noobs)](#summarize-tool-tools4noobs)
+  - [Text Compactor](#text-compactor)
+      - [How it works (according to their page)](#how-it-works-according-to-their-page)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -79,6 +81,16 @@ Here you can choose to add additional criteria like:
 - Show most important words and highlight them
 - Show most important sentences and highlight them
 
+## Text Compactor
+
+![img](../assets/TEXTSUM/textcompact.png)
+[Text Compactor](http://www.textcompactor.com/)
+
+#### How it works (according to their page)
+
+>After text is placed on the page, the web app calculates the frequency of each word in the passage. Then, a score is calculated for each sentence based on the frequency count associated with the words it contains. The most important sentence is deemed to be the sentence with the highest frequency count.
+
+>Obviously, human readers may disagree with this automated approach to text summarization. Automated text summarization works best on expository text such as textbooks and reference material (non-fiction). The results can be skewed when a passage has only a few sentences. Text Compactor is not recommended for use with fiction (i.e., stories about imaginary people, places, events).
 
 
 ## Useful links & credits
