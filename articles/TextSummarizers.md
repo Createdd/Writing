@@ -64,7 +64,7 @@ As the homepage states:
 
 >"The project is in development. Summarize your articles, splitting the most important sentences and ranking a sentence based on importance."
 
-I assume that the core algorithm is similar to the one used in [SMMRY](#how-it-works)
+I assume that the core algorithm is similar to the one used in [SMMRY](#how-it-works) (since there are some core and widely used libraries)
 
 
 ## Summarize Tool (tools4noobs)
