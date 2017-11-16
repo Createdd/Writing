@@ -22,7 +22,8 @@ I am a law student and always need to go through huge amounts of text. On my way
       - [How it works (according to their page)](#how-it-works-according-to-their-page)
   - [SummerizeThis](#summerizethis)
       - [How it works (according to their page)](#how-it-works-according-to-their-page-1)
-  - [SummerizeThis](#summerizethis-1)
+  - [Fee Summarizer](#fee-summarizer)
+  - [afd](#afd)
       - [How it works (according to their page)](#how-it-works-according-to-their-page-2)
   - [Useful links & credits](#useful-links--credits)
 
@@ -106,10 +107,19 @@ Here you can choose to add additional criteria like:
 >After text is placed on the page, the web app calculates the frequency of each word in the passage. Then, a score is calculated for each sentence based on the frequency count associated with the words it contains.
 
 
-## SummerizeThis
+## Fee Summarizer
+
+![img](../assets/TEXTSUM/freesum.png)
+[Fee Summarizer](http://freesummarizer.com/)
+
+Possibility to set to output to a certain number of sentences.
+Core algorithm is assumable similar to the previous mentioned websites.
+
+
+## afd
 
 ![img](../assets/TEXTSUM/sumthis.png)
-[SummerizeThis](SummerizeThis)
+[afd](adsf)
 
 #### How it works (according to their page)
 
