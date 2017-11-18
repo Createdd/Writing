@@ -106,8 +106,11 @@ Here you can choose to add additional criteria like:
 Possibility to set to output to a certain number of sentences.
 Core algorithm is assumable similar to the previous mentioned websites.
 
+---
 
-Thanks for reading my article! Feel free to leave any feedback! 
+Thanks for reading my article! Feel free to leave any feedback!
+
+---
 
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
