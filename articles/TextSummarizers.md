@@ -23,14 +23,11 @@ I am a law student and always need to go through huge amounts of text. On my way
   - [SummerizeThis](#summerizethis)
       - [How it works (according to their page)](#how-it-works-according-to-their-page-1)
   - [Fee Summarizer](#fee-summarizer)
-  - [afd](#afd)
-      - [How it works (according to their page)](#how-it-works-according-to-their-page-2)
-  - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
 ---
->"dsasfasfasf"  - Bezos
+>"The ability to simplify means to eliminate the unnecessary so that the necessary may speak." - Hans Hofmann
 ---
 
 ## SMMRY
@@ -114,24 +111,6 @@ Here you can choose to add additional criteria like:
 
 Possibility to set to output to a certain number of sentences.
 Core algorithm is assumable similar to the previous mentioned websites.
-
-## afd
-
-![img](../assets/TEXTSUM/sumthis.png)
-[afd](adsf)
-
-#### How it works (according to their page)
-
->After text is placed on the page, the web app calculates the frequency of each word in the passage. Then, a score is calculated for each sentence based on the frequency count associated with the words it contains. The most important sentence is deemed to be the sentence with the highest frequency count.
-
->Obviously, human readers may disagree with this automated approach to text summarization. Automated text summarization works best on expository text such as textbooks and reference material (non-fiction). The results can be skewed when a passage has only a few sentences. Text Compactor is not recommended for use with fiction (i.e., stories about imaginary people, places, events).
-
-
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
-
 
 
 Thanks for reading my article! Feel free to leave any feedback! 
