@@ -115,7 +115,6 @@ Here you can choose to add additional criteria like:
 Possibility to set to output to a certain number of sentences.
 Core algorithm is assumable similar to the previous mentioned websites.
 
-
 ## afd
 
 ![img](../assets/TEXTSUM/sumthis.png)
