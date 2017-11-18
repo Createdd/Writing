@@ -18,9 +18,9 @@ Guys who have this potential or don't have this potential. That shit dies. What 
 How do you know when you are doing those things? The small things in life add up to those big monumental things. When I say small things, I mean the character building blocks that your name means something. You hold value to your name.
 When you drop trash on the ground you pick it back up because it is your responsibility you hold value to yourself. When you shake someones hand you look them in the eye and give them a firm handshake because you are here for a purpose. Everything that you do you do it to the best of your ability. It doesn't matter what you are doing. It is the fact that you are doing it, so therefore it means something to you. Thats going to build a legacy. 
 
-You know footprints behind you, that are left motivation for someone to follow. Legacy is build daily. Through the character, willpower, code of conduct within somebody. thats the perseverance of showing up every single day. 
+You know footprints behind you, that are left motivation for someone to follow. Legacy is build daily. Through the character, willpower, code of conduct within somebody. That's the perseverance of showing up every single day. 
 
-That will always achieve the goal. It doesn't matter what you are born with, your potential, how much of a silver spoon or money you have. All that can be attained if your willing to risk failure for success.
+That will always achieve the goal. It doesn't matter what you are born with, your potential, how much of a silver spoon or money you have. All that can be attained if you are willing to risk failure for success.
 
 ---
 
