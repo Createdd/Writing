@@ -9,10 +9,6 @@ I am a law student and always need to go through huge amounts of text. On my way
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [Online Text Summarizers 2017](#online-text-summarizers-2017)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [SMMRY](#smmry)
       - [What it does](#what-it-does)
       - [How it works](#how-it-works)
@@ -23,8 +19,6 @@ I am a law student and always need to go through huge amounts of text. On my way
   - [SummerizeThis](#summerizethis)
       - [How it works (according to their page)](#how-it-works-according-to-their-page-1)
   - [Fee Summarizer](#fee-summarizer)
-
-<!-- /TOC -->
 
 ---
 >"The ability to simplify means to eliminate the unnecessary so that the necessary may speak." - Hans Hofmann
