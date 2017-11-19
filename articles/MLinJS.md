@@ -24,9 +24,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 
 ## Machine learning tools JavaScript
 
-[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/mljs/ml)
-
-Github Repo (https://github.com/mljs/ml)
+[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/mljs/ml) [Github Repo](https://github.com/mljs/ml)
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
