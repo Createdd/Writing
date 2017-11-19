@@ -46,6 +46,12 @@ It covers tools for:
     - Binary search
     - Number comparison functions for sorting
 
+Actively maintained and a wide variety of features! Well done!
+
+---
+
+
+
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
 
