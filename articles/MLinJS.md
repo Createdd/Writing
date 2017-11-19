@@ -4,9 +4,7 @@
 https://unsplash.com/photos/aRf1hjEHlhA)
 Photo by Daniele Levis Pelusi on Unsplash - https://unsplash.com/photos/aRf1hjEHlhA
 
-
-
-
+You come from a JavaScript background and don't want to go through all the Python related setup to get going with some machine learning? Check out libraries for JavaScript, there are a few!
 
 ## 📄 Table of contents
 
