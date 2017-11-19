@@ -26,6 +26,26 @@ You come from a JavaScript background and don't want to go through all the Pytho
 
 [![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/mljs/ml) [On Github](https://github.com/mljs/ml)
 
+> This library is a compilation of the tools developed in the mljs organization.
+It is mainly maintained for use in the browser.
+
+It covers tools for:
+
+- Unsupervised learning
+- Supervised learning
+- Artificial neural networks (ANN)
+- Regression
+- Optimization
+- Math
+- Statistics
+- Data preprocessing
+- Utilities like
+    - Bit array operations
+    - Hash table
+    - Pad array
+    - Binary search
+    - Number comparison functions for sorting
+
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
 
