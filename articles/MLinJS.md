@@ -15,6 +15,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [Machine learning tools JavaScript](#machine-learning-tools-javascript)
   - [Machine Learning by junku901](#machine-learning-by-junku901)
   - [Convnetjs by karpathy](#convnetjs-by-karpathy)
+  - [Synaptic by cazala](#synaptic-by-cazala)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -89,6 +90,30 @@ It also offers an incredible browser demo here: http://cs.stanford.edu/people/ka
 
 Unfortunately it is not maintained :( 
 But nevertheless a great package for learning and playing around.
+
+---
+
+## Synaptic by cazala
+
+[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/cazala/synaptic) [On Github](https://github.com/cazala/synaptic)
+
+> a architecture-free neural network library for node.js and the browser
+
+Covered features:
+- Neurons = synaptic.Neuron
+- Layers = synaptic.Layer
+- Networks = synaptic.Network
+- Trainers = synaptic.Trainer
+- Architects = synaptic.Architect
+
+It also offers an incredible browser demo here: 
+http://caza.la/synaptic/#/
+
+and a great starting guide:
+https://github.com/cazala/synaptic/wiki/Neural-Networks-101
+
+Not only is it currently maintained, but also evolving to a [next release](https://github.com/cazala/synaptic/issues/140).
+Great package for getting started with neural networks! Well done!
 
 ---
 
