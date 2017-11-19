@@ -26,6 +26,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 
 [![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/mljs/ml)
 
+Github Repo (https://github.com/mljs/ml)
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
