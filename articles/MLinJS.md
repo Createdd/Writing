@@ -16,6 +16,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [Machine Learning by junku901](#machine-learning-by-junku901)
   - [Convnetjs by karpathy](#convnetjs-by-karpathy)
   - [Synaptic by cazala](#synaptic-by-cazala)
+  - [Mind by stevenmiller888](#mind-by-stevenmiller888)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -97,7 +98,7 @@ But nevertheless a great package for learning and playing around.
 
 [![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/cazala/synaptic) [On Github](https://github.com/cazala/synaptic)
 
-> a architecture-free neural network library for node.js and the browser
+>A architecture-free neural network library for node.js and the browser
 
 Covered features:
 - Neurons = synaptic.Neuron
@@ -108,6 +109,28 @@ Covered features:
 
 It also offers an incredible browser demo here: 
 http://caza.la/synaptic/#/
+
+and a great starting guide:
+https://github.com/cazala/synaptic/wiki/Neural-Networks-101
+
+Not only is it currently maintained, but also evolving to a [next release](https://github.com/cazala/synaptic/issues/140).
+Great package for getting started with neural networks! Well done!
+
+---
+
+## Mind by stevenmiller888
+
+[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/stevenmiller888/mind) [On Github](https://github.com/stevenmiller888/mind)
+
+>A flexible neural network library for Node.js and the browser.
+
+Covered features:
+- Vectorized - uses a matrix implementation to process training data
+- Configurable - allows you to customize the network topology
+- Pluggable - download/upload minds that have already learned
+
+It also offers an incredible browser demo here: 
+http://stevenmiller888.github.io/mindjs.net/
 
 and a great starting guide:
 https://github.com/cazala/synaptic/wiki/Neural-Networks-101
