@@ -13,6 +13,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 - [ML libraries in JavaScript](#ml-libraries-in-javascript)
   - [📄 Table of contents](#📄-table-of-contents)
   - [Machine learning tools JavaScript](#machine-learning-tools-javascript)
+  - [Machine Learning by junku901](#machine-learning-by-junku901)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -29,7 +30,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 > This library is a compilation of the tools developed in the mljs organization.
 It is mainly maintained for use in the browser.
 
-It covers tools for:
+Covered tools:
 
 - Unsupervised learning
 - Supervised learning
@@ -49,6 +50,33 @@ It covers tools for:
 Actively maintained and a wide variety of features! Well done!
 
 ---
+
+## Machine Learning by junku901
+
+[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/junku901/machine_learning) [On Github](https://github.com/junku901/machine_learning)
+
+Covered features:
+
+- Logistic Regression
+- MLP (Multi-Layer Perceptron)
+- SVM (Support Vector Machine)
+- KNN (K-nearest neighbors)
+- K-means clustering
+- 3 Optimization Algorithms (Hill-Climbing, Simulated Annealing, Genetic - Algorithm)
+- Decision Tree
+- NMF (non-negative matrix factorization)
+
+It also offers an incredible browser demo here: http://joonku.com/project/machine_learning
+
+Unfortunately it doesn't seem to be maintained :( 
+
+However, great job!
+
+---
+
+
+
+
 
 
 
