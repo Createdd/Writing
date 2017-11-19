@@ -133,7 +133,7 @@ It also offers an incredible browser demo here:
 http://stevenmiller888.github.io/mindjs.net/
 
 and a great starting guide:
-https://github.com/cazala/synaptic/wiki/Neural-Networks-101
+http://stevenmiller888.github.io/mind-how-to-build-a-neural-network/
 
 Not only is it currently maintained, but also evolving to a [next release](https://github.com/cazala/synaptic/issues/140).
 Great package for getting started with neural networks! Well done!
