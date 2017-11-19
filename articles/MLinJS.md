@@ -14,6 +14,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [📄 Table of contents](#📄-table-of-contents)
   - [Machine learning tools JavaScript](#machine-learning-tools-javascript)
   - [Machine Learning by junku901](#machine-learning-by-junku901)
+  - [Convnetjs by karpathy](#convnetjs-by-karpathy)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -71,6 +72,23 @@ It also offers an incredible browser demo here: http://joonku.com/project/machin
 Unfortunately it doesn't seem to be maintained :( 
 
 However, great job!
+
+---
+
+## Convnetjs by karpathy
+
+[![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/karpathy/convnetjs) [On Github](https://github.com/karpathy/convnetjs)
+
+Covered features:
+- Common Neural Network modules (fully connected layers, non-linearities)
+- Classification (SVM/Softmax) and Regression (L2) cost functions
+- Ability to specify and train Convolutional Networks that process images
+- An experimental Reinforcement Learning module, based on Deep Q Learning
+
+It also offers an incredible browser demo here: http://cs.stanford.edu/people/karpathy/convnetjs/index.html
+
+Unfortunately it is not maintained :( 
+But nevertheless a great package for learning and playing around.
 
 ---
 
