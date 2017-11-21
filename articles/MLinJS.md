@@ -14,7 +14,6 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [Synaptic by cazala](#synaptic-by-cazala)
   - [Mind by stevenmiller888](#mind-by-stevenmiller888)
 
-
 ---
 >“Enjoyment appears at the boundary between boredom and anxiety, when the challenges are just balanced with the person's capacity to act.”
 ― Mihaly Csikszentmihalyi
