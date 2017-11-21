@@ -13,7 +13,6 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [Convnetjs by karpathy](#convnetjs-by-karpathy)
   - [Synaptic by cazala](#synaptic-by-cazala)
   - [Mind by stevenmiller888](#mind-by-stevenmiller888)
-  - [Useful links & credits](#useful-links--credits)
 
 
 ---
