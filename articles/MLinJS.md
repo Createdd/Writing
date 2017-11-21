@@ -12,7 +12,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 
 - [ML libraries in JavaScript](#ml-libraries-in-javascript)
   - [📄 Table of contents](#📄-table-of-contents)
-  - [Machine learning tools JavaScript](#machine-learning-tools-javascript)
+  - [Machine learning tools JavaScript by MLJS](#machine-learning-tools-javascript-by-mljs)
   - [Machine Learning by junku901](#machine-learning-by-junku901)
   - [Convnetjs by karpathy](#convnetjs-by-karpathy)
   - [Synaptic by cazala](#synaptic-by-cazala)
@@ -26,7 +26,7 @@ You come from a JavaScript background and don't want to go through all the Pytho
 ― Mihaly Csikszentmihalyi
 ---
 
-## Machine learning tools JavaScript
+## Machine learning tools JavaScript by MLJS
 
 [![githubLogo](../assets/GithubLogo/PNG/logo.png)](https://github.com/mljs/ml) [On Github](https://github.com/mljs/ml)
 
