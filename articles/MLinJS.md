@@ -132,7 +132,6 @@ http://stevenmiller888.github.io/mind-how-to-build-a-neural-network/
 
 Another awesome package for neural networks! Well done!
 
-
 ---
 
 Thanks for reading my article! Feel free to leave any feedback! 
