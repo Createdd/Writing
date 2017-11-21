@@ -8,10 +8,6 @@ You come from a JavaScript background and don't want to go through all the Pytho
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [ML libraries in JavaScript](#ml-libraries-in-javascript)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [Machine learning tools JavaScript by mljs](#machine-learning-tools-javascript-by-mljs)
   - [Machine Learning by junku901](#machine-learning-by-junku901)
   - [Convnetjs by karpathy](#convnetjs-by-karpathy)
@@ -19,7 +15,6 @@ You come from a JavaScript background and don't want to go through all the Pytho
   - [Mind by stevenmiller888](#mind-by-stevenmiller888)
   - [Useful links & credits](#useful-links--credits)
 
-<!-- /TOC -->
 
 ---
 >“Enjoyment appears at the boundary between boredom and anxiety, when the challenges are just balanced with the person's capacity to act.”
