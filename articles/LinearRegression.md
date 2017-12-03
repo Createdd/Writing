@@ -19,7 +19,11 @@ Linear regression is one of the first concepts you have to get your head around 
 
 ![gif](https://camo.githubusercontent.com/8702cf6f8016bc06f20490036fa028e065cf38cf/687474703a2f2f672e7265636f726469742e636f2f647271577035393139352e676966)
 
-## 
+## On logistic regression 
+
+> Logistic regression is a statistical analysis method used to predict a data value based on prior observations of a data set. A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables.
+
+
 
 
 
