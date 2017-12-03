@@ -25,14 +25,14 @@ Linear regression is one of the first concepts you have to get your head around 
 
 ## Used data
 
-Here I have used public available data from Austria. In this example marriages of all people living in Salzburg (a city in Austria) are gathered over time. It allows to show differences in age, years, wifes or husbands.
+Here I have used public available data from Austria. In this example the number of marriages of all people living in Salzburg (a city in Austria) are gathered over time. It allows to show differences in age, years, wifes or husbands.
 
-##
+## Implementation frameworks
+
+For creating the web application I used React with the create-react-app boilerplate.
+Visualization is done with Uber's React-vis library. It integrates nicely with an React app and allows a fast development of charts and plots. The regression calculation is done with Regression.js, a library for calculating the actual regression line and additional information.
 
 
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
 
 ---
 
