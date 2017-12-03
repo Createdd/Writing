@@ -6,7 +6,9 @@ Photo by Dmitry Ratushny on Unsplash - https://unsplash.com/photos/wpi3sDUrSEk
 
 Linear regression is one of the first concepts you have to get your head around when you start with machine learning. In a simple linear regression, scores are predicted on one variable from the scores on a second variable. Very simple and powerful. Here I implemented the concept with React and visualized it with React-vis. Enjoy
 
-[Open Source Code on Github](https://github.com/DDCreationStudios/logisticRegression/tree/feature/forArticle)
+[Open Source Code on Github](https://github.com/DDCreationStudios/logisticRegression/tree/feature/forArticle) (Be aware that this is only a branch of the project I am working on)
+
+The result can be seen here: https://ddcreationstudios.github.io/logisticRegression/ 
 
 
 ## 📄 Table of contents
