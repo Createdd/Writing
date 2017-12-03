@@ -23,7 +23,11 @@ Linear regression is one of the first concepts you have to get your head around 
 
 > Logistic regression is a statistical analysis method used to predict a data value based on prior observations of a data set. A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables.
 
+## Used data
 
+Here I have used public available data from Austria. In this example marriages of all people living in Salzburg (a city in Austria) are gathered over time. It allows to show differences in age, years, wifes or husbands.
+
+##
 
 
 
