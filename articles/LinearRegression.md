@@ -201,7 +201,7 @@ return (
     );
 ```
 
-This can/should be modularized as well, since it is not that clear from the start what it does. 
+Note: This return statement can/should be modularized as well, since it is not that clear from the start what it does. (Just realized this when writing this article :D)
 
 As can be seen from the import statement 
 ```js 
