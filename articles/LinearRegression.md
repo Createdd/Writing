@@ -34,7 +34,46 @@ Here I have used public available data from Austria. In this example the number 
 For creating the web application I used React with the create-react-app boilerplate.
 Visualization is done with Uber's React-vis library. It integrates nicely with a React app and allows a fast development of charts and plots. The regression calculation is done with Regression.js, a library for calculating the actual regression line and additional information.
 
-## Code
+## Code walkthrough
+
+The `index.js` provides the entry for the app. It renders `App.js`, which renders the following:
+
+```jsx
+render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <h5>Marriages in Salzburg over time</h5>
+        <Plot
+          regression={this.state.regression}
+          data={prepareData(this.state.age)}
+        />
+        <div className="fixed-action-btn">
+          <a className="btn-floating btn-large waves-effect waves-light red">
+            {this.renderRegressionInfo()}
+          </a>
+        </div>
+
+        <ControlPanel
+          switchAge={arg => this.switchAge(arg)}
+          calcRegression={this.renderRegression}
+        />
+        {this.state.regression ? (
+          <div>
+            Prediction for 2020:{" "}
+            {calculateRegression(prepareData(this.state.age)).prediction[1]}
+          </div>
+        ) : (
+          ""
+        )}
+        <Footer />
+      </div>
+    );
+  }
+```
+
 
 
 
