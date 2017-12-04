@@ -36,6 +36,8 @@ Visualization is done with Uber's React-vis library. It integrates nicely with a
 
 ## Code walkthrough
 
+### App.js
+
 The `index.js` provides the entry for the app. It renders `App.js`, which renders the following:
 
 ```jsx
@@ -77,6 +79,8 @@ render() {
 
 In essence, it just calls the components, prepares the data, calculates the regression from the prepared data, and builds the plot accordingly.
 
+### Regression.js
+
 After the preparation of the data it can be easily used with the regression library to build the regression data:
 
 ```js
@@ -106,8 +110,96 @@ const calculateRegression = formattedData => {
 export { calculateRegression as default };
 ```
 
+### Plot.js
 
+This is of course the heart of the app - the visualization. 
 
+Since the regression curve always has to be calculated from the change in data I modularized it in an own function: 
+
+```jsx
+//Plot.jsx
+const renderRegression = () => {
+      if (this.props.regression) {
+        return (
+          <LineSeries
+            data={calculateRegression(this.props.data).regressionData}
+            color="red"
+            animation={"gentle"}
+            onNearestX={(value, { index }) =>
+              this.setState({
+                crosshairValues: [
+                  calculateRegression(this.props.data).regressionData[index]
+                ]
+              })
+            }
+          />
+        );
+      }
+    };
+```
+
+The rest of the Plot rendering is: 
+
+```jsx
+//Plot.jsx
+return (
+      <div className="container">
+        <FlexibleWidthXYPlot
+          height={400}
+          onMouseLeave={() => this.setState({ crosshairValues: [] })}
+        >
+          <HorizontalGridLines />
+          <VerticalGridLines />
+          <MarkSeries
+            data={this.props.data}
+            onNearestX={this._rememberValue}
+            animation={"gentle"}
+          />
+          {value ? (
+            <LineSeries
+              data={[{ x: value.x, y: value.y }, { x: XMAX, y: value.y }]}
+              stroke="black"
+            />
+          ) : null}
+          {value ? (
+            <Hint value={value} getAlignStyle={getAlignStyle}>
+              <div className="rv-hint__content">
+                {`(Year ${value.x}, Marriages: ${value.y})`}
+              </div>
+            </Hint>
+          ) : null}
+          {renderRegression()}
+          <XAxis top={0} hideTicks tickValues={years} title="X" />
+          <XAxis title="Year" tickFormat={v => v} />
+          <YAxis title="Number of Marriages" />
+          <Crosshair
+            values={this.state.crosshairValues}
+            style={{
+              line: { backgroundColor: "red" }
+            }}
+          >
+            <div
+              className="rv-hint__content"
+              style={{ backgroundColor: "red" }}
+            >
+              <p>
+                Year:{" "}
+                {this.state.crosshairValues[0]
+                  ? this.state.crosshairValues[0].x
+                  : []}
+              </p>
+              <p>
+                Marriages:{" "}
+                {this.state.crosshairValues[0]
+                  ? this.state.crosshairValues[0].y
+                  : []}
+              </p>
+            </div>
+          </Crosshair>
+        </FlexibleWidthXYPlot>
+      </div>
+    );
+```
 
 
 
