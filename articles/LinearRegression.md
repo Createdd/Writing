@@ -12,7 +12,20 @@ The result can be seen here: https://ddcreationstudios.github.io/logisticRegress
 
 
 ## 📄 Table of contents
+<!-- TOC -->
 
+- [Implement linear regression in React](#implement-linear-regression-in-react)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [On logistic regression](#on-logistic-regression)
+  - [Used data](#used-data)
+  - [Implementation frameworks](#implementation-frameworks)
+  - [Code walkthrough](#code-walkthrough)
+    - [App.js](#appjs)
+    - [Regression.js](#regressionjs)
+    - [Plot.js](#plotjs)
+  - [Further thoughts](#further-thoughts)
+
+<!-- /TOC -->
 
 ---
 >“Control of consciousness determines the quality of life.” ― Mihaly Csikszentmihalyi
@@ -230,6 +243,13 @@ Key for rendering the Scatterplot or MarkSeries is this:
 
 The `data` is the prepared open source data passed down from the App.js component, `onNearestX` is used for the Crosshair, and the `animation` allows smooth movements
 
+## Further thoughts
+
+Now you have witnessed how easy it is to get going with visualizations in React. I encourage you to try it out and build your own application with it, since it can't really be any easier. 
+
+I have also started to understand that many machine learning implementations are NOT restricted to Python. It's perfectly possible to start out with JavaScript. And this encourages me to do more with it. :)
+
+Another important note: This is a very basic and not really sufficient example in terms of data outcome. This implementation of the linear regression is not suitable for timelines. Part of the linear regression is to find the point where the regression curve meets one axis. In this case this is simply not practical since it takes year 0 as the point of reference.
 
 
 ---
