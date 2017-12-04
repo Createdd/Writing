@@ -201,6 +201,34 @@ return (
     );
 ```
 
+This can/should be modularized as well, since it is not that clear from the start what it does. 
+
+As can be seen from the import statement 
+```js 
+import {
+  FlexibleWidthXYPlot,
+  MarkSeries,
+  LineSeries,
+  HorizontalGridLines,
+  VerticalGridLines,
+  XAxis,
+  YAxis,
+  Crosshair,
+  Hint
+} from "react-vis";
+```
+These are all react-vis components, which I have configured and adapted to my needs.
+
+Key for rendering the Scatterplot or MarkSeries is this:
+```jsx
+<MarkSeries
+            data={this.props.data}
+            onNearestX={this._rememberValue}
+            animation={"gentle"}
+          />
+```
+
+The `data` is the prepared open source data passed down from the App.js component, `onNearestX` is used for the Crosshair, and the `animation` allows smooth movements
 
 
 
