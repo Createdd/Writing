@@ -39,6 +39,7 @@ Visualization is done with Uber's React-vis library. It integrates nicely with a
 The `index.js` provides the entry for the app. It renders `App.js`, which renders the following:
 
 ```jsx
+//app.js
 render() {
     return (
       <div className="App">
@@ -73,6 +74,38 @@ render() {
     );
   }
 ```
+
+In essence, it just calls the components, prepares the data, calculates the regression from the prepared data, and builds the plot accordingly.
+
+After the preparation of the data it can be easily used with the regression library to build the regression data:
+
+```js
+//regressions.js
+import regression from "regression";
+
+const calculateRegression = formattedData => {
+  let regressionData = [];
+  regressionData = formattedData.map(el => {
+    return [parseFloat(el.x), el.y];
+  });
+
+  const result = regression.linear(regressionData);
+  const gradient = result.equation[0];
+  const yIntercept = result.equation[1];
+  const prediction = result.predict(2020);
+
+  regressionData = result.points.map(el => {
+    return {
+      x: el[0],
+      y: el[1]
+    };
+  });
+  return {regressionData, gradient, yIntercept, prediction};
+};
+
+export { calculateRegression as default };
+```
+
 
 
 
