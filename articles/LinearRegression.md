@@ -39,7 +39,7 @@ The result can be seen here: https://ddcreationstudios.github.io/logisticRegress
 > Linear regression has many practical uses. Most applications fall into one of the following two broad categories:If the goal is prediction, or forecasting, or error reduction, linear regression can be used to fit a predictive model to an observed data set of y and X values. After developing such a model, if an additional value of X is then given without its accompanying value of y, the fitted model can be used to make a prediction of the value of y.
 Given a variable y and a number of variables X1, ..., Xp that may be related to y, linear regression analysis can be applied to quantify the strength of the relationship between y and the Xj, to assess which Xj may have no relationship with y at all, and to identify which subsets of the Xj contain redundant information about y.
 
-- [Source](https://en.wikipedia.org/wiki/Linear_regression#Introduction)
+[Source](https://en.wikipedia.org/wiki/Linear_regression#Introduction)
 
 ## Used data
 
