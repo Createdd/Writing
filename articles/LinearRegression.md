@@ -13,7 +13,7 @@ The result can be seen here: https://ddcreationstudios.github.io/logisticRegress
 
 ## 📄 Table of contents
 
-  - [On logistic regression](#on-logistic-regression)
+  - [On linear regression](#on-linear-regression)
   - [Used data](#used-data)
   - [Implementation frameworks](#implementation-frameworks)
   - [Code walkthrough](#code-walkthrough)
@@ -30,9 +30,9 @@ The result can be seen here: https://ddcreationstudios.github.io/logisticRegress
 
 ![gif](https://camo.githubusercontent.com/8702cf6f8016bc06f20490036fa028e065cf38cf/687474703a2f2f672e7265636f726469742e636f2f647271577035393139352e676966)
 
-## On logistic regression 
+## On linear regression 
 
-> Logistic regression is a statistical analysis method used to predict a data value based on prior observations of a data set. A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables.
+> In statistics, linear regression is a linear approach for modeling the relationship between a scalar dependent variable y and one or more explanatory variables (or independent variables) denoted X.
 
 ## Used data
 
