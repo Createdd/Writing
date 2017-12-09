@@ -11,6 +11,15 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 
 ## 📄 Table of contents
 
+<!-- TOC -->
+
+- [Reflecting on Hosting Meetups in 2017](#reflecting-on-hosting-meetups-in-2017)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [Short introduction](#short-introduction)
+  - [](#)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 ---
 >“Consuming culture is never as rewarding as producing it.” 
@@ -21,8 +30,17 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 
 I connected to the current organizer at this time and immediately started to contribute with everything I thought could be helpful. 
 
+## Why organizing events is great
 
-##
+Managing an organization is one of the most rewarding tasks I believe. Not because of the feedback you receive but rather because of the complexity of the task itself. When organizing meetups and events, one not only must handle event-specific tasks such as preparing locations, sponsors, talks and content, but also stay in contact with all people involved in the process and get yourself into the discussed topics as well. 
+
+The complexity itself demands a lot from the organizer and schools him on many aspects of life. As I see it, it is the perfect preparation for starting a business. 
+
+## A take on non-profit systems and entities
+
+
+
+
 
 
 ## Useful links & credits
