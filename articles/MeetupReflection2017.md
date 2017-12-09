@@ -19,6 +19,7 @@ As soon as I have learned the basics of programming with the help of [Free Code 
   - [Why organizing events is great](#why-organizing-events-is-great)
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
   - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
+  - [Stats](#stats)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -57,7 +58,19 @@ That said, I think one of the most important abilities someone can have is to be
 
 I really started to understand this during a coding workshop we did. We wanted to keep it as flexible as possible to provide a good experience for all attendees. And even though we expected this could be difficult we witnessed astonishing results.
 
-In the workshop we decided to divide  the attendees into 3 different groups and encouraged them to develop a project in a collaborative effort. Only one group was able to form a coherent group with ability to get into a flow and build a great project. Why is that?
+In the workshop we decided to divide  the attendees into 3 different groups and encouraged them to develop a project in a collaborative effort. Only one group was able to form a coherent group with ability to get into a flow and build a great project. 
+
+I think what makes a good leader is to identify strengths and give those people social boundaries to allow them toi unfold their potential. Every time a group is not able to get a workflow going it is either: 
+- there is no leading authority in the group
+- the leading authority is not competent enough
+
+Randomly forming groups of people neglects the personality traits of each individual and therefore is prone to failure. There has to be an individual who is capable of taking on the lead, and also be competent enough to do it successfully. In a collection of random people the only way to increase the possibility of a successful outcome is to try to arrange the inhomogeneity of the group as high as possible, so that natural grouping can occur freely. 
+
+## Stats
+
+![img](../assets/MEETREF/meetup.png)
+
+
 
 
 
