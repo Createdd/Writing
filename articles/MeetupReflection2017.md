@@ -15,9 +15,10 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 
 - [Reflecting on Hosting Meetups in 2017](#reflecting-on-hosting-meetups-in-2017)
   - [📄 Table of contents](#📄-table-of-contents)
-  - [Short introduction](#short-introduction)
+  - [Short introduction about the meetup](#short-introduction-about-the-meetup)
   - [Why organizing events is great](#why-organizing-events-is-great)
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
+  - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -27,9 +28,9 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 ― Mihaly Csikszentmihalyi
 ---
 
-## Short introduction
+## Short introduction about the meetup
 
-I connected to the current organizer at this time and immediately started to contribute with everything I thought could be helpful. 
+I connected to the current organizer ([Rob Axelsen](http://rob.ee/)) of the FCC Meetup at this time and immediately started to contribute with everything I thought could be helpful. Gladly Rob is an amazing human being and we immediately connected. 
 
 ## Why organizing events is great
 
@@ -48,7 +49,15 @@ It introduces and demands a new field of competence and expertise but also allow
 - possibility of official subsidies
 - after the setup: way more organized way of handling business-like transactions
 
+## What I have learned on a social side
 
+I have learned that people are really different. We have a variety of different people, from different countries, different fields of expertise, different social status and of course different personalities. 
+
+That said, I think one of the most important abilities someone can have is to be flexible and adaptable to the situation. And that's another reason why organizing meetups is great - because you learn to be more and more flexible with people. 
+
+I really started to understand this during a coding workshop we did. We wanted to keep it as flexible as possible to provide a good experience for all attendees. And even though we expected this could be difficult we witnessed astonishing results.
+
+In the workshop we decided to divide  the attendees into 3 different groups and encouraged them to develop a project in a collaborative effort. Only one group was able to form a coherent group with ability to get into a flow and build a great project. Why is that?
 
 
 
