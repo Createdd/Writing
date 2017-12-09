@@ -4,18 +4,26 @@
 https://unsplash.com/photos/ic6CAdKfDZQ)
 Photo by louis amal on Unsplash - https://unsplash.com/photos/ic6CAdKfDZQ
 
+2017 comes to an end and it's time to reflect on the work I have done regarding the non-profit work. 
 
-[Open Source Code on Github](asdfasdf)
+As soon as I have learned the basics of programming with the help of [Free Code Camp](https://www.freecodecamp.com) I was eager to give something back. I figured out, that I probably can do the most when strengthening the local group of the organization, helping individuals, who are on the same path and just provide a framework of exchange for these groups of people. 
 
 
 ## 📄 Table of contents
 
 
 ---
->"dsasfasfasf"  - Bezos
+>“Consuming culture is never as rewarding as producing it.” 
+― Mihaly Csikszentmihalyi
 ---
 
+## Short introduction
+
+I connected to the current organizer at this time and immediately started to contribute with everything I thought could be helpful. 
+
+
 ##
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
