@@ -16,7 +16,8 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 - [Reflecting on Hosting Meetups in 2017](#reflecting-on-hosting-meetups-in-2017)
   - [📄 Table of contents](#📄-table-of-contents)
   - [Short introduction](#short-introduction)
-  - [](#)
+  - [Why organizing events is great](#why-organizing-events-is-great)
+  - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -37,6 +38,18 @@ Managing an organization is one of the most rewarding tasks I believe. Not becau
 The complexity itself demands a lot from the organizer and schools him on many aspects of life. As I see it, it is the perfect preparation for starting a business. 
 
 ## A take on non-profit systems and entities
+
+During the journey it seemed necessary to formalize the work through a non-profit entity. 
+This decision has to be made after careful due diligence. Setting up a business-like structure involves many new aspects in organizing such as: Correspondence to local authorities, being aware of legal pitfalls (especially regarding tax law and competition law ) and being liable to certain actions. 
+
+It introduces and demands a new field of competence and expertise but also allows for additional rewards. Some of them are: 
+- tax exemptions
+- free use of various software, products and services
+- possibility of official subsidies
+- after the setup: way more organized way of handling business-like transactions
+
+
+
 
 
 
