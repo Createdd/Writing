@@ -31,7 +31,9 @@ As soon as I have learned the basics of programming with the help of [Free Code 
 
 ## Short introduction about the meetup
 
-I connected to the current organizer ([Rob Axelsen](http://rob.ee/)) of the FCC Meetup at this time and immediately started to contribute with everything I thought could be helpful. Gladly Rob is an amazing human being and we immediately connected. 
+[Rob Axelsen](http://rob.ee/) had the courage and took the initiative to start the local group in Vienna. Gladly Rob is an amazing human being and we immediately connected. Since the start of this year we both organized the meetup and enjoyed all highs and lows of organizing a meetup.
+
+The meetup itself currently focuses around collaborative coding, talks about programming, presentations of projects, updates and news from the development world.
 
 ## Why organizing events is great
 
