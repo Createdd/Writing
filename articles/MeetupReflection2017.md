@@ -19,7 +19,7 @@ As soon as I have learned the basics of programming with the help of [Free Code 
   - [Why organizing events is great](#why-organizing-events-is-great)
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
   - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
-  - [Stats](#stats)
+  - [Stats and impressions](#stats-and-impressions)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -68,17 +68,20 @@ I think what makes a good leader is to identify strengths and give those people 
 
 Randomly forming groups of people neglects the personality traits of each individual and therefore is prone to failure. There has to be an individual who is capable of taking on the lead, and also be competent enough to do it successfully. In a collection of random people the only way to increase the possibility of a successful outcome is to try to arrange the inhomogeneity of the group as high as possible, so that natural grouping can occur freely. 
 
-## Stats
+## Stats and impressions
 
 ![img](../assets/MEETREF/meetup.png)
 
+[![img](../assets/MEETREF/youtube.png)](https://www.youtube.com/watch?v=QnggU-fV_xE&t=81s)
 
-
-
-
-
-
-
+![img](../assets/MEETREF/1.jpg)
+![img](../assets/MEETREF/2.jpg)
+![img](../assets/MEETREF/3.jpg)
+![img](../assets/MEETREF/4.jpg)
+![img](../assets/MEETREF/5.jpg)
+![img](../assets/MEETREF/6.jpg)
+![img](../assets/MEETREF/7.jpg)
+![img](../assets/MEETREF/8.jpg)
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
