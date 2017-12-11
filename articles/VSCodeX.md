@@ -4,53 +4,48 @@
 https://unsplash.com/photos/w7ZyuGYNpRQ)
 Photo by Kevin on Unsplash - https://unsplash.com/photos/w7ZyuGYNpRQ
 
-Here is a list of some extensions I come to enjoy with VS Code.
+Here is a list of some extensions I come to enjoy with VS Code. Since I work a lot in the frontend most of these extensions will be useful for web developers. 
+I have been working previously with Atom, Visual Studio and Webstorm but VSCode suits me best and is just incredible. The developer did a great job ( and still do! ). Try it for yourself and enjoy!
 
-
+---
 ## 📄 Table of contents
 
-<!-- TOC -->
+- [HTML Extensions](#html-extensions)
+  - [Auto Close Tag](#auto-close-tag)
+  - [Auto Close Tag](#auto-close-tag-1)
+  - [HTML Snippets](#html-snippets)
+- [Markdown Extensions](#markdown-extensions)
+  - [Auto-Open Markdown Preview](#auto-open-markdown-preview)
+  - [Markdown TOC](#markdown-toc)
+  - [Markdown Theme Kit](#markdown-theme-kit)
+  - [Code Spell Checker](#code-spell-checker)
+- [JavaScript Extensions](#javascript-extensions)
+  - [Babel ES6/ES7](#babel-es6es7)
+  - [Debugger for Chrome](#debugger-for-chrome)
+  - [ESLint](#eslint)
+  - [JavaScript (ES6) code snippets](#javascript-es6-code-snippets)
+  - [Code Spell Checker](#code-spell-checker-1)
+  - [Node.js Modules Intellisense](#nodejs-modules-intellisense)
+  - [React-Native/React/Redux snippets for es6/es7](#react-nativereactredux-snippets-for-es6es7)
+  - [TSLint](#tslint)
+  - [vscode-styled-components](#vscode-styled-components)
+  - [GraphQL for VSCode](#graphql-for-vscode)
+  - [yarn](#yarn)
+- [General Extensions](#general-extensions)
+  - [Color Highlight](#color-highlight)
+  - [Custom CSS and JS Loader](#custom-css-and-js-loader)
+  - [EditorConfig for VS Code](#editorconfig-for-vs-code)
+  - [File Templates](#file-templates)
+  - [Git History (git log)](#git-history-git-log)
+  - [Guides](#guides)
+  - [Material Icon Theme](#material-icon-theme)
+  - [Rainbow Brackets](#rainbow-brackets)
+  - [Prettier](#prettier)
+  - [Project Manager](#project-manager)
+  - [Theme - Seti-Monokai](#theme---seti-monokai)
+  - [WakaTime](#wakatime)
+  - [Settings Sync](#settings-sync)
 
-- [Favorite VS Code Extensions 2017](#favorite-vs-code-extensions-2017)
-  - [📄 Table of contents](#📄-table-of-contents)
-  - [HTML Extensions](#html-extensions)
-    - [Auto Close Tag](#auto-close-tag)
-    - [Auto Close Tag](#auto-close-tag-1)
-    - [HTML Snippets](#html-snippets)
-  - [Markdown Extensions](#markdown-extensions)
-    - [Auto-Open Markdown Preview](#auto-open-markdown-preview)
-    - [Markdown TOC](#markdown-toc)
-    - [Markdown Theme Kit](#markdown-theme-kit)
-    - [Code Spell Checker](#code-spell-checker)
-  - [JavaScript Extensions](#javascript-extensions)
-    - [Babel ES6/ES7](#babel-es6es7)
-    - [Debugger for Chrome](#debugger-for-chrome)
-    - [ESLint](#eslint)
-    - [JavaScript (ES6) code snippets](#javascript-es6-code-snippets)
-    - [Code Spell Checker](#code-spell-checker-1)
-    - [Node.js Modules Intellisense](#nodejs-modules-intellisense)
-    - [React-Native/React/Redux snippets for es6/es7](#react-nativereactredux-snippets-for-es6es7)
-    - [TSLint](#tslint)
-    - [vscode-styled-components](#vscode-styled-components)
-    - [GraphQL for VSCode](#graphql-for-vscode)
-    - [yarn](#yarn)
-  - [General Extensions](#general-extensions)
-    - [Color Highlight](#color-highlight)
-    - [Custom CSS and JS Loader](#custom-css-and-js-loader)
-    - [EditorConfig for VS Code](#editorconfig-for-vs-code)
-    - [File Templates](#file-templates)
-    - [Git History (git log)](#git-history-git-log)
-    - [Guides](#guides)
-    - [Material Icon Theme](#material-icon-theme)
-    - [Rainbow Brackets](#rainbow-brackets)
-    - [Prettier](#prettier)
-    - [Project Manager](#project-manager)
-    - [Theme - Seti-Monokai](#theme---seti-monokai)
-    - [WakaTime](#wakatime)
-    - [Settings Sync](#settings-sync)
-  - [Useful links & credits](#useful-links--credits)
-
-<!-- /TOC -->
 
 ---
 >“To enjoy life, you don't need fancy nonsense, but you do need to control your time and realize that most things just aren't as serious as you make them out to be.” 
@@ -269,10 +264,6 @@ View the history of a file (Git log) or the history of a line in a file (Git Bla
 > Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
 
 ---
 
