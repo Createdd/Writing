@@ -35,6 +35,12 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [vscode-styled-components](#vscode-styled-components)
     - [yarn](#yarn)
   - [General Extensions](#general-extensions)
+    - [Color Highlight](#color-highlight)
+    - [Custom CSS and JS Loader](#custom-css-and-js-loader)
+    - [EditorConfig for VS Code](#editorconfig-for-vs-code)
+    - [File Templates](#file-templates)
+    - [yarn](#yarn-1)
+    - [yarn](#yarn-2)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -156,6 +162,46 @@ Here is a list of some extensions I come to enjoy with VS Code.
 [See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
 
 ## General Extensions
+
+### Color Highlight
+
+> vscode-ext-color-highlight
+
+This extension styles css/web colors found in your document.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+
+### Custom CSS and JS Loader
+
+> Custom CSS to your VS Code. Based on robertohuertasm’s vscode-icons.
+
+![img](https://raw.githubusercontent.com/be5invis/vscode-custom-css/master/screenshot.png)
+
+[See more](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+
+### EditorConfig for VS Code
+
+> EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+### File Templates
+
+> Visual Studio code extenstion that allows to quickly create new files based on defined templates.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=brpaz.file-templates)
+
+### yarn
+
+> yarn commands for VSCode
+
+[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
+
+### yarn
+
+> yarn commands for VSCode
+
+[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
 
 
 
