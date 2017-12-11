@@ -1,12 +1,10 @@
 # Favorite VS Code Extensions 2017
 
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
+[<img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1334&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D">](
+https://unsplash.com/photos/w7ZyuGYNpRQ)
+Photo by Kevin on Unsplash - https://unsplash.com/photos/w7ZyuGYNpRQ
 
 Here is a list of some extensions I come to enjoy with VS Code.
-
-[Open Source Code on Github](asdfasdf)
 
 
 ## 📄 Table of contents
@@ -49,12 +47,14 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [Project Manager](#project-manager)
     - [Theme - Seti-Monokai](#theme---seti-monokai)
     - [WakaTime](#wakatime)
+    - [Settings Sync](#settings-sync)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
 ---
->"dsasfasfasf"  - Bezos
+>“To enjoy life, you don't need fancy nonsense, but you do need to control your time and realize that most things just aren't as serious as you make them out to be.” 
+― Timothy Ferriss
 ---
 
 
@@ -264,6 +264,11 @@ View the history of a file (Git log) or the history of a line in a file (Git Bla
 
 [See more](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 
+### Settings Sync
+
+> Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 
 ## Useful links & credits
