@@ -50,6 +50,18 @@ Here is a list of some extensions I come to enjoy with VS Code.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)
 
+### Markdown TOC
+
+> Generate TOC (table of contents) of headlines from parsed markdown file.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
+
+### Code Spell Checker
+
+> A basic spell checker that works well with camelCase code.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
 
 ## JavaScript Extensions
 
