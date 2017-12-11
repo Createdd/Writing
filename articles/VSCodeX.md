@@ -33,14 +33,19 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [React-Native/React/Redux snippets for es6/es7](#react-nativereactredux-snippets-for-es6es7)
     - [TSLint](#tslint)
     - [vscode-styled-components](#vscode-styled-components)
+    - [GraphQL for VSCode](#graphql-for-vscode)
     - [yarn](#yarn)
   - [General Extensions](#general-extensions)
     - [Color Highlight](#color-highlight)
     - [Custom CSS and JS Loader](#custom-css-and-js-loader)
     - [EditorConfig for VS Code](#editorconfig-for-vs-code)
     - [File Templates](#file-templates)
+    - [Git History (git log)](#git-history-git-log)
+    - [Guides](#guides)
+    - [Material Icon Theme](#material-icon-theme)
     - [yarn](#yarn-1)
     - [yarn](#yarn-2)
+    - [yarn](#yarn-3)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -155,6 +160,12 @@ Here is a list of some extensions I come to enjoy with VS Code.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
+### GraphQL for VSCode
+
+> GraphQL syntax highlighting, linting, auto-complete, and more!
+
+[See more](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
+
 ### yarn
 
 > yarn commands for VSCode
@@ -190,6 +201,35 @@ This extension styles css/web colors found in your document.
 > Visual Studio code extenstion that allows to quickly create new files based on defined templates.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=brpaz.file-templates)
+
+### Git History (git log)
+
+> View git log along with the graph and details.
+View the history of a file (Git log) or the history of a line in a file (Git Blame). View a previous copy of the file. Compare a previous version with the version in the workspace or another. View commit log details for a selected commit. Compare commits.
+
+![animated](https://raw.githubusercontent.com/DonJayamanne/gitHistoryVSCode/master/images/gitLogv2.gif)
+
+[See more](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory9)
+
+### Guides
+
+> A Visual Studio Code extension for more guide lines
+
+![img](https://github.com/spywhere/vscode-guides/raw/master/images/screenshot.png)
+
+[See more](https://marketplace.visualstudio.com/items?itemName=spywhere.guides)
+
+### Material Icon Theme
+
+> The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+### yarn
+
+> yarn commands for VSCode
+
+[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
 
 ### yarn
 
