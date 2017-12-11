@@ -29,6 +29,9 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [ESLint](#eslint)
     - [JavaScript (ES6) code snippets](#javascript-es6-code-snippets)
     - [Code Spell Checker](#code-spell-checker-1)
+    - [Node.js Modules Intellisense](#nodejs-modules-intellisense)
+    - [React-Native/React/Redux snippets for es6/es7](#react-nativereactredux-snippets-for-es6es7)
+    - [Code Spell Checker](#code-spell-checker-2)
   - [General Extensions](#general-extensions)
   - [Useful links & credits](#useful-links--credits)
 
@@ -113,6 +116,24 @@ Here is a list of some extensions I come to enjoy with VS Code.
 > This extension contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript).
 
 [See more](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+
+### Code Spell Checker
+
+> A basic spell checker that works well with camelCase code.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
+
+### Node.js Modules Intellisense
+
+> Visual Studio Code plugin that autocompletes JavaScript / TypeScript modules in import statements.
+
+![animated](https://github.com/leizongmin/vscode-node-module-intellisense/raw/master/images/auto_complete.gif)
+
+[See more](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+### React-Native/React/Redux snippets for es6/es7
+
+[See more](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 
 ### Code Spell Checker
 
