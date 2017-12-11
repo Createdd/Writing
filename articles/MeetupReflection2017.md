@@ -82,6 +82,7 @@ Randomly forming groups of people neglects the personality traits of each indivi
 ![img](../assets/MEETREF/6.jpg)
 ![img](../assets/MEETREF/7.jpg)
 ![img](../assets/MEETREF/8.jpg)
+Photography by [Slaven Fanfani](https://moj.me/)
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
