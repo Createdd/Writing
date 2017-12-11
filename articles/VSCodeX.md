@@ -262,8 +262,7 @@ View the history of a file (Git log) or the history of a line in a file (Git Bla
 
 > Metrics, insights, and time tracking automatically generated from your programming activity.
 
-[See more](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
-
+[See more](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)
 
 
 
