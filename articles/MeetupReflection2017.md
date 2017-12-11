@@ -20,6 +20,7 @@ As soon as I have learned the basics of programming with the help of [Free Code 
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
   - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
   - [Stats and impressions](#stats-and-impressions)
+  - [The future](#the-future)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -83,6 +84,11 @@ Randomly forming groups of people neglects the personality traits of each indivi
 ![img](../assets/MEETREF/7.jpg)
 ![img](../assets/MEETREF/8.jpg)
 Photography by [Slaven Fanfani](https://moj.me/)
+
+## The future
+
+I am very excited for the future
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
