@@ -42,12 +42,22 @@ Here is a list of some extensions I come to enjoy with VS Code.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
 
-
 ## Markdown Extensions
+
+### Auto-Open Markdown Preview
+
+> This VS Code extension automatically shows Markdown preview whenever you open new Markdown file. If you feel annoying to type "Ctrl+K V" or "⌘+K V" (preview side-by-side) many times, this extension helps you.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=hnw.vscode-auto-open-markdown-preview)
+
 
 ## JavaScript Extensions
 
+
+
 ## General Extensions
+
+
 
 
 ## Useful links & credits
