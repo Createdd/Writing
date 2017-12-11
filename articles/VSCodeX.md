@@ -22,6 +22,7 @@ Here is a list of some extensions I come to enjoy with VS Code.
   - [Markdown Extensions](#markdown-extensions)
     - [Auto-Open Markdown Preview](#auto-open-markdown-preview)
     - [Markdown TOC](#markdown-toc)
+    - [Markdown Theme Kit](#markdown-theme-kit)
     - [Code Spell Checker](#code-spell-checker)
   - [JavaScript Extensions](#javascript-extensions)
     - [Babel ES6/ES7](#babel-es6es7)
@@ -43,9 +44,11 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [Git History (git log)](#git-history-git-log)
     - [Guides](#guides)
     - [Material Icon Theme](#material-icon-theme)
-    - [yarn](#yarn-1)
-    - [yarn](#yarn-2)
-    - [yarn](#yarn-3)
+    - [Rainbow Brackets](#rainbow-brackets)
+    - [Prettier](#prettier)
+    - [Project Manager](#project-manager)
+    - [Theme - Seti-Monokai](#theme---seti-monokai)
+    - [WakaTime](#wakatime)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -94,6 +97,12 @@ Here is a list of some extensions I come to enjoy with VS Code.
 > Generate TOC (table of contents) of headlines from parsed markdown file.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
+
+### Markdown Theme Kit
+
+> A set of themes based on SublimeText-Markdown/MarkdownEditing.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-MarkdownKit)
 
 ### Code Spell Checker
 
@@ -225,23 +234,35 @@ View the history of a file (Git log) or the history of a line in a file (Git Bla
 
 [See more](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-### yarn
+### Rainbow Brackets
 
-> yarn commands for VSCode
+> Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets. 
 
-[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
+[See more](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 
-### yarn
+### Prettier
 
-> yarn commands for VSCode
+> VS Code package to format your JavaScript / TypeScript / CSS using Prettier.
 
-[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
+[See more](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-### yarn
+### Project Manager
 
-> yarn commands for VSCode
+> Manage your projects right inside Visual Studio Code. Easily access and switch between them.
 
-[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
+[See more](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+
+### Theme - Seti-Monokai
+
+> Seti Monokai color scheme
+
+[See more](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
+
+### WakaTime
+
+> Metrics, insights, and time tracking automatically generated from your programming activity.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
 
 
 
