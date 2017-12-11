@@ -31,7 +31,9 @@ Here is a list of some extensions I come to enjoy with VS Code.
     - [Code Spell Checker](#code-spell-checker-1)
     - [Node.js Modules Intellisense](#nodejs-modules-intellisense)
     - [React-Native/React/Redux snippets for es6/es7](#react-nativereactredux-snippets-for-es6es7)
-    - [Code Spell Checker](#code-spell-checker-2)
+    - [TSLint](#tslint)
+    - [vscode-styled-components](#vscode-styled-components)
+    - [yarn](#yarn)
   - [General Extensions](#general-extensions)
   - [Useful links & credits](#useful-links--credits)
 
@@ -135,13 +137,23 @@ Here is a list of some extensions I come to enjoy with VS Code.
 
 [See more](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 
-### Code Spell Checker
+### TSLint
 
-> A basic spell checker that works well with camelCase code.
+> Integrates the tslint linter for the TypeScript language into VS Code.
 
-[See more](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+[See more](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 
+### vscode-styled-components
 
+> Syntax highlighting for styled-components.
+
+[See more](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+
+### yarn
+
+> yarn commands for VSCode
+
+[See more](https://marketplace.visualstudio.com/items?itemName=gamunu.vscode-yarn)
 
 ## General Extensions
 
