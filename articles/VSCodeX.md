@@ -12,7 +12,7 @@ I have been working previously with Atom, Visual Studio and Webstorm but VSCode 
 
 - [HTML Extensions](#html-extensions)
   - [Auto Close Tag](#auto-close-tag)
-  - [Auto Close Tag](#auto-close-tag-1)
+  - [Auto Rename Tag](#auto-rename-tag)
   - [HTML Snippets](#html-snippets)
 - [Markdown Extensions](#markdown-extensions)
   - [Auto-Open Markdown Preview](#auto-open-markdown-preview)
