@@ -63,11 +63,11 @@ I have been working previously with Atom, Visual Studio and Webstorm but VSCode 
 
 [See more](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-### Auto Close Tag
+### Auto Rename Tag
 
-> Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
+> Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
 
-![animated](https://github.com/formulahendry/vscode-auto-close-tag/raw/master/images/usage.gif)
+![animated](https://github.com/formulahendry/vscode-auto-rename-tag/raw/master/images/usage.gif)
 
 [See more](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
