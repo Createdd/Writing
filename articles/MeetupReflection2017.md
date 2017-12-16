@@ -20,7 +20,7 @@ Even though I am doing more than just organizing a meetup I want to focus on the
   - [Short introduction about the meetup](#short-introduction-about-the-meetup)
   - [Why organizing events is great](#why-organizing-events-is-great)
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
-  - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
+  - [What I have learned on a social side and thoughts on group work](#what-i-have-learned-on-a-social-side-and-thoughts-on-group-work)
   - [Stats and impressions](#stats-and-impressions)
   - [The future for events I organize](#the-future-for-events-i-organize)
   - [More about the events and organization](#more-about-the-events-and-organization)
@@ -44,7 +44,9 @@ Managing an organization is one of the most rewarding tasks I believe. Not becau
 
 The complexity itself demands a lot from the organizer and schools him on many aspects of life. As I see it, it is the perfect preparation for starting a business. Although it can be hard to fit into the day-to-day schedule, it is perfectly doable when basics of time management are applied. 
 
-Another thing why organizing events is great, is because it forces you to increase self-awareness, which is key in life in general. 
+Another thing why organizing events is great, is because it forces you to increase self-awareness, which is key in life in general. Knowing who you are, what your strengths and weaknesses are and how other people perceive you is very important to develop a better self.
+
+Because how can you improve yourself if you are delusional about yourself?
 
 
 ## A take on non-profit systems and entities
@@ -58,7 +60,9 @@ It introduces and demands a new field of competence and expertise but also allow
 - possibility of official subsidies
 - after the setup: way more organized way of handling business-like transactions
 
-## What I have learned on a social side
+The takeaway here is to carefully audit the possible advantages and disadvantages and [always calculate with hidden costs](https://en.wikipedia.org/wiki/Planning_fallacy). 
+
+## What I have learned on a social side and thoughts on group work
 
 I have learned that people are really different. We have a variety of different people, from different countries, different fields of expertise, different social status and of course different personalities. 
 
