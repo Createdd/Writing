@@ -20,7 +20,7 @@ As soon as I have learned the basics of programming with the help of [Free Code 
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
   - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
   - [Stats and impressions](#stats-and-impressions)
-  - [The future](#the-future)
+  - [The future for events I organize](#the-future-for-events-i-organize)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -69,6 +69,8 @@ I think what makes a good leader is to identify strengths and give those people 
 
 Randomly forming groups of people neglects the personality traits of each individual and therefore is prone to failure. There has to be an individual who is capable of taking on the lead, and also be competent enough to do it successfully. In a collection of random people the only way to increase the possibility of a successful outcome is to try to arrange the inhomogeneity of the group as high as possible, so that natural grouping can occur freely. 
 
+
+
 ## Stats and impressions
 
 ![img](../assets/MEETREF/meetup.png)
@@ -85,9 +87,13 @@ Randomly forming groups of people neglects the personality traits of each indivi
 ![img](../assets/MEETREF/8.jpg)
 Photography by [Slaven Fanfani](https://moj.me/)
 
-## The future
+## The future for events I organize
 
-I am very excited for the future
+I am very excited for the future. There are many ways to contribute to society. When organizing events and meetups is not really about showing off skills or projects or providing entertainment. For me it as a way to discover the skills and potential of people and empowering them. It is amazing how many people aren't aware of their own potential. So the goal for 2018 would be to increase self-awareness in people and help them harness their own power. 
+
+I am a big believer that in the future there is a very big demand for people who know how to code. The future belongs to those you can control the machines, which will control our lives. 
+
+Stay motivated! 
 
 
 ## Useful links & credits
