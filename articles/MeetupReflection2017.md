@@ -100,8 +100,8 @@ Stay motivated!
 
 ## More about the events and organization
 
-- [FreeCodeCamp Vienna (local group) on meetup](https://www.meetup.com/Free-Code-Camp-Vienna)
-- [FreeCodeCamp Vienna on Github](https://github.com/FCCVienna) and its [homepage]()
+- [FreeCodeCamp Vienna on meetup](https://www.meetup.com/Free-Code-Camp-Vienna)
+- [FreeCodeCamp Vienna on Github](https://github.com/FCCVienna) and its [homepage](https://fccvienna.github.io/)
 - [DevelopersRising on Github](https://github.com/DevelopersRising/DevelopersRising) and its [homepage](https://developersrising.herokuapp.com/)
 
 ---
