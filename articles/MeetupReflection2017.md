@@ -63,7 +63,7 @@ I really started to understand this during a coding workshop we did. We wanted t
 
 In the workshop we decided to divide  the attendees into 3 different groups and encouraged them to develop a project in a collaborative effort. Only one group was able to form a coherent group with ability to get into a flow and build a great project. 
 
-I think what makes a good leader is to identify strengths and give those people social boundaries to allow them toi unfold their potential. Every time a group is not able to get a workflow going it is either: 
+I think what makes a good leader is to identify strengths and give those people social boundaries to allow them to unfold their potential. Every time a group is not able to get a workflow going it is either: 
 - there is no leading authority in the group
 - the leading authority is not competent enough
 
