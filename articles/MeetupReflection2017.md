@@ -34,7 +34,7 @@ Even though I am doing more than just organizing a meetup I want to focus on the
 
 ## Short introduction about the meetup
 
-[Rob Axelsen](http://rob.ee/) had the courage and took the initiative to start the local group in Vienna. Gladly Rob is an amazing human being and we immediately connected. Since the start of this year we both organized the meetup and enjoyed all highs and lows of organizing a meetup.
+[Rob Axelsen](http://rob.ee/) had the courage and took the initiative to start the local group in Vienna. Gladly, Rob is an amazing human being and we immediately connected. Since the start of this year we both organized the meetup and enjoyed all highs and lows of organizing a meetup.
 
 The meetup itself currently focuses around collaborative coding, talks about programming, presentations of projects, updates and news from the development world.
 
@@ -42,7 +42,10 @@ The meetup itself currently focuses around collaborative coding, talks about pro
 
 Managing an organization is one of the most rewarding tasks I believe. Not because of the feedback you receive but rather because of the complexity of the task itself. When organizing meetups and events, one not only must handle event-specific tasks such as preparing locations, sponsors, talks and content, but also stay in contact with all people involved in the process and get yourself into the discussed topics as well. 
 
-The complexity itself demands a lot from the organizer and schools him on many aspects of life. As I see it, it is the perfect preparation for starting a business. 
+The complexity itself demands a lot from the organizer and schools him on many aspects of life. As I see it, it is the perfect preparation for starting a business. Although it can be hard to fit into the day-to-day schedule, it is perfectly doable when basics of time management are applied. 
+
+Another thing why organizing events is great, is because it forces you to increase self-awareness, which is key in life in general. 
+
 
 ## A take on non-profit systems and entities
 
