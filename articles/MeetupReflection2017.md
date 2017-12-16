@@ -8,6 +8,8 @@ Photo by louis amal on Unsplash - https://unsplash.com/photos/ic6CAdKfDZQ
 
 As soon as I have learned the basics of programming with the help of [Free Code Camp](https://www.freecodecamp.com) I was eager to give something back. I figured out, that I probably can do the most when strengthening the local group of the organization, helping individuals, who are on the same path and just provide a framework of exchange for these groups of people. 
 
+Even though I am doing more than just organizing a meetup I want to focus on the [FreeCodeCamp Local Meetup in Vienna](https://www.meetup.com/Free-Code-Camp-Vienna) in this article.
+
 
 ## 📄 Table of contents
 
@@ -21,7 +23,7 @@ As soon as I have learned the basics of programming with the help of [Free Code 
   - [What I have learned on a social side](#what-i-have-learned-on-a-social-side)
   - [Stats and impressions](#stats-and-impressions)
   - [The future for events I organize](#the-future-for-events-i-organize)
-  - [Useful links & credits](#useful-links--credits)
+  - [More about the events and organization](#more-about-the-events-and-organization)
 
 <!-- /TOC -->
 
@@ -96,8 +98,11 @@ I am a big believer that in the future there is a very big demand for people who
 Stay motivated! 
 
 
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+## More about the events and organization
+
+- [FreeCodeCamp Vienna (local group) on meetup](https://www.meetup.com/Free-Code-Camp-Vienna)
+- [FreeCodeCamp Vienna on Github](https://github.com/FCCVienna) and its [homepage]()
+- [DevelopersRising on Github](https://github.com/DevelopersRising/DevelopersRising) and its [homepage](https://developersrising.herokuapp.com/)
 
 ---
 
