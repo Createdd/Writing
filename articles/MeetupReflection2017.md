@@ -100,7 +100,7 @@ Photography by [Slaven Fanfani](https://moj.me/)
 
 I am very excited for the future. There are many ways to contribute to society. When organizing events and meetups is not really about showing off skills or projects or providing entertainment. For me it as a way to discover the skills and potential of people and empowering them. It is amazing how many people aren't aware of their own potential. So the goal for 2018 would be to increase self-awareness in people and help them harness their own power. 
 
-I am a big believer that in the future there is a very big demand for people who know how to code. The future belongs to those you can control the machines, which will control our lives. 
+I am a big believer that in the future there is a very big demand for people who know how to code. The future belongs to those who can control the machines, which will control our lives. 
 
 Stay motivated! 
 
