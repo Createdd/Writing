@@ -85,6 +85,7 @@ Randomly forming groups of people neglects the personality traits of each indivi
 ![img](../assets/MEETREF/meetup.png)
 
 [![img](../assets/MEETREF/youtube.png)](https://www.youtube.com/watch?v=QnggU-fV_xE&t=81s)
+[![img](../assets/MEETREF/youtube2.png)](https://www.youtube.com/watch?v=PnWdfrxuEeU)
 
 ![img](../assets/MEETREF/1.jpg)
 ![img](../assets/MEETREF/2.jpg)
