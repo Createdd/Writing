@@ -13,10 +13,6 @@ Even though I am doing more than just organizing a meetup I want to focus on the
 
 ## 📄 Table of contents
 
-<!-- TOC -->
-
-- [Reflecting on Hosting Meetups in 2017](#reflecting-on-hosting-meetups-in-2017)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [Short introduction about the meetup](#short-introduction-about-the-meetup)
   - [Why organizing events is great](#why-organizing-events-is-great)
   - [A take on non-profit systems and entities](#a-take-on-non-profit-systems-and-entities)
@@ -25,7 +21,6 @@ Even though I am doing more than just organizing a meetup I want to focus on the
   - [The future for events I organize](#the-future-for-events-i-organize)
   - [More about the events and organization](#more-about-the-events-and-organization)
 
-<!-- /TOC -->
 
 ---
 >“Consuming culture is never as rewarding as producing it.” 
