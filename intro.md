@@ -58,9 +58,10 @@
 1. [📝 Why I Start Writing](./articles/WhyIStartWriting.md)
 
 ## 📝 Author
-[<img src="https://avatars1.githubusercontent.com/u/22077628?v=4&s=460" align="right" height="100">](http://createdd.com)
+[<img src="https://avatars1.githubusercontent.com/u/22077628?v=4&s=460" align="left" height="100">](http://createdd.com)
 
-##### Daniel Deutsch <kbd>[Createdd.com](http://createdd.com/) / [Github](https://www.freecodecamp.com/ddcreationstudios) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [CodePen](http://codepen.io/ddcreationstudios/)  / [Medium](https://medium.com/@ddcreationstudi) / [Hashnode](https://hashnode.com/@DDCreationStudio) / [E-Mail](mailto:dd@createdd.com)</kbd>
+##### Daniel Deutsch 
+<kbd>[Createdd.com](http://createdd.com/) / [Github](https://www.freecodecamp.com/ddcreationstudios) / [LinkedIn](https://www.linkedin.com/in/daniel-deutsch-b95611127) / [CodePen](http://codepen.io/ddcreationstudios/)  / [Medium](https://medium.com/@ddcreationstudi) / [Hashnode](https://hashnode.com/@DDCreationStudio) / [E-Mail](mailto:dd@createdd.com)</kbd>
 
 
 
