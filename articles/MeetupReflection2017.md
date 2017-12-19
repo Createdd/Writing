@@ -4,9 +4,9 @@
 https://unsplash.com/photos/ic6CAdKfDZQ)
 Photo by louis amal on Unsplash - https://unsplash.com/photos/ic6CAdKfDZQ
 
-2017 comes to an end and it's time to reflect on the work I have done regarding the non-profit work. 
+2017 comes to an end and it's time to reflect on the work I have done regarding non-profit work.
 
-As soon as I have learned the basics of programming with the help of [Free Code Camp](https://www.freecodecamp.com) I was eager to give something back. I figured out, that I probably can do the most when strengthening the local group of the organization, helping individuals, who are on the same path and just provide a framework of exchange for these groups of people. 
+As soon as I learned the basics of programming with the help of [Free Code Camp](https://www.freecodecamp.com) I was eager to give something back. I figured out that I probably can do the most when strengthening the local group of the organization, helping individuals who are on the same path, and just provide a framework of exchange for these groups of people.
 
 Even though I am doing more than just organizing a meetup I want to focus on the [FreeCodeCamp Local Meetup in Vienna](https://www.meetup.com/Free-Code-Camp-Vienna) in this article.
 
