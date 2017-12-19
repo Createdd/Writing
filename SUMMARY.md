@@ -1,4 +1,4 @@
-# Web Development / Programming
+### Web Development / Programming
 - [🏠 Understanding MVC](./articles/UnderstandingMVC.md)
 - [📝 How to set up Atom for writing](./articles/HowToSetUpAtomForWriting.md)
 - [⚛️ Introduction to Redux](./articles/IntroductionToRedux.md)
