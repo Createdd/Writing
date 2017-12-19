@@ -51,18 +51,18 @@ ___
 1. [⚛️ Introducing TypeScript (with a section on JSX)](https://github.com/DDCreationStudios/Writing/blob/master/articles/TypeScript.md)
 1. [🌐 Summary of the Pragmatic Programmer](https://github.com/DDCreationStudios/Writing/blob/master/articles/Pragmatic.md)
 1. [⚛️ Introducing Relay](https://github.com/DDCreationStudios/Writing/blob/master/articles/Relay.md)
-1. [🌐 Introducing Data Visualization in Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/DataVizPython.md)
-1. [🌐 5 Tips for time management](https://github.com/DDCreationStudios/Writing/blob/master/articles/TimeManagement.md)
-1. [🌐 Reminder on cognitive biases](https://github.com/DDCreationStudios/Writing/blob/master/articles/CognitiveBiases.md)
-1. [🌐  Make a difference - motivational reminder](https://github.com/DDCreationStudios/Writing/blob/master/articles/ALegacy.md)
+1. [⚛️ Introducing Data Visualization in Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/DataVizPython.md)
+1. [🌟 5 Tips for time management](https://github.com/DDCreationStudios/Writing/blob/master/articles/TimeManagement.md)
+1. [🌟 Reminder on cognitive biases](https://github.com/DDCreationStudios/Writing/blob/master/articles/CognitiveBiases.md)
+1. [🌟  Make a difference - motivational reminder](https://github.com/DDCreationStudios/Writing/blob/master/articles/ALegacy.md)
 1. [🌐 Online Text Summarizers](https://github.com/DDCreationStudios/Writing/blob/master/articles/TextSummarizers.md)
-1. [🌐 ML libraries in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/MLinJS.md)
-1. [🌐 Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
+1. [⚛️ ML libraries in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/MLinJS.md)
+1. [⚛️ Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
 1. [🌐 Favorite VS Code Extensions 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/VSCodeX.md)
 1. [🌐 Reflecting Meetups 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/MeetupReflection2017.md)
 
 
-![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
+<!-- ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif) -->
 
 [![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/powered-by-water.svg)](http://forthebadge.com)
 
