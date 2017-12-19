@@ -54,8 +54,11 @@ ___
 1. [🌐 Introducing Data Visualization in Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/DataVizPython.md)
 1. [🌐 5 Tips for time management](https://github.com/DDCreationStudios/Writing/blob/master/articles/TimeManagement.md)
 1. [🌐 Reminder on cognitive biases](https://github.com/DDCreationStudios/Writing/blob/master/articles/CognitiveBiases.md)
-1. [🌐 Introduction to Natural Language Processing with Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/NLP.md)
-1. [🌐 Introduction to Natural Language Processing with Python](https://github.com/DDCreationStudios/Writing/blob/master/articles/NLP.md)
+1. [🌐  Make a difference - motivational reminder](https://github.com/DDCreationStudios/Writing/blob/master/articles/ALegacy.md)
+1. [🌐 Online Text Summarizers](https://github.com/DDCreationStudios/Writing/blob/master/articles/TextSummarizers.md)
+1. [🌐 ML libraries in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/MLinJS.md)
+1. [🌐 Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
+1. [🌐 Online Text Summarizers](https://github.com/DDCreationStudios/Writing/blob/master/articles/NLP.md)
 
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
