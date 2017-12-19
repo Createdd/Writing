@@ -411,7 +411,8 @@ That layout was for the start and should provide an overview. It is very natural
 - remember that styling with React is more complicated than styling normal HTML elements. For simplicity reasons I fix everything with inline styling on the component itself
 
 >Tip: For 100vh on your main content use this inline style on a div, it fits perfectly into the materialize flexbox:
-```javascript
+
+```jsx
 style={{
   display: 'flex',
   minHeight: '100vh',
