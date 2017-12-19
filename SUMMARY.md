@@ -1,4 +1,4 @@
-# Intro
+### Intro
 ### Web Development / Programming
   - [🏠 Understanding MVC](./articles/UnderstandingMVC.md)
   - [📝 How to set up Atom for writing](./articles/HowToSetUpAtomForWriting.md)
