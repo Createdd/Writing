@@ -29,7 +29,7 @@ Even though I am doing more than just organizing a meetup I want to focus on the
 
 ## Short introduction about the meetup
 
-[Rob Axelsen](http://rob.ee/) had the courage and took the initiative to start the local group in Vienna. Gladly, Rob is an amazing human being and we immediately connected. Since the start of this year we both organized the meetup and enjoyed all highs and lows of organizing a meetup.
+[Robert Axelsen](http://rob.ee/) had the courage and took the initiative to start the local group in Vienna. Gladly, Robert is an amazing human being and we immediately connected. Since the start of this year we both organized the meetup and enjoyed all highs and lows of organizing a meetup.
 
 The meetup itself currently focuses around collaborative coding, talks about programming, presentations of projects, updates and news from the development world.
 
