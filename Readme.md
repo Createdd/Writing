@@ -58,6 +58,7 @@ ___
 1. [🌐 Online Text Summarizers](https://github.com/DDCreationStudios/Writing/blob/master/articles/TextSummarizers.md)
 1. [🌐 ML libraries in JavaScript](https://github.com/DDCreationStudios/Writing/blob/master/articles/MLinJS.md)
 1. [🌐 Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
+1. [🌐 Favorite VS Code Extensions 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/VSCodeX.md)
 1. [🌐 Online Text Summarizers](https://github.com/DDCreationStudios/Writing/blob/master/articles/NLP.md)
 
 
