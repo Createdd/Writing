@@ -1,6 +1,6 @@
-# 📓 Daniel's Notes
+# 📓 Createdd Notes
 
-# Articles about Web Development and Entrepreneurship from 2017
+#### Articles about Web Development and Entrepreneurship from 2017
 
 ## TOC 
 
