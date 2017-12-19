@@ -2,9 +2,9 @@
 
 #### Articles about Web Development and Entrepreneurship from 2017
 
-## TOC 
+## Content:  
 
-### Web Development / Programming
+#### Web Development / Programming
 1. [🏠 Understanding MVC](./articles/UnderstandingMVC.md)
 1. [📝 How to set up Atom for writing](./articles/HowToSetUpAtomForWriting.md)
 1. [⚛️ Introduction to Redux](./articles/IntroductionToRedux.md)
@@ -41,8 +41,8 @@
 1. [⚛️ ML libraries in JavaScript](./articles/MLinJS.md)
 1. [⚛️ Implement linear regression in React](./articles/LinearRegression.md)
 1. [🌐 Favorite VS Code Extensions 2017](./articles/VSCodeX.md)
----
-### Entrepreneurship
+
+#### Entrepreneurship
 1. [🌐 Reflecting Meetups 2017](./articles/MeetupReflection2017.md)
 1. [🌟 5 Tips for time management](./articles/TimeManagement.md)
 1. [🌟 Reminder on cognitive biases](./articles/CognitiveBiases.md)
