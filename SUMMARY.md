@@ -21,7 +21,7 @@
 1. [🌟 Why to keep coding ](./articles/KeepCoding.md)
 1. [🌐 Introduction to Authentication with Node.js and MongoDB ](./articles/AuthenticationIntro.md)
 1. [🌐 Building a REST API ](./articles/APIIntro.md)
-1. [📩 Building the FCC Voting App  ](./articles/VotingApp.md)
+
 1. [⚛️ React Components](./articles/ReactComponents.md)
 1. [📖 Summary of The second machine age](./articles/TheSecondMachineAge.md)
 1. [⚛️ Fetching data in React](./articles/FetchingInReact.md)
