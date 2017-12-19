@@ -5,6 +5,9 @@
 	"pluginsConfig": {
 		"github": {
 			"url": "https://github.com/DDCreationStudios/Writing"
-		}
+		},
+		"structure": {
+			"readme": "intro.md"
+	}
 	}
 }
