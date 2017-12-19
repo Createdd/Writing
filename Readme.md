@@ -61,16 +61,8 @@ ___
 1. [🌐 Favorite VS Code Extensions 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/VSCodeX.md)
 1. [🌐 Reflecting Meetups 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/MeetupReflection2017.md)
 
-
-<!-- ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif) -->
+![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
 
 [![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/powered-by-water.svg)](http://forthebadge.com)
-
-
-### ✅ ToDo
-- [ ] develop a reading extension that highlights most important phrases and words
-
-
-
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
