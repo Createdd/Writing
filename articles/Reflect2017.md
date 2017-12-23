@@ -14,6 +14,7 @@ Enjoy! :)
   - [📄 Table of contents](#📄-table-of-contents)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
+  - [Writing 1 article per week](#writing-1-article-per-week)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -51,7 +52,11 @@ It was surprising to me how fast this goal could be accomplished.
 
 Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-self-taught-programmer-to-job) of a talk me and [Robert](http://rob.ee/) gave during one of our non-profit events.
 
+## Writing 1 article per week
 
+With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my mother tongue) and build an online presence. 
+
+[See my Github repository for more.](https://github.com/DDCreationStudios/Writing)
 
 
 
