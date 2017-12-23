@@ -31,6 +31,16 @@ In the following lines I will examine the progress of each goal in more detail.
 
 This was huge for me. In May 2016 I quite my job in tax advisory to get into programming. Since then I was studying and learning very hard to develop the skill set to work as a developer. 
 
+I worked through the [Free Code Camp](https://www.freecodecamp.org/) curriculum and connected with local developers as much as possible. Each day I was watching videos, reading articles, programming small algorithms or attending some programming-related meetups. 
+
+At the end of 2016 I thought I was ready to apply for a job in this field. The great thing was that I was already connected to some programmers in the local community, which acted as a gateway into interviews. 
+
+One important note here: I was only able to connect to local programmers because I was introducing myself as a beginner on events and offering volunteer work to THEIR projects. I did this many times and followed the projects that had a good working flow and learning experience. 
+
+Due to all the work with local people, online presence and some sort of presentation skill I was able to get my first job as a developer pretty quickly in March. 
+
+It was surprising to me how fast this goal could be accomplished. 
+
 
 
 
