@@ -3,8 +3,8 @@
 fsdgsdgsdgsdgds)
 fsdgsdgsdgsdgds
 
-
-[Open Source Code on Github](asdfasdf)
+2017 passed by pretty quickly and so it's even more important to reflect on all the progress that I have made and what could be improved for 2028. 
+Enjoy! :) 
 
 
 ## 📄 Table of contents
@@ -14,7 +14,8 @@ fsdgsdgsdgsdgds
 >"dsasfasfasf"  - Bezos
 ---
 
-##
+## 
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
