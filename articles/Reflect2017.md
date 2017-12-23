@@ -63,11 +63,11 @@ Writing for me is an important tool for learning things. Formulating a thought o
 
 However, I came to acknowledge the time investment that writing regularly demands. Quality suffers incredibly when not enough time is invested. That's one of the reasons my articles constantly lack depth. But for me this year quantity was more important than quality in terms of writing articles.
 
-I found [medium.com]() to be a great platform for articles in general and [hashnode.com]() for more programming related stuff.
+I found [medium.com](https://medium.com/@ddcreationstudi) to be a great platform for articles in general and [hashnode.com](https://hashnode.com/@DDCreationStudio) for more programming related stuff.
 
-[See my Github repository for more.](https://github.com/DDCreationStudios/Writing)
-[See my medium account]()
-[See my hashnode account]()
+- [See my Github repository for more.](https://github.com/DDCreationStudios/Writing)
+- [See my medium account](https://medium.com/@ddcreationstudi)
+- [See my hashnode account](https://hashnode.com/@DDCreationStudio)
 
 ##
 
