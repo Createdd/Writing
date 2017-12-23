@@ -15,7 +15,7 @@ Enjoy! :)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
   - [Writing 1 article per week](#writing-1-article-per-week)
-- [](#)
+  - [A new non-profit goal](#a-new-non-profit-goal)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -69,7 +69,18 @@ I found [medium.com](https://medium.com/@ddcreationstudi) to be a great platform
 - [See my medium account](https://medium.com/@ddcreationstudi)
 - [See my hashnode account](https://hashnode.com/@DDCreationStudio)
 
-##
+## A new non-profit goal
+
+Giving back is always important. So many opportunities and relationships simply arise because of non-profit work. 
+So this year I wanted to do something non-profit in the tech sector.
+
+Since Free Code Camp helped my a lot when starting to program, I wanted to give back to this organization. Free Code Camp has several local groups, where all the students connect to each other and exchange about their progress.
+
+So I started to contribute regularly to host all the local meetups in Vienna for this year. A separate article can be found [here](https://medium.com/@ddcreationstudi/reflecting-on-hosting-meetups-in-2017-5d28d1db074d).
+
+In short: I was able to create value for many, many people in the programming community in Vienna - success! :) 
+
+
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
