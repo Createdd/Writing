@@ -27,6 +27,12 @@ Most of the time I have a well defined set of goals for the next year. For 2017 
 
 In the following lines I will examine the progress of each goal in more detail.
 
+## Getting a job in programming
+
+This was huge for me. In May 2016 I quite my job in tax advisory to get into programming. Since then I was studying and learning very hard to develop the skill set to work as a developer. 
+
+
+
 
 
 
