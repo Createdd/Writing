@@ -8,7 +8,15 @@ Enjoy! :)
 
 
 ## 📄 Table of contents
+<!-- TOC -->
 
+- [Reflecting on 2017](#reflecting-on-2017)
+  - [📄 Table of contents](#📄-table-of-contents)
+  - [My goals for 2017](#my-goals-for-2017)
+  - [Getting a job in programming](#getting-a-job-in-programming)
+  - [Useful links & credits](#useful-links--credits)
+
+<!-- /TOC -->
 
 ---
 >"Don’t wish it was easier, wish you were better. Don’t wish for less problems, wish for more skills. Don’t wish for less challenge, wish for more wisdom." - Jim Rohn
