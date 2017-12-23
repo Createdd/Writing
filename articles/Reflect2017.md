@@ -15,6 +15,7 @@ Enjoy! :)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
   - [Writing 1 article per week](#writing-1-article-per-week)
+- [](#)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -62,12 +63,13 @@ Writing for me is an important tool for learning things. Formulating a thought o
 
 However, I came to acknowledge the time investment that writing regularly demands. Quality suffers incredibly when not enough time is invested. That's one of the reasons my articles constantly lack depth. But for me this year quantity was more important than quality in terms of writing articles.
 
-
- 
+I found [medium.com]() to be a great platform for articles in general and [hashnode.com]() for more programming related stuff.
 
 [See my Github repository for more.](https://github.com/DDCreationStudios/Writing)
+[See my medium account]()
+[See my hashnode account]()
 
-
+##
 
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
