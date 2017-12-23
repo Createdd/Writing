@@ -41,8 +41,7 @@ Due to all the work with local people, online presence and some sort of presenta
 
 It was surprising to me how fast this goal could be accomplished. 
 
-
-
+Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-self-taught-programmer-to-job) of a talk me and [Robert](http://rob.ee/) gave during one of our non-profit events.
 
 
 
