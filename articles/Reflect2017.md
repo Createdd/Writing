@@ -91,10 +91,11 @@ Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-Daniel connects programming with law. Connect on:
+Daniel closes the gap between programming and law. Connect on:
 - [LinkedIn](www.linkedin.com/in/createdd) 
 - [Github](https://github.com/DDCreationStudios)
 - [Medium](https://medium.com/@ddcreationstudi)
+- [Twitter](https://twitter.com/DDCreationStudi)
 - [Hashnode](https://hashnode.com/@DDCreationStudio)
 
 <!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
