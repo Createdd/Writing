@@ -14,8 +14,9 @@ Enjoy! :)
   - [📄 Table of contents](#📄-table-of-contents)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
-  - [Writing 1 article per week](#writing-1-article-per-week)
+  - [Writing a article per week](#writing-a-article-per-week)
   - [A new non-profit goal](#a-new-non-profit-goal)
+  - [Keep coding for at least 4 times a week](#keep-coding-for-at-least-4-times-a-week)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -53,7 +54,7 @@ It was surprising to me how fast this goal could be accomplished.
 
 Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-self-taught-programmer-to-job) of a talk me and [Robert](http://rob.ee/) gave during one of our non-profit events.
 
-## Writing 1 article per week
+## Writing a article per week
 
 With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my mother tongue) and build an online presence. 
 
@@ -79,6 +80,15 @@ Since Free Code Camp helped my a lot when starting to program, I wanted to give 
 So I started to contribute regularly to host all the local meetups in Vienna for this year. A separate article can be found [here](https://medium.com/@ddcreationstudi/reflecting-on-hosting-meetups-in-2017-5d28d1db074d).
 
 In short: I was able to create value for many, many people in the programming community in Vienna - success! :) 
+
+## Keep coding for at least 4 times a week
+
+Building a habit is one of the most important things when to learning a new skill. As Zig Zigler put it very eloquently:
+
+> Repetition is the mother of learning, the father of action, which makes it the architect of accomplishment.”
+
+For me it meant to just code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
+
 
 
 
