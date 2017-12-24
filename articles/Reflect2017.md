@@ -91,7 +91,7 @@ Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-Daniel is software engineer studying business law, connect on:
+Daniel connects programming with law. Connect on:
 - [LinkedIn](www.linkedin.com/in/createdd) 
 - [Github](https://github.com/DDCreationStudios)
 - [Medium](https://medium.com/@ddcreationstudi)
