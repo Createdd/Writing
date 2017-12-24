@@ -92,7 +92,7 @@ Thanks for reading my article! Feel free to leave any feedback!
 ---
 
 Daniel is software engineer studying business law, connect on:
-- [LinkedIn](www.linkedin.com/in/createdd)
+- [LinkedIn](www.linkedin.com/in/createdd) 
 - [Github](https://github.com/DDCreationStudios)
 - [Medium](https://medium.com/@ddcreationstudi)
 - [Hashnode](https://hashnode.com/@DDCreationStudio)
