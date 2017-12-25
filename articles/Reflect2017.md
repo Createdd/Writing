@@ -102,9 +102,11 @@ This goes very well for law. As I see it, law is the science of organizing socie
 ## Read at least 10 books 
 
 Reading was always one of the most important things for me. It is important to note that this goal aims at different books than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
-This year some books I can recommend were:
-
-
+Some book recommendations from this year:
+- Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi
+- Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration by Ed Catmull, Amy Wallace
+- The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies by Erik Brynjolfsson, Andrew McAfee
+- How Google Works by Eric Schmidt, Jonathan Rosenberg
 
 ## Stay consistent with fitness ( at least 3 times a week)
 
