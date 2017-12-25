@@ -14,10 +14,12 @@ Enjoy! :)
   - [📄 Table of contents](#📄-table-of-contents)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
-  - [Writing a article per week](#writing-a-article-per-week)
+  - [Writing an article per week](#writing-an-article-per-week)
   - [A new non-profit goal](#a-new-non-profit-goal)
   - [Keep coding for at least 4 times a week](#keep-coding-for-at-least-4-times-a-week)
   - [Keep studying law at a public university](#keep-studying-law-at-a-public-university)
+  - [Read at least 10 books](#read-at-least-10-books)
+  - [Stay consistent with fitness ( at least 3 times a week)](#stay-consistent-with-fitness--at-least-3-times-a-week)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -55,7 +57,7 @@ It was surprising to me how fast this goal could be accomplished.
 
 Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-self-taught-programmer-to-job) of a talk me and [Robert](http://rob.ee/) gave during one of our non-profit events.
 
-## Writing a article per week
+## Writing an article per week
 
 With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my mother tongue) and build an online presence. 
 
@@ -92,6 +94,19 @@ For me it meant to just code whenever possible. Even just a few lines of code is
 
 ## Keep studying law at a public university
 
+As it is with the coding, it is also important to stay on some sort of official learning path. Like university in my case. Especially when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
+
+This goes very well for law. As I see it, law is the science of organizing societies. 
+
+
+## Read at least 10 books 
+
+Reading was always one of the most important things for me. It is important to note that this goal aims at different books than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
+This year some books I can recommend were:
+
+
+
+## Stay consistent with fitness ( at least 3 times a week)
 
 
 
