@@ -17,6 +17,7 @@ Enjoy! :)
   - [Writing a article per week](#writing-a-article-per-week)
   - [A new non-profit goal](#a-new-non-profit-goal)
   - [Keep coding for at least 4 times a week](#keep-coding-for-at-least-4-times-a-week)
+  - [Keep studying law at a public university](#keep-studying-law-at-a-public-university)
   - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
@@ -88,6 +89,9 @@ Building a habit is one of the most important things when to learning a new skil
 > Repetition is the mother of learning, the father of action, which makes it the architect of accomplishment.”
 
 For me it meant to just code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
+
+## Keep studying law at a public university
+
 
 
 
