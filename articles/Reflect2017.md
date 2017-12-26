@@ -92,7 +92,7 @@ Building a habit is one of the most important things when to learning a new skil
 
 For me it meant to just code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
 
-![screenshot of github](./assets/REFLECT2017/screenshot.png)
+![screenshot of github](../assets/REFLECT2017/screenshot.png)
 
 ## Keep studying law at a public university
 
