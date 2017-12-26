@@ -132,7 +132,7 @@ Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-Daniel a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna. 
+Daniel is a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna. 
 His current personal learning efforts focus on machine learning (and ultimately artificial intelligence ). Connect on:
 - [LinkedIn](www.linkedin.com/in/createdd) 
 - [Github](https://github.com/DDCreationStudios)
