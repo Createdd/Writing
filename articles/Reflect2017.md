@@ -92,13 +92,20 @@ Building a habit is one of the most important things when to learning a new skil
 
 For me it meant to just code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
 
-![screenshot of github](../assets/REFLECT2017/screenshot.png)
+[![screenshot of github](../assets/REFLECT2017/screenshot.png)](https://github.com/DDCreationStudios) Open Source Contributions on Github
 
 ## Keep studying law at a public university
 
 As it is with the coding, it is also important to stay on some sort of official learning path. Like university in my case. Especially when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
 
 This goes very well for law. As I see it, law is the science of organizing societies. 
+
+This year my focus was on:
+- Criminal law and criminal procedure law
+- European Law
+- Company and Capital Markets Law
+- Public Procurement Law
+- IT-Law
 
 
 ## Read at least 10 books 
