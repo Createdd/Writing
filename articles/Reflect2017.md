@@ -100,7 +100,7 @@ As it is with the coding, it is also important to stay on some sort of official 
 
 This goes very well for law. As I see it, law is the science of organizing societies. 
 
-This year my focus was on:
+This year's focus was on:
 - Criminal law and criminal procedure law
 - European Law
 - Company and Capital Markets Law
