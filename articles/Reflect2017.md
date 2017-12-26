@@ -20,7 +20,6 @@ Enjoy! :)
   - [Keep studying law at a public university](#keep-studying-law-at-a-public-university)
   - [Read at least 10 books](#read-at-least-10-books)
   - [Stay consistent with fitness ( at least 3 times a week)](#stay-consistent-with-fitness--at-least-3-times-a-week)
-  - [Useful links & credits](#useful-links--credits)
 
 <!-- /TOC -->
 
@@ -110,10 +109,6 @@ This year's focus was on:
 I also love the dynamics of having different social settings. Working half-time as well as studying the rest of the time allows my to build different relationships with different minds. It's amazing to see how people in different fields think differently. One example would be that law students almost always argue from analogy, whereas people in computer science tend to argue from first principles. 
 
 
-
-
-
-
 ## Read at least 10 books 
 
 Reading was always one of the most important things for me. It is important to note that this goal aims at different books than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
@@ -129,11 +124,7 @@ This one was also very easy for, since I am used to do more sport per week anywa
 
 The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the challenge when pursuing interesting topics.
 
- 
-
-
-## Useful links & credits
-- [📄 "Begin"](afgafgadgads)
+The last months I came to the conclusion that focusing on more balanced activities like stretching, strength and stamina is more powerful for health than simply building strength. Especially Yoga keeps being a great addition for my sport schedule and benefits my life enormously.
 
 ---
 
