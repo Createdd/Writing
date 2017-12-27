@@ -12,10 +12,11 @@ ___
 
 ### 📰 Latest articles
 
+---
 
-| 2018          | 2017          |
-| ------------- |---------------|
-| col 3 is      | 1. [📝 Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/articles/WhyIStartWriting.md)
+#### 2017
+
+1. [📝 Why I Start Writing](https://github.com/DDCreationStudios/Writing/blob/master/articles/WhyIStartWriting.md)
 1. [📝 My Writing Framework](https://github.com/DDCreationStudios/Writing/blob/master/articles/MyWritingFramework.md)
 1. [🏠 Understanding MVC](https://github.com/DDCreationStudios/Writing/blob/master/articles/UnderstandingMVC.md)
 1. [📝 How to set up Atom for writing](https://github.com/DDCreationStudios/Writing/blob/master/articles/HowToSetUpAtomForWriting.md)
@@ -64,8 +65,7 @@ ___
 1. [⚛️ Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
 1. [🌐 Favorite VS Code Extensions 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/VSCodeX.md)
 1. [🌐 Reflecting Meetups 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/MeetupReflection2017.md)
-1. [🌐 Reflecting on 2017 - The legal tech student perspective](https://github.com/DDCreationStudios/Writing/blob/master/articles/Reflect2017.md) |
-
+1. [🌐 Reflecting on 2017 - The legal tech student perspective](https://github.com/DDCreationStudios/Writing/blob/master/articles/Reflect2017.md)
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
 
