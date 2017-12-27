@@ -94,9 +94,9 @@ For me it meant to just code whenever possible. Even just a few lines of code is
 
 ## Keep studying law at a public university
 
-Since learning is literally the most important thing in life I like to "officially" commit myself to learning in a public learning institution. In my case, this is university. Especially when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
+Since learning is literally the most important thing in life, I like to "officially" commit myself to learning in a public learning institution. In my case, this is university. It is especially beneficial when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
 
-This goes very well for law. As I see it, law is the science of organizing societies. 
+This goes very well for law. As I see it, law is the science of organizing societies, and therefore is a great extension for my work in computer engineering.
 
 This year's focus was on:
 - Criminal law and criminal procedure law
@@ -105,8 +105,7 @@ This year's focus was on:
 - Public Procurement Law
 - IT-Law
 
-I also love the dynamics of having different social settings. Working half-time as well as studying the rest of the time allows my to build different relationships with different minds. It's amazing to see how people in different fields think differently.
-
+I also love the dynamics of having different social settings. Working half-time as well as studying the rest of the time allows my to build different relationships with different minds. It's amazing to see how people from different fields think differently.
 
 ## Read at least 10 books 
 
