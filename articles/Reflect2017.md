@@ -20,7 +20,7 @@ Enjoy! :)
   - [Keep studying law at a public university](#keep-studying-law-at-a-public-university)
   - [Read at least 10 books](#read-at-least-10-books)
   - [Stay consistent with fitness ( at least 3 times a week)](#stay-consistent-with-fitness--at-least-3-times-a-week)
-  - [](#)
+  - [Looking forward](#looking-forward)
 
 <!-- /TOC -->
 
@@ -128,7 +128,11 @@ The challenge I found in this year was to balance motivation between workouts an
 
 The last months I came to the conclusion that focusing on more balanced activities like stretching, strength and stamina is more powerful for health than simply building strength. Especially Yoga keeps being a great addition for my sport schedule and benefits my life enormously.
 
-## 
+## Looking forward 
+
+2017 was an incredible year and I am excited for the next year with all the new challenges. I am especially excited to use all the new technology that keeps arising. 
+
+Stay motivated! :) 
 
 ---
 
