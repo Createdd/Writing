@@ -60,6 +60,7 @@ ___
 1. [⚛️ Implement linear regression in React](https://github.com/DDCreationStudios/Writing/blob/master/articles/LinearRegression.md)
 1. [🌐 Favorite VS Code Extensions 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/VSCodeX.md)
 1. [🌐 Reflecting Meetups 2017](https://github.com/DDCreationStudios/Writing/blob/master/articles/MeetupReflection2017.md)
+1. [🌐 Reflecting on 2017 - The legal tech student perspective](https://github.com/DDCreationStudios/Writing/blob/master/articles/Reflect2017.md)
 
 ![gif](https://media.giphy.com/media/3oKIPCHIzlQVNch7aw/giphy.gif)
 
