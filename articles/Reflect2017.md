@@ -122,7 +122,7 @@ Some book recommendations from this year:
 
 ## Stay consistent with fitness ( at least 3 times a week)
 
-This one was very easy for, since I am used to do more sport per week anyways. 
+This one was very easy for me, since I am used to do more sport per week anyways. 
 
 The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the real challenge when pursuing interesting topics.
 
