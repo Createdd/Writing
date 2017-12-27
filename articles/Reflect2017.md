@@ -60,9 +60,9 @@ Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-se
 
 With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my native language) and build an online presence. 
 
-I also think that writing has always been very powerful, but is even more important in this era. An article written, it can be very easy to share it across multiple platforms and get feedback from different communities. 
+I also think that writing has always been very powerful, but is even more important in this era. As an article is written, it can be very easy to share it across multiple platforms and get feedback from different communities. 
 
-Writing for me is an important tool for learning things. Formulating a thought on paper with your own words is much different than simply repeatedly read information. 
+Writing for me is an important tool to learn things. Formulating a thought on paper with your own words is much different than simply repeatedly read information. 
 
 However, I came to acknowledge the time investment that writing regularly demands. Quality suffers incredibly when not enough time is invested. That's one of the reasons my articles constantly lack depth. But this year quantity was more important than quality for me in terms of writing articles.
 
@@ -87,9 +87,9 @@ In short: I was able to create value for many, many people in the programming co
 
 Building a habit is one of the most important things when to learning a new skill. As Zig Zigler put it very eloquently:
 
-> Repetition is the mother of learning, the father of action, which makes it the architect of accomplishment.”
+> "Repetition is the mother of learning, the father of action, which makes it the architect of accomplishment.”
 
-For me it meant to just code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
+For me it meant to code whenever possible. Even just a few lines of code is enough to stay on track. Of course this goal was a lot easier to achieve when I started to work as a developer. 
 
 [![screenshot of github](../assets/REFLECT2017/screenshot.png)](https://github.com/DDCreationStudios) Open Source Contributions on Github
 
