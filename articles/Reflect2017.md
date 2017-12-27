@@ -109,7 +109,7 @@ I also love the dynamics of having different social settings. Working half-time 
 
 ## Read at least 10 books 
 
-Reading is always one of the most important things for me. It is important to note that this goal aims at reading book, which are different than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
+Reading is one of the most valuable learning experiences for me and therefore each year a goal. It is important to note that this goal aims at reading books, which are different than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
 
 Some book recommendations from this year:
 - **Flow: The Psychology of Optimal Experience** by Mihaly Csikszentmihalyi
@@ -121,13 +121,13 @@ Some book recommendations from this year:
 
 This one was very easy for me, since I am used to do more sport per week anyways. 
 
-The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the real challenge when pursuing interesting topics.
+The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the real challenge when you constantly expose yourself to new ideas. 
 
 The last months I came to the conclusion that focusing on more balanced activities like stretching, strength and stamina is more powerful for health than simply building strength. Especially Yoga keeps being a great addition for my sport schedule and benefits my life enormously.
 
 ## Looking forward 
 
-2017 was an incredible year and I am excited for the next year with all the new challenges. I am especially excited to use all the new technology that keeps arising. 
+2017 was an incredible year and I am excited for the next year with all the new challenges. I am especially eager to use all the new technology that keeps arising. 
 
 Stay motivated! :) 
 
