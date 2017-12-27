@@ -106,7 +106,7 @@ This year's focus was on:
 - Public Procurement Law
 - IT-Law
 
-I also love the dynamics of having different social settings. Working half-time as well as studying the rest of the time allows my to build different relationships with different minds. It's amazing to see how people in different fields think differently. One example would be that law students almost always argue from analogy, whereas people in computer science tend to argue from first principles. 
+I also love the dynamics of having different social settings. Working half-time as well as studying the rest of the time allows my to build different relationships with different minds. It's amazing to see how people in different fields think differently.
 
 
 ## Read at least 10 books 
