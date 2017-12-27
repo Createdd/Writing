@@ -20,6 +20,7 @@ Enjoy! :)
   - [Keep studying law at a public university](#keep-studying-law-at-a-public-university)
   - [Read at least 10 books](#read-at-least-10-books)
   - [Stay consistent with fitness ( at least 3 times a week)](#stay-consistent-with-fitness--at-least-3-times-a-week)
+  - [](#)
 
 <!-- /TOC -->
 
@@ -111,7 +112,8 @@ I also love the dynamics of having different social settings. Working half-time 
 
 ## Read at least 10 books 
 
-Reading was always one of the most important things for me. It is important to note that this goal aims at different books than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
+Reading is always one of the most important things for me. It is important to note that this goal aims at reading book, which are different than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
+
 Some book recommendations from this year:
 - Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi
 - Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration by Ed Catmull, Amy Wallace
@@ -120,11 +122,13 @@ Some book recommendations from this year:
 
 ## Stay consistent with fitness ( at least 3 times a week)
 
-This one was also very easy for, since I am used to do more sport per week anyways. 
+This one was very easy for, since I am used to do more sport per week anyways. 
 
-The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the challenge when pursuing interesting topics.
+The challenge I found in this year was to balance motivation between workouts and pursuing my programming goals. Aiming for a balanced schedule is the real challenge when pursuing interesting topics.
 
 The last months I came to the conclusion that focusing on more balanced activities like stretching, strength and stamina is more powerful for health than simply building strength. Especially Yoga keeps being a great addition for my sport schedule and benefits my life enormously.
+
+## 
 
 ---
 
