@@ -8,10 +8,7 @@ Enjoy! :)
 
 
 ## 📄 Table of contents
-<!-- TOC -->
 
-- [Reflecting on 2017](#reflecting-on-2017)
-  - [📄 Table of contents](#📄-table-of-contents)
   - [My goals for 2017](#my-goals-for-2017)
   - [Getting a job in programming](#getting-a-job-in-programming)
   - [Writing an article per week](#writing-an-article-per-week)
@@ -22,7 +19,6 @@ Enjoy! :)
   - [Stay consistent with fitness ( at least 3 times a week)](#stay-consistent-with-fitness--at-least-3-times-a-week)
   - [Looking forward](#looking-forward)
 
-<!-- /TOC -->
 
 ---
 >"Don’t wish it was easier, wish you were better. Don’t wish for less problems, wish for more skills. Don’t wish for less challenge, wish for more wisdom." - Jim Rohn
@@ -30,7 +26,9 @@ Enjoy! :)
 
 ## My goals for 2017
 
-Most of the time I have a well defined set of goals for the next year. For 2017 Some of those were: 
+Most of the time I have a well defined set of goals for the next year. 
+
+For 2017 some of those were: 
 - Getting a job in programming
 - Write 1 article a week
 - Giving something back to society with a new non-profit goal
@@ -47,7 +45,7 @@ This was huge for me. In May 2016 I quite my job in tax advisory to get into pro
 
 I worked through the [Free Code Camp](https://www.freecodecamp.org/) curriculum and connected with local developers as much as possible. Each day I was watching videos, reading articles, programming small algorithms or attending some programming-related meetups. 
 
-At the end of 2016 I thought I was ready to apply for a job in this field. The great thing was that I was already connected to some programmers in the local community, which acted as a gateway into interviews. 
+At the end of 2016 I thought I was ready to apply for a job in this field. Luckily I was already connected to some programmers in the local community, which acted as a gateway for an interview. 
 
 One important note here: I was only able to connect to local programmers because I was introducing myself as a beginner on events and offering volunteer work to THEIR projects. I did this many times and followed the projects that had a good working flow and learning experience. 
 
@@ -59,13 +57,13 @@ Here is a [video](https://pusher.com/sessions/meetup/freecodecamp-vienna/from-se
 
 ## Writing an article per week
 
-With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my mother tongue) and build an online presence. 
+With this goal I wanted to stay on track with all tech related news. Also I wanted to get into the habit of writing more in english (which is not my native language) and build an online presence. 
 
 I also think that writing has always been very powerful, but is even more important in this era. An article written, it can be very easy to share it across multiple platforms and get feedback from different communities. 
 
 Writing for me is an important tool for learning things. Formulating a thought on paper with your own words is much different than simply repeatedly read information. 
 
-However, I came to acknowledge the time investment that writing regularly demands. Quality suffers incredibly when not enough time is invested. That's one of the reasons my articles constantly lack depth. But for me this year quantity was more important than quality in terms of writing articles.
+However, I came to acknowledge the time investment that writing regularly demands. Quality suffers incredibly when not enough time is invested. That's one of the reasons my articles constantly lack depth. But this year quantity was more important than quality for me in terms of writing articles.
 
 I found [medium.com](https://medium.com/@ddcreationstudi) to be a great platform for articles in general and [hashnode.com](https://hashnode.com/@DDCreationStudio) for more programming related stuff.
 
@@ -76,9 +74,9 @@ I found [medium.com](https://medium.com/@ddcreationstudi) to be a great platform
 ## A new non-profit goal
 
 Giving back is always important. So many opportunities and relationships simply arise because of non-profit work. 
-So this year I wanted to do something non-profit in the tech sector.
+This year I wanted to do something non-profit in the tech sector.
 
-Since Free Code Camp helped my a lot when starting to program, I wanted to give back to this organization. Free Code Camp has several local groups, where all the students connect to each other and exchange about their progress.
+Since Free Code Camp helped my a lot when starting to program, I wanted to give back to this organization. Free Code Camp has several local groups, where the students come together and exchange on their progress.
 
 So I started to contribute regularly to host all the local meetups in Vienna for this year. A separate article can be found [here](https://medium.com/@ddcreationstudi/reflecting-on-hosting-meetups-in-2017-5d28d1db074d).
 
@@ -96,7 +94,7 @@ For me it meant to just code whenever possible. Even just a few lines of code is
 
 ## Keep studying law at a public university
 
-As it is with the coding, it is also important to stay on some sort of official learning path. Like university in my case. Especially when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
+Since learning is literally the most important thing in life I like to "officially" commit myself to learning in a public learning institution. In my case, this is university. Especially when your studies are about different things than programming. It provides a perspective and allows you to see things from a different view. 
 
 This goes very well for law. As I see it, law is the science of organizing societies. 
 
@@ -115,10 +113,10 @@ I also love the dynamics of having different social settings. Working half-time 
 Reading is always one of the most important things for me. It is important to note that this goal aims at reading book, which are different than those I have to read for university or work. I try to enrich my mind as much as possible with different mindsets and opinions in order to sharpen my mind.
 
 Some book recommendations from this year:
-- Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi
-- Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration by Ed Catmull, Amy Wallace
-- The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies by Erik Brynjolfsson, Andrew McAfee
-- How Google Works by Eric Schmidt, Jonathan Rosenberg
+- **Flow: The Psychology of Optimal Experience** by Mihaly Csikszentmihalyi
+- **Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration** by Ed Catmull, Amy Wallace
+- **The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies** by Erik Brynjolfsson, Andrew McAfee
+- **How Google Works** by Eric Schmidt, Jonathan Rosenberg
 
 ## Stay consistent with fitness ( at least 3 times a week)
 
