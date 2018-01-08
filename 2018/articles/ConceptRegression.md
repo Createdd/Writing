@@ -23,6 +23,8 @@ This can be a very powerful tool in decision making. If you think certain variab
 
 # How to apply this concept
 
+### Find variables
+
 For simplicity reasons I want to explain the simple linear regression concept, because it is already effective and easy to apply.
 
 In this case we need to find a one(!) variable, which is dependent on another variable. An easy example would be sales and profit. 
@@ -35,6 +37,9 @@ As wikipedia defines it:
 
 Or simple: When scatter plotted on a graph, the relationship can be illustrated on a straight line.
 
+[![gif](https://camo.githubusercontent.com/8702cf6f8016bc06f20490036fa028e065cf38cf/687474703a2f2f672e7265636f726469742e636f2f647271577035393139352e676966)](https://ddcreationstudios.github.io/logisticRegression/)
+
+### Create and test the model
 
 
 
