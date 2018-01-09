@@ -54,6 +54,9 @@ Testing the accuracy of the null hypothesis can be done with the "cost function"
 
 ![cost function](../assets/ConceptRegression/costFunction.png)
 
+This function compares the average of the predicted and real values.
+The goal is to choose the parameters so that the difference of the null hypothesis of x to the actual y is as small as possible.
+
 
 
 
