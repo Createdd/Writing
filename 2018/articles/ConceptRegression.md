@@ -62,8 +62,6 @@ The goal is to choose the parameters so that the difference of the null hypothes
 
 
 
-
-
 ## Useful links & credits
 - [📄 "Begin"](afgafgadgads)
 
