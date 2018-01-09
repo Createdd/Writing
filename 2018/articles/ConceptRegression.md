@@ -41,6 +41,10 @@ Or simple: When scatter plotted on a graph, the relationship can be illustrated 
 
 ### Create and test the model
 
+The most common technique to for evaluating the model is called "ordinary least squares". 
+Basically, the formula tries to use the slope and the intercept of the regression equation to measure the relationship between the 2 variables and minimize the distance from further dependent variables.
+
+
 
 
 
