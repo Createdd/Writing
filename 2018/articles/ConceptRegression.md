@@ -1,18 +1,15 @@
 # The concept of regression - use the power in everyday life
 
-[<img src="dasfadsf">](
-fsdgsdgsdgsdgds)
-fsdgsdgsdgsdgds
-
-
-[Open Source Code on Github](asdfasdf)
+[<img src="https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&w=1500&q=80">](
+https://unsplash.com/photos/f7YQo-eYHdM)
+Photo by Bryan Goff on Unsplash - https://unsplash.com/photos/f7YQo-eYHdM
 
 
 ## 📄 Table of contents
 
 
 ---
->"dsasfasfasf"  - Bezos
+>"By their very nature, heuristic shortcuts will produce biases, and that is true for both humans and artificial intelligence, but the heuristics of AI are not necessarily the human ones." - Daniel Kahneman
 ---
 
 ## What Regression analysis is all about 
