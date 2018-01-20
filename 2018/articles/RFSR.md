@@ -66,4 +66,4 @@ Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rü
 ### Artikel 87 AEUV - polizeiliche Zusammenarbeit
 
 - Koordination und Unterstützung nationaler Polizeibehörden
-- Artikel 88 AEUV 
+- Artikel 88 AEUV - Schaffung von Europol als Unterstützung
