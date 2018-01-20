@@ -17,14 +17,20 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
 1. justizielle Zusammenarbeit in Zivilsachen
 1. justizielle Zusammenarbeit in Strafsachen
 
-### Art. 77 AEUV ff - Grenzkontrollen, Asyl Einwanderung
-
 - Rechtsetzung sekundärrechtlich geprägt.
 - Europäische Kommission oder ein Viertel der Mitgliedsstaaten haben Legislativprozess inne.
 - Souveränitätsnähe
 
-#### Abschaffung der Binnengrenzkontrollen
+#### Artikel 77 AEUV - Abschaffung der Binnengrenzkontrollen
 
 Rechtsakte: Schengener Grenzkodex, FRONTEX, Visakodex, Schengener Informationssystem
 
-####
+#### Artikel 78 AEUV - Asylpolitik 
+
+Rechtsinstrumente: Aufnahme-RL, Dublin III-VO, Verfahrens-RL, Status-RL
+
+#### Artikel 79 AEUV - Einwanderungspolitik
+
+Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rückführungs-RL
+
+ 
