@@ -56,3 +56,9 @@ Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rü
 
 ### Artikel 82 AEUV - justizielle Zusammenarbeit in Strafsachen
  
+- Das  Europäische Parlament und der Rat können Regeln und Verfahren zur Anerkennung strafgerichtlicher Entscheidungen aufstellen
+- Rechtsakte: zB Europäischer Haftbefehl und diverse Rahmenbeschlüsse
+- Notbremsmechanismus: Befähigung der Mitgliedstaaten zur Aussetzung eines Gesetzgebungsverfahrens, wenn grundlegende Aspekte der nationalen Strafrechtsordnung berührt werden
+- Artikel 85 AEUV - Eurojust als Unterstützung in Koordinierung und Zusammenarbeit zwischen den nationalen Behörden
+- Artikel 85 AEUV 
+- Artikel 85 AEUV 
