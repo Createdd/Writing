@@ -47,7 +47,7 @@ Test the model with a null hypothesis measuring if there is a relationship betwe
 Each estimated coefficient in a regression equation must be tested to determine if it is statistically significant. If a coefficient is statistically significant, the corresponding variable helps explain the value of the dependent variable (Y). (The null hypothesis tests the coefficient being zero.)
 
 This other hypothesis test can be conducted with a p-value (probability value).
-The p-value is compared to the level of significance for the hypothesis test and if the p-value is less than the level of significance the variable is statistically significant. (the null hypothesis that the coefficient equals zero is rejected!)
+The p-value is compared to the level of significance for the hypothesis test and if the p-value is less than the level of significance the variable is statistically significant. (the null hypothesis that tests the coefficient equals zero is rejected!)
 
 
 ## Math behind the model
