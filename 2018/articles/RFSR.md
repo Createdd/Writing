@@ -4,7 +4,7 @@
 https://unsplash.com/photos/Dzv_m1LhcHc)
 Photo by Seth Fogelman on Unsplash - https://unsplash.com/photos/Dzv_m1LhcHc
 
-This is a quick overview of the Area of freedom, security and justice in the european union. This article will be in german, since it is used as an learning abstract. 
+This is a quick overview of the Area of freedom, security and justice in the european union. This article will be in german, since it is used as a learning abstract. 
 
 Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit und des Rechts in der EU dar.
 
