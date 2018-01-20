@@ -10,6 +10,19 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
 
 ## Inhalte
 
+<!-- TOC -->
+
+- [EU - Der Raum der Freiheit, der Sicherheit und des Rechts](#eu---der-raum-der-freiheit-der-sicherheit-und-des-rechts)
+  - [Inhalte](#inhalte)
+    - [Artikel 67 AEUV als Grundlage](#artikel-67-aeuv-als-grundlage)
+      - [Artikel 77 AEUV - Abschaffung der Binnengrenzkontrollen](#artikel-77-aeuv---abschaffung-der-binnengrenzkontrollen)
+      - [Artikel 78 AEUV - Asylpolitik](#artikel-78-aeuv---asylpolitik)
+      - [Artikel 79 AEUV - Einwanderungspolitik](#artikel-79-aeuv---einwanderungspolitik)
+    - [Artikel 81 AEUV - justizielle Zusammenarbeit in Zivilsachen](#artikel-81-aeuv---justizielle-zusammenarbeit-in-zivilsachen)
+    - [Artikel 82 AEUV - justizielle Zusammenarbeit in Strafsachen](#artikel-82-aeuv---justizielle-zusammenarbeit-in-strafsachen)
+
+<!-- /TOC -->
+
 
 ### Artikel 67 AEUV als Grundlage 
 
@@ -34,4 +47,12 @@ Rechtsinstrumente: Aufnahme-RL, Dublin III-VO, Verfahrens-RL, Status-RL
 
 Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rückführungs-RL
 
+### Artikel 81 AEUV - justizielle Zusammenarbeit in Zivilsachen
+
+- in erster Linie Anerkennung gerichtlicher und außergerichtlicher Entscheidungen der Mitgliedstaaten
+- ROM I-VO = Regelungen über vertragliches Schuldrecht
+- ROM II-VO = Regelungen über außervertragliches Schuldrecht
+- Brüssel Ia/IIa = Regelungen über eine einheitliche Gerichtszuständigkeit und Anerkennung bzw. Vollstreckung von Entscheidungen
+
+### Artikel 82 AEUV - justizielle Zusammenarbeit in Strafsachen
  
