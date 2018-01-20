@@ -10,10 +10,6 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
 
 ## Inhalte
 
-<!-- TOC -->
-
-- [EU - Der Raum der Freiheit, der Sicherheit und des Rechts](#eu---der-raum-der-freiheit-der-sicherheit-und-des-rechts)
-  - [Inhalte](#inhalte)
     - [Artikel 67 AEUV als Grundlage](#artikel-67-aeuv-als-grundlage)
       - [Artikel 77 AEUV - Abschaffung der Binnengrenzkontrollen](#artikel-77-aeuv---abschaffung-der-binnengrenzkontrollen)
       - [Artikel 78 AEUV - Asylpolitik](#artikel-78-aeuv---asylpolitik)
@@ -21,8 +17,6 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
     - [Artikel 81 AEUV - justizielle Zusammenarbeit in Zivilsachen](#artikel-81-aeuv---justizielle-zusammenarbeit-in-zivilsachen)
     - [Artikel 82 AEUV - justizielle Zusammenarbeit in Strafsachen](#artikel-82-aeuv---justizielle-zusammenarbeit-in-strafsachen)
     - [Artikel 87 AEUV - polizeiliche Zusammenarbeit](#artikel-87-aeuv---polizeiliche-zusammenarbeit)
-
-<!-- /TOC -->
 
 
 ### Artikel 67 AEUV als Grundlage 
