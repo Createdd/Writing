@@ -20,6 +20,7 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
       - [Artikel 79 AEUV - Einwanderungspolitik](#artikel-79-aeuv---einwanderungspolitik)
     - [Artikel 81 AEUV - justizielle Zusammenarbeit in Zivilsachen](#artikel-81-aeuv---justizielle-zusammenarbeit-in-zivilsachen)
     - [Artikel 82 AEUV - justizielle Zusammenarbeit in Strafsachen](#artikel-82-aeuv---justizielle-zusammenarbeit-in-strafsachen)
+    - [Artikel 87 AEUV - polizeiliche Zusammenarbeit](#artikel-87-aeuv---polizeiliche-zusammenarbeit)
 
 <!-- /TOC -->
 
@@ -60,5 +61,9 @@ Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rü
 - Rechtsakte: zB Europäischer Haftbefehl und diverse Rahmenbeschlüsse
 - Notbremsmechanismus: Befähigung der Mitgliedstaaten zur Aussetzung eines Gesetzgebungsverfahrens, wenn grundlegende Aspekte der nationalen Strafrechtsordnung berührt werden
 - Artikel 85 AEUV - Eurojust als Unterstützung in Koordinierung und Zusammenarbeit zwischen den nationalen Behörden
-- Artikel 85 AEUV 
-- Artikel 85 AEUV 
+- Artikel 86 AEUV - Möglichkeit der europäischen Staatsanwaltschaft - noch nicht umgesetzt
+
+### Artikel 87 AEUV - polizeiliche Zusammenarbeit
+
+- Koordination und Unterstützung nationaler Polizeibehörden
+- Artikel 88 AEUV 
