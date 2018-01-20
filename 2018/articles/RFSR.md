@@ -20,6 +20,7 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
 - Rechtsetzung sekundärrechtlich geprägt.
 - Europäische Kommission oder ein Viertel der Mitgliedsstaaten haben Legislativprozess inne.
 - Souveränitätsnähe
+- Grundsatz der Solidarität
 
 #### Artikel 77 AEUV - Abschaffung der Binnengrenzkontrollen
 
