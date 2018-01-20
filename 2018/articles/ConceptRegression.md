@@ -50,6 +50,7 @@ This other hypothesis test can be conducted with a p-value (probability value).
 The p-value is compared to the level of significance for the hypothesis test and if the p-value is less than the level of significance the variable is statistically significant. (the null hypothesis that tests the coefficient equals zero is rejected!)
 
 
+
 ## Math behind the model
 
 Testing the accuracy of the null hypothesis can be done with the "cost function".
