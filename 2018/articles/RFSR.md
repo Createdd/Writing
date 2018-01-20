@@ -61,3 +61,20 @@ Rechtsakte: Daueraufenthalts-RL, Blue Card-RL, Familienzusammenführungs-RL, Rü
 
 - Koordination und Unterstützung nationaler Polizeibehörden
 - Artikel 88 AEUV - Schaffung von Europol als Unterstützung
+
+
+---
+
+Thanks for reading my article! Feel free to leave any feedback! 
+
+---
+
+Daniel is a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna. 
+His current personal learning efforts focus on machine learning. Connect on:
+- [LinkedIn](https://www.linkedin.com/in/createdd) 
+- [Github](https://github.com/DDCreationStudios)
+- [Medium](https://medium.com/@ddcreationstudi)
+- [Twitter](https://twitter.com/DDCreationStudi)
+- [Hashnode](https://hashnode.com/@DDCreationStudio)
+
+<!-- Written by Daniel Deutsch (deudan1010@gmail.com) -->
