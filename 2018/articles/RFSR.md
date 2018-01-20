@@ -11,6 +11,20 @@ Dieser Artikel stellt eine Übersicht für den Raum der Freiheit, der Sicherheit
 ## Inhalte
 
 
-### Artikel 67 AEUV
+### Artikel 67 AEUV als Grundlage 
 
-Regelungen über Grenzkontrollen, Asyl 
+1. Regelungen über Grenzkontrollen, Asyl Einwanderung
+1. justizielle Zusammenarbeit in Zivilsachen
+1. justizielle Zusammenarbeit in Strafsachen
+
+### Art. 77 AEUV ff - Grenzkontrollen, Asyl Einwanderung
+
+- Rechtsetzung sekundärrechtlich geprägt.
+- Europäische Kommission oder ein Viertel der Mitgliedsstaaten haben Legislativprozess inne.
+- Souveränitätsnähe
+
+#### Abschaffung der Binnengrenzkontrollen
+
+Rechtsakte: Schengener Grenzkodex, FRONTEX, Visakodex, Schengener Informationssystem
+
+####
