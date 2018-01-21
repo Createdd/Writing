@@ -25,6 +25,7 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
   - [Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung](#artikel-102-aeuv---das-verbot-des-missbrauchs-einer-den-markt-beherrschenden-stellung)
     - [Relevanter (Binnen-) Markt](#relevanter-binnen--markt)
     - [Beherrschende Stellung](#beherrschende-stellung)
+    - [Missbrauch der Stellung](#missbrauch-der-stellung)
 
 <!-- /TOC -->
 
@@ -82,6 +83,15 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 - Alleinbeherrschung: Fähigkeit zur Wettbewerbsschädigung und Unabhängigkeit gegenüber anderen Marktteilnehmern. Abgestellt wird auf die Drucksituation anderer (auch potentieller) Marktteilnehmer.
 - Kollektive Marktbeherrrschung: wirtschaftliche Verbundenheit führt zu einem einheitlichen Verhalten auf dem Markt.
 - Wirtschaftliche und nicht geografische Bedeutung des Marktes ausschlaggebend.
+
+### Missbrauch der Stellung
+
+- Anwendung von Mittel, welche von den Mitteln eines normalen Dienstleistungs-/Produktwettbewerbs abweichen.
+- Ausbeutung: unmittelbare Abnehmerschädigung (zB Artikel 102 Satz 2 lit a-b AEUV)
+- Behinderungsmissbrauch: Verdrängen anderer Wettbewerber (zB Artikel 102 Satz 2 lit c-d AEUV)
+- Marktstrukturmissbrauch: Beeinflussung durch Unternehmenskooperation/-konzentration
+
+
 
 
 ---
