@@ -26,6 +26,8 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Relevanter (Binnen-) Markt](#relevanter-binnen--markt)
     - [Beherrschende Stellung](#beherrschende-stellung)
     - [Missbrauch der Stellung](#missbrauch-der-stellung)
+    - [Relevanz für Beeinträchtigung am Binnenmarkt](#relevanz-für-beeinträchtigung-am-binnenmarkt)
+    - [Rechtfertigung](#rechtfertigung)
 
 <!-- /TOC -->
 
@@ -90,6 +92,14 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 - Ausbeutung: unmittelbare Abnehmerschädigung (zB Artikel 102 Satz 2 lit a-b AEUV)
 - Behinderungsmissbrauch: Verdrängen anderer Wettbewerber (zB Artikel 102 Satz 2 lit c-d AEUV)
 - Marktstrukturmissbrauch: Beeinflussung durch Unternehmenskooperation/-konzentration
+
+### Relevanz für Beeinträchtigung am Binnenmarkt
+
+### Rechtfertigung
+
+Keine prima facie Regelubng zur Rechtfertigung
+
+
 
 
 
