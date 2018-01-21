@@ -9,28 +9,23 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
 
 ## Inhalte
 
-<!-- TOC -->
+- [Anwendungsbereich](#anwendungsbereich)
+  - [Persönlich](#persönlich)
+  - [Sachlich](#sachlich)
+  - [Räumlich](#räumlich)
+- [Artikel 101 AEUV - Das Kartellverbot](#artikel-101-aeuv---das-kartellverbot)
+  - [Beschränkung des Wettbewerbs](#beschränkung-des-wettbewerbs)
+  - [Verhalten](#verhalten)
+  - [(Handels-) Beeinträchtigung](#handels--beeinträchtigung)
+  - [Ausnahmen (Artikel 101 Absatz 3 AEUV)](#ausnahmen-artikel-101-absatz-3-aeuv)
+- [Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung](#artikel-102-aeuv---das-verbot-des-missbrauchs-einer-den-markt-beherrschenden-stellung)
+  - [Relevanter (Binnen-) Markt](#relevanter-binnen--markt)
+  - [Beherrschende Stellung](#beherrschende-stellung)
+  - [Missbrauch der Stellung](#missbrauch-der-stellung)
+  - [Relevanz für Beeinträchtigung am Binnenmarkt](#relevanz-für-beeinträchtigung-am-binnenmarkt)
+  - [Rechtfertigung](#rechtfertigung)
+- [Vollziehung](#vollziehung)
 
-- [EU - Wettbewerb](#eu---wettbewerb)
-  - [Inhalte](#inhalte)
-  - [Anwendungsbereich](#anwendungsbereich)
-    - [Persönlich](#persönlich)
-    - [Sachlich](#sachlich)
-    - [Räumlich](#räumlich)
-  - [Artikel 101 AEUV - Das Kartellverbot](#artikel-101-aeuv---das-kartellverbot)
-    - [Beschränkung des Wettbewerbs](#beschränkung-des-wettbewerbs)
-    - [Verhalten](#verhalten)
-    - [(Handels-) Beeinträchtigung](#handels--beeinträchtigung)
-    - [Ausnahmen (Artikel 101 Absatz 3 AEUV)](#ausnahmen-artikel-101-absatz-3-aeuv)
-  - [Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung](#artikel-102-aeuv---das-verbot-des-missbrauchs-einer-den-markt-beherrschenden-stellung)
-    - [Relevanter (Binnen-) Markt](#relevanter-binnen--markt)
-    - [Beherrschende Stellung](#beherrschende-stellung)
-    - [Missbrauch der Stellung](#missbrauch-der-stellung)
-    - [Relevanz für Beeinträchtigung am Binnenmarkt](#relevanz-für-beeinträchtigung-am-binnenmarkt)
-    - [Rechtfertigung](#rechtfertigung)
-  - [Vollziehung](#vollziehung)
-
-<!-- /TOC -->
 
 ## Anwendungsbereich
 
