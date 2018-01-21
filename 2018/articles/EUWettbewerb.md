@@ -1,4 +1,5 @@
-# EU - Wettbewerb
+# EU - Wettbewerbsrecht
+
 [<img src="https://images.unsplash.com/photo-1482690205767-61deebe15ef7?auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/9qvZSH_NOQs)
 Photo by Karsten Würth (@inf1783) on Unsplash - https://unsplash.com/photos/9qvZSH_NOQs
