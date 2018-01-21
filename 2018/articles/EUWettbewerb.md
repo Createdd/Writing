@@ -19,6 +19,9 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Räumlich](#räumlich)
   - [Artikel 101 AEUV - Das Kartellverbot](#artikel-101-aeuv---das-kartellverbot)
     - [Beschränkung des Wettbewerbs](#beschränkung-des-wettbewerbs)
+    - [Verhalten](#verhalten)
+    - [(Handels-) Beeinträchtigung](#handels--beeinträchtigung)
+    - [Ausnahmen](#ausnahmen)
 
 <!-- /TOC -->
 
@@ -46,6 +49,17 @@ Weltweite Geltung, sofern der Wettbewerb im Binnenmarkt beeinträchtigt ist
 - bewirkte Beschränkung: Ziel der effizienteren Gestaltung wirtschaftlicher Abläufe, aber einhergehende Beschränlkung des Wettbewerbs. Auf horizontaler Ebene zB gemeinsame Produktion/Verkauf, auf vertikaler Ebene zB der Selektivvertrieb. Ausnahme gem Markterschließungsdoktrin, wonach es durch die effizientere Gestaltung überhaupt erst zum Markteintritt kommt.
 -  Spürbarkeit des Markteinflusses: Gemäß der Bündeltheorie sind gleichartige Vereinbarungen mit kumulativer Wirkung zu berücksichtigen. Laut Bagatellbekanntmachungen ist ein Marktanteil unter 10% bei horizontalen Vereinbarungen und 15% bei vertikalen Vereinbarungen keine spürbare Beschränkung.
 
+### Verhalten 
+
+Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
+
+### (Handels-) Beeinträchtigung
+
+- Es kann nur jener Wettbewerb, der potentiell zum Funktionieren des Marktes beiträgt beeinträchtigt werden.
+- Laut Rechtsprechung jedenfalls gegeben wenn Unternehmen aus verschiedenen Mitgliedstaaten beteiligt sind.
+- Die Europäische Kommission stellt auf 5% Marktanteil und mehr als 40 Mio EUR Jahresumsatz ab
+
+### Ausnahmen
 
 
 
