@@ -22,6 +22,9 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Verhalten](#verhalten)
     - [(Handels-) Beeinträchtigung](#handels--beeinträchtigung)
     - [Ausnahmen (Artikel 101 Absatz 3 AEUV)](#ausnahmen-artikel-101-absatz-3-aeuv)
+  - [Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung](#artikel-102-aeuv---das-verbot-des-missbrauchs-einer-den-markt-beherrschenden-stellung)
+    - [Relevanter (Binnen-) Markt](#relevanter-binnen--markt)
+    - [Beherrschende Stellung](#beherrschende-stellung)
 
 <!-- /TOC -->
 
@@ -62,12 +65,23 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 ### Ausnahmen (Artikel 101 Absatz 3 AEUV)
 
 - bei gesamthafter Betrachtung wird ein Effizienzgewinn und wirtschaflticher Vorteil erreicht
+- Der Wettbewerb darf nicht völlig ausgeschaltet werden
+- Der Verbraucher muss am Gewinn beteiligt sein
 - Beweislast beim darauf berufenden Unternehmen
 - Gruppenfreistellungen siond explizit ausgenommen (geregelt in GFVO - zB für Forschung und Entwicklung)
 
+## Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung
 
+### Relevanter (Binnen-) Markt
 
+- sachlich: Abgrenzung durch Nachfragesubstituierbarkeit im Rahmen des SSNIP-Tests. Hypothetischer Monopolist Test - führt eine 5-10%ige Presisteigerung zu einem Wechsel auf ein leicht substituierbares Produkt und die Erzeugung ist ingesamt nicht mehr rentabel, dann gehören beide Produkte demselben Markt an. (Schwäche des Tests ist die Ineffektivität bei übermächtigen Unternehmen, die auch bei sehr niedrigen Preisen noch rentabel sein können). Angebotssubstituierbarkeit als zusätzliches Kriterium: Erhalt des Wettbewerbs bei rascher Umstellung auf eine ähnliche Produktion.
+- räumlich: jene Gebiete auf denen der Wettbwerb tatsächlich stattfindet, begrenzt durch Nachfragsubstituierbarkeit.
 
+### Beherrschende Stellung
+
+- Alleinbeherrschung: Fähigkeit zur Wettbewerbsschädigung und Unabhängigkeit gegenüber anderen Marktteilnehmern. Abgestellt wird auf die Drucksituation anderer (auch potentieller) Marktteilnehmer.
+- Kollektive Marktbeherrrschung: wirtschaftliche Verbundenheit führt zu einem einheitlichen Verhalten auf dem Markt.
+- Wirtschaftliche und nicht geografische Bedeutung des Marktes ausschlaggebend.
 
 
 ---
