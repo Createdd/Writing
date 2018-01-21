@@ -5,11 +5,23 @@ Photo by Karsten Würth (@inf1783) on Unsplash - https://unsplash.com/photos/9qv
 
 This is a quick overview of the competition law in the european union. This article will be in german, since it is used as a learning abstract. 
 
-Dieser Artikel stellt eine Übersicht für den Wettbewerb in der EU dar.
+Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
 
 ## Inhalte
 
-### 
+## Anwendungsbereich
+
+### Persönlich
+
+Begriff des Unternehmens als Addressat. Abzustellen ist auf jede, eine wirtschaftliche Tätigkeit ausübende, Einheit. "wirtschaftlich" ist dabei jede Tätigkeit, die Güter oder Dienstleistungen auf einem bestimmten Markt anbietet
+
+### Sachlich
+
+Schutzobjekt ist der "Wettbewerb im Binnenmarkt". Verboten sind alle Maßnahmen, die geeignet sind den Wettbewerb und Handel zwischen Mitgliedstaaten zu beeinträchtigen.
+
+### Räumlich 
+
+Weltweite Geltung, sofern der Wettbewerb im Binnenmarkt beeinträchtigt ist
 
 
 ---
