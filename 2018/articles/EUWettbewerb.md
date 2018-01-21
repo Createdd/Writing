@@ -9,6 +9,17 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
 
 ## Inhalte
 
+<!-- TOC -->
+
+- [EU - Wettbewerb](#eu---wettbewerb)
+  - [Inhalte](#inhalte)
+  - [Anwendungsbereich](#anwendungsbereich)
+    - [Persönlich](#persönlich)
+    - [Sachlich](#sachlich)
+    - [Räumlich](#räumlich)
+
+<!-- /TOC -->
+
 ## Anwendungsbereich
 
 ### Persönlich
