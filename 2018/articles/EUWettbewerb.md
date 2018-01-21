@@ -28,6 +28,7 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Missbrauch der Stellung](#missbrauch-der-stellung)
     - [Relevanz für Beeinträchtigung am Binnenmarkt](#relevanz-für-beeinträchtigung-am-binnenmarkt)
     - [Rechtfertigung](#rechtfertigung)
+  - [Vollziehung](#vollziehung)
 
 <!-- /TOC -->
 
@@ -99,9 +100,14 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 
 Keine prima facie Regelubng zur Rechtfertigung
 
+## Vollziehung
 
-
-
+- Überwachung durch Europäische Kommission und Wettbewerbsbehörden der Mitgliedstaaten
+- Einleitung eines Verfahrens durch die Europäische Kommission von Amts wegen oder durch Beschwerde
+- Kronzeugenregelung von erhöhter Bedeutung
+- Befugnisse gehen auch bishin zu unangekündigte Hausdurchsuchungen ('Dawn Raids')
+- Möglichkeit zur Erlassung einstweiliger Maßnahmen und Geldbußen
+- Dagegen besteht das Rechtsmittel der Nichtigkeitsklage (Artikel 263 AEUV)
 
 
 ---
