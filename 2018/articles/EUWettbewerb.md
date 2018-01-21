@@ -53,7 +53,7 @@ Weltweite Geltung, sofern der Wettbewerb im Binnenmarkt beeinträchtigt ist
 - Als Beschränkung ist jede Einschränkung der wirtschaftlichen Entscheidungs-/Handlungsfreiheit eines Unternehmens zu verstehen.
 - Das Selbständigkeitspostulat bestimmt, dass Marktteilnehmer ihr Verhalten autonom festlegen können sollen. Dies gilt auf horizontaler Ebene (zB Gebietsaufteilung zw Unternehmen) und vertikaler Ebene (zB der Alleinvertrieb)
 - bezweckte Beschränkung: zielen in objektiv er Betrachtung gerade darauf ab. Tatbestandsmäßiges Handeln ausreichend für Verstoß; kein Erfolg notwendig! (zB Artikel 101 Absatz 1 lit a-c AEUV)
-- bewirkte Beschränkung: Ziel der effizienteren Gestaltung wirtschaftlicher Abläufe, aber einhergehende Beschränlkung des Wettbewerbs. Auf horizontaler Ebene zB gemeinsame Produktion/Verkauf, auf vertikaler Ebene zB der Selektivvertrieb. Ausnahme gem Markterschließungsdoktrin, wonach es durch die effizientere Gestaltung überhaupt erst zum Markteintritt kommt.
+- bewirkte Beschränkung: Ziel der effizienteren Gestaltung wirtschaftlicher Abläufe, aber einhergehende Beschränkung des Wettbewerbs. Auf horizontaler Ebene zB gemeinsame Produktion/Verkauf, auf vertikaler Ebene zB der Selektivvertrieb. Ausnahme gem Markterschließungsdoktrin, wonach es durch die effizientere Gestaltung überhaupt erst zum Markteintritt kommt.
 -  Spürbarkeit des Markteinflusses: Gemäß der Bündeltheorie sind gleichartige Vereinbarungen mit kumulativer Wirkung zu berücksichtigen. Laut Bagatellbekanntmachungen ist ein Marktanteil unter 10% bei horizontalen Vereinbarungen und 15% bei vertikalen Vereinbarungen keine spürbare Beschränkung.
 
 ### Verhalten 
@@ -68,18 +68,18 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 
 ### Ausnahmen (Artikel 101 Absatz 3 AEUV)
 
-- bei gesamthafter Betrachtung wird ein Effizienzgewinn und wirtschaflticher Vorteil erreicht
+- bei gesamthafter Betrachtung wird ein Effizienzgewinn und wirtschaftlicher Vorteil erreicht
 - Der Wettbewerb darf nicht völlig ausgeschaltet werden
 - Der Verbraucher muss am Gewinn beteiligt sein
 - Beweislast beim darauf berufenden Unternehmen
-- Gruppenfreistellungen siond explizit ausgenommen (geregelt in GFVO - zB für Forschung und Entwicklung)
+- Gruppenfreistellungen sind explizit ausgenommen (geregelt in GFVO - zB für Forschung und Entwicklung)
 
 ## Artikel 102 AEUV - Das Verbot des Missbrauchs einer den Markt beherrschenden Stellung
 
 ### Relevanter (Binnen-) Markt
 
-- sachlich: Abgrenzung durch Nachfragesubstituierbarkeit im Rahmen des SSNIP-Tests. Hypothetischer Monopolist Test - führt eine 5-10%ige Presisteigerung zu einem Wechsel auf ein leicht substituierbares Produkt und die Erzeugung ist ingesamt nicht mehr rentabel, dann gehören beide Produkte demselben Markt an. (Schwäche des Tests ist die Ineffektivität bei übermächtigen Unternehmen, die auch bei sehr niedrigen Preisen noch rentabel sein können). Angebotssubstituierbarkeit als zusätzliches Kriterium: Erhalt des Wettbewerbs bei rascher Umstellung auf eine ähnliche Produktion.
-- räumlich: jene Gebiete auf denen der Wettbwerb tatsächlich stattfindet, begrenzt durch Nachfragsubstituierbarkeit.
+- sachlich: Abgrenzung durch Nachfragesubstituierbarkeit im Rahmen des SSNIP-Tests. Hypothetischer Monopolist Test - führt eine 5-10%ige Preissteigerung zu einem Wechsel auf ein leicht substituierbares Produkt und die Erzeugung ist ingesamt nicht mehr rentabel, dann gehören beide Produkte demselben Markt an. (Schwäche des Tests ist die Ineffektivität bei übermächtigen Unternehmen, die auch bei sehr niedrigen Preisen noch rentabel sein können). Angebotssubstituierbarkeit als zusätzliches Kriterium: Erhalt des Wettbewerbs bei rascher Umstellung auf eine ähnliche Produktion.
+- räumlich: jene Gebiete auf denen der Wettbewerb tatsächlich stattfindet, begrenzt durch Nachfragsubstituierbarkeit.
 
 ### Beherrschende Stellung
 
@@ -98,7 +98,7 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 
 ### Rechtfertigung
 
-Keine prima facie Regelubng zur Rechtfertigung
+Keine prima facie Regelung zur Rechtfertigung
 
 ## Vollziehung
 
