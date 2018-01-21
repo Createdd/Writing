@@ -21,7 +21,7 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Beschränkung des Wettbewerbs](#beschränkung-des-wettbewerbs)
     - [Verhalten](#verhalten)
     - [(Handels-) Beeinträchtigung](#handels--beeinträchtigung)
-    - [Ausnahmen](#ausnahmen)
+    - [Ausnahmen (Artikel 101 Absatz 3 AEUV)](#ausnahmen-artikel-101-absatz-3-aeuv)
 
 <!-- /TOC -->
 
@@ -59,8 +59,11 @@ Unterscheidung zwischen Vereinbarung, Beschluss und abgestimmten Verhalten.
 - Laut Rechtsprechung jedenfalls gegeben wenn Unternehmen aus verschiedenen Mitgliedstaaten beteiligt sind.
 - Die Europäische Kommission stellt auf 5% Marktanteil und mehr als 40 Mio EUR Jahresumsatz ab
 
-### Ausnahmen
+### Ausnahmen (Artikel 101 Absatz 3 AEUV)
 
+- bei gesamthafter Betrachtung wird ein Effizienzgewinn und wirtschaflticher Vorteil erreicht
+- Beweislast beim darauf berufenden Unternehmen
+- Gruppenfreistellungen siond explizit ausgenommen (geregelt in GFVO - zB für Forschung und Entwicklung)
 
 
 
