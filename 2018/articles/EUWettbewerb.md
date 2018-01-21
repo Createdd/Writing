@@ -44,6 +44,9 @@ Weltweite Geltung, sofern der Wettbewerb im Binnenmarkt beeinträchtigt ist
 - Das Selbständigkeitspostulat bestimmt, dass Marktteilnehmer ihr Verhalten autonom festlegen können sollen. Dies gilt auf horizontaler Ebene (zB Gebietsaufteilung zw Unternehmen) und vertikaler Ebene (zB der Alleinvertrieb)
 - bezweckte Beschränkung: zielen in objektiv er Betrachtung gerade darauf ab. Tatbestandsmäßiges Handeln ausreichend für Verstoß; kein Erfolg notwendig! (zB Artikel 101 Absatz 1 lit a-c AEUV)
 - bewirkte Beschränkung: Ziel der effizienteren Gestaltung wirtschaftlicher Abläufe, aber einhergehende Beschränlkung des Wettbewerbs. Auf horizontaler Ebene zB gemeinsame Produktion/Verkauf, auf vertikaler Ebene zB der Selektivvertrieb. Ausnahme gem Markterschließungsdoktrin, wonach es durch die effizientere Gestaltung überhaupt erst zum Markteintritt kommt.
+-  Spürbarkeit des Markteinflusses: Gemäß der Bündeltheorie sind gleichartige Vereinbarungen mit kumulativer Wirkung zu berücksichtigen. Laut Bagatellbekanntmachungen ist ein Marktanteil unter 10% bei horizontalen Vereinbarungen und 15% bei vertikalen Vereinbarungen keine spürbare Beschränkung.
+
+
 
 
 
