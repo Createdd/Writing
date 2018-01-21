@@ -17,6 +17,8 @@ Dieser Artikel stellt eine Übersicht zu dem Wettbewerb in der EU dar.
     - [Persönlich](#persönlich)
     - [Sachlich](#sachlich)
     - [Räumlich](#räumlich)
+  - [Artikel 101 AEUV - Das Kartellverbot](#artikel-101-aeuv---das-kartellverbot)
+    - [Beschränkung des Wettbewerbs](#beschränkung-des-wettbewerbs)
 
 <!-- /TOC -->
 
@@ -33,6 +35,19 @@ Schutzobjekt ist der "Wettbewerb im Binnenmarkt". Verboten sind alle Maßnahmen,
 ### Räumlich 
 
 Weltweite Geltung, sofern der Wettbewerb im Binnenmarkt beeinträchtigt ist
+
+## Artikel 101 AEUV - Das Kartellverbot
+
+### Beschränkung des Wettbewerbs
+
+- Als Beschränkung ist jede Einschränkung der wirtschaftlichen Entscheidungs-/Handlungsfreiheit eines Unternehmens zu verstehen.
+- Das Selbständigkeitspostulat bestimmt, dass Marktteilnehmer ihr Verhalten autonom festlegen können sollen. Dies gilt auf horizontaler Ebene (zB Gebietsaufteilung zw Unternehmen) und vertikaler Ebene (zB der Alleinvertrieb)
+- bezweckte Beschränkung: zielen in objektiv er Betrachtung gerade darauf ab. Tatbestandsmäßiges Handeln ausreichend für Verstoß; kein Erfolg notwendig! (zB Artikel 101 Absatz 1 lit a-c AEUV)
+- bewirkte Beschränkung: Ziel der effizienteren Gestaltung wirtschaftlicher Abläufe, aber einhergehende Beschränlkung des Wettbewerbs. Auf horizontaler Ebene zB gemeinsame Produktion/Verkauf, auf vertikaler Ebene zB der Selektivvertrieb. Ausnahme gem Markterschließungsdoktrin, wonach es durch die effizientere Gestaltung überhaupt erst zum Markteintritt kommt.
+
+
+
+
 
 
 ---
