@@ -13,6 +13,7 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 - [Install Tensorflow on Macbook Pro 2018](#install-tensorflow-on-macbook-pro-2018)
   - [Table of Contents](#table-of-contents)
   - [Shell commands](#shell-commands)
+    - [Test if the installation worked:](#test-if-the-installation-worked)
 
 <!-- /TOC -->
 
@@ -35,6 +36,17 @@ easy_install -U pip
 pip install --upgrade tensorflow 
 ```
 
+### Test if the installation worked:
+
+```shell
+python
+
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
+```
+This should show 'Hello, TensorFlow!' in the console.
 
 ---
 
