@@ -11,8 +11,9 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 
 ## Shell commands
 
-```bash
+```zsh
 sudo easy_install pip
+
 pip install --upgrade virtualenv 
 ```
 
