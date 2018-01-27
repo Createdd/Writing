@@ -67,7 +67,7 @@ When the setup settings are not working, simply activate the virtualenv in the t
 source ./bin/activate 
 ```
 
-See a Github repository for a test [here](https://github.com/DDCreationStudios/tensorFlowTest).
+[See a Github repository for a test.](https://github.com/DDCreationStudios/tensorFlowTest)
 
 
 ---
