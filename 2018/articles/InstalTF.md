@@ -8,17 +8,12 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 
 
 ## Table of Contents
-<!-- TOC -->
 
-- [Install Tensorflow with Virtuelenv and Visual Studio Code on Mac](#install-tensorflow-with-virtuelenv-and-visual-studio-code-on-mac)
-  - [Table of Contents](#table-of-contents)
-  - [Installing Tensorflow](#installing-tensorflow)
-    - [Shell commands](#shell-commands)
-    - [Test if the installation has worked](#test-if-the-installation-has-worked)
-  - [Set up Visual Studio Code](#set-up-visual-studio-code)
-    - [Set up the virtual environment](#set-up-the-virtual-environment)
-
-<!-- /TOC -->
+- [Installing Tensorflow](#installing-tensorflow)
+  - [Shell commands](#shell-commands)
+  - [Test if the installation has worked](#test-if-the-installation-has-worked)
+- [Set up Visual Studio Code](#set-up-visual-studio-code)
+  - [Set up the virtual environment](#set-up-the-virtual-environment)
 
 
 ## Installing Tensorflow
@@ -30,7 +25,7 @@ sudo easy_install pip
 
 pip install --upgrade virtualenv 
 
-virtualenv --system-site-packages <targetDirectory> # for python 2.7
+virtualenv --system-site-packages <targetDirectory>
 
 cd <targetDirectory>
 
