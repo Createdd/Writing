@@ -1,4 +1,4 @@
-# Install Tensorflow on Macbook Pro 2018
+# Install Tensorflow with Virtuelenv and Visual Studio Code on Mac
 
 [<img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=288fb1a782c2813ea03f2e1e1085f853&auto=format&fit=crop&w=2251&q=80">](
 https://unsplash.com/photos/_NMJqIhNpno)
@@ -10,7 +10,7 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 ## Table of Contents
 <!-- TOC -->
 
-- [Install Tensorflow on Macbook Pro 2018](#install-tensorflow-on-macbook-pro-2018)
+- [Install Tensorflow with Virtuelenv and Visual Studio Code on Mac](#install-tensorflow-with-virtuelenv-and-visual-studio-code-on-mac)
   - [Table of Contents](#table-of-contents)
   - [Installing Tensorflow](#installing-tensorflow)
     - [Shell commands](#shell-commands)
@@ -71,6 +71,9 @@ When the setup settings are not working, simply activate the virtualenv in the t
 ```shell
 source ./bin/activate 
 ```
+
+See a Github repository for a test [here](https://github.com/DDCreationStudios/tensorFlowTest).
+
 
 ---
 
