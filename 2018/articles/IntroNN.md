@@ -11,7 +11,7 @@ bblalblablalbalbal
 ## Function of a Neuron (-model)
 
 - Dentrite is for Input.
-- Axiom is for Output
+- Axon is for Output
 
 A neuron model computes the input wires and outputs the value of a hypothesis X.
 Make sure to add a "bias unit" as an input.
