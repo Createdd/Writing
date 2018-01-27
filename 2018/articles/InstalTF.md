@@ -41,12 +41,15 @@ pip install --upgrade tensorflow
 ```shell
 python
 
+# inside the python shell
 import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
 print(sess.run(hello))
 ```
 This should show 'Hello, TensorFlow!' in the console.
+
+If not, check out the [official homepage](https://www.tensorflow.org/install/install_mac#common_installation_problems) for a solution.
 
 ---
 
