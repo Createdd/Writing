@@ -18,7 +18,13 @@ pip install --upgrade virtualenv
 
 virtualenv --system-site-packages <targetDirectory> # for python 2.7
 
+cd targetDirectory
 
+source ./bin/activate 
+
+easy_install -U pip
+
+pip install --upgrade tensorflow 
 ```
 
 
