@@ -12,13 +12,17 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 
 - [Install Tensorflow on Macbook Pro 2018](#install-tensorflow-on-macbook-pro-2018)
   - [Table of Contents](#table-of-contents)
-  - [Shell commands](#shell-commands)
-    - [Test if the installation worked:](#test-if-the-installation-worked)
+  - [Installing Tensorflow](#installing-tensorflow)
+    - [Shell commands](#shell-commands)
+    - [Test if the installation worked](#test-if-the-installation-worked)
+  - [Set up Visual Studio Code](#set-up-visual-studio-code)
 
 <!-- /TOC -->
 
 
-## Shell commands
+## Installing Tensorflow
+
+### Shell commands
 
 ```shell
 sudo easy_install pip
@@ -36,7 +40,7 @@ easy_install -U pip
 pip install --upgrade tensorflow 
 ```
 
-### Test if the installation worked:
+### Test if the installation worked
 
 ```shell
 python
@@ -50,6 +54,11 @@ print(sess.run(hello))
 This should show 'Hello, TensorFlow!' in the console.
 
 If not, check out the [official homepage](https://www.tensorflow.org/install/install_mac#common_installation_problems) for a solution.
+
+## Set up Visual Studio Code
+
+- install the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
 
 ---
 
