@@ -15,6 +15,10 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 sudo easy_install pip
 
 pip install --upgrade virtualenv 
+
+virtualenv --system-site-packages <targetDirectory> # for python 2.7
+
+
 ```
 
 
