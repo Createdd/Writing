@@ -4,10 +4,18 @@
 https://unsplash.com/photos/_NMJqIhNpno)
 Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
 
-The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. I will use the [VirtuelEnv](https://virtualenv.pypa.io/en/stable/). Enjoy!  
+The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. I will use the [VirtuelEnv](https://virtualenv.pypa.io/en/stable/) and Python 2.7 and [zsh](http://www.zsh.org/). Enjoy!  
 
 
 ## Table of Contents
+<!-- TOC -->
+
+- [Install Tensorflow on Macbook Pro 2018](#install-tensorflow-on-macbook-pro-2018)
+  - [Table of Contents](#table-of-contents)
+  - [Shell commands](#shell-commands)
+
+<!-- /TOC -->
+
 
 ## Shell commands
 
@@ -18,7 +26,7 @@ pip install --upgrade virtualenv
 
 virtualenv --system-site-packages <targetDirectory> # for python 2.7
 
-cd targetDirectory
+cd <targetDirectory>
 
 source ./bin/activate 
 
