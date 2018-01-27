@@ -1,8 +1,8 @@
 # EU - Wettbewerbsrecht
 
-[<img src="https://images.unsplash.com/photo-1482690205767-61deebe15ef7?auto=format&fit=crop&w=2250&q=80">](
-https://unsplash.com/photos/9qvZSH_NOQs)
-Photo by Karsten Würth (@inf1783) on Unsplash - https://unsplash.com/photos/9qvZSH_NOQs
+[<img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=288fb1a782c2813ea03f2e1e1085f853&auto=format&fit=crop&w=2251&q=80">](
+https://unsplash.com/photos/_NMJqIhNpno)
+Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
 
 This is a quick overview of the competition law in the european union. This article will be in german, since it is used as a learning abstract. 
 
