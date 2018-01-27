@@ -16,6 +16,7 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
     - [Shell commands](#shell-commands)
     - [Test if the installation worked](#test-if-the-installation-worked)
   - [Set up Visual Studio Code](#set-up-visual-studio-code)
+    - [Set up the virtual environment](#set-up-the-virtual-environment)
 
 <!-- /TOC -->
 
@@ -58,6 +59,11 @@ If not, check out the [official homepage](https://www.tensorflow.org/install/ins
 ## Set up Visual Studio Code
 
 - install the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+### Set up the virtual environment 
+
+For more details, see the [official site](https://code.visualstudio.com/docs/python/environments#_virtual-environments).
+
 
 
 ---
