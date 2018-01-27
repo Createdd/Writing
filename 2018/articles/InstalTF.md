@@ -4,7 +4,7 @@
 https://unsplash.com/photos/_NMJqIhNpno)
 Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
 
-The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. I will use the [VirtuelEnv](https://virtualenv.pypa.io/en/stable/) and Python 2.7 and [zsh](http://www.zsh.org/). Enjoy!  
+The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. I will use the [VirtuelEnv](https://virtualenv.pypa.io/en/stable/), Python 2.7 and [zsh](http://www.zsh.org/). Enjoy!  
 
 
 ## Table of Contents
@@ -14,7 +14,7 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
   - [Table of Contents](#table-of-contents)
   - [Installing Tensorflow](#installing-tensorflow)
     - [Shell commands](#shell-commands)
-    - [Test if the installation worked](#test-if-the-installation-worked)
+    - [Test if the installation has worked](#test-if-the-installation-has-worked)
   - [Set up Visual Studio Code](#set-up-visual-studio-code)
     - [Set up the virtual environment](#set-up-the-virtual-environment)
 
@@ -41,7 +41,7 @@ easy_install -U pip
 pip install --upgrade tensorflow 
 ```
 
-### Test if the installation worked
+### Test if the installation has worked
 
 ```shell
 python
@@ -58,7 +58,7 @@ If not, check out the [official homepage](https://www.tensorflow.org/install/ins
 
 ## Set up Visual Studio Code
 
-- install the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+Install the Visual Studio [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
 ### Set up the virtual environment 
 
