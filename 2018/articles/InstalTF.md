@@ -9,7 +9,12 @@ The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/
 
 ## Table of Contents
 
-## 
+## Shell commands
+
+```bash
+sudo easy_install pip
+pip install --upgrade virtualenv 
+```
 
 
 ---
