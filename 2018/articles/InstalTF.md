@@ -4,7 +4,7 @@
 https://unsplash.com/photos/_NMJqIhNpno)
 Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
 
-The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. Enjoy!  
+The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. I will use the [VirtuelEnv](https://virtualenv.pypa.io/en/stable/). Enjoy!  
 
 
 ## Table of Contents
