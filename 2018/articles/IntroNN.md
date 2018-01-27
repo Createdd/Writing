@@ -13,12 +13,16 @@ bblalblablalbalbal
 - Dentrite is for Input.
 - Axiom is for Output
 
-A neuron model computes the input wires and outputs.
+A neuron model computes the input wires and outputs the value of a hypothesis X.
 Make sure to add a "bias unit" as an input.
 
 ## Neural network
 
 A neural network are more neurons tied together.
+Basically the network consists of 3 layers:
+1. Input layer
+1. Hidden layer
+1. Output layer
 
 ---
 
