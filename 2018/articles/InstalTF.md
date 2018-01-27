@@ -64,6 +64,12 @@ If not, check out the [official homepage](https://www.tensorflow.org/install/ins
 
 For more details, see the [official site](https://code.visualstudio.com/docs/python/environments#_virtual-environments).
 
+When the setup settings are not working, simply activate the virtualenv in the terminal with 
+
+```shell
+source ./bin/activate 
+```
+
 
 
 ---
