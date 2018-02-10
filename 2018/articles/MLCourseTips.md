@@ -1,16 +1,18 @@
 # Tips for finishing the Machine Larning course by Andrew NG on Coursera
 
-[<img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=288fb1a782c2813ea03f2e1e1085f853&auto=format&fit=crop&w=2251&q=80">](
-https://unsplash.com/photos/_NMJqIhNpno)
-Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
+[<img src="https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=15be9f9073988c075caa018991009b74&auto=format&fit=crop&w=2250&q=80">](
+https://unsplash.com/photos/uj3hvdfQujI)
+Photo by SpaceX on Unsplash - https://unsplash.com/photos/uj3hvdfQujI
 
-The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. Enjoy!  
+The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it a lot. Andrew breaks complex topics down and makes them understandable for everyone. Since this course is definitely not easy I want to provide some tips for other students that are currently on this curriculum.
 
 
 ## Table of Contents
 
 ## 
 
+
+![cert](https://image-private.slidesharecdn.com/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg?hdnea=acl=/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg*~exp=1518279796~hmac=76aa8caad0237ba52c43c2cd8480f7d75bffec5a903a6e44a1b421cc625f25e0&cb=1518263514)
 
 ---
 
