@@ -1,4 +1,4 @@
-# Tips for finishing the Machine Larning course by Andrew NG on Coursera
+# Tips for finishing the Machine Learning course by Andrew NG on Coursera
 
 [<img src="https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=15be9f9073988c075caa018991009b74&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/uj3hvdfQujI)
@@ -11,17 +11,19 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
 
 <!-- TOC -->
 
-- [Tips for finishing the Machine Larning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-larning-course-by-andrew-ng-on-coursera)
+- [Tips for finishing the Machine Learning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-learning-course-by-andrew-ng-on-coursera)
   - [Table of Contents](#table-of-contents)
-  - [The complexity](#the-complexity)
+  - [The complexity of the course](#the-complexity-of-the-course)
 
 <!-- /TOC -->
 
-## The complexity
+## The complexity of the course
 
 The complexity of this course is twofold. 
 1. The content goes into depth of math and statistics
 2. To make progress you have to finish quizzes and programming assignments
+
+To fully grasp the use of all concepts in this course I think it is necessary to do more than just following along. Going though the course and finishing everything is just one step. I think the real value lies in revisiting all topics and trying to apply it to your own use cases. That's important to keep in mind.
 
 
 
