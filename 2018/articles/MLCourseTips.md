@@ -9,7 +9,20 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
 
 ## Table of Contents
 
-## 
+<!-- TOC -->
+
+- [Tips for finishing the Machine Larning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-larning-course-by-andrew-ng-on-coursera)
+  - [Table of Contents](#table-of-contents)
+  - [The complexity](#the-complexity)
+
+<!-- /TOC -->
+
+## The complexity
+
+The complexity of this course is twofold. 
+1. The content goes into depth of math and statistics
+2. To make progress you have to finish quizzes and programming assignments
+
 
 
 ![cert](https://image-private.slidesharecdn.com/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg?hdnea=acl=/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg*~exp=1518279796~hmac=76aa8caad0237ba52c43c2cd8480f7d75bffec5a903a6e44a1b421cc625f25e0&cb=1518263514)
