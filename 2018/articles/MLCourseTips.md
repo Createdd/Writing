@@ -14,6 +14,8 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
 - [Tips for finishing the Machine Learning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-learning-course-by-andrew-ng-on-coursera)
   - [Table of Contents](#table-of-contents)
   - [The complexity of the course](#the-complexity-of-the-course)
+  - [The programming assignments](#the-programming-assignments)
+    - [1. Read the documentation](#1-read-the-documentation)
 
 <!-- /TOC -->
 
@@ -24,6 +26,31 @@ The complexity of this course is twofold.
 2. To make progress you have to finish quizzes and programming assignments
 
 To fully grasp the use of all concepts in this course I think it is necessary to do more than just following along. Going though the course and finishing everything is just one step. I think the real value lies in revisiting all topics and trying to apply it to your own use cases. That's important to keep in mind.
+
+## The programming assignments
+
+This is tough. Especially if you are not familiar with programming. But even if you have no experience with any programming language, this course provides a soft introduction to it and allows to apply basic principles for powerful results.
+
+I have used Matlab for all the challenges. I simply wanted to try it and thought there must be good documentation behind this product. And I wasn't disappointed.
+
+### 1. Read the documentation
+
+As someone who learned programming on his own, I have dealt with this problem before. One important thing is to READ THE DOCUMENTAION. This is always the most important step. 
+
+For this course this applies for using Matlab features. The reason Matlab and Octave are recommended, is because they already offer a good variety of computing features with a solid performance. 
+
+Let's take multiplying as illustration:
+
+Matlab perfectly documents this [here](https://de.mathworks.com/help/matlab/ref/mtimes.html).
+
+![screenshot](../assets/mlTipps/matlabMultiplying.png) (Source [Matlab Docs](https://de.mathworks.com/help/matlab/ref/mtimes.html))
+
+When you are trying to multiply vectors ( and you are going to multiply many vectors ) just reading this documentation helps to prevent a lot of problems. ( As I often have encountered and seen in forums )
+
+Especially as it says in the description: 
+
+> "That is, A*B is typically not equal to B*A."
+
 
 
 
