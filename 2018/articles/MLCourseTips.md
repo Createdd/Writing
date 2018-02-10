@@ -16,6 +16,8 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
   - [The complexity of the course](#the-complexity-of-the-course)
   - [The programming assignments](#the-programming-assignments)
     - [1. Read the documentation](#1-read-the-documentation)
+    - [2. Use the debugging functionality](#2-use-the-debugging-functionality)
+    - [3. Visualize matrices ( and variables )](#3-visualize-matrices--and-variables-)
 
 <!-- /TOC -->
 
@@ -51,6 +53,19 @@ Especially as it says in the description:
 
 > "That is, A*B is typically not equal to B*A."
 
+### 2. Use the debugging functionality 
+
+Again, read the [documentation](https://de.mathworks.com/help/matlab/matlab_prog/debugging-process-and-features.html).
+
+It is really easy and provides a lot of insight. 
+- Just set a break point
+- Run the program in the console ( otherwise arguments are not supplied to the functions )
+- Hover over variables to see their values ( this is incredibly helpful with all the matrices )
+- Adapt you code and re-run the previous steps
+
+### 3. Visualize matrices ( and variables )
+
+If debugging is not enough and you need a better visualization try to draw them out. This is especially useful when you have multiple errors in a longer formula calculation.
 
 
 
