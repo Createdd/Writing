@@ -100,11 +100,19 @@ If it takes too long you can send a mail to the support team, which resolves the
 
 ### Payment
 
+Payment is done without problems with a credit card. I was so amazed by the quality of this course that I found it worth to buy the certificate. Not only to have credibility for the work, but also to support the people behind it.
+
+
 ## Mind the honor code 
 
+The [honor code](https://learner.coursera.help/hc/en-us/articles/209818863) shall ensure academic integrity and has to be agreed upon when doing the course.
 
+In short, it prohibits actions, that  will "dishonestly improve your results or dishonestly improve or damage the results of others".
 
-https://learner.coursera.help/hc/en-us/articles/209818863
+This is important to note, since it does also not allow to copy and share results. It even says on the website:
+> You may not share your solutions to homework, quizzes, or exams with anyone else unless explicitly permitted by the instructor.
+
+Of course this is hard on the internet. Keep always in mind that this course is for you, you alone. Dishonoring the code doesn't add any value to your learning experience and harms open projects like this. 
 
 
 ![cert](../assets/mlTipps/cert.jpg)
