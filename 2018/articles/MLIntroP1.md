@@ -36,7 +36,7 @@ We want to set the parameters in order to achieve a minimal difference between t
 
 ### Gradient Descent
 
-Keeps changing the Parameters to reduce the cost function gradually. With each iteration we shall come closer to a minimum. With each iteration the parameters must be adapted.
+Keeps changing the Parameters to reduce the cost function gradually. With each iteration we shall come closer to a minimum. With each iteration the parameters must be adapted simultaneously! The size of a "step"/iteration is determined by the parameter alpha (the learning rate).
 
 ![costfunction](../assets/mlIntro/gradientDescent.png)
 
