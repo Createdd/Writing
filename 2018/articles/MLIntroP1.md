@@ -1,4 +1,4 @@
-# Install Tensorflow on Macbook Pro 2018
+# Machine Learning Basics - Part 1
 
 [<img src="https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8ab2656cca1f3fadd0cc4e254b27c8d&auto=format&fit=crop&w=2251&q=80">](
 https://unsplash.com/photos/cXU6tNxhub0)
