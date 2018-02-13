@@ -14,6 +14,7 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
 - [Tips for finishing the Machine Learning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-learning-course-by-andrew-ng-on-coursera)
   - [Table of Contents](#table-of-contents)
   - [The complexity of the course](#the-complexity-of-the-course)
+  - [The scientific depth of the course](#the-scientific-depth-of-the-course)
   - [The programming assignments](#the-programming-assignments)
     - [1. Read the documentation](#1-read-the-documentation)
     - [2. Use the debugging functionality](#2-use-the-debugging-functionality)
@@ -34,6 +35,13 @@ The complexity of this course is twofold.
 2. To make progress you have to finish quizzes and programming assignments
 
 To fully grasp the use of all concepts in this course I think it is necessary to do more than just following along. Going though the course and finishing everything is just one step. I think the real value lies in revisiting all topics and trying to apply it to your own use cases. That's important to keep in mind.
+
+## The scientific depth of the course
+
+Since I haven't studied math or statistics I can't really give advise on that. 
+
+But if you are discouraged along the road that everything seems to be too complicated, try to focus on the very relevant parts of the learning week and it's tests. The professor says this in the videos anyways and always points out the important parts. 
+
 
 ## The programming assignments
 
@@ -114,6 +122,7 @@ This is important to note, since it does also not allow to copy and share result
 
 Of course this is hard on the internet. Keep always in mind that this course is for you, you alone. Dishonoring the code doesn't add any value to your learning experience and harms open projects like this. 
 
+Here is my certificate. If you have any questions feel free to reach out :) 
 
 ![cert](../assets/mlTipps/cert.jpg)
 
