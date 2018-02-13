@@ -19,6 +19,10 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
     - [2. Use the debugging functionality](#2-use-the-debugging-functionality)
     - [3. Visualize matrices ( and variables )](#3-visualize-matrices--and-variables-)
     - [4. Read the information provided in the task](#4-read-the-information-provided-in-the-task)
+  - [The quizzes](#the-quizzes)
+  - [Formal requirements](#formal-requirements)
+    - [Id verification](#id-verification)
+    - [Payment](#payment)
 
 <!-- /TOC -->
 
@@ -73,6 +77,13 @@ If debugging is not enough and you need a better visualization try to draw them 
 The PDF file with the assignments contains not only valuable tips on how to solve a problem, but also gives sometimes Octave/Matlab syntax to simplify code. 
 Be sure to read the assignments properly and the difficulty of the task is most of the times reduced significantly. 
 
+## The quizzes
+
+## Formal requirements
+
+### Id verification
+
+### Payment
 
 
 ![cert](../assets/mlTipps/cert.jpg)
