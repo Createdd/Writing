@@ -54,9 +54,23 @@ When specifically applied to the case of linear regression, a new form of the gr
 
 Now, instead of one feature/variable that is responsible for a certain outcome we have multiple ones.
 
-Therefore the hypothesis changes accordingly and takes multiple parameters into account. The same applies for the gradient descent.
+Therefore the hypothesis changes accordingly and takes multiple parameters into account. The same applies for the gradient descent. It simply is extend for the additional parameters, which must be updated.
 
 ![costfunction](../assets/mlIntro/logisticRegGD.png)
+
+### Feature Scaling and Mean Normalization
+
+To make sure that all values of features are on a same scale and have the same mean it's necessary to use Feature Scaling and Mean Normalization.
+
+>Feature scaling involves dividing the input values by the range (i.e. the maximum value minus the minimum value) of the input variable, resulting in a new range of just 1. Mean normalization involves subtracting the average value for an input variable from the values for that input variable resulting in a new average value for the input variable of just zero.
+
+### Learning Rate
+
+To choose a suitable learning rate, gradient descent has to be plotted and "debugged".
+
+> Make a plot with number of iterations on the x-axis. Now plot the cost function, J(θ) over the number of iterations of gradient descent. If J(θ) ever increases, then you probably need to decrease α.
+
+If J(0) stops to decrease significantly in an iteration step convergence can be declared.
 
 ---
 
