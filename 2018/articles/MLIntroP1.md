@@ -18,6 +18,14 @@ The sdfdsfsdf
 - Reinforcement Learning
 - Recommender Systems
 
+## Linear regression with one variable
+
+### Model representation
+
+Create a prediction for a certain value by applying a hypothesis ( formed with the learned algorithm ) to a set of other variables. 
+
+Plot data with hypothesis as linear regression.
+
 
 
 
