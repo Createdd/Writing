@@ -23,6 +23,7 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
   - [Formal requirements](#formal-requirements)
     - [Id verification](#id-verification)
     - [Payment](#payment)
+  - [Mind the honor code](#mind-the-honor-code)
 
 <!-- /TOC -->
 
@@ -79,11 +80,31 @@ Be sure to read the assignments properly and the difficulty of the task is most 
 
 ## The quizzes
 
+The quizzes are multiple- or single choice tests. 
+You can retake a test 2 times and then you are blocked for 8 hours before being able to re-take the quiz again. 
+
+Since there is no time pressure you can easily examine the course notes and documentation to read them again. Which is not only advisable but even encouraged. In my opinion this is when the learning starts. Being able to apply the learned material to different problems. 
+
+Sometimes, as normal with multiple choice, the questions can be very tricky and confusing. Then re-taking the quiz might be helpful to come to a correct solution. ( Be aware that the questions and answers can change )
+
+
 ## Formal requirements
+
+The following I found to be worth mentioning:
 
 ### Id verification
 
+In order to get a certificate you need to [verify yourself](https://learner.coursera.help/hc/en-us/articles/209818953-Set-up-ID-verification). This ensures quality and credibility. Just finish the process and wait for review. 
+
+If it takes too long you can send a mail to the support team, which resolves the issues very fast. ( In my case the support was fantastic! )
+
 ### Payment
+
+## Mind the honor code 
+
+
+
+https://learner.coursera.help/hc/en-us/articles/209818863
 
 
 ![cert](../assets/mlTipps/cert.jpg)
