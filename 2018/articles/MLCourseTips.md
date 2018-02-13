@@ -9,10 +9,7 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
 
 ## Table of Contents
 
-<!-- TOC -->
 
-- [Tips for finishing the Machine Learning course by Andrew NG on Coursera](#tips-for-finishing-the-machine-learning-course-by-andrew-ng-on-coursera)
-  - [Table of Contents](#table-of-contents)
   - [The complexity of the course](#the-complexity-of-the-course)
   - [The scientific depth of the course](#the-scientific-depth-of-the-course)
   - [The programming assignments](#the-programming-assignments)
@@ -26,7 +23,6 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
     - [Payment](#payment)
   - [Mind the honor code](#mind-the-honor-code)
 
-<!-- /TOC -->
 
 ## The complexity of the course
 
@@ -89,9 +85,9 @@ Be sure to read the assignments properly and the difficulty of the task is most 
 ## The quizzes
 
 The quizzes are multiple- or single choice tests. 
-You can retake a test 2 times and then you are blocked for 8 hours before being able to re-take the quiz again. 
+You can re-take a test 2 times and then you are blocked for 8 hours before being able to re-take the quiz again. 
 
-Since there is no time pressure you can easily examine the course notes and documentation to read them again. Which is not only advisable but even encouraged. In my opinion this is when the learning starts. Being able to apply the learned material to different problems. 
+Since there is no time pressure you can easily examine the course notes and documentation to read them again. This is not only advisable but even encouraged. In my opinion this is where the learning starts. Being able to apply the learned material to different problems. 
 
 Sometimes, as normal with multiple choice, the questions can be very tricky and confusing. Then re-taking the quiz might be helpful to come to a correct solution. ( Be aware that the questions and answers can change )
 
@@ -104,7 +100,7 @@ The following I found to be worth mentioning:
 
 In order to get a certificate you need to [verify yourself](https://learner.coursera.help/hc/en-us/articles/209818953-Set-up-ID-verification). This ensures quality and credibility. Just finish the process and wait for review. 
 
-If it takes too long you can send a mail to the support team, which resolves the issues very fast. ( In my case the support was fantastic! )
+If it takes too long you can send a mail to the support team, who resolve the issue very fast. ( In my case the support was fantastic! )
 
 ### Payment
 
@@ -123,6 +119,8 @@ This is important to note, since it does also not allow to copy and share result
 Of course this is hard on the internet. Keep always in mind that this course is for you, you alone. Dishonoring the code doesn't add any value to your learning experience and harms open projects like this. 
 
 Here is my certificate. If you have any questions feel free to reach out :) 
+Thanks Andrew Ng, Stanford and the Coursera platform for making this happen. 
+Additionally I was very surprised on how well teaching can be done. Professor Ng really is a great personality and a role model for teaching. 
 
 ![cert](../assets/mlTipps/cert.jpg)
 
