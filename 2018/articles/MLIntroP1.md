@@ -38,8 +38,15 @@ We want to set the parameters in order to achieve a minimal difference between t
 
 Keeps changing the Parameters to reduce the cost function gradually. With each iteration we shall come closer to a minimum. With each iteration the parameters must be adapted simultaneously! The size of a "step"/iteration is determined by the parameter alpha (the learning rate).
 
+>The way we do this is by taking the derivative (the tangential line to a function) of our cost function. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent.
+
 ![costfunction](../assets/mlIntro/gradientDescent.png)
 
+Choosing the value of alpha is crucial. If it is too small the algorithm will be slow, if it is too large it will fail to converge. 
+
+When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived, where m is the size of the training set. Again both paramters must be updated simultaneously.
+
+![costfunction](../assets/mlIntro/gradientDescentLR.png)
 
 
 
