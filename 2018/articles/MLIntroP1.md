@@ -72,6 +72,14 @@ To choose a suitable learning rate, gradient descent has to be plotted and "debu
 
 If J(0) stops to decrease significantly in an iteration step convergence can be declared.
 
+### Polynomial Regression
+
+Features can be improved by re-defining the hypothesis function into a quadratic, cubic or square root function.
+
+In this case extra emphasize must be applied to feature scaling!
+
+
+
 ---
 
 Thanks for reading my article! Feel free to leave any feedback! 
