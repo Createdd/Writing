@@ -26,7 +26,19 @@ Create a prediction for a certain value by applying a hypothesis ( formed with t
 
 Plot data with hypothesis as linear regression.
 
+### Cost function
 
+We want to set the parameters in order to achieve a minimal difference between the predicted and the real values.
+
+> We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+![costfunction](../assets/mlIntro/costFunction.png)
+
+### Gradient Descent
+
+Keeps changing the Parameters to reduce the cost function gradually. With each iteration we shall come closer to a minimum. With each iteration the parameters must be adapted.
+
+![costfunction](../assets/mlIntro/gradientDescent.png)
 
 
 
