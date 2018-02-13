@@ -131,7 +131,6 @@ Thanks for reading my article! Feel free to leave any feedback!
 ---
 
 Daniel is a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna. 
-
 His current personal learning efforts focus on machine learning. 
 
 Connect on:
