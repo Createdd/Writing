@@ -69,7 +69,7 @@ If debugging is not enough and you need a better visualization try to draw them 
 
 
 
-![cert](https://image-private.slidesharecdn.com/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg?hdnea=acl=/c9f62da7-bb74-4ae4-8522-b6571c84100d-180210115146/95/slide-1-638.jpg*~exp=1518279796~hmac=76aa8caad0237ba52c43c2cd8480f7d75bffec5a903a6e44a1b421cc625f25e0&cb=1518263514)
+![cert](../assets/mlTipps/cert.jpg)
 
 ---
 
