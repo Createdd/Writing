@@ -50,8 +50,13 @@ When specifically applied to the case of linear regression, a new form of the gr
 
 >Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate α is not too large) to the global minimum.
 
+## Linear regression with multiple variables
 
+Now, instead of one feature/variable that is responsible for a certain outcome we have multiple ones.
 
+Therefore the hypothesis changes accordingly and takes multiple parameters into account. The same applies for the gradient descent.
+
+![costfunction](../assets/mlIntro/logisticRegGD.png)
 
 ---
 
