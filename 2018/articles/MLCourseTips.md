@@ -18,6 +18,7 @@ The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it 
     - [1. Read the documentation](#1-read-the-documentation)
     - [2. Use the debugging functionality](#2-use-the-debugging-functionality)
     - [3. Visualize matrices ( and variables )](#3-visualize-matrices--and-variables-)
+    - [4. Read the information provided in the task](#4-read-the-information-provided-in-the-task)
 
 <!-- /TOC -->
 
@@ -66,6 +67,11 @@ It is really easy and provides a lot of insight.
 ### 3. Visualize matrices ( and variables )
 
 If debugging is not enough and you need a better visualization try to draw them out. This is especially useful when you have multiple errors in a longer formula calculation.
+
+### 4. Read the information provided in the task 
+
+The PDF file with the assignments contains not only valuable tips on how to solve a problem, but also gives sometimes Octave/Matlab syntax to simplify code. 
+Be sure to read the assignments properly and the difficulty of the task is most of the times reduced significantly. 
 
 
 
