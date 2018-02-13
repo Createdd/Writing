@@ -78,6 +78,13 @@ Features can be improved by re-defining the hypothesis function into a quadratic
 
 In this case extra emphasize must be applied to feature scaling!
 
+### Normal equation (for analytical computing)
+
+Instead of using gradient descent for gradually minimizing the cost function, the normal equation sets the derivatives to zero. 
+
+![normalEquation](../assets/mlIntro/normalEquation.png)
+
+The normal equation doesn't need a learning rate alpha and no iteration at all. When you have a large number of features (eg 10000) the calculation will take longer than the iterative process with gradient descent.
 
 
 ---
