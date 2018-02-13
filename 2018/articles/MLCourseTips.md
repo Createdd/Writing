@@ -4,7 +4,7 @@
 https://unsplash.com/photos/uj3hvdfQujI)
 Photo by SpaceX on Unsplash - https://unsplash.com/photos/uj3hvdfQujI
 
-The Machine Learning course by Andrew Ng on Coursera is brilliant. I enjoyed it a lot. Andrew breaks complex topics down and makes them understandable for everyone. Since this course is definitely not easy I want to provide some tips for other students that are currently on this curriculum.
+The [Machine Learning course](https://www.coursera.org/learn/machine-learning) by Andrew Ng on Coursera is brilliant. I enjoyed it a lot. Andrew breaks complex topics down and makes them understandable for everyone. Since this course is definitely not easy I want to provide some tips for other students that are currently on this curriculum.
 
 
 ## Table of Contents
