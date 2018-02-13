@@ -48,6 +48,8 @@ When specifically applied to the case of linear regression, a new form of the gr
 
 ![costfunction](../assets/mlIntro/gradientDescentLR.png)
 
+>Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate α is not too large) to the global minimum.
+
 
 
 
