@@ -84,7 +84,9 @@ Instead of using gradient descent for gradually minimizing the cost function, th
 
 ![normalEquation](../assets/mlIntro/normalEquation.png)
 
-The normal equation doesn't need a learning rate alpha and no iteration at all. When you have a large number of features (eg 10000) the calculation will take longer than the iterative process with gradient descent.
+The normal equation doesn't need a learning rate alpha and no iteration at all but requires the transpose of the design matrix. When you have a large number of features (eg 10000) the calculation will take longer than the iterative process with gradient descent. To improve the quality of the normal equation algorithm features should be regularized and redundant features deleted. 
+
+
 
 
 ---
