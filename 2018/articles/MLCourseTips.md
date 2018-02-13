@@ -1,4 +1,4 @@
-# Tips for finishing the Machine Learning course by Andrew NG on Coursera
+# Tips for finishing the Machine Learning course by Andrew Ng on Coursera
 
 [<img src="https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=15be9f9073988c075caa018991009b74&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/uj3hvdfQujI)
