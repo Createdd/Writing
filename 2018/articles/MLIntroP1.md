@@ -109,11 +109,15 @@ The normal equation doesn't need a learning rate alpha and no iteration at all b
 
 ### Classification
 
-To classify data the result shall eiter be 0 or 1 (binary classification). From a regression point of view this means to classify output, that is >=0.5 as 1 and < 0 as 0. 
+To classify data the result shall eiter be 0 or 1 (binary classification). From a regression point of view this can mean to classify output, that is >=0.5 as 1 and < 0 as 0 (whereas 0,5 is the decision boundary).
 
 The adapted hypothesis, using the logistic/sigmoid function, would now be:
 
 ![normalEquation](../assets/mlIntro/logRegHypoth.png)
+
+It returns the probability for the output being 1. 
+
+
 
 
 
