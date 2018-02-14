@@ -9,6 +9,24 @@ The sdfdsfsdf
 
 ## Table of Contents
 
+<!-- TOC -->
+
+- [Machine Learning Basics - Part 1](#machine-learning-basics---part-1)
+  - [Table of Contents](#table-of-contents)
+  - [Definition](#definition)
+  - [Linear regression with one variable](#linear-regression-with-one-variable)
+    - [Model representation](#model-representation)
+    - [Cost function](#cost-function)
+    - [Gradient Descent](#gradient-descent)
+  - [Linear regression with multiple variables](#linear-regression-with-multiple-variables)
+    - [Feature Scaling and Mean Normalization](#feature-scaling-and-mean-normalization)
+    - [Learning Rate](#learning-rate)
+    - [Polynomial Regression](#polynomial-regression)
+    - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
+  - [Logistic Regression](#logistic-regression)
+
+<!-- /TOC -->
+
 ## Definition
 
 >A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E. - Tom Mitchell
@@ -85,6 +103,9 @@ Instead of using gradient descent for gradually minimizing the cost function, th
 ![normalEquation](../assets/mlIntro/normalEquation.png)
 
 The normal equation doesn't need a learning rate alpha and no iteration at all but requires the transpose of the design matrix. When you have a large number of features (eg 10000) the calculation will take longer than the iterative process with gradient descent. To improve the quality of the normal equation algorithm features should be regularized and redundant features deleted. 
+
+## Logistic Regression
+
 
 
 
