@@ -28,6 +28,7 @@ The sdfdsfsdf
     - [Adapted cost function and gradient descent](#adapted-cost-function-and-gradient-descent)
     - [Alternatives to gradient descent](#alternatives-to-gradient-descent)
     - [Multiclass Classification](#multiclass-classification)
+  - [Problem of overfitting and the use of regularization](#problem-of-overfitting-and-the-use-of-regularization)
 
 <!-- /TOC -->
 
@@ -154,6 +155,12 @@ often allow faster computation with no need for picking a learning rate alpha.
 The previously described classification problem solving only works for binary classification. Having more possible outcome than n=2 is called multiclass classification. To apply the concept on multiple classes the "one-vs-all" method is used, which is essentially applying the binary classification on each class (one class is positive, all the rest is negative). Instead of setting y to either 0 or 1, y is set to i, which itself is tested against all the other classes. Basically the process is twofold: 
 1. Setting the logistic classifier to y. (if y is 3, we create 3 classifiers) 
 2. New input is tested against all classifiers and choose the one with the highest probability.
+
+## Problem of overfitting and the use of regularization
+
+In the case of overfitting the model captures the data structure perfectly, whereas in underfitting the model captures not enough of the data structure (ie. the graph of the model barely touches all of the data points).
+
+
 
 ---
 
