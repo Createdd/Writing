@@ -24,6 +24,7 @@ The sdfdsfsdf
     - [Polynomial Regression](#polynomial-regression)
     - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
   - [Logistic Regression](#logistic-regression)
+    - [Classification](#classification)
 
 <!-- /TOC -->
 
@@ -106,6 +107,13 @@ The normal equation doesn't need a learning rate alpha and no iteration at all b
 
 ## Logistic Regression
 
+### Classification
+
+To classify data the result shall eiter be 0 or 1 (binary classification). From a regression point of view this means to classify output, that is >=0.5 as 1 and < 0 as 0. 
+
+The adapted hypothesis, using the logistic/sigmoid function, would now be:
+
+![normalEquation](../assets/mlIntro/logRegHypoth.png)
 
 
 
