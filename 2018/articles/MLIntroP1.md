@@ -25,7 +25,7 @@ The sdfdsfsdf
     - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
   - [Logistic Regression](#logistic-regression)
     - [Classification](#classification)
-    - [Cost function](#cost-function-1)
+    - [Adapted cost function and gradient descent](#adapted-cost-function-and-gradient-descent)
 
 <!-- /TOC -->
 
@@ -118,9 +118,9 @@ The adapted hypothesis, using the logistic/sigmoid function, would now be:
 
 It returns the probability for the output being 1. 
 
-### Cost function 
+### Adapted cost function and gradient descent
 
-Due to the use of the sigmoid function the cost function has to be adapted accordingly.
+Due to the use of the sigmoid function the cost function has to be adapted accordingly by using the logarithm. Since the goal now is not to minimize the distance from a predicted value, but rather to minimize the distance between the output by the hypothesis and y (0 or 1). 
 
 
 ![costFLogReg](../assets/mlIntro/costFLogReg.png)
