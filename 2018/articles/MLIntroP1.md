@@ -181,8 +181,6 @@ Note how the regularizing parameter starts at 1 - not regularizing the [bias ter
 ![gradDReg](../assets/mlIntro/gradDReg.png)
 
 
-
-
 ---
 
 Thanks for reading my article! Feel free to leave any feedback! 
