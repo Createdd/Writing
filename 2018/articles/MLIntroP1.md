@@ -1,17 +1,16 @@
-# Machine Learning Basics - Part 1
+# Machine Learning Basics - Part 1 - Concept of regression
 
 [<img src="https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8ab2656cca1f3fadd0cc4e254b27c8d&auto=format&fit=crop&w=2251&q=80">](
 https://unsplash.com/photos/cXU6tNxhub0)
 Photo by Andre Benz on Unsplash - https://unsplash.com/photos/cXU6tNxhub0
 
-The sdfdsfsdf
-
+In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. All quotes refer to the material from the course if not explicitly stated otherwise.
 
 ## Table of Contents
 
 <!-- TOC -->
 
-- [Machine Learning Basics - Part 1](#machine-learning-basics---part-1)
+- [Machine Learning Basics - Part 1 - Concept of regression](#machine-learning-basics---part-1---concept-of-regression)
   - [Table of Contents](#table-of-contents)
   - [Definition](#definition)
   - [Linear regression with one variable](#linear-regression-with-one-variable)
@@ -66,13 +65,13 @@ Keeps changing the Parameters to reduce the cost function gradually. With each i
 
 >The way we do this is by taking the derivative (the tangential line to a function) of our cost function. The slope of the tangent is the derivative at that point and it will give us a direction to move towards. We make steps down the cost function in the direction with the steepest descent.
 
-![costfunction](../assets/mlIntro/gradientDescent.png)
+![gradientDescent](../assets/mlIntro/gradientDescent.png)
 
 Choosing the value of alpha is crucial. If it is too small the algorithm will be slow, if it is too large it will fail to converge. 
 
 When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived, where m is the size of the training set. Again both parameters must be updated simultaneously.
 
-![costfunction](../assets/mlIntro/gradientDescentLR.png)
+![gradientDescentLR](../assets/mlIntro/gradientDescentLR.png)
 
 >Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges (assuming the learning rate α is not too large) to the global minimum.
 
@@ -82,7 +81,7 @@ Now, instead of one feature/variable that is responsible for a certain outcome w
 
 Therefore the hypothesis changes accordingly and takes multiple parameters into account. The same applies for the gradient descent. It simply is extend for the additional parameters, which must be updated.
 
-![costfunction](../assets/mlIntro/logisticRegGD.png)
+![logisticRegGD](../assets/mlIntro/logisticRegGD.png)
 
 ### Feature Scaling and Mean Normalization
 
