@@ -26,6 +26,8 @@ The sdfdsfsdf
   - [Logistic Regression](#logistic-regression)
     - [Classification](#classification)
     - [Adapted cost function and gradient descent](#adapted-cost-function-and-gradient-descent)
+    - [Alternatives to gradient descent](#alternatives-to-gradient-descent)
+    - [Multiclass Classification](#multiclass-classification)
 
 <!-- /TOC -->
 
@@ -138,9 +140,20 @@ Or for a vectorized implementation:
 
 ![GDLogRegVec](../assets/mlIntro/GDLogRegVec.png)
 
+### Alternatives to gradient descent
 
+More complex opimization algorithms like 
+- Conjugate Gradient, 
+- BFGS or 
+- L-BFGS 
 
+often allow faster computation with no need for picking a learning rate alpha.
 
+### Multiclass Classification
+
+The previously described classification problem solving only works for binary classification. Having more possible outcome than n=2 is called multiclass classification. To apply the concept on multiple classes the "one-vs-all" method is used, which is essentially applying the binary classification on each class (one class is positive, all the rest is negative). Instead of setting y to either 0 or 1, y is set to i, which itself is tested against all the other classes. Basically the process is twofold: 
+1. Setting the logistic classifier to y. (if y is 3, we create 3 classifiers) 
+2. New input is tested against all classifiers and choose the one with the highest probability.
 
 ---
 
