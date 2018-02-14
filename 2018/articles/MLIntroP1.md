@@ -170,7 +170,7 @@ Note how the regularizing parameter starts at 1 - not regularizing the [bias ter
 
 ---
 
-This wraps up the first part. In the next one neural networks will be described. Stay tuned!
+This wraps up the first part. In the next one, neural networks will be described. Stay tuned!
 
 ---
 
