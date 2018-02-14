@@ -8,29 +8,24 @@ In this article I revisit the learned material from the amazing [machine learnin
 
 ## Table of Contents
 
-<!-- TOC -->
+- [Definition](#definition)
+- [Linear regression with one variable](#linear-regression-with-one-variable)
+  - [Model representation](#model-representation)
+  - [Cost function](#cost-function)
+  - [Gradient Descent](#gradient-descent)
+- [Linear regression with multiple variables](#linear-regression-with-multiple-variables)
+  - [Feature Scaling and Mean Normalization](#feature-scaling-and-mean-normalization)
+  - [Learning Rate](#learning-rate)
+  - [Polynomial Regression](#polynomial-regression)
+  - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
+- [Logistic Regression](#logistic-regression)
+  - [Classification](#classification)
+  - [Adapted cost function and gradient descent](#adapted-cost-function-and-gradient-descent)
+  - [Alternatives to gradient descent](#alternatives-to-gradient-descent)
+  - [Multiclass Classification](#multiclass-classification)
+- [Problem of overfitting and the use of regularization](#problem-of-overfitting-and-the-use-of-regularization)
+  - [Regularization](#regularization)
 
-- [Machine Learning Basics - Part 1 - Concept of Regression](#machine-learning-basics---part-1---concept-of-regression)
-  - [Table of Contents](#table-of-contents)
-  - [Definition](#definition)
-  - [Linear regression with one variable](#linear-regression-with-one-variable)
-    - [Model representation](#model-representation)
-    - [Cost function](#cost-function)
-    - [Gradient Descent](#gradient-descent)
-  - [Linear regression with multiple variables](#linear-regression-with-multiple-variables)
-    - [Feature Scaling and Mean Normalization](#feature-scaling-and-mean-normalization)
-    - [Learning Rate](#learning-rate)
-    - [Polynomial Regression](#polynomial-regression)
-    - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
-  - [Logistic Regression](#logistic-regression)
-    - [Classification](#classification)
-    - [Adapted cost function and gradient descent](#adapted-cost-function-and-gradient-descent)
-    - [Alternatives to gradient descent](#alternatives-to-gradient-descent)
-    - [Multiclass Classification](#multiclass-classification)
-  - [Problem of overfitting and the use of regularization](#problem-of-overfitting-and-the-use-of-regularization)
-    - [Regularization](#regularization)
-
-<!-- /TOC -->
 
 ## Definition
 
@@ -108,17 +103,17 @@ The normal equation doesn't need a learning rate alpha and no iteration at all, 
 
 ### Classification
 
-To classify data the result shall eiter be 0 or 1 (binary classification). From a regression point of view this can mean to classify output, that is >=0.5 as 1 and output that is < 0.5 as 0 (whereas 0,5 is the decision boundary).
+To classify data the result shall eiter be 0 or 1 (binary classification). From a regression point of view this can mean to classify output, that is >= 0.5 as 1 and output that is < 0.5 as 0 (whereas 0,5 is the decision boundary).
 
 The adapted hypothesis, using the logistic/sigmoid function, would now be:
 
 ![logRegHypoth](../assets/mlIntro/logRegHypoth.png)
 
-It returns the probability for the output being 1. 
+It returns the probability for the output being 1!
 
 ### Adapted cost function and gradient descent
 
-Due to the use of the sigmoid function the cost function has to be adapted accordingly by using the logarithm. Since the goal now is not to minimize the distance from a predicted value, but rather to minimize the distance between the output by the hypothesis and y (0 or 1). 
+Due to the use of the sigmoid function, the cost function has to be adapted accordingly by using the logarithm. Since the goal is now not to minimize the distance from a predicted value, but rather to minimize the distance between the output by the hypothesis and y (0 or 1). 
 
 
 ![costFLogReg](../assets/mlIntro/costFLogReg.png)
@@ -153,9 +148,9 @@ The previously described classification problem solving only works for binary cl
 
 ## Problem of overfitting and the use of regularization
 
-In the case of overfitting the model captures the data structure perfectly, whereas in underfitting the model captures not enough of the data structure (ie. the graph of the model barely touches all of the data points).
+In the case of overfitting, the model captures the data structure perfectly, whereas in underfitting the model captures not enough of the data structure (ie. the graph of the model barely touches all of the data points).
 
-To solve the problem of overfitting either the features can be reduced or the their magnitude of their values can be regularized.
+To solve the problem of overfitting either the features can be reduced or the magnitude of their values can be regularized.
 
 ### Regularization
 
@@ -172,6 +167,10 @@ Note how the regularizing parameter starts at 1 - not regularizing the [bias ter
 
 ![gradDReg](../assets/mlIntro/gradDReg.png)
 
+
+---
+
+This wraps up the first part. In the next one neural networks will be described. Stay tuned!
 
 ---
 
