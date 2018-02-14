@@ -25,6 +25,7 @@ The sdfdsfsdf
     - [Normal equation (for analytical computing)](#normal-equation-for-analytical-computing)
   - [Logistic Regression](#logistic-regression)
     - [Classification](#classification)
+    - [Cost function](#cost-function-1)
 
 <!-- /TOC -->
 
@@ -113,10 +114,29 @@ To classify data the result shall eiter be 0 or 1 (binary classification). From 
 
 The adapted hypothesis, using the logistic/sigmoid function, would now be:
 
-![normalEquation](../assets/mlIntro/logRegHypoth.png)
+![logRegHypoth](../assets/mlIntro/logRegHypoth.png)
 
 It returns the probability for the output being 1. 
 
+### Cost function 
+
+Due to the use of the sigmoid function the cost function has to be adapted accordingly.
+
+
+![costFLogReg](../assets/mlIntro/costFLogReg.png)
+
+Or for a vectorized implementation:
+
+![costFLogRegVec](../assets/mlIntro/costFLogRegVec.png)
+
+
+The same goes of course for it's gradient descent.
+
+![GDLogReg](../assets/mlIntro/GDLogReg.png)
+
+Or for a vectorized implementation:
+
+![GDLogRegVec](../assets/mlIntro/GDLogRegVec.png)
 
 
 
