@@ -130,7 +130,7 @@ Or for a vectorized implementation:
 ![costFLogRegVec](../assets/mlIntro/costFLogRegVec.png)
 
 
-The same goes of course for it's gradient descent.
+However, gradient descent stays the same because the formula uses the derivative part of the hypothesis!
 
 ![GDLogReg](../assets/mlIntro/GDLogReg.png)
 
