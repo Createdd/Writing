@@ -29,6 +29,7 @@ The sdfdsfsdf
     - [Alternatives to gradient descent](#alternatives-to-gradient-descent)
     - [Multiclass Classification](#multiclass-classification)
   - [Problem of overfitting and the use of regularization](#problem-of-overfitting-and-the-use-of-regularization)
+    - [Regularization](#regularization)
 
 <!-- /TOC -->
 
@@ -45,13 +46,15 @@ The sdfdsfsdf
 
 ### Model representation
 
-Create a prediction for a certain value by applying a hypothesis ( formed with the learned algorithm ) to a set of other variables. 
+Create a prediction for a certain value by applying a hypothesis (formed with the learned algorithm) to a set of other variables. 
 
 Plot data with hypothesis as linear regression.
 
 ### Cost function
 
 We want to set the parameters in order to achieve a minimal difference between the predicted and the real values.
+
+
 
 > We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
 
@@ -67,7 +70,7 @@ Keeps changing the Parameters to reduce the cost function gradually. With each i
 
 Choosing the value of alpha is crucial. If it is too small the algorithm will be slow, if it is too large it will fail to converge. 
 
-When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived, where m is the size of the training set. Again both paramters must be updated simultaneously.
+When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived, where m is the size of the training set. Again both parameters must be updated simultaneously.
 
 ![costfunction](../assets/mlIntro/gradientDescentLR.png)
 
@@ -159,6 +162,24 @@ The previously described classification problem solving only works for binary cl
 ## Problem of overfitting and the use of regularization
 
 In the case of overfitting the model captures the data structure perfectly, whereas in underfitting the model captures not enough of the data structure (ie. the graph of the model barely touches all of the data points).
+
+To solve the problem of overfitting either the features can be reduced or the their magnitude of their values can be regularized.
+
+### Regularization
+
+For regularizing a model, a parameter (lambda) has to be added to the cost function. It de- or inflates the parameter Theta.
+
+![costFReg](../assets/mlIntro/costFReg.png)
+
+Consequently applying it to the logistic regression looks like this:
+
+![logRegReg](../assets/mlIntro/logRegReg.png)
+
+Note how the regularizing parameter starts at 1 - not regularizing the [bias term Theta 0](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks). 
+
+
+![gradDReg](../assets/mlIntro/gradDReg.png)
+
 
 
 
