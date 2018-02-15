@@ -133,7 +133,7 @@ Or for a vectorized implementation:
 
 ### Alternatives to gradient descent
 
-More complex opimization algorithms like 
+More complex optimization algorithms like 
 - Conjugate Gradient, 
 - BFGS or 
 - L-BFGS 
