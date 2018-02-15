@@ -23,6 +23,17 @@ For neural networks we take the findings from exploring the statistical regressi
 
 The used terms change a little as the logistic function is often referred to as the sigmoid activation function and the theta parameters as weights. The underlying concept stays the same. Instead of the [bias term theta 0, now a bias unit with the value of 1 is used.](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks)
 
+The neural network architecture is made of at least 3 layers. That is
+- input,
+- hidden, 
+- output 
+
+layer. (Many neural networks have more than 1 hidden layer though)
+
+
+
+
+
 ---
 
 This wraps up the second part. In the next one, neural networks will be described. Stay tuned!
