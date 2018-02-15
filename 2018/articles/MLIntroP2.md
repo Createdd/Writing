@@ -38,6 +38,10 @@ Of course this concept can also be applied using vectorization. Therefore we use
 
 Check out [this incredible article](http://www.ebc.cat/2017/01/08/understanding-neural-networks-part-2-vectorized-forward-propagation/), that explains the concept very good with nice graphics.
 
+A great introduction example is the XOR Problem. [This article](https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b) explains it well.
+
+
+
 
 
 
