@@ -30,6 +30,13 @@ The neural network architecture is made of at least 3 layers. That is
 
 layer. (Many neural networks have more than 1 hidden layer though)
 
+In an activation unit, the weighted input of each unit in the previous layer is re-calculated and re-measured. You can say that neural networks can basically implement the concept of a statistical regression multiple times with more and more advanced input.
+
+![gradDReg](../assets/mlIntro/activationNodes.png)
+
+Of course this concept can also be applied using vectorization. Therefore we use a new variable, that encompasses the weight parameters inside our g function as an activation unit. Here it is really important to track and visualize the dimensions of your matrices, since it can get quickly very complex (depending on your neural network architecture).
+
+Check out [this incredible article](http://www.ebc.cat/2017/01/08/understanding-neural-networks-part-2-vectorized-forward-propagation/), that explains the concept very good with nice graphics.
 
 
 
