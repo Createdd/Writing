@@ -15,6 +15,8 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Neural Networks Model Representation](#neural-networks-model-representation)
   - [Cost function in neural networks](#cost-function-in-neural-networks)
     - [Backpropagation](#backpropagation)
+    - [Unrolling parameters](#unrolling-parameters)
+    - [Gradient checking](#gradient-checking)
 
 <!-- /TOC -->
 
@@ -61,6 +63,12 @@ Whereas forward propagation (activation of nodes) takes in the theta parameters 
 The formula for calculating the error is:
 
 ![errorCostF](../assets/mlIntro/errorCostF.png)
+
+### Unrolling parameters
+
+Since some, more advanced, algorithms need vectorized versions for computation. Unrolling matrices into vectors is a great way for calculating the cost function and getting the vector of the calculated parameters and reshaping the result back into matrices.
+
+### Gradient checking
 
 
 
