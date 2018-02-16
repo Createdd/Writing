@@ -13,6 +13,7 @@ In this article I revisit the learned material from the amazing [machine learnin
 - [Machine Learning Basics - Part 2 - Concept of](#machine-learning-basics---part-2---concept-of)
   - [Table of Contents](#table-of-contents)
   - [Neural Networks Model Representation](#neural-networks-model-representation)
+  - [Cost function in neural networks](#cost-function-in-neural-networks)
 
 <!-- /TOC -->
 
@@ -32,7 +33,7 @@ layer. (Many neural networks have more than 1 hidden layer though)
 
 In an activation unit, the weighted input of each unit in the previous layer is re-calculated and re-measured. You can say that neural networks can basically implement the concept of a statistical regression multiple times with more and more advanced input.
 
-![gradDReg](../assets/mlIntro/activationNodes.png)
+![activationNodes](../assets/mlIntro/activationNodes.png)
 
 Of course this concept can also be applied using vectorization. Therefore we use a new variable, that encompasses the weight parameters inside our g function as an activation unit. Here it is really important to track and visualize the dimensions of your matrices, since it can get quickly very complex (depending on your neural network architecture).
 
@@ -40,7 +41,15 @@ Check out [this incredible article](http://www.ebc.cat/2017/01/08/understanding-
 
 A great introduction example is the XOR Problem. [This article](https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b) explains it well.
 
+## Cost function in neural networks
 
+For a logistic regression to be used in a neural network, the cost function has to be extend to hold the output units K and the regularization part needs the number of layers, the number of nodes in the current layer (plus the bias term) and the number of nodes in the next layers to localized the theta value correctly.
+
+Cost function for logistic regression:
+![logRegReg](../assets/mlIntro/logRegReg.png)
+
+Cost function for logistic regression in a neural network:
+![nnCostFReg](../assets/mlIntro/nnCostFReg.png)
 
 
 
