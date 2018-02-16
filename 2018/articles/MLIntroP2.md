@@ -14,6 +14,7 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Table of Contents](#table-of-contents)
   - [Neural Networks Model Representation](#neural-networks-model-representation)
   - [Cost function in neural networks](#cost-function-in-neural-networks)
+    - [Backpropagation](#backpropagation)
 
 <!-- /TOC -->
 
@@ -50,6 +51,18 @@ Cost function for logistic regression:
 
 Cost function for logistic regression in a neural network:
 ![nnCostFReg](../assets/mlIntro/nnCostFReg.png)
+
+### Backpropagation
+
+>"Backpropagation" is neural-network terminology for minimizing our cost function, just like what we were doing with gradient descent in logistic and linear regression.
+
+Whereas forward propagation (activation of nodes) takes in the theta parameters of each node in the previous layer, backpropagation does basically the opposite. An error for each node is calculated by comparing the activation node's output with the calculated output of the node. Afterwards this error is minimized gradually by adapting the used parameter theta. 
+
+The formula for calculating the error is:
+
+![errorCostF](../assets/mlIntro/errorCostF.png)
+
+
 
 
 
