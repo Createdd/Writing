@@ -23,6 +23,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Evaluate the hypothesis](#evaluate-the-hypothesis)
     - [Model selection](#model-selection)
     - [Bias and Variance](#bias-and-variance)
+    - [Learning curves and the size of a set](#learning-curves-and-the-size-of-a-set)
+    - [Summary](#summary)
 
 <!-- /TOC -->
 
@@ -132,6 +134,28 @@ These problems can be addressed using different regularizing lambda parameter.
 Remember that, a lambda of the value 1 equals a completely biased hypothesis (underfitting), whereas a lambda of 0 is essentially high varianced one (overfitting).
 
 To apply this in practice it is useful to create a list of lambdas (eg. 0,0.01,0.02,0.04,0.08,0.16,0.32,0.64,1.28,2.56,5.12,10.24) and supply them when working on the different polynomial models in the trainings set and pick the one with the smallest error. It's important to note, that when computing the errors of the cross-validation set to not use regularization again, since it would distort the result.
+
+### Learning curves and the size of a set
+
+With increasing size of a set the errors will increase until a certain point where it plateaus.
+
+If the algorithm is suffering from high bias, getting more data won't help as it is already underfitting. However if the problem is a overfitting one with high variance, getting more data is likely to improve the algorithm. 
+
+### Summary
+
+High bias can be addressed by
+- adding features
+- adding polynomial features
+- decreasing the regularization parameter lambda
+
+High variance can be addressed by
+- getting more training data
+- reducing features
+- increasing  the regularization parameter lambda
+
+The goal is
+>In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
+
 
 
 ---
