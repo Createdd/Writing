@@ -131,7 +131,7 @@ These problems can be addressed using different regularizing lambda parameter.
 
 Remember that, a lambda of the value 1 equals a completely biased hypothesis (underfitting), whereas a lambda of 0 is essentially high varianced one (overfitting).
 
-
+To apply this in practice it is useful to create a list of lambdas (eg. 0,0.01,0.02,0.04,0.08,0.16,0.32,0.64,1.28,2.56,5.12,10.24) and supply them when working on the different polynomial models in the trainings set and pick the one with the smallest error. It's important to note, that when computing the errors of the cross-validation set to not use regularization again, since it would distort the result.
 
 
 ---
