@@ -17,6 +17,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Backpropagation](#backpropagation)
     - [Unrolling parameters](#unrolling-parameters)
     - [Gradient checking](#gradient-checking)
+    - [Random initialization](#random-initialization)
+    - [Checklist on training a neural network](#checklist-on-training-a-neural-network)
 
 <!-- /TOC -->
 
@@ -76,7 +78,19 @@ To ensure that your backpropagation works as intended you should check your grad
 
 If the result is similar to the gradient vector the implementation works correct.
 
+### Random initialization
 
+To use gradient descent in a neural network the initial values for theta cannot be symmetrical and must be initialized randomly. Using symmetrical initialization always lead to the same learning result, since the is no variety provided.
+
+### Checklist on training a neural network
+
+1. Randomly initialize weights
+1. Implement forward propagation to get the hypothesis
+1. Compute the cost function to get the errors
+1. Implement backpropagation to compute partial derivatives (optimizing the parameters through errors)
+1. Apply gradient checking (comparing backpropagation with numerical estimate)
+1. Disable gradient checking
+1. Use an optimization method to minimize the cost function with it's corresponding parameters
 
 
 
