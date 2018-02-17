@@ -183,7 +183,12 @@ You are essentially testing the true positives of all predicted positives (preci
 Depending on the goal of your classification problem, the way of weighting precision and recall varies.
 As the hypothesis returns the probability between 0 or 1, the set boundary threshold decides whether to classify an outcome as positive or negativ.  
 
-Often the starting point is 0.5, ie. everything under 0.5 is classified as negative. 
+Often the starting point is 0.5, ie. everything under 0.5 is classified as negative. Depending whether you want to predict very confidently or rather avoid missing many cases, it makes sense to test different values for 0 and 1 (eg 0.3, 0.5, 0.7, 0.9) and compare the resulting algorithms. As you will have 2 values (one for Precision, one for Recall), the desired threshold can afterwards be calculated with the F-Score formula:
+
+![fScore](../assets/mlIntro/fScore.png)
+
+
+
 
 
 ---
