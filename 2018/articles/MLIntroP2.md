@@ -18,7 +18,7 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Unrolling parameters](#unrolling-parameters)
     - [Gradient checking](#gradient-checking)
     - [Random initialization](#random-initialization)
-    - [Checklist on training a neural network](#checklist-on-training-a-neural-network)
+  - [Checklist on training a neural network](#checklist-on-training-a-neural-network)
 
 <!-- /TOC -->
 
@@ -82,7 +82,7 @@ If the result is similar to the gradient vector the implementation works correct
 
 To use gradient descent in a neural network the initial values for theta cannot be symmetrical and must be initialized randomly. Using symmetrical initialization always lead to the same learning result, since the is no variety provided.
 
-### Checklist on training a neural network
+## Checklist on training a neural network
 
 1. Randomly initialize weights
 1. Implement forward propagation to get the hypothesis
