@@ -1,4 +1,4 @@
-# Machine Learning Basics - Part 2 - Concept of 
+# Machine Learning Basics - Part 2 - Concept of neural networks and how to debug a learning algorithm
 
 [<img src="https://images.unsplash.com/photo-1507090960745-b32f65d3113a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92a1714119e42bc9d947f75ec4733ed6&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/PI8Hk-3ZcCU)
@@ -8,27 +8,23 @@ In this article I revisit the learned material from the amazing [machine learnin
 
 ## Table of Contents
 
-<!-- TOC -->
+- [Neural Networks Model Representation](#neural-networks-model-representation)
+- [Cost function in neural networks](#cost-function-in-neural-networks)
+  - [Backpropagation](#backpropagation)
+  - [Unrolling parameters](#unrolling-parameters)
+  - [Gradient checking](#gradient-checking)
+  - [Random initialization](#random-initialization)
+- [Checklist on training a neural network](#checklist-on-training-a-neural-network)
+- [Debugging a learning algorithm](#debugging-a-learning-algorithm)
+  - [Evaluate the hypothesis](#evaluate-the-hypothesis)
+  - [Model selection](#model-selection)
+  - [Bias and Variance](#bias-and-variance)
+  - [Learning curves and the size of a set](#learning-curves-and-the-size-of-a-set)
+  - [Summary](#summary)
+- [Designing a machine learning system](#designing-a-machine-learning-system)
+  - [Skewed classes and classification](#skewed-classes-and-classification)
+  - [High accuracy](#high-accuracy)
 
-- [Machine Learning Basics - Part 2 - Concept of](#machine-learning-basics---part-2---concept-of)
-  - [Table of Contents](#table-of-contents)
-  - [Neural Networks Model Representation](#neural-networks-model-representation)
-  - [Cost function in neural networks](#cost-function-in-neural-networks)
-    - [Backpropagation](#backpropagation)
-    - [Unrolling parameters](#unrolling-parameters)
-    - [Gradient checking](#gradient-checking)
-    - [Random initialization](#random-initialization)
-  - [Checklist on training a neural network](#checklist-on-training-a-neural-network)
-  - [Debugging a learning algorithm](#debugging-a-learning-algorithm)
-    - [Evaluate the hypothesis](#evaluate-the-hypothesis)
-    - [Model selection](#model-selection)
-    - [Bias and Variance](#bias-and-variance)
-    - [Learning curves and the size of a set](#learning-curves-and-the-size-of-a-set)
-    - [Summary](#summary)
-  - [Designing a machine learning system](#designing-a-machine-learning-system)
-    - [Skewed classes](#skewed-classes)
-
-<!-- /TOC -->
 
 
 ## Neural Networks Model Representation
@@ -133,7 +129,7 @@ These problems can be addressed using different regularizing lambda parameter.
 
 ![costFReg](../assets/mlIntro/costFReg.png)
 
-Remember that, a lambda of the value 1 equals a completely biased hypothesis (underfitting), whereas a lambda of 0 is essentially high varianced one (overfitting).
+Remember that, a lambda of the value 1 equals a completely biased hypothesis (underfitting), whereas a lambda of 0 is essentially high variance one (overfitting).
 
 To apply this in practice it is useful to create a list of lambdas (eg. 0,0.01,0.02,0.04,0.08,0.16,0.32,0.64,1.28,2.56,5.12,10.24) and supply them when working on the different polynomial models in the trainings set and pick the one with the smallest error. It's important to note, that when computing the errors of the cross-validation set to not use regularization again, since it would distort the result.
 
@@ -171,7 +167,7 @@ A recommended approach to design a machine learning system is to
 2. plot learning curves to make the right decisions on what to improve next
 3. examine errors manually and see what type of error it is and what could be improved to avoid those errors
 
-### Skewed classes
+### Skewed classes and classification
 
 Skewed classes appear when one class is over-represented in the data set. 
 
@@ -187,13 +183,14 @@ Often the starting point is 0.5, ie. everything under 0.5 is classified as negat
 
 ![fScore](../assets/mlIntro/fScore.png)
 
+### High accuracy
 
-
+To achieve the highest possible accuracy it is best to have as much useful(!) data as possible (low variance), but also to have an algorithm with many features or parameters (low bias). 
 
 
 ---
  
-This wraps up the second part. In the next one, neural networks will be described. Stay tuned!
+This wraps up the second part. In the next one, support vector machines and unsupervised learning will be described. Stay tuned!
 
 ---
 
