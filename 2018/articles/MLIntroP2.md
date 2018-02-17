@@ -54,7 +54,7 @@ Cost function for logistic regression:
 ![logRegReg](../assets/mlIntro/logRegReg.png)
 
 Cost function for logistic regression in a neural network:
-![nnCostFReg](../assets/mlIntro/nnCostFReg.png)
+![nnCostFReg](../assets/mlIntro/nncostFReg.png)
 
 ### Backpropagation
 
