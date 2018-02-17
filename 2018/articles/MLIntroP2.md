@@ -25,6 +25,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Bias and Variance](#bias-and-variance)
     - [Learning curves and the size of a set](#learning-curves-and-the-size-of-a-set)
     - [Summary](#summary)
+  - [Designing a machine learning system](#designing-a-machine-learning-system)
+    - [Skewed classes](#skewed-classes)
 
 <!-- /TOC -->
 
@@ -153,13 +155,39 @@ High variance can be addressed by
 - reducing features
 - increasing  the regularization parameter lambda
 
-The goal is
 >In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 
 
+## Designing a machine learning system
+
+Important questions one have to ask themselves:
+
+- how mach data should be collected?
+- how can sophisticated features be developed. What feature actually works for the goal?
+- how can algorithms be developed that help reduce misinterpretation?
+
+A recommended approach to design a machine learning system is to
+1. start with a simple algorithm and test it on cross-validation data
+2. plot learning curves to make the right decisions on what to improve next
+3. examine errors manually and see what type of error it is and what could be improved to avoid those errors
+
+### Skewed classes
+
+Skewed classes appear when one class is over-represented in the data set. 
+
+To test if your data is suffering from this problem implement precision and recall tests.
+You are essentially testing the true positives of all predicted positives (precision) and compare it top all true positives of all actual positives.
+
+![precRec](../assets/mlIntro/precRec.png)
+
+Depending on the goal of your classification problem, the way of weighting precision and recall varies.
+As the hypothesis returns the probability between 0 or 1, the set boundary threshold decides whether to classify an outcome as positive or negativ.  
+
+Often the starting point is 0.5, ie. everything under 0.5 is classified as negative. 
+
 
 ---
-
+ 
 This wraps up the second part. In the next one, neural networks will be described. Stay tuned!
 
 ---
