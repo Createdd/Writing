@@ -19,6 +19,9 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Gradient checking](#gradient-checking)
     - [Random initialization](#random-initialization)
   - [Checklist on training a neural network](#checklist-on-training-a-neural-network)
+  - [Debugging a learning algorithm](#debugging-a-learning-algorithm)
+    - [Evaluate the hypothesis](#evaluate-the-hypothesis)
+    - [Model selection](#model-selection)
 
 <!-- /TOC -->
 
@@ -91,6 +94,32 @@ To use gradient descent in a neural network the initial values for theta cannot 
 1. Apply gradient checking (comparing backpropagation with numerical estimate)
 1. Disable gradient checking
 1. Use an optimization method to minimize the cost function with it's corresponding parameters
+
+## Debugging a learning algorithm
+
+Sometimes the learned algorithm produces large errors. The following strategies help you debugging.
+
+### Evaluate the hypothesis
+
+The first steps you can always take is to get more test data, increase or decrease features or your regularizing lambda.
+
+After that split the data into a training set (~70%) and a test set (~30%). This technique give you immediate feedback on how well your hypothesis is performing.
+
+### Model selection 
+
+>Just because a learning algorithm fits a training set well, that does not mean it is a good hypothesis. It could over fit and as a result your predictions on the test set would be poor. The error of your hypothesis as measured on the data set with which you trained the parameters will be lower than the error on any other data set.
+
+>Given many models with different polynomial degrees, we can use a systematic approach to identify the 'best' function. In order to choose the model of your hypothesis, you can test each degree of polynomial and look at the error result.
+
+Therefore the data can be split into 3 sets:
+1. Training Set
+1. Cross Validation Set
+1. Test Set
+
+This allows us to 1. calculate the optimal parameters,  2. apply it to different polynomial models and find the one with the smallest error and 3. estimate the general error of the best model.
+
+
+
 
 
 
