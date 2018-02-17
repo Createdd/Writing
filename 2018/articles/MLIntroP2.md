@@ -125,7 +125,12 @@ The bias vs. variance problem describes the issue of the hypothesis under-, or o
 
 For diagnostics, the errors of the sets can be compared. If the errors of the cross-validation and the test set are high the hypothesis is suffering from high bias. If the cross validation sets shows a much higher error than the training set the problem is most likely a variance problem.
 
-These problems can be addressed using different regularizing lambda parameters.
+These problems can be addressed using different regularizing lambda parameter.
+
+![costFReg](../assets/mlIntro/costFReg.png)
+
+Remember that, a lambda of the value 1 equals a completely biased hypothesis (underfitting), whereas a lambda of 0 is essentially high varianced one (overfitting).
+
 
 
 
