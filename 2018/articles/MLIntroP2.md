@@ -22,6 +22,7 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Debugging a learning algorithm](#debugging-a-learning-algorithm)
     - [Evaluate the hypothesis](#evaluate-the-hypothesis)
     - [Model selection](#model-selection)
+    - [Bias and Variance](#bias-and-variance)
 
 <!-- /TOC -->
 
@@ -118,8 +119,13 @@ Therefore the data can be split into 3 sets:
 
 This allows us to 1. calculate the optimal parameters,  2. apply it to different polynomial models and find the one with the smallest error and 3. estimate the general error of the best model.
 
+### Bias and Variance
 
+The bias vs. variance problem describes the issue of the hypothesis under-, or overfitting a data set. Whereas a high bias underfits the data, a high variance overfits it.
 
+For diagnostics, the errors of the sets can be compared. If the errors of the cross-validation and the test set are high the hypothesis is suffering from high bias. If the cross validation sets shows a much higher error than the training set the problem is most likely a variance problem.
+
+These problems can be addressed using different regularizing lambda parameters.
 
 
 
