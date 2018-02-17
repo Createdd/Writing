@@ -70,6 +70,11 @@ Since some, more advanced, algorithms need vectorized versions for computation. 
 
 ### Gradient checking
 
+To ensure that your backpropagation works as intended you should check your gradient. This is done calculating an approximation in respect to theta with the following formula:
+
+![approxDer](../assets/mlIntro/approxDer.png)
+
+If the result is similar to the gradient vector the implementation works correct.
 
 
 
