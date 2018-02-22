@@ -1,10 +1,10 @@
 # Compliment Programming to any topic you like
 
-[<img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=288fb1a782c2813ea03f2e1e1085f853&auto=format&fit=crop&w=2251&q=80">](
-https://unsplash.com/photos/_NMJqIhNpno)
-Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/_NMJqIhNpno
+[<img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02261b49dc587eaecb3dfae7ccfbbcaa&auto=format&fit=crop&w=2250&q=80">](
+https://unsplash.com/photos/5E5N49RWtbA)
+Photo by Cody Davis on Unsplash - https://unsplash.com/photos/5E5N49RWtbA
 
-The more detailled guide from [Tensorflow's website](https://www.tensorflow.org/install/install_mac) broken down. Enjoy!  
+Since I started programming on my own while studying law and having work in tax, I though it is important so see coding not only as a path to already established programming jobs and roles, but rather create your own niche with it. Here are some thought 
 
 
 ## Table of Contents
