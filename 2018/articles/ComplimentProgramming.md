@@ -4,12 +4,25 @@
 https://unsplash.com/photos/5E5N49RWtbA)
 Photo by Cody Davis on Unsplash - https://unsplash.com/photos/5E5N49RWtbA
 
-Since I started programming on my own while studying law and having work in tax, I though it is important so see coding not only as a path to already established programming jobs and roles, but rather create your own niche with it. Here are some thought 
+Since I started programming on my own while studying law and having work in tax, I though it is important so see coding not only as a path to already established programming jobs, but rather create your own role with it. Here are some thoughts on how to compliment programming with other fields of expertise.
 
 
 ## Table of Contents
 
-## 
+<!-- TOC -->
+
+- [Compliment Programming to any topic you like](#compliment-programming-to-any-topic-you-like)
+  - [Table of Contents](#table-of-contents)
+  - [Definitions](#definitions)
+
+<!-- /TOC -->
+
+## Definitions
+
+First of all it's important to define the term programming as I am going to use it. I not only refer to it as the mere act of writing code and creating an application but rather to use newest technology (that often involves programming) to improve the status quo. It is basically the idea of digitalization in a more concise view.
+
+
+
 
 
 ---
