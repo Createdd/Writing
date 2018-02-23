@@ -14,7 +14,8 @@ Since I started programming on my own while studying law and having work in tax,
 - [Compliment Programming to any topic you like](#compliment-programming-to-any-topic-you-like)
   - [Table of Contents](#table-of-contents)
   - [Definitions](#definitions)
-  - [Automated execution and faster work](#automated-execution-and-faster-work)
+  - [Why are we using programming?](#why-are-we-using-programming)
+  - [What are some basic principles for law?](#what-are-some-basic-principles-for-law)
   - [Legal Tech available](#legal-tech-available)
 
 <!-- /TOC -->
@@ -23,8 +24,7 @@ Since I started programming on my own while studying law and having work in tax,
 
 First of all it's important to define the term programming as I am going to use it. I not only refer to it as the mere act of writing code and creating an application but rather to use newest technology (that often involves programming) to improve the status quo. It is basically the idea of digitalization in a more concise way.
 
-## Automated execution and faster work 
-
+## Why are we using programming?
 
 Loops, conditionals, variables and functions are all concepts that help to abstract a problem and solve it in the language of a computer. 
 
@@ -35,6 +35,21 @@ So why not use it for other things than browsing the internet or playing compute
 As a young programmer you tend to only look at things that are already available and try to work with them. But better try to use creativity and create something new. 
 
 For example: Law.
+
+## What are some basic principles for law?
+
+As Elon Musk said that he would always reason from first principles rather than analogy. So what are some first principles of law?
+
+This heavily depends on the type of law you are having in your state. For simplicity let's assume this an established and working democracy. This means that the law is made by the people living in that state. Let's also assume that people and all process around the law are bound to the law itself. 
+
+Now a first distinction has to be made what type of law are we dealing with. This is important, because the purpose and arrangement of the law depends on it's goals.
+
+To illustrate this, let's have civil law and public law. Both shall regulate the behavior of people of course. Both shall provide guidelines on how to behave correctly with other people. However, the main difference is that civil law is concerned with regulating behavior of people acting with other people, whereas public law addresses the rights of an individual against the state (which is ultimately the biggest group of people). 
+
+
+
+
+
 
 ## Legal Tech available
 
@@ -50,6 +65,8 @@ Having a look at the international market of technical solutions, there already 
 - Intellectual Property (TrademarkNow)
 - Improved Customer Management/eBilling (Smokeball)
 - Expertise Automation/Robot Lawyer (Lisa)
+
+After having a look at some of these implementations it is much easier to see possibilities for your own ideas and create your own. 
 
 
 
