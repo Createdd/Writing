@@ -44,7 +44,9 @@ This heavily depends on the type of law you are having in your state. For simpli
 
 Now a first distinction has to be made what type of law are we dealing with. This is important, because the purpose and arrangement of the law depends on it's goals.
 
-To illustrate this, let's have civil law and public law. Both shall regulate the behavior of people of course. Both shall provide guidelines on how to behave correctly with other people. However, the main difference is that civil law is concerned with regulating behavior of people acting with other people, whereas public law addresses the rights of an individual against the state (which is ultimately the biggest group of people). 
+To illustrate this, let's have civil law and public law. Both shall regulate the behavior of people of course. Both shall provide guidelines on how to behave correctly with other people. However, the main difference is that civil law is concerned with regulating behavior of people acting with other people, whereas public law addresses the rights of an individual against the state (which is ultimately the biggest group of people). Therefore the legislative text has to take the disbalance of power in account. In civil law it can be fair to treat similar people similarly. In contrast, in public law, the individual gains much more rights in a case against the state to compensate the disbalance in power. 
+
+Going through various fields of law, it is easy to find appliable solutions for
 
 
 
