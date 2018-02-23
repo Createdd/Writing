@@ -19,7 +19,9 @@ Since I started programming on my own while studying law and having work in tax,
 
 ## Definitions
 
-First of all it's important to define the term programming as I am going to use it. I not only refer to it as the mere act of writing code and creating an application but rather to use newest technology (that often involves programming) to improve the status quo. It is basically the idea of digitalization in a more concise view.
+First of all it's important to define the term programming as I am going to use it. I not only refer to it as the mere act of writing code and creating an application but rather to use newest technology (that often involves programming) to improve the status quo. It is basically the idea of digitalization in a more concise way.
+
+
 
 
 
