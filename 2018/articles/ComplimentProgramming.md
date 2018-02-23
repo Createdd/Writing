@@ -14,6 +14,8 @@ Since I started programming on my own while studying law and having work in tax,
 - [Compliment Programming to any topic you like](#compliment-programming-to-any-topic-you-like)
   - [Table of Contents](#table-of-contents)
   - [Definitions](#definitions)
+  - [Automated execution and faster work](#automated-execution-and-faster-work)
+  - [Legal Tech available](#legal-tech-available)
 
 <!-- /TOC -->
 
@@ -21,6 +23,33 @@ Since I started programming on my own while studying law and having work in tax,
 
 First of all it's important to define the term programming as I am going to use it. I not only refer to it as the mere act of writing code and creating an application but rather to use newest technology (that often involves programming) to improve the status quo. It is basically the idea of digitalization in a more concise way.
 
+## Automated execution and faster work 
+
+
+Loops, conditionals, variables and functions are all concepts that help to abstract a problem and solve it in the language of a computer. 
+
+Why are we using a computer? Because it is faster. Way faster. Or better, it is as fast as you like. ;) It runs also as long as you like and never gets tired. 
+
+So why not use it for other things than browsing the internet or playing computer games?
+
+As a young programmer you tend to only look at things that are already available and try to work with them. But better try to use creativity and create something new. 
+
+For example: Law.
+
+## Legal Tech available
+
+First you look at your available market. In my case these are Austrian law firms or international companies that have a subsidiary in Austria. I realized that, apart from document management, no new technology is used often. 
+
+Having a look at the international market of technical solutions, there already exists software for:
+- Contract Review ({LawGeex})
+- Legal Analytics (Brightflag)
+- Prediction Software (Lexpredict)
+- Improved Search/eDiscovery (Brainspace)
+- Legal Research (Ross)
+- Contract Due Diligence (kira)
+- Intellectual Property (TrademarkNow)
+- Improved Customer Management/eBilling (Smokeball)
+- Expertise Automation/Robot Lawyer (Lisa)
 
 
 
