@@ -13,10 +13,25 @@ In this article I revisit the learned material from the amazing [machine learnin
 - [Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning](#machine-learning-basics---part-3---vector-machines-unsupervised-learning)
   - [Table of Contents](#table-of-contents)
   - [Support Vector Machines](#support-vector-machines)
+    - [Mathematical Definition](#mathematical-definition)
+    - [Large Margin Classifier](#large-margin-classifier)
 
 <!-- /TOC -->
 
 ## Support Vector Machines
+
+### Mathematical Definition
+
+Instead of regularizing the second term with lambda like we did in the original cost function:
+
+![costFuncReg2](../assets/mlIntro/costFuncReg2.png)
+
+
+Now we want to regularize the first term with the parameter C:
+
+![costFuncSVM](../assets/mlIntro/costFuncSVM.png)
+
+### Large Margin Classifier
 
 
 
