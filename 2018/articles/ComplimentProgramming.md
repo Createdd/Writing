@@ -16,7 +16,7 @@ Since I started programming on my own while studying law and having work in tax,
   - [Definitions](#definitions)
   - [Why are we using programming?](#why-are-we-using-programming)
   - [What are some basic principles for law?](#what-are-some-basic-principles-for-law)
-  - [Combining principles](#combining-principles)
+  - [Combining principles - an example](#combining-principles---an-example)
   - [Legal Tech available](#legal-tech-available)
 
 <!-- /TOC -->
@@ -49,7 +49,9 @@ To illustrate this, let's have civil law and public law. Both shall regulate the
 
 A great example for a combination with programming is tax law. Not only does tax law offer a solution for natural language processing, but also for actually calculating a tax burden. 
 
-## Combining principles
+## Combining principles - an example
+
+Let's say we want to reduce the tax burden of an individual. How can this be done using knowledge in programming? 
 
 
 
