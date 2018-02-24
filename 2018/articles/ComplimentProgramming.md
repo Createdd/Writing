@@ -16,6 +16,7 @@ Since I started programming on my own while studying law and having work in tax,
   - [Definitions](#definitions)
   - [Why are we using programming?](#why-are-we-using-programming)
   - [What are some basic principles for law?](#what-are-some-basic-principles-for-law)
+  - [Combining principles](#combining-principles)
   - [Legal Tech available](#legal-tech-available)
 
 <!-- /TOC -->
@@ -46,8 +47,9 @@ Now a first distinction has to be made what type of law are we dealing with. Thi
 
 To illustrate this, let's have civil law and public law. Both shall regulate the behavior of people of course. Both shall provide guidelines on how to behave correctly with other people. However, the main difference is that civil law is concerned with regulating behavior of people acting with other people, whereas public law addresses the rights of an individual against the state (which is ultimately the biggest group of people). Therefore the legislative text has to take the disbalance of power in account. In civil law it can be fair to treat similar people similarly. In contrast, in public law, the individual gains much more rights in a case against the state to compensate the disbalance in power. 
 
-It can be hard to find a way to actually 
+A great example for a combination with programming is tax law. Not only does tax law offer a solution for natural language processing, but also for actually calculating a tax burden. 
 
+## Combining principles
 
 
 
