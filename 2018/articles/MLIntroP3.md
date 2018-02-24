@@ -1,8 +1,8 @@
 # Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning
 
-[<img src="https://images.unsplash.com/photo-1507090960745-b32f65d3113a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92a1714119e42bc9d947f75ec4733ed6&auto=format&fit=crop&w=2250&q=80">](
-https://unsplash.com/photos/PI8Hk-3ZcCU)
-Photo by Matteo Catanese on Unsplash - https://unsplash.com/photos/PI8Hk-3ZcCU
+[<img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bff1627fffb987bb0026180a324f56e8&auto=format&fit=crop&w=2250&q=80">](
+https://unsplash.com/photos/cYrMQA7a3Wc)
+Photo by Anders Jildén on Unsplash - https://unsplash.com/photos/cYrMQA7a3Wc
 
 In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. All quotes refer to the material from the course if not explicitly stated otherwise.
 
@@ -12,11 +12,13 @@ In this article I revisit the learned material from the amazing [machine learnin
 
 - [Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning](#machine-learning-basics---part-3---vector-machines-unsupervised-learning)
   - [Table of Contents](#table-of-contents)
-  - [Neural Networks Model Representation](#neural-networks-model-representation)
+  - [Support Vector Machines](#support-vector-machines)
 
 <!-- /TOC -->
 
-## Neural Networks Model Representation
+## Support Vector Machines
+
+
 
 
 
