@@ -27,7 +27,7 @@ Instead of regularizing the second term with lambda like we did in the original 
 ![costFuncReg2](../assets/mlIntro/costFuncReg2.png)
 
 
-Now we want to regularize the first term with the parameter C:
+Now we want to regularize the first term with the parameter C and adding a new cost function (cost1 and cost0) for transpose theta:
 
 ![costFuncSVM](../assets/mlIntro/costFuncSVM.png)
 
