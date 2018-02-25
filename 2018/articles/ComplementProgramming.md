@@ -1,4 +1,4 @@
-# Compliment Programming to any topic you like
+# Complement Programming to any topic you like
 
 [<img src="https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02261b49dc587eaecb3dfae7ccfbbcaa&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/5E5N49RWtbA)
@@ -11,7 +11,7 @@ Since I started programming on my own while studying law and having work in tax,
 
 <!-- TOC -->
 
-- [Compliment Programming to any topic you like](#compliment-programming-to-any-topic-you-like)
+- [Complement Programming to any topic you like](#complement-programming-to-any-topic-you-like)
   - [Table of Contents](#table-of-contents)
   - [Definitions](#definitions)
   - [Why are we using programming?](#why-are-we-using-programming)
