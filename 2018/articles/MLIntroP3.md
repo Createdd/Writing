@@ -31,9 +31,15 @@ Now we want to regularize the first term with the parameter C and adding a new c
 
 ![costFuncSVM](../assets/mlIntro/costFuncSVM.png)
 
+
+Plotting the cost1 and cost0 function looks something like this:
+
+![graphSVM](../assets/mlIntro/graphSVM.png)
+
+Hence, if we want a result y = 1 theta transpose X must be greater than 1 and if y = 0 theta transpose X must be smaller than -1.
+
+
 ### Large Margin Classifier
-
-
 
 
 
