@@ -15,6 +15,7 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Support Vector Machines](#support-vector-machines)
     - [Mathematical Definition](#mathematical-definition)
     - [Large Margin Classifier](#large-margin-classifier)
+  - [Kernels](#kernels)
 
 <!-- /TOC -->
 
@@ -53,6 +54,12 @@ By MartinThoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?
 Basically the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
 
 Note that, in order to neglect outliners it helps to decrease the value of C (regularizing).
+
+## Kernels
+
+Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features, which depend on similarity of features and examples. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula.
+
+
 
 
 ---
