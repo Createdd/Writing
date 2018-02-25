@@ -50,6 +50,7 @@ In case of linearly separable data, the SVM algorithm chooses the line that sepa
 Using calculus the length of a parameter can easily be retrieved from the initial formula.
 
 ![innerProduct](../assets/mlIntro/innerProduct.png)
+
 By MartinThoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=20159892
 
 Basically the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
