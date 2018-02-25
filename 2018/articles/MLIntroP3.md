@@ -38,9 +38,21 @@ Plotting the cost1 and cost0 function looks something like this:
 
 Hence, if we want a result y = 1 theta transpose X must be greater than 1 and if y = 0 theta transpose X must be smaller than -1.
 
+In essence we just simplified the cost function to use geometry for the further steps.
+
 
 ### Large Margin Classifier
 
+In case of linearly separable data, the SVM algorithm chooses the line that separates the classes with the largest margin.
+
+Using calculus the length of a parameter can easily be retrieved from the initial formula.
+
+![innerProduct](../assets/mlIntro/innerProduct.png)
+By MartinThoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=20159892
+
+Basically the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
+
+Note that, in order to neglect outliners it helps to decrease the value of C (regularizing).
 
 
 ---
