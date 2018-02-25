@@ -57,7 +57,13 @@ Note that, in order to neglect outliners it helps to decrease the value of C (re
 
 ## Kernels
 
-Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features, which depend on similarity of features and examples. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula.
+Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features, which depend on similarity of features and examples. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula. If the similarity is 1, the training example is close to the picked landmark. 
+
+![Kernel](../assets/mlIntro/Kernel.png)
+
+The choose for the value of the parameter sigma determines the boundary for similarity.
+
+Introducing the landmark-similarity system allows to classify data that is not linear.
 
 
 
