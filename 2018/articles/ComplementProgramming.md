@@ -4,7 +4,8 @@
 https://unsplash.com/photos/5E5N49RWtbA)
 Photo by Cody Davis on Unsplash - https://unsplash.com/photos/5E5N49RWtbA
 
-Since I started programming on my own while studying law and having work in tax, I though it is important so see coding not only as a path to already established programming jobs, but rather create your own role with it. Here are some thoughts on how to compliment programming with other fields of expertise.
+Since I started programming on my own while studying law and having work in tax, I though it is important so see coding not only as a path to already established programming jobs, but rather create your own role with it. Here are some thoughts on how to compliment programming with other fields of expertise. 
+(This article was created as brainstorming for a talk I gave)
 
 
 ## Table of Contents
