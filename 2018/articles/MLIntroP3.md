@@ -15,7 +15,8 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Support Vector Machines](#support-vector-machines)
     - [Mathematical Definition](#mathematical-definition)
     - [Large Margin Classifier](#large-margin-classifier)
-  - [Kernels](#kernels)
+    - [Kernels](#kernels)
+      - [How to choose the landmarks](#how-to-choose-the-landmarks)
 
 <!-- /TOC -->
 
@@ -55,7 +56,7 @@ Basically the projection of vector X is multiplied by the length of parameter th
 
 Note that, in order to neglect outliners it helps to decrease the value of C (regularizing).
 
-## Kernels
+### Kernels
 
 Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features, which depend on similarity of features and examples. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula. If the similarity is 1, the training example is close to the picked landmark. 
 
@@ -65,7 +66,7 @@ The choose for the value of the parameter sigma determines the boundary for simi
 
 Introducing the landmark-similarity system allows to classify data that is not linear.
 
-
+#### How to choose the landmarks
 
 
 ---
