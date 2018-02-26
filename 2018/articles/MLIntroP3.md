@@ -17,7 +17,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Large Margin Classifier](#large-margin-classifier)
     - [Kernels](#kernels)
       - [How to choose the landmarks](#how-to-choose-the-landmarks)
-      - [SVM Parameters](#svm-parameters)
+    - [SVM Parameters](#svm-parameters)
+    - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
 
 <!-- /TOC -->
 
@@ -78,11 +79,23 @@ Keep in mind that for the regularizing part, instead of n (number of features) m
 
 Also note, that you can implement the concept of Kernels on logistic regression as well but the mathematical benefits of SVM cannot be utilized properly and the implementation will likely be slower. 
 
-#### SVM Parameters
+Another term for kernel is "similarity-function".
+
+### SVM Parameters
 
 To address over- and underfitting, the parameters lambade (in C) and sigma can be used.
 
 Increasing C (essentially minimizing lambda) or decreasing sigma squared improves underfitting (high C leads to higher variance).
+
+### Tips for practice and how to choose the right system
+
+- use SVM packages instead of trying to write your own SVM calculation 
+- the most common kernel functions are the linear kernel (using no kernel) or the Gaussian Kernel
+- there are other kernels as well but be aware if it is able to satisfy the "Mercer's Theorem"
+- if n is much larger than m, use logistic regression or SVM with a linear kernel
+- if n is in a adequate range of m, use a Gaussian Kernel
+- if n is smaller than m, use logistic regression or SVM with a linear kernel or add more features
+- neural networks works well for all of those settings but might be slower to train
 
 
 
