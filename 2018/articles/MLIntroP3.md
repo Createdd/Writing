@@ -69,6 +69,13 @@ Introducing the landmark-similarity system allows to classify data that is not l
 
 #### How to choose the landmarks
 
+To compute the landmarks we adapt the cost function to the following:
+
+![costFuncSVMKern](../assets/mlIntro/costFuncSVMKern.png)
+
+Keep in mind that for the regularizing part, instead of n (number of features) m (training examples) should be used. This makes sense, since we want to calculate the landmarks which are related to the examples.
+
+
 
 ---
  
