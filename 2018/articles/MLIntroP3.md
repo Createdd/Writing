@@ -17,6 +17,7 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Large Margin Classifier](#large-margin-classifier)
     - [Kernels](#kernels)
       - [How to choose the landmarks](#how-to-choose-the-landmarks)
+      - [SVM Parameters](#svm-parameters)
 
 <!-- /TOC -->
 
@@ -74,6 +75,16 @@ To compute the landmarks we adapt the cost function to the following:
 ![costFuncSVMKern](../assets/mlIntro/costFuncSVMKern.png)
 
 Keep in mind that for the regularizing part, instead of n (number of features) m (training examples) should be used. This makes sense, since we want to calculate the landmarks which are related to the examples.
+
+Also note, that you can implement the concept of Kernels on logistic regression as well but the mathematical benefits of SVM cannot be utilized properly and the implementation will likely be slower. 
+
+#### SVM Parameters
+
+To address over- and underfitting, the parameters lambade (in C) and sigma can be used.
+
+Increasing C (essentially minimizing lambda) or decreasing sigma squared improves underfitting (high C leads to higher variance).
+
+
 
 
 
