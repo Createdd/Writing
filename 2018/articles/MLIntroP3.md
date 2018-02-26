@@ -19,6 +19,7 @@ In this article I revisit the learned material from the amazing [machine learnin
       - [How to choose the landmarks](#how-to-choose-the-landmarks)
     - [SVM Parameters](#svm-parameters)
     - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
+  - [Clustering](#clustering)
 
 <!-- /TOC -->
 
@@ -91,11 +92,14 @@ Increasing C (essentially minimizing lambda) or decreasing sigma squared improve
 
 - use SVM packages instead of trying to write your own SVM calculation 
 - the most common kernel functions are the linear kernel (using no kernel) or the Gaussian Kernel
-- there are other kernels as well but be aware if it is able to satisfy the "Mercer's Theorem"
+- there are other kernels as well, but be check if it is able to satisfy the "Mercer's Theorem"
 - if n is much larger than m, use logistic regression or SVM with a linear kernel
 - if n is in a adequate range of m, use a Gaussian Kernel
 - if n is smaller than m, use logistic regression or SVM with a linear kernel or add more features
 - neural networks works well for all of those settings but might be slower to train
+
+## Clustering
+
 
 
 
