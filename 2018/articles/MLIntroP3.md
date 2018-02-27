@@ -20,6 +20,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [SVM Parameters](#svm-parameters)
     - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
   - [Clustering](#clustering)
+    - [K-means algorithm](#k-means-algorithm)
+    - [Optimization Objective](#optimization-objective)
 
 <!-- /TOC -->
 
@@ -54,7 +56,7 @@ Using calculus the length of a parameter can easily be retrieved from the initia
 
 ![innerProduct](../assets/mlIntro/innerProduct.png)
 
-By MartinThoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=20159892
+By Martin Thoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=20159892
 
 Basically the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
 
@@ -84,7 +86,7 @@ Another term for kernel is "similarity-function".
 
 ### SVM Parameters
 
-To address over- and underfitting, the parameters lambade (in C) and sigma can be used.
+To address over- and underfitting, the parameters lambda (in C) and sigma can be used.
 
 Increasing C (essentially minimizing lambda) or decreasing sigma squared improves underfitting (high C leads to higher variance).
 
@@ -99,6 +101,16 @@ Increasing C (essentially minimizing lambda) or decreasing sigma squared improve
 - neural networks works well for all of those settings but might be slower to train
 
 ## Clustering
+
+### K-means algorithm
+
+To put this algorithm in simple terms:
+- initialize randomly the "centroids" (marks in the middle of the data)
+- assign the data the each centroid, which is the closest to the data point
+- move the centroid to the center (mean) of the data points
+- repeat the 2 previous steps until there is no change in the clusters
+
+### Optimization Objective
 
 
 
