@@ -21,7 +21,7 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
   - [Clustering](#clustering)
     - [K-means algorithm](#k-means-algorithm)
-    - [Optimization Objective](#optimization-objective)
+      - [Optimization Objective](#optimization-objective)
 
 <!-- /TOC -->
 
@@ -110,9 +110,10 @@ To put this algorithm in simple terms:
 - move the centroid to the center (mean) of the data points
 - repeat the 2 previous steps until there is no change in the clusters
 
-### Optimization Objective
+#### Optimization Objective
 
-
+The cost function, which tries to minimize the mean of the squared distance between an example point and the location of the corresponding cluster centroid, looks like the following: 
+![optimizationObjKmeans](../assets/mlIntro/optimizationObjKmeans.png)
 
 
 
