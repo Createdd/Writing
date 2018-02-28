@@ -142,6 +142,21 @@ To implement a PCA algorithm, you normally
 
 To decompress the data and harness the real power of this concept, it is possible to reconstruct the (approximated) original by simply multiplying the U matrix with the z vector again.
 
+To actually choose the variable k (number of principal components) the following formula can be used:
+
+![kInPCA](../assets/mlIntro/kInPCA.png)
+
+The idea is to divide the average squared projection error (which we try to minimize) by the total variation in the data.
+
+The practical implementation would be to try the PCA algorithm with k = 1 and test if the condition for the retained variance is fulfilled, and if not the procedere with an increased k should be continued. Or to take the S matrix, which resulted from using the singular value decomposition on sigma and testing it like the following:
+
+![kInPCAwithS](../assets/mlIntro/kInPCAwithS.png)
+
+(Is essentially the equivalent to the previous formula)
+
+
+
+
 
 ---
  
