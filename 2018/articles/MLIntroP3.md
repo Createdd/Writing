@@ -166,7 +166,12 @@ To actually speed up a supervised learning case, you should
 
 Note that, PCA should only be applied to the training set and not the cross validation or testing set. Afterwards the result mapping from x to z can be applied to the cross validation and testing set as well. 
 
-Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem 
+Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem, the concept of PCA throws away some amount of information without knowing the values of y. This can lead in rare cases to bad results. It is better to use regularization instead.
+
+Lastly, always try to train your algorithm with original data. PCA should only be applied the normal machine learning architecture is not sufficient!
+
+
+
 
 
 
