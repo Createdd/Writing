@@ -116,7 +116,12 @@ The cost function, which tries to minimize the mean of the squared distance betw
 
 ![optimizationObjKmeans](../assets/mlIntro/optimizationObjKmeans.png)
 
+In order to avoid local optima, the following steps should be implemented multiple times:
+1. Randomly initialize K-means
+1. Run the K-means algorithm to get the index of a cluster and the cluster centroids
+1. Compute the cost function
 
+To choose the number of clusters k the "elbow method" can be used, which plots the cost function to the number of clusters and uses the number where the curve shows an "elbow". However, since this method can be difficult to use on certain graphs, another way would be to simply select the number according to a later/downstream purpose (like desired product sizes - small, medium, large).
 
 
 
