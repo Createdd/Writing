@@ -23,6 +23,8 @@ In this article I revisit the learned material from the amazing [machine learnin
     - [K-means algorithm](#k-means-algorithm)
       - [Optimization Objective](#optimization-objective)
   - [Dimensionality Reduction and Principal Component Analysis (PCA)](#dimensionality-reduction-and-principal-component-analysis-pca)
+    - [PCA](#pca)
+      - [Practical Tips](#practical-tips)
 
 <!-- /TOC -->
 
@@ -126,9 +128,9 @@ To choose the number of clusters k the "elbow method" can be used, which plots t
 
 ## Dimensionality Reduction and Principal Component Analysis (PCA)
 
-Reducing data from multiple dimensions to 2 or 3 dimensions through data compression allows to plot data and give valuable additional insight.  
+Reducing data from multiple dimensions to 2 or 3 dimensions through data compression allows to plot data and give valuable additional insight. Simply reducing data can speed up the running time of a learning algorithm and reduces the space needed for storage.
 
-
+### PCA
 
 The most common algorithm is principal component analysis. The idea behind it is to reduce a dimension by finding a direction (vector) onto which to project the data to minimize the projection error. When plotted, the algorithm might look similar to the linear regression model. However, it is important to note that in linear regression the variable y is predicted by the variable x, whereas in PCA the different variables x are treated equally.
 
@@ -153,6 +155,19 @@ The practical implementation would be to try the PCA algorithm with k = 1 and te
 ![kInPCAwithS](../assets/mlIntro/kInPCAwithS.png)
 
 (Is essentially the equivalent to the previous formula)
+
+#### Practical Tips
+
+To actually speed up a supervised learning case, you should
+1. extract only the inputs (to have an unlabeled training set)
+2. perform the PCA algorithm
+3. create a new training set by substituting your previous x with the new input z
+4. train your algorithm with the new data set
+
+Note that, PCA should only be applied to the training set and not the cross validation or testing set. Afterwards the result mapping from x to z can be applied to the cross validation and testing set as well. 
+
+Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem 
+
 
 
 
