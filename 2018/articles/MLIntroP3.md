@@ -22,6 +22,7 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Clustering](#clustering)
     - [K-means algorithm](#k-means-algorithm)
       - [Optimization Objective](#optimization-objective)
+  - [Dimensionality Reduction and Principal Component Analysis](#dimensionality-reduction-and-principal-component-analysis)
 
 <!-- /TOC -->
 
@@ -122,6 +123,11 @@ In order to avoid local optima, the following steps should be implemented multip
 1. Compute the cost function
 
 To choose the number of clusters k the "elbow method" can be used, which plots the cost function to the number of clusters and uses the number where the curve shows an "elbow". However, since this method can be difficult to use on certain graphs, another way would be to simply select the number according to a later/downstream purpose (like desired product sizes - small, medium, large).
+
+## Dimensionality Reduction and Principal Component Analysis
+
+Reducing data from multiple dimensions to 2 or 3 dimensions through data compression allows to plot data and give valuable additional insight.  
+
 
 
 
