@@ -113,7 +113,10 @@ To put this algorithm in simple terms:
 #### Optimization Objective
 
 The cost function, which tries to minimize the mean of the squared distance between an example point and the location of the corresponding cluster centroid, looks like the following: 
+
 ![optimizationObjKmeans](../assets/mlIntro/optimizationObjKmeans.png)
+
+
 
 
 
