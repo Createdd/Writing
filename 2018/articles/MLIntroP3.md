@@ -22,7 +22,7 @@ In this article I revisit the learned material from the amazing [machine learnin
   - [Clustering](#clustering)
     - [K-means algorithm](#k-means-algorithm)
       - [Optimization Objective](#optimization-objective)
-  - [Dimensionality Reduction and Principal Component Analysis](#dimensionality-reduction-and-principal-component-analysis)
+  - [Dimensionality Reduction and Principal Component Analysis (PCA)](#dimensionality-reduction-and-principal-component-analysis-pca)
 
 <!-- /TOC -->
 
@@ -124,12 +124,23 @@ In order to avoid local optima, the following steps should be implemented multip
 
 To choose the number of clusters k the "elbow method" can be used, which plots the cost function to the number of clusters and uses the number where the curve shows an "elbow". However, since this method can be difficult to use on certain graphs, another way would be to simply select the number according to a later/downstream purpose (like desired product sizes - small, medium, large).
 
-## Dimensionality Reduction and Principal Component Analysis
+## Dimensionality Reduction and Principal Component Analysis (PCA)
 
 Reducing data from multiple dimensions to 2 or 3 dimensions through data compression allows to plot data and give valuable additional insight.  
 
 
 
+The most common algorithm is principal component analysis. The idea behind it is to reduce a dimension by finding a direction (vector) onto which to project the data to minimize the projection error. When plotted, the algorithm might look similar to the linear regression model. However, it is important to note that in linear regression the variable y is predicted by the variable x, whereas in PCA the different variables x are treated equally.
+
+To implement a PCA algorithm, you normally
+1. perform mean normalization and feature scaling
+1. calculate a covariance matrix (sigma) with the following formula
+1. use singular value decomposition (svd) on sigma
+1. multiply the transpose of the first k columns of the resulting U matrix with the feature vector x that shall be reduced and return the resulting z feature vector
+
+![PCASigma](../assets/mlIntro/PCASigma.png)
+
+To decompress the data and harness the real power of this concept, it is possible to reconstruct the (approximated) original by simply multiplying the U matrix with the z vector again.
 
 
 ---
