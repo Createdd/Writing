@@ -15,6 +15,8 @@ All quotes refer to the material from the course if not explicitly stated otherw
   - [Table of Contents](#table-of-contents)
   - [Anomaly detection](#anomaly-detection)
     - [Develop a Anomaly Detection system](#develop-a-anomaly-detection-system)
+    - [Practical Tips and difference to a supervised learning system](#practical-tips-and-difference-to-a-supervised-learning-system)
+    - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
 
 <!-- /TOC -->
 
@@ -49,6 +51,38 @@ The steps to build the system would be:
 1. Predict the y on the resulting probabilities of your cross-validation and testing sets
 1. Evaluate the result using a contingency table (true positives, false positives, ...), precision/recall methods or the F1-score
 1. change values of Epsilon (if necessary)
+
+### Practical Tips and difference to a supervised learning system
+
+An anomaly detection system should be used if
+- a large number of negative examples but a small number of positives examples are available
+- the anomalies themselves cannot be classified and may vary in future examples
+- eg. fraud detection, monitoring machines, etc.
+
+If a classification can easily be done, ie having large numbers of positive and negative examples and future examples will be similar, it is advisable to use a supervised learning algorithm. (eg SPAM, cancer classification)
+
+To analyse errors it makes sense to plot the features and see if they behave Gaussian. If not, constants (like log(x)) can be added, to try to make it look as Gaussian as possible. 
+
+The basic assumption for using anomaly detection system is to have few anomalous examples and many normal ones. If this is not met, the misclassified example should be inspected for behavior that allows to come up with a new feature.
+
+### Multivariat Gaussian distribution
+
+In certain cases the normal Gaussian distribution is not enough the accurately flag anomalies. 
+A multivariat Gaussian distribution calculates the probability model of x at once, instead of model the probabilities for each feature alone. It uses a covariance matrix instead of Sigma squared.
+
+The formula looks like:
+
+![multiGaus](../assets/mlIntro/multiGaus.png)
+
+Whereas: 
+
+![multiGausParams](../assets/mlIntro/multiGausParams.png)
+
+The multivariate Gaussian model is worth to be considered when the number of examples is much larger than the number of features. It captures correlations between features but is computational expensive. When it is obvious what feature combinations can capture the anomalies, it is advisable to  first implement those with the original Gaussian model.
+
+
+
+
 
 
 
