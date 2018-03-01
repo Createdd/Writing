@@ -97,11 +97,11 @@ Increasing C (essentially minimizing lambda) or decreasing sigma squared improve
 
 - use SVM packages instead of trying to write your own SVM calculation 
 - the most common kernel functions are the linear kernel (using no kernel) or the Gaussian Kernel
-- there are other kernels as well, but be check if it is able to satisfy the "Mercer's Theorem"
+- there are other kernels as well, but be check if they are able to satisfy the "Mercer's Theorem"
 - if n is much larger than m, use logistic regression or SVM with a linear kernel
 - if n is in a adequate range of m, use a Gaussian Kernel
 - if n is smaller than m, use logistic regression or SVM with a linear kernel or add more features
-- neural networks works well for all of those settings but might be slower to train
+- neural networks work well for all of those settings but might be slower to train
 
 ## Clustering and unsupervised Learning
 
@@ -113,7 +113,7 @@ The goal of the algorithm is to find structure (clusters) within the data set.
 
 To put this algorithm in simple terms:
 - initialize randomly the "centroids" (marks in the middle of the data)
-- assign the data the each centroid, which is the closest to the data point
+- assign the data points the each centroid, which are the closest to the data point
 - move the centroid to the center (mean) of the data points
 - repeat the 2 previous steps until there is no change in the clusters
 
@@ -148,7 +148,7 @@ To implement a PCA algorithm, you normally
 
 To decompress the data and harness the real power of this concept, it is possible to reconstruct the (approximated) original by simply multiplying the U matrix with the z vector again.
 
-To actually choose the variable k (number of principal components) the following formula can be used:
+To choose the variable k (number of principal components) the following formula can be used:
 
 ![kInPCA](../assets/mlIntro/kInPCA.png)
 
@@ -162,19 +162,17 @@ The practical implementation would be to try the PCA algorithm with k = 1 and te
 
 #### Practical Tips
 
-To actually speed up a supervised learning case, you should
-1. extract only the inputs (to have an unlabeled training set)
+To speed up a supervised learning case, you should
+1. extract only the inputs (to have an unlabeled training set if you are provided a labeled one)
 2. perform the PCA algorithm
 3. create a new training set by substituting your previous x with the new input z
 4. train your algorithm with the new data set
 
-Note that, PCA should only be applied to the training set and not the cross validation or testing set. Afterwards the result mapping from x to z can be applied to the cross validation and testing set as well. 
+Note that, PCA should only be applied to the training set and not the cross validation or testing set. Afterwards the resulted mapping from x to z can be applied to the cross validation and testing set as well. 
 
-Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem, the concept of PCA throws away some amount of information without knowing the values of y. This can lead in rare cases to bad results. It is better to use regularization instead.
+Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem, the concept of PCA throws away some amount of information without knowing the values of y. This can lead to bad results. It is better to use regularization instead.
 
-Lastly, always try to train your algorithm with original data. PCA should only be applied the normal machine learning architecture is not sufficient!
-
-
+Lastly, always try to train your algorithm with original data. PCA should only be applied if the normal machine learning architecture is not sufficient!
 
 
 ---
