@@ -18,6 +18,7 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Practical Tips and difference to a supervised learning system](#practical-tips-and-difference-to-a-supervised-learning-system)
     - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
   - [Recommender Systems](#recommender-systems)
+    - [Feature learning with collaborative filtering](#feature-learning-with-collaborative-filtering)
 
 <!-- /TOC -->
 
@@ -87,21 +88,27 @@ A recommendation system is one of the most common and most successful practical 
 
 Assuming you have a content-based recommender system. First, a problem has to be formulated. This can be something like predicting the rating of a certain product of a certain user. 
 
-The optimization algorithm can look like this:
+Given the ratings of a movie, to learn the parameter Theta for a certain user, the optimization algorithm can look like this:
 
 ![optAlgRecSys](../assets/mlIntro/optAlgRecSys.png)
 
-- the parameters theta denote a vector for a certain user
+- the parameters Theta denote a vector for a certain user
 - the feature x denotes a vector for a movie 
 - y denotes the rating by a certain user on a certain movie
 - n denotes the number of users
 
-This is the basic cost function of a squared error with regularization summed up for different users (theta j).
+This is the basic cost function of a squared error with regularization summed up for different users (Theta j).
 
-And using gradient descent (multiplying the learning rate alpha with the partial derivative with respect to your parameter of the optimization objective) to gradually minimize the result. Note that theta 0 for k = 0 should not be regularized (as described in linear regression). 
+And using gradient descent (multiplying the learning rate alpha with the partial derivative with respect to your parameter of the optimization objective) to gradually minimize the result. Note that Theta 0 for k = 0 should not be regularized (as explained in linear regression). 
+
+### Feature learning with collaborative filtering
+
+Given the parameters Theta of each user for a certain movie, the feature vector of a movie can be estimated with the optimization algorithm:
 
 
+One way to address the problem of what vector to calculate first (feature vector of a movie or the parameter vector fo a user), is to guess the parameter vector for a user and then use the estimation to define a better feature vector for a movie.
 
+This implementation is called collaborative filtering because with each rating of a user the algorithm is able to define better movie feature vectors and improves the output for all users.
 
 
 
