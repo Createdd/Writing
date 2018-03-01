@@ -4,7 +4,7 @@
 https://unsplash.com/photos/cYrMQA7a3Wc)
 Photo by Anders Jildén on Unsplash - https://unsplash.com/photos/cYrMQA7a3Wc
 
-In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. The article is not designed as a tutorial but rather to fresh up on the basic ideas.
+In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on Coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. The article is not designed as a tutorial but rather to fresh up on the basic ideas.
 
 All quotes refer to the material from the course if not explicitly stated otherwise.
 
