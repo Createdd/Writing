@@ -1,32 +1,30 @@
-# Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning
+# Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning and Principal Component Analysis
 
 [<img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bff1627fffb987bb0026180a324f56e8&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/cYrMQA7a3Wc)
 Photo by Anders Jildén on Unsplash - https://unsplash.com/photos/cYrMQA7a3Wc
 
-In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. All quotes refer to the material from the course if not explicitly stated otherwise.
+In this article I revisit the learned material from the amazing [machine learning course by Andre Ng on coursera](https://www.coursera.org/learn/machine-learning) and create an overview about the concepts. The article is not designed as a tutorial but rather to fresh up on the basic ideas.
+
+All quotes refer to the material from the course if not explicitly stated otherwise.
+
 
 ## Table of Contents
 
-<!-- TOC -->
+- [Support Vector Machines](#support-vector-machines)
+  - [Mathematical Definition](#mathematical-definition)
+  - [Large Margin Classifier](#large-margin-classifier)
+  - [Kernels](#kernels)
+    - [How to choose the landmarks](#how-to-choose-the-landmarks)
+  - [SVM Parameters](#svm-parameters)
+  - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
+- [Clustering and unsupervised Learning](#clustering-and-unsupervised-learning)
+  - [K-means algorithm](#k-means-algorithm)
+    - [Optimization Objective](#optimization-objective)
+- [Dimensionality Reduction and Principal Component Analysis (PCA)](#dimensionality-reduction-and-principal-component-analysis-pca)
+  - [PCA](#pca)
+    - [Practical Tips](#practical-tips)
 
-- [Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning](#machine-learning-basics---part-3---vector-machines-unsupervised-learning)
-  - [Table of Contents](#table-of-contents)
-  - [Support Vector Machines](#support-vector-machines)
-    - [Mathematical Definition](#mathematical-definition)
-    - [Large Margin Classifier](#large-margin-classifier)
-    - [Kernels](#kernels)
-      - [How to choose the landmarks](#how-to-choose-the-landmarks)
-    - [SVM Parameters](#svm-parameters)
-    - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
-  - [Clustering and unsupervised Learning](#clustering-and-unsupervised-learning)
-    - [K-means algorithm](#k-means-algorithm)
-      - [Optimization Objective](#optimization-objective)
-  - [Dimensionality Reduction and Principal Component Analysis (PCA)](#dimensionality-reduction-and-principal-component-analysis-pca)
-    - [PCA](#pca)
-      - [Practical Tips](#practical-tips)
-
-<!-- /TOC -->
 
 ## Support Vector Machines
 
@@ -168,7 +166,7 @@ To speed up a supervised learning case, you should
 3. create a new training set by substituting your previous x with the new input z
 4. train your algorithm with the new data set
 
-Note that, PCA should only be applied to the training set and not the cross validation or testing set. Afterwards the resulted mapping from x to z can be applied to the cross validation and testing set as well. 
+Note that, PCA should only be used on the training set and not the cross validation or testing set. Afterwards the resulted mapping from x to z can be applied to the cross validation and testing set as well. 
 
 Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem, the concept of PCA throws away some amount of information without knowing the values of y. This can lead to bad results. It is better to use regularization instead.
 
@@ -177,7 +175,7 @@ Lastly, always try to train your algorithm with original data. PCA should only b
 
 ---
  
-This wraps up the second part. In the next one, support vector machines and unsupervised learning will be described. Stay tuned!
+This wraps up the third part. In the next one, anomaly detection, recommender systems and scaling issues will be described. Stay tuned!
 
 ---
 
