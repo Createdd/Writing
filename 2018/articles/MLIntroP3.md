@@ -19,7 +19,7 @@ In this article I revisit the learned material from the amazing [machine learnin
       - [How to choose the landmarks](#how-to-choose-the-landmarks)
     - [SVM Parameters](#svm-parameters)
     - [Tips for practice and how to choose the right system](#tips-for-practice-and-how-to-choose-the-right-system)
-  - [Clustering](#clustering)
+  - [Clustering and unsupervised Learning](#clustering-and-unsupervised-learning)
     - [K-means algorithm](#k-means-algorithm)
       - [Optimization Objective](#optimization-objective)
   - [Dimensionality Reduction and Principal Component Analysis (PCA)](#dimensionality-reduction-and-principal-component-analysis-pca)
@@ -103,7 +103,11 @@ Increasing C (essentially minimizing lambda) or decreasing sigma squared improve
 - if n is smaller than m, use logistic regression or SVM with a linear kernel or add more features
 - neural networks works well for all of those settings but might be slower to train
 
-## Clustering
+## Clustering and unsupervised Learning
+
+In a supervised learning problem a set of labels is given to fit a hypothesis to it. In contrast, in the unsupervised learning problem we're given data that does not have any labels associated with it.
+
+The goal of the algorithm is to find structure (clusters) within the data set.
 
 ### K-means algorithm
 
@@ -169,11 +173,6 @@ Note that, PCA should only be applied to the training set and not the cross vali
 Be careful to NOT use PCA when your model has a problem of overfitting. Although reducing features helps in addressing the problem, the concept of PCA throws away some amount of information without knowing the values of y. This can lead in rare cases to bad results. It is better to use regularization instead.
 
 Lastly, always try to train your algorithm with original data. PCA should only be applied the normal machine learning architecture is not sufficient!
-
-
-
-
-
 
 
 
