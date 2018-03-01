@@ -21,9 +21,16 @@ All quotes refer to the material from the course if not explicitly stated otherw
 
 Anomaly detection tests a new example against the behavior of other examples in that range. This idea is often used in fraud detection, manufacturing or monitoring of machines. It is always useful if the goal is to detect certain outliners.
 
+Using a Gaussian distribution algorithm implies that the example x is distributed with a mean mu and variance sigma squared.
 
+The formula for mu and sigma squared are:
 
-![kInPCAwithS](../assets/mlIntro/kInPCAwithS.png)
+![muSigmaAD](../assets/mlIntro/muSigmaAD.png)
+
+The formula for calculating the probability is:
+
+![probAD](../assets/mlIntro/probAD.png)
+
 
 
 
