@@ -13,11 +13,15 @@ All quotes refer to the material from the course if not explicitly stated otherw
 
 - [Machine Learning Basics - Part 3 - Vector Machines, Unsupervised Learning and Principal Component Analysis](#machine-learning-basics---part-3---vector-machines-unsupervised-learning-and-principal-component-analysis)
   - [Table of Contents](#table-of-contents)
-  - [tes](#tes)
+  - [Anomaly detection](#anomaly-detection)
 
 <!-- /TOC -->
 
-## tes
+## Anomaly detection
+
+Anomaly detection tests a new example against the behavior of other examples in that range. This idea is often used in fraud detection, manufacturing or monitoring of machines. It is always useful if the goal is to detect certain outliners.
+
+
 
 ![kInPCAwithS](../assets/mlIntro/kInPCAwithS.png)
 
