@@ -21,9 +21,9 @@ All quotes refer to the material from the course if not explicitly stated otherw
 
 Anomaly detection tests a new example against the behavior of other examples in that range. This idea is often used in fraud detection, manufacturing or monitoring of machines. It is always useful if the goal is to detect certain outliners.
 
-Using a Gaussian distribution algorithm implies that the example x is distributed with a mean mu and variance sigma squared.
+Using a Gaussian distribution algorithm implies that the example x is distributed with a mean Mu and variance Sigma squared.
 
-The formula for mu and sigma squared are:
+The formula for Mu and Sigma squared are:
 
 ![muSigmaAD](../assets/mlIntro/muSigmaAD.png)
 
@@ -31,8 +31,11 @@ The formula for calculating the probability is:
 
 ![probAD](../assets/mlIntro/probAD.png)
 
-
-
+The steps to build the algorithm are
+1. Choose the features x that might be indicative of anomalous examples
+1. Calculate the parameters Mu and Sigma
+1. Compute the probability p of x
+1. Test against your set probability boundary Epsilon
 
 ---
  
