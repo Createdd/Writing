@@ -48,7 +48,7 @@ Plotting the cost1 and cost0 function looks something like this:
 
 Hence, if we want a result y = 1 theta transpose X must be greater than 1 and if y = 0 theta transpose X must be smaller than -1.
 
-In essence we just simplified the cost function to use geometry for the further steps.
+In essence, we just have simplified the cost function in order to use geometry for further steps.
 
 
 ### Large Margin Classifier
@@ -61,13 +61,13 @@ Using calculus the length of a parameter can easily be retrieved from the initia
 
 By Martin Thoma - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=20159892
 
-Basically the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
+Basically, the projection of vector X is multiplied by the length of parameter theta and optimized to be a maximum/minimum. This results in always returning a line that seems to separate 2 classes evenly.
 
-Note that, in order to neglect outliners it helps to decrease the value of C (regularizing).
+Note, that in order to neglect outliners it helps to decrease the value of C (regularizing).
 
 ### Kernels
 
-Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features, which depend on similarity of features and examples. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula. If the similarity is 1, the training example is close to the picked landmark. 
+Since polynomial features can be computational expensive, common practice introduces Kernels. For this, new features which depend on similarity of features and examples, are computed. It is like putting landmarks on the plot and calculating the similarity with the Gaussian Kernel formula. If the similarity is 1, the training example is close to the picked landmark. 
 
 ![Kernel](../assets/mlIntro/Kernel.png)
 
