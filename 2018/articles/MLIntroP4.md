@@ -17,6 +17,7 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Develop a Anomaly Detection system](#develop-a-anomaly-detection-system)
     - [Practical Tips and difference to a supervised learning system](#practical-tips-and-difference-to-a-supervised-learning-system)
     - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
+  - [Recommender Systems](#recommender-systems)
 
 <!-- /TOC -->
 
@@ -79,6 +80,25 @@ Whereas:
 ![multiGausParams](../assets/mlIntro/multiGausParams.png)
 
 The multivariate Gaussian model is worth to be considered when the number of examples is much larger than the number of features. It captures correlations between features but is computational expensive. When it is obvious what feature combinations can capture the anomalies, it is advisable to  first implement those with the original Gaussian model.
+
+## Recommender Systems
+
+A recommendation system is one of the most common and most successful practical examples for applying a machine learning algorithm in real life. 
+
+Assuming you have a content-based recommender system. First, a problem has to be formulated. This can be something like predicting the rating of a certain product of a certain user. 
+
+The optimization algorithm can look like this:
+
+![optAlgRecSys](../assets/mlIntro/optAlgRecSys.png)
+
+- the parameters theta denote a vector for a certain user
+- the feature x denotes a vector for a movie 
+- y denotes the rating by a certain user on a certain movie
+- n denotes the number of users
+
+This is the basic cost function of a squared error with regularization summed up for different users (theta j).
+
+And using gradient descent (multiplying the learning rate alpha with the partial derivative with respect to your parameter of the optimization objective) to gradually minimize the result. Note that theta 0 for k = 0 should not be regularized (as described in linear regression). 
 
 
 
