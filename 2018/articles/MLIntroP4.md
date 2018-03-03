@@ -22,6 +22,9 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Further usage](#further-usage)
   - [Scaling machine learning systems](#scaling-machine-learning-systems)
     - [Stochastic gradient descent](#stochastic-gradient-descent)
+    - [Mini-batch gradient descent](#mini-batch-gradient-descent)
+    - [Test for convergence](#test-for-convergence)
+    - [Online learning](#online-learning)
 
 <!-- /TOC -->
 
@@ -151,6 +154,21 @@ Instead of iterating through all trainings examples at once, you shuffle your da
 
 This allows to improve the parameters on every single example and therefore takes much less time than improving them on all examples at once. (On the cost that it might not converge at all - but ends up close enough for most practical use cases).
 
+### Mini-batch gradient descent
+
+As a middle way between going through all examples or just 1 example in each gradient descent iteration, mini-batch allows to set a certain number b of examples per iteration. The adapted loop could look like this:
+
+![miniBatchGradD](../assets/mlIntro/miniBatchGradD.png)
+
+### Test for convergence
+
+To test if either mini-batch or stochastic gradient descent are converging the cost function can be plotted and checked.
+
+Whereas for mini-batch gradient descent the cost function of the number of iterations can just be plotted, for stochastic gradient descent the cost function (on a certain example) has to be plotted on the average of multiple examples.
+
+If the algorithm fails to converge try to slowly decrease the learning rate Alpha.
+
+### Online learning
 
 
 
