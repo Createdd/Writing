@@ -9,29 +9,24 @@ In this article I revisit the learned material from the amazing [machine learnin
 All quotes refer to the material from the course if not explicitly stated otherwise.
 
 ## Table of Contents
-<!-- TOC -->
 
-- [Machine Learning Basics - Part 4 - Anomaly Detection, Recommender Systems and Scaling](#machine-learning-basics---part-4---anomaly-detection-recommender-systems-and-scaling)
-  - [Table of Contents](#table-of-contents)
-  - [Anomaly detection](#anomaly-detection)
-    - [Develop a Anomaly Detection system](#develop-a-anomaly-detection-system)
-    - [Practical Tips and difference to a supervised learning system](#practical-tips-and-difference-to-a-supervised-learning-system)
-    - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
-  - [Recommender Systems](#recommender-systems)
-    - [Feature learning with collaborative filtering](#feature-learning-with-collaborative-filtering)
-    - [Further usage](#further-usage)
-  - [Scaling machine learning systems](#scaling-machine-learning-systems)
-    - [Stochastic gradient descent](#stochastic-gradient-descent)
-    - [Mini-batch gradient descent](#mini-batch-gradient-descent)
-    - [Test for convergence](#test-for-convergence)
-    - [Online learning](#online-learning)
-    - [Map-reduce and data parallelism](#map-reduce-and-data-parallelism)
-  - [Tricks for use on applications](#tricks-for-use-on-applications)
-    - [Create a pipeline for your problem](#create-a-pipeline-for-your-problem)
-    - [Getting more data](#getting-more-data)
-    - [Ceiling analysis](#ceiling-analysis)
-
-<!-- /TOC -->
+- [Anomaly detection](#anomaly-detection)
+  - [Develop a Anomaly Detection system](#develop-a-anomaly-detection-system)
+  - [Practical Tips and difference to a supervised learning system](#practical-tips-and-difference-to-a-supervised-learning-system)
+  - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
+- [Recommender Systems](#recommender-systems)
+  - [Feature learning with collaborative filtering](#feature-learning-with-collaborative-filtering)
+  - [Further usage](#further-usage)
+- [Scaling machine learning systems](#scaling-machine-learning-systems)
+  - [Stochastic gradient descent](#stochastic-gradient-descent)
+  - [Mini-batch gradient descent](#mini-batch-gradient-descent)
+  - [Test for convergence](#test-for-convergence)
+  - [Online learning](#online-learning)
+  - [Map-reduce and data parallelism](#map-reduce-and-data-parallelism)
+- [Tricks for use on applications](#tricks-for-use-on-applications)
+  - [Create a pipeline for your problem](#create-a-pipeline-for-your-problem)
+  - [Getting more data](#getting-more-data)
+  - [Ceiling analysis](#ceiling-analysis)
 
 ## Anomaly detection
 
@@ -57,13 +52,13 @@ The steps to build the algorithm are
 
 When the algorithm is implemented it is important to introduce a real-number evaluation metric.
 
-As always it is advisable to split the data set into a training, cross-validation and testing set(60-20-20). 
+As always, it is advisable to split the data set into a training, cross-validation and testing set (60-20-20). 
 
 The steps to build the system would be:
 1. Fit the model p(x) on the training set
-1. Predict the y on the resulting probabilities of your cross-validation and testing sets
+1. Predict y on the resulting probabilities of your cross-validation and testing sets
 1. Evaluate the result using a contingency table (true positives, false positives, ...), precision/recall methods or the F1-score
-1. change values of Epsilon (if necessary)
+1. Change values of Epsilon (if necessary)
 
 ### Practical Tips and difference to a supervised learning system
 
@@ -81,7 +76,7 @@ The basic assumption for using anomaly detection system is to have few anomalous
 ### Multivariat Gaussian distribution
 
 In certain cases the normal Gaussian distribution is not enough the accurately flag anomalies. 
-A multivariat Gaussian distribution calculates the probability model of x at once, instead of model the probabilities for each feature alone. It uses a covariance matrix instead of Sigma squared.
+A multivariat Gaussian distribution calculates the probability model of x at once, instead of modelling the probabilities for each feature alone. It uses a covariance matrix instead of Sigma squared.
 
 The formula looks like:
 
@@ -110,13 +105,13 @@ Given the ratings of a movie, to learn the parameter Theta for a certain user, t
 
 This is the basic cost function of a squared error with regularization summed up for different users (Theta j).
 
-And using gradient descent (multiplying the learning rate alpha with the partial derivative with respect to your parameter of the optimization objective) to gradually minimize the result. Note that Theta 0 for k = 0 should not be regularized (as explained in linear regression). 
+And using gradient descent (multiplying the learning rate alpha with the partial derivative with respect to your parameter of the optimization objective) to gradually minimize the result. Note, that Theta 0 for k = 0 should not be regularized (as explained in linear regression). 
 
 ### Feature learning with collaborative filtering
 
 Given the parameters Theta of each user for a certain movie, the feature vector of a movie can be estimated with the optimization algorithm:
 
-One way to address the problem of what vector to calculate first (feature vector of a movie or the parameter vector fo a user), is to guess the parameter vector for a user and then use the estimation to define a better feature vector for a movie.
+One way to address the problem of what vector to calculate first (feature vector of a movie or the parameter vector fo a user), is to guess the parameter vector for a user and then use the estimation to define a (better) feature vector for a movie.
 
 This implementation is called collaborative filtering because with each rating of a user the algorithm is able to define better movie feature vectors and improves the output for all users.
 
@@ -141,7 +136,7 @@ This is easily done since we have already calculated a feature vector x. Now to 
 
 ![featureDistance](../assets/mlIntro/featureDistance.png)
 
-Note that, if you have a user or movie/product with no rating at all, it makes sense to perform mean normalization before implementing the learning algorithm. To accomplish this, first the mean should be subtracted from the result matrix and re-added when predicting the rating. But you should always ask yourself if it makes sense to recommend something to a completely undefined unit anyways.
+Note, that if you have a user or movie/product with no rating at all, you should perform mean normalization before implementing the learning algorithm. To accomplish this, first the mean should be subtracted from the result matrix and re-added when predicting the rating. But you should always ask yourself if it makes sense to recommend something to a completely undefined unit anyways.
 
 ## Scaling machine learning systems
 
@@ -199,7 +194,7 @@ For example
 
 ### Ceiling analysis
 
-Analyse what part of your pipeline is worth spending time for improvements, by comparing the accuracy improvements.
+Analyse what part of your pipeline is worth spending time for improvements by comparing the accuracy improvements.
 
 ---
  
