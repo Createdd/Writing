@@ -25,6 +25,7 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Mini-batch gradient descent](#mini-batch-gradient-descent)
     - [Test for convergence](#test-for-convergence)
     - [Online learning](#online-learning)
+    - [Map-reduce and data parallelism](#map-reduce-and-data-parallelism)
 
 <!-- /TOC -->
 
@@ -169,6 +170,14 @@ Whereas for mini-batch gradient descent the cost function of the number of itera
 If the algorithm fails to converge try to slowly decrease the learning rate Alpha.
 
 ### Online learning
+
+In the idea of online learning data is considered to be endless and free. For example getting a stream of user data on a website. In this case, gradient descent can be performed on one example at each time for endless times. With each incoming example the algorithm is improved and this way the algorithm can also adapt according to changes in user preference.
+
+### Map-reduce and data parallelism
+
+Another way to address huge data sets is to use batch gradient descent but splitting it to different sub sets, allowing multiple machines to work on their own set of data. Afterwards the results can simply be added together to fit the original formula (basically using the sums of functions).
+
+
 
 
 
