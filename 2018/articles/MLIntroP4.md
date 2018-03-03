@@ -26,6 +26,10 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Test for convergence](#test-for-convergence)
     - [Online learning](#online-learning)
     - [Map-reduce and data parallelism](#map-reduce-and-data-parallelism)
+  - [Tricks for use on applications](#tricks-for-use-on-applications)
+    - [Create a pipeline for your problem](#create-a-pipeline-for-your-problem)
+    - [Getting more data](#getting-more-data)
+    - [Ceiling analysis](#ceiling-analysis)
 
 <!-- /TOC -->
 
@@ -178,12 +182,28 @@ In the idea of online learning data is considered to be endless and free. For ex
 Another way to address huge data sets is to use batch gradient descent but splitting it to different sub sets, allowing multiple machines to work on their own set of data. Afterwards the results can simply be added together to fit the original formula (basically using the sums of functions).
 
 
+## Tricks for use on applications
 
+### Create a pipeline for your problem
 
+For example
+- detect text
+- segment characters
+- classify characters
+
+### Getting more data
+
+- try to create additional data by adding distortions to your already available data set (artificial data synthesis)
+- try collecting/labelling data yourself
+- crowd source data
+
+### Ceiling analysis
+
+Analyse what part of your pipeline is worth spending time for improvements, by comparing the accuracy improvements.
 
 ---
  
-This wraps up the third part. In the next one, anomaly detection, recommender systems and scaling issues will be described. Stay tuned!
+This wraps up the fourth part. What an incredible course! :) 
 
 ---
 
