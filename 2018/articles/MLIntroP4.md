@@ -19,6 +19,7 @@ All quotes refer to the material from the course if not explicitly stated otherw
     - [Multivariat Gaussian distribution](#multivariat-gaussian-distribution)
   - [Recommender Systems](#recommender-systems)
     - [Feature learning with collaborative filtering](#feature-learning-with-collaborative-filtering)
+    - [Further usage](#further-usage)
 
 <!-- /TOC -->
 
@@ -117,6 +118,20 @@ This leads to the following gradient descent implementation:
 
 ![collFiltSimultGradD](../assets/mlIntro/collFiltSimultGradD.png)
 
+To implement this formula, you have to 
+1. Initialize all Thetas and xs with small random values
+1. Minimize the cost function with the provided gradient descent formula
+1. Predict the movie rating of a user with the parameter Theta with the learned feature x.
+
+Note that, if you have a user or movie/product with no rating at all, it makes sense to perform mean normalization before implementing the learning algorithm. To accomplish this, first the mean should be subtracted from the result matrix and re-added when predicting the rating. 
+
+### Further usage
+
+After implementing the collaborative filtering system another step can be to suggest related movies/products.
+
+This is easily done since we have already calculated a feature vector x. Now to find related movies/products, we simply have to find the ones with the smallest distance, like:
+
+![featureDistance](../assets/mlIntro/featureDistance.png)
 
 
 
