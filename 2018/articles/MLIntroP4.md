@@ -105,10 +105,17 @@ And using gradient descent (multiplying the learning rate alpha with the partial
 
 Given the parameters Theta of each user for a certain movie, the feature vector of a movie can be estimated with the optimization algorithm:
 
-
 One way to address the problem of what vector to calculate first (feature vector of a movie or the parameter vector fo a user), is to guess the parameter vector for a user and then use the estimation to define a better feature vector for a movie.
 
 This implementation is called collaborative filtering because with each rating of a user the algorithm is able to define better movie feature vectors and improves the output for all users.
+
+To use collaborative filtering simultaneously (updating Theta and x at the same time), the following formula can be used: 
+
+![collFiltSimult](../assets/mlIntro/collFiltSimult.png)
+
+This leads to the following gradient descent implementation:
+
+![collFiltSimultGradD](../assets/mlIntro/collFiltSimultGradD.png)
 
 
 
