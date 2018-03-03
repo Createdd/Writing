@@ -20,6 +20,8 @@ All quotes refer to the material from the course if not explicitly stated otherw
   - [Recommender Systems](#recommender-systems)
     - [Feature learning with collaborative filtering](#feature-learning-with-collaborative-filtering)
     - [Further usage](#further-usage)
+  - [Scaling machine learning systems](#scaling-machine-learning-systems)
+    - [Stochastic gradient descent](#stochastic-gradient-descent)
 
 <!-- /TOC -->
 
@@ -123,8 +125,6 @@ To implement this formula, you have to
 1. Minimize the cost function with the provided gradient descent formula
 1. Predict the movie rating of a user with the parameter Theta with the learned feature x.
 
-Note that, if you have a user or movie/product with no rating at all, it makes sense to perform mean normalization before implementing the learning algorithm. To accomplish this, first the mean should be subtracted from the result matrix and re-added when predicting the rating. 
-
 ### Further usage
 
 After implementing the collaborative filtering system another step can be to suggest related movies/products.
@@ -132,6 +132,25 @@ After implementing the collaborative filtering system another step can be to sug
 This is easily done since we have already calculated a feature vector x. Now to find related movies/products, we simply have to find the ones with the smallest distance, like:
 
 ![featureDistance](../assets/mlIntro/featureDistance.png)
+
+Note that, if you have a user or movie/product with no rating at all, it makes sense to perform mean normalization before implementing the learning algorithm. To accomplish this, first the mean should be subtracted from the result matrix and re-added when predicting the rating. But you should always ask yourself if it makes sense to recommend something to a completely undefined unit anyways.
+
+## Scaling machine learning systems
+
+When having a case with very large numbers of examples (~100 Mio) always ask yourself if it is possible to reduce the dataset with keeping the results.
+
+One way is to plot a learning curve for a range of values of m and verify that the algorithm has high variance when m is small. When th algorithm already has a high bias, increasing the dataset does not help.
+
+### Stochastic gradient descent
+
+On large training sets gradient descent becomes very computational expensive. A way to address this problem is to use stochastic gradient descent. 
+
+Instead of iterating through all trainings examples at once, you shuffle your dataset randomly and perform gradient descent on a single example as follows:
+
+![stochGradD](../assets/mlIntro/stochGradD.png)
+
+This allows to improve the parameters on every single example and therefore takes much less time than improving them on all examples at once. (On the cost that it might not converge at all - but ends up close enough for most practical use cases).
+
 
 
 
