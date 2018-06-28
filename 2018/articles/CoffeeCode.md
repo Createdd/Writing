@@ -27,11 +27,26 @@ As they put it in the summary:
 
 I assume that many ambitious people have once in their lifetime suffered from a form of sleep loss and therefore this findings can help to improve the use of caffeine. I most certainly was curious.
 
- Since standard algorithms were not able to solve the optimization problem in a reasonable computational time they looked for an approximate solution using the tabu search algorithm.
+Since standard algorithms were not able to solve the optimization problem in a reasonable computational time they looked for an approximate solution using the tabu search algorithm.
 
- The goal was a twofold optimization:
- 1. enhancing neurobehavioural performance and 
- 1. reducing caffeine consumption
+The goal was a twofold optimization:
+1. enhancing neurobehavioural performance and 
+1. reducing caffeine consumption
+
+Although the were able to come up with an algorithm, there were some problems to consider:
+> However, there may be considerable individual variability in both the response to sleep loss and the restorative effects of caffeine. Variation in the effect of caffeine is, in part, a result of genetic polymorphisms in the genes coding for the main caffeine-metabolizing enzyme, P-450, and the main caffeine targets, adenosine receptors A1and A2A. To assess how well a group-average model captures individual differences, we computed the root mean squared error (RMSE) between the model predictions and the measured mean RT data from each subject after caffeine consumption.
+
+And resulted in: 
+
+> This result suggests that a group-average model cannot always be used to obtain optimal caffeine strategies at the individual level
+
+Nevertheless, I like the idea very much. The combination of a validated mathematical model with optimization methods to determine when and how much caffeine to consume to achieve peak performance at the most needed times is very interesting.
+
+They plan to add the algorithm to [this page](https://2b-alert-web.bhsai.org/2b-alert-web/login.xhtml) and make it useable for the public. 
+
+Looking forward to that!
+
+
 
  
 
