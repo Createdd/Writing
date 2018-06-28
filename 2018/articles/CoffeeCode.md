@@ -14,11 +14,12 @@ This article relies heavily on [this research paper](https://onlinelibrary.wiley
 
 - [Coffee and Code - A dosing strategy](#coffee-and-code---a-dosing-strategy)
   - [Table of Contents](#table-of-contents)
-  - [The research paper](#the-research-paper)
+  - [Using an optimization algorithm?](#using-an-optimization-algorithm)
+  - [](#)
 
 <!-- /TOC -->
 
-## The research paper
+## Using an optimization algorithm?
 
 I refer to the [research paper on "Caffeine dosing strategies to optimize alertness during sleeploss"](https://onlinelibrary.wiley.com/doi/epdf/10.1111/jsr.12711) by Francisco G. Vital-Lopez, Sridhar Ramakrishnan, Tracy J. Doty, Thomas J. Balkin and Jaques Reifman. 
 
@@ -46,7 +47,7 @@ They plan to add the algorithm to [this page](https://2b-alert-web.bhsai.org/2b-
 
 Looking forward to that!
 
-
+## 
 
  
 
