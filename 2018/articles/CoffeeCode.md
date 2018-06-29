@@ -15,7 +15,7 @@ This article relies heavily on [this research paper](https://onlinelibrary.wiley
 - [Coffee and Code - A dosing strategy](#coffee-and-code---a-dosing-strategy)
   - [Table of Contents](#table-of-contents)
   - [Using an optimization algorithm?](#using-an-optimization-algorithm)
-  - [](#)
+  - [My additional comments](#my-additional-comments)
 
 <!-- /TOC -->
 
@@ -46,13 +46,26 @@ Nevertheless, I like the idea very much. The combination of a validated mathemat
 Check out [their website](https://2b-alert-web.bhsai.org/2b-alert-web/login.xhtml) to use the algorithm on your schedule.
 
 ![coffeeCode](../assets/coffeeCode/coffeeCode.png)
-An example schedule
 
-## 
+## My additional comments
 
- 
+I will try to alter my caffeine consumption and play a little bit with this. However this shall rather inspire to experiment with coffee consumption than only relying on these suggestions.
 
+Too many things are not considered in this basic algorithm. 
 
+I think that the average activity and how you spend your time is very important. As a programmer or student sitting around all day will probably have a different effect on you than being a professional athlete. 
+
+What I personally found out to be helpful is to not drink coffee first thing in the morning as my body already seems to provide biochemical messengers to wake me up. Also any activity that does not require intense focus seems to be a waste for consumed caffeine. 
+
+Therefore I drink my first coffee when I am in the transition to get some major coding/learning done. All meetings or activities with low cognitive effort shall be scheduled before my first coffee. 
+
+The second coffee is not directly after lunch. Again, mostly because my body is already in a state of processing my consumed food. For me it's best about 2 hours after lunch, where I feel receptive to new stimulants. 
+
+That's it. More coffee didn't really prove useful to me. (But I will keep experimenting)
+
+What's also very important are breaks and enough sleep. Trying to compensate those essential ingredients with some sort of caffeine didn't help at all. Had a rather psychological than physical effect on me.
+
+What's your strategy? Let me know! :) 
 
 ---
 
