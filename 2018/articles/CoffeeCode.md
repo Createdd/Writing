@@ -43,9 +43,10 @@ And resulted in:
 
 Nevertheless, I like the idea very much. The combination of a validated mathematical model with optimization methods to determine when and how much caffeine to consume to achieve peak performance at the most needed times is very interesting.
 
-They plan to add the algorithm to [this page](https://2b-alert-web.bhsai.org/2b-alert-web/login.xhtml) and make it useable for the public. 
+Check out [their website](https://2b-alert-web.bhsai.org/2b-alert-web/login.xhtml) to use the algorithm on your schedule.
 
-Looking forward to that!
+![coffeeCode](../assets/coffeeCode/coffeeCode.png)
+An example schedule
 
 ## 
 
