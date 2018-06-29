@@ -10,14 +10,8 @@ This article relies heavily on [this research paper](https://onlinelibrary.wiley
 
 ## Table of Contents
 
-<!-- TOC -->
-
-- [Coffee and Code - A dosing strategy](#coffee-and-code---a-dosing-strategy)
-  - [Table of Contents](#table-of-contents)
   - [Using an optimization algorithm?](#using-an-optimization-algorithm)
   - [My additional comments](#my-additional-comments)
-
-<!-- /TOC -->
 
 ## Using an optimization algorithm?
 
