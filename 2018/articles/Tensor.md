@@ -33,6 +33,7 @@ This graph can have 2 types of objects:
 a = tf.constant(3.0)
 b = tf.constant(4.0)
 total = a + b
+
 print(a)
 print(b)
 print(total)
@@ -45,7 +46,9 @@ Tensor("Const_1:0", shape=(), dtype=float32)
 Tensor("add:0", shape=(), dtype=float32)
 ```
 
-These statements only build the computation graph! The tf.Tensor objects just represent the results of the operations that will be run.
+These statements only build the computation graph. 
+The tf.Tensor objects represent the results of the operations that will be run.
+
 The most basic operation is a constant. The Python function that builds the operation takes a tensor value as input.
 Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
 
