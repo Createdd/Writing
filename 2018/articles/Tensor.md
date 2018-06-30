@@ -1,14 +1,17 @@
-# Tensorflow Series - Tensors in simple
-
+# Tensorflow Series - Tensors and the Flow
 [<img src="https://images.unsplash.com/photo-1505870493536-5349bcc99cb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d73d25857678672c1958bc1319b96e0e&auto=format&fit=crop&w=2250&q=80">](
 https://unsplash.com/photos/rbRa_Gs_mb0)
 Photo by Sunyu on Unsplash - https://unsplash.com/photos/rbRa_Gs_mb0
 
-Exploring Tensorflow brings me to the first question. What is a Tensor and why is the library called Tensorflow?
+Exploring Tensorflow brings me to the first question. What is a Tensor and why is the library called TensorFlow?
 I will try to focus on the very most important concepts to make it as easy to understand as possible.
 Let's see!
 
-## 
+I will refer to and quote only the [official documentation](https://www.tensorflow.org/programmers_guide/low_level_intro) and simplify the explanation. 
+
+---
+
+### Tensors and the Flow
 
 As they put it on their [website](https://www.tensorflow.org/programmers_guide/tensors): 
 
