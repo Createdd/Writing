@@ -10,7 +10,7 @@ Let's see!
 
 ## 
 
-As the developers put it on their [website](https://www.tensorflow.org/programmers_guide/tensors): 
+As they put it on their [website](https://www.tensorflow.org/programmers_guide/tensors): 
 
 > TensorFlow, as the name indicates, is a framework to define and run computations involving tensors. A tensor is a generalization of vectors and matrices to potentially higher dimensions. Internally, TensorFlow represents tensors as n-dimensional arrays of base datatypes.
 
@@ -39,7 +39,23 @@ Examples:
     [7., 8., 9.]
   ]
 ] # a rank 3 tensor with shape [2, 1, 3]
-````
+```
+
+### Operations
+
+This the "flow" part of TensorFlow. 
+
+Operations describe calculations that consume and produce tensors.
+
+> An Operation is a node in a TensorFlow Graph that takes zero or more Tensor objects as input, and produces zero or more Tensor objects as output.
+
+Example:
+
+```python
+c = tf.matmul(a, b)
+```
+
+creates an Operation of type "MatMul" that takes tensors a and b as input, and produces c as output.
 
 
 
