@@ -4,9 +4,7 @@
 https://unsplash.com/photos/rbRa_Gs_mb0)
 Photo by Sunyu on Unsplash - https://unsplash.com/photos/rbRa_Gs_mb0
 
-I consider myself a productive person. Of course I like to drink caffeinated beverages to maximize my outcome. Recently I came across this article and thought it might be worth sharing my thoughts on it.
 
-This article relies heavily on [this research paper](https://onlinelibrary.wiley.com/doi/epdf/10.1111/jsr.12711) and my personal experiences.
 
 
 ## 
