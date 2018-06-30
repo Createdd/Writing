@@ -32,7 +32,18 @@ pip3 install matplotlib
 
 ```
 
-## Write the prediction file
+## Import everything you need
+
+```python
+import tensorflow as tf
+import numpy as np
+import math
+import matplotlib  
+matplotlib.use('TkAgg')   
+import matplotlib.pyplot as plt  
+import matplotlib.animation as animation
+```
+
 
 
 
