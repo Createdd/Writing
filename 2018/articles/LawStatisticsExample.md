@@ -7,7 +7,34 @@ Photo by Sunyu on Unsplash - https://unsplash.com/photos/rbRa_Gs_mb0
 
 ---
 
-##
+## Get started
+
+Install TensorFlow with virtualenv. See the [guide](https://www.tensorflow.org/install/install_mac) on the TF website.
+
+### Shell commands for installing everything you need
+
+```shell
+sudo easy_install pip
+
+pip3 install --upgrade virtualenv 
+
+virtualenv --system-site-packages <targetDirectory>
+
+cd <targetDirectory>
+
+source ./bin/activate 
+
+easy_install -U pip3
+
+pip3 install --upgrade tensorflow 
+
+pip3 install matplotlib
+
+```
+
+## Write the prediction file
+
+
 
 ---
 
