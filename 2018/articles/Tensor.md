@@ -7,7 +7,7 @@ Exploring Tensorflow brings me to the first question. What is a Tensor and why i
 I will try to focus on the very most important concepts to make it as easy to understand as possible.
 Let's see!
 
-I will refer to and quote only the [official documentation](https://www.tensorflow.org/programmers_guide/low_level_intro) and simplify the explanation. 
+I will refer to and quote only the [official documentation](https://www.tensorflow.org/programmers_guide/low_level_intro). 
 
 ---
 
@@ -98,9 +98,16 @@ The most basic operation is a constant. The Python function that builds the oper
 The tf.Tensor objects represent the results of the operations that will be run.
 Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
 
----
+### What's next?
 
-Now it's straight forward why they called it "TensorFlow". :)
+The next step is to build a [dataflow graph](https://www.tensorflow.org/programmers_guide/graphs) and use sessions to run them.
+
+![tensorFlowGIF](https://www.tensorflow.org/images/tensors_flowing.gif)
+
+Credit to https://www.tensorflow.org/programmers_guide/graphs
+
+
+And by now it's clear why they called it "TensorFlow". :)
 
 ---
 
