@@ -101,9 +101,6 @@ The tf.Tensor objects represent the results of the operations that will be run.
 Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
 
 
-
-
-
 ---
 
 Thanks for reading my article! Feel free to leave any feedback! 
