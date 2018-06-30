@@ -2,7 +2,7 @@
 
 [<img src="https://images.unsplash.com/photo-1422207049116-cfaf69531072?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=85a9d93b9441617bb2fce231a81de8c0&auto=format&fit=crop&w=2220&q=80">](
 https://unsplash.com/photos/VxtWBOQjGdI)
-Photo by Stephen Leonardi on Unsplash - https://unsplash.com/photos/VxtWBOQjGdI
+Photo by Alex on Unsplash - https://unsplash.com/photos/VxtWBOQjGdI
 
 I consider myself a productive person. Of course I like to drink caffeinated beverages to maximize my outcome. Recently I came across this article and thought it might be worth sharing my thoughts on it.
 
