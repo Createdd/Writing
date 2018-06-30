@@ -14,6 +14,35 @@ As the developers put it on their [website](https://www.tensorflow.org/programme
 
 > TensorFlow, as the name indicates, is a framework to define and run computations involving tensors. A tensor is a generalization of vectors and matrices to potentially higher dimensions. Internally, TensorFlow represents tensors as n-dimensional arrays of base datatypes.
 
+### Tensor Values
+
+> A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's rank is its number of dimensions, while its shape is a tuple of integers specifying the array's length along each dimension. 
+
+Examples:
+
+```python
+3. # a rank 0 tensor; a scalar with shape [],
+
+
+[1., 2., 3.] # a rank 1 tensor; a vector with shape [3]
+
+[ 
+  [1., 2., 3.],
+  [4., 5., 6.]
+] # a rank 2 tensor; a matrix with shape [2, 3]
+
+[ 
+  [ 
+    [1., 2., 3.]
+  ],
+  [ 
+    [7., 8., 9.]
+  ]
+] # a rank 3 tensor with shape [2, 1, 3]
+````
+
+
+
 A TensorFlow Core program basically 2 things:
 1. Building a computational graph 
 1. Running a computational graph
@@ -47,10 +76,12 @@ Tensor("add:0", shape=(), dtype=float32)
 ```
 
 These statements only build the computation graph. 
-The tf.Tensor objects represent the results of the operations that will be run.
-
 The most basic operation is a constant. The Python function that builds the operation takes a tensor value as input.
+
+The tf.Tensor objects represent the results of the operations that will be run.
 Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
+
+
 
 
 
