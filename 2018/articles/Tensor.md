@@ -58,17 +58,15 @@ Example:
 c = tf.matmul(a, b)
 ```
 
-creates an Operation of type "MatMul" that takes tensors a and b as input, and produces c as output.
+*creates an Operation of type "MatMul" that takes tensors a and b as input, and produces c as output.*
 
-
+### Computational graph
 
 A TensorFlow Core program basically 2 things:
 1. Building a computational graph 
 1. Running a computational graph
 
 So what is a computational graph?
-
-### Computational graph
 
 A computational graph is a "series of TensorFlow operations arranged into a graph". 
 This graph can have 2 types of objects:
