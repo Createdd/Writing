@@ -98,6 +98,9 @@ The most basic operation is a constant. The Python function that builds the oper
 The tf.Tensor objects represent the results of the operations that will be run.
 Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
 
+---
+
+Now it's straight forward why they called it "TensorFlow". :)
 
 ---
 
