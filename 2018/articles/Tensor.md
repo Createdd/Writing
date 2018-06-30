@@ -18,14 +18,38 @@ A TensorFlow Core program basically 2 things:
 1. Building a computational graph 
 1. Running a computational graph
 
+So what is a computational graph?
+
 ### Computational graph
 
 A computational graph is a "series of TensorFlow operations arranged into a graph". 
 This graph can have 2 types of objects:
-1. Operations (or "ops"): The nodes of the graph. Operations describe calculations that consume and produce tensors.
+1. Operations: The nodes of the graph. Operations describe calculations that consume and produce tensors.
 1. Tensors: The edges in the graph. These represent the values that will flow through the graph.
 
-Basically tensors are n-dimensional arrays. Those arrays shall flow between operations. 
+### Example
+
+```python
+a = tf.constant(3.0)
+b = tf.constant(4.0)
+total = a + b
+print(a)
+print(b)
+print(total)
+```
+which will result in 
+
+```python
+Tensor("Const:0", shape=(), dtype=float32)
+Tensor("Const_1:0", shape=(), dtype=float32)
+Tensor("add:0", shape=(), dtype=float32)
+```
+
+These statements only build the computation graph! The tf.Tensor objects just represent the results of the operations that will be run.
+The most basic operation is a constant. The Python function that builds the operation takes a tensor value as input.
+Tensors are named after the operation that produces them followed by an output index, as in "add:0" above.
+
+
 
 ---
 
