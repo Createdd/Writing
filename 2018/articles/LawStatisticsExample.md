@@ -4,6 +4,16 @@ https://unsplash.com/photos/bD5lzOBx-Cs)
 Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 
+<!-- TOC -->
+
+- [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
+  - [Get started](#get-started)
+    - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
+  - [Get data and draw a plot](#get-data-and-draw-a-plot)
+    - [Import everything you need](#import-everything-you-need)
+    - [Create and plot some numbers](#create-and-plot-some-numbers)
+
+<!-- /TOC -->
 
 ---
 
@@ -31,8 +41,9 @@ pip3 install --upgrade tensorflow
 pip3 install matplotlib
 
 ```
+## Get data and draw a plot
 
-## Import everything you need
+### Import everything you need
 
 ```python
 import tensorflow as tf
@@ -44,7 +55,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
 
-## Create and plot some numbers
+### Create and plot some numbers
 
 ```python
 ## Generate evidence numbers between 10 and 20
