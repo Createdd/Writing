@@ -1,7 +1,7 @@
 # Law and Statistics - A beginner example using TensorFlow
-[<img src="https://images.unsplash.com/photo-1505870493536-5349bcc99cb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d73d25857678672c1958bc1319b96e0e&auto=format&fit=crop&w=2250&q=80">](
-https://unsplash.com/photos/rbRa_Gs_mb0)
-Photo by Sunyu on Unsplash - https://unsplash.com/photos/rbRa_Gs_mb0
+[<img src="https://images.unsplash.com/photo-1530278761482-a352c8e3192c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70c20f6eb1e412c2ae298211e04cef2f&auto=format&fit=crop&w=2764&q=80">](
+https://unsplash.com/photos/bD5lzOBx-Cs)
+Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 
 
