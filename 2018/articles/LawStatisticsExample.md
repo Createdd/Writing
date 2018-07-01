@@ -12,6 +12,9 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
   - [Get data and draw a plot](#get-data-and-draw-a-plot)
     - [Import everything you need](#import-everything-you-need)
     - [Create and plot some numbers](#create-and-plot-some-numbers)
+  - [Build a TensorFlow model](#build-a-tensorflow-model)
+    - [Prepare data](#prepare-data)
+    - [](#)
 
 <!-- /TOC -->
 
@@ -76,6 +79,47 @@ plt.ylabel("Number of Convictions")
 plt.show()
 ```
 
+## Build a TensorFlow model 
+
+To build a basic machine learning model, we need to prepare the data, make predictions, measure the loss and optimize by minimizing the loss.
+
+### Prepare data
+
+```python
+# normalize values
+def normalize(array):
+  return (array - array.mean()) / array.std()
+
+# use 70% of the data for training (the remaining 30% shall be used for testing)
+numTrain = math.floor(sampleSize * 0.7)
+
+# convert list to an array 
+
+trainEvid = np.asanyarray(numEvid[:numTrain])
+trainConvict = np.asanyarray(numConvict[:numTrain])
+
+# normalize arrays
+trainEvidNorm = normalize(trainEvid)
+trainConvictdNorm = normalize(trainConvict)
+```
+
+### 
+
+Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More in reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
+
+
+```python
+
+```
+```python
+
+```
+```python
+
+```
+```python
+
+```
 
 ---
 
