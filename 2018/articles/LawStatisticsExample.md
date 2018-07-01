@@ -39,7 +39,7 @@ source ./bin/activate
 
 easy_install -U pip3
 
-pip3 install --upgrade tensorflow 
+pip3 install tensorflow 
 
 pip3 install matplotlib
 
