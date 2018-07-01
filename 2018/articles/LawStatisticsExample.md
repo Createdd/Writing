@@ -47,21 +47,21 @@ import matplotlib.animation as animation
 ## Create and plot some numbers
 
 ```python
-
-## Generate some evidence numbers between 10 and 20
+## Generate evidence numbers between 10 and 20
 np.random.seed(42)
-num_evid = np.random.randint(low=10, high=50, size=100)
-
+num_evid = np.random.randint(low=10, high=50, size=80)
 
 # Generate number of convictions from the evidence with a random noise added
-np.random.seed(42)
-num_convict = num_evid * 100.0 + np.random.randint(low=20000, high=70000, size=100)
+num_convict = num_evid + np.random.randint(low=3, high=10, size=80)
 
+print(num_evid)
+print(num_convict)
 
-# Plot generated hours and size
+# Plot the numbers
+plt.title('Number of convictions based on evidence')
 plt.plot(num_evid, num_convict, "bx") # bx = blue x
-plt.ylabel("Number of Convictions")
 plt.xlabel("Number of Evidence")
+plt.ylabel("Number of Convictions")
 plt.show()
 ```
 
