@@ -7,18 +7,42 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 <!-- TOC -->
 
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
-  - [Get started](#get-started)
-    - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
-  - [Get data and draw a plot](#get-data-and-draw-a-plot)
-    - [Import everything you need](#import-everything-you-need)
-    - [Create and plot some numbers](#create-and-plot-some-numbers)
-  - [Build a TensorFlow model](#build-a-tensorflow-model)
-    - [Prepare data](#prepare-data)
-    - [](#)
+	- [What we will use](#what-we-will-use)
+		- [TensorFlow](#tensorflow)
+	- [Get started](#get-started)
+		- [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
+	- [Get data and draw a plot](#get-data-and-draw-a-plot)
+		- [Import everything you need](#import-everything-you-need)
+		- [Create and plot some numbers](#create-and-plot-some-numbers)
+	- [Build a TensorFlow model](#build-a-tensorflow-model)
+		- [Prepare data](#prepare-data)
+		- [](#)
 
 <!-- /TOC -->
 
 ---
+## What we will use
+
+### TensorFlow
+
+[Tensors](https://www.tensorflow.org/programmers_guide/tensors)
+- tf.placeholders
+- tf.Variables
+
+[Helper function](https://www.tensorflow.org/api_guides/python/state_ops#Variable_helper_functions)
+- tf.global_variables_initializer
+
+[Math Operations](https://www.tensorflow.org/api_guides/python/math_ops)
+- tf.add
+- tf.multiply
+- tf.reduce_sum
+- tf.pow
+
+[Building a graph](https://www.tensorflow.org/programmers_guide/graphs#building_a_tfgraph)
+- tf.train.GradientDescentOptimizer
+
+[Session](https://www.tensorflow.org/programmers_guide/graphs#executing_a_graph_in_a_tfsession)
+- tf.Session
 
 ## Get started
 
