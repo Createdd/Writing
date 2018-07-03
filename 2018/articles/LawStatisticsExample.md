@@ -10,6 +10,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 	- [What we will use](#what-we-will-use)
 		- [TensorFlow](#tensorflow)
 		- [Numpy (as np)](#numpy-as-np)
+		- [Matplotlib](#matplotlib)
 	- [Get started](#get-started)
 		- [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
 	- [Get data and draw a plot](#get-data-and-draw-a-plot)
@@ -52,6 +53,10 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 - np.random.randint
 - np.random.randn
 - np.random.asanyarray
+
+### Matplotlib
+
+
 
 ## Get started
 
