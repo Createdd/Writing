@@ -21,6 +21,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 		- [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
 		- [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
 	- [Visualize the result and the process](#visualize-the-result-and-the-process)
+	- [Conclusio](#conclusio)
 
 <!-- /TOC -->
 
@@ -292,6 +293,13 @@ with tf.Session() as sess:
     plt.show()
 ```
 ![graphs](../assets/LawStatistics/graphs.png)
+
+## Conclusio
+
+I think this is a great example to start with TensorFlow and it's basics.
+I wrote this after a great course on [Pluralsight](https://www.pluralsight.com/courses/tensorflow-getting-started), which I can recommend.
+
+
 
 ```python
 
