@@ -236,14 +236,23 @@ with tf.Session() as sess:
     )
 ```
 
-Now we come to the actual training and most interesting part. 
+Now we come to the actual training and most interesting part.
+
 The graph is now executed in a [`tf.Session`](https://www.tensorflow.org/programmers_guide/graphs#executing_a_graph_in_a_tfsession).
-Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
+I am using "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
+
+Use "with tf.Session()" to create a session that is automatically closed on exiting the context, including when an uncaught exception is raised
+
+> The tf.Session.run method is the main mechanism for running a tf.Operation or evaluating a tf.Tensor. You can pass one or more tf.Operation or tf.Tensor objects to tf.Session.run, and TensorFlow will execute the operations that are needed to compute the result.
+
+First we are running the gradient descent training while feeding it the normalized training data. After that we are calculating the the loss.
+
+We are repeating this process until the improvements per step are very small. Keep in mind, that the tf.Variables (the parameters) have been adapted throughout and reflect now an optimum.
 
 ## Visualize the result and the process
 
 ```python
-    # denormalize variables to be plottable again
+    # de-normalize variables to be plotable again
     trainEvidMean = trainEvid.mean()
     trainEvidStd = trainEvid.std()
     trainConvictMean = trainConvict.mean()
@@ -303,6 +312,8 @@ Use "feeding" as it, lets you inject data into any Tensor in a computation graph
 
     plt.show()
 ```
+
+To show
 
 ![graphs](../assets/LawStatistics/graphs.png)
 
