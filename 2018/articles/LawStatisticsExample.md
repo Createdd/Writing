@@ -4,6 +4,7 @@
 Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
+    - [What this is about](#what-this-is-about)
     - [What we will use](#what-we-will-use)
         - [TensorFlow](#tensorflow)
         - [Numpy (as np)](#numpy-as-np)
@@ -18,6 +19,12 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
         - [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
         - [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
     - [Visualize the result and the process](#visualize-the-result-and-the-process)
+
+## What this is about
+
+As I am exploring TensorFlow I wanted build a beginner example and document it.
+This is a very basic example that merely uses a gradient descent optimization to train parameters with TensorFlow.
+It shall illustrate how the amount of convictions are dependent on the number of evidence and how to predict them in a regression model.
 
 ## What we will use
 
@@ -319,11 +326,7 @@ To visualize the process it is helpful to plot the result and maybe even the opt
 
 ---
 
-Check out this [Pluralsight course](https://www.pluralsight.com/courses/tensorflow-getting-started) for a similar project but with more explanation. :)
-
-```python
-
-```
+Check out this [Pluralsight course](https://www.pluralsight.com/courses/tensorflow-getting-started) which helped me a lot to get started. :)
 
 ---
 
