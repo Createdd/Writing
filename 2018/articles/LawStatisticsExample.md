@@ -6,9 +6,10 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
     - [What this is about](#what-this-is-about)
     - [What we will use](#what-we-will-use)
-        - [TensorFlow](#tensorflow)
-        - [Numpy (as np)](#numpy-as-np)
-        - [Matplotlib](#matplotlib)
+            - [1.TensorFlow (as tf)](#1tensorflow-as-tf)
+            - [2.Numpy (as np)](#2numpy-as-np)
+            - [3.Matplotlib](#3matplotlib)
+            - [4.Math](#4math)
     - [Get started](#get-started)
         - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
     - [Get data and draw a plot](#get-data-and-draw-a-plot)
@@ -24,11 +25,11 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 As I am exploring TensorFlow I wanted build a beginner example and document it.
 This is a very basic example that merely uses a gradient descent optimization to train parameters with TensorFlow.
-It shall illustrate how the amount of convictions are dependent on the number of evidence and how to predict them in a regression model.
+It shall illustrate how the amount of convictions are dependent on the number of evidence and how to predict them using a regression model.
 
 ## What we will use
 
-### TensorFlow
+#### 1.TensorFlow (as tf)
 
 [Tensors](https://www.tensorflow.org/programmers_guide/tensors)
 
@@ -54,7 +55,7 @@ It shall illustrate how the amount of convictions are dependent on the number of
 
 - tf.Session
 
-### Numpy (as np)
+#### 2.Numpy (as np)
 
 - np.random.seed
 - np.random.zeros
@@ -62,7 +63,9 @@ It shall illustrate how the amount of convictions are dependent on the number of
 - np.random.randn
 - np.random.asanyarray
 
-### Matplotlib
+#### 3.Matplotlib
+
+#### 4.Math
 
 ## Get started
 
