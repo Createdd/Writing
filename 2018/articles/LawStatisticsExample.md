@@ -313,7 +313,7 @@ We are repeating this process until the improvements per step are very small. Ke
     plt.show()
 ```
 
-To show
+To visualize the process it is helpful to plot the result and maybe even the optimization process.
 
 ![graphs](../assets/LawStatistics/graphs.png)
 
