@@ -20,6 +20,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 		- [Prepare data](#prepare-data)
 		- [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
 		- [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
+	- [Visualize the result and the process](#visualize-the-result-and-the-process)
 
 <!-- /TOC -->
 
@@ -226,9 +227,71 @@ with tf.Session() as sess:
         "\n",
     )
 ```
-```python
 
+## Visualize the result and the process
+
+```python
+    # denormalize variables to be plottable again
+    trainEvidMean = trainEvid.mean()
+    trainEvidStd = trainEvid.std()
+    trainConvictMean = trainConvict.mean()
+    trainConvictStd = trainConvict.std()
+    xNorm = trainEvidNorm * trainEvidStd + trainEvidMean
+    yNorm = (
+        sess.run(tfEvidFactor) * trainEvidNorm + sess.run(tfConvictOffset)
+    ) * trainConvictStd + trainConvictMean
+
+    # Plot the result graph
+    plt.figure()
+
+    plt.xlabel("Number of Evidence")
+    plt.ylabel("Number of Convictions")
+
+    plt.plot(trainEvid, trainConvict, "go", label="Training data")
+    plt.plot(testEvid, testConvict, "mo", label="Testing data")
+    plt.plot(xNorm, yNorm, label="Learned Regression")
+    plt.legend(loc="upper left")
+
+    plt.show()
+
+    # Plot an animated graph that shows the process of optimization
+    fig, ax = plt.subplots()
+    line, = ax.plot(numEvid, numConvict)
+
+    plt.rcParams["figure.figsize"] = (10, 8) # adding fixed size parameters to keep animation in scale
+    plt.title("Gradient Descent Fitting Regression Line")
+    plt.xlabel("Number of Evidence")
+    plt.ylabel("Number of Convictions")
+    plt.plot(trainEvid, trainConvict, "go", label="Training data")
+    plt.plot(testEvid, testConvict, "mo", label="Testing data")
+
+    # define an animation functon that changes the ydata
+    def animate(i):
+        line.set_xdata(xNorm)
+        line.set_ydata(
+            (evidFactorAnim[i] * trainEvidNorm + convictOffsetAnim[i]) * trainConvictStd
+            + trainConvictMean
+        )
+        return (line,)
+
+    # Initialize the animation with zeros for y
+    def initAnim():
+        line.set_ydata(np.zeros(shape=numConvict.shape[0]))
+        return (line,)
+
+    # call the animation
+    ani = animation.FuncAnimation(
+        fig,
+        animate,
+        frames=np.arange(0, plotIndex),
+        init_func=initAnim,
+        interval=200,
+        blit=True,
+    )
+
+    plt.show()
 ```
+
 ```python
 
 ```
