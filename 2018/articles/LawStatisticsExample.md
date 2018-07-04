@@ -170,7 +170,7 @@ The pragmatic difference between tf.placeholders and tf.Variable are:
 - Variables (for parameters to learn, values can be derived from training, initial values are required)
 - Placeholders (allocated storage for data, initial values are not required)
 
-I use the TensorFlow operators precisely as "tf.add(...)" because it is pretty clear what library is used for the calculation. In contrast to using just "+".
+I use the TensorFlow operators precisely as "tf.add(...)" because it is pretty clear what library is used for the calculation. In contrast to using just a "+" operator.
 
 ### Start the calculations with TensorFlow session
 
@@ -236,6 +236,8 @@ with tf.Session() as sess:
     )
 ```
 
+Now we come to the actual training and most interesting part. 
+The graph is now executed in a [`tf.Session`](https://www.tensorflow.org/programmers_guide/graphs#executing_a_graph_in_a_tfsession).
 Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
 
 ## Visualize the result and the process
