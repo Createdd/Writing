@@ -1,9 +1,9 @@
-# Law and Statistics - A beginner example using TensorFlow
+# TensorFlow Starter on Law and Statistics
 
 [<img src="https://images.unsplash.com/photo-1530278761482-a352c8e3192c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70c20f6eb1e412c2ae298211e04cef2f&auto=format&fit=crop&w=2764&q=80">](https://unsplash.com/photos/bD5lzOBx-Cs)
 Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
-- [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
+- [TensorFlow Starter on Law and Statistics](#tensorflow-starter-on-law-and-statistics)
     - [What this is about](#what-this-is-about)
     - [What we will use](#what-we-will-use)
             - [1.TensorFlow (as tf)](#1tensorflow-as-tf)
@@ -18,14 +18,16 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
     - [Build a TensorFlow model](#build-a-tensorflow-model)
         - [Prepare data](#prepare-data)
         - [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
-        - [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
-    - [Visualize the result and the process](#visualize-the-result-and-the-process)
+        - [Start the calculations with a TensorFlow session](#start-the-calculations-with-a-tensorflow-session)
+    - [Visualize the result and process](#visualize-the-result-and-process)
 
 ## What this is about
 
 As I am exploring TensorFlow I wanted build a beginner example and document it.
 This is a very basic example that merely uses a gradient descent optimization to train parameters with TensorFlow.
 It shall illustrate how the amount of convictions are dependent on the number of evidence and how to predict them using a regression model.
+
+The pyhton file can be found on my [repository on Github](https://github.com/Createdd/lawstatistics/blob/feature/ReferenceBranchForArticle/evidencePrediction.py).
 
 ## What we will use
 
@@ -182,7 +184,7 @@ The pragmatic difference between tf.placeholders and tf.Variable are:
 
 I use the TensorFlow operators precisely as "tf.add(...)" because it is pretty clear what library is used for the calculation. In contrast to using just a "+" operator.
 
-### Start the calculations with TensorFlow session
+### Start the calculations with a TensorFlow session
 
 ```python
 # initialize variables
@@ -259,7 +261,7 @@ First we are running the gradient descent training while feeding it the normaliz
 
 We are repeating this process until the improvements per step are very small. Keep in mind, that the tf.Variables (the parameters) have been adapted throughout and reflect now an optimum.
 
-## Visualize the result and the process
+## Visualize the result and process
 
 ```python
     # de-normalize variables to be plotable again
