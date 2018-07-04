@@ -18,7 +18,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 		- [Create and plot some numbers](#create-and-plot-some-numbers)
 	- [Build a TensorFlow model](#build-a-tensorflow-model)
 		- [Prepare data](#prepare-data)
-	- [](#)
+		- [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
 
 <!-- /TOC -->
 
@@ -99,22 +99,19 @@ import matplotlib.animation as animation
 ### Create and plot some numbers
 
 ```python
-## Generate evidence numbers between 10 and 20
+# Generate evidence numbers between 10 and 20
+# Generate a number of convictions from the evidence with a random noise added
 np.random.seed(42)
-num_evid = np.random.randint(low=10, high=50, size=80)
+sampleSize = 200
+numEvid = np.random.randint(low=10, high=50, size=sampleSize)
+numConvict = numEvid * 10 + np.random.randint(low=200, high=400, size=sampleSize)
 
-# Generate number of convictions from the evidence with a random noise added
-num_convict = num_evid + np.random.randint(low=3, high=10, size=80)
-
-print(num_evid)
-print(num_convict)
-
-# Plot the numbers
-plt.title('Number of convictions based on evidence')
-plt.plot(num_evid, num_convict, "bx") # bx = blue x
+# Plot the data to get a feeling
+plt.title("Number of convictions based on evidence")
+plt.plot(numEvid, numConvict, "bx")
 plt.xlabel("Number of Evidence")
 plt.ylabel("Number of Convictions")
-plt.show()
+plt.show(block=False)  # Use the keyword 'block' to override the blocking behavior
 ```
 
 ## Build a TensorFlow model
@@ -124,31 +121,48 @@ To build a basic machine learning model, we need to prepare the data, make predi
 ### Prepare data
 
 ```python
-# normalize values
-def normalize(array):
-  return (array - array.mean()) / array.std()
-
+# create a fumnction for normalizing values
 # use 70% of the data for training (the remaining 30% shall be used for testing)
+def normalize(array):
+    return (array - array.mean()) / array.std()
+
+
 numTrain = math.floor(sampleSize * 0.7)
 
-# convert list to an array
-
+# convert list to an array and normalize arrays
 trainEvid = np.asanyarray(numEvid[:numTrain])
 trainConvict = np.asanyarray(numConvict[:numTrain])
-
-# normalize arrays
 trainEvidNorm = normalize(trainEvid)
 trainConvictdNorm = normalize(trainConvict)
+
+testEvid = np.asanyarray(numEvid[numTrain:])
+testConvict = np.asanyarray(numConvict[numTrain:])
+testEvidNorm = normalize(testEvid)
+testConvictdNorm = normalize(testConvict)
 ```
 
-###
+### Set up variables and operations for TensorFlow
+
+```python
+# define placeholders  and variables
+tfEvid = tf.placeholder(tf.float32, name="Evid")
+tfConvict = tf.placeholder(tf.float32, name="Convict")
+tfEvidFactor = tf.Variable(np.random.randn(), name="EvidFactor")
+tfConvictOffset = tf.Variable(np.random.randn(), name="ConvictOffset")
+
+# define the operation for predicting the conviction based on evidence by adding both values
+# define a loss function (mean squared error)
+tfPredict = tf.add(tf.multiply(tfEvidFactor, tfEvid), tfConvictOffset)
+tfCost = tf.reduce_sum(tf.pow(tfPredict - tfConvict, 2)) / (2 * numTrain)
+
+# set a learning rate and a gradient descent optimizer
+learningRate = 0.1
+gradDesc = tf.train.GradientDescentOptimizer(learningRate).minimize(tfCost)
+```
+
 
 Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More in reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
 
-
-```python
-
-```
 ```python
 
 ```
