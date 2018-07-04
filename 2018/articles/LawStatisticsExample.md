@@ -19,6 +19,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 	- [Build a TensorFlow model](#build-a-tensorflow-model)
 		- [Prepare data](#prepare-data)
 		- [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
+		- [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
 
 <!-- /TOC -->
 
@@ -160,11 +161,70 @@ learningRate = 0.1
 gradDesc = tf.train.GradientDescentOptimizer(learningRate).minimize(tfCost)
 ```
 
+Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
 
-Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More in reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
+### Start the calculations with TensorFlow session
 
 ```python
+# initialize variables
+init = tf.global_variables_initializer()
 
+with tf.Session() as sess:
+    sess.run(init)
+
+    # set up iteration parameters
+    displayEvery = 2
+    numTrainingSteps = 50
+
+    # Calculate the number of lines to animation
+    # define variables for updating during animation
+    numPlotsAnim = math.floor(numTrainingSteps / displayEvery)
+    evidFactorAnim = np.zeros(numPlotsAnim)
+    convictOffsetAnim = np.zeros(numPlotsAnim)
+    plotIndex = 0
+
+    # iterate through the training data
+    for i in range(numTrainingSteps):
+
+        # ======== Start training by running the session and feeding the gradDesc
+        for (x, y) in zip(trainEvidNorm, trainConvictdNorm):
+            sess.run(gradDesc, feed_dict={tfEvid: x, tfConvict: y})
+
+        # Print status of learning
+        if (i + 1) % displayEvery == 0:
+            cost = sess.run(
+                tfCost, feed_dict={tfEvid: trainEvidNorm, tfConvict: trainConvictdNorm}
+            )
+            print(
+                "iteration #:",
+                "%04d" % (i + 1),
+                "cost=",
+                "{:.9f}".format(cost),
+                "evidFactor=",
+                sess.run(tfEvidFactor),
+                "convictOffset=",
+                sess.run(tfConvictOffset),
+            )
+
+            # store the result of each step in the animation variables
+            evidFactorAnim[plotIndex] = sess.run(tfEvidFactor)
+            convictOffsetAnim[plotIndex] = sess.run(tfConvictOffset)
+            plotIndex += 1
+
+    # log the optimized result
+    print("Optimized!")
+    trainingCost = sess.run(
+        tfCost, feed_dict={tfEvid: trainEvidNorm, tfConvict: trainConvictdNorm}
+    )
+    print(
+        "Trained cost=",
+        trainingCost,
+        "evidFactor=",
+        sess.run(tfEvidFactor),
+        "convictOffset=",
+        sess.run(tfConvictOffset),
+        "\n",
+    )
 ```
 ```python
 
