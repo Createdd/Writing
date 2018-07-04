@@ -1,8 +1,7 @@
 # Law and Statistics - A beginner example using TensorFlow
-[<img src="https://images.unsplash.com/photo-1530278761482-a352c8e3192c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70c20f6eb1e412c2ae298211e04cef2f&auto=format&fit=crop&w=2764&q=80">](
-https://unsplash.com/photos/bD5lzOBx-Cs)
-Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
+[<img src="https://images.unsplash.com/photo-1530278761482-a352c8e3192c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=70c20f6eb1e412c2ae298211e04cef2f&auto=format&fit=crop&w=2764&q=80">](https://unsplash.com/photos/bD5lzOBx-Cs)
+Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
     - [What we will use](#what-we-will-use)
@@ -21,27 +20,33 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
     - [Visualize the result and the process](#visualize-the-result-and-the-process)
 
 ---
+
 ## What we will use
 
 ### TensorFlow
 
 [Tensors](https://www.tensorflow.org/programmers_guide/tensors)
+
 - tf.placeholders
 - tf.Variables
 
 [Helper function](https://www.tensorflow.org/programmers_guide/variables#initializing_variables)
+
 - tf.global_variables_initializer
 
 [Math Operations](https://www.tensorflow.org/api_guides/python/math_ops)
+
 - tf.add
 - tf.multiply
 - tf.reduce_sum
 - tf.pow
 
 [Building a graph](https://www.tensorflow.org/programmers_guide/graphs#building_a_tfgraph)
+
 - tf.train.GradientDescentOptimizer
 
 [Session](https://www.tensorflow.org/programmers_guide/graphs#executing_a_graph_in_a_tfsession)
+
 - tf.Session
 
 ### Numpy (as np)
@@ -54,8 +59,6 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 ### Matplotlib
 
-
-
 ## Get started
 
 Install TensorFlow with virtualenv. See the [guide](https://www.tensorflow.org/install/install_mac) on the TF website.
@@ -65,21 +68,21 @@ Install TensorFlow with virtualenv. See the [guide](https://www.tensorflow.org/i
 ```shell
 sudo easy_install pip
 
-pip3 install --upgrade virtualenv 
+pip3 install --upgrade virtualenv
 
 virtualenv --system-site-packages <targetDirectory>
 
 cd <targetDirectory>
 
-source ./bin/activate 
+source ./bin/activate
 
 easy_install -U pip3
 
-pip3 install tensorflow 
+pip3 install tensorflow
 
 pip3 install matplotlib
-
 ```
+
 ## Get data and draw a plot
 
 ### Import everything you need
@@ -287,12 +290,12 @@ with tf.Session() as sess:
 
     plt.show()
 ```
+
 ![graphs](../assets/LawStatistics/graphs.png)
 
 ---
 
 Check out this [Pluralsight course](https://www.pluralsight.com/courses/tensorflow-getting-started) for a similar project but with more explanation. :)
-
 
 ```python
 
@@ -308,6 +311,7 @@ Daniel is a LL.M. student in business law, working as a software engineer and or
 His current personal learning efforts focus on machine learning.
 
 Connect on:
+
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@ddcreationstudi)
