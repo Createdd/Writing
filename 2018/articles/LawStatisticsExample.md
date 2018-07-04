@@ -170,6 +170,8 @@ The pragmatic difference between tf.placeholders and tf.Variable are:
 - Variables (for parameters to learn, values can be derived from training, initial values are required)
 - Placeholders (allocated storage for data, initial values are not required)
 
+I use the TensorFlow operators precisely as "tf.add(...)" because it is pretty clear what library is used for the calculation. In contrast to using just "+".
+
 ### Start the calculations with TensorFlow session
 
 ```python
