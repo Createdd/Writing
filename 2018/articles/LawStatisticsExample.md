@@ -4,26 +4,21 @@ https://unsplash.com/photos/bD5lzOBx-Cs)
 Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 
-<!-- TOC -->
-
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
-	- [What we will use](#what-we-will-use)
-		- [TensorFlow](#tensorflow)
-		- [Numpy (as np)](#numpy-as-np)
-		- [Matplotlib](#matplotlib)
-	- [Get started](#get-started)
-		- [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
-	- [Get data and draw a plot](#get-data-and-draw-a-plot)
-		- [Import everything you need](#import-everything-you-need)
-		- [Create and plot some numbers](#create-and-plot-some-numbers)
-	- [Build a TensorFlow model](#build-a-tensorflow-model)
-		- [Prepare data](#prepare-data)
-		- [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
-		- [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
-	- [Visualize the result and the process](#visualize-the-result-and-the-process)
-	- [Conclusio](#conclusio)
-
-<!-- /TOC -->
+    - [What we will use](#what-we-will-use)
+        - [TensorFlow](#tensorflow)
+        - [Numpy (as np)](#numpy-as-np)
+        - [Matplotlib](#matplotlib)
+    - [Get started](#get-started)
+        - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
+    - [Get data and draw a plot](#get-data-and-draw-a-plot)
+        - [Import everything you need](#import-everything-you-need)
+        - [Create and plot some numbers](#create-and-plot-some-numbers)
+    - [Build a TensorFlow model](#build-a-tensorflow-model)
+        - [Prepare data](#prepare-data)
+        - [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
+        - [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
+    - [Visualize the result and the process](#visualize-the-result-and-the-process)
 
 ---
 ## What we will use
@@ -294,11 +289,9 @@ with tf.Session() as sess:
 ```
 ![graphs](../assets/LawStatistics/graphs.png)
 
-## Conclusio
+---
 
-I think this is a great example to start with TensorFlow and it's basics.
-I wrote this after a great course on [Pluralsight](https://www.pluralsight.com/courses/tensorflow-getting-started), which I can recommend.
-
+Check out this [Pluralsight course](https://www.pluralsight.com/courses/tensorflow-getting-started) for a similar project but with more explanation. :)
 
 
 ```python
