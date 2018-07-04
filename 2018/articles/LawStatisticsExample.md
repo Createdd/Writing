@@ -4,20 +4,20 @@
 Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 
 - [Law and Statistics - A beginner example using TensorFlow](#law-and-statistics---a-beginner-example-using-tensorflow)
-  - [What we will use](#what-we-will-use)
-    - [TensorFlow](#tensorflow)
-    - [Numpy (as np)](#numpy-as-np)
-    - [Matplotlib](#matplotlib)
-  - [Get started](#get-started)
-    - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
-  - [Get data and draw a plot](#get-data-and-draw-a-plot)
-    - [Import everything you need](#import-everything-you-need)
-    - [Create and plot some numbers](#create-and-plot-some-numbers)
-  - [Build a TensorFlow model](#build-a-tensorflow-model)
-    - [Prepare data](#prepare-data)
-    - [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
-    - [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
-  - [Visualize the result and the process](#visualize-the-result-and-the-process)
+    - [What we will use](#what-we-will-use)
+        - [TensorFlow](#tensorflow)
+        - [Numpy (as np)](#numpy-as-np)
+        - [Matplotlib](#matplotlib)
+    - [Get started](#get-started)
+        - [Shell commands for installing everything you need](#shell-commands-for-installing-everything-you-need)
+    - [Get data and draw a plot](#get-data-and-draw-a-plot)
+        - [Import everything you need](#import-everything-you-need)
+        - [Create and plot some numbers](#create-and-plot-some-numbers)
+    - [Build a TensorFlow model](#build-a-tensorflow-model)
+        - [Prepare data](#prepare-data)
+        - [Set up variables and operations for TensorFlow](#set-up-variables-and-operations-for-tensorflow)
+        - [Start the calculations with TensorFlow session](#start-the-calculations-with-tensorflow-session)
+    - [Visualize the result and the process](#visualize-the-result-and-the-process)
 
 ## What we will use
 
@@ -95,6 +95,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
 
+As you can see I am using the "TkAgg" backend from matplotlib as it allows my to debug with my vsCode and macOS setup without any further complicated installments.
+
 ### Create and plot some numbers
 
 ```python
@@ -113,6 +115,8 @@ plt.ylabel("Number of Convictions")
 plt.show(block=False)  # Use the keyword 'block' to override the blocking behavior
 ```
 
+I am creating random values and make the number of convictions dependent on the number of evidence. Of course those numbers are made up, but they are just used to prove a point.
+
 ## Build a TensorFlow model
 
 To build a basic machine learning model, we need to prepare the data, make predictions, measure the loss and optimize by minimizing the loss.
@@ -120,7 +124,7 @@ To build a basic machine learning model, we need to prepare the data, make predi
 ### Prepare data
 
 ```python
-# create a fumnction for normalizing values
+# create a function for normalizing values
 # use 70% of the data for training (the remaining 30% shall be used for testing)
 def normalize(array):
     return (array - array.mean()) / array.std()
@@ -139,6 +143,8 @@ testConvict = np.asanyarray(numConvict[numTrain:])
 testEvidNorm = normalize(testEvid)
 testConvictdNorm = normalize(testConvict)
 ```
+
+We are splitting the data into a training and testing portion. Afterwards we normalize the values as it is necessary for machine learning projects. (See also ["feature scaling"](https://en.wikipedia.org/wiki/Feature_scaling))
 
 ### Set up variables and operations for TensorFlow
 
@@ -262,7 +268,7 @@ with tf.Session() as sess:
     plt.plot(trainEvid, trainConvict, "go", label="Training data")
     plt.plot(testEvid, testConvict, "mo", label="Testing data")
 
-    # define an animation functon that changes the ydata
+    # define an animation function that changes the ydata
     def animate(i):
         line.set_xdata(xNorm)
         line.set_ydata(
