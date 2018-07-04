@@ -18,7 +18,7 @@ Photo by Steve Roe on Unsplash - https://unsplash.com/photos/bD5lzOBx-Cs
 		- [Create and plot some numbers](#create-and-plot-some-numbers)
 	- [Build a TensorFlow model](#build-a-tensorflow-model)
 		- [Prepare data](#prepare-data)
-		- [](#)
+	- [](#)
 
 <!-- /TOC -->
 
@@ -90,9 +90,9 @@ pip3 install matplotlib
 import tensorflow as tf
 import numpy as np
 import math
-import matplotlib  
-matplotlib.use('TkAgg')   
-import matplotlib.pyplot as plt  
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 ```
 
@@ -117,7 +117,7 @@ plt.ylabel("Number of Convictions")
 plt.show()
 ```
 
-## Build a TensorFlow model 
+## Build a TensorFlow model
 
 To build a basic machine learning model, we need to prepare the data, make predictions, measure the loss and optimize by minimizing the loss.
 
@@ -131,7 +131,7 @@ def normalize(array):
 # use 70% of the data for training (the remaining 30% shall be used for testing)
 numTrain = math.floor(sampleSize * 0.7)
 
-# convert list to an array 
+# convert list to an array
 
 trainEvid = np.asanyarray(numEvid[:numTrain])
 trainConvict = np.asanyarray(numConvict[:numTrain])
@@ -141,7 +141,7 @@ trainEvidNorm = normalize(trainEvid)
 trainConvictdNorm = normalize(trainConvict)
 ```
 
-### 
+###
 
 Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More in reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
 
@@ -161,15 +161,15 @@ Use "feeding" as it, lets you inject data into any Tensor in a computation graph
 
 ---
 
-Thanks for reading my article! Feel free to leave any feedback! 
+Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-Daniel is a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna. 
-His current personal learning efforts focus on machine learning. 
+Daniel is a LL.M. student in business law, working as a software engineer and organizer of tech related events in Vienna.
+His current personal learning efforts focus on machine learning.
 
 Connect on:
-- [LinkedIn](https://www.linkedin.com/in/createdd) 
+- [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@ddcreationstudi)
 - [Twitter](https://twitter.com/DDCreationStudi)
