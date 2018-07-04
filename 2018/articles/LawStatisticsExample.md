@@ -291,6 +291,7 @@ with tf.Session() as sess:
 
     plt.show()
 ```
+![graphs](../assets/LawStatistics/graphs.png)
 
 ```python
 
