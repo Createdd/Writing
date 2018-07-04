@@ -165,7 +165,10 @@ learningRate = 0.1
 gradDesc = tf.train.GradientDescentOptimizer(learningRate).minimize(tfCost)
 ```
 
-Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
+The pragmatic difference between tf.placeholders and tf.Variable are:
+
+- Variables (for parameters to learn, values can be derived from training, initial values are required)
+- Placeholders (allocated storage for data, initial values are not required)
 
 ### Start the calculations with TensorFlow session
 
@@ -230,6 +233,8 @@ with tf.Session() as sess:
         "\n",
     )
 ```
+
+Use "feeding" as it, lets you inject data into any Tensor in a computation graph. More on reading data [here](https://www.tensorflow.org/api_guides/python/reading_data#Feeding).
 
 ## Visualize the result and the process
 
