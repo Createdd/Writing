@@ -1,8 +1,8 @@
 # Debugging TensorFlow - A starter
 
-[<img src="XXXXXXXX">](
-httpsasdfafasfasfdasf)
-Photo by Stephen Leonardi on Unsplash - httpsasdfafasfasfdasf
+[<img src="https://images.unsplash.com/photo-1496737018672-b1a6be2e949c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0aa3d84be0ad9a656a27a318f055ee9&auto=format&fit=crop&w=2691&q=80">](
+https://unsplash.com/photos/5brvJbR1Pn8)
+Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 
 
 ## Table of Contents
