@@ -9,6 +9,9 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [Table of Contents](#table-of-contents)
 	- [What this is about](#what-this-is-about)
 	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
+	- [2. Use the tf.Print operation](#2-use-the-tfprint-operation)
+	- [3. Use the Tensorboard debugger](#3-use-the-tensorboard-debugger)
+	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
 
 ## What this is about
 
@@ -33,6 +36,16 @@ The actual computation is done with `session.run()`, which means that we need to
 There are basically 3 (pragmatic) ways on how to achieve this.
 
 ## 1. Fetch and print values within Session.run
+
+
+## 2. Use the tf.Print operation
+
+
+## 3. Use the Tensorboard debugger
+
+
+
+## 4. Use the TensorFlow debugger
 
 
 
