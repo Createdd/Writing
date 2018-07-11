@@ -35,6 +35,9 @@ The actual computation is done with `session.run()`, which means that we need to
 
 There are basically 3 (pragmatic) ways on how to achieve this.
 
+As a reference I will provide my Github repository with the corresponding code.
+
+
 ## 1. Fetch and print values within Session.run
 
 
