@@ -7,15 +7,21 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 
 ## Table of Contents
 
+- [Debugging TensorFlow - A starter](#debugging-tensorflow---a-starter)
+	- [Table of Contents](#table-of-contents)
+	- [What this is about](#what-this-is-about)
+
 ## What this is about
 
+> Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - BRIAN W. KERNIGHAN
+
+Debugging in general is sometimes a tedious and challenging task. Nevertheless it is absolutely necessary to be comfortable to go through the written code and be able to identify problems.
+Normally there are many guides and the process of debugging is often well documented for many languages and frameworks.
+
+When it comes to TensorFlow however, some new challenges arise because of the way it works and it's age. 
 
 
----
 
-Check out this [Pluralsight course](https://www.pluralsight.com/courses/tensorflow-getting-started) which helped me a lot to get started. :)
-
----
 
 Thanks for reading my article! Feel free to leave any feedback!
 
