@@ -1,9 +1,7 @@
 # Debugging TensorFlow - A starter
 
-[<img src="https://images.unsplash.com/photo-1496737018672-b1a6be2e949c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0aa3d84be0ad9a656a27a318f055ee9&auto=format&fit=crop&w=2691&q=80">](
-https://unsplash.com/photos/5brvJbR1Pn8)
+[<img src="https://images.unsplash.com/photo-1496737018672-b1a6be2e949c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0aa3d84be0ad9a656a27a318f055ee9&auto=format&fit=crop&w=2691&q=80">](https://unsplash.com/photos/5brvJbR1Pn8)
 Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
-
 
 ## Table of Contents
 
@@ -18,10 +16,11 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 Debugging in general is sometimes a tedious and challenging task. Nevertheless it is absolutely necessary to be comfortable to go through the written code and be able to identify problems.
 Normally there are many guides and the process of debugging is often well documented for many languages and frameworks.
 
-When it comes to TensorFlow however, some new challenges arise because of the way it works and it's age. 
+When it comes to TensorFlow however, some new challenges arise because of the way it works.
 
+![](https://www.tensorflow.org/images/tensors_flowing.gif)
 
-
+Source and credit to https://www.tensorflow.org/guide/graphs
 
 Thanks for reading my article! Feel free to leave any feedback!
 
