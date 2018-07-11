@@ -8,7 +8,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 - [Debugging TensorFlow - A starter](#debugging-tensorflow---a-starter)
 	- [Table of Contents](#table-of-contents)
 	- [What this is about](#what-this-is-about)
-	- [1.](#1)
+	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
 
 ## What this is about
 
@@ -30,9 +30,11 @@ A TensorFlow Core programs as consisting of two discrete sections:
 
 The actual computation is done with `session.run()`, which means that we need to find a way to inspect values inside this function.
 
-There are basically 3 ways on how to achieve this.
+There are basically 3 (pragmatic) ways on how to achieve this.
 
-## 1. 
+## 1. Fetch and print values within Session.run
+
+
 
 Source and credit to https://www.tensorflow.org/guide/graphs
 
