@@ -8,6 +8,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 - [Debugging TensorFlow - A starter](#debugging-tensorflow---a-starter)
 	- [Table of Contents](#table-of-contents)
 	- [What this is about](#what-this-is-about)
+	- [1.](#1)
 
 ## What this is about
 
@@ -18,7 +19,20 @@ Normally there are many guides and the process of debugging is often well docume
 
 When it comes to TensorFlow however, some new challenges arise because of the way it works.
 
-![](https://www.tensorflow.org/images/tensors_flowing.gif)
+As the [official documentation](https://www.tensorflow.org/guide/low_level_intro) states:
+
+A TensorFlow Core programs as consisting of two discrete sections:
+
+1. Building the computational graph (a tf.Graph).
+1. Running the computational graph (using a tf.Session).
+
+![tensorsFlowing](https://www.tensorflow.org/images/tensors_flowing.gif)
+
+The actual computation is done with `session.run()`, which means that we need to find a way to inspect values inside this function.
+
+There are basically 3 ways on how to achieve this.
+
+## 1. 
 
 Source and credit to https://www.tensorflow.org/guide/graphs
 
