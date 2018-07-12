@@ -13,6 +13,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [3. Use the Tensorboard debugger](#3-use-the-tensorboard-debugger)
 		- [Visualized Learning](#visualized-learning)
 	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
+	- [(5.) Testing / Asserting with Python](#5-testing--asserting-with-python)
 
 ## What this is about
 
@@ -55,6 +56,10 @@ https://www.tensorflow.org/guide/summaries_and_tensorboard
 
 
 ## 4. Use the TensorFlow debugger
+
+## (5.) Testing / Asserting with Python
+
+
 
 
 
