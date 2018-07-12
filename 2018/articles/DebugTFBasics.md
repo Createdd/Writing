@@ -13,7 +13,6 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [3. Use the Tensorboard debugger](#3-use-the-tensorboard-debugger)
 		- [Visualized Learning](#visualized-learning)
 	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
-	- [(5.) Testing / Asserting with Python](#5-testing--asserting-with-python)
 
 ## What this is about
 
@@ -41,12 +40,11 @@ As a reference I will provide my Github repository with the corresponding code. 
 
 If you have trouble understanding the underlying code base for the text classification, I would recommend to go through the [tutorial](https://www.tensorflow.org/tutorials/keras/basic_text_classification) on the official Tensorflow page and start a **Google Colab** instance.
 
-
 ## 1. Fetch and print values within Session.run
 
+This is probably the fastest and easiest way to get the information you need.
 
 ## 2. Use the tf.Print operation
-
 
 ## 3. Use the Tensorboard debugger
 
@@ -54,14 +52,10 @@ If you have trouble understanding the underlying code base for the text classifi
 
 https://www.tensorflow.org/guide/summaries_and_tensorboard
 
-
 ## 4. Use the TensorFlow debugger
 
-## (5.) Testing / Asserting with Python
 
-
-
-
+model.summary() https://www.tensorflow.org/versions/r1.3/api_docs/python/tf/contrib/keras/models/Model#summary
 
 Source and credit to https://www.tensorflow.org/guide/graphs
 
