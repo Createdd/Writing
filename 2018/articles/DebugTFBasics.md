@@ -36,7 +36,7 @@ The actual computation is done with `session.run()`, which means that we need to
 
 There are basically 3 (pragmatic) ways on how to achieve this.
 
-As a reference I will provide my Github repository with the corresponding code.
+As a reference I will provide my Github repository with the corresponding code. I will use the [text classification tutorial](https://www.tensorflow.org/tutorials/keras/basic_text_classification) from TensorFlow as a code base to demonstrate the debugging.
 
 If you have trouble understanding the underlying code base for the text classification, I would recommend to go through the [tutorial](https://www.tensorflow.org/tutorials/keras/basic_text_classification) on the official Tensorflow page and start a **Google Colab** instance.
 
