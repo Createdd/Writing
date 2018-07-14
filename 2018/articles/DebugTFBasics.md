@@ -64,13 +64,15 @@ This is probably the fastest and easiest way to get the information you need.
 - any evaluation can be fetched from everywhere
 - it's necessary to hold the reference to the tensor which is bad in complex models
 
-In essence you run the session in a print statement and feed it the dictionary, like `print(
+In essence, you run the session in a print statement and feed it the dictionary, like `print(
     f"The bias parameter is: {sess.run(b, feed_dict={x: mnist.test.images, y_: mnist.test.labels})}"
 )`
 
 Gist: https://gist.github.com/Createdd/8dad9440d71a841a7e753420891ecea7
 
 If the code gets more complex, the [partial_run execution of a session](https://www.tensorflow.org/api_docs/python/tf/Session#partial_run) could be used. But since this is an experimental feature I will not implement this for demonstration.
+
+Additionally, don't forget the [`.eval()`](https://www.tensorflow.org/api_docs/python/tf/Tensor#eval) method for evaluating tensors in specific.
 
 ## 2. Use the tf.Print operation
 
