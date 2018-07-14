@@ -43,7 +43,7 @@ We will use a basic neural network to classify handwritten digits from the MNIST
 - `tf.nn.softmax_cross_entropy_with_logits_v2` as TF classification operation for defining the loss
 - `tf.train.GradientDescentOptimizer` for minimizing the loss
 
-Running this small neural network shows, that it can already achieve a Accuracy of **92.0199990272522%**
+Running this small neural network shows, that it can already achieve a Accuracy of **~92%**
 
 
 Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
@@ -51,10 +51,12 @@ Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
 
 Now for debugging, there are basically 4 (pragmatic) ways on how to achieve this.
 
-> As a side note: It often makes sense to assert shapes to ensure everything works together as intended.
+> As a side note: It is often useful to assert shapes to ensure everything works together as intended.
 
 
 ## 1. Fetch and print values within Session.run
+
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/fetchValuesInSession/mnistBasic.py)
 
 This is probably the fastest and easiest way to get the information you need.
 
@@ -62,7 +64,13 @@ This is probably the fastest and easiest way to get the information you need.
 - any evaluation can be fetched from everywhere
 - it's necessary to hold the reference to the tensor which is bad in complex models
 
+In essence you run the session in a print statement and feed it the dictionary, like `print(
+    f"The bias parameter is: {sess.run(b, feed_dict={x: mnist.test.images, y_: mnist.test.labels})}"
+)`
 
+Gist: https://gist.github.com/Createdd/8dad9440d71a841a7e753420891ecea7
+
+If the code gets more complex, the [partial_run execution of a session](https://www.tensorflow.org/api_docs/python/tf/Session#partial_run) could be used. But since this is an experimental feature I will not implement this for demonstration.
 
 ## 2. Use the tf.Print operation
 
