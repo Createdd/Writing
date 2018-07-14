@@ -51,10 +51,18 @@ Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
 
 Now for debugging, there are basically 4 (pragmatic) ways on how to achieve this.
 
+> As a side note: It often makes sense to assert shapes to ensure everything works together as intended.
+
 
 ## 1. Fetch and print values within Session.run
 
 This is probably the fastest and easiest way to get the information you need.
+
+- easy and fast
+- any evaluation can be fetched from everywhere
+- it's necessary to hold the reference to the tensor which is bad in complex models
+
+
 
 ## 2. Use the tf.Print operation
 
