@@ -28,8 +28,8 @@ As the [official documentation](https://www.tensorflow.org/guide/low_level_intro
 
 A TensorFlow Core programs as consisting of two discrete sections:
 
-1. Building the computational graph (a tf.Graph).
-1. Running the computational graph (using a tf.Session).
+1.  Building the computational graph (a tf.Graph).
+1.  Running the computational graph (using a tf.Session).
 
 ![tensorsFlowing](https://www.tensorflow.org/images/tensors_flowing.gif)
 
@@ -40,19 +40,17 @@ The actual computation is done with `session.run()`, which means that we need to
 As a reference I will provide my Github repository with the corresponding code [here](https://github.com/Createdd/tensorFlowTest/blob/debug/mnistPlain/mnistBasic.py).
 
 We will use a basic neural network to classify handwritten digits from the MNIST dataset, using:
+
 - `tf.nn.softmax_cross_entropy_with_logits_v2` as TF classification operation for defining the loss
 - `tf.train.GradientDescentOptimizer` for minimizing the loss
 
 Running this small neural network shows, that it can already achieve a Accuracy of **~92%**
 
-
 Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
-
 
 Now for debugging, there are basically 4 (pragmatic) ways on how to achieve this.
 
 > As a side note: It is often useful to assert shapes to ensure everything works together as intended.
-
 
 ## 1. Fetch and print values within Session.run
 
@@ -64,9 +62,7 @@ This is probably the fastest and easiest way to get the information you need.
 - any evaluation can be fetched from everywhere
 - it's necessary to hold the reference to the tensor which is bad in complex models
 
-In essence, you run the session in a print statement and feed it the dictionary, like `print(
-    f"The bias parameter is: {sess.run(b, feed_dict={x: mnist.test.images, y_: mnist.test.labels})}"
-)`
+In essence, you run the session in a print statement and feed it the dictionary, like `print( f"The bias parameter is: {sess.run(b, feed_dict={x: mnist.test.images, y_: mnist.test.labels})}" )`
 
 Gist: https://gist.github.com/Createdd/8dad9440d71a841a7e753420891ecea7
 
@@ -76,6 +72,21 @@ Additionally, don't forget the [`.eval()`](https://www.tensorflow.org/api_docs/p
 
 ## 2. Use the tf.Print operation
 
+[See full code code here.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfPrint/mnistBasic.py)
+
+The [tf.Print method](https://www.tensorflow.org/api_docs/python/tf/Print) comes in handy during run-time evaluation when we don't want to explicitly fetch the code with session.run(). It is an identity op that prints data when evaluating.
+
+- it allows to see the development of values during evaluation
+- it has limited configuration and therefore can easily clog the terminal
+
+Gist: https://gist.github.com/Createdd/7bdac64d96192462b3a5018c048ce770
+
+Yufeng G created a fantastic video and [article about how to use the tf.Print statement](https://towardsdatascience.com/using-tf-print-in-tensorflow-aa26e1cff11e). And as he points out, it is vital to structure the print node the way that it is used further. As he says:
+
+> It is vitally important that you actually use this returned node, because if you don’t, it will be dangling.
+
+In my code I added a print statement that fetches the values within the session to illustrate how both methods perform differently in execution.
+
 ## 3. Use the Tensorboard debugger
 
 ### Visualized Learning
@@ -83,7 +94,6 @@ Additionally, don't forget the [`.eval()`](https://www.tensorflow.org/api_docs/p
 https://www.tensorflow.org/guide/summaries_and_tensorboard
 
 ## 4. Use the TensorFlow debugger
-
 
 model.summary() https://www.tensorflow.org/versions/r1.3/api_docs/python/tf/contrib/keras/models/Model#summary
 
