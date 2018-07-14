@@ -11,7 +11,11 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [The reference code base](#the-reference-code-base)
 	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
 	- [2. Use the tf.Print operation](#2-use-the-tfprint-operation)
-	- [3. Use the Tensorboard debugger / Visualized Learning](#3-use-the-tensorboard-debugger--visualized-learning)
+	- [3. Use Tensorboard (debugger) for visualization](#3-use-tensorboard-debugger-for-visualization)
+		- [a) clean the graph with proper names and name scopes](#a-clean-the-graph-with-proper-names-and-name-scopes)
+		- [b) Add tf.summaries](#b-add-tfsummaries)
+		- [c) Add a tf.summary.FileWriter to create log files](#c-add-a-tfsummaryfilewriter-to-create-log-files)
+		- [d) Start the tensorboard server from your terminal](#d-start-the-tensorboard-server-from-your-terminal)
 	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
 
 ## What this is about
@@ -89,13 +93,48 @@ In my code I added a print statement that fetches the values within the session 
 With runtime evaluation comes the possibility of [runtime assertion](https://www.tensorflow.org/api_guides/python/check_ops#asserts-and-boolean-checks) with `tf.Assert` .
 
 
-## 3. Use the Tensorboard debugger / Visualized Learning
+## 3. Use Tensorboard (debugger) for visualization
 
-The [TF website](https://www.tensorflow.org/guide/summaries_and_tensorboard) offers a great tutorial for implementing and using this debugger.
+Before diving into this debugging method, be aware that there is the **Tensorboard** and the **Tensorboard debugger**!
+
+The [TF website](https://www.tensorflow.org/guide/summaries_and_tensorboard) offers a great tutorial for implementing and using the board.
 
 Key for the usage is the serializing of the data. TensorFlow provides the summary operations, which allow to export condensed information about the model. They are like anchors telling the visualization board what to plot.
 
+### a) clean the graph with proper names and name scopes
 
+First we need to organize all the variables and operations with the [`scope` methods](https://www.tensorflow.org/guide/graph_viz#name_scoping_and_nodes) that TF provides. 
+
+```python
+with tf.name_scope("variables_scope"):
+    x = tf.placeholder(tf.float32, shape=[None, 784], name="x_placeholder")
+    y_ = tf.placeholder(tf.float32, shape=[None, 10], name="y_placeholder")
+```
+
+### b) Add tf.summaries
+
+For example (from the TF website):
+```python
+with tf.name_scope("weights_scope"):
+    W = tf.Variable(tf.zeros([784, 10]), name="weights_variable")
+    tf.summary.histogram("weight_histogram", W)
+```
+
+### c) Add a tf.summary.FileWriter to create log files
+
+Tipp: Make sure to create sub folders for each log to avoid accumulation of graphs
+
+### d) Start the tensorboard server from your terminal
+
+For example: `tensorboard --logdir=./tfb_logs/ --port=8090 --host=127.0.0.1`
+
+Navigating to the tensorboard server (in this case `http://127.0.0.1:8090`) shows the following:
+
+![tensorboardDistr](../assets/debugTF/tensorboardDistr.png)
+
+Now the the power of 
+
+Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
 
 ## 4. Use the TensorFlow debugger
