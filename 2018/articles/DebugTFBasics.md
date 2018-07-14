@@ -94,6 +94,8 @@ With runtime evaluation comes the possibility of [runtime assertion](https://www
 
 ## 3. Use Tensorboard (debugger) for visualization
 
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+
 Before diving into this debugging method, be aware that there is the **Tensorboard** and the **Tensorboard debugger**!
 
 The [TF website](https://www.tensorflow.org/guide/summaries_and_tensorboard) offers a great tutorial for implementing and using the board.
@@ -132,7 +134,7 @@ Navigating to the tensorboard server (in this case `http://127.0.0.1:8090`) show
 
 ![tensorboardDistr](../assets/debugTF/tensorboardDistr.png)
 
-Now the the power of
+Now the full power and use of tensorboard becomes clear. It allows you very easily to spot errors in your machine learning model. My code example is a very simple one. Imagine a model with multiple layers and more variables and operations!
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
