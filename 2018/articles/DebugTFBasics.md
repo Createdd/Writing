@@ -11,8 +11,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [The reference code base](#the-reference-code-base)
 	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
 	- [2. Use the tf.Print operation](#2-use-the-tfprint-operation)
-	- [3. Use the Tensorboard debugger](#3-use-the-tensorboard-debugger)
-		- [Visualized Learning](#visualized-learning)
+	- [3. Use the Tensorboard debugger / Visualized Learning](#3-use-the-tensorboard-debugger--visualized-learning)
 	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
 
 ## What this is about
@@ -87,11 +86,17 @@ Yufeng G created a fantastic video and [article about how to use the tf.Print st
 
 In my code I added a print statement that fetches the values within the session to illustrate how both methods perform differently in execution.
 
-## 3. Use the Tensorboard debugger
+With runtime evaluation comes the possibility of [runtime assertion](https://www.tensorflow.org/api_guides/python/check_ops#asserts-and-boolean-checks) with `tf.Assert` .
 
-### Visualized Learning
 
-https://www.tensorflow.org/guide/summaries_and_tensorboard
+## 3. Use the Tensorboard debugger / Visualized Learning
+
+The [TF website](https://www.tensorflow.org/guide/summaries_and_tensorboard) offers a great tutorial for implementing and using this debugger.
+
+Key for the usage is the serializing of the data. TensorFlow provides the summary operations, which allow to export condensed information about the model. They are like anchors telling the visualization board what to plot.
+
+
+
 
 ## 4. Use the TensorFlow debugger
 
