@@ -8,7 +8,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 - [Debugging TensorFlow - A starter](#debugging-tensorflow---a-starter)
 	- [Table of Contents](#table-of-contents)
 	- [What this is about](#what-this-is-about)
-		- [The reference code base](#the-reference-code-base)
+	- [The reference code base](#the-reference-code-base)
 	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
 	- [2. Use the tf.Print operation](#2-use-the-tfprint-operation)
 	- [3. Use the Tensorboard debugger](#3-use-the-tensorboard-debugger)
@@ -35,17 +35,21 @@ A TensorFlow Core programs as consisting of two discrete sections:
 
 The actual computation is done with `session.run()`, which means that we need to find a way to inspect values inside this function.
 
-### The reference code base
+## The reference code base
 
-As a reference I will provide my Github repository with the corresponding code.
+As a reference I will provide my Github repository with the corresponding code [here](https://github.com/Createdd/tensorFlowTest/blob/debug/mnistPlain/mnistBasic.py).
 
 We will use a basic neural network to classify handwritten digits from the MNIST dataset, using:
-- the `tf.nn.softmax_cross_entropy_with_logits_v2` as TF classification operation
-- the `re`
+- `tf.nn.softmax_cross_entropy_with_logits_v2` as TF classification operation for defining the loss
+- `tf.train.GradientDescentOptimizer` for minimizing the loss
+
+Running this small neural network shows, that it can already achieve a Accuracy of **92.0199990272522%**
 
 
+Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
 
-There are basically 3 (pragmatic) ways on how to achieve this.
+
+Now for debugging, there are basically 4 (pragmatic) ways on how to achieve this.
 
 
 ## 1. Fetch and print values within Session.run
