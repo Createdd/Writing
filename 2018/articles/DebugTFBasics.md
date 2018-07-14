@@ -92,7 +92,6 @@ In my code I added a print statement that fetches the values within the session 
 
 With runtime evaluation comes the possibility of [runtime assertion](https://www.tensorflow.org/api_guides/python/check_ops#asserts-and-boolean-checks) with `tf.Assert` .
 
-
 ## 3. Use Tensorboard (debugger) for visualization
 
 Before diving into this debugging method, be aware that there is the **Tensorboard** and the **Tensorboard debugger**!
@@ -103,7 +102,7 @@ Key for the usage is the serializing of the data. TensorFlow provides the summar
 
 ### a) clean the graph with proper names and name scopes
 
-First we need to organize all the variables and operations with the [`scope` methods](https://www.tensorflow.org/guide/graph_viz#name_scoping_and_nodes) that TF provides. 
+First we need to organize all the variables and operations with the [`scope` methods](https://www.tensorflow.org/guide/graph_viz#name_scoping_and_nodes) that TF provides.
 
 ```python
 with tf.name_scope("variables_scope"):
@@ -114,6 +113,7 @@ with tf.name_scope("variables_scope"):
 ### b) Add tf.summaries
 
 For example (from the TF website):
+
 ```python
 with tf.name_scope("weights_scope"):
     W = tf.Variable(tf.zeros([784, 10]), name="weights_variable")
@@ -132,10 +132,9 @@ Navigating to the tensorboard server (in this case `http://127.0.0.1:8090`) show
 
 ![tensorboardDistr](../assets/debugTF/tensorboardDistr.png)
 
-Now the the power of 
+Now the the power of
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
-
 
 ## 4. Use the TensorFlow debugger
 
