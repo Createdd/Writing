@@ -145,7 +145,8 @@ As the [Tensorboard Github repository](https://github.com/tensorflow/tensorboard
 
 > This dashboard is in its alpha release. Some features are not yet fully functional.
 
-However, this does not mean that it can already be used and provides cool debugging features. Please check out the Github repository to get an adequate overview. They have done a great job.
+However, this does not mean that it can already be used and provides cool debugging features. Please check out the Github repository to get an adequate overview and also see their [video](https://www.youtube.com/watch?v=XcHWLsVmHvk) to get a deeper understanding. They have done a great job.
+
 
 To accomplish this there are 3 things to add to our previous example:
 
@@ -156,7 +157,7 @@ To accomplish this there are 3 things to add to our previous example:
 Now you have the possibility to debug the whole visualized model like with any other debugger but with a beautiful map.
 You are able to select certain nodes and inspect them, control execution with the "step" and "continue" buttons and visualizing tensors and their values.
 
-
+![tensorboardDebugger](../assets/debugTF/tensorboardDebugger.png)
 
 
 [See my full code here on Github.]()
