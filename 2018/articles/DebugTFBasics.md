@@ -11,12 +11,13 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 	- [The reference code base](#the-reference-code-base)
 	- [1. Fetch and print values within Session.run](#1-fetch-and-print-values-within-sessionrun)
 	- [2. Use the tf.Print operation](#2-use-the-tfprint-operation)
-	- [3. Use Tensorboard (debugger) for visualization](#3-use-tensorboard-debugger-for-visualization)
+	- [3. Use Tensorboard visualization for monitoring](#3-use-tensorboard-visualization-for-monitoring)
 		- [a) clean the graph with proper names and name scopes](#a-clean-the-graph-with-proper-names-and-name-scopes)
 		- [b) Add tf.summaries](#b-add-tfsummaries)
 		- [c) Add a tf.summary.FileWriter to create log files](#c-add-a-tfsummaryfilewriter-to-create-log-files)
 		- [d) Start the tensorboard server from your terminal](#d-start-the-tensorboard-server-from-your-terminal)
-	- [4. Use the TensorFlow debugger](#4-use-the-tensorflow-debugger)
+	- [4. Use the Tensorboard debugger](#4-use-the-tensorboard-debugger)
+	- [5. Use the TensorFlow debugger](#5-use-the-tensorflow-debugger)
 
 ## What this is about
 
@@ -92,7 +93,7 @@ In my code I added a print statement that fetches the values within the session 
 
 With runtime evaluation comes the possibility of [runtime assertion](https://www.tensorflow.org/api_guides/python/check_ops#asserts-and-boolean-checks) with `tf.Assert` .
 
-## 3. Use Tensorboard (debugger) for visualization
+## 3. Use Tensorboard visualization for monitoring
 
 [See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
 
@@ -138,7 +139,19 @@ Now the full power and use of tensorboard becomes clear. It allows you very easi
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
-## 4. Use the TensorFlow debugger
+## 4. Use the Tensorboard debugger
+
+
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+
+Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
+
+## 5. Use the TensorFlow debugger
+
+
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+
+Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
 model.summary() https://www.tensorflow.org/versions/r1.3/api_docs/python/tf/contrib/keras/models/Model#summary
 
