@@ -55,13 +55,11 @@ Running this small neural network shows, that it can already achieve a Accuracy 
 
 Gist: https://gist.github.com/Createdd/e438507adc368a78286caede4622aedb
 
-Now for debugging, there are basically 4 (pragmatic) ways on how to achieve this.
+Now for debugging, there are basically 5 (pragmatic) ways on how to achieve this.
 
 > As a side note: It is often useful to assert shapes to ensure everything works together as intended.
 
 ## 1. Fetch and print values within Session.run
-
-[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/fetchValuesInSession/mnistBasic.py)
 
 This is probably the fastest and easiest way to get the information you need.
 
@@ -71,22 +69,22 @@ This is probably the fastest and easiest way to get the information you need.
 
 In essence, you run the session in a print statement and feed it the dictionary, like `print( f"The bias parameter is: {sess.run(b, feed_dict={x: mnist.test.images, y_: mnist.test.labels})}" )`
 
-Gist: https://gist.github.com/Createdd/8dad9440d71a841a7e753420891ecea7
 
 If the code gets more complex, the [partial_run execution of a session](https://www.tensorflow.org/api_docs/python/tf/Session#partial_run) could be used. But since this is an experimental feature I will not implement this for demonstration.
 
 Additionally, don't forget the [`.eval()`](https://www.tensorflow.org/api_docs/python/tf/Tensor#eval) method for evaluating tensors in specific.
 
-## 2. Use the tf.Print operation
+Gist: https://gist.github.com/Createdd/8dad9440d71a841a7e753420891ecea7
 
-[See full code code here.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfPrint/mnistBasic.py)
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/fetchValuesInSession/mnistBasic.py)
+
+## 2. Use the tf.Print operation
 
 The [tf.Print method](https://www.tensorflow.org/api_docs/python/tf/Print) comes in handy during run-time evaluation when we don't want to explicitly fetch the code with session.run(). It is an identity op that prints data when evaluating.
 
 - it allows to see the development of values during evaluation
 - it has limited configuration and therefore can easily clog the terminal
 
-Gist: https://gist.github.com/Createdd/7bdac64d96192462b3a5018c048ce770
 
 Yufeng G created a fantastic video and [article about how to use the tf.Print statement](https://towardsdatascience.com/using-tf-print-in-tensorflow-aa26e1cff11e). And as he points out, it is vital to structure the print node the way that it is used further. As he says:
 
@@ -96,9 +94,11 @@ In my code I added a print statement that fetches the values within the session 
 
 With runtime evaluation comes the possibility of [runtime assertion](https://www.tensorflow.org/api_guides/python/check_ops#asserts-and-boolean-checks) with `tf.Assert` .
 
-## 3. Use Tensorboard visualization for monitoring
+Gist: https://gist.github.com/Createdd/7bdac64d96192462b3a5018c048ce770
 
-[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+[See full code code here.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfPrint/mnistBasic.py)
+
+## 3. Use Tensorboard visualization for monitoring
 
 Before diving into this debugging method, be aware that there is the **Tensorboard** and the **Tensorboard debugger**!
 
@@ -142,6 +142,8 @@ Now the full power and use of tensorboard becomes clear. It allows you very easi
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+
 ## 4. Use the Tensorboard debugger
 
 As the [Tensorboard Github repository](https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/debugger) states:
@@ -163,9 +165,9 @@ You are able to select certain nodes and inspect them, control execution with th
 
 There is much more to talk about this unique feature of Tensorflow but I will probably dedicate an own article to that.
 
-[See my full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboardDebugger/mnistBasic.py)
-
 Gist: https://gist.github.com/Createdd/d34e252b6f1ff33d3eb39a7c8b963eeb
+
+[See my full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboardDebugger/mnistBasic.py)
 
 ## 5. Use the TensorFlow debugger
 
@@ -183,9 +185,9 @@ So the key feature here are the commands `invoke_stepper` and then pressing `s` 
 
 ![tfdbgCLI](../assets/debugTF/tfdbgCLI.png)
 
-[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfdbg/mnistBasic.py)
-
 Gist: https://gist.github.com/Createdd/83fd4241a94a9164737602134a4e243e
+
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfdbg/mnistBasic.py)
 
 ## Conclusio
 
