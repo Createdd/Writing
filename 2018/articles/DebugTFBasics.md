@@ -18,6 +18,7 @@ Photo by Matthew Kane on Unsplash - https://unsplash.com/photos/5brvJbR1Pn8
 		- [d) Start the tensorboard server from your terminal](#d-start-the-tensorboard-server-from-your-terminal)
 	- [4. Use the Tensorboard debugger](#4-use-the-tensorboard-debugger)
 	- [5. Use the TensorFlow debugger](#5-use-the-tensorflow-debugger)
+	- [Conclusio](#conclusio)
 
 ## What this is about
 
@@ -168,11 +169,11 @@ Gist: https://gist.github.com/Createdd/d34e252b6f1ff33d3eb39a7c8b963eeb
 
 ## 5. Use the TensorFlow debugger
 
-The last method, but also the most powerful is the [official TensorFlow debugger](https://www.tensorflow.org/guide/debugger).
+The last method, but also very powerful is the [official TensorFlow debugger](https://www.tensorflow.org/guide/debugger).
 
 This debugger focuses on the command-line interface (CLI) of tfdbg, as opposed to the graphical user interface (GUI) of tfdbg, i.e., the TensorBoard Debugger Plugin.
 
-You simply wrap the session with `tf_debug.LocalCLIDebugWrapperSession(sess)` and the you start the debugging with executing the file. (maybe it's necessary to add the `--debug` flag)
+You simply wrap the session with `tf_debug.LocalCLIDebugWrapperSession(sess)` and then you start the debugging with executing the file. (maybe it's necessary to add the `--debug` flag)
 
 It basically allows to run and step through the execution of your model, while providing evaluation metrics.
 
@@ -185,6 +186,26 @@ So the key feature here are the commands `invoke_stepper` and then pressing `s` 
 [See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfdbg/mnistBasic.py)
 
 Gist: https://gist.github.com/Createdd/83fd4241a94a9164737602134a4e243e
+
+## Conclusio
+
+As shown, there are many ways on how to debug a TensorFlow application. Each method has its own strengths and weaknesses.
+I didn't mention the Python debugger, because it is not TensorFlow specific, but keep in mind that the simple Python debugger already provides some good insights!
+
+There is also a great [presentation by Wookayin](https://wookayin.github.io/tensorflow-talk-debugging/#74) who also talks about those concepts but also freshes up some general debugging advise, which is:
+
+- name tensors properly
+- check and sanitize input
+- logging
+- assertions
+- proper use of exceptions
+- failing fast -> immediately abort if something is wrong
+- don't repeat yourself
+- organize your modules and code
+
+I am really excited for all the n
+
+---
 
 Thanks for reading my article! Feel free to leave any feedback!
 
