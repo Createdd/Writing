@@ -205,7 +205,7 @@ There is a great [presentation by Wookayin](https://wookayin.github.io/tensorflo
 - don't repeat yourself
 - organize your modules and code
 
-I am really excited for all the n
+I am really excited for all the features that TensorFlow has to offer for people who are building machine learning systems. They are doing a great job! Looking forward to further developments! :)
 
 ---
 
