@@ -37,6 +37,8 @@ A TensorFlow Core programs as consisting of two discrete sections:
 
 ![tensorsFlowing](https://www.tensorflow.org/images/tensors_flowing.gif)
 
+Source and credit to https://www.tensorflow.org/guide/graphs
+
 The actual computation is done with `session.run()`, which means that we need to find a way to inspect values inside this function.
 
 ## The reference code base
@@ -158,19 +160,25 @@ You are able to select certain nodes and inspect them, control execution with th
 
 ![tensorboardDebugger](../assets/debugTF/tensorboardDebugger.png)
 
+There is much more to talk about this unique feature of Tensorflow but I will probably dedicate an own article to that.
+
 [See my full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboardDebugger/mnistBasic.py)
 
 Gist: https://gist.github.com/Createdd/d34e252b6f1ff33d3eb39a7c8b963eeb
 
 ## 5. Use the TensorFlow debugger
 
+The last method, but also the most powerful is the [official TensorFlow debugger](https://www.tensorflow.org/guide/debugger).
+
+This debugger focuses on the command-line interface (CLI) of tfdbg, as opposed to the graphical user interface (GUI) of tfdbg, i.e., the TensorBoard Debugger Plugin.
+
+
+
 [See full code here on Github.]()
 
-Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
+Gist: 
 
-model.summary() https://www.tensorflow.org/versions/r1.3/api_docs/python/tf/contrib/keras/models/Model#summary
 
-Source and credit to https://www.tensorflow.org/guide/graphs
 
 Thanks for reading my article! Feel free to leave any feedback!
 
