@@ -171,7 +171,7 @@ Gist: https://gist.github.com/Createdd/d34e252b6f1ff33d3eb39a7c8b963eeb
 
 ## 5. Use the TensorFlow debugger
 
-The last method, but also very powerful is the [official TensorFlow debugger](https://www.tensorflow.org/guide/debugger).
+The last method, but also very powerful is the [CLI TensorFlow debugger](https://www.tensorflow.org/guide/debugger).
 
 This debugger focuses on the command-line interface (CLI) of tfdbg, as opposed to the graphical user interface (GUI) of tfdbg, i.e., the TensorBoard Debugger Plugin.
 
