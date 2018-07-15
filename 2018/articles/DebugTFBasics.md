@@ -194,7 +194,7 @@ Gist: https://gist.github.com/Createdd/83fd4241a94a9164737602134a4e243e
 As shown, there are many ways on how to debug a TensorFlow application. Each method has its own strengths and weaknesses.
 I didn't mention the Python debugger, because it is not TensorFlow specific, but keep in mind that the simple Python debugger already provides some good insights!
 
-There is also a great [presentation by Wookayin](https://wookayin.github.io/tensorflow-talk-debugging/#74) who also talks about those concepts but also freshes up some general debugging advise, which is:
+There is a great [presentation by Wookayin](https://wookayin.github.io/tensorflow-talk-debugging/#74) who talks about those concepts as well but also freshes up some general debugging advise, which is:
 
 - name tensors properly
 - check and sanitize input
