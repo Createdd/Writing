@@ -147,7 +147,6 @@ As the [Tensorboard Github repository](https://github.com/tensorflow/tensorboard
 
 However, this does not mean that it can already be used and provides cool debugging features. Please check out the Github repository to get an adequate overview and also see their [video](https://www.youtube.com/watch?v=XcHWLsVmHvk) to get a deeper understanding. They have done a great job.
 
-
 To accomplish this there are 3 things to add to our previous example:
 
 1.  Import `from tensorflow.python import debug as tf_debug`
@@ -159,10 +158,9 @@ You are able to select certain nodes and inspect them, control execution with th
 
 ![tensorboardDebugger](../assets/debugTF/tensorboardDebugger.png)
 
+[See my full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboardDebugger/mnistBasic.py)
 
-[See my full code here on Github.]()
-
-Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
+Gist: https://gist.github.com/Createdd/d34e252b6f1ff33d3eb39a7c8b963eeb
 
 ## 5. Use the TensorFlow debugger
 
