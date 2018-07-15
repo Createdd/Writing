@@ -141,15 +141,31 @@ Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
 ## 4. Use the Tensorboard debugger
 
+As the [Tensorboard Github repository](https://github.com/tensorflow/tensorboard/tree/master/tensorboard/plugins/debugger) states:
 
-[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+> This dashboard is in its alpha release. Some features are not yet fully functional.
+
+However, this does not mean that it can already be used and provides cool debugging features. Please check out the Github repository to get an adequate overview. They have done a great job.
+
+To accomplish this there are 3 things to add to our previous example:
+
+1.  Import `from tensorflow.python import debug as tf_debug`
+2.  Add your session with `tf_debug.TensorBoardDebugWrapsperSession`
+3.  Add to your tensorboard server the `debugger_port`
+
+Now you have the possibility to debug the whole visualized model like with any other debugger but with a beautiful map.
+You are able to select certain nodes and inspect them, control execution with the "step" and "continue" buttons and visualizing tensors and their values.
+
+
+
+
+[See my full code here on Github.]()
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
 ## 5. Use the TensorFlow debugger
 
-
-[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tensorboard/mnistBasic.py)
+[See full code here on Github.]()
 
 Gist: https://gist.github.com/Createdd/a47e630e052a70c34cb845ad52cead58
 
