@@ -172,13 +172,19 @@ The last method, but also the most powerful is the [official TensorFlow debugger
 
 This debugger focuses on the command-line interface (CLI) of tfdbg, as opposed to the graphical user interface (GUI) of tfdbg, i.e., the TensorBoard Debugger Plugin.
 
+You simply wrap the session with `tf_debug.LocalCLIDebugWrapperSession(sess)` and the you start the debugging with executing the file. (maybe it's necessary to add the `--debug` flag)
 
+It basically allows to run and step through the execution of your model, while providing evaluation metrics.
 
-[See full code here on Github.]()
+I think the [official documention](https://www.tensorflow.org/guide/debugger#frequently_asked_questions) should be improved, but the also created a [video](https://www.youtube.com/watch?v=CA7fjRfduOI&t=53s) which introduces the feature in a good way.
 
-Gist: 
+So the key feature here are the commands `invoke_stepper` and then pressing `s` to step through each operation. It is the basic debugger functionality of a debugger but in the CLI. It looks like this:
 
+![tfdbgCLI](../assets/debugTF/tfdbgCLI.png)
 
+[See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfdbg/mnistBasic.py)
+
+Gist: https://gist.github.com/Createdd/83fd4241a94a9164737602134a4e243e
 
 Thanks for reading my article! Feel free to leave any feedback!
 
