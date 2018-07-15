@@ -179,7 +179,7 @@ You simply wrap the session with `tf_debug.LocalCLIDebugWrapperSession(sess)` an
 
 It basically allows to run and step through the execution of your model, while providing evaluation metrics.
 
-I think the [official documention](https://www.tensorflow.org/guide/debugger#frequently_asked_questions) should be improved, but the also created a [video](https://www.youtube.com/watch?v=CA7fjRfduOI&t=53s) which introduces the feature in a good way.
+I think the [official documention](https://www.tensorflow.org/guide/debugger#frequently_asked_questions) could be improved, but they also have created a [video](https://www.youtube.com/watch?v=CA7fjRfduOI&t=53s) which introduces the feature in a good way.
 
 So the key feature here are the commands `invoke_stepper` and then pressing `s` to step through each operation. It is the basic debugger functionality of a debugger but in the CLI. It looks like this:
 
