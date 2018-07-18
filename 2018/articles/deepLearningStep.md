@@ -21,11 +21,11 @@ This article serves as a reminder for me on how to (generally) approach a superv
 Number of layers = L
 
 1.  Initialize parameters and define hyperparameters
-2.  Loop:
-    a. Forward propagation
-    b. Compute cost
-    c. Backward propagation
-    d. Update parameters (using parameters, and grads from backward propagation)
+2.  Iterate over network:
+  - Forward propagation
+  - Compute cost
+  - Backward propagation
+  - Update parameters (using parameters, and grads from backward propagation)
 3.  Use trained parameters to predict labels
 4.  Test predictions on examples
 
