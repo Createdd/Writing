@@ -12,8 +12,11 @@ This article serves as a reminder for me on how to (generally) approach a superv
 	- [Table of Contents](#table-of-contents)
 	- [General Implementation Workflow](#general-implementation-workflow)
 	- [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
+	- [Forward propagation](#forward-propagation)
 
 ## General Implementation Workflow
+
+Number of layers = L
 
 1. Initialize parameters and define hyperparameters
 2. Loop:
@@ -32,12 +35,36 @@ for l in range(1, L):
 	parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
 ```
 
-```python
+## Forward propagation
 
+
+Define variables according to the formula:
+
+Z[l]=W[l]A[l−1]+b[l
+
+Whereas
+- Z is the input of the activation function
+- cache containing "A", "W" and "b" - for computing the backward propagation
+
+```python
+def linear_forward(A, W, b)
+    Z = np.dot(W,A)+b
+    cache = (A, W, b)
+
+		return Z, cache
 ```
 
 ```python
+def linear_activation_forward(A_prev, W, b, activation):
+# Sigmopid activation
+		Z, linear_cache = linear_forward(A_prev, W, b)
+		A, activation_cache = sigmoid(Z)
 
+		# Relu activation
+		Z, linear_cache = linear_forward(A_prev, W, b)
+		A, activation_cache = relu(Z)
+
+		return A, cache
 ```
 
 ```python
