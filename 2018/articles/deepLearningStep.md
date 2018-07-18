@@ -8,12 +8,13 @@ This article serves as a reminder for me on how to (generally) approach a superv
 ## Table of Contents
 
 - [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
-	- [Table of Contents](#table-of-contents)
-	- [General Implementation Workflow](#general-implementation-workflow)
-	- [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
-	- [Forward propagation](#forward-propagation)
-	- [Compute cost](#compute-cost)
-	- [Backward propagation](#backward-propagation)
+  - [Table of Contents](#table-of-contents)
+  - [General Implementation Workflow](#general-implementation-workflow)
+  - [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
+  - [Forward propagation](#forward-propagation)
+  - [Compute cost](#compute-cost)
+  - [Backward propagation](#backward-propagation)
+  - [Updating parameters](#updating-parameters)
 
 ## General Implementation Workflow
 
@@ -32,8 +33,8 @@ Number of layers = L
 
 ```python
 for l in range(1, L):
-	parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1]) * 0.01
-	parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+  parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1]) * 0.01
+  parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
 ```
 
 ## Forward propagation
@@ -52,20 +53,20 @@ def linear_forward(A, W, b)
     Z = np.dot(W,A)+b
     cache = (A, W, b)
 
-		return Z, cache
+    return Z, cache
 ```
 
 ```python
 def linear_activation_forward(A_prev, W, b, activation="relu/sigmoid"):
-		# Sigmopid activation
-		Z, linear_cache = linear_forward(A_prev, W, b)
-		A, activation_cache = sigmoid(Z)
+    # Sigmopid activation
+    Z, linear_cache = linear_forward(A_prev, W, b)
+    A, activation_cache = sigmoid(Z)
 
-		# Relu activation
-		Z, linear_cache = linear_forward(A_prev, W, b)
-		A, activation_cache = relu(Z)
+    # Relu activation
+    Z, linear_cache = linear_forward(A_prev, W, b)
+    A, activation_cache = relu(Z)
 
-		return A, cache
+    return A, cache
 ```
 
 ```python
@@ -122,8 +123,8 @@ def linear_activation_backward(dA, cache, activation):
     linear_cache, activation_cache = cache
 
     # Relu activation
-		dZ = relu_backward(dA, activation_cache)
-		dA_prev, dW, db = linear_backward(dZ, linear_cache)
+    dZ = relu_backward(dA, activation_cache)
+    dA_prev, dW, db = linear_backward(dZ, linear_cache)
 
     # Sigmoid activation
     dZ = sigmoid_backward(dA, activation_cache)
@@ -131,13 +132,41 @@ def linear_activation_backward(dA, cache, activation):
 
     return dA_prev, dW, db
 ```
+Implement the backward function for the whole network:
 
 ```python
+def L_model_backward(AL, Y, caches):
+    grads = {}
+    L = len(caches) # the number of layers
+    m = AL.shape[1]
+    Y = Y.reshape(AL.shape) # after this line, Y is the same shape as AL
 
+    # Formula for initializing backpropagation
+    dAL = dAL = - (np.divide(Y, AL) - np.divide(1 - Y, 1 - AL))
+
+    current_cache = caches[L-1]
+    grads["dA" + str(L-1)], grads["dW" + str(L)], grads["db" + str(L)] = linear_activation_backward(dAL, current_cache, activation = "sigmoid")
+
+    for l in reversed(range(L-1)):
+        current_cache = caches[l]
+        dA_prev_temp, dW_temp, db_temp = linear_activation_backward(grads["dA" + str(l+1)], current_cache, activation = "relu")
+        grads["dA" + str(l)] = dA_prev_temp
+        grads["dW" + str(l + 1)] = dW_temp
+        grads["db" + str(l + 1)] = db_temp
+
+    return grads
 ```
 
-```python
+## Updating parameters
 
+```python
+def update_parameters(parameters, grads, learning_rate):
+    L = len(parameters) // 2 # number of layers in the neural network
+
+    for l in range(L):
+        parameters["W" + str(l+1)] = parameters["W" + str(l+1)] - learning_rate * grads["dW" + str(l+1)]
+        parameters["b" + str(l+1)] = parameters["b" + str(l+1)] - learning_rate * grads["db" + str(l+1)]
+    return parameters
 ```
 
 ```python
