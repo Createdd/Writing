@@ -12,6 +12,8 @@ This article serves as a reminder for me on how to (generally) approach a superv
 	- [General Implementation Workflow](#general-implementation-workflow)
 	- [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
 	- [Forward propagation](#forward-propagation)
+	- [Compute cost](#compute-cost)
+	- [Backward propagation](#backward-propagation)
 
 ## General Implementation Workflow
 
@@ -77,6 +79,60 @@ def L_model_forward(X, parameters):
     caches.append(cache)
 
     return AL, caches
+```
+
+## Compute cost
+
+Formula: −1m∑i=1m(y(i)log(a[L](i))+(1−y(i))log(1−a[L](i)))
+
+
+```python
+def compute_cost(AL, Y):
+    m = Y.shape[1]
+
+    cost = (1./m) * (-np.dot(Y,np.log(AL).T) - np.dot(1-Y, np.log(1-AL).T))
+    cost = np.squeeze(cost)
+
+    return cost
+```
+
+## Backward propagation
+
+Formulas:
+
+- dW[l]=1mdZ[l]A[l−1]T
+- db[l]=1m∑i=1mdZ[l](i)
+- dA[l−1]=W[l]TdZ[l]
+
+
+```python
+def linear_backward(dZ, cache):
+    A_prev, W, b = cache
+    m = A_prev.shape[1]
+
+    dW = 1./m * np.dot(dZ, A_prev.T)
+    db = 1./m * np.sum(dZ, axis=1, keepdims=True)
+    dA_prev = np.dot(W.T, dZ)
+
+    return dA_prev, dW, db
+```
+
+```python
+def linear_activation_backward(dA, cache, activation):
+    linear_cache, activation_cache = cache
+
+    # Relu activation
+		dZ = relu_backward(dA, activation_cache)
+		dA_prev, dW, db = linear_backward(dZ, linear_cache)
+
+    # Sigmoid activation
+    dZ = sigmoid_backward(dA, activation_cache)
+    dA_prev, dW, db = linear_backward(dZ, linear_cache)
+
+    return dA_prev, dW, db
+```
+
+```python
 
 ```
 
