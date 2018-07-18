@@ -1,7 +1,6 @@
 # Deep Learning Model Step by Step
 
-[<img src="https://images.unsplash.com/photo-1486848538113-ce1a4923fbc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=57d5ed3770de4f9b039e5a3e54403ebe&auto=format&fit=crop&w=1287&q=80">](
-https://unsplash.com/photos/mBHuEkka5wM)
+[<img src="https://images.unsplash.com/photo-1486848538113-ce1a4923fbc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=57d5ed3770de4f9b039e5a3e54403ebe&auto=format&fit=crop&w=1287&q=80">](https://unsplash.com/photos/mBHuEkka5wM)
 Photo by Adrien Ledoux on Unsplash - https://unsplash.com/photos/mBHuEkka5wM
 
 This article serves as a reminder for me on how to (generally) approach a supervised deep learning architecture with Python.
@@ -18,14 +17,14 @@ This article serves as a reminder for me on how to (generally) approach a superv
 
 Number of layers = L
 
-1. Initialize parameters and define hyperparameters
-2. Loop:
+1.  Initialize parameters and define hyperparameters
+2.  Loop:
     a. Forward propagation
     b. Compute cost
     c. Backward propagation
     d. Update parameters (using parameters, and grads from backward propagation)
-3. Use trained parameters to predict labels
-4. Test predictions on examples
+3.  Use trained parameters to predict labels
+4.  Test predictions on examples
 
 ## Initial Initialization Of Parameters
 
@@ -37,12 +36,12 @@ for l in range(1, L):
 
 ## Forward propagation
 
-
 Define variables according to the formula:
 
 Z[l]=W[l]A[l−1]+b[l
 
 Whereas
+
 - Z is the input of the activation function
 - cache containing "A", "W" and "b" - for computing the backward propagation
 
@@ -55,8 +54,8 @@ def linear_forward(A, W, b)
 ```
 
 ```python
-def linear_activation_forward(A_prev, W, b, activation):
-# Sigmopid activation
+def linear_activation_forward(A_prev, W, b, activation="relu/sigmoid"):
+		# Sigmopid activation
 		Z, linear_cache = linear_forward(A_prev, W, b)
 		A, activation_cache = sigmoid(Z)
 
@@ -68,6 +67,16 @@ def linear_activation_forward(A_prev, W, b, activation):
 ```
 
 ```python
+def L_model_forward(X, parameters):
+    for l in range(1, L):
+        A_prev = A
+        A, cache = linear_activation_forward(A_prev,parameters["W"+ str(l)],parameters["b"+ str(l)], activation = "relu")
+        caches.append(cache)
+
+    AL, cache = linear_activation_forward(A, parameters["W"+ str(L)],parameters["b"+ str(L)], activation = "sigmoid")
+    caches.append(cache)
+
+    return AL, caches
 
 ```
 
@@ -78,7 +87,6 @@ def linear_activation_forward(A_prev, W, b, activation):
 ```python
 
 ```
-
 
 ---
 
@@ -90,6 +98,7 @@ Daniel is a LL.M. student in business law, working as a software engineer and or
 His current personal learning efforts focus on machine learning.
 
 Connect on:
+
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@ddcreationstudi)
