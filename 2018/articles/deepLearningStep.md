@@ -4,23 +4,53 @@
 https://unsplash.com/photos/mBHuEkka5wM)
 Photo by Adrien Ledoux on Unsplash - https://unsplash.com/photos/mBHuEkka5wM
 
-This article serves as a reminder for me on how to (generally) approach a deep learning architecture.
+This article serves as a reminder for me on how to (generally) approach a supervised deep learning architecture with Python.
 
 ## Table of Contents
 
 - [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
 	- [Table of Contents](#table-of-contents)
 	- [General Implementation Workflow](#general-implementation-workflow)
+	- [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
 
 ## General Implementation Workflow
 
-1. Initialize parameters / Define hyperparameters
-2. Loop for num_iterations:
+1. Initialize parameters and define hyperparameters
+2. Loop:
     a. Forward propagation
-    b. Compute cost function
+    b. Compute cost
     c. Backward propagation
-    d. Update parameters (using parameters, and grads from backprop) 
-4. Use trained parameters to predict labels
+    d. Update parameters (using parameters, and grads from backward propagation)
+3. Use trained parameters to predict labels
+4. Test predictions on examples
+
+## Initial Initialization Of Parameters
+
+```python
+for l in range(1, L):
+	parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1]) * 0.01
+	parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
+
+```python
+
+```
 
 
 ---
