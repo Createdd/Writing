@@ -4,10 +4,23 @@
 https://unsplash.com/photos/mBHuEkka5wM)
 Photo by Adrien Ledoux on Unsplash - https://unsplash.com/photos/mBHuEkka5wM
 
+This article serves as a reminder for me on how to (generally) approach a deep learning architecture.
 
 ## Table of Contents
 
-##
+- [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
+	- [Table of Contents](#table-of-contents)
+	- [General Implementation Workflow](#general-implementation-workflow)
+
+## General Implementation Workflow
+
+1. Initialize parameters / Define hyperparameters
+2. Loop for num_iterations:
+    a. Forward propagation
+    b. Compute cost function
+    c. Backward propagation
+    d. Update parameters (using parameters, and grads from backprop) 
+4. Use trained parameters to predict labels
 
 
 ---
