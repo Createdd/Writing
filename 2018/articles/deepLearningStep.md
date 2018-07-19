@@ -8,17 +8,17 @@ This article serves as a reminder for me on how to (generally) approach a superv
 ## Table of Contents
 
 - [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
-  - [Table of Contents](#table-of-contents)
-  - [General Implementation Workflow](#general-implementation-workflow)
-  - [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
-  - [Forward propagation](#forward-propagation)
-  - [Compute cost](#compute-cost)
-  - [Backward propagation](#backward-propagation)
-  - [Updating parameters](#updating-parameters)
+    - [Table of Contents](#table-of-contents)
+    - [General Implementation Workflow](#general-implementation-workflow)
+    - [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
+    - [Forward propagation](#forward-propagation)
+    - [Compute cost](#compute-cost)
+    - [Backward propagation](#backward-propagation)
+    - [Updating parameters](#updating-parameters)
+    - [Training](#training)
+    - [Predicting](#predicting)
 
 ## General Implementation Workflow
-
-Number of layers = L
 
 1.  Initialize parameters and define hyperparameters
 2.  Iterate over network:
@@ -30,6 +30,11 @@ Number of layers = L
 4.  Test predictions on examples
 
 ## Initial Initialization Of Parameters
+
+```python
+layers_dims = [12288, 20, 7, 5, 1] # for example
+L = len(layer_dims)
+```
 
 ```python
 for l in range(1, L):
@@ -167,6 +172,18 @@ def update_parameters(parameters, grads, learning_rate):
         parameters["W" + str(l+1)] = parameters["W" + str(l+1)] - learning_rate * grads["dW" + str(l+1)]
         parameters["b" + str(l+1)] = parameters["b" + str(l+1)] - learning_rate * grads["db" + str(l+1)]
     return parameters
+```
+
+## Training
+
+```python
+pred_train = predict(train_x, train_y, parameters)
+```
+
+## Predicting
+
+```python
+pred_test = predict(test_x, test_y, parameters)
 ```
 
 ```python
