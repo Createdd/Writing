@@ -4,45 +4,47 @@
 Photo by Adrien Ledoux on Unsplash - https://unsplash.com/photos/mBHuEkka5wM
 
 This article serves as a reminder for me on how to (generally) approach a supervised deep learning architecture with Python.
+If you are more interested I encourage you to check out the [deep learing course](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) on Coursera, which helped me a lot to get a deeper understanding.
 
 ## Table of Contents
 
 - [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
     - [Table of Contents](#table-of-contents)
     - [General Implementation Workflow](#general-implementation-workflow)
-    - [Initial Initialization Of Parameters](#initial-initialization-of-parameters)
-    - [Forward propagation](#forward-propagation)
-    - [Compute cost](#compute-cost)
-    - [Backward propagation](#backward-propagation)
-    - [Updating parameters](#updating-parameters)
-    - [Training](#training)
-    - [Predicting](#predicting)
+    - [Initial Initialization of Parameters](#initial-initialization-of-parameters)
+    - [Forward Propagation](#forward-propagation)
+    - [Compute Cost](#compute-cost)
+    - [Backward Propagation](#backward-propagation)
+    - [Updating Parameters](#updating-parameters)
+    - [Training and Predicting](#training-and-predicting)
 
 ## General Implementation Workflow
 
 1.  Initialize parameters and define hyperparameters
 2.  Iterate over network:
-  - Forward propagation
-  - Compute cost
-  - Backward propagation
-  - Update parameters (using parameters, and grads from backward propagation)
+
+- Forward propagation
+- Compute cost
+- Backward propagation
+- Update parameters (using parameters, and grads from backward propagation)
+
 3.  Use trained parameters to predict labels
 4.  Test predictions on examples
 
-## Initial Initialization Of Parameters
+## Initial Initialization of Parameters
 
 ```python
-layers_dims = [12288, 20, 7, 5, 1] # for example
-L = len(layer_dims)
+layers = [12288, 20, 7, 5, 1] # for example
+L = len(layers)
 ```
 
 ```python
 for l in range(1, L):
-  parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1]) * 0.01
-  parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+  parameters['W' + str(l)] = np.random.randn(layers[l], layers[l-1]) * 0.01
+  parameters['b' + str(l)] = np.zeros((layers[l], 1))
 ```
 
-## Forward propagation
+## Forward Propagation
 
 Define variables according to the formula:
 
@@ -50,7 +52,7 @@ Z[l]=W[l]A[l−1]+b[l
 
 Whereas
 
-- Z is the input of the activation function
+- Z is the input for the activation function
 - cache containing "A", "W" and "b" - for computing the backward propagation
 
 ```python
@@ -75,7 +77,7 @@ def linear_activation_forward(A_prev, W, b, activation="relu/sigmoid"):
 ```
 
 ```python
-def L_model_forward(X, parameters):
+def Model_forward(X, parameters):
     for l in range(1, L):
         A_prev = A
         A, cache = linear_activation_forward(A_prev,parameters["W"+ str(l)],parameters["b"+ str(l)], activation = "relu")
@@ -87,10 +89,9 @@ def L_model_forward(X, parameters):
     return AL, caches
 ```
 
-## Compute cost
+## Compute Cost
 
 Formula: −1m∑i=1m(y(i)log(a[L](i))+(1−y(i))log(1−a[L](i)))
-
 
 ```python
 def compute_cost(AL, Y):
@@ -102,14 +103,13 @@ def compute_cost(AL, Y):
     return cost
 ```
 
-## Backward propagation
+## Backward Propagation
 
 Formulas:
 
 - dW[l]=1mdZ[l]A[l−1]T
 - db[l]=1m∑i=1mdZ[l](i)
 - dA[l−1]=W[l]TdZ[l]
-
 
 ```python
 def linear_backward(dZ, cache):
@@ -137,10 +137,11 @@ def linear_activation_backward(dA, cache, activation):
 
     return dA_prev, dW, db
 ```
-Implement the backward function for the whole network:
+
+Implement the backward propagation for the whole network:
 
 ```python
-def L_model_backward(AL, Y, caches):
+def Model_backward(AL, Y, caches):
     grads = {}
     L = len(caches) # the number of layers
     m = AL.shape[1]
@@ -162,7 +163,7 @@ def L_model_backward(AL, Y, caches):
     return grads
 ```
 
-## Updating parameters
+## Updating Parameters
 
 ```python
 def update_parameters(parameters, grads, learning_rate):
@@ -174,20 +175,14 @@ def update_parameters(parameters, grads, learning_rate):
     return parameters
 ```
 
-## Training
+## Training and Predicting
 
 ```python
 pred_train = predict(train_x, train_y, parameters)
 ```
 
-## Predicting
-
 ```python
 pred_test = predict(test_x, test_y, parameters)
-```
-
-```python
-
 ```
 
 ---
