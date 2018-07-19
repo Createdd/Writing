@@ -1,14 +1,14 @@
-# Deep Learning Model Step by Step
+# Basic Deep Learning Model Step by Step
 
 [<img src="https://images.unsplash.com/photo-1486848538113-ce1a4923fbc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=57d5ed3770de4f9b039e5a3e54403ebe&auto=format&fit=crop&w=1287&q=80">](https://unsplash.com/photos/mBHuEkka5wM)
 Photo by Adrien Ledoux on Unsplash - https://unsplash.com/photos/mBHuEkka5wM
 
 This article serves as a reminder for me on how to (generally) approach a supervised deep learning architecture with Python.
-If you are more interested I encourage you to check out the [deep learing course](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) on Coursera, which helped me a lot to get a deeper understanding.
+If you are more interested, I encourage you to check out the [deep learing course](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome) on Coursera, which helped me a lot to get a deeper understanding.
 
 ## Table of Contents
 
-- [Deep Learning Model Step by Step](#deep-learning-model-step-by-step)
+- [Basic Deep Learning Model Step by Step](#basic-deep-learning-model-step-by-step)
     - [Table of Contents](#table-of-contents)
     - [General Implementation Workflow](#general-implementation-workflow)
     - [Initial Initialization of Parameters](#initial-initialization-of-parameters)
