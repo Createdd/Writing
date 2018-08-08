@@ -9,6 +9,8 @@ First, it was pretty overwhelming, but after some reading it made sense. I thoug
 
 ## Table of Contents
 
+- [Clean architecture in short](#clean-architecture-in-short)
+	- [Table of Contents](#table-of-contents)
 	- [Visual representations](#visual-representations)
 	- [The concept - presented in bullet points](#the-concept---presented-in-bullet-points)
 			- [The value it can provide](#the-value-it-can-provide)
