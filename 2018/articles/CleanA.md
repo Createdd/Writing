@@ -112,7 +112,7 @@ It shall reflect the very basic approach for the design pattern.
 
 - Starting from `entities` you can see that the core model of this project is the `arxiv_document`
 - The next folder, `use_cases` shows our use case, namely to request the arxiv page
-- After that we go through the `interface_adapters` folder that provides adapters for process requests in a REST application or for serializing
+- After that we go through the `interface_adapters` folder that provides adapters for processing requests in a REST application or for serializing
 - The final and last layer is `external_interfaces`, where we use the flask server and implement the REST functionality
 
 All of those layers are dependent on the core layers but not the other way around.
