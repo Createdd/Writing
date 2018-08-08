@@ -5,7 +5,7 @@ Photo by Rubén García on Unsplash - https://unsplash.com/photos/R-wQExeiGrc
 
 In an [open source project](https://github.com/Keep-Current) I started to contribute to, the concept of "clean architecture" was brought to me.
 
-First, it was pretty overwhelming, but after some reading it made sense. I thought it might be helpful for others to write down my findings.
+First, it was pretty overwhelming, but after some reading it made sense. I thought it might be helpful for others to write down my thoughts.
 
 ## Table of Contents
 
