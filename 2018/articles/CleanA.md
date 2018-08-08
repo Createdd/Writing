@@ -9,6 +9,13 @@ First, it was pretty overwhelming, but after some reading it made sense. I thoug
 
 ## Table of Contents
 
+- [Clean architecture in short](#clean-architecture-in-short)
+	- [Table of Contents](#table-of-contents)
+	- [Pictures](#pictures)
+	- [The concept in bullet points](#the-concept-in-bullet-points)
+	- [Code example](#code-example)
+	- [Resources](#resources)
+
 ## Pictures
 
 I think it's always good to start with some visualization.
@@ -39,9 +46,64 @@ Source and credit: Mattia Battiston, under CC BY 4.0, https://github.com/mattia-
 
 Source and credit: https://marconijr.com/posts/clean-architecture-practice/
 
-##
+## The concept in bullet points
 
+Extended from Source and credit: [Mattia Battiston, under CC BY 4.0](https://github.com/mattia-battiston/clean-architecture-example)
 
+- Effective testing strategy that follows the testing pyramid
+- Frameworks are isolated in individual modules so that when (not if) we change our mind we only have to change one place, with the rest of the app not even knowing about The app has use cases rather than being tied to a CRUD system
+- Screaming architecture a.k.a. it screams its intended usage. When you look at the package structure you get a feel for what the application does rather than seeing technical details
+- All business logic is in a use case so it's easy to find and it's not duplicated anywhere else
+- Hard to do the wrong thing because modules enforce compilation dependencies. If you try to use something that you're not meant to, the app doesn't compile
+- It is always ready to deploy by leaving the wiring up of the object for last or by using feature flags, so we get all the benefits of continuous integration
+- Multiple works on stories so that different pairs can easily work on the same story at the same time to complete it quicker
+- Good monolith with clear use cases that you can split in microservices later one, once you've learnt more about them
+
+Entities
+
+- Represent your domain object
+- Apply only logic that is applicable in general to the whole entity (e.g. validating the format of an hostname)
+- Plain java objects: no frameworks, no annotations
+
+Use Cases
+
+- Represent your business actions, it’s what you can do with the application. Expect one use case for each business action
+- Pure business logic, plain java (expect maybe some utils libraries like StringUtils)
+- Define interfaces for the data that they need in order to apply some logic. One or more dataproviders will implement the - interface, but the use case doesn’t know where the data is coming from
+- The use case doesn't know who triggered it and how the results are going to be presented (e.g. could be on a web page, or - returned as json, or simply logged, etc.)
+- Throws business exceptions
+
+Dataproviders
+
+- Retrieve and store data from and to a number of sources (database, network devices, file system, 3rd parties, etc.)
+- Implement the interfaces defined by the use case
+- Use whatever framework is most appropriate (they are going to be isolated here anyway)
+- Note: if using an ORM for database access, here you'd have another set of objects in order to represent the mapping to the tables (don't use the core entities as they might be very different)
+
+## Code example
+
+See the structure on [GitHub](https://github.com/Createdd/web-miner/tree/master/webminer).
+
+First of all, it is important to understand that the clean architecture is a bundle of organising principles. So therefore everything is open to personal adjustments as long as core ideas are kept.
+The linked repository is a fork of the original project that brought this architecture design idea to me. Feel free to check out the original project as well, as it reflects further improvements.
+
+The webminer folder is structured into the basic layers:
+
+1.  entities
+2.  use_cases
+3.  interfaces_adapters
+4.  external_interfaces
+
+![folderStructure](../assets/cleanA/folderStructure.png)
+
+It shall reflect the very basic approach for the design pattern.
+
+- Starting from `entities` you can see that the core model of this project is the `arxiv_docment`
+- The next folder, `use_cases` shows our use case, namely to request the arxiv page
+- After that we go through the `interface_adapters` folder that provides adapters for process requests in a REST application or for serializing
+- The final and last layer is `external_interfaces`, where we use the flask server and implement the REST functionality
+
+All of those layers are dependent on the core layers but not the other way around.
 
 ## Resources
 
