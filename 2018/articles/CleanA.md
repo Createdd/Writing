@@ -9,15 +9,15 @@ First, it was pretty overwhelming, but after some reading it made sense. I thoug
 
 ## Table of Contents
 
-    - [Visual representations](#visual-representations)
-    - [The concept - presented in bullet points](#the-concept---presented-in-bullet-points)
-    		- [The value it can provide](#the-value-it-can-provide)
-    		- [Entities](#entities)
-    		- [Use Cases](#use-cases)
-    		- [Interfaces / Adapters](#interfaces--adapters)
-    		- [External Interfaces](#external-interfaces)
-    - [Code example](#code-example)
-    - [Resources](#resources)
+	- [Visual representations](#visual-representations)
+	- [The concept - presented in bullet points](#the-concept---presented-in-bullet-points)
+			- [The value it can provide](#the-value-it-can-provide)
+			- [Entities](#entities)
+			- [Use Cases](#use-cases)
+			- [Interfaces / Adapters](#interfaces--adapters)
+			- [External Interfaces](#external-interfaces)
+	- [Code example](#code-example)
+	- [Resources](#resources)
 
 ## Visual representations
 
