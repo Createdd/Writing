@@ -117,6 +117,13 @@ It shall reflect the very basic approach for the design pattern.
 
 All of those layers are dependent on the core layers but not the other way around.
 
+---
+
+Do you agree? If not, why?
+Thanks for reading my article! Feel free to leave any feedback!
+
+---
+
 ## Resources
 
 Here are some articles I found helpful understanding the concept "clean architecture":
@@ -131,10 +138,6 @@ Here are some articles I found helpful understanding the concept "clean architec
 - https://gist.github.com/ygrenzinger/14812a56b9221c9feca0b3621518635b
 - https://medium.freecodecamp.org/how-to-write-robust-apps-consistently-with-the-clean-architecture-9bdca93e17b
 - https://marconijr.com/posts/clean-architecture-practice/
-
----
-
-Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
