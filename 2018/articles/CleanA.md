@@ -117,6 +117,12 @@ It shall reflect the very basic approach for the design pattern.
 
 All of those layers are dependent on the core layers but not the other way around.
 
+One important note: This is not 100% correctly implemented in the repository.
+
+Why? Because the use cases are actually different. In reality the main use case is to provide the structured data and another use case is to get the data from the arxiv page.
+Did you spot this error in the architecture? If yes, congratulations!
+Not only did you bring enough curiosity to this article but you also seem to understand the principles good enough to build your own case and apply the concepts in reality!
+
 ---
 
 Do you agree? If not, why?
@@ -149,7 +155,7 @@ Connect on:
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@ddcreationstudi)
-- [Twitter](hhttps://twitter.com/_createdd)
+- [Twitter](https://twitter.com/_createdd)
 - [Steemit](https://steemit.com/@createdd)
 - [Hashnode](https://hashnode.com/@DDCreationStudio)
 
