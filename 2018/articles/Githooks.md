@@ -128,7 +128,7 @@ Thanks for reading my article! Feel free to leave any feedback!
 
 ---
 
-Daniel is a software developer, a LL.M. student in business law and organizer of tech related events in Vienna.s
+Daniel is a software developer, a LL.M. student in business law and organizer of tech related events in Vienna.
 His current personal learning efforts focus on machine learning.
 
 Connect on:
