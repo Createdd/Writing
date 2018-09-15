@@ -119,7 +119,7 @@ See StackOverflow discussion [here](https://stackoverflow.com/questions/8598639/
 
 ## Thanks
 
-I hope that this will help some of you to align the workflow of your development team and makes the life of everyone involved much easier :)
+I hope that this will help some of you to align the workflow of your development team and make the life of everyone involved much easier :)
 
 
 ---
