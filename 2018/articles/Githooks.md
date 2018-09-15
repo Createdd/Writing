@@ -52,7 +52,46 @@ To establish an improved workflow you don't have to use all of them. Focus on th
 
 Let me explain why.
 
-## Checkout, Commit, Push
+## GitFlow and Checkout, Commit, Push
+
+Using Git as version control system allows to set a workflow. I do this using the [GitFlow method](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
+
+![gitflow image](https://datasift.github.io/gitflow/GitFlowHotfixBranch.png)
+
+It is basically to develop a piece of software where each feature is represented by a branch.
+
+In the following examples I will always check naming with Regex tests or execute another script.
+
+### Post-checkout
+
+The increased importance of a branch allows for the first hook on "post-checkout". It is triggered after a new branch is created with Git.
+
+Often a naming convention is applied to make branches comparable and understand their use for the whole product.
+
+You can create a simply shell script like this to ensure naming:
+
+https://gist.github.com/Createdd/93a8582bde38112ede09e08beb889970
+
+
+### Commit-msg
+
+In web development there are multiple libraries that help with setting up a hook for commiting. Often they are not necessary, as simple scripts can be written by yourself as well.
+
+See validation of a git message for example:
+
+https://gist.github.com/Createdd/437ac97100c4c0ee0a6b2e077c65ca25
+
+
+
+
+
+### Pre-push
+
+Pushing is the process of "sharing" you branch with the team. It is often the last step before opening a pull-request for a merge with the main branch.
+
+This a good time to check other guidelines like "linting" of the code, or if all tests are passing.
+
+An example  for executing another script could be: https://gist.github.com/Createdd/7f6e620d9204f18e8e3c6ec7e9eb09dc
 
 
 
