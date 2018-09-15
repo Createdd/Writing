@@ -1,24 +1,24 @@
-# Improve development workflow with your team with Githooks
+# Improve development workflow of your team with Githooks
 
 [<img src="https://images.unsplash.com/photo-1536743654498-52cbbf194df5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=12a2850349440cae58fd38718400d379&auto=format&fit=crop&w=1329&q=80">](
 https://unsplash.com/photos/erQu7dP0jCE)
 Photo by rawpixel on Unsplash - https://unsplash.com/photos/erQu7dP0jCE
 
-Every product that is developed by more than 1 programmer needs to have some guidelines to harmonize the workflow.
+Every product that is developed by more than one programmer needs to have some guidelines to harmonize the workflow.
 
 Standardized software development workflow between programmers allows for example:
 - faster engineering since each developer can rely on a habitual activity
-- less errors since the workflow itself shall be structured in a way to avoid some mistakes
+- less errors as the workflow itself shall be structured in a way to avoid some mistakes
 - easy integration of new members
 - improved log of history
 
-In (web)development one very easy to use feature are "[Githooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)". (If you are using Git for version control).
+One very easy to use feature are "[Githooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)". (If you are using Git for version control).
 
-In this article I want to show how easy it actually  is to set up a few workflow guidelines with githooks to allow your team to be on one page when developing software.
+In this article I want to show how easy it actually  is to set up a few workflow guidelines with Githooks to allow your team to be on one page when developing software.
 
 
 ## Table of Contents
-- [Improve development workflow with your team with Githooks](#improve-development-workflow-with-your-team-with-githooks)
+- [Improve development workflow of your team with Githooks](#improve-development-workflow-of-your-team-with-githooks)
 	- [Table of Contents](#table-of-contents)
 	- [Why Githooks?](#why-githooks)
 	- [GitFlow and Checkout, Commit, Push](#gitflow-and-checkout-commit-push)
@@ -27,6 +27,7 @@ In this article I want to show how easy it actually  is to set up a few workflow
 		- [Pre-push](#pre-push)
 	- ["Enforce" the hooks](#%22enforce%22-the-hooks)
 	- [Fix one common problem](#fix-one-common-problem)
+	- [Thanks](#thanks)
 
 
 ## Why Githooks?
@@ -92,15 +93,15 @@ https://gist.github.com/Createdd/437ac97100c4c0ee0a6b2e077c65ca25
 
 ### Pre-push
 
-Pushing is the process of "sharing" you branch with the team. It is often the last step before opening a pull-request for a merge with the main branch.
+"Git push" is the process of "sharing" you branch with the team. It is often the last step before opening a pull-request for a merge with the main branch.
 
-This a good time to check other guidelines like "linting" of the code, or if all tests are passing.
+This is a good time to check other guidelines like "linting" of the code, or if all tests are passing.
 
 An example  for executing another script could be: https://gist.github.com/Createdd/7f6e620d9204f18e8e3c6ec7e9eb09dc
 
 ## "Enforce" the hooks
 
-Another step is how to actually enforce those hooks.
+Another step is to actually enforce those hooks.
 
 In JavaScript and NPM/Yarn package mangers there is a "postinstall" script already built in. It allows for the execution of a script after the installing process. But what exactly should be executed?
 
@@ -116,7 +117,7 @@ One issue that kept me guessing for a while was that Git hooks are NOT executabl
 
 See StackOverflow discussion [here](https://stackoverflow.com/questions/8598639/why-is-my-git-pre-commit-hook-not-executable-by-default).
 
----
+## Thanks
 
 I hope that this will help some of you to align the workflow of your development team and makes the life of everyone involved much easier :)
 
