@@ -18,12 +18,20 @@ In this article I want to show how easy it actually  is to set up a few workflow
 
 
 ## Table of Contents
+- [Improve development workflow with your team with Githooks](#improve-development-workflow-with-your-team-with-githooks)
+	- [Table of Contents](#table-of-contents)
+	- [Why Githooks?](#why-githooks)
+	- [GitFlow and Checkout, Commit, Push](#gitflow-and-checkout-commit-push)
+		- [Post-checkout](#post-checkout)
+		- [Commit-msg](#commit-msg)
+		- [Pre-push](#pre-push)
+	- ["Enforce" the hooks](#%22enforce%22-the-hooks)
+	- [Fix one common problem](#fix-one-common-problem)
 
-##
 
 ## Why Githooks?
 
-Githooks are, as the word suggests, a hook for [Git](https://git-scm.com/) commands. Intuitivly this makes sense, because with Git you are essentally managing the workflow of a piece of software. Every Branch is a part of the whole piece. Every Commit is a building block of a Branch.
+Githooks are, as the word suggests, a hook for [Git](https://git-scm.com/) commands. Intuitively this makes sense, because with Git you are essentially managing the workflow of a piece of software. Every Branch is a part of the whole piece. Every Commit is a building block of a Branch.
 
 So in order to standardize quality in software development, one must standardize actions in the building process of the product.
 
@@ -94,7 +102,7 @@ An example  for executing another script could be: https://gist.github.com/Creat
 
 Another step is how to actually enforce those hooks.
 
-In JavaScript and NPM/Yarn package mangers there is a "postinstall" script already built in. It allows for the execution of a script after the installing process. But what exactely should be executed?
+In JavaScript and NPM/Yarn package mangers there is a "postinstall" script already built in. It allows for the execution of a script after the installing process. But what exactly should be executed?
 
 Create an own install script! Like:
 
