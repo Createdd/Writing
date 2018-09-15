@@ -82,9 +82,6 @@ See validation of a git message for example:
 https://gist.github.com/Createdd/437ac97100c4c0ee0a6b2e077c65ca25
 
 
-
-
-
 ### Pre-push
 
 Pushing is the process of "sharing" you branch with the team. It is often the last step before opening a pull-request for a merge with the main branch.
@@ -93,6 +90,27 @@ This a good time to check other guidelines like "linting" of the code, or if all
 
 An example  for executing another script could be: https://gist.github.com/Createdd/7f6e620d9204f18e8e3c6ec7e9eb09dc
 
+## "Enforce" the hooks
+
+Another step is how to actually enforce those hooks.
+
+In JavaScript and NPM/Yarn package mangers there is a "postinstall" script already built in. It allows for the execution of a script after the installing process. But what exactely should be executed?
+
+Create an own install script! Like:
+
+https://gist.github.com/Createdd/3ccacf58185fa269e26680ba96207f09
+
+## Fix one common problem
+
+One issue that kept me guessing for a while was that Git hooks are NOT executable by default. This means that they need to be made executable with
+
+`chmod +x <pathToHook>`
+
+See StackOverflow discussion [here](https://stackoverflow.com/questions/8598639/why-is-my-git-pre-commit-hook-not-executable-by-default).
+
+---
+
+I hope that this will help some of you to align the workflow of your development team and makes the life of everyone involved much easier :)
 
 
 ---
