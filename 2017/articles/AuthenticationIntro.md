@@ -88,7 +88,7 @@ I'll start with a basic express starter setup, which simply creates a webserver 
 #### Connect to MongoDB
 
 - install [Mongoose](http://mongoosejs.com/docs/)
-- install mondodb
+- install mongodb
 - setup up mongod if you haven't [(tutorial)](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
 - be sure to start nodemon again with the running mongod on localhost!
 
