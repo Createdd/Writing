@@ -189,7 +189,7 @@ Gist: https://gist.github.com/Createdd/83fd4241a94a9164737602134a4e243e
 
 [See full code here on Github.](https://github.com/Createdd/tensorFlowTest/blob/debug/tfdbg/mnistBasic.py)
 
-## Conclusio
+## Conclusion
 
 As shown, there are many ways on how to debug a TensorFlow application. Each method has its own strengths and weaknesses.
 I didn't mention the Python debugger, because it is not TensorFlow specific, but keep in mind that the simple Python debugger already provides some good insights!
