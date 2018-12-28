@@ -56,7 +56,11 @@ Hence, I decided to focus first on finishing my Masters degree in law before goi
 
 Focus is key.
 
-##
+## Getting another job
+
+Life is about growth. The more experiences one is able to collect, the more he is able to contribute to challenges of life. Therefore I wanted to experience another company additionally to my current job as a web developer. It was quite easy as there is always a high demand on people that are able to learn and have an opitmistic mindset.
+
+
 
 
 
