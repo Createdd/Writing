@@ -60,7 +60,12 @@ Focus is key.
 
 Life is about growth. The more experiences one is able to collect, the more he is able to contribute to challenges of life. Therefore I wanted to experience another company additionally to my current job as a web developer. It was quite easy as there is always a high demand on people that are able to learn and have an optimistic mindset it seems.
 Working two jobs and studying regularly proved to be harder than expected. It is definitely possible, but depending on the overall efforts, it requires serious commitment. I came to witness that it is even harder to work at two places because every company has its own mindset, its own philosophy. Each project is different and requires a different set of skills. Two work in those environments you need to be adaptable and flexible.
+
 And again, this is why I like it so much. It requires you to be in a changing state. It is like Bruce Lee said. You have to be flexible as water. If you put it into a cup, it becomes the cup.
+
+Experiencing multiple companies synchronously also showed me how difficult it is to actually run a company. Ultimately, a company is the total of its people. The more people you have, the more diverse the company is and the harder it gets to actually implement the original vision. With great power comes great responsibility. Running a business is a balancing act. One have to find the balance between the foundational concepts of a company and its inevitable change as it grows with new people. Selecting the right people is probably the most important job as a executive member of an organization.
+
+## Cold showers
 
 
 
