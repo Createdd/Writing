@@ -65,7 +65,30 @@ And again, this is why I like it so much. It requires you to be in a changing st
 
 Experiencing multiple companies synchronously also showed me how difficult it is to actually run a company. Ultimately, a company is the total of its people. The more people you have, the more diverse the company is and the harder it gets to actually implement the original vision. With great power comes great responsibility. Running a business is a balancing act. One have to find the balance between the foundational concepts of a company and its inevitable change as it grows with new people. Selecting the right people is probably the most important job as a executive member of an organization.
 
-## Cold showers
+## Cold showers and meditation
+
+This is huge. As I picked up the Wimhof method (combining meditation and exposure to the cold) I was already confident that this is something that will stick with me. It turned out to be true. For more than a year I am now constantly showering as cold as possible. The effects it has on me are superb. To name a few things that had improved:
+### Sickness
+
+I was not really sick since I started. Also, other health issues like pollen allergy were reduced if not eliminated completely.
+
+### Sleep
+
+Clearing the mind and body through ice showers has proven to be the most efficient thing for me to sleep well. As I am a person who has constantly new ideas and things to done I always found it hard to go to sleep and just relax. Having an ice shock before the bed helps to clear the mind thouroughly. It is like a reminder that you are human. Thoughts and worries are closed down. Simply because you cannot think when being in cold water. You can only feel, and that is why it helps. Closing the mind helps to go to meditation mode, which prepares you for relaxation, which is ultimately responsible for going to sleep.
+
+I also want to mention the importance of sleep here. This year I tried consistently to get at least 7 hours of sleep. I realized that this is absolutely necessary to get the best out of yourself. It is better to lose 2 hours of work because of sleep than trying to get more done in a sleepy mode. As I operate my life in a way that always demands a clear and sharp mind, I cannot compromise on this issue.
+
+### Understanding the body
+
+Being surrounded with so many things to do, we can easily forget about our main instrument, the body. As I was always doing lots of sports I was always body aware, but there is more to it. Controlling a part of your body is just a very small fraction of what you and your body are capable of. Being able to really witness your body, feeling the strengths and problems, takes constant practice of meditation and awareness. You cannot pursue dreams if you do not know yourself. Get to know yourself in order to be ready for the challenges ahead of you.
+
+A great example is working overhours in a day. To be really efficient at pushing your body to a limit you have to know and identify a limit. Most people think it is good to work overtime and cramping as much work time as possible in a day to get the job done. Most often, I witnessed, that is not true. Being in a suboptimal state of thinking (due to overwork) causes more damage than it actually helps. Only one who has mastered this himself is able to see it. If not identified and addressed properly it causes not optimal results.
+
+### Discipline
+
+Taking cold showers everyday needs discipline. Everytime you are asked to put yourself into a painful state to achieve greatness. I chose the word pain here on purpose. Because it is painful to expose yourself to the merciless coldness of the fresh water after a long day in winter. You might be tired, hungry or cold. It takes courage to embrace the ice that is raining down on you when all you want is just a warm bed. But all this helps to discpline yourself. As Greg Plitt said: "Life is not about waiting for the storm to pass but learning to dance in the rain".
+
+
 
 
 
