@@ -17,25 +17,27 @@
 
 Some of my goals for 2018 were:
 
-- Keep progress at university
-- Keep organization of non-profit
-- Get into machine learning
-- Get another job for new experiences
-- Keep cold shower
-- Stay sporty
+-   Keep progress at university
+-   Keep organization of non-profit
+-   Get into machine learning
+-   Get another job for new experiences
+-   Keep cold shower
+-   Stay sporty
+-   Social life and love
 
 ## University / Business Law
 
 This was a quite good year in terms of university progress. Lecturewise I was focusing on
-- Criminal Procedure Law
-- Company and Capital Markets Law
-- European Law
-- Labour Law
-- Tax Law
-- Inheritance Law
-- Principles of International Law
-- Constitutional Law
-- Banking Law
+
+-   Criminal Procedure Law
+-   Company and Capital Markets Law
+-   European Law
+-   Labour Law
+-   Tax Law
+-   Inheritance Law
+-   Principles of International Law
+-   Constitutional Law
+-   Banking Law
 
 There were some negative results in the first term but this was due to the limited time available and "ambitious" workload in general.
 What I had realized this year, especially with university duties, is that one is more capable of things than you would imagine at first. We are really able to stretch according to the tasks that are thrown at us. This is essentially what makes us grow. Demanding more than we are capable of in the first place. And this was the case with all law related endeavors this year. Once again the Pareto Principle showed its value.
@@ -63,11 +65,12 @@ Working two jobs and studying regularly proved to be harder than expected. It is
 
 And again, this is why I like it so much. It requires you to be in a changing state. It is like Bruce Lee said. You have to be flexible as water. If you put it into a cup, it becomes the cup.
 
-Experiencing multiple companies synchronously also showed me how difficult it is to actually run a company. Ultimately, a company is the total of its people. The more people you have, the more diverse the company is and the harder it gets to actually implement the original vision. With great power comes great responsibility. Running a business is a balancing act. One have to find the balance between the foundational concepts of a company and its inevitable change as it grows with new people. Selecting the right people is probably the most important job as a executive member of an organization.
+Experiencing multiple companies synchronously also showed me how difficult it is to actually run a company. Ultimately, a company is the total of its people. The more people you have, the more diverse the company is and the harder it gets to actually implement the original vision. With great power comes great responsibility. Running a business is a balancing act. One have to find the balance between the foundational concepts of a company and its inevitable change as it grows with new people. Selecting the right people is probably the most important job as an executive member of an organization.
 
 ## Cold showers and meditation
 
 This is huge. As I picked up the Wimhof method (combining meditation and exposure to the cold) I was already confident that this is something that will stick with me. It turned out to be true. For more than a year I am now constantly showering as cold as possible. The effects it has on me are superb. To name a few things that had improved:
+
 ### Sickness
 
 I was not really sick since I started. Also, other health issues like pollen allergy were reduced if not eliminated completely.
@@ -82,21 +85,23 @@ I also want to mention the importance of sleep here. This year I tried consisten
 
 Being surrounded with so many things to do, we can easily forget about our main instrument, the body. As I was always doing lots of sports I was always body aware, but there is more to it. Controlling a part of your body is just a very small fraction of what you and your body are capable of. Being able to really witness your body, feeling the strengths and problems, takes constant practice of meditation and awareness. You cannot pursue dreams if you do not know yourself. Get to know yourself in order to be ready for the challenges ahead of you.
 
-A great example is working overhours in a day. To be really efficient at pushing your body to a limit you have to know and identify a limit. Most people think it is good to work overtime and cramping as much work time as possible in a day to get the job done. Most often, I witnessed, that is not true. Being in a suboptimal state of thinking (due to overwork) causes more damage than it actually helps. Only one who has mastered this himself is able to see it. If not identified and addressed properly it causes not optimal results.
+A great example is working overhours in a day. To be really efficient at pushing your body to a limit you have to know and identify a limit. Most people think it is good to work overtime and cramping as much work time as possible in a day to get the job done. Most often, I witnessed, that is not true. Being in a sub optimal state of thinking (due to overwork) causes more damage than it actually helps. Only one who has mastered this himself is able to see it. If not identified and addressed properly it causes not optimal results.
 
 ### Discipline
 
-Taking cold showers everyday needs discipline. Everytime you are asked to put yourself into a painful state to achieve greatness. I chose the word pain here on purpose. Because it is painful to expose yourself to the merciless coldness of the fresh water after a long day in winter. You might be tired, hungry or cold. It takes courage to embrace the ice that is raining down on you when all you want is just a warm bed. But all this helps to discpline yourself. As Greg Plitt said: "Life is not about waiting for the storm to pass but learning to dance in the rain".
+Taking cold showers everyday needs discipline. Every time you are asked to put yourself into a painful state to achieve greatness. I chose the word pain here on purpose. Because it is painful to expose yourself to the merciless coldness of the fresh water after a long day in winter. You might be tired, hungry or cold. It takes courage to embrace the ice that is raining down on you when all you want is just a warm bed. But all this helps to discipline yourself. As Greg Plitt said: "Life is not about waiting for the storm to pass but learning to dance in the rain".
 
+## Sports
 
+This year this was again an easy task. Sport is the balance I need. Therefore I do it. There is no week without sport. The gym is my second home basically. However, I might want to consider certain challenges. As I come to love Yoga more and more, I can imagine doing it in a more professional manner in the next year.
 
+## Social life and love
 
+As I am constantly exposed to other people because I am doing a lot of things, I come to enjoy people more and more. The diversity and opportunities within each person are amazing. I am always thinking about investing more time into relationships, but then it would mean a compromise on all the other things I do. It was a pretty work driven year and I assume the next year will be the same. This is something I want to work on more in the next year. It should not be a compromise. Not a substitute. But rather something that fits the whole picture. Pursuing goals and work while building relationships on purpose. Doing things together but staying focused on the overall goal. As every person is different it requires the right type of people finding each other. And the only way to find them is to meet new people. Every month I meet many people but I should focus more on the process of integrating them into my daily life if possible. The same goes for love, which is just a deeper connection with people.
 
+## Looking forward
 
-
-
-
-
+Another great year is arriving. I love to see how more and more opportunities arise. In all areas of life. Reflecting on a process allows to see its changes. Life is getting better and that is amazing. We simply need to sharpen our mind and attitude to see it. Often are our limitations only the ones we set ourselves. Letting go of those is scary but fruitful. Curiosity is what ignites change. Change is what makes life better than it is already.
 
 ---
 
@@ -108,11 +113,12 @@ Daniel is a software developer, a LL.M. student in business law and organizer of
 His current personal learning efforts focus on machine learning.
 
 Connect on:
-- [LinkedIn](https://www.linkedin.com/in/createdd)
-- [Github](https://github.com/Createdd)
-- [Medium](https://medium.com/@ddcreationstudi)
-- [Twitter](https://twitter.com/_createdd)
-- [Steemit](https://steemit.com/@createdd)
-- [Hashnode](https://hashnode.com/@DDCreationStudio)
+
+-   [LinkedIn](https://www.linkedin.com/in/createdd)
+-   [Github](https://github.com/Createdd)
+-   [Medium](https://medium.com/@ddcreationstudi)
+-   [Twitter](https://twitter.com/_createdd)
+-   [Steemit](https://steemit.com/@createdd)
+-   [Hashnode](https://hashnode.com/@DDCreationStudio)
 
 <!-- Written by Daniel Deutsch -->
