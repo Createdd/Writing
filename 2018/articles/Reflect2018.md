@@ -2,6 +2,8 @@
 
 [<img src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1936&q=80">](https://unsplash.com/photos/r9RW20TrQ0Y)
 
+Photo by Luca Micheli on Unsplash - https://unsplash.com/photos/r9RW20TrQ0Y
+
 2018 was a very fast year. To revisit a few things that had happened and evaluate their value it is useful to write them out. It also helps to inform other people I cannot spend so much time with to update them. :)
 
 ## Table of Contents
