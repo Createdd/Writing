@@ -1,4 +1,4 @@
-# Reflecting 2018
+# Reflecting 2018 by Daniel Deutsch
 
 [<img src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1936&q=80">](https://unsplash.com/photos/r9RW20TrQ0Y)
 
@@ -8,7 +8,7 @@ Photo by Luca Micheli on Unsplash - https://unsplash.com/photos/r9RW20TrQ0Y
 
 ## Table of Contents
 
-- [Reflecting 2018](#reflecting-2018)
+- [Reflecting 2018 by Daniel Deutsch](#reflecting-2018-by-daniel-deutsch)
   - [Table of Contents](#table-of-contents)
   - [Goals 2018](#goals-2018)
   - [University / Business Law](#university--business-law)
