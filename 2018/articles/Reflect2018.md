@@ -60,8 +60,8 @@ Focus is key.
 
 ## Getting another job
 
-Life is about growth. The more experiences one is able to collect, the more he is able to contribute to challenges of life. Therefore I wanted to experience another company additionally to my current job as a web developer. It was quite easy as there is always a high demand on people that are able to learn and have an optimistic mindset it seems.
-Working two jobs and studying regularly proved to be harder than expected. It is definitely possible, but depending on the overall efforts, it requires serious commitment. I came to witness that it is even harder to work at two places because every company has its own mindset, its own philosophy. Each project is different and requires a different set of skills. Two work in those environments you need to be adaptable and flexible.
+Life is about growth. The more experiences one is able to collect, the more he is able to contribute to build a good life. Therefore I wanted to experience another company additionally to my current job as a web developer. It was quite easy as there is always a high demand on people that are able to learn and have an optimistic mindset it seems.
+Working two jobs and studying regularly proved to be harder than expected. It is definitely possible, but depending on the overall efforts, it requires serious commitment. I came to witness that it is even harder to work at two places because every company has its own mindset, its own philosophy. Each project is different and requires a different set of skills. To work in those environments you need to be adaptable and flexible.
 
 And again, this is why I like it so much. It requires you to be in a changing state. It is like Bruce Lee said. You have to be flexible as water. If you put it into a cup, it becomes the cup.
 
@@ -69,7 +69,7 @@ Experiencing multiple companies synchronously also showed me how difficult it is
 
 ## Cold showers and meditation
 
-This is huge. As I picked up the Wimhof method (combining meditation and exposure to the cold) I was already confident that this is something that will stick with me. It turned out to be true. For more than a year I am now constantly showering as cold as possible. The effects it has on me are superb. To name a few things that had improved:
+This is huge. As I picked up the Wimhof method (combining meditation and exposure to the cold) I was already confident that this is something that will stick with me. It turned out to be true. For more than a year I am now constantly showering as cold as possible. The effects it has on me are superb. To name a few things that have improved:
 
 ### Sickness
 
@@ -77,7 +77,7 @@ I was not really sick since I started. Also, other health issues like pollen all
 
 ### Sleep
 
-Clearing the mind and body through ice showers has proven to be the most efficient thing for me to sleep well. As I am a person who has constantly new ideas and things to done I always found it hard to go to sleep and just relax. Having an ice shock before the bed helps to clear the mind thouroughly. It is like a reminder that you are human. Thoughts and worries are closed down. Simply because you cannot think when being in cold water. You can only feel, and that is why it helps. Closing the mind helps to go to meditation mode, which prepares you for relaxation, which is ultimately responsible for going to sleep.
+Clearing the mind and body through ice showers has proven to be the most efficient thing for me to sleep well. As I am a person who has constantly new ideas and things to done I always found it hard to go to sleep and just relax. Having an ice shock before the bed helps to clear the mind thoroughly. It is like a reminder that you are human. Thoughts and worries are closed down. Simply because you cannot think when being exposed to cold water. You can only feel, and that is why it helps. Closing the mind helps to go to meditation mode, which prepares you for relaxation, which is ultimately necessary for going to sleep well.
 
 I also want to mention the importance of sleep here. This year I tried consistently to get at least 7 hours of sleep. I realized that this is absolutely necessary to get the best out of yourself. It is better to lose 2 hours of work because of sleep than trying to get more done in a sleepy mode. As I operate my life in a way that always demands a clear and sharp mind, I cannot compromise on this issue.
 
@@ -89,7 +89,7 @@ A great example is working overhours in a day. To be really efficient at pushing
 
 ### Discipline
 
-Taking cold showers everyday needs discipline. Every time you are asked to put yourself into a painful state to achieve greatness. I chose the word pain here on purpose. Because it is painful to expose yourself to the merciless coldness of the fresh water after a long day in winter. You might be tired, hungry or cold. It takes courage to embrace the ice that is raining down on you when all you want is just a warm bed. But all this helps to discipline yourself. As Greg Plitt said: "Life is not about waiting for the storm to pass but learning to dance in the rain".
+Taking cold showers everyday needs discipline. Every time you are asked to put yourself into a painful state to achieve greatness. I chose the word pain here on purpose. Because it is painful to expose yourself to the merciless cold of the fresh water after a long day in winter. You might be tired, hungry or cold. It takes courage to embrace the ice that is raining down on you when all you want is just a warm bed. But all this helps to discipline yourself. As Greg Plitt said: "Life is not about waiting for the storm to pass but learning to dance in the rain".
 
 ## Sports
 
@@ -101,7 +101,7 @@ As I am constantly exposed to other people because I am doing a lot of things, I
 
 ## Looking forward
 
-Another great year is arriving. I love to see how more and more opportunities arise. In all areas of life. Reflecting on a process allows to see its changes. Life is getting better and that is amazing. We simply need to sharpen our mind and attitude to see it. Often are our limitations only the ones we set ourselves. Letting go of those is scary but fruitful. Curiosity is what ignites change. Change is what makes life better than it is already.
+Another great year is arriving. I love to see how more and more opportunities arise. In all areas of life. Reflecting on a process allows to see its changes. Life is getting better and that is amazing. We simply need to sharpen our mind and attitude to see it. Often, our limitations are only the ones we set ourselves. Letting go of those is scary but fruitful. Curiosity is what ignites change. Change is what makes life better than it is already.
 
 ---
 
