@@ -6,6 +6,22 @@
 
 ## Table of Contents
 
+- [Reflecting 2018](#reflecting-2018)
+  - [Table of Contents](#table-of-contents)
+  - [Goals 2018](#goals-2018)
+  - [University / Business Law](#university--business-law)
+  - [Non-profit work](#non-profit-work)
+  - [Getting into machine learning](#getting-into-machine-learning)
+  - [Getting another job](#getting-another-job)
+  - [Cold showers and meditation](#cold-showers-and-meditation)
+    - [Sickness](#sickness)
+    - [Sleep](#sleep)
+    - [Understanding the body](#understanding-the-body)
+    - [Discipline](#discipline)
+  - [Sports](#sports)
+  - [Social life and love](#social-life-and-love)
+  - [Looking forward](#looking-forward)
+
 ---
 
 “Life is like a play: it's not the length, but the excellence of the acting that matters.”
@@ -118,7 +134,6 @@ Connect on:
 -   [Github](https://github.com/Createdd)
 -   [Medium](https://medium.com/@ddcreationstudi)
 -   [Twitter](https://twitter.com/_createdd)
--   [Steemit](https://steemit.com/@createdd)
 -   [Hashnode](https://hashnode.com/@DDCreationStudio)
 
 <!-- Written by Daniel Deutsch -->
