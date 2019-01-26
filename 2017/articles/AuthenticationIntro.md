@@ -6,7 +6,7 @@ https://unsplash.com/photos/tGbugCIBaCo
 
 Authentication is an important issue when creating a dynamic web application. This article should clear things up and provide a basic instruction.
 
-[➡️ Github Repo is available here ⬅️](https://github.com/DDCreationStudios/authenticationIntro)
+[➡️ Github Repo is available here ⬅️](https://github.com/DDCSLearning/authenticationIntro)
 
 
 ## 📄 Table of contents
@@ -337,7 +337,7 @@ app.use(session({
 
 <img src="../assets/AUTH/preview.png" alt="pic"/>
 
-Checkout my [repo on github](https://github.com/DDCreationStudios/authenticationIntro) for the code.
+Checkout my [repo on github](https://github.com/DDCSLearning/authenticationIntro) for the code.
 
 ## Conclusion
 
