@@ -29,6 +29,30 @@ Connect on:
 
 ---
 
+#### Articles in 2018
+
+1. [CleanA](./2018/articles/CleanA.md)
+1. [CoffeeCode](./2018/articles/CoffeeCode.md)
+1. [ComplementProgramming](./2018/articles/ComplementProgramming.md)
+1. [ConceptRegression](./2018/articles/ConceptRegression.md)
+1. [DebugTFBasics](./2018/articles/DebugTFBasics.md)
+1. [EUWettbewerb](./2018/articles/EUWettbewerb.md)
+1. [Githooks](./2018/articles/Githooks.md)
+1. [InstalTF](./2018/articles/InstalTF.md)
+1. [LawStatisticsExample](./2018/articles/LawStatisticsExample.md)
+1. [MLCourseTips](./2018/articles/MLCourseTips.md)
+1. [MLIntroP1](./2018/articles/MLIntroP1.md)
+1. [MLIntroP2](./2018/articles/MLIntroP2.md)
+1. [MLIntroP3](./2018/articles/MLIntroP3.md)
+1. [MLIntroP4](./2018/articles/MLIntroP4.md)
+1. [RFSR](./2018/articles/RFSR.md)
+1. [Reflect2018](./2018/articles/Reflect2018.md)
+1. [Tensor](./2018/articles/Tensor.md)
+1. [TensorflowIntro](./2018/articles/TensorflowIntro.md)
+1. [deepLearningStep](./2018/articles/deepLearningStep.md)
+
+---
+
 #### Articles in 2017
 
 ##### Read as [GitBook](https://ddcreationstudios.gitbooks.io/developmentprogress2017/content/)
