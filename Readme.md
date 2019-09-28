@@ -26,6 +26,7 @@ Connect on:
 [![supportPatreon](./patreonImg.png)](https://www.patreon.com/createdd)
 
 <script>window.upsettings = {'api_key': ''}</script><script>(function(){var w=window;var up=w.Upscribe;if(typeof up==="function"){up('reattach_activator');up('update',upsettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Upscribe=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://upscri.be/js/snippet.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if( w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
 <div class="upscribe-embed" data-src="https://upscri.be/481d76"></div>
 
 ---
