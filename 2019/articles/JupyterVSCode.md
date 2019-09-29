@@ -18,8 +18,11 @@ There are many ways to organize python packages/ dependencies. It is overwhlemin
 Check out [this article](https://gioele.io/pyenv-pipenv), which explains the current standard on installing and managing python packages. Very precisely **Gioele Barabucci** shows the following problems when installing a package:
 
 > -Do you have enough rights to install that package? Maybe you need to use sudo pip. This sounds wrong.
+
 > -Your application needs version 2.0 of foolib. Another Python application in you system needs version 1.8. Oops, API conflict.
+
 > -Other people that will install your application will need foolib. You need to document it somewhere, for example in requirements.txt. But using pip freeze will record the exact version of foolib you happen to use right now. Any version of the 2.x series would be OK, but there is no easy way to tell this to pip.
+
 > -Actually all this is moot because you need native datatypes and they are available only in Python 3.7. Unfortunately your Linux distro only ships version 3.5.
 
 
