@@ -47,7 +47,7 @@ In VSCode you can us the jupyter functionality as cells in python files. Executi
 
 VSCode provides functionality to convert python files (with the jupyter markup cells) to Jupyter Notebook files. This way you can for example import a notebook as python file and run the cells as you would normally do.
 
-![Convert notebook files and run them](http://recordit.co/DndtyRoXaT)
+![Convert notebook files and run them](http://g.recordit.co/DndtyRoXaT.gif)
 
 
 ### Preview a notebook in Vscode (not recommended)
