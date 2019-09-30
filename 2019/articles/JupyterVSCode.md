@@ -21,7 +21,7 @@ There a few reasons why it makes sense to develop you algorithms in a separate I
 
 ## Setup a local python environment
 
-First you need to set up your python environment. There are many ways to organize python packages/ dependencies. It is overwhelming for a beginner.
+First, you need to set up your python environment. There are many ways to organize python packages/ dependencies. It is overwhelming for a beginner.
 Check out [this article](https://gioele.io/pyenv-pipenv), which explains the current standard on installing and managing python packages. Very precisely, **Gioele Barabucci** shows the following problems when installing a package:
 
 > -Do you have enough rights to install that package? Maybe you need to use sudo pip. This sounds wrong.
@@ -61,7 +61,7 @@ VSCode provides functionality to convert python files (with the jupyter markup c
 
 ![Convert notebook files and run them](http://g.recordit.co/DndtyRoXaT.gif)
 
-See the [docs](https://code.visualstudio.com/docs/python/jupyter-support#_export-a-jupyter-notebook) for more.s
+See the [docs](https://code.visualstudio.com/docs/python/jupyter-support#_export-a-jupyter-notebook) for more.
 
 
 ## Additional: Preview a notebook in Vscode (not recommended)
