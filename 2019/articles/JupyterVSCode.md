@@ -51,7 +51,7 @@ Having selected the correct environment, you will be able to develop jupyter cel
 
 ## Using python files with jupyter functionality
 
-In VSCode you can us the jupyter functionality as cells in python files. Executing the cells or running the command `Run Current File in Python Interactive window` opens an executed, notebook similar, overview:
+In VSCode you can us the jupyter functionality as cells in python files. Executing the cells or running the command `Run Current File in Python Interactive window` opens an executed, notebook-similar overview:
 
 ![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
@@ -64,7 +64,7 @@ VSCode provides functionality to convert python files (with the jupyter markup c
 See the [docs](https://code.visualstudio.com/docs/python/jupyter-support#_export-a-jupyter-notebook) for more.
 
 
-## Additional: Preview a notebook in Vscode (not recommended)
+## Additional: Preview a notebook in VSCode (not recommended)
 
 There is an extension for VSCode that allows you to display the ***.ipynb** files. It is called [VS Code Jupyter Notebook Previewer](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer). Even though it is nice to display a full notebook rendered in VSCode, there is no functionality in editing or changing anything like we are used in a notebook. So this is simply for previewing.
 
