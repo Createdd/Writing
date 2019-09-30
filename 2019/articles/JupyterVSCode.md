@@ -1,8 +1,6 @@
 # Working with VSCode instead of Jupyter Notebook
 
-![https://unsplash.com/photos/JKUTrJ4vK00](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80)
-Photo by Luke Chesser on Unsplash
-
+![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
 ## Table of Contents
 
