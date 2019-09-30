@@ -6,6 +6,15 @@ Photo by Luke Chesser on Unsplash
 
 ## Table of Contents
 
+  - [Setup a local python environment](#setup-a-local-python-environment)
+    - [Set a local pyenv](#set-a-local-pyenv)
+    - [Installing dependencies with pipenv](#installing-dependencies-with-pipenv)
+  - [Using python files with jupyter functionality](#using-python-files-with-jupyter-functionality)
+  - [Converting python files and .ipynb files](#converting-python-files-and-ipynb-files)
+  - [Additional: Preview a notebook in Vscode (not recommended)](#additional-preview-a-notebook-in-vscode-not-recommended)
+  - [Conclusion](#conclusion)
+  - [About](#about)
+
 
 If you are getting started with machine learning algorithms, you will come across Jupyter Notebook. To maximize efficiency you can integrate its concept with VS Code. As this requires some understanding on how to set up a Python environment this article shall provide an introduction.
 
