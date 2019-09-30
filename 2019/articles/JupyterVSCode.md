@@ -9,12 +9,12 @@ Photo by Luke Chesser on Unsplash
 
 If you are getting started with machine learning algorithms, you will come across Jupyter Notebook. To maximize efficiency you can integrate it with VS Code. As this requires some understanding on how to set up a Python environment this shall help.
 
-
+There a few reasons why it makes sense to develop you algorithms in a separate IDE. Even though jupyter notebooks are great, as soon as the code is getting more complex or the project is getting bigger, it is just not handy to have all the code in one file. VScode comes with great jupyter support and allows to transfer python code into jupyter notebook code.
 
 
 ## Setup a local python environment
 
-There are many ways to organize python packages/ dependencies. It is overwhleming for a beginner.
+There are many ways to organize python packages/ dependencies. It is overwhelming for a beginner.
 Check out [this article](https://gioele.io/pyenv-pipenv), which explains the current standard on installing and managing python packages. Very precisely **Gioele Barabucci** shows the following problems when installing a package:
 
 > -Do you have enough rights to install that package? Maybe you need to use sudo pip. This sounds wrong.
@@ -32,12 +32,29 @@ Check out [this article](https://gioele.io/pyenv-pipenv), which explains the cur
 
 Install **pyenv** to manage python versions. Check out the [docs](https://github.com/pyenv/pyenv) to go through the install process.
 
+For example you can install Python version 3.7 with `pyenv install 3.7.0`.
+
 After setting the local python environment, you will be able to set the new python environment in VSCode:
 ![Gif of selecting Python Interpreter](http://g.recordit.co/tRdnrOAMHu.gif)
 
+If you are having trouble setting up the interpreter, check out the [VScode Docs](http://recordit.co/fxFECb7aby).
+
+### Using python files with jupyter functionality
+
+In VSCode you can us the jupyter functionality as cells in python files. Executing the cells or running the command `Run Current File in Python Interactive window` opens an executed, notebook similar overview:
+
+![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
 
 
+### Preview a notebook in Vscode (not recommended)
+
+There is an extension for VSCode that allows you to display the ***.ipynb** files. It is called [VS Code Jupyter Notebook Previewer](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer). Even though it is nice to display a full notebook rendered in VSCode, there is no funcitonality in editing or changing anything like we are used in a notebook. So this is simply for previewing.
+
+![Jupyter Notebook Preview Gif](https://thumbs.gfycat.com/FarawayTerrificChameleon-max-14mb.gif)
+Source from the extension [docs](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer)
+
+As I was using this extension it was interfering with my python extension. There was an issue that all python files were not able to reload anymore. Uninstalling this extension solved the issue again for me. See related issue discussion [here](https://github.com/microsoft/vscode-python/issues/6392).
 
 
 
