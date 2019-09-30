@@ -30,11 +30,12 @@ Check out [this article](https://gioele.io/pyenv-pipenv), which explains the cur
 
 ### Set a local pyenv
 
-Install pyenv to manage python versions. Check out the [docs](https://github.com/pyenv/pyenv)
+Install **pyenv** to manage python versions. Check out the [docs](https://github.com/pyenv/pyenv) to go through the install process.
+
+After setting the local python environment, you will be able to set the new python environment in VSCode:
+![Gif of selecting Python Interpreter](http://g.recordit.co/tRdnrOAMHu.gif)
 
 
-
-Therefore, you first select you Python environment with `pyenv`. (This is not always necessary if you have already your desired python environment set up.)
 
 
 
