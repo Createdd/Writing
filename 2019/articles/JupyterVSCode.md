@@ -1,4 +1,4 @@
-# Working with VSCode instead of Jupyter Notebook
+# Working with VSCode and Jupyter Notebook Style
 
 ![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
@@ -16,7 +16,7 @@
 
 If you are getting started with machine learning algorithms, you will come across Jupyter Notebook. To maximize efficiency you can integrate its concept with VS Code. As this requires some understanding on how to set up a Python environment this article shall provide an introduction.
 
-There a few reasons why it makes sense to develop you algorithms in a separate IDE. Even though jupyter notebooks are great, as soon as the code is getting more complex or the project is getting bigger, it is just not handy to have all the code in one file. VScode comes with great jupyter support and allows to transfer python code into jupyter notebook code and vice versa.
+There a few reasons why it makes sense to develop you algorithms in a separate IDE. Even though Jupyter notebooks are great, as soon as the code is getting more complex or the project is getting bigger, it is just not handy to have all the code in one file. VScode comes with great Jupyter support and allows to transfer python code into Jupyter notebook code and vice versa.
 
 
 ## Setup a local python environment
