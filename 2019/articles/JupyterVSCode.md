@@ -26,8 +26,6 @@ Check out [this article](https://gioele.io/pyenv-pipenv), which explains the cur
 > -Actually all this is moot because you need native datatypes and they are available only in Python 3.7. Unfortunately your Linux distro only ships version 3.5.
 
 
-
-
 ### Set a local pyenv
 
 Install **pyenv** to manage python versions. Check out the [docs](https://github.com/pyenv/pyenv) to go through the install process.
@@ -45,16 +43,21 @@ In VSCode you can us the jupyter functionality as cells in python files. Executi
 
 ![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
+### Converting python files and .ipynb files
+
+VSCode provides functionality to convert python files (with the jupyter markup cells) to Jupyter Notebook files. This way you can for example import a notebook as python file and run the cells as you would normally do.
+
+![Convert notebook files and run them](http://recordit.co/DndtyRoXaT)
 
 
 ### Preview a notebook in Vscode (not recommended)
 
-There is an extension for VSCode that allows you to display the ***.ipynb** files. It is called [VS Code Jupyter Notebook Previewer](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer). Even though it is nice to display a full notebook rendered in VSCode, there is no funcitonality in editing or changing anything like we are used in a notebook. So this is simply for previewing.
+There is an extension for VSCode that allows you to display the ***.ipynb** files. It is called [VS Code Jupyter Notebook Previewer](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer). Even though it is nice to display a full notebook rendered in VSCode, there is no functionality in editing or changing anything like we are used in a notebook. So this is simply for previewing.
 
 ![Jupyter Notebook Preview Gif](https://thumbs.gfycat.com/FarawayTerrificChameleon-max-14mb.gif)
 Source from the extension [docs](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer)
 
-As I was using this extension it was interfering with my python extension. There was an issue that all python files were not able to reload anymore. Uninstalling this extension solved the issue again for me. See related issue discussion [here](https://github.com/microsoft/vscode-python/issues/6392).
+As I was using this extension it was interfering with my python extension. There was an issue that all python files were not able to reload anymore. Uninstalling this extension solved the issue again for me. See the related issue discussion [here](https://github.com/microsoft/vscode-python/issues/6392).
 
 
 
