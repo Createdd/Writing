@@ -1,4 +1,4 @@
-# Integrate Jupyter Notebook with VSCode
+# Working with VSCode instead of Jupyter Notebook
 
 ![https://unsplash.com/photos/JKUTrJ4vK00](https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80)
 Photo by Luke Chesser on Unsplash
@@ -7,15 +7,15 @@ Photo by Luke Chesser on Unsplash
 ## Table of Contents
 
 
-If you are getting started with machine learning algorithms, you will come across Jupyter Notebook. To maximize efficiency you can integrate it with VS Code. As this requires some understanding on how to set up a Python environment this shall help.
+If you are getting started with machine learning algorithms, you will come across Jupyter Notebook. To maximize efficiency you can integrate its concept with VS Code. As this requires some understanding on how to set up a Python environment this article shall provide an introduction.
 
-There a few reasons why it makes sense to develop you algorithms in a separate IDE. Even though jupyter notebooks are great, as soon as the code is getting more complex or the project is getting bigger, it is just not handy to have all the code in one file. VScode comes with great jupyter support and allows to transfer python code into jupyter notebook code.
+There a few reasons why it makes sense to develop you algorithms in a separate IDE. Even though jupyter notebooks are great, as soon as the code is getting more complex or the project is getting bigger, it is just not handy to have all the code in one file. VScode comes with great jupyter support and allows to transfer python code into jupyter notebook code and vice versa.
 
 
 ## Setup a local python environment
 
-There are many ways to organize python packages/ dependencies. It is overwhelming for a beginner.
-Check out [this article](https://gioele.io/pyenv-pipenv), which explains the current standard on installing and managing python packages. Very precisely **Gioele Barabucci** shows the following problems when installing a package:
+First you need to set up your python environment. There are many ways to organize python packages/ dependencies. It is overwhelming for a beginner.
+Check out [this article](https://gioele.io/pyenv-pipenv), which explains the current standard on installing and managing python packages. Very precisely, **Gioele Barabucci** shows the following problems when installing a package:
 
 > -Do you have enough rights to install that package? Maybe you need to use sudo pip. This sounds wrong.
 
@@ -37,20 +37,27 @@ After setting the local python environment, you will be able to set the new pyth
 
 If you are having trouble setting up the interpreter, check out the [VScode Docs](http://recordit.co/fxFECb7aby).
 
-### Using python files with jupyter functionality
+### Installing dependencies with pipenv
 
-In VSCode you can us the jupyter functionality as cells in python files. Executing the cells or running the command `Run Current File in Python Interactive window` opens an executed, notebook similar overview:
+Afterwards you can install the jupyter package with `pipenv install jupyter`.
+Having selected the correct environment, you will be able to develop jupyter cells in VSCode.
+
+## Using python files with jupyter functionality
+
+In VSCode you can us the jupyter functionality as cells in python files. Executing the cells or running the command `Run Current File in Python Interactive window` opens an executed, notebook similar, overview:
 
 ![Run cells in VSCode](http://g.recordit.co/JM7RyyjISc.gif)
 
-### Converting python files and .ipynb files
+## Converting python files and .ipynb files
 
 VSCode provides functionality to convert python files (with the jupyter markup cells) to Jupyter Notebook files. This way you can for example import a notebook as python file and run the cells as you would normally do.
 
 ![Convert notebook files and run them](http://g.recordit.co/DndtyRoXaT.gif)
 
+See the [docs](https://code.visualstudio.com/docs/python/jupyter-support#_export-a-jupyter-notebook) for more.s
 
-### Preview a notebook in Vscode (not recommended)
+
+## Additional: Preview a notebook in Vscode (not recommended)
 
 There is an extension for VSCode that allows you to display the ***.ipynb** files. It is called [VS Code Jupyter Notebook Previewer](https://marketplace.visualstudio.com/items?itemName=jithurjacob.nbpreviewer). Even though it is nice to display a full notebook rendered in VSCode, there is no functionality in editing or changing anything like we are used in a notebook. So this is simply for previewing.
 
@@ -59,7 +66,10 @@ Source from the extension [docs](https://marketplace.visualstudio.com/items?item
 
 As I was using this extension it was interfering with my python extension. There was an issue that all python files were not able to reload anymore. Uninstalling this extension solved the issue again for me. See the related issue discussion [here](https://github.com/microsoft/vscode-python/issues/6392).
 
+## Conclusion
 
+Overall, we can see that developing jupyter-styled cells, is easy within VSCode. It allows you to use all the features the VSCode editor offers you (like [snippets](https://marketplace.visualstudio.com/items?itemName=SBSnippets.fastai-snippets)) and therefore providing a rich development experience.
+Maybe it makes sense for you as well to develop in this environment, instead of just writing everything in the notebooks. ;) 
 
 ---
 
