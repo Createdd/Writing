@@ -24,6 +24,7 @@ Connect on:
 - [Medium](https://medium.com/@createdd)
 - [Twitter](https://twitter.com/_createdd)
 - [Patreon](https://www.patreon.com/createdd)
+- [Instagram](https://www.instagram.com/create.dd/)
 
 ## Support and Mails
 
