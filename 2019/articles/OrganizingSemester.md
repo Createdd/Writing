@@ -22,11 +22,11 @@ After finishing my law degree I now decided to formalize my knowledge in math an
 
 ## 0. About me and going paperless
 
-I have already studied law and now want to be more efficent with my new studies. So this time I went paperless. (#paperlessStudent)
+I have already studied law and now want to be more efficient with my new studies. So this time I went paperless. (#paperlessStudent)
 I was just annoyed by all the paper, printing, carrying and inefficiency at all.
-So for this studies I got myself an Ipad and try to organize everything with it.
+So for this studies I got myself an iPad and try to organize everything with it.
 
-This already had proven to be very good as the world today is very fast and mobile. People do not longer want to carry 5 books with them just to do homework. Now I transformed myself to a digital, paperless student and is already great. Currently I use Notability for the Ipad and for coding VSCode. If you have any productivity tools which are amazing, feel free to comment them.
+This already had proven to be very good as the world today is very fast and mobile. People do not longer want to carry 5 books with them just to do homework. Now I transformed myself to a digital, paperless student and is already great. Currently I use Notability for the iPad and for coding VSCode. If you have any productivity tools which are amazing, feel free to comment them.
 
 ## 1. Get an overview
 
