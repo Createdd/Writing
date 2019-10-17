@@ -8,11 +8,25 @@ After finishing my law degree I now decided to formalize my knowledge in math an
 
 ## Table of Contents
 
-## 0. About me and a new way of organizing
+- [How to organize your studies while working](#how-to-organize-your-studies-while-working)
+  - [Table of Contents](#table-of-contents)
+  - [0. About me and going paperless](#0-about-me-and-going-paperless)
+  - [1. Get an overview](#1-get-an-overview)
+  - [2. Arrange your organization platform](#2-arrange-your-organization-platform)
+  - [3. Find Pareto Optima](#3-find-pareto-optima)
+  - [4. Find a workflow to get everything done](#4-find-a-workflow-to-get-everything-done)
+  - [5. Work around exam dates](#5-work-around-exam-dates)
+  - [6. Breathe](#6-breathe)
+  - [About](#about)
+  - [Support and Mails](#support-and-mails)
+
+## 0. About me and going paperless
 
 I have already studied law and now want to be more efficent with my new studies. So this time I went paperless. (#paperlessStudent)
 I was just annoyed by all the paper, printing, carrying and inefficiency at all.
 So for this studies I got myself an Ipad and try to organize everything with it.
+
+This already had proven to be very good as the world today is very fast and mobile. People do not longer want to carry 5 books with them just to do homework. Now I transformed myself to a digital, paperless student and is already great. Currently I use Notability for the Ipad and for coding VSCode. If you have any productivity tools which are amazing, feel free to comment them.
 
 ## 1. Get an overview
 
@@ -65,6 +79,7 @@ The way I solve this is the following:
 
 As you are studying and doing work as well I guess you are ambitions and motivated as hell. So this might seem counter intuitive but it is vital. Breath and relax. There is no way to work all the time 100%. Better to chill in between, but when you work, then work.
 
+Ultimately doing full-time work and a study at the same thing comes down to mindset. It is possible but requires discipline. It is useful to see the studying as a pursuit to learning for life rather than just getting a degree. Because the degree will not be enough motivation for you to keep through all of it over a period of (more than) three years.
 
 If you have any questions feel free to ask. I can also write an article about concepts that are especially interesting to you.
 
