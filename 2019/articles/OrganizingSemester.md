@@ -1,4 +1,4 @@
-# How to start the university semester properly
+# How to organize your studies while working
 
 [<img src="XXXXXXXX">](
 httpsasdfafasfasfdasf)
@@ -8,7 +8,11 @@ After finishing my law degree I now decided to formalize my knowledge in math an
 
 ## Table of Contents
 
-##
+## 0. About me and a new way of organizing
+
+I have already studied law and now want to be more efficent with my new studies. So this time I went paperless. (#paperlessStudent)
+I was just annoyed by all the paper, printing, carrying and inefficiency at all.
+So for this studies I got myself an Ipad and try to organize everything with it.
 
 ## 1. Get an overview
 
@@ -25,6 +29,8 @@ To get an overview I just go through all the course information and see which cl
 Most universities have a platform, where they manage the course materials and online assignments are done.
 In my case this is moodle. I try to organize it as much as possible to schedule my tasks according to the [Eisenhower Matrix](https://www.eisenhower.me/eisenhower-matrix/).
 This helps because there is always so much to learn, but to finish the courses it is sufficient to get the most important things done.
+
+![moodle](../assets/OrganizingSem/moodle.png)
 
 ## 3. Find Pareto Optima
 
@@ -55,7 +61,12 @@ The way I solve this is the following:
 4. If the exam is online and just a short multiple choice test. You can use the toilet.(yes, this is hardcore - but necessary if your employer doesn't support your ambitious goals)
 5. If the exam is not online and you do not get a holiday, you have to take it next semester. Be careful to structure your classes so there is a good mix of online and in-person exams. (if possible)
 
+## 6. Breathe
 
+As you are studying and doing work as well I guess you are ambitions and motivated as hell. So this might seem counter intuitive but it is vital. Breath and relax. There is no way to work all the time 100%. Better to chill in between, but when you work, then work.
+
+
+If you have any questions feel free to ask. I can also write an article about concepts that are especially interesting to you.
 
 ---
 
