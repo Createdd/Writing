@@ -36,9 +36,24 @@ It is nice to learn as much as possible, but often we don't have the time to lea
 This will differ from everyone.
 For example, do I work full-time and have many other projects to do as well. Everybody keeps reminding you that "it is not possible to get everything done" or that "you have to focus 100% only on your studies". This is often not true. You can most of the time find ways to get everything done. What do I mean with that and how can you do it. Let me explain how I will do it this semester.
 
-First of all, I am more efficient if I just read the material and work through the exercises. I have been studying now for more than 5 years, and for me sitting in lectures is often an incredible waste of my precious time. Therefore I always start with the exercises to see what is actually demanded by the professor. Afterwards I read through the study material and try to answer all questions/assignments while I do this. 
-I repeat this with every class I have until all my deadlines are met. 
-Afterwards I go through additional learnin materials. For example streamings, additional slides, additional articles and so on.
+First of all, I am more efficient if I just read the material and work through the exercises. I have been studying now for more than 5 years, and for me sitting in lectures is often an incredible waste of my precious time. Therefore I always start with the exercises to see what is actually demanded by the professor. Afterwards I read through the study material and try to answer all questions/assignments while I do this.
+I repeat this with every class I have until all my deadlines are met.
+Afterwards I go through additional learning material. For example streamings, additional slides, additional articles and so on.
+
+This process is scheduled to my working hours. If I work from 9am to 5pm, I will have a break after I come home and start immediately after the break with my studies.
+
+Of course, the weekends will be primarily used for the more complex assignments, which couldn't be finished during the week.
+
+## 5. Work around exam dates
+
+A huge issue when working full-time are exams. Exams are scheduled the way the university likes. And most of the time they cannot schedule the time for full-time working students.
+The way I solve this is the following:
+
+1. Ask the professor if there is a way to re-schedule or if there are other dates available
+2. Schedule work leave or holiday for the key exams. (In most countries you are entitled to holidays)
+3. If the exam is online and around lunch time you can use your lunchtime for taking the test (yes, this is crazy but doable)
+4. If the exam is online and just a short multiple choice test. You can use the toilet.(yes, this is hardcore - but necessary if your employer doesn't support your ambitious goals)
+5. If the exam is not online and you do not get a holiday, you have to take it next semester. Be careful to structure your classes so there is a good mix of online and in-person exams. (if possible)
 
 
 
