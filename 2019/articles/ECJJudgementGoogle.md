@@ -1,4 +1,4 @@
-# FastAI Pet Classification
+# European Court of Justice Judgement Case C‑507/17, analyzed with Python
 
 [<img src="XXXXXXXX">](
 httpsasdfafasfasfdasf)
@@ -8,6 +8,12 @@ xxxxxxx - httpsasdfafasfasfdasf
 ## Table of Contents
 
 ##
+
+Recently there was a ruling of the ECJ (European Court of Justice) about the "right to be forgotten" in terms of data privacy.
+The “right to be forgotten”, which enables claimants to request the removal of links to irrelevant or outdated online information about them, should not be enforceable globally, the European Court of Justice (ECJ) has ruled.
+
+This is newer ruling an also interesting. That is why I wanted to do some NLP analysis on it.
+
 
 
 ---
