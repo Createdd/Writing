@@ -22,9 +22,9 @@ After finishing my law degree I now decided to formalize my knowledge in math an
 
 I have already studied law and now want to be more efficient with my new studies. So this time I went paperless. (#paperlessStudent)
 I was just annoyed by all the paper, printing, carrying and inefficiency at all.
-So for this studies I got myself an iPad and try to organize everything with it.
+So for these studies I got myself an iPad and try to organize everything with it.
 
-This already had proven to be very good as the world today is very fast and mobile. People do not longer want to carry 5 books with them just to do homework. Now I transformed myself to a digital, paperless student and is already great. Currently I use Notability for the iPad and for coding VSCode. If you have any productivity tools which are amazing, feel free to comment them.
+This already had proven to be very good as the world today is very fast and mobile. People do not longer want to carry 5 books with them just to do homework. Now I transformed myself into a digital, paperless student and is already great. Currently, I use Notability for the iPad and for coding VSCode. If you have any productivity tools which are amazing, feel free to comment on them.
 
 ## 1. Get an overview
 
@@ -56,30 +56,30 @@ It is nice to learn as much as possible, but often we don't have the time to lea
 This will differ from everyone.
 For example, do I work full-time and have many other projects to do as well. Everybody keeps reminding you that "it is not possible to get everything done" or that "you have to focus 100% only on your studies". This is often not true. You can most of the time find ways to get everything done. What do I mean with that and how can you do it. Let me explain how I will do it this semester.
 
-First of all, I am more efficient if I just read the material and work through the exercises. I have been studying now for more than 5 years, and for me sitting in lectures is often an incredible waste of my precious time. Therefore I always start with the exercises to see what is actually demanded by the professor. Afterwards I read through the study material and try to answer all questions/assignments while I do this.
+First of all, I am more efficient if I just read the material and work through the exercises. I have been studying now for more than 5 years, and for me sitting in lectures is often an incredible waste of my precious time. Therefore I always start with the exercises to see what is actually demanded by the professor. Afterward, I read through the study material and try to answer all questions/assignments while I do this.
 I repeat this with every class I have until all my deadlines are met.
-Afterwards I go through additional learning material. For example streamings, additional slides, additional articles and so on.
+Afterward, I go through additional learning material. For example streamings, additional slides, additional articles and so on.
 
-This process is scheduled to my working hours. If I work from 9am to 5pm, I will have a break after I come home and start immediately after the break with my studies.
+This process is scheduled for my working hours. If I work from 9am to 5pm, I will have a break after I come home and start immediately after the break with my studies.
 
 Of course, the weekends will be primarily used for the more complex assignments, which couldn't be finished during the week.
 
 ## 5. Work around exam dates
 
-A huge issue when working full-time are exams. Exams are scheduled the way the university likes. And most of the time they cannot schedule the time for full-time working students.
+A huge issue when working full-time is exams. Exams are scheduled the way the university likes. And most of the time they cannot schedule the time for full-time working students.
 The way I solve this is the following:
 
 1. Ask the professor if there is a way to re-schedule or if there are other dates available
 2. Schedule work leave or holiday for the key exams. (In most countries you are entitled to holidays)
-3. If the exam is online and around lunch time you can use your lunchtime for taking the test (yes, this is crazy but doable)
+3. If the exam is online and around lunchtime, you can use your lunchtime for taking the test (yes, this is crazy but doable)
 4. If the exam is online and just a short multiple choice test. You can use the toilet.(yes, this is hardcore - but necessary if your employer doesn't support your ambitious goals)
 5. If the exam is not online and you do not get a holiday, you have to take it next semester. Be careful to structure your classes so there is a good mix of online and in-person exams. (if possible)
 
 ## 6. Breathe
 
-As you are studying and doing work as well I guess you are ambitions and motivated as hell. So this might seem counter intuitive but it is vital. Breath and relax. There is no way to work all the time 100%. Better to chill in between, but when you work, then work.
+As you are studying and doing work as well I guess you are ambitious and motivated as hell. So this might seem counter-intuitive but it is vital. Breath and relax. There is no way to work all the time 100%. Better to chill in between, but when you work, then work.
 
-Ultimately doing full-time work and a study at the same thing comes down to mindset. It is possible but requires discipline. It is useful to see the studying as a pursuit to learning for life rather than just getting a degree. Because the degree will not be enough motivation for you to keep through all of it over a period of (more than) three years.
+Ultimately doing full-time work and a study at the same thing comes down to mindset. It is possible but requires discipline. It is useful to see studying as a pursuit of learning for life rather than just getting a degree. Because the degree will not be enough motivation for you to keep through all of it over a period of (more than) three years.
 
 If you have any questions feel free to ask. I can also write an article about concepts that are especially interesting to you.
 
@@ -90,6 +90,8 @@ If you have any questions feel free to ask. I can also write an article about co
 I consider myself a problem solver. My strengths are to navigate in complex environments, provide solutions and breaking them down.
 My knowledge and interests evolve around business law and programming machine learning applications.
 I provide services in building data analysis and evaluating business-related concepts.
+
+![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
 
 Connect on:
 - [LinkedIn](https://www.linkedin.com/in/createdd)
