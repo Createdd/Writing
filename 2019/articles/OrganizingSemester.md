@@ -49,6 +49,8 @@ This helps because there is always so much to learn, but to finish the courses i
 The next step is to analyze the classes from a [Pareto](https://en.wikipedia.org/wiki/Pareto_principle) perspective.
 It is nice to learn as much as possible, but often we don't have the time to learn everything at all. Thankfully Pareto helps with his principle. Find out what 20% of the course are the most important ones. In most cases these are the assignment. In assignments teacher see the core skills of the lecture covered (that's why they are covered in the assignment)
 
+![pareto](../assets/OrganizingSem/pareto.png)
+
 ## 4. Find a workflow to get everything done
 
 This will differ from everyone.
