@@ -1,13 +1,11 @@
 # How to organize your studies while working
 
-[<img src="XXXXXXXX">](
-httpsasdfafasfasfdasf)
-xxxxxxx - httpsasdfafasfasfdasf
+![google calendar](http://g.recordit.co/VBS2iScHGr.gif)
+
 
 After finishing my law degree I now decided to formalize my knowledge in math and programming. Fortunately, JKU Linz came out with a new study called "Artificial Intelligence". They also offer a distance learning option for people from Vienna. As I wanted to start studying statistics anyways, this came in handy. Now I want to share the way I organize myself throughout the semester, as I think it might be helpful for some fellow students.
 
 ## Table of Contents
-
 - [How to organize your studies while working](#how-to-organize-your-studies-while-working)
   - [Table of Contents](#table-of-contents)
   - [0. About me and going paperless](#0-about-me-and-going-paperless)
