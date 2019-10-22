@@ -2,7 +2,7 @@
 
 ![workflow in vscode](http://g.recordit.co/rW0naXU6ZT.gif)
 
-Currently I study Artificial Intelligence at the JKU university and for some exercises we need to use jupyter notebooks. Having worked a little bit with Python the package manager "**pipenv**" proofed to be valuable. Now, I encountered some problems using it with jupyter notebooks and within vscode. Therefore, a short guide on how I solved it.
+Currently I study **Artificial Intelligence** at the JKU university and for some exercises we need to use [jupyter notebooks](https://jupyter.org/). Having worked a little bit with Python the package manager [pipenv](https://pipenv-fork.readthedocs.io/en/latest/) proofed to be valuable. Now, I encountered some problems using it with jupyter notebooks and within vscode. Therefore, a short guide on how I solved it.
 
 ## Table of Contents
 - [How to use Pipenv with Jupyter and VSCode](#how-to-use-pipenv-with-jupyter-and-vscode)
@@ -16,7 +16,7 @@ Currently I study Artificial Intelligence at the JKU university and for some exe
 ## The Issue
 
 As I described in my last article [Working with Jupyter and VSCode](https://towardsdatascience.com/working-with-vscode-and-jupyter-notebook-style-5ecaf47f9f84) I use **pyenv** and **pipenv** for managing all packages in my python development. I also referenced some articles why this way is helpful and easy to use.
-Now, it is necessary to dive a little more into it. There are two ways you would want to develop with jupyter notebook. Either you work with it directly in the browser or inside VSCode. In both use cases there emerge problems.
+Now, it is necessary to dive a little more into it. There are two ways you would want to develop with jupyter notebook. Either you work with it directly in the browser or inside VSCode. In both use cases there can emerge problems.
 
 ## Developing with Jupyter Notebook in the browser
 
@@ -39,7 +39,7 @@ Now the jupyter server is started and your notebook will have access to the corr
 ![jupyter in vscode](../assets/VSCodePipenv/jupyterVSCode.png)
 
 Now for the workflow within VSCode.
-Here it is import to be aware of the different shells. I often use a separate terminal (iterm2) and sometimes an activated shell is not recognized by VSCode. Therefore the workflow is as follows:
+Here, it is import to be aware of different shells. I often use a separate terminal (iterm2) and sometimes an activated shell is not recognized by VSCode or you are in a wrong directory or it is not activated. All of this causes problems. Therefore my workflow is as follows:
 
 
 1. First, create the Pipenv environment.
@@ -64,7 +64,9 @@ If this is the case you need to open the VSCode terminal and run `pipenv shell` 
 ![workflow in vscode](http://g.recordit.co/rW0naXU6ZT.gif)
 
 
-Now, after opening the .ipynb file, you will be able to run the cells and not get the error `"... was not able to start jupyter server in environment xxx"`
+Now, after opening the **.ipynb** file, you will be able to run the cells and not get the error `"... was not able to start jupyter server in environment xxx"`
+
+Let me know if it helps or if you have other issues or solutions working with **Pipenv** in **VSCode** and **Jupyter** **Notebook**.
 
 ---
 
