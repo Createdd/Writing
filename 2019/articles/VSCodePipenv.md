@@ -16,17 +16,19 @@ Currently I study Artificial Intelligence at the JKU university and for some exe
 ## The Issue
 
 As I described in my last article [Working with Jupyter and VSCode](https://towardsdatascience.com/working-with-vscode-and-jupyter-notebook-style-5ecaf47f9f84) I use **pyenv** and **pipenv** for managing all packages in my python development. I also referenced some articles why this way is helpful and easy to use.
-Now we hve to dive a little more into it. There are 2 ways you would want to develop with jupyter notebook. Either you work with it directly in the browser or inside VSCode. In both use cases there emerge problems. And this is the way I worked around it.
+Now, it is necessary to dive a little more into it. There are two ways you would want to develop with jupyter notebook. Either you work with it directly in the browser or inside VSCode. In both use cases there emerge problems.
 
 ## Developing with Jupyter Notebook in the browser
+
+![jupyter in browser](../assets/VSCodePipenv/jupyterBrowser.png)
 
 Let's say you already have the proper python environment on your system and now you want to create a specific one for a project.
 
 1. First, create the Pipenv environment.
-1. Make sure to navigate into the correct directory.
-1. Use `pipenv install <packages>` to install all your packages.
-1. Then use `pipenv shell` to activate your shell.
-1. Then use `pipenv install jupyter` and afterwards `pipenv run jupyter notebook`.
+2. Make sure to navigate into the correct directory.
+3. Use `pipenv install <packages>` to install all your packages.
+4. Then use `pipenv shell` to activate your shell.
+5. Then use `pipenv install jupyter` and afterwards `pipenv run jupyter notebook`.
 
 Now the jupyter server is started and your notebook will have access to the correct environment.
 
@@ -34,14 +36,16 @@ Now the jupyter server is started and your notebook will have access to the corr
 
 ## Develop with Jupyter Notebook in VSCode
 
+![jupyter in vscode](../assets/VSCodePipenv/jupyterVSCode.png)
+
 Now for the workflow within VSCode.
 Here it is import to be aware of the different shells. I often use a separate terminal (iterm2) and sometimes an activated shell is not recognized by VSCode. Therefore the workflow is as follows:
 
 
 1. First, create the Pipenv environment.
-1. Make sure to navigate into the correct directory.
-1. Use `pipenv install <packages>` to install all your packages.
-1. Then, be sure to have a proper settings file in your vscode folder with content like this:
+2. Make sure to navigate into the correct directory.
+3. Use `pipenv install <packages>` to install all your packages.
+4. Then, be sure to have a proper settings file in your vscode folder with content like this:
 
 ```json
 {
