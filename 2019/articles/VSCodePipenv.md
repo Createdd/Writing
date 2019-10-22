@@ -78,7 +78,7 @@ I provide services in building data analysis and evaluating business-related con
 
 ![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
 
-Connect on:
+**Connect on:**
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@createdd)
