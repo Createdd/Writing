@@ -11,7 +11,7 @@ Currently I study Artificial Intelligence at the JKU university and for some exe
 
 ##
 
-As I described in my last article [Working with Jupyter and VSCode](https://towardsdatascience.com/working-with-vscode-and-jupyter-notebook-style-5ecaf47f9f84) I use pyenv and pipenv for managing all packages in my python development. I also referenced some articles why this way is helpful and easy to use.
+As I described in my last article [Working with Jupyter and VSCode](https://towardsdatascience.com/working-with-vscode-and-jupyter-notebook-style-5ecaf47f9f84) I use **pyenv** and **pipenv** for managing all packages in my python development. I also referenced some articles why this way is helpful and easy to use.
 Now we hve to dive a little more into it. There are 2 ways you would want to develop with jupyter notebook. Either you work with it directly in the browser or inside VSCode. In both use cases there emerge problems. And this is the way I worked around it.
 
 
@@ -49,14 +49,16 @@ Then, be sure to have a proper settings file in your vscode folder with content 
 ```
 Afterwards you can choose the proper python environment within VSCode. ( It should be the one created with pipenv!)
 Now the correct environment is recognized for python files.
-Afterwards to work with jupyter notebook style in VSCode, you need to open the VSCode terminal and run `pipenv shell` to activate the shell.
+
+Normally this should be sufficient for VSCode and you can start the jupyter server in it.
+
+But sometimes you change the environment, or there is an issue in the settings file.
+If this is the case you need to open the VSCode terminal and run `pipenv shell` to activate the shell. (Check if the correct environment is still selected in VSCode):
+
+![workflow in vscode](http://g.recordit.co/rW0naXU6ZT.gif)
+
 
 Now, after opening the .ipynb file, you will be able to run the cells and not get the error "... was not able to start jupyter server in environment xxx"
-
-
-
-
-
 
 ---
 
