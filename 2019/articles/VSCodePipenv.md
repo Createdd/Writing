@@ -29,6 +29,32 @@ Now the jupyter server is started and your notebook will have access to the corr
 
 ![recodring of workflow](http://g.recordit.co/TKgvPApDuF.gif)
 
+## Develop with Jupyter Notebook in VSCode
+
+Now for the workflow within VSCode.
+Here it is import to be aware of the different shells. I often use a separate terminal (iterm2) and sometimes an activated shell is not recognized by VSCode. Therefore the workflow is as follows:
+
+
+First, create the Pipenv environment.
+Make sure to navigate into the correct directory.
+Use `pipenv install <packages>` to install all your packages.
+
+Then, be sure to have a proper settings file in your vscode folder with content like this:
+
+```json
+{
+    "python.venvPath": "${workspaceFolder}/.venv/bin/python",
+    "python.pythonPath": ".venv/bin/python",
+}
+```
+Afterwards you can choose the proper python environment within VSCode. ( It should be the one created with pipenv!)
+Now the correct environment is recognized for python files.
+Afterwards to work with jupyter notebook style in VSCode, you need to open the VSCode terminal and run `pipenv shell` to activate the shell.
+
+Now, after opening the .ipynb file, you will be able to run the cells and not get the error "... was not able to start jupyter server in environment xxx"
+
+
+
 
 
 
