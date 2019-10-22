@@ -1,9 +1,6 @@
 # How to use Pipenv with Jupyter and VSCode
 
-[<img src="XXXXXXXX">](
-httpsasdfafasfasfdasf)
-xxxxxxx - httpsasdfafasfasfdasf
-
+![workflow in vscode](http://g.recordit.co/rW0naXU6ZT.gif)
 
 Currently I study Artificial Intelligence at the JKU university and for some exercises we need to use jupyter notebooks. Having worked a little bit with Python the package manager "**pipenv**" proofed to be valuable. Now, I encountered some problems using it with jupyter notebooks and within vscode. Therefore, a short guide on how I solved it.
 
@@ -63,7 +60,7 @@ If this is the case you need to open the VSCode terminal and run `pipenv shell` 
 ![workflow in vscode](http://g.recordit.co/rW0naXU6ZT.gif)
 
 
-Now, after opening the .ipynb file, you will be able to run the cells and not get the error "... was not able to start jupyter server in environment xxx"
+Now, after opening the .ipynb file, you will be able to run the cells and not get the error `"... was not able to start jupyter server in environment xxx"`
 
 ---
 
