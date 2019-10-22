@@ -76,6 +76,8 @@ I consider myself a problem solver. My strengths are to navigate in complex envi
 My knowledge and interests evolve around business law and programming machine learning applications.
 I provide services in building data analysis and evaluating business-related concepts.
 
+![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
+
 Connect on:
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
