@@ -31,17 +31,22 @@ As mentioned above this showed me that the legal sector has limited positive thi
 Apart from this observation I was also able to collect insights in firms and also in many application processes.
 
 Takeaways are:
+
 1. Apply for many many postions and start as much as possible. This is the only way to identify your own strengths and needs for a job and also gives you a good overview of the market.
 2. Do not accept a job that does not fit to your values. This is the number one factor for unhappiness in your life. Work makes up a big part of your life. You should enjoy it to the fullest and not accept the view of people telling you otherwise. Most of the time they are unsatisfied with it on their own and want to pull you down to their shit.
 3. Constantly challenge yourself and your standards for work. We live in the year 2019. There are ways of making a ton of money by just putting pictures on the internet. This should remind you that everything  is constantly evolving and changing. There is no need for doing a 9 to 5 job and doing repetitive stupid work over a long period of time. If you find yourself in a situation like this, leave.
 4. Evaluate if a conflict provides an opportunity. In job life one thing that keeps you from getting more or better is the fear of conflict. Avoiding unpleasant situations is a normal tendency but limits your growth (depending on the conflict itself). Therefore evaluate if a conflict is necessary to push you in the right direction. And if so, face it.
 
+## Stopping non-profit work
+
+One important thing was to stop my non-profit work. It was taking too much time and I am not in the position to do work for free anymore. It was always nice to do something for others but currently this is neither the environment nor the right time for me to do it. People perceive free things as worthless and it is in fact a lose-lose situation for me. I needed to understand that structuring non-profit work differently. It should ideally run on its own and just provide value. Things that drain your energy and do nothing for the organizer himself are a waste of time for all people involved. We live in a world where action is valued in money. Doing something for free means that you are providing low value. Even though this is not true my experiences till now have assured me this. That is why companies ultimately need to make money. Providing something always costs something. That is why every stable company has to make money to sustain itself. There is also some confusion about profit itself. Non-profit is often perceived as something honorary. But in fact everything that provides value on a larger scale has to distribute its earnings. Profit is just what is left after subtracting all the expenses. It allows the entity to invest in itself to grow and become even bigger and better.
 
 ## Starting another study
 
 This year I started the Artificial Intelligence studies at JKU. I dreamed of going into more statistics and programming on an academic level. Now I was able to start this journey for new knowledge.
 
 Key takeaways:
+
 1. Try many things. I think it is always good to start with many ideas and narrowing down on what you like. Same with university. There is of course always an organizational overload, but it is necessary to keep yourself in a developing process. Finishing one interlectual field is not enough in my opinion. Life is about challenging yourself as much as possible. Today we have much information available and knowing things in just one area is just not enough anymore. There are too many competitive people around. You have to be good and diverse to be on top I think.
 
 ## Adapting a chilled mindset
@@ -54,6 +59,42 @@ The boss wants you to finish a project in three days. He has sold this idea to c
 This illustrative example happens so often to people around me, it is crazy.
 My developed mindset now is to not comply with the demand of doing overtime. Overtime is often poor management from the executive layer of a company. In the end it is almost always a lose-lose situation. There are situations were it is fruitful and good to do overtime. This is the case when the project is demanding and the employee is motivated and wants to stretch. The employee starts from a solid healthy foundation and challenges himself with more work to grow. This is ideal. But this rarely happens. I feel like 90% of the people overdo it because other people demand it from them and then they get sick. Fear of conflict and fear of losing the job keeps them in this unsatisfying situation.
 Having a relaxed mindset for this and going home when it is enough for you is both brave and efficient. Better to have very motivated, healthy and rested employees then grinding them out and having them leave.
+
+## Still cold showers
+
+It is now more than 2 years ago I started showering as cold as possible, every day. There was only one time ever since that I took a warm shower. At this time I was having a flu and there was no point in harming the body with cold shock when already fighting something. Apart from that, every day I face the merciless cold. Still often I hesitate. Long days, lots of work and just a feeling of tiredness tries to convince me that a warm shower is better. But every time I go with the cold and be grateful afterward. This year I think the 2 most important aspects of it are:
+
+1. Recovery enhancement after workouts
+2. Psychological help of not getting too comfortable in life. It is the comfort of life that makes us weak. The body is actually pretty durable if you let it do its work.
+
+## More Yoga and meditation
+
+My workout routine consists now of a lot of yoga practice. It seems to be an ultimate pursuit of mastering the body. All the possibilities of training your body and mind are incredible. Yoga is first of all a meditation practice. Meditation in various poses and movement. If used as a way of exercising the body it is also great. I currently have 3 types of yoga sessions for myself:
+
+1. Combining Vinyasa Flow with various elements of functional training and movement (inspired by the Ido Portal Method)
+2. Vinyasa Flow Yoga with emphasize on meditation/breathing
+3. Vinyasa Flow Yoga with emphasize on stretching
+
+Depending on my schedule around, I try to fit in one weight lifting session per week, but it is optional.
+
+Mediational wise there were various improvements. Those include:
+
+1. Improving Yoga
+2. Doing more breathing exercises
+3. Focusing on meditation during work. This was very interesting for me, but helped a lot. Doing a meditation at work helps to become more aware of yourself and your emotional state. This helps a lot when having contact with clients but also in other things as doing some problem solving. The reason is, that the quality of your work depends on the quality of your emotional state. Being 100% aware and in the moment allows you to provide results that are by far better than just ignoring issues within yourself.
+4. Focusing on feeling good. I thought "What is the reason we feel relaxed at the beach on holiday and not at work?" And the answer is "A state of mind". Being relaxed is a state of mind and can be achieved everywhere with practice. That is why I was focusing on this as well. It can be a really wonderful thing to come home late on a rainy stressful day and just deciding to feel good. (It needs quite some practice I have add) We perceive things as they are suggested to us. When all the people assure you that your day was bad you will want to believe it. But ultimately it is you who makes the decision.
+
+## Challenge life more
+At this time life provides many opportunities. To really harness this power one needs to challenge the status quo. One thing for me was the realisation that work should be distributed more. Any single dependency is bad. Ideally you should always have more options. Everywhere. More places to work. More places to live. More people on different levels of intimacy. Options give you insight and allow you to narrow down on things that are important to you.
+
+This will be the main thing to elaborate on in the next year.
+
+- Increasing options
+- Facing more challenges
+- Taking more risks
+- Taking more time for myself
+
+
 
 
 ---
