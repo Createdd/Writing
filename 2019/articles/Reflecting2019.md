@@ -28,11 +28,11 @@ Another aspect was to grow with this experience myself. It classifies as a great
 
 The takeaways from this are:
 1. Understand the real cause of a problem by subtracting the emotion.
-2. If a person is part of a problem, examine the actions and view of this person.
+2. If a person is part of a problem, examine the actions and views of this person.
 3. Always be persistent. No matter how often you have to try. Change the way of tackling the problem and adapt accordingly. Like a machine learning algorithm ;)
 
 
-After finishing the master thesis the master's degree was done. Interesting for me was that it did not overwhelm me with feelings of accomplishment or joy. It was just something I had finished after many years of hard work. I think part of the missing joy from this is the very poor response from the job market. It is important to clarify that business law can be a very lucrative and interesting field to work in, but it does not comply to my expectations on how I want to live my life and especially my work life. This comes from my experiences in working in the tech industry, which seems to be better in nearly all aspects. Better payment, more flexibility in working, more promising companies, more diverse colleagues, better vibes. This is just my current feeling and observations, maybe I have not seen enough to judge this correctly.
+After finishing the master thesis the master's degree was done. Interesting for me was that it did not overwhelm me with feelings of accomplishment or joy. It was just something I had finished after many years of hard work. I think part of the missing joy from this is the very poor response from the job market. It is important to clarify that business law can be a very lucrative and interesting field to work in, but it does not comply with my expectations on how I want to live my life and especially my work life. This comes from my experiences in working in the tech industry, which seems to be better in nearly all aspects. Better payment, more flexibility in working, more promising companies, more diverse colleagues, better vibes. This is just my current feeling and observations, maybe I have not seen enough to judge this correctly.
 
 Another thing to take away was the celebration of the degree. I was celebrating it with friends and family. This showed to be a very nice thing. Even though it was not so important for me personally to have the degree, it was for family members and friends. Hence the celebration was for them. Fulfilling their expectations and hopes is a nice thing and creates some satisfaction.
 
@@ -40,16 +40,16 @@ Another thing to take away was the celebration of the degree. I was celebrating 
 
 This is something every graduate has to do at least once in his life. Evaluating your value in the job market, selling yourself and getting to work with a nice company to fulfill your dreams.
 
-As mentioned above this showed me that the legal sector has limited positive things to offer. It is a saturated and very competitive market. There are many law graduates. Many have similar backgrounds and the law firms take just the very best of them. As the law itself and especially the career path for becoming an attorney are very strict and tied to the country, it forces graduates to comply to a heavily regulated system. For complying individuals, this is no problem. It is difficult for the ones, that have unique ways of seeing, changing and improving things. And this is the main issue for me. Complying with antique standards, avoiding change as much as possible and treating everyone the same. In my experience the legal sector has a tendency to go in exactly this direction, which is not very appealing.
+As mentioned above this showed me that the legal sector has limited positive things to offer. It is a saturated and very competitive market. There are many law graduates. Many have similar backgrounds and the law firms take just the very best of them. As the law itself and especially the career path for becoming an attorney are very strict and tied to the country, it forces graduates to comply to a heavily regulated system. For complying individuals, this is no problem. It is difficult for the ones, that have unique ways of seeing, changing and improving things. And this is the main issue for me. Complying with antique standards, avoiding change as much as possible and treating everyone the same. In my experience, the legal sector has a tendency to go in exactly this direction, which is not very appealing.
 
-Apart from this observation I was also able to collect insights in firms and also in many application processes.
+Apart from this observation, I was also able to collect insights in firms and also in many application processes.
 
 Takeaways are:
 
 1. Apply for many many positions and start as much as possible. This is the only way to identify your own strengths and needs for a job and also gives you a good overview of the market.
-2. Do not accept a job that does not fit to your values. This is the number one factor for unhappiness in your life. Work makes up a big part of your life. You should enjoy it to the fullest and not accept the view of people telling you otherwise. Most of the time they are unsatisfied with it on their own and want to pull you down to their shit.
+2. Do not accept a job that does not fit your values. This is the number one factor for unhappiness in your life. Work makes up a big part of your life. You should enjoy it to the fullest and not accept the view of people telling you otherwise. Most of the time they are unsatisfied with it on their own and want to pull you down to their shit.
 3. Constantly challenge yourself and your standards for work. We live in the year 2019. There are ways of making a ton of money by just putting pictures on the internet. This should remind you that everything  is constantly evolving and changing. There is no need for doing a 9 to 5 job and doing repetitive stupid work over a long period of time. If you find yourself in a situation like this, leave.
-4. Evaluate if a conflict provides an opportunity. In job life one thing that keeps you from getting more or better is the fear of conflict. Avoiding unpleasant situations is a normal tendency but limits your growth (depending on the conflict itself). Therefore, evaluate if a conflict is necessary to push you in the right direction. And if so, face it.
+4. Evaluate if a conflict provides an opportunity. In job life, one thing that keeps you from getting more or better is the fear of conflict. Avoiding unpleasant situations is a normal tendency but limits your growth (depending on the conflict itself). Therefore, evaluate if a conflict is necessary to push you in the right direction. And if so, face it.
 
 ## Stopping non-profit work
 
@@ -66,9 +66,9 @@ Key takeaways:
 
 ## Adopting a chilled mindset
 
-One of the very most important realizations for me this year was on how to adopt a more chilled mindset. Looking on my past years I always tried to do as much as possible and also challenge myself as much as possible. I often did this with only having the goal in mind. The goal was always more important to me than the process and also my own being. But from an efficiency perspective this is wrong in many ways.
+One of the very most important realizations for me this year was on how to adopt a more chilled mindset. Looking at my past years I always tried to do as much as possible and also challenge myself as much as possible. I often did this with only having the goal in mind. The goal was always more important to me than the process and also my own being. But from an efficiency perspective, this is wrong in many ways.
 
-First thing is that we can only control a small fraction of what happens around us. We can go in a direction, but most of things will happen independently from our will. So this already helps in understanding that our actions have a small effect on the expectations we set us for ourself. Therefore we can have a rather relaxed feeling about pursuing goals.
+First thing is that we can only control a small fraction of what happens around us. We can go in a direction, but most of the things will happen independently from our will. So this already helps in understanding that our actions have a small effect on the expectations we set us for ourselves. Therefore we can have a rather relaxed feeling about pursuing goals.
 
 The second thing is that very, very often we do not set our own expectations but rather take expectations of others and make it our own expectations. This is very difficult to understand, so I want to illustrate it with an example from a day-to-day situation from a job:
 
@@ -79,14 +79,14 @@ Having a relaxed mindset for this and going home when it is enough for you is bo
 
 ## Still cold showers
 
-It is now more than 2 years ago I started showering as cold as possible, every day. There was only one time ever since that I took a warm shower. At this time I was having the flu and there was no point in harming the body with a cold shock when already fighting something. Apart from that, every day I face the merciless cold. Still often I hesitate. Long days, lots of work and just a feeling of tiredness tries to convince me that a warm shower is better. But every time I go with the cold and be grateful afterward. This year I think the 2 most important aspects of it are:
+It is now more than 2 years ago I started showering as cold as possible, every day. There was only one time ever since I took a warm shower. At this time I was having the flu and there was no point in harming the body with a cold shock when already fighting something. Apart from that, every day I face the merciless cold. Still often I hesitate. Long days, lots of work and just a feeling of tiredness tries to convince me that a warm shower is better. But every time I go with the cold and be grateful afterward. This year I think the 2 most important aspects of it are:
 
 1. Recovery enhancement after workouts.
 2. Psychological help of not getting too comfortable in life. It is the comfort of life that makes us weak. The body is actually pretty durable if you let it do its work.
 
 ## More Yoga and meditation
 
-My workout routine consists now of a lot of yoga practice. It seems to be an ultimate pursuit of mastering the body. All the possibilities of training your body and mind are incredible. Yoga is first of all a meditation practice. Meditation in various poses and movement. If used as a way of exercising the body it is also great. I currently have 3 types of yoga sessions for myself:
+My workout routine consists now of a lot of yoga practice. It seems to be an ultimate pursuit of mastering the body. All the possibilities of training your body and mind are incredible. Yoga is, first of all, a meditation practice. Meditation in various poses and movements. If used as a way of exercising the body it is also great. I currently have 3 types of yoga sessions for myself:
 
 1. Combining Vinyasa Flow with various elements of functional training and movement (inspired by the Ido Portal Method)
 2. Vinyasa Flow Yoga with emphasize on meditation/breathing
