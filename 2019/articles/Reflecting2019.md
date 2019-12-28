@@ -4,9 +4,19 @@
 https://unsplash.com/photos/OlTjeydUpQw)
 Photo by Daniel Olah on Unsplash - https://unsplash.com/photos/OlTjeydUpQw
 
-Another year has pasted and it is time to have a look backward to see what has changes, what can adapted and improved.
+Another year has passed and it is time to have a look backward to see what has changed, what can be adapted and improved.
 
 ## Table of Contents
+
+  - [Finishing business law degree](#finishing-business-law-degree)
+  - [Evaluating the job market and company experiences](#evaluating-the-job-market-and-company-experiences)
+  - [Stopping non-profit work](#stopping-non-profit-work)
+  - [Starting another study](#starting-another-study)
+  - [Adapting a chilled mindset](#adapting-a-chilled-mindset)
+  - [Still cold showers](#still-cold-showers)
+  - [More Yoga and meditation](#more-yoga-and-meditation)
+  - [Challenge life more](#challenge-life-more)
+  - [About](#about)
 
 ## Finishing business law degree
 
