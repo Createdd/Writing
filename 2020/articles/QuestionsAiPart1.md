@@ -28,20 +28,22 @@ During my studies I came across various topics and formulated questions. Can you
 1.	What fields have contributed to AI in the form of ideas, viewpoints and techniques?
 2.	What was the first purpose of automated tools for Aristotle?
 3.	Name three examples of early examples for automation inventions.
-4.	How invented the first difference- and analytical engine?
+4.	Who invented the first difference- and analytical engine?
 5.	What is the origin of the word “robot”?
 6.	Why was there a setback for logical reasoning after the mathematical analysis of logic?
-7.	When was the first Turing-complete computer ENIAC finished?
-8.	When were the concept of neural network first introduced? (Tip: by McCulloch and Pitts)
-9.	What was the inspiration for artificial neural networks and what two components are the most important ones from this?
-10.	Why is the number “seven, plus or minus two” considered magical in cognitive science?
-11.	When was the “official” birth of the term AI? (It was at the Dartmouth conference)
-12.	Name three of the “founding fathers” of AI.
-13.	Why were there great expectations for AI and why was it followed by a depression?
-14.	What is the difference about symbolic and subsymbolic AI?
-15.	Name three areas where a state of the art use of AI has been developed.
-16.	Why did Deep Learning started to bring breakthroughs only since 2010?
-17.	Herb Simon answered “Why AI” with two main purposes. What were those?
+7.	Name the laws of robotics by Asimov.
+8.	When was the first Turing-complete computer ENIAC finished?
+9.	When was the concept of neural networks first introduced? (Tip: by McCulloch and Pitts)
+10.	What was the inspiration for artificial neural networks and which two components are the most important ones from it? What is the advantage in terms of calculation?
+11.	Why is the number “seven, plus or minus two” considered magical in cognitive science?
+12.	When was the “official” birth of the term AI? (It was at the Dartmouth conference)
+13.	Name three of the “founding fathers” of AI.
+14.	Why were there great expectations for AI and why was it followed by a depression?
+15.	What is the difference about symbolic and subsymbolic AI?
+16.	Name three areas where a state of the art use of AI has been developed.
+17.	Why did Deep Learning started to bring breakthroughs only since 2010?
+18.	Herb Simon answered “Why AI” with two main purposes. What were those?
+
 
 ## 3.Puzzles and Search
 
