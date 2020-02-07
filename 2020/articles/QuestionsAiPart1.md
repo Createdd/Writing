@@ -1,11 +1,11 @@
-# Do you really know about AI - Part 1
+# Do you really know about AI? - Part 1
 
 [<img src="https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3306&q=80">](
 https://unsplash.com/photos/J4kK8b9Fgj8)
 Photo by Olia Gozha - https://unsplash.com/photos/J4kK8b9Fgj8
 
 More and more people are getting into the field of machine learning and AI. There are many ways to acquire knowledge in this field. But do you really know about the basics in the field of AI?
-During my studies I came across various topics and formulated questions. Can you answer them? This will be part 1 of a series of questions.
+During my studies, I came across various topics and formulated questions. Can you answer them? This will be part 1 of a series of questions.
 
 
 ## 1.Introduction
@@ -39,9 +39,9 @@ During my studies I came across various topics and formulated questions. Can you
 12.	When was the “official” birth of the term AI? (It was at the Dartmouth conference)
 13.	Name three of the “founding fathers” of AI.
 14.	Why were there great expectations for AI and why was it followed by a depression?
-15.	What is the difference about symbolic and subsymbolic AI?
+15.	What is the difference between symbolic and subsymbolic AI?
 16.	Name three areas where a state of the art use of AI has been developed.
-17.	Why did Deep Learning started to bring breakthroughs only since 2010?
+17.	Why did Deep Learning start to bring breakthroughs only since 2010?
 18.	Herb Simon answered “Why AI” with two main purposes. What were those?
 
 
@@ -65,7 +65,7 @@ During my studies I came across various topics and formulated questions. Can you
 16.	What are constraint satisfaction problems? What two components characterize this type of search problem?
 17.	Name two real-world constraint satisfaction problems.
 18.	What is a constraint graph? What are its nodes and edges?
-19.	What type of constraints exist?
+19.	What types of constraints exist?
 20.	What are the basic approaches to solve constraint satisfaction problems?
 21.	What is a backtracking search? What is the algorithmic approach?
 22.	What are general-purpose heuristics? Name examples.
@@ -73,7 +73,7 @@ During my studies I came across various topics and formulated questions. Can you
 24.	What is arc consistency? How does it fit into the idea of constraint propagation?
 25.	How would you integrate constraint propagation with backtracking search?
 26.	Explain how local search can be done for constraint satisfaction problems.
-27.	What problem solution technique is meant by “divide et impera”?
+27.	What problem-solving technique is meant by “divide et impera”?
 
 
 ## 4.Game Playing
@@ -88,15 +88,15 @@ During my studies I came across various topics and formulated questions. Can you
 8.	What was Shannon’s idea for solving imperfect real-world decisions?
 9.	What is the idea behind brute force and selective search, and what are its differences?
 10.	What is an evaluation function in the context of selective search?
-11.	What is the difference to a heuristic evaluation function?
+11.	What is the difference between a heuristic evaluation function?
 12.	What are linear evaluation functions? What are the advantages and disadvantages?
 13.	What is a Quiescence Search?
-14.	What is the horizon effect in the context of fixed-depth search?
+14.	What is the horizon effect in the context of a fixed-depth search?
 15.	What is forward pruning?
 16.	What are Transposition tables? How do they work?
 17.	What are games where human supremacy still exists?
 18.	What is a game tree and how is it constructed?
-19.	Do deeper searches necessarily help in problem solving?
+19.	Do deeper searches necessarily help in problem-solving?
 20.	Name two key events in game playing, where computers beat humans.
 
 
