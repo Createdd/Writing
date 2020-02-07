@@ -1,11 +1,11 @@
-# Questions on the basics of AI
+# Do you really know about AI - Part 1
 
 [<img src="https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3306&q=80">](
 https://unsplash.com/photos/J4kK8b9Fgj8)
 Photo by Olia Gozha - https://unsplash.com/photos/J4kK8b9Fgj8
 
 More and more people are getting into the field of machine learning and AI. There are many ways to acquire knowledge in this field. But do you really know about the basics in the field of AI?
-During my studies I came across various topics and formulated questions. Can you answer them? This will be part 1 of a series on questions.
+During my studies I came across various topics and formulated questions. Can you answer them? This will be part 1 of a series of questions.
 
 
 ## 1.Introduction
