@@ -13,7 +13,7 @@ During my studies, I came across various topics and formulated questions. Can yo
 1.	What is learning?
 2.	What is Machine Learning?
 3.	Elaborate Mitchell’s definition of Machine Learning (1997)?
-4.	Name one practical example for the use of Machine Learning.
+4.	Name one practical example of the use of Machine Learning.
 5.	How is a learning element defined?
 6.	Name three types of feedback in Machine Learning.
 7.	What is inductive learning? What is its difficulty in terms of Machine Learning?
@@ -26,12 +26,12 @@ During my studies, I came across various topics and formulated questions. Can yo
 14.	What is the use of the activation function in a perceptron? What is the relation to Boolean functions?
 15.	Explain the learning method of a perceptron.
 16.	How are weights optimized in a perceptron?
-17.	Part of the learning process is the error. How can it be measured and how can it be minimized?
+17.	Part of the learning process is an error. How can it be measured and how can it be minimized?
 18.	 What are the differences between a Threshold Activation Function and a Sigmoid Activation Function? Why is the later more popular?
 19.	What are Multilayer Perceptrons?
 20.	Describe the information processing of them.
 21.	What is backpropagation learning?
-22.	What are the training steps when minimizing the network error?
+22.	What are the training steps when minimizing a network error?
 23.	What is overfitting? Elaborate on Training- /Test Set Error.
 24.	What is Deep Learning? What are the key requirements?
 25.	What is a Convolutional Neural Network? What is a convolution?
@@ -48,10 +48,10 @@ During my studies, I came across various topics and formulated questions. Can yo
 2.	Explain the concept of reinforcement learning in menace by referencing the tic-tac-toe game.
 3.	What is the credit assignment problem? What is its solution?
 4.	Why are games of chance closer to real-life?
-5.	Why are minimax or alpha-beta algorithms not suitable for those type of games?
+5.	Why are minimax or alpha-beta algorithms not suitable for those types of games?
 6.	What is the exploration / exploitation trade-off?
-7.	What is a solution for this problem and what are chance nodes?
-8.	What issue arise when using chance nodes at a deeper node level?
+7.	What is a solution to this problem and what are chance nodes?
+8.	What issues arise when using chance nodes at a deeper node level?
 9.	What is a possible solution of exact probabilities for the outcomes of chance nodes are not known?
 10.	What is the Monte-Carlo Sampling?
 11.	What is a simulation search? What is the algorithmic approach?
@@ -104,14 +104,14 @@ During my studies, I came across various topics and formulated questions. Can yo
 10.	What is progression planning?
 11.	What is regression planning?
 12.	Why is regression planning often better than progression planning?
-13.	What is inverse action application?
+13.	What is the inverse action application?
 14.	Good heuristics are key for a state-space search. What are two approaches to find a good search heuristic?
 15.	What is the Sussman Anomaly?
 16.	What is Partial Order Planning? Name an example.
 17.	What is the difference between state-space planning and plan-space planning?
 18.	What domain independent heuristics can be used in each case?
 19.	What are causal links and ordering constraints?
-20.	How can a conflict between those recognized and resolved?
+20.	How can conflict between those recognized and resolved?
 
 
 
