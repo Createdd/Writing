@@ -7,7 +7,7 @@ Photo by Hunter Harritt - https://unsplash.com/photos/Ype9sdOPdYc
 
 ## Table of Contents
 
-## Shapes
+## Shapes and Dimensions
 
 Shape 1 Dim
 
@@ -17,7 +17,24 @@ Shape 1 Dim
 
 ![code](../assets/3.png)
 
-##
+## Arranging
+
+![code](../assets/4.png)
+
+Arange with slice:
+![code](../assets/5.png)
+
+## Indexing
+
+![code](../assets/6.png)
+
+Index with slice
+![code](../assets/7.png)
+
+Indexing multidimensional array
+![code](../assets/8.png)
+
+
 
 ---
 
