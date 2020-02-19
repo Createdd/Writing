@@ -7,12 +7,17 @@ Photo by Hunter Harritt - https://unsplash.com/photos/Ype9sdOPdYc
 
 ## Table of Contents
 
-## np.array
+## Shapes
 
 Shape 1 Dim
 
-![asdf](../assets/1.png)
+![code](../assets/1.png)
 
+![code](../assets/2.png)
+
+![code](../assets/3.png)
+
+##
 
 ---
 
