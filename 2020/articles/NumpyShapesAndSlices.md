@@ -4,7 +4,7 @@
 https://unsplash.com/photos/Ype9sdOPdYc)
 Photo by Hunter Harritt - https://unsplash.com/photos/Ype9sdOPdYc
 
-As data scientist / machine learning engineer it is necessary to deal with many Numpy arrays. Sometimes in the process I lose overview about all shaping and indexing syntax, so here is an overview.
+As data scientist / machine learning engineer it is necessary to deal with many Numpy arrays. Sometimes in the process, I lose an overview of all shaping and indexing syntax, so here is an overview.
 
 
 ## Shapes and Dimensions
