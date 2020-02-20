@@ -4,37 +4,53 @@
 https://unsplash.com/photos/Ype9sdOPdYc)
 Photo by Hunter Harritt - https://unsplash.com/photos/Ype9sdOPdYc
 
+As data scientist / machine learning engineer it is necessary to deal with many Numpy arrays. Sometimes in the process I lose overview about all shaping and indexing syntax, so here is an overview.
 
-## Table of Contents
 
 ## Shapes and Dimensions
 
-Shape 1 Dim
+#### Shape 1 Dim
 
 ![code](../assets/1.png)
 
+#### Shape 2 Dim
+
 ![code](../assets/2.png)
 
+#### Shape 3 Dim
+
 ![code](../assets/3.png)
+
+#### Reshaping:
+![code](../assets/9.png)
+
 
 ## Arranging
 
 ![code](../assets/4.png)
 
-Arange with slice:
+#### Arange with slice:
 ![code](../assets/5.png)
 
 ## Indexing
 
 ![code](../assets/6.png)
 
-Index with slice
+#### Index with slice
 ![code](../assets/7.png)
 
-Indexing multidimensional array
+#### Indexing 2 dim array
 ![code](../assets/8.png)
 
+#### Indexing 3 dim array
+![code](../assets/10.png)
 
+The same principles for more dimensional arrays:
+####  Indexing 4 dim array
+![code](../assets/11.png)
+
+
+A really good article with nice visualization can be found here: https://www.pythoninformer.com/python-libraries/numpy/index-and-slice/
 
 ---
 
