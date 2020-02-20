@@ -49,6 +49,8 @@ The same principles for more dimensional arrays:
 ####  Indexing 4 dim array
 ![code](../assets/11.png)
 
+Here in form of a Gist: <script src="https://gist.github.com/Createdd/2232fb9017a3b9a2936d5dfdf5ec1ea5.js"></script>
+
 
 A really good article with nice visualization can be found here: https://www.pythoninformer.com/python-libraries/numpy/index-and-slice/
 
