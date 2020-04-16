@@ -1,8 +1,8 @@
-# Dynamic subplot layout with seaborn
+# Dynamic subplot layout in Seaborn
 
 ![](http://g.recordit.co/Fr2UrCF9zx.gif)
 
-Seaborn is one of the most used visualization libraries and I enjoy working with it. In my latest projects I wanted to visualize multiple subplots in a dynamic way. To my surprise I didn't find a straight forward solution anywhere online, so I want to share my way of doing it.
+Seaborn is one of the most used visualization libraries and I enjoy working with it. In my latest projects I wanted to visualize multiple subplots in a dynamic way. To my surprise I didn't find a straight forward solution anywhere online, so I want to share my way of doing it. It can be quite useful in any data analysis endeavor.
 
 ## Table of Contents
 
@@ -92,7 +92,7 @@ Which leads to this:
 
 ![](http://g.recordit.co/tCnO6Ls220.gif)
 
-Now I can define the layout of the plots to my wishes and also can decide what to plot. Even thought it seems quite easy, I didn't find anything related online. So maybe this helps some of you ;)
+Now I can define the layout of the plots to my wishes and also can decide what to plot. Even though it seems quite easy, I didn't find anything related online. So maybe this helps some of you ;)
 
 ---
 
