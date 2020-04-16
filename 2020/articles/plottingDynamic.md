@@ -1,12 +1,20 @@
 # Dynamic subplot layout with seaborn
 
-![](http://g.recordit.co/tCnO6Ls220.gif)
+![](http://g.recordit.co/Fr2UrCF9zx.gif)
 
 Seaborn is one of the most used visualization libraries and I enjoy working with it. In my latest projects I wanted to visualize multiple subplots in a dynamic way. To my surprise I didn't find a straight forward solution anywhere online, so I want to share my way of doing it.
 
 ## Table of Contents
 
-##
+  - [The problem](#the-problem)
+  - [The approach](#the-approach)
+  - [The solution](#the-solution)
+    - [Changing it to 2 columns it will look like this](#changing-it-to-2-columns-it-will-look-like-this)
+    - [Changing it to 4 columns it will look like this](#changing-it-to-4-columns-it-will-look-like-this)
+  - [About](#about)
+
+
+## The problem
 
 Let's see the titanic dataset for example:
 
@@ -23,6 +31,7 @@ There is a FacetGrid option for seaborn:
 
 However, I would like to have different subplots, on which I can set each plot for myself.
 
+## The approach
 Thankfully there is the subplot functionality:
 
 ```python
@@ -46,7 +55,9 @@ Which leads to:
 
 This demonstrates the issues I always encountered. For multiple variables I always need to set the number of rows and columns manually. (`fig, axs = plt.subplots(nrows=2, ncols=2)`)
 
-To solve this I changed it to:
+## The solution
+
+To solve this I, changed it to:
 
 ```python
 categorical_vars = ['survived', 'pclass', 'sex', 'age', 'sibsp', 'parch',
@@ -73,11 +84,11 @@ Which leads to this:
 ![](../assets/plottingDynamic_2020-04-15-22-25-13.png)
 ![](http://g.recordit.co/Fr2UrCF9zx.gif)
 
-Changing it to 2 columns it will look like this:
+### Changing it to 2 columns it will look like this
 
 ![](http://g.recordit.co/zpmzz7uESh.gif)
 
-Changing it to 4 columns it will look like this:
+### Changing it to 4 columns it will look like this
 
 ![](http://g.recordit.co/tCnO6Ls220.gif)
 
