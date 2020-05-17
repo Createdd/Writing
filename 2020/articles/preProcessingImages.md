@@ -1,13 +1,13 @@
-# Preprocessing your images for machine learning
+# Preprocessing your images for machine learning (image recognition)
 
 ![https://images.unsplash.com/photo-1515401558980-f84ec141ebf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80](https://images.unsplash.com/photo-1515401558980-f84ec141ebf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 Photo by Jye B on Unsplash - https://unsplash.com/photos/RuTMP0iI_ek
 
-During my studies at [JKU](https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-artificial-intelligence/) there was a task for preprocessing images for a machine learning project. It is necessary to clean the raw images before using them in a learning algorithm, so thats why we create a pre-processing function. I think it can be quite useful for others as well so I want to share a bit of my approach.
+During my studies at [JKU](https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-artificial-intelligence/) there was a task for preprocessing images for a machine learning project. It is necessary to clean the raw images before using them in a learning algorithm, so thats why we create a pre-processing function. I think it can be quite useful for others as well so I want to share a bit of my approach. The file is structured in a way that it is easy to understand and also should have a tutorial-like effect.
 
 ## Table of Contents
 
-- [Preprocessing your images for machine learning](#preprocessing-your-images-for-machine-learning)
+- [Preprocessing your images for machine learning (image recognition)](#preprocessing-your-images-for-machine-learning-image-recognition)
   - [Table of Contents](#table-of-contents)
   - [The pre processing errors](#the-pre-processing-errors)
   - [The processing file](#the-processing-file)
