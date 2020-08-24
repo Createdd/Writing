@@ -1,18 +1,27 @@
-# Develop and sell a Python API as fast as possible
+# Develop and sell a Python API. From start to end tutorial.
 
 [<img src="XXXXXXXX">](
 httpsasdfafasfasfdasf)
 xxxxxxx - httpsasdfafasfasfdasf
 
-I recently read this blog post ["API as a product. How to sell your work when all you know is a back-end"](https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-you-know-is-a-back-end-bd78b1449119) about setting up your own API and selling it.
+I recently read a blog post about setting up your own API and selling it.
 
-I was quite inspired and wanted to test if it works. In just 5 days I was able to create a product from start to end. So I thought I share issues I came across, elaborate on content that is already available, and provide a quick checklist.
+I was quite inspired and wanted to test if it works. In just 5 days I was able to create a product from start to end. So I thought I share issues I came across, elaborate on concepts that the article was introducing, and provide a quick checklist to build something yourself.
 
 
 
 ## Table of Contents
 
-##
+## Inspiration
+
+The article ["API as a product. How to sell your work when all you know is a back-end"](https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-you-know-is-a-back-end-bd78b1449119) by Artem provided a great idea, namely to
+
+> - Make an API that solves a problem
+> - Deploy it with a serverless architecture
+> - Distribute through an API Marketplace
+
+I encourage you to have a look at his article as well.
+
 
 
 ---
