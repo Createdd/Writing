@@ -4,6 +4,9 @@
 httpsasdfafasfasfdasf)
 xxxxxxx - httpsasdfafasfasfdasf
 
+![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
+
+
 I recently read a blog post about setting up your own API and selling it.
 
 I was quite inspired and wanted to test if it works. In just 5 days I was able to create a product from start to end. So I thought I share issues I came across, elaborate on concepts that the article was introducing, and provide a quick checklist to build something yourself.
@@ -34,7 +37,7 @@ This is always an annoying step. It's always the same but necessary.
 5. Create git repo `git init`
 6. Connect to Github repo. Add Readme file, commit it and
 ```sh
-git remote add origin https://github.com/Createdd/pandas_transform_format.git
+git remote add origin URL_TO_GIT_REPO
 git push -u origin master
 ```
 
