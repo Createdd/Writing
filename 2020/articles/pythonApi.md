@@ -12,6 +12,44 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 
 ## Table of Contents
 
+## Stack used
+
+We will use
+
+- Github (Code hosting),
+- Anaconda (Dependency and environment management),
+- Jupyter Notebook (code development and documenation),
+- Python (programming language),
+- AWS (deployment),
+- RapidAPI (market to sell)
+
+## Create project formalities
+
+This is always an annoying step. It's always the same but necessary.
+
+1. Create local folder `mkdir NAME`
+2. Create new repository on Github with `NAME`
+3. Create conda environment `conda create --name NAME`
+4. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
+5. Create git repo `git init`
+6. Connect to Github repo. Add Readme file, commit it and
+```sh
+git remote add origin https://github.com/Createdd/pandas_transform_format.git
+git push -u origin master
+```
+
+Now we have:
+- [x] local folder
+- [x] github repository
+- [x] anaconda virtual environment
+- [x] git version control
+
+
+
+
+
+First you need to build something that provides a solution to a problem.
+
 ## Inspiration
 
 The article ["API as a product. How to sell your work when all you know is a back-end"](https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-you-know-is-a-back-end-bd78b1449119) by Artem provided a great idea, namely to
@@ -20,7 +58,9 @@ The article ["API as a product. How to sell your work when all you know is a bac
 > - Deploy it with a serverless architecture
 > - Distribute through an API Marketplace
 
-I encourage you to have a look at his article as well.
+I encourage you to have a look at his article.
+
+
 
 
 
