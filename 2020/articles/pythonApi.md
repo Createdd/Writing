@@ -15,24 +15,38 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 
 ## Table of Contents
 
+- [Develop and sell a Python API. From start to end tutorial.](#develop-and-sell-a-python-api-from-start-to-end-tutorial)
+  - [Table of Contents](#table-of-contents)
+  - [Stack used](#stack-used)
+  - [1. Create project formalities](#1-create-project-formalities)
+  - [2. Create a solution for a problem](#2-create-a-solution-for-a-problem)
+    - [Install packagees](#install-packagees)
+    - [Develop solution to problem](#develop-solution-to-problem)
+      - [Download data](#download-data)
+      - [Create functionality](#create-functionality)
+    - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+  - [Set up zappa](#set-up-zappa)
+  - [Inspiration](#inspiration)
+  - [About](#about)
+
 ## Stack used
 
 We will use
 
 - Github (Code hosting),
 - Anaconda (Dependency and environment management),
-- Jupyter Notebook (code development and documenation),
+- Jupyter Notebook (code development and documentaion),
 - Python (programming language),
 - AWS (deployment),
 - RapidAPI (market to sell)
 
-## Create project formalities
+## 1. Create project formalities
 
 This is always an annoying step. It's always the same but necessary.
 
 1. Create local folder `mkdir NAME`
 2. Create new repository on Github with `NAME`
-3. Create conda environment `conda create --name NAME`
+3. Create conda environment `conda create --name NAME python=3.7`
 4. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
 5. Create git repo `git init`
 6. Connect to Github repo. Add Readme file, commit it and
@@ -48,10 +62,81 @@ Now we have:
 - [x] git version control
 
 
+## 2. Create a solution for a problem
+
+### Install packagees
+
+Install jupyter notebook and jupytext:
+
+```sh
+pip install notebook jupytext
+```
+
+sets a hook in  `.git/hooks/pre-commit` for tracking the notebook changes in git properly:
+
+```sh
+#!/bin/sh
+
+jupytext --from ipynb --to jupytext_conversion//py:light --pre-commit
+```
+
+### Develop solution to problem
+
+```sh
+pip install pandas requests
+```
+
+Add a `.gitignore` file and add the data folder (`data/`) to not upload the data to the hosting.
+
+#### Download data
+
+Download an example dataset (titanic dataset) and save it into a data folder:
+
+```py
+def download(url: str, dest_folder: str):
+    if not os.path.exists(dest_folder):
+        os.makedirs(dest_folder)
+
+    filename = url.split('/')[-1].replace(" ", "_")
+    file_path = os.path.join(dest_folder, filename)
+
+    r = requests.get(url, stream=True)
+    if r.ok:
+        print("saving to", os.path.abspath(file_path))
+        with open(file_path, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=1024 * 8):
+                if chunk:
+                    f.write(chunk)
+                    f.flush()
+                    os.fsync(f.fileno())
+    else:
+        print("Download failed: status code {}\n{}".format(r.status_code, r.text))
+
+
+url_to_titanic_data = 'https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv'
+
+download(url_to_titanic_data,'./data')
+```
+
+#### Create functionality
+
+Transform format
+
+```py
+df = pd.read_csv('./data/titanic.csv')
+df.to_json(r'./data/titanic.json')
+```
+
+### Build server to execute function with REST
 
 
 
-First you need to build something that provides a solution to a problem.
+
+Now we have the functionality to transform csv files into json for example.
+
+## Set up zappa
+
+
 
 ## Inspiration
 
