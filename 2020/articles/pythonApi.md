@@ -13,23 +13,26 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 
 
 
-## Table of Contents
+# Table of Contents
 
 - [Develop and sell a Python API. From start to end tutorial.](#develop-and-sell-a-python-api-from-start-to-end-tutorial)
-  - [Table of Contents](#table-of-contents)
-  - [Stack used](#stack-used)
-  - [1. Create project formalities](#1-create-project-formalities)
-  - [2. Create a solution for a problem](#2-create-a-solution-for-a-problem)
-    - [Install packagees](#install-packagees)
-    - [Develop solution to problem](#develop-solution-to-problem)
-      - [Download data](#download-data)
-      - [Create functionality](#create-functionality)
-    - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+- [Table of Contents](#table-of-contents)
+- [Stack used](#stack-used)
+- [1. Create project formalities](#1-create-project-formalities)
+- [2. Create a solution for a problem](#2-create-a-solution-for-a-problem)
+  - [Install packages](#install-packages)
+  - [Develop solution to problem](#develop-solution-to-problem)
+    - [Download data](#download-data)
+    - [Create functionality](#create-functionality)
+  - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+- [3. Deploy to AWS](#3-deploy-to-aws)
   - [Set up zappa](#set-up-zappa)
-  - [Inspiration](#inspiration)
+  - [Set up AWS](#set-up-aws)
+- [4. Set up rapidAPI](#4-set-up-rapidapi)
+- [Inspiration](#inspiration)
   - [About](#about)
 
-## Stack used
+# Stack used
 
 We will use
 
@@ -40,7 +43,7 @@ We will use
 - AWS (deployment),
 - RapidAPI (market to sell)
 
-## 1. Create project formalities
+# 1. Create project formalities
 
 This is always an annoying step. It's always the same but necessary.
 
@@ -62,9 +65,9 @@ Now we have:
 - [x] git version control
 
 
-## 2. Create a solution for a problem
+# 2. Create a solution for a problem
 
-### Install packagees
+## Install packages
 
 Install jupyter notebook and jupytext:
 
@@ -80,7 +83,7 @@ sets a hook in  `.git/hooks/pre-commit` for tracking the notebook changes in git
 jupytext --from ipynb --to jupytext_conversion//py:light --pre-commit
 ```
 
-### Develop solution to problem
+## Develop solution to problem
 
 ```sh
 pip install pandas requests
@@ -88,7 +91,7 @@ pip install pandas requests
 
 Add a `.gitignore` file and add the data folder (`data/`) to not upload the data to the hosting.
 
-#### Download data
+### Download data
 
 Download an example dataset (titanic dataset) and save it into a data folder:
 
@@ -118,7 +121,7 @@ url_to_titanic_data = 'https://web.stanford.edu/class/archive/cs/cs109/cs109.116
 download(url_to_titanic_data,'./data')
 ```
 
-#### Create functionality
+### Create functionality
 
 Transform format
 
@@ -127,18 +130,32 @@ df = pd.read_csv('./data/titanic.csv')
 df.to_json(r'./data/titanic.json')
 ```
 
-### Build server to execute function with REST
+## Build server to execute function with REST
+
+After developing the functionality in jupyter notebook we want to actually provide the functionality in a python app.
+
+There are ways to use parts of the jupyter notebook, but for the sake of simplicity we create it again now.
+
+Add a `app.py` file.
 
 
 
 
 Now we have the functionality to transform csv files into json for example.
 
+# 3. Deploy to AWS
+
 ## Set up zappa
 
+After we created the app locally we need to start setting up the hosting on a real server
+
+## Set up AWS
+
+# 4. Set up rapidAPI
 
 
-## Inspiration
+
+# Inspiration
 
 The article ["API as a product. How to sell your work when all you know is a back-end"](https://towardsdatascience.com/api-as-a-product-how-to-sell-your-work-when-all-you-know-is-a-back-end-bd78b1449119) by Artem provided a great idea, namely to
 
