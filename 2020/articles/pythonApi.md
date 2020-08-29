@@ -138,6 +138,67 @@ There are ways to use parts of the jupyter notebook, but for the sake of simplic
 
 Add a `app.py` file.
 
+We want the user to upload an excel file and return the file converted into JSON for example.
+
+Browsing through the internet we can see that there are already packages that work with flask and excel. So lets use them.
+
+```sh
+pip install Flask Flask-Excel
+```
+
+
+
+
+
+
+Start Flask server with
+
+```sh
+env FLASK_APP=app.py FLASK_ENV=development flask run
+```
+
+
+
+
+
+
+Tipp: Test your backend functionality with [Postman](https://www.postman.com/). It is easy to setup and allows to test the backend functionality quickly. Uploading an excel is done in the "form-data" tab:
+![](../assets/pythonApi_2020-08-29-11-48-00.png)
+Here you can see the uploaded titanic csv file and the returned column names of the dataset.
+
+Now we simply write the function to transform the excel into json, like:
+
+```py
+import json
+import pandas as pd
+import flask_excel as excel
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        provided_data = request.files.get('file')
+        if provided_data is None:
+            return 'Please enter valid excel format ', 400
+
+        data = provided_data
+        df = pd.read_csv(data)
+        transformed = df.to_json()
+
+        result = {
+            'result': transformed,
+        }
+        json.dumps(result)
+
+        return result
+
+
+if __name__ == '__main__':
+    excel.init_excel(app)
+    app.run()
+```
 
 
 
@@ -147,9 +208,59 @@ Now we have the functionality to transform csv files into json for example.
 
 ## Set up zappa
 
-After we created the app locally we need to start setting up the hosting on a real server
+After we created the app locally we need to start setting up the hosting on a real server.
+We will use [zappa](https://github.com/Miserlou/Zappa).
+
+> Zappa makes it super easy to build and deploy server-less, event-driven Python applications (including, but not limited to, WSGI web apps) on AWS Lambda + API Gateway. Think of it as "serverless" web hosting for your Python apps. That means infinite scaling, zero downtime, zero maintenance - and at a fraction of the cost of your current deployments!
+
+```sh
+pip install zappa
+```
+
+
+
+
+As we are using a conda environment we need to specify it:
+```sh
+which python
+```
+
+will give you `/Users/XXX/opt/anaconda3/envs/XXXX/bin/python`
+
+remove the `bin/python/` and export
+
+```sh
+export VIRTUAL_ENV=/Users/XXXX/opt/anaconda3/envs/XXXXX/
+```
+
+Now we can do
+
+```sh
+zappa init
+```
+
+to set up the config.
+
+Just click through everything and you will have a `zappa_settings.json` like
+
+```json
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "eu-central-1",
+        "profile_name": "default",
+        "project_name": "pandas-transform-format",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-pandas-transform-format"
+    }
+}
+```
 
 ## Set up AWS
+
+
+Save the AWS access key id and secret access key assigned to the User you created in the file ~/.aws/credentials. Note the .aws/ directory needs to be in your home directory and the credentials file has no file extension.
+
 
 # 4. Set up rapidAPI
 
