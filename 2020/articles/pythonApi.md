@@ -18,6 +18,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 - [Develop and sell a Python API. From start to end tutorial.](#develop-and-sell-a-python-api-from-start-to-end-tutorial)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
+- [Disclaimer](#disclaimer)
 - [Stack used](#stack-used)
 - [1. Create project formalities](#1-create-project-formalities)
 - [2. Create a solution for a problem](#2-create-a-solution-for-a-problem)
@@ -43,6 +44,16 @@ This article can be considered as a tutorial and comprehension of other articles
 It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and RapidAPI.
 
 I thought it will be useful for other people trying to do the same but elaborating on issues I had along the way. It is also a great way to build side projects and maybe even make some money.
+
+As the Table of content shows it consists of 4 major parts, namely:
+1. Setting up environment
+2. Creating a solution with Python
+3. Setting up AWS
+4. Setting up RapidAPI
+
+# Disclaimer
+
+TODO
 
 
 # Stack used
