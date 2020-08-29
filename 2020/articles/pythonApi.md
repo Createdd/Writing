@@ -51,6 +51,12 @@ As the Table of content shows it consists of 4 major parts, namely:
 3. Setting up AWS
 4. Setting up RapidAPI
 
+You will find all my code open sourced on Github: https://github.com/Createdd/pandas_transform_format
+
+You will find the endresult here on RapidAPI: TODO
+
+If you found this article helpful let me know and/or buy the functionality on rapidAPI to show support.
+
 # Disclaimer
 
 TODO
