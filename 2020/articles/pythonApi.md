@@ -274,11 +274,13 @@ The article ["API as a product. How to sell your work when all you know is a bac
 > - Deploy it with a serverless architecture
 > - Distribute through an API Marketplace
 
-I encourage you to have a look at his article.
+For the setting everything I found the articles from Nagesh Bansal very helpful:
+- https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8
+- https://medium.com/@bansalnagesh/launch-your-api-on-aws-with-0-upfront-cost-using-zappa-in-10-minutes-eb6d00623842
 
 
 
-
+I encourage you to have a look at those articles as well.
 
 ---
 
