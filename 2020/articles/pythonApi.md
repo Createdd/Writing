@@ -28,6 +28,9 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 - [3. Deploy to AWS](#3-deploy-to-aws)
   - [Set up zappa](#set-up-zappa)
   - [Set up AWS](#set-up-aws)
+    - [AWS credentials](#aws-credentials)
+      - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
+      - [Add credentials in your project](#add-credentials-in-your-project)
 - [4. Set up rapidAPI](#4-set-up-rapidapi)
 - [Inspiration](#inspiration)
   - [About](#about)
@@ -256,7 +259,171 @@ Just click through everything and you will have a `zappa_settings.json` like
 }
 ```
 
+Note that we are not yet ready to deploy. First we need to get some AWS credentials.
+
 ## Set up AWS
+
+### AWS credentials
+
+First you need te get an AWS `access key id` and `access key`
+
+You might think it is as easy as:
+
+To get the credentials you need to
+- Go to: http://aws.amazon.com/
+- Sign Up & create a new account (they'll give you the option for 1 year trial or similar)
+- Go to your AWS account overview
+- Account menu in the upper-right (has your name on it)
+sub-menu: Security Credentials
+
+But be aware. There is more to permissions in AWS!
+
+
+#### Set up credentials with users and roles in IAM
+
+I found this [article](https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html) from Peter Kazarinoff to be very helpful. He explains the next section in great detail. My following bullet point approach is a quick summary and I often quote his steps. Please check out his article for more details if you are stuck somewhere.
+
+https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html
+
+I break it down as simple as possible:
+
+1. Within the AWS Console, type IAM into the search box. IAM is the AWS user and permissions dashboard.
+2. Create a group
+3. Give your group a name (for example zappa_group)
+4. Create our own specific inline policy for your group
+5. In the Permissions tab, under the Inline Policies section, choose the link to create a new Inline Policy
+6. In the Set Permissions screen, click the Custom Policy radio button and click the "Select" button on the right.
+7. Create a Custom Policy written in json format
+8. Read through and copy a policy discussed here: [https://github.com/Miserlou/Zappa/issues/244](https://github.com/Miserlou/Zappa/issues/244)
+9. Scroll down to "My Custom policy" see a snippet of my policy.
+10. After pasting and modifying the json with your AWS Account Number, click the [Validate Policy] button to ensure you copied valid json. Then click the [Apply Policy] button to attach the inline policy to the group.
+11. Create a user and add the user to the group
+12. Back at the IAM Dashboard, create a new user with the [Users] left-hand menu option and the [Add User] button.
+13. In the Add user screen, give your new user a name and select the Access Type for Programmatic access. Then click the [Next: Permissions] button.
+14. In the Set permissions screen, select the group you created earlier in the Add user to group section and click [Next: Tags].
+15. Tags are optional. Add tags if you want, then click [Next: Review].
+16. Review the user details and click [Create user]
+17. Copy the user's keys
+18. Don't close the AWS IAM window yet. In the next step, you will copy and paste these keys into a file. At this point, it's not a bad idea to copy and save these keys into a text file in a secure location. Make sure you don't save keys under version control.
+
+
+**My Custom policy:**
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:AttachRolePolicy",
+        "iam:GetRole",
+        "iam:CreateRole",
+        "iam:PassRole",
+        "iam:PutRolePolicy"
+      ],
+      "Resource": [
+        "arn:aws:iam::XXXXXXXXXXXXXXXX:role/*-ZappaLambdaExecutionRole"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "lambda:CreateFunction",
+        "lambda:ListVersionsByFunction",
+        "logs:DescribeLogStreams",
+        "events:PutRule",
+        "lambda:GetFunctionConfiguration",
+        "cloudformation:DescribeStackResource",
+        "apigateway:DELETE",
+        "apigateway:UpdateRestApiPolicy",
+        "events:ListRuleNamesByTarget",
+        "apigateway:PATCH",
+        "events:ListRules",
+        "cloudformation:UpdateStack",
+        "lambda:DeleteFunction",
+        "events:RemoveTargets",
+        "logs:FilterLogEvents",
+        "apigateway:GET",
+        "lambda:GetAlias",
+        "events:ListTargetsByRule",
+        "cloudformation:ListStackResources",
+        "events:DescribeRule",
+        "logs:DeleteLogGroup",
+        "apigateway:PUT",
+        "lambda:InvokeFunction",
+        "lambda:GetFunction",
+        "lambda:UpdateFunctionConfiguration",
+        "cloudformation:DescribeStacks",
+        "lambda:UpdateFunctionCode",
+        "lambda:DeleteFunctionConcurrency",
+        "events:DeleteRule",
+        "events:PutTargets",
+        "lambda:AddPermission",
+        "cloudformation:CreateStack",
+        "cloudformation:DeleteStack",
+        "apigateway:POST",
+        "lambda:RemovePermission",
+        "lambda:GetPolicy"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucketMultipartUploads",
+        "s3:CreateBucket",
+        "s3:ListBucket"
+      ],
+      "Resource": "arn:aws:s3:::zappa-*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "s3:GetObject",
+        "s3:AbortMultipartUpload",
+        "s3:DeleteObject",
+        "s3:ListMultipartUploadParts"
+      ],
+      "Resource": "arn:aws:s3:::zappa-*/*"
+    }
+  ]
+}
+```
+NOTE: Replace XXXXXXXXXXX in the inline policy by your AWS Account Number.
+
+Your AWS Account Number can be found by clicking [Support] → [Support Center]. Your Account Number is listed in the Support Center on the upper left-hand side.
+The json above is what worked for me. But, I expect this set of security permissions may be too open. To increase security, you could slowly pare down the permissions and see if Zappa still deploys. The settings above are the ones that finally worked for me. You can dig through this discussion on GitHub if you want to learn more about specific AWS permissions needed to run Zappa: https://github.com/Miserlou/Zappa/issues/244.
+
+
+
+#### Add credentials in your project
+
+Create a `.aws/credentials` folder in your root with
+
+```sh
+mkdir ~/.aws
+code open ~/.aws/credentials
+```
+and paste your credentials from AWS
+```py
+[dev]
+aws_access_key_id = YOUR_KEY
+aws_secret_access_key = YOUR_KEY
+```
+Same with the `config`
+```sh
+code open ~/.aws/config
+```
+
+```py
+[default]
+region = YOUR_REGION (eg. eu-central-1)
+```
+
+Note that `code` is for opening a the folder with vscode, my editor of choice.
+
+
 
 
 Save the AWS access key id and secret access key assigned to the User you created in the file ~/.aws/credentials. Note the .aws/ directory needs to be in your home directory and the credentials file has no file extension.
@@ -278,7 +445,7 @@ For the setting everything I found the articles from Nagesh Bansal very helpful:
 - https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8
 - https://medium.com/@bansalnagesh/launch-your-api-on-aws-with-0-upfront-cost-using-zappa-in-10-minutes-eb6d00623842
 
-
+Also this article from Peter Kazarinoff: https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html
 
 I encourage you to have a look at those articles as well.
 
