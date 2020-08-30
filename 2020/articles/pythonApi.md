@@ -455,6 +455,27 @@ Note that `code` is for opening a the folder with vscode, my editor of choice.
 
 Save the AWS access key id and secret access key assigned to the User you created in the file ~/.aws/credentials. Note the .aws/ directory needs to be in your home directory and the credentials file has no file extension.
 
+Now you can do deploy your API with
+
+```sh
+zappa deploy dev
+```
+![](../assets/pythonApi_2020-08-30-10-26-37.png)
+
+There shouldn't be any errors anymore. However, if there are still some, you can debug with:
+
+```sh
+zappa status
+zappa tail
+```
+
+The most common errors are permission related (then check your permission policy) or about python libraries that are incompatible. Either way, zappa will provide good enough error messages for debugging.
+
+If you update your code don't forget to update the deployment as well with
+
+```sh
+zappa update dev
+```
 
 # 4. Set up rapidAPI
 
