@@ -33,8 +33,8 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
     - [AWS credentials](#aws-credentials)
       - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
       - [Add credentials in your project](#add-credentials-in-your-project)
-- [4. Set up rapidAPI](#4-set-up-rapidapi)
   - [AWS API Gateway](#aws-api-gateway)
+- [4. Set up rapidAPI](#4-set-up-rapidapi)
   - [Create API on rapidAPI](#create-api-on-rapidapi)
 - [Inspiration](#inspiration)
   - [About](#about)
@@ -479,11 +479,9 @@ If you update your code don't forget to update the deployment as well with
 zappa update dev
 ```
 
-# 4. Set up rapidAPI
-
-To set up the API on a market we need to first open and restrict it on AWS and then set it up on the market platform.
-
 ## AWS API Gateway
+
+To set up the API on a market we need to first restrict its usage with an API-key and then set it up on the market platform.
 
 1. Go to your AWS Console and go to API gateway
 2. Click on your API
@@ -496,7 +494,16 @@ To set up the API on a market we need to first open and restrict it on AWS and t
 9. go back to the API overview. under resources, click the "/ any" go to the "method request". then in settings, set "API key required" to true
 10. do the same for the "/{proxy+} Methods"
 
+it looks like this
+
+![](../assets/pythonApi_2020-08-30-11-15-47.png)
+
 Now you have restricted the access to your API.
+
+# 4. Set up rapidAPI
+
+
+
 
 ## Create API on rapidAPI
 
