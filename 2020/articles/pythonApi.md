@@ -34,8 +34,8 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
       - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
       - [Add credentials in your project](#add-credentials-in-your-project)
   - [AWS API Gateway](#aws-api-gateway)
-- [4. Set up rapidAPI](#4-set-up-rapidapi)
-  - [Create API on rapidAPI](#create-api-on-rapidapi)
+- [4. Set up Rapidapi](#4-set-up-rapidapi)
+  - [Create API on Rapidapi](#create-api-on-rapidapi)
 - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -483,6 +483,12 @@ zappa update dev
 
 To set up the API on a market we need to first restrict its usage with an API-key and then set it up on the market platform.
 
+I found this [article](https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8) from Nagesh Bansal to be  helpful. He explains the next section in great detail. My following bullet point approach is a quick summary and I often quote his steps. Please check out his article for more details if you are stuck somewhere.
+
+https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8
+
+Again, I break it down:
+
 1. Go to your AWS Console and go to API gateway
 2. Click on your API
 3. we want to create an x-api-key to restrict undesired access to the API and also have a metered usage
@@ -500,12 +506,23 @@ it looks like this
 
 Now you have restricted the access to your API.
 
-# 4. Set up rapidAPI
+# 4. Set up Rapidapi
 
 
 
 
-## Create API on rapidAPI
+## Create API on Rapidapi
+
+1. Go to "My APIs" and "Add new API"
+2. Add name, description and category. Note that you cannot change your API name afterwards anymore.
+3. In settings, add the url of your AWS API (it was displayed when you deployed with zappa)
+4. In the section "Access Control" under "Transformations", add the API key you added in AWS
+
+![](../assets/pythonApi_2020-08-30-11-57-26.png)
+
+5. In the security tab you can check everything
+6. Then go to endpoints to add the routes from you Python app
+7.
 
 
 
