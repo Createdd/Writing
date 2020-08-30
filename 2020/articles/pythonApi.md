@@ -34,6 +34,8 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
       - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
       - [Add credentials in your project](#add-credentials-in-your-project)
 - [4. Set up rapidAPI](#4-set-up-rapidapi)
+  - [AWS API Gateway](#aws-api-gateway)
+  - [Create API on rapidAPI](#create-api-on-rapidapi)
 - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -478,6 +480,25 @@ zappa update dev
 ```
 
 # 4. Set up rapidAPI
+
+To set up the API on a market we need to first open and restrict it on AWS and then set it up on the market platform.
+
+## AWS API Gateway
+
+1. Go to your AWS Console and go to API gateway
+2. Click on your API
+3. we want to create an x-api-key to restrict undesired access to the API and also have a metered usage
+4. create a Usage plan for the API, with the desired throttle and quota limits
+5. create an associated API stage
+6. add an API key
+7. in the API key overview section, click "show" at the API key and copy it
+8. then associate the API with the key and discard all requests that come without the key
+9. go back to the API overview. under resources, click the "/ any" go to the "method request". then in settings, set "API key required" to true
+10. do the same for the "/{proxy+} Methods"
+
+Now you have restricted the access to your API.
+
+## Create API on rapidAPI
 
 
 
