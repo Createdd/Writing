@@ -521,8 +521,12 @@ Now you have restricted the access to your API.
 ![](../assets/pythonApi_2020-08-30-11-57-26.png)
 
 5. In the security tab you can check everything
-6. Then go to endpoints to add the routes from you Python app
-7.
+6. Then go to "endpoints" to add the routes from you Python app by clicking "create REST endpoint"
+7. TODO add screenshot
+8. Add an image
+9. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
+10. I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also I want to create a plan for supporting my work.
+11.
 
 
 
