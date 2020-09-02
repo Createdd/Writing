@@ -36,6 +36,9 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
   - [AWS API Gateway](#aws-api-gateway)
 - [4. Set up Rapidapi](#4-set-up-rapidapi)
   - [Create API on Rapidapi](#create-api-on-rapidapi)
+  - [Test your own API](#test-your-own-api)
+    - [Create private plan for testing](#create-private-plan-for-testing)
+    - [Create code to consume API](#create-code-to-consume-api)
 - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -527,6 +530,28 @@ Now you have restricted the access to your API.
 9. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
 10. I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also I want to create a plan for supporting my work.
 11.
+
+
+## Test your own API
+
+### Create private plan for testing
+
+Having set up everything, you of course should test it with the provided snippets. This step is not trivial and I had to contact the support to understand it. Now I am simplifying it here.
+
+Create a private plan for yourself, by setting no limits.
+![](../assets/pythonApi_2020-09-02-22-27-16.png)
+
+The go to the "Users" section of your API, then to "Users on free plans", select yourself and "invite" you to the private plan.
+
+![](../assets/pythonApi_2020-09-02-22-29-58.png)
+
+Now you are subscribed to your own private plan and can test the functionality with the provided snippets.
+
+### Create code to consume API
+
+
+
+
 
 
 
