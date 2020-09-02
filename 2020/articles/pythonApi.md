@@ -529,7 +529,11 @@ Now you have restricted the access to your API.
 8. Add an image
 9. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
 10. I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also I want to create a plan for supporting my work.
-11.
+
+![](../assets/pythonApi_2020-09-02-22-34-19.png)
+
+11. Create some docs and a tutorial. This is pretty self explaining. It is encouraged to do so as it is easier for people to use your API if it is documented properly.
+12. The last step is to make your API publicly available. But before you do that it is useful to test it for yourself.
 
 
 ## Test your own API
