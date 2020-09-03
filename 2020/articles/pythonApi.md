@@ -1,8 +1,6 @@
-# Develop and sell a Python API - From start to end tutorial
+# Develop and sell a Python API - from start to end tutorial
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
-
-![](http://g.recordit.co/xCdDAT2rZo.gif)
 
 
 I recently read a blog post about setting up your own API and selling it.
@@ -12,7 +10,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 
 # Table of Contents
 
-- [Develop and sell a Python API - From start to end tutorial](#develop-and-sell-a-python-api---from-start-to-end-tutorial)
+- [Develop and sell a Python API - from start to end tutorial](#develop-and-sell-a-python-api---from-start-to-end-tutorial)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [Disclaimer](#disclaimer)
@@ -37,6 +35,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
     - [Create private plan for testing](#create-private-plan-for-testing)
     - [Test endpoint with rapidapi](#test-endpoint-with-rapidapi)
     - [Create code to consume API](#create-code-to-consume-api)
+- [End result](#end-result)
 - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -44,7 +43,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
 
 This article can be considered as a tutorial and comprehension of other articles (listed in my "Inspiration" section).
 
-It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and RapidAPI.
+It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and Rapidapi.
 
 I thought it will be useful for other people trying to do the same.  I had some usses on the way, so I thought I share my approach. It is also a great way to build side projects and maybe even make some money.
 
@@ -56,18 +55,22 @@ As the Table of content shows, it consists of 4 major parts, namely:
 
 You will find all my code open sourced on Github:
 
-https://github.com/Createdd/pandas_transform_format
+- https://github.com/Createdd/pandas_transform_format
 
-You will find the endresult here on RapidAPI:
+You will find the endresult here on Rapidapi:
 
-https://rapidapi.com/Createdd/api/excel-to-other-formats
+- https://rapidapi.com/Createdd/api/excel-to-other-formats
 
-If you found this article helpful let me know and/or buy the functionality on rapidAPI to show support.
+If you found this article helpful let me know and/or buy the functionality on Rapidapi to show support.
 
 
 # Disclaimer
 
-I am not associated with any of the services I use in this article. I also do not consider myself an expert. If you have the feeling I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+I am not associated with any of the services I use in this article.
+
+I do not consider myself an expert. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+
+I am always happy for constructive input and how to improve.
 
 
 # Stack used
@@ -79,11 +82,14 @@ We will use
 - Jupyter Notebook (code development and documentaion),
 - Python (programming language),
 - AWS (deployment),
-- RapidAPI (market to sell)
+- Rapidapi (market to sell)
+
+---
+
 
 # 1. Create project formalities
 
-This is always an annoying step. It's always the same but necessary.
+It's always the same but necessary. I do it along these steps:
 
 1. Create local folder `mkdir NAME`
 2. Create new repository on Github with `NAME`
@@ -104,6 +110,14 @@ Now we have:
 
 
 # 2. Create a solution for a problem
+
+Then we need to create a solution to some problem. For the sake of demonstration I will show how to convert an excel csv file into other formats. The basic functionality will be coded and tested in a Jupyter Notebook first.
+
+  - [Install packages](#install-packages)
+  - [Develop solution to problem](#develop-solution-to-problem)
+    - [Download data](#download-data)
+    - [Create functionality](#create-functionality)
+  - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
 
 ## Install packages
 
@@ -168,6 +182,8 @@ df = pd.read_csv('./data/titanic.csv')
 df.to_json(r'./data/titanic.json')
 ```
 
+![](http://g.recordit.co/xCdDAT2rZo.gif)
+
 ## Build server to execute function with REST
 
 After developing the functionality in jupyter notebook we want to actually provide the functionality in a python app.
@@ -209,12 +225,11 @@ Now we simply write the function to transform the excel into json, like:
 ```py
 import json
 import pandas as pd
-import flask_excel as excel
-from flask import Flask, request, jsonify
+from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/upload', methods=['GET', 'POST'])
+@app.route('/get_json', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         provided_data = request.files.get('file')
@@ -228,21 +243,30 @@ def upload_file():
         result = {
             'result': transformed,
         }
+
         json.dumps(result)
 
         return result
 
 
 if __name__ == '__main__':
-    excel.init_excel(app)
     app.run()
 ```
 
-
+(Check out my repository for the full code.)
 
 Now we have the functionality to transform csv files into json for example.
 
 # 3. Deploy to AWS
+
+After developing it locally we want to get it in the cloud.
+
+- [Set up zappa](#set-up-zappa)
+- [Set up AWS](#set-up-aws)
+  - [AWS credentials](#aws-credentials)
+    - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
+    - [Add credentials in your project](#add-credentials-in-your-project)
+- [AWS API Gateway](#aws-api-gateway)
 
 ## Set up zappa
 
@@ -515,6 +539,11 @@ Now you have restricted the access to your API.
 # 4. Set up Rapidapi
 
 
+  - [Create API on Rapidapi](#create-api-on-rapidapi)
+  - [Test your own API](#test-your-own-api)
+    - [Create private plan for testing](#create-private-plan-for-testing)
+    - [Test endpoint with rapidapi](#test-endpoint-with-rapidapi)
+    - [Create code to consume API](#create-code-to-consume-api)
 
 
 ## Create API on Rapidapi
@@ -583,7 +612,9 @@ response = requests.request("POST", url, data=payload, headers=headers)
 print(response.text)
 ```
 
+# End result
 
+https://rapidapi.com/Createdd/api/excel-to-other-formats
 
 
 # Inspiration
