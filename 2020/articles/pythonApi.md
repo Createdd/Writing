@@ -6,6 +6,8 @@ xxxxxxx - httpsasdfafasfasfdasf
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 
+![](http://g.recordit.co/xCdDAT2rZo.gif)
+
 
 I recently read a blog post about setting up your own API and selling it.
 
@@ -38,6 +40,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
   - [Create API on Rapidapi](#create-api-on-rapidapi)
   - [Test your own API](#test-your-own-api)
     - [Create private plan for testing](#create-private-plan-for-testing)
+    - [Test endpoint with rapidapi](#test-endpoint-with-rapidapi)
     - [Create code to consume API](#create-code-to-consume-api)
 - [Inspiration](#inspiration)
   - [About](#about)
@@ -56,15 +59,20 @@ As the Table of content shows it consists of 4 major parts, namely:
 3. Setting up AWS
 4. Setting up RapidAPI
 
-You will find all my code open sourced on Github: https://github.com/Createdd/pandas_transform_format
+You will find all my code open sourced on Github:
 
-You will find the endresult here on RapidAPI: TODO
+https://github.com/Createdd/pandas_transform_format
+
+You will find the endresult here on RapidAPI:
+
+https://rapidapi.com/Createdd/api/excel-to-other-formats
 
 If you found this article helpful let me know and/or buy the functionality on rapidAPI to show support.
 
+
 # Disclaimer
 
-TODO
+I am not associated with any of the services I use in this article. I also do not consider myself an expert. If you have the feeling I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
 
 # Stack used
@@ -551,10 +559,34 @@ The go to the "Users" section of your API, then to "Users on free plans", select
 
 Now you are subscribed to your own private plan and can test the functionality with the provided snippets.
 
+### Test endpoint with rapidapi
+
+Upload an example excel file and click on "test endpoint". Then you will get a 200 ok response.
+
+![](../assets/pythonApi_2020-09-03-09-08-44.png)
+
 ### Create code to consume API
 
 
+To consume the API now you can simply copy the snippet that rapidapi provides.
+For example with Python and the requests library:
 
+```py
+import requests
+
+url = "https://excel-to-other-formats.p.rapidapi.com/upload"
+
+payload = ""
+headers = {
+    'x-rapidapi-host': "excel-to-other-formats.p.rapidapi.com",
+    'x-rapidapi-key': "YOUR_KEY",
+    'content-type': "multipart/form-data"
+    }
+
+response = requests.request("POST", url, data=payload, headers=headers)
+
+print(response.text)
+```
 
 
 
