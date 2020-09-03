@@ -1,8 +1,4 @@
-# Develop and sell a Python API. From start to end tutorial.
-
-[<img src="XXXXXXXX">](
-httpsasdfafasfasfdasf)
-xxxxxxx - httpsasdfafasfasfdasf
+# Develop and sell a Python API - From start to end tutorial
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 
@@ -11,13 +7,12 @@ xxxxxxx - httpsasdfafasfasfdasf
 
 I recently read a blog post about setting up your own API and selling it.
 
-I was quite inspired and wanted to test if it works. In just 5 days I was able to create a product from start to end. So I thought I share issues I came across, elaborate on concepts that the article was introducing, and provide a quick checklist to build something yourself.
-
+I was quite inspired and wanted to test if it works. In just 5 days I was able to create an API from start to end. So I thought I share issues I came across, elaborate on concepts that the article was introducing, and provide a quick checklist to build something yourself. All of this by developing another API.
 
 
 # Table of Contents
 
-- [Develop and sell a Python API. From start to end tutorial.](#develop-and-sell-a-python-api-from-start-to-end-tutorial)
+- [Develop and sell a Python API - From start to end tutorial](#develop-and-sell-a-python-api---from-start-to-end-tutorial)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [Disclaimer](#disclaimer)
@@ -51,13 +46,13 @@ This article can be considered as a tutorial and comprehension of other articles
 
 It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and RapidAPI.
 
-I thought it will be useful for other people trying to do the same but elaborating on issues I had along the way. It is also a great way to build side projects and maybe even make some money.
+I thought it will be useful for other people trying to do the same.  I had some usses on the way, so I thought I share my approach. It is also a great way to build side projects and maybe even make some money.
 
-As the Table of content shows it consists of 4 major parts, namely:
-1. Setting up environment
-2. Creating a solution with Python
+As the Table of content shows, it consists of 4 major parts, namely:
+1. Setting up the environment
+2. Creating a problem solution with Python
 3. Setting up AWS
-4. Setting up RapidAPI
+4. Setting up Rapidapi
 
 You will find all my code open sourced on Github:
 
