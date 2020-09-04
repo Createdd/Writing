@@ -1,7 +1,7 @@
 # Develop and sell a Python API - from start to end tutorial
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
-
+*Image: https://unsplash.com/photos/LJ9KY8pIH3E*
 
 I recently read a blog post about setting up your own API and selling it.
 
@@ -37,7 +37,7 @@ I was quite inspired and wanted to test if it works. In just 5 days I was able t
     - [Create code to consume API](#create-code-to-consume-api)
 - [End result](#end-result)
 - [Inspiration](#inspiration)
-  - [About](#about)
+- [About](#about)
 
 # About this article
 
@@ -199,10 +199,6 @@ Browsing through the internet we can see that there are already packages that wo
 ```sh
 pip install Flask Flask-Excel
 ```
-
-
-
-
 
 
 Start Flask server with
@@ -635,7 +631,7 @@ I encourage you to have a look at those articles as well.
 
 ---
 
-## About
+# About
 
 Daniel is an entrepreneur, software developer and lawyer. He has worked at various IT companies, tax advisory, management consulting and at the Austrian court.
 
