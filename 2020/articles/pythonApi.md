@@ -68,7 +68,7 @@ If you found this article helpful let me know and/or buy the functionality on Ra
 
 I am not associated with any of the services I use in this article.
 
-I do not consider myself an expert. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+I do not consider myself an expert. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me. Also, always make sure to monitor your AWS costs to not pay for things you do not know about.
 
 I am always happy for constructive input and how to improve.
 
@@ -145,7 +145,7 @@ Add a `.gitignore` file and add the data folder (`data/`) to not upload the data
 
 ### Download data
 
-Download an example dataset (titanic dataset) and save it into a data folder:
+Download an example dataset [(titanic dataset)](https://www.kaggle.com/c/titanic) and save it into a data folder:
 
 ```py
 def download(url: str, dest_folder: str):
@@ -190,14 +190,14 @@ After developing the functionality in jupyter notebook we want to actually provi
 
 There are ways to use parts of the jupyter notebook, but for the sake of simplicity we create it again now.
 
-Add a `app.py` file.
+Add an `app.py` file.
 
 We want the user to upload an excel file and return the file converted into JSON for example.
 
-Browsing through the internet we can see that there are already packages that work with flask and excel. So lets use them.
+Browsing through the internet we can see that there are already packages that work with flask and excel formats. So lets use them.
 
 ```sh
-pip install Flask Flask-Excel
+pip install Flask
 ```
 
 
@@ -249,7 +249,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-(Check out my repository for the full code.)
+(Check out my [repository](https://github.com/Createdd/pandas_transform_format) for the full code.)
 
 Now we have the functionality to transform csv files into json for example.
 
@@ -283,7 +283,7 @@ As we are using a conda environment we need to specify it:
 which python
 ```
 
-will give you `/Users/XXX/opt/anaconda3/envs/XXXX/bin/python`
+will give you `/Users/XXX/opt/anaconda3/envs/XXXX/bin/python` (for Mac)
 
 remove the `bin/python/` and export
 
@@ -328,17 +328,14 @@ To get the credentials you need to
 - Go to: http://aws.amazon.com/
 - Sign Up & create a new account (they'll give you the option for 1 year trial or similar)
 - Go to your AWS account overview
-- Account menu in the upper-right (has your name on it)
-sub-menu: Security Credentials
+- Account menu; sub-menu: Security Credentials
 
-But be aware. There is more to permissions in AWS!
+But no. There is more to permissions in AWS!
 
 
 #### Set up credentials with users and roles in IAM
 
 I found this [article](https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html) from Peter Kazarinoff to be very helpful. He explains the next section in great detail. My following bullet point approach is a quick summary and I often quote his steps. Please check out his article for more details if you are stuck somewhere.
-
-https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html
 
 I break it down as simple as possible:
 
@@ -351,13 +348,13 @@ I break it down as simple as possible:
 7. Create a Custom Policy written in json format
 8. Read through and copy a policy discussed here: [https://github.com/Miserlou/Zappa/issues/244](https://github.com/Miserlou/Zappa/issues/244)
 9. Scroll down to "My Custom policy" see a snippet of my policy.
-10. After pasting and modifying the json with your AWS Account Number, click the [Validate Policy] button to ensure you copied valid json. Then click the [Apply Policy] button to attach the inline policy to the group.
+10. After pasting and modifying the json with your AWS Account Number, click the "Validate Policy" button to ensure you copied valid json. Then click the "Apply Policy" button to attach the inline policy to the group.
 11. Create a user and add the user to the group
-12. Back at the IAM Dashboard, create a new user with the [Users] left-hand menu option and the [Add User] button.
-13. In the Add user screen, give your new user a name and select the Access Type for Programmatic access. Then click the [Next: Permissions] button.
-14. In the Set permissions screen, select the group you created earlier in the Add user to group section and click [Next: Tags].
-15. Tags are optional. Add tags if you want, then click [Next: Review].
-16. Review the user details and click [Create user]
+12. Back at the IAM Dashboard, create a new user with the "Users" left-hand menu option and the "Add User" button.
+13. In the Add user screen, give your new user a name and select the Access Type for Programmatic access. Then click the "Next: Permissions" button.
+14. In the Set permissions screen, select the group you created earlier in the Add user to group section and click "Next: Tags".
+15. Tags are optional. Add tags if you want, then click "Next: Review".
+16. Review the user details and click "Create user"
 17. Copy the user's keys
 18. Don't close the AWS IAM window yet. In the next step, you will copy and paste these keys into a file. At this point, it's not a bad idea to copy and save these keys into a text file in a secure location. Make sure you don't save keys under version control.
 
@@ -447,9 +444,8 @@ I break it down as simple as possible:
 ```
 NOTE: Replace XXXXXXXXXXX in the inline policy by your AWS Account Number.
 
-Your AWS Account Number can be found by clicking [Support] → [Support Center]. Your Account Number is listed in the Support Center on the upper left-hand side.
+Your AWS Account Number can be found by clicking "Support → "Support Center. Your Account Number is listed in the Support Center on the upper left-hand side.
 The json above is what worked for me. But, I expect this set of security permissions may be too open. To increase security, you could slowly pare down the permissions and see if Zappa still deploys. The settings above are the ones that finally worked for me. You can dig through this discussion on GitHub if you want to learn more about specific AWS permissions needed to run Zappa: https://github.com/Miserlou/Zappa/issues/244.
-
 
 
 #### Add credentials in your project
@@ -511,12 +507,10 @@ To set up the API on a market we need to first restrict its usage with an API-ke
 
 I found this [article](https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8) from Nagesh Bansal to be  helpful. He explains the next section in great detail. My following bullet point approach is a quick summary and I often quote his steps. Please check out his article for more details if you are stuck somewhere.
 
-https://medium.com/@bansalnagesh/how-to-sell-your-apis-b4b5c9a273f8
-
 Again, I break it down:
 
-1. Go to your AWS Console and go to API gateway
-2. Click on your API
+1. go to your AWS Console and go to API gateway
+2. click on your API
 3. we want to create an x-api-key to restrict undesired access to the API and also have a metered usage
 4. create a Usage plan for the API, with the desired throttle and quota limits
 5. create an associated API stage
@@ -553,15 +547,17 @@ Now you have restricted the access to your API.
 
 5. In the security tab you can check everything
 6. Then go to "endpoints" to add the routes from you Python app by clicking "create REST endpoint"
-7. TODO add screenshot
-8. Add an image
-9. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
-10. I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also I want to create a plan for supporting my work.
+
+![](../assets/pythonApi_2020-09-04-09-14-04.png)
+
+7. Add an image for your API
+8. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
+9.  I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also, I want to create a plan for supporting my work. For example:
 
 ![](../assets/pythonApi_2020-09-02-22-34-19.png)
 
-11. Create some docs and a tutorial. This is pretty self explaining. It is encouraged to do so as it is easier for people to use your API if it is documented properly.
-12. The last step is to make your API publicly available. But before you do that it is useful to test it for yourself.
+10. Create some docs and a tutorial. This is pretty self explaining. It is encouraged to do so as it is easier for people to use your API if it is documented properly.
+11. The last step is to make your API publicly available. But before you do that it is useful to test it for yourself.
 
 
 ## Test your own API
