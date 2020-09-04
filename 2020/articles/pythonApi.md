@@ -45,7 +45,7 @@ This article can be considered as a tutorial and comprehension of other articles
 
 It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and Rapidapi.
 
-I thought it will be useful for other people trying to do the same.  I had some usses on the way, so I thought I share my approach. It is also a great way to build side projects and maybe even make some money.
+I thought it will be useful for other people trying to do the same.  I had some issues on the way, so I thought I share my approach. It is also a great way to build side projects and maybe even make some money.
 
 As the Table of content shows, it consists of 4 major parts, namely:
 1. Setting up the environment
@@ -57,7 +57,7 @@ You will find all my code open sourced on Github:
 
 - https://github.com/Createdd/pandas_transform_format
 
-You will find the endresult here on Rapidapi:
+You will find the end result here on Rapidapi:
 
 - https://rapidapi.com/Createdd/api/excel-to-other-formats
 
@@ -79,7 +79,7 @@ We will use
 
 - Github (Code hosting),
 - Anaconda (Dependency and environment management),
-- Jupyter Notebook (code development and documentaion),
+- Jupyter Notebook (code development and documentation),
 - Python (programming language),
 - AWS (deployment),
 - Rapidapi (market to sell)
@@ -89,10 +89,10 @@ We will use
 
 # 1. Create project formalities
 
-It's always the same but necessary. I do it along these steps:
+It's always the same but necessary. I do it along with these steps:
 
-1. Create local folder `mkdir NAME`
-2. Create new repository on Github with `NAME`
+1. Create a local folder `mkdir NAME`
+2. Create a new repository on Github with `NAME`
 3. Create conda environment `conda create --name NAME python=3.7`
 4. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
 5. Create git repo `git init`
@@ -111,7 +111,7 @@ Now we have:
 
 # 2. Create a solution for a problem
 
-Then we need to create a solution to some problem. For the sake of demonstration I will show how to convert an excel csv file into other formats. The basic functionality will be coded and tested in a Jupyter Notebook first.
+Then we need to create a solution to some problem. For the sake of demonstration, I will show how to convert an excel csv file into other formats. The basic functionality will be coded and tested in a Jupyter Notebook first.
 
   - [Install packages](#install-packages)
   - [Develop solution to problem](#develop-solution-to-problem)
@@ -212,7 +212,7 @@ env FLASK_APP=app.py FLASK_ENV=development flask run
 
 
 
-Tipp: Test your backend functionality with [Postman](https://www.postman.com/). It is easy to setup and allows to test the backend functionality quickly. Uploading an excel is done in the "form-data" tab:
+Tipp: Test your backend functionality with [Postman](https://www.postman.com/). It is easy to set up and allows us to test the backend functionality quickly. Uploading an excel is done in the "form-data" tab:
 ![](../assets/pythonApi_2020-08-29-11-48-00.png)
 Here you can see the uploaded titanic csv file and the returned column names of the dataset.
 
@@ -314,13 +314,13 @@ Just click through everything and you will have a `zappa_settings.json` like
 }
 ```
 
-Note that we are not yet ready to deploy. First we need to get some AWS credentials.
+Note that we are not yet ready to deploy. First, we need to get some AWS credentials.
 
 ## Set up AWS
 
 ### AWS credentials
 
-First you need te get an AWS `access key id` and `access key`
+First, you need te get an AWS `access key id` and `access key`
 
 You might think it is as easy as:
 
@@ -472,7 +472,7 @@ code open ~/.aws/config
 region = YOUR_REGION (eg. eu-central-1)
 ```
 
-Note that `code` is for opening a the folder with vscode, my editor of choice.
+Note that `code` is for opening a folder with vscode, my editor of choice.
 
 
 
@@ -524,7 +524,7 @@ it looks like this
 
 ![](../assets/pythonApi_2020-08-30-11-15-47.png)
 
-Now you have restricted the access to your API.
+Now you have restricted access to your API.
 
 # 4. Set up Rapidapi
 
@@ -539,7 +539,7 @@ Now you have restricted the access to your API.
 ## Create API on Rapidapi
 
 1. Go to "My APIs" and "Add new API"
-2. Add name, description and category. Note that you cannot change your API name afterwards anymore.
+2. Add the name, description, and category. Note that you cannot change your API name afterward anymore
 3. In settings, add the url of your AWS API (it was displayed when you deployed with zappa)
 4. In the section "Access Control" under "Transformations", add the API key you added in AWS
 
@@ -551,8 +551,8 @@ Now you have restricted the access to your API.
 ![](../assets/pythonApi_2020-09-04-09-14-04.png)
 
 7. Add an image for your API
-8. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product how to price it.
-9.  I created a freemium pricing plan. Reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also, I want to create a plan for supporting my work. For example:
+8. Set a pricing plan. Rapidapi published an own [article](https://rapidapi.com/blog/how-to-monetize-your-api/) on the pricing options and strategies. As they conclude, it is up to your preferences and product on how to price it.
+I created a freemium pricing plan. The reason for that is that I want to give the chance to test it without cost, but add a price for using it regularly. Also, I want to create a plan for supporting my work. For example:
 
 ![](../assets/pythonApi_2020-09-02-22-34-19.png)
 
@@ -629,7 +629,7 @@ I encourage you to have a look at those articles as well.
 
 # About
 
-Daniel is an entrepreneur, software developer and lawyer. He has worked at various IT companies, tax advisory, management consulting and at the Austrian court.
+Daniel is an entrepreneur, software developer, and lawyer. He has worked at various IT companies, tax advisory, management consulting, and at the Austrian court.
 
 His knowledge and interests currently revolve around programming machine learning applications and all its related aspects. To the core, he considers himself a problem solver of complex environments, which is reflected in his various projects.
 
