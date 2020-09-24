@@ -454,7 +454,7 @@ Create a `.aws/credentials` folder in your root with
 
 ```sh
 mkdir ~/.aws
-code open ~/.aws/credentials
+code ~/.aws/credentials
 ```
 and paste your credentials from AWS
 ```py
@@ -464,7 +464,7 @@ aws_secret_access_key = YOUR_KEY
 ```
 Same with the `config`
 ```sh
-code open ~/.aws/config
+code ~/.aws/config
 ```
 
 ```py
