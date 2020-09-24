@@ -5,7 +5,6 @@
 
 
 
-
 # Table of Contents
 
 - [Develop and sell a Machine Learning API - from start to end tutorial](#develop-and-sell-a-machine-learning-api---from-start-to-end-tutorial)
@@ -39,11 +38,17 @@
 
 # About this article
 
-This article can be considered as a tutorial and comprehension of other articles (listed in my "Inspiration" section).
+In this article I take the ideas from my previous article ["How to sell a Python API from start to end"](https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966) further and build a machine learning application. If the steps described here are to rough consider reading my previous article first.
 
-It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS and Rapidapi.
+There are a number of new and more complicated issues to cover in this project:
+1. Machine Learning content. The application takes basic steps of building a Machine Learning model. This covers the preparation, but also the prediction.
+2. In time evaluation (not in time training) of the prediction. This means that the dataset is freshly fetched and the prediction is performed on the latest data.
+3. Deployment. Deploying a Machine Learning app has various challenges. In this article we met and solved the issue of outsourcing the trained model on AWS.
+4. It is not only an API but also has a minor frontend.
 
-I thought it will be useful for other people trying to do the same.  I had some issues on the way, so I thought I share my approach. It is also a great way to build side projects and maybe even make some money.
+It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS Lambda.
+
+There were various difficulties, which allowed me to learn more about the deployment and building process. It is also a great way to build side projects and maybe even make some money.
 
 As the Table of content shows, it consists of 4 major parts, namely:
 1. Setting up the environment
@@ -53,11 +58,11 @@ As the Table of content shows, it consists of 4 major parts, namely:
 
 You will find all my code open sourced on Github:
 
-- https://github.com/Createdd/pandas_transform_format
+- https://github.com/Createdd/ml_api_covid
 
 You will find the end result here on Rapidapi:
 
-- https://rapidapi.com/Createdd/api/excel-to-other-formats
+- https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 If you found this article helpful let me know and/or buy the functionality on Rapidapi to show support.
 
@@ -70,6 +75,8 @@ I do not consider myself an expert. If you have the feeling that I am missing im
 
 I am always happy for constructive input and how to improve.
 
+There are numerous things to improve and build upon. For example the machine learning part has very low effort. The preparation was very rough and many steps are missing. From my professional work I know this. However, I cannot cover every detail in one article. Nevertheless, I am curious to hear your suggestions on improvement in the comments. :)
+
 
 # Stack used
 
@@ -77,9 +84,10 @@ We will use
 
 - Github (Code hosting),
 - Anaconda (Dependency and environment management),
+- Docker (for possible further usage in microservices)
 - Jupyter Notebook (code development and documentation),
 - Python (programming language),
-- AWS (deployment),
+- AWS, especiall AWS Lambda and S3(for deployment),
 - Rapidapi (market to sell)
 
 ---
@@ -95,14 +103,15 @@ It's always the same but necessary. I do it along with these steps:
 4. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
 5. Create git repo `git init`
 6. Connect to Github repo. Add Readme file, commit it and
+
 ```sh
 git remote add origin URL_TO_GIT_REPO
 git push -u origin master
 ```
 
-
-
 # 2. Create a solution for a problem
+
+
 
 
 
