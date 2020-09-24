@@ -1,7 +1,7 @@
 # Develop and sell a Machine Learning API - from start to end tutorial
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3401&q=80)
-*Source *
+*Photo by Daniel Korpai https://unsplash.com/photos/HyTwtsk8XqA*
 
 
 
@@ -13,12 +13,18 @@
 - [Disclaimer](#disclaimer)
 - [Stack used](#stack-used)
 - [1. Create project formalities](#1-create-project-formalities)
-- [2. Create a solution for a problem](#2-create-a-solution-for-a-problem)
-  - [Install packages](#install-packages)
+- [2. Develop a solution for a problem](#2-develop-a-solution-for-a-problem)
+  - [Install packages and track jupyter files properly](#install-packages-and-track-jupyter-files-properly)
   - [Develop solution to problem](#develop-solution-to-problem)
+    - [The goal](#the-goal)
     - [Download data](#download-data)
-    - [Create functionality](#create-functionality)
+    - [Preparation](#preparation)
+    - [Create classifier and predict](#create-classifier-and-predict)
   - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+    - [Serve basic frontend](#serve-basic-frontend)
+    - [Load prediction](#load-prediction)
+  - [BONUS: Make reproducible with Docker](#bonus-make-reproducible-with-docker)
+    - [Create Dockerfile](#create-dockerfile)
 - [3. Deploy to AWS](#3-deploy-to-aws)
   - [Set up zappa](#set-up-zappa)
   - [Set up AWS](#set-up-aws)
@@ -100,22 +106,24 @@ It's always the same but necessary. I do it along with these steps:
 1. Create a local folder `mkdir NAME`
 2. Create a new repository on Github with `NAME`
 3. Create conda environment `conda create --name NAME python=3.7`
-4. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
-5. Create git repo `git init`
-6. Connect to Github repo. Add Readme file, commit it and
+4. Register new environment in jupyter `ipython kernel install --name NAME--user`
+5. Activate conda environment `conda activate PATH_TO_ENVIRONMENT`
+6. Create git repo `git init`
+7. Connect to Github repo. Add Readme file, commit it and
 
 ```sh
 git remote add origin URL_TO_GIT_REPO
 git push -u origin master
 ```
 
-# 2. Create a solution for a problem
+# 2. Develop a solution for a problem
+
+As we will develop a Machine Learning solution, a Jupyter Notebook will be very useful.
 
 
 
 
-
-## Install packages
+## Install packages and track jupyter files properly
 
 Install jupyter notebook and jupytext:
 
@@ -123,31 +131,252 @@ Install jupyter notebook and jupytext:
 pip install notebook jupytext
 ```
 
-sets a hook in  `.git/hooks/pre-commit` for tracking the notebook changes in git properly:
+set a hook in  `.git/hooks/pre-commit` for tracking the notebook changes in git properly:
 
 ```sh
-#!/bin/sh
+touch .git/hooks/pre-commit
+code  .git/hooks/pre-commit
+```
 
-jupytext --from ipynb --to jupytext_conversion//py:light --pre-commit
+copy this in the file
+```sh
+#!/bin/sh
+# For every ipynb file in the git index, add a Python representation
+jupytext --from ipynb --to py:light --pre-commit
+```
+
+afterwards for making the hook executable (on mac)
+```sh
+chmod +x .git/hooks/pre-commit
 ```
 
 ## Develop solution to problem
 
-```sh
-pip install pandas requests
+### The goal
+
+As currently the world is in a pandemic I thought I use one of the multiple datasets for covid-19 cases.
+Given the structure of the dataset we want to predict the new cases of infections per day for a country.
+
+
+```py
+pip install -r requirements.txt
 ```
+
+This will install all packages we need. Have a look in the `/development/predict_covid.ipynb` notebook to see what libraries are used.
+
+Most important are the libraries
+- **pandas** for transforming the dataset and
+-  **sklearn** for machine learning
+
+For the following sub headings please check out the jupyter notebook for more details:
+- https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb
 
 
 ### Download data
 
+We will use the dataset from https://ourworldindata.org/coronavirus-source-data in csv format.
 
+### Preparation
 
-### Create functionality
+In short I did:
+1. Check for missing data
+2. Remove columns with more than 50% missing data
+3. Remove rows with remaining missing content like continent or isocode. (Not useful for my app solution which requires a country)
+4. Encode categorical data with labels
+5. Fill in remaining numerical missing data with the mean of the column
+6. Split into training and test set
 
+### Create classifier and predict
+
+1. Create a Random Forest Regressor
+2. Train it on the data and evaluate
+3. Perform hyperparameter tuning with RandomizedSearchCV
+4. Save trained model
+5. Predict the new cases by providing a country name
 
 
 ## Build server to execute function with REST
 
+For the API functionality we will use a Flask server (in `app.py`)
+- https://github.com/Createdd/ml_api_covid/blob/master/app.py
+
+### Serve basic frontend
+
+```py
+@app.route('/')
+def home():
+    return render_template("home.html")
+```
+
+Which serves a basic html and css file.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Covid</title>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+
+</head>
+
+<body>
+ <div class="page">
+     <form if="form" action="{{ url_for('predict')}}"method="POST">
+         <input type="text" name="country" placeholder="Country" required="required" /><br>
+         <h3 class='res'>{{pred}}</h3>
+         <button id="button" type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+ </div>
+</body>
+</html>
+```
+
+### Load prediction
+
+This is a little more complex.
+
+Key route is this:
+
+```py
+@app.route('/predict',methods=['POST'])
+def predict():
+    input_val = [x for x in request.form.values()][0]
+    rf = load_model(BUCKET_NAME, MODEL_FILE_NAME, MODEL_LOCAL_PATH)
+
+    if input_val not in available_countries:
+        return f'Country {input_val} is not in available list. Try one from the list! Go back in your browser', 400
+
+    to_pred = get_prediction_params(input_val, url_to_covid)
+    prediction = rf.predict(to_pred)[0]
+
+    return render_template('home.html',pred=f'New cases will be {prediction}')
+```
+But before we can return the prediction result we need to get the latest data and pre-process it again.
+This is done with
+
+```py
+
+def pre_process(df):
+    cols_too_many_missing = ['new_tests',
+                             'new_tests_per_thousand',
+                             'total_tests_per_thousand',
+                             'total_tests',
+                             'tests_per_case',
+                             'positive_rate',
+                             'new_tests_smoothed',
+                             'new_tests_smoothed_per_thousand',
+                             'tests_units',
+                             'handwashing_facilities']
+    df = df.drop(columns=cols_too_many_missing)
+
+    nominal = df.select_dtypes(include=['object']).copy()
+    nominal_cols = nominal.columns.tolist()
+
+    for col in nominal_cols:
+        col
+        if df[col].isna().sum() > 0:
+            df[col].fillna('MISSING', inplace=True)
+        df[col] = encoder.fit_transform(df[col])
+
+    numerical = df.select_dtypes(include=['float64']).copy()
+
+    for col in numerical:
+        df[col].fillna((df[col].mean()), inplace=True)
+
+    X = df.drop(columns=['new_cases'])
+    y = df.new_cases
+
+    return X, y
+
+
+def get_prediction_params(input_val, url_to_covid):
+    df_orig = pd.read_csv(url_to_covid)
+    _ = encoder.fit_transform(df_orig['location'])
+    encode_ind = (encoder.classes_).tolist().index(input_val)
+    df_orig[df_orig.location == input_val]
+
+    X, _ = pre_process(df_orig)
+    to_pred = X[X.location == encode_ind].iloc[-1].values.reshape(1,-1)
+
+    return to_pred
+```
+
+`Pre-process` again transforms the downloaded dataset for machine learning purposes, whereas `get_prediction_params` takes the input value (which is the country to be predicted) and the url to the latest dataset.
+
+Those processes make the prediction true for the latest data, but also slows down the app.
+
+You might wonder why we do `rf = load_model(BUCKET_NAME, MODEL_FILE_NAME, MODEL_LOCAL_PATH)`.
+The reason for this is that we need to load the pre-trained model from a AWS S3 bucket to save memory when executing everything with AWS Lambda. Scroll down for more details.
+
+But if we do not want to deploy it in the cloud we can simply do something like `joblib.load(PATH_TO_YOUR_EXPORTED_MODEL)`. In the [notebook](https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb) we export the the model with `joblib.dump`.
+More info on model exports in the [sklearn docs](https://scikit-learn.org/stable/modules/model_persistence.html)
+
+But that is the mere functionality of the FLAK server. Providing a route for serving the html template and a route for prediction. Quite simple!
+
+Running now
+
+```sh
+env FLASK_APP=app.py FLASK_ENV=development flask run
+```
+
+will start the server.
+
+## BONUS: Make reproducible with Docker
+
+Maybe you want to scale the app or allow other people to test it more easily. For this we can create a Docker container. I will not explain in detail how it works but if you are interested check one of the links in my "Inspiration" section.
+
+Building a Docker container is not necessary for making this application work!
+
+### Create Dockerfile
+
+```docker
+FROM python:3.7
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=development
+
+# install system dependencies
+RUN apt-get update \
+    && apt-get -y install gcc make \
+    && rm -rf /var/lib/apt/lists/*s
+
+RUN python3 --version
+RUN pip3 --version
+
+RUN pip install --no-cache-dir --upgrade pip
+
+WORKDIR /app
+
+COPY ./requirements.txt /app/requirements.txt
+
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "app:app"]
+```
+
+Note: the last line is for starting the Flask server
+
+After creating the `Dockerfile` run
+
+```sh
+docker build -t YOUR_APP_NAME .
+```
+and afterwards
+
+```sh
+docker run -d -p 80:8080 YOUR_APP_NAME
+```
+
+Afterwards you will see your app running on `http://localhost/`
 
 # 3. Deploy to AWS
 
