@@ -230,6 +230,8 @@ Which serves a basic html and css file.
 </html>
 ```
 
+![](../assets/mlApiCovid_2020-09-25-11-23-19.png)
+
 ### Load prediction
 
 This is a little more complex.
@@ -319,6 +321,8 @@ env FLASK_APP=app.py FLASK_ENV=development flask run
 ```
 
 will start the server.
+
+![gif of app functionality](http://g.recordit.co/7JGIL7T9GC.gif)
 
 ## BONUS: Make reproducible with Docker
 
@@ -651,6 +655,10 @@ https://rapidapi.com/Createdd/api/excel-to-other-formats
 # Inspiration
 
 
+If this was helpful for you consider showing support:
+<a href="https://www.buymeacoffee.com/createdd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
 ---
 
 # About
@@ -670,5 +678,6 @@ Don't hesitate to get in touch if you have ideas, projects, or problems.
 - [Twitter](https://twitter.com/_createdd)
 - [Instagram](https://www.instagram.com/create.dd/)
 - [createdd.com](https://www.createdd.com/)
+
 
 <!-- Written by Daniel Deutsch -->
