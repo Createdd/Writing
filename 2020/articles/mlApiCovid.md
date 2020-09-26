@@ -3,6 +3,7 @@
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3401&q=80)
 *Photo by Daniel Korpai https://unsplash.com/photos/HyTwtsk8XqA*
 
+After developing and selling a Python API, I now want to expand the idea with a machine learning solution. So I decided to quickly write a covid-19 prediction algorithm, deploy it and make it sellable. I you want to see how I did it, check out the post for a step by step tutorial.
 
 
 # Table of Contents
@@ -41,6 +42,7 @@
 - [Inspiration](#inspiration)
   - [Common issues](#common-issues)
   - [Additional reading](#additional-reading)
+- [Final links](#final-links)
 - [About](#about)
 
 # About this article
@@ -96,7 +98,7 @@ We will use
 - Docker (for possible further usage in microservices)
 - Jupyter Notebook (code development and documentation),
 - Python (programming language),
-- AWS, especiall AWS Lambda and S3(for deployment),
+- AWS, especially AWS Lambda and S3(for deployment),
 - Rapidapi (market to sell)
 
 ---
@@ -157,7 +159,7 @@ chmod +x .git/hooks/pre-commit
 
 ### The goal
 
-As currently the world is in a pandemic I thought I use one of the multiple datasets for covid-19 cases.
+As currently the world is in a pandemic I thought I use one of the multiple datasets for Covid-19 cases.
 Given the structure of the dataset we want to predict the new cases of infections per day for a country.
 
 
@@ -173,6 +175,8 @@ Most important are the libraries
 
 For the following sub headings please check out the jupyter notebook for more details:
 - https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb
+
+![](../assets/mlApiCovid_2020-09-26-16-15-27.png)
 
 
 ### Download data
@@ -790,7 +794,6 @@ Also François Marceau with
 - https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20
 
 
-
 ## Common issues
 
 - https://github.com/Miserlou/Zappa/issues/1927 Package Error: python-dateutil
@@ -807,12 +810,13 @@ Also François Marceau with
 - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html billing alarm
 
 
+# Final links
 
----
+Open source code:
+- https://github.com/Createdd/ml_api_covid
 
-If this was helpful for you consider showing support:
-<a href="https://www.buymeacoffee.com/createdd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
+On Rapidapi:
+- https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 ---
 
@@ -833,6 +837,11 @@ Don't hesitate to get in touch if you have ideas, projects, or problems.
 - [Twitter](https://twitter.com/_createdd)
 - [Instagram](https://www.instagram.com/create.dd/)
 - [createdd.com](https://www.createdd.com/)
+
+If this was helpful for you consider showing support:
+<a href="https://www.buymeacoffee.com/createdd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
 
 
 <!-- Written by Daniel Deutsch -->
