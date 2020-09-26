@@ -36,7 +36,7 @@ After developing and selling a Python API, I now want to expand the idea with a 
       - [Reduce uploading size](#reduce-uploading-size)
       - [Load model to S3 Bucket](#load-model-to-s3-bucket)
       - [Debugging and updates](#debugging-and-updates)
-  - [AWS API Gateway - restrict access](#aws-api-gateway---restrict-access)
+    - [AWS API Gateway - restrict access](#aws-api-gateway---restrict-access)
 - [4. Set up Rapidapi](#4-set-up-rapidapi)
 - [End result](#end-result)
 - [Inspiration](#inspiration)
@@ -65,15 +65,13 @@ As the Table of content shows, it consists of 4 major parts, namely:
 3. Setting up AWS
 4. Setting up Rapidapi
 
-You will find all my code open sourced on Github:
+You will find all my code open on Github:
 
 - https://github.com/Createdd/ml_api_covid
 
 You will find the end result here on Rapidapi:
 
 - https://rapidapi.com/Createdd/api/covid_new_cases_prediction
-
-If you found this article helpful let me know and/or buy the functionality on Rapidapi to show support.
 
 
 # Disclaimer
@@ -123,9 +121,12 @@ git push -u origin master
 
 # 2. Develop a solution for a problem
 
+- [Install packages and track jupyter files properly](#install-packages-and-track-jupyter-files-properly)
+- [Develop solution to problem](#develop-solution-to-problem)
+- [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+- [BONUS: Make reproducible with Docker](#bonus-make-reproducible-with-docker)
+
 As we will develop a Machine Learning solution, a Jupyter Notebook will be very useful.
-
-
 
 
 ## Install packages and track jupyter files properly
@@ -394,6 +395,12 @@ Afterwards you will see your app running on `http://localhost/`
 
 
 # 3. Deploy to AWS
+
+- [Set up zappa](#set-up-zappa)
+- [Set up AWS](#set-up-aws)
+  - [AWS credentials](#aws-credentials)
+  - [Deploy](#deploy)
+  - [AWS API Gateway - restrict access](#aws-api-gateway---restrict-access)
 
 Until now this was a rather easy path. Nothing too complicated, nothing too fancy. Now that we come to deployment it gets interesting and challenging.
 
@@ -748,7 +755,7 @@ If you update your code don't forget to update the deployment as well with
 zappa update dev
 ```
 
-## AWS API Gateway - restrict access
+### AWS API Gateway - restrict access
 
 To set up the API on a market we need to first restrict its usage with an API-key and then set it up on the market platform.
 
