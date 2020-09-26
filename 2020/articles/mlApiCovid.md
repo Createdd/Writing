@@ -179,6 +179,9 @@ For the following sub headings please check out the jupyter notebook for more de
 
 We will use the dataset from https://ourworldindata.org/coronavirus-source-data in csv format.
 
+- License of data is [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- Source code available on [Github](https://github.com/owid/covid-19-data/tree/master/public/data)
+
 ### Preparation
 
 In short I did:
