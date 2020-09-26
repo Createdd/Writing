@@ -1,14 +1,14 @@
-# Develop and sell a Machine Learning API - from start to end tutorial
+# Develop and sell a Machine Learning app - from start to end tutorial
 
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3401&q=80)
 *Photo by Daniel Korpai https://unsplash.com/photos/HyTwtsk8XqA*
 
-After developing and selling a Python API, I now want to expand the idea with a machine learning solution. So I decided to quickly write a covid-19 prediction algorithm, deploy it and make it sellable. I you want to see how I did it, check out the post for a step by step tutorial.
+After developing and selling a Python API, I now want to expand the idea with a machine learning solution. So I decided to quickly write a covid-19 prediction algorithm, deploy it and make it sellable. If you want to see how I did it, check out the post for a step by step tutorial.
 
 
 # Table of Contents
 
-- [Develop and sell a Machine Learning API - from start to end tutorial](#develop-and-sell-a-machine-learning-api---from-start-to-end-tutorial)
+- [Develop and sell a Machine Learning app - from start to end tutorial](#develop-and-sell-a-machine-learning-app---from-start-to-end-tutorial)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [Disclaimer](#disclaimer)
