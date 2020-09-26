@@ -31,12 +31,16 @@
     - [AWS credentials](#aws-credentials)
       - [Set up credentials with users and roles in IAM](#set-up-credentials-with-users-and-roles-in-iam)
       - [Add credentials in your project](#add-credentials-in-your-project)
-    - [Load model to S3 Bucket](#load-model-to-s3-bucket)
     - [Deploy](#deploy)
-  - [AWS API Gateway](#aws-api-gateway)
+      - [Reduce uploading size](#reduce-uploading-size)
+      - [Load model to S3 Bucket](#load-model-to-s3-bucket)
+      - [Debugging and updates](#debugging-and-updates)
+  - [AWS API Gateway - restrict access](#aws-api-gateway---restrict-access)
 - [4. Set up Rapidapi](#4-set-up-rapidapi)
 - [End result](#end-result)
 - [Inspiration](#inspiration)
+  - [Common issues](#common-issues)
+  - [Additional reading](#additional-reading)
 - [About](#about)
 
 # About this article
@@ -442,6 +446,8 @@ Just click through everything and you will have a `zappa_settings.json` like
 }
 ```
 
+NOTA BENE! Do not enter name for s3 bucket as it cannot be found. I really don't know what the problem with naming your s3 bucket is, but it never worked. There very multiple error statements and I could not resolve this. Just leave the suggested one and everything works fine. ;)
+
 Note that we are NOT yet ready to deploy. First, we need to get some AWS credentials.
 
 ## Set up AWS
@@ -571,7 +577,7 @@ I break it down as simple as possible:
 }
 ```
 
-
+As you can see in the policy, I added S3 related policies. This is because we want to download our pre-trained model from S3. More infos on that later.
 
 #### Add credentials in your project
 
@@ -604,9 +610,7 @@ Note that `code` is for opening a folder with vscode, my editor of choice.
 
 Save the AWS access key id and secret access key assigned to the User you created in the file ~/.aws/credentials. Note the .aws/ directory needs to be in your home directory and the credentials file has no file extension.
 
-### Load model to S3 Bucket
 
-As you can see in the policy, I added S3 related policies. This is because we want to download our pre-trained model from S3. During the devlopment process I tried to upload it there programmatically as well but I just uploaded it by hand as it was just faster now. (But you can still try to upload it - I still have a outcommented file in the repo)
 
 
 ### Deploy
@@ -617,15 +621,117 @@ Now you can do deploy your API with
 zappa deploy dev
 ```
 
+However, there are a few things to consider:
+1. Zappa will pack your entire environment and whole root content. This will be quite large.
+2. There is a [upload limit for AWS Lambda](https://docs.amazonaws.cn/en_us/lambda/latest/dg/gettingstarted-limits.html)
 
-There shouldn't be any errors anymore. However, if there are still some, you can debug with:
+#### Reduce uploading size
+
+There are several discussions on how to reduce the upload size with zappa. Check out the Inspiration section for links.
+
+
+First we need to reduce the package size for the upload.
+
+We will put all exploratory content to an own folder. I named it "development". Afterwards you can specify excluded files and folder in zappa_settings.json with exclude:
+
+```json
+{
+    "dev": {
+        ...
+        "slim_handler": true,
+        "exclude": [
+            "*.ipynb", "*.joblib", "jupytext_conversion/", ".ipynb_checkpoints/",
+            "predict_covid.ipynb", "development", "models"
+        ]
+    }
+}
+
+```
+
+You can add everything that doesn't need to be packaged for deployment.
+
+Another issue is the environment dependencies. In our case we have multiple dependencies, which we don't need for deployment.
+To solve this I created a new "requirements_prod.txt" file. This shall only have dependencies which are needed on AWS.
+
+Make sure to export your current packages with
+
+```sh
+pip freeze > requirements.txt
+```
+
+Afterwards uninstall all packages
+
+```sh
+pip uninstall -r requirements.txt -y
+```
+
+Install new packages for deplyoment and save them in the file
+
+```sh
+pip install Flask pandas boto3 sklearn zappa
+```
+
+```sh
+pip freeze > requirements_prod.txt
+```
+
+When you hit `zappa deploy dev` there should be considerably less size to package.
+
+You will note that I also set `slim_handler=true`. This allows us to upload more than 50MB. Behind the scenes zappa already puts content into an own S3 bucket. Read the zappa docs for more info.
+
+
+#### Load model to S3 Bucket
+
+Since we excluded our model from the AWS Lambda upload we need to get the model from somewhere else. We will use a AWS S3 Bucket.
+
+During the development process I tried to upload it there programmatically as well but I just uploaded it by hand as it was just faster now. (But you can still try to upload it - I still have a outcommented file in the repo)
+
+Go to https://console.aws.amazon.com/s3/
+
+
+1. "create bucket"
+2. give name and leave rest as default. check for sufficient permissions.
+3. "create bucket"
+
+
+check if you have a sufficient policy for interacting with the bucket and boto3. You should have something similar to
+
+```sh
+{
+      "Effect": "Allow",
+      "Action": [
+        "s3:CreateBucket",
+        "s3:ListBucket",
+        "s3:ListBucketMultipartUploads",
+        "s3:ListAllMyBuckets",
+        "s3:GetObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::zappa-*",
+        "arn:aws:s3:::*"
+      ]
+    }
+```
+
+
+#### Debugging and updates
+
+Finally, there shouldn't be any errors anymore. However, if there are still some, you can debug with:
 
 ```sh
 zappa status
+
+# and
+
 zappa tail
 ```
 
-The most common errors are permission related (then check your permission policy) or about python libraries that are incompatible. Either way, zappa will provide good enough error messages for debugging.
+The most common errors are permission related (then check your permission policy) or about python libraries that are incompatible. Either way, zappa will provide good enough error messages for debugging. Top list of errors from my experience are:
+1. Policy issues with your user from IAM
+2. Zappa and size issues
+3. Boto3 and permission/location of files issues
+
+
 
 If you update your code don't forget to update the deployment as well with
 
@@ -633,15 +739,32 @@ If you update your code don't forget to update the deployment as well with
 zappa update dev
 ```
 
-## AWS API Gateway
+## AWS API Gateway - restrict access
 
+To set up the API on a market we need to first restrict its usage with an API-key and then set it up on the market platform.
+
+To break it down:
+
+1. go to your AWS Console and go to API gateway
+2. click on your API
+3. we want to create an x-api-key to restrict undesired access to the API and also have a metered usage
+4. create a Usage plan for the API, with the desired throttle and quota limits
+5. create an associated API stage
+6. add an API key
+7. in the API key overview section, click "show" at the API key and copy it
+8. then associate the API with the key and discard all requests that come without the key
+9. go back to the API overview. under resources, click the "/ any" go to the "method request". then in settings, set "API key required" to true
+10. do the same for the "/{proxy+} Methods"
+
+Now you have restricted access to your API.
 
 # 4. Set up Rapidapi
 
 - Add new API
-- Create private plan for testing
 - Test endpoint with rapidapi
 - Create code to consume API
+
+I will not go into detail in this article anymore. Again, check my previous https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966 for setting everything up. There is no big difference to my new machine learning model.
 
 
 # End result
@@ -654,6 +777,29 @@ https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 # Inspiration
 
+My main motivation this time came from [Moez Ali](https://towardsdatascience.com/@moez_62905), who provides great articles on deplying machine learning systems. I also enjoy follow him on his social media. I can heavily recommend his articles:
+- https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99
+- https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507
+
+Also François Marceau with
+- https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20
+
+
+
+## Common issues
+
+- https://github.com/Miserlou/Zappa/issues/1927 Package Error: python-dateutil
+- https://stackabuse.com/file-management-with-aws-s3-python-and-flask/
+- https://ianwhitestone.work/zappa-zip-callbacks/ remove unnecessary files in zappa
+- https://stackoverflow.com/questions/62941174/how-to-write-load-machine-learning-model-to-from-s3-bucket-through-joblib
+
+## Additional reading
+
+- https://www.freecodecamp.org/news/what-we-learned-by-serving-machine-learning-models-using-aws-lambda-c70b303404a1/
+- https://ianwhitestone.work/slides/serverless-meetup-feb-2020.html
+- https://read.iopipe.com/the-right-way-to-do-serverless-in-python-e99535574454
+- https://www.bluematador.com/blog/serverless-in-aws-lambda-vs-fargate aws lambda vs fargate
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html billing alarm
 
 
 
