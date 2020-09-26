@@ -777,7 +777,7 @@ https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 # Inspiration
 
-My main motivation this time came from [Moez Ali](https://towardsdatascience.com/@moez_62905), who provides great articles on deplying machine learning systems. I also enjoy follow him on his social media. I can heavily recommend his articles:
+My main motivation this time came from [Moez Ali](https://towardsdatascience.com/@moez_62905), who provides great articles on deplying machine learning systems. I also enjoy follow him on his social media. I can recommend his articles:
 - https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99
 - https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507
 
