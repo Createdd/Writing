@@ -12,6 +12,7 @@ After developing and selling a Python API, I now want to expand the idea with a 
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [Disclaimer](#disclaimer)
+  - [Regarding the term "tutorial"](#regarding-the-term-tutorial)
 - [Stack used](#stack-used)
 - [1. Create project formalities](#1-create-project-formalities)
 - [2. Develop a solution for a problem](#2-develop-a-solution-for-a-problem)
@@ -86,6 +87,15 @@ There are numerous things to improve and build upon. For example the machine lea
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
+## Regarding the term "tutorial"
+
+I consider this as a step by step tutorial. However, as I am already too long working as a developer, I assume some knowledge of certain tools. This makes the tutorial probably an intermediate/advanced app.
+
+I assume knowledge of:
+- Python
+- Git
+- Jupyter Notebook
+- Terminal/Shell/Unix commands
 
 # Stack used
 
