@@ -3,7 +3,7 @@
 ![https://unsplash.com/photos/LJ9KY8pIH3E](https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3401&q=80)
 *Photo by Daniel Korpai https://unsplash.com/photos/HyTwtsk8XqA*
 
-After developing and selling a Python API, I now want to expand the idea with a machine learning solution. So I decided to quickly write a covid-19 prediction algorithm, deploy it and make it sellable. If you want to see how I did it, check out the post for a step by step tutorial.
+After developing and selling a Python API, I now want to expand the idea with a machine learning solution. So I decided to quickly write a COVID-19 prediction algorithm, deploy it,  and make it sellable. If you want to see how I did it, check out the post for a step by step tutorial.
 
 
 # Table of Contents
@@ -17,12 +17,12 @@ After developing and selling a Python API, I now want to expand the idea with a 
 - [1. Create project formalities](#1-create-project-formalities)
 - [2. Develop a solution for a problem](#2-develop-a-solution-for-a-problem)
   - [Install packages and track jupyter files properly](#install-packages-and-track-jupyter-files-properly)
-  - [Develop solution to problem](#develop-solution-to-problem)
+  - [Develop a solution to a problem](#develop-a-solution-to-a-problem)
     - [The goal](#the-goal)
     - [Download data](#download-data)
     - [Preparation](#preparation)
     - [Create classifier and predict](#create-classifier-and-predict)
-  - [Build server to execute function with REST](#build-server-to-execute-function-with-rest)
+  - [Build a server to execute the function with REST](#build-a-server-to-execute-the-function-with-rest)
     - [Serve basic frontend](#serve-basic-frontend)
     - [Load prediction](#load-prediction)
   - [BONUS: Make reproducible with Docker](#bonus-make-reproducible-with-docker)
@@ -48,12 +48,12 @@ After developing and selling a Python API, I now want to expand the idea with a 
 
 # About this article
 
-In this article I take the ideas from my previous article ["How to sell a Python API from start to end"](https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966) further and build a machine learning application. If the steps described here are to rough consider reading my previous article first.
+In this article, I take the ideas from my previous article ["How to sell a Python API from start to end"](https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966) further and build a machine learning application. If the steps described here are too rough consider reading my previous article first.
 
 There are a number of new and more complicated issues to cover in this project:
 1. Machine Learning content. The application takes basic steps of building a Machine Learning model. This covers the preparation, but also the prediction.
 2. In time evaluation (not in time training) of the prediction. This means that the dataset is freshly fetched and the prediction is performed on the latest data.
-3. Deployment. Deploying a Machine Learning app has various challenges. In this article we met and solved the issue of outsourcing the trained model on AWS.
+3. Deployment. Deploying a Machine Learning app has various challenges. In this article, we met and solved the issue of outsourcing the trained model on AWS.
 4. It is not only an API but also has a minor frontend.
 
 It paints a picture for developing a Python API from start to finish and provides help in more difficult areas like the setup with AWS Lambda.
@@ -83,7 +83,7 @@ I do not consider myself an expert. If you have the feeling that I am missing im
 
 I am always happy for constructive input and how to improve.
 
-There are numerous things to improve and build upon. For example the machine learning part has very low effort. The preparation was very rough and many steps are missing. From my professional work I am aware of this fact. However, I cannot cover every detail in one article. Nevertheless I am curious to hear your suggestions on improvement in the comments. :)
+There are numerous things to improve and build upon. For example, the machine learning part has a very low effort. The preparation was very rough and many steps are missing. From my professional work, I am aware of this fact. However, I cannot cover every detail in one article. Nevertheless, I am curious to hear your suggestions on improvement in the comments. :)
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
@@ -161,17 +161,17 @@ copy this in the file
 jupytext --from ipynb --to py:light --pre-commit
 ```
 
-afterwards for making the hook executable (on mac)
+afterward for making the hook executable (on mac)
 ```sh
 chmod +x .git/hooks/pre-commit
 ```
 
-## Develop solution to problem
+## Develop a solution to a problem
 
 ### The goal
 
-As currently the world is in a pandemic I thought I use one of the multiple datasets for Covid-19 cases.
-Given the structure of the dataset we want to predict the new cases of infections per day for a country.
+As currently, the world is in a pandemic I thought I use one of the multiple datasets for COVID-19 cases.
+Given the structure of the dataset, we want to predict the new cases of infections per day for a country.
 
 
 ```py
@@ -184,7 +184,7 @@ Most important are the libraries
 - **pandas** for transforming the dataset and
 -  **sklearn** for machine learning
 
-For the following sub headings please check out the jupyter notebook for more details:
+For the following subheadings please check out the Jupyter notebook for more details:
 - https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb
 
 ![](../assets/mlApiCovid_2020-09-26-16-15-27.png)
@@ -195,16 +195,16 @@ For the following sub headings please check out the jupyter notebook for more de
 We will use the dataset from https://ourworldindata.org/coronavirus-source-data in csv format.
 
 - License of data is [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-- Source code available on [Github](https://github.com/owid/covid-19-data/tree/master/public/data)
+- Source code available on [Github](https://github.com/owid/COVID-19-data/tree/master/public/data)
 
 ### Preparation
 
-In short I did:
+In short, I did:
 1. Check for missing data
 2. Remove columns with more than 50% missing data
 3. Remove rows with remaining missing content like continent or isocode. (Not useful for my app solution which requires a country)
 4. Encode categorical data with labels
-5. Fill in remaining numerical missing data with the mean of the column
+5. Fill in the remaining numerical missing data with the mean of the column
 6. Split into training and test set
 
 ### Create classifier and predict
@@ -216,9 +216,9 @@ In short I did:
 5. Predict the new cases by providing a country name
 
 
-## Build server to execute function with REST
+## Build a server to execute the function with REST
 
-For the API functionality we will use a Flask server (in `app.py`)
+For the API functionality, we will use a Flask server (in `app.py`)
 - https://github.com/Createdd/ml_api_covid/blob/master/app.py
 
 ### Serve basic frontend
@@ -236,7 +236,7 @@ Which serves a basic html and css file.
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Predict Covid</title>
+  <title>Predict COVID</title>
 
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
 
@@ -331,9 +331,9 @@ def get_prediction_params(input_val, url_to_covid):
 Those processes make the prediction true for the latest data, but also slows down the app.
 
 You might wonder why we do `rf = load_model(BUCKET_NAME, MODEL_FILE_NAME, MODEL_LOCAL_PATH)`.
-The reason for this is that we need to load the pre-trained model from a AWS S3 bucket to save memory when executing everything with AWS Lambda. Scroll down for more details.
+The reason for this is that we need to load the pre-trained model from an AWS S3 bucket to save memory when executing everything with AWS Lambda. Scroll down for more details.
 
-But if we do not want to deploy it in the cloud we can simply do something like `joblib.load(PATH_TO_YOUR_EXPORTED_MODEL)`. In the [notebook](https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb) we export the the model with `joblib.dump`.
+But if we do not want to deploy it in the cloud we can simply do something like `joblib.load(PATH_TO_YOUR_EXPORTED_MODEL)`. In the [notebook](https://github.com/Createdd/ml_api_covid/blob/master/development/predict_covid.ipynb), we export the model with `joblib.dump`.
 More info on model exports in the [sklearn docs](https://scikit-learn.org/stable/modules/model_persistence.html)
 
 But that is the mere functionality of the FLAK server. Providing a route for serving the html template and a route for prediction. Quite simple!
@@ -350,7 +350,7 @@ will start the server.
 
 ## BONUS: Make reproducible with Docker
 
-Maybe you want to scale the app or allow other people to test it more easily. For this we can create a Docker container. I will not explain in detail how it works but if you are interested check one of the links in my "Inspiration" section.
+Maybe you want to scale the app or allow other people to test it more easily. For this, we can create a Docker container. I will not explain in detail how it works but if you are interested check one of the links in my "Inspiration" section.
 
 Building a Docker container is not necessary for making this application work!
 
@@ -395,13 +395,13 @@ After creating the `Dockerfile` run
 ```sh
 docker build -t YOUR_APP_NAME .
 ```
-and afterwards
+and afterward
 
 ```sh
 docker run -d -p 80:8080 YOUR_APP_NAME
 ```
 
-Afterwards you will see your app running on `http://localhost/`
+Afterward, you will see your app running on `http://localhost/`
 
 
 # 3. Deploy to AWS
@@ -461,7 +461,7 @@ Just click through everything and you will have a `zappa_settings.json` like
         "app_function": "app.app",
         "aws_region": "eu-central-1",
         "profile_name": "default",
-        "project_name": "ml-api-covid",
+        "project_name": "ml-api-COVID",
         "runtime": "python3.7",
         "s3_bucket": "zappa-eyy4wkd2l",
         "slim_handler": true,
@@ -472,7 +472,7 @@ Just click through everything and you will have a `zappa_settings.json` like
 }
 ```
 
-NOTA BENE! Do not enter name for s3 bucket as it cannot be found. I really don't know what the problem with naming your s3 bucket is, but it never worked. There very multiple error statements and I could not resolve this. Just leave the suggested one and everything works fine. ;)
+NOTA BENE! Do not enter a name for the s3 bucket as it cannot be found. I really don't know what the problem with naming your s3 bucket is, but it never worked. There were multiple error statements and I could not resolve this. Just leave the suggested one and everything works fine. ;)
 
 Note that we are NOT yet ready to deploy. First, we need to get some AWS credentials.
 
@@ -649,7 +649,7 @@ zappa deploy dev
 
 However, there are a few things to consider:
 1. Zappa will pack your entire environment and whole root content. This will be quite large.
-2. There is a [upload limit for AWS Lambda](https://docs.amazonaws.cn/en_us/lambda/latest/dg/gettingstarted-limits.html)
+2. There is an [upload limit for AWS Lambda](https://docs.amazonaws.cn/en_us/lambda/latest/dg/gettingstarted-limits.html)
 
 #### Reduce uploading size
 
@@ -658,7 +658,7 @@ There are several discussions on how to reduce the upload size with zappa. Check
 
 First we need to reduce the package size for the upload.
 
-We will put all exploratory content to an own folder. I named it "development". Afterwards you can specify excluded files and folder in zappa_settings.json with exclude:
+We will put all exploratory content into an own folder. I named it "development". Afterwards, you can specify excluded files and folder in zappa_settings.json with exclude:
 
 ```json
 {
@@ -676,7 +676,7 @@ We will put all exploratory content to an own folder. I named it "development". 
 
 You can add everything that doesn't need to be packaged for deployment.
 
-Another issue is the environment dependencies. In our case we have multiple dependencies, which we don't need for deployment.
+Another issue is the environment dependencies. In our case, we have multiple dependencies, which we don't need for deployment.
 To solve this I created a new "requirements_prod.txt" file. This shall only have dependencies which are needed on AWS.
 
 Make sure to export your current packages with
@@ -685,13 +685,13 @@ Make sure to export your current packages with
 pip freeze > requirements.txt
 ```
 
-Afterwards uninstall all packages
+Afterwards, uninstall all packages
 
 ```sh
 pip uninstall -r requirements.txt -y
 ```
 
-Install new packages for deplyoment and save them in the file
+Install new packages for deployment and save them in the file
 
 ```sh
 pip install Flask pandas boto3 sklearn zappa
@@ -703,14 +703,14 @@ pip freeze > requirements_prod.txt
 
 When you hit `zappa deploy dev` there should be considerably less size to package.
 
-You will note that I also set `slim_handler=true`. This allows us to upload more than 50MB. Behind the scenes zappa already puts content into an own S3 bucket. Read the zappa docs for more info.
+You will note that I also set `slim_handler=true`. This allows us to upload more than 50MB. Behind the scenes, zappa already puts content into an own S3 bucket. Read the zappa docs for more info.
 
 
 #### Load model to S3 Bucket
 
 Since we excluded our model from the AWS Lambda upload we need to get the model from somewhere else. We will use a AWS S3 Bucket.
 
-During the development process I tried to upload it there programmatically as well but I just uploaded it by hand as it was just faster now. (But you can still try to upload it - I still have a outcommented file in the repo)
+During the development process, I tried to upload it there programmatically as well but I just uploaded it by hand as it was just faster now. (But you can still try to upload it - I still have an outcommented file in the repo)
 
 Go to https://console.aws.amazon.com/s3/
 
@@ -790,7 +790,7 @@ Now you have restricted access to your API.
 - Test endpoint with rapidapi
 - Create code to consume API
 
-I will not go into detail in this article anymore. Again, check my previous https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966 for setting everything up. There is no big difference to my new machine learning model.
+I will not go into detail in this article anymore. Again, check my previous https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966 for setting everything up. There is no big difference in my new machine learning model.
 
 
 # End result
@@ -803,7 +803,7 @@ https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 # Inspiration
 
-My main motivation this time came from [Moez Ali](https://towardsdatascience.com/@moez_62905), who provides great articles on deplying machine learning systems. I also enjoy follow him on his social media. I can recommend his articles:
+My main motivation this time came from [Moez Ali](https://towardsdatascience.com/@moez_62905), who provides great articles on deploying machine learning systems. I also enjoy following him on social media. I can recommend his articles:
 - https://towardsdatascience.com/build-and-deploy-your-first-machine-learning-web-app-e020db344a99
 - https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507
 
