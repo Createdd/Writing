@@ -82,7 +82,9 @@ I do not consider myself an expert. If you have the feeling that I am missing im
 
 I am always happy for constructive input and how to improve.
 
-There are numerous things to improve and build upon. For example the machine learning part has very low effort. The preparation was very rough and many steps are missing. From my professional work I know this. However, I cannot cover every detail in one article. Nevertheless, I am curious to hear your suggestions on improvement in the comments. :)
+There are numerous things to improve and build upon. For example the machine learning part has very low effort. The preparation was very rough and many steps are missing. From my professional work I am aware of this fact. However, I cannot cover every detail in one article. Nevertheless I am curious to hear your suggestions on improvement in the comments. :)
+
+If you need more information on certain parts, feel free to point it out in the comments.
 
 
 # Stack used
