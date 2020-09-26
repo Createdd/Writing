@@ -646,14 +646,18 @@ zappa update dev
 
 # End result
 
-![](../assets/pythonApi_2020-09-04-09-40-49.png)
+![](../assets/mlApiCovid_2020-09-26-10-21-08.png)
 
-https://rapidapi.com/Createdd/api/excel-to-other-formats
+https://rapidapi.com/Createdd/api/covid_new_cases_prediction
 
 
 
 # Inspiration
 
+
+
+
+---
 
 If this was helpful for you consider showing support:
 <a href="https://www.buymeacoffee.com/createdd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
