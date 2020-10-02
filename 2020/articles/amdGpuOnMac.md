@@ -1,30 +1,11 @@
-# Use AMD for your Mac to accelerate Deeplearning
+# Use an AMD GPU for your Mac to accelerate Deeplearning
 
 ![](https://images.unsplash.com/photo-1591405351990-4726e331f141?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 *Photo https://unsplash.com/photos/aVeKubCF-48*
 
-Every machine learning engineer these days will come to the point where he wants to use a GPU to improve his deeplearning calculations.
+Every machine learning engineer these days will come to the point where he wants to use a GPU to speed up his deeplearning calculations. I happen to got an AMD Radeon from a friend. Unfortunately I saw that there is a big difference between AMD and Nvidia GPUs, whereas only the later is supported greatly in deeplearning libraries like Tensorflow. I came across some articles and made my mac+amd gpu setup work anyways. :rocket:
 
-
-
-## Table of Contents
-- [Use AMD for your Mac to accelerate Deeplearning](#use-amd-for-your-mac-to-accelerate-deeplearning)
-  - [Table of Contents](#table-of-contents)
-  - [Disclaimer](#disclaimer)
-  - [The problem - the answer](#the-problem---the-answer)
-  - [Pre-requisits](#pre-requisits)
-  - [My setup](#my-setup)
-    - [MacOS Catalina](#macos-catalina)
-    - [External GPU](#external-gpu)
-    - [Library versions](#library-versions)
-  - [Connect external GPU to Mac](#connect-external-gpu-to-mac)
-    - [Install packages](#install-packages)
-    - [plaidml-setup](#plaidml-setup)
-    - [plaidbench keras mobilenet](#plaidbench-keras-mobilenet)
-  - [Actual implementation](#actual-implementation)
-    - [Add deep learning code](#add-deep-learning-code)
-  - [Additional reading and common problems](#additional-reading-and-common-problems)
-  - [About](#about)
+This can be seen as a comprehension of other articles (see "additional reading") and some additional solutions from my side during implementation.
 
 ## Disclaimer
 
@@ -39,6 +20,26 @@ I am always happy for constructive input and how to improve.
 I cannot monitor all my articles. There is a high probability that, when you read this article the tipps are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
+
+
+## Table of Contents
+- [Use an AMD GPU for your Mac to accelerate Deeplearning](#use-an-amd-gpu-for-your-mac-to-accelerate-deeplearning)
+  - [Disclaimer](#disclaimer)
+  - [Table of Contents](#table-of-contents)
+  - [The problem - the answer](#the-problem---the-answer)
+  - [Pre-requisits](#pre-requisits)
+  - [My setup](#my-setup)
+    - [MacOS Catalina](#macos-catalina)
+    - [External GPU](#external-gpu)
+    - [Library versions](#library-versions)
+  - [Connect external GPU to Mac](#connect-external-gpu-to-mac)
+    - [Install packages](#install-packages)
+    - [plaidml-setup](#plaidml-setup)
+    - [plaidbench keras mobilenet](#plaidbench-keras-mobilenet)
+  - [Actual implementation](#actual-implementation)
+    - [Add deep learning code](#add-deep-learning-code)
+  - [Additional reading and common problems](#additional-reading-and-common-problems)
+  - [About](#about)
 
 
 ## The problem - the answer
@@ -57,7 +58,7 @@ The answer for this problem is PlaidML, a python library and tensor complier tha
 
 *Source https://github.com/plaidml/plaidml*
 
-As of time of writing, the following Hardware and networkds are validated:
+As of time of writing, the following Hardware and networks are validated:
 ![](../assets/amdGpuOnMac_2020-10-02-11-12-44.png)
 *Source official docs https://github.com/plaidml/plaidml/tree/plaidml-v1*
 
@@ -156,6 +157,8 @@ plaidbench keras mobilenet
 
 ![](../assets/amdGpuOnMac_2020-09-30-19-04-11.png)
 
+This shows that the GPU setup should work. Now lets get into an actual implementation.
+
 ## Actual implementation
 
 For making it work you need to add this to the notebook/file:
@@ -193,7 +196,6 @@ For example the [neural style transfer](https://github.com/keras-team/keras/blob
 Running it on the base image from my header (credits to [Nana Dua](https://unsplash.com/photos/aVeKubCF-48)) and adding some special flavor, leads to:
 
 ![](https://recordit.co/FrYjH2I1nK.gif)
-
 
 
 ## Additional reading and common problems
