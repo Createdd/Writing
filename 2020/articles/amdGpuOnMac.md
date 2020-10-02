@@ -22,7 +22,8 @@ Every machine learning engineer these days will come to the point where he wants
     - [plaidml-setup](#plaidml-setup)
     - [plaidbench keras mobilenet](#plaidbench-keras-mobilenet)
   - [Actual implementation](#actual-implementation)
-  - [Additional reading](#additional-reading)
+    - [Add deep learning code](#add-deep-learning-code)
+  - [Additional reading and common problems](#additional-reading-and-common-problems)
   - [About](#about)
 
 ## Disclaimer
@@ -157,9 +158,45 @@ plaidbench keras mobilenet
 
 ## Actual implementation
 
+For making it work you need to add this to the notebook/file:
+
+```py
+import plaidml.keras
+import os
+plaidml.keras.install_backend()
+os.environ["KERAS_BACKEND"] = "plaidml.keras.backend"
+```
+
+There are other suggestions on how to add the backend. However, it worked for me only in this order. First installing the backend, then setting the environment. (For other suggestions see "additional reading")
+
+Afterward, doing
+
+```py
+from keras import backend as K
+K
+```
+
+should give you something like:
+
+```sh
+<module 'plaidml.keras.backend' from '/Users/XXXX/opt/anaconda3/envs/XXX/lib/python3.7/site-packages/plaidml/keras/backend.py'>
+```
+
+If you are not sure if the GPU is really used there are several commands available like `K._get_available_gpus()`. But they didn't work for me. If you are getting the backend message like the one above it should work. You will see during calculation anyways if your GPU is running or your Mac ;)
+
+### Add deep learning code
+
+To test it you can use basic Keras example code from their docs: https://github.com/keras-team/keras/tree/master/examples
+
+For example the [neural style transfer](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py).
+
+Running it on the base image from my header (credits to [Nana Dua](https://unsplash.com/photos/aVeKubCF-48)) and adding some special flavor, leads to:
+
+![](https://recordit.co/FrYjH2I1nK.gif)
 
 
-## Additional reading
+
+## Additional reading and common problems
 
 - [Use an external graphics processor with your Mac](https://support.apple.com/en-ug/HT208544)
 - [GPU Acceleration on AMD with PlaidML for training and using Keras models](https://medium.com/@bamouh42/gpu-acceleration-on-amd-with-plaidml-for-training-and-using-keras-models-57a9fce883b9)
