@@ -193,12 +193,11 @@ To test it you can use basic Keras example code from their docs: https://github.
 
 For example the [neural style transfer](https://github.com/keras-team/keras/blob/master/examples/neural_style_transfer.py).
 
-Running it on the base image from my header (credits to [Nana Dua](https://unsplash.com/photos/aVeKubCF-48)) and adding some special flavor, leads to:
+Running it on the base image from my header (credits to [Nana Dua](https://unsplash.com/photos/aVeKubCF-48)) and adding some special flavor (credits to [Arno Senoner](https://unsplash.com/photos/vcgamdrOup8)), leads to:
 
 ![](https://images.unsplash.com/photo-1591405351990-4726e331f141?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 
 ![](https://images.unsplash.com/photo-1575671097110-a297c651e56d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
-*Source https://unsplash.com/photos/vcgamdrOup8*
 
 ![](../assets/amdGpuOnMac_2020-10-02-19-28-56.png)
 
