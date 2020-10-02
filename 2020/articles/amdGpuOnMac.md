@@ -3,9 +3,9 @@
 ![](https://images.unsplash.com/photo-1591405351990-4726e331f141?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 *Photo https://unsplash.com/photos/aVeKubCF-48*
 
-Every machine learning engineer these days will come to the point where he wants to use a GPU to speed up his deeplearning calculations. I happen to got an AMD Radeon from a friend. Unfortunately I saw that there is a big difference between AMD and Nvidia GPUs, whereas only the later is supported greatly in deeplearning libraries like Tensorflow. I came across some articles and made my mac+amd gpu setup work anyways. :rocket:
+Every machine learning engineer these days will come to the point where he wants to use a GPU to speed up his deeplearning calculations. I happen to get an AMD Radeon from a friend. Unfortunately, I saw that there is a big difference between AMD and Nvidia GPUs, whereas only the later is supported greatly in deeplearning libraries like Tensorflow. I came across some articles and made my mac+amd gpu setup work anyways. :rocket:
 
-This can be seen as a comprehension of other articles (see "additional reading") and some additional solutions from my side during implementation.
+This can be seen as comprehension of other articles (see "additional reading") and some additional solutions from my side during implementation.
 
 ## Disclaimer
 
@@ -17,7 +17,7 @@ I am always happy for constructive input and how to improve.
 
 
 **This article was written on 02-10-2020**
-I cannot monitor all my articles. There is a high probability that, when you read this article the tipps are outdated and the processes have changed.
+I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
@@ -27,7 +27,7 @@ If you need more information on certain parts, feel free to point it out in the 
   - [Disclaimer](#disclaimer)
   - [Table of Contents](#table-of-contents)
   - [The problem - the answer](#the-problem---the-answer)
-  - [Pre-requisits](#pre-requisits)
+  - [Prerequisites](#prerequisites)
   - [My setup](#my-setup)
     - [MacOS Catalina](#macos-catalina)
     - [External GPU](#external-gpu)
@@ -44,9 +44,9 @@ If you need more information on certain parts, feel free to point it out in the 
 
 ## The problem - the answer
 
-Tensorflow, which is used at the core for Keras calculations, supports local GPU acceleration using Nvidia graphic cards via CUDA. Unfortunately there is nothing like this for AMD yet.
+Tensorflow, which is used at the core for Keras calculations, supports local GPU acceleration using Nvidia graphic cards via CUDA. Unfortunately, there is nothing like this for AMD yet.
 
-The answer for this problem is PlaidML, a python library and tensor complier that allows to speed up vector calculations.
+The answer to this problem is PlaidML, a python library and tensor compiler that allows us to speed up vector calculations.
 
 > PlaidML is an advanced and portable tensor compiler for enabling deep learning on laptops, embedded devices, or other devices where the available computing hardware is not well supported or the available software stack contains unpalatable license restrictions.
 
@@ -58,14 +58,14 @@ The answer for this problem is PlaidML, a python library and tensor complier tha
 
 *Source https://github.com/plaidml/plaidml*
 
-As of time of writing, the following Hardware and networks are validated:
+As of the time of writing, the following Hardware and networks are validated:
 ![](../assets/amdGpuOnMac_2020-10-02-11-12-44.png)
 *Source official docs https://github.com/plaidml/plaidml/tree/plaidml-v1*
 
 
 As PlaidML helps with tensor calculations on Keras models, it will not speed up independent tensor calculations using Numpy for example. This can be done using [OpenCL](https://www.khronos.org/opencl/),  which will not be covered in this article. Check out the "additional reading" section for more.
 
-## Pre-requisits
+## Prerequisites
 
 If you want to follow along, you should have
 - a Mac OS
@@ -157,7 +157,7 @@ plaidbench keras mobilenet
 
 ![](../assets/amdGpuOnMac_2020-09-30-19-04-11.png)
 
-This shows that the GPU setup should work. Now lets get into an actual implementation.
+This shows that the GPU setup should work. Now let's get into actual implementation.
 
 ## Actual implementation
 
@@ -195,7 +195,14 @@ For example the [neural style transfer](https://github.com/keras-team/keras/blob
 
 Running it on the base image from my header (credits to [Nana Dua](https://unsplash.com/photos/aVeKubCF-48)) and adding some special flavor, leads to:
 
-![](https://recordit.co/FrYjH2I1nK.gif)
+![](https://images.unsplash.com/photo-1591405351990-4726e331f141?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
+
+![](https://images.unsplash.com/photo-1575671097110-a297c651e56d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
+*Source https://unsplash.com/photos/vcgamdrOup8*
+
+![](../assets/amdGpuOnMac_2020-10-02-19-28-56.png)
+
+![](../assets/amdGpuOnMac_2020-10-02-19-29-34.png)
 
 
 ## Additional reading and common problems
@@ -211,7 +218,7 @@ Running it on the base image from my header (credits to [Nana Dua](https://unspl
 
 ## About
 
-Daniel is an entrepreneur, software developer and lawyer. He has worked at various IT companies, tax advisory, management consulting and at the Austrian court.
+Daniel is an entrepreneur, software developer, and lawyer. He has worked at various IT companies, tax advisory, management consulting, and at the Austrian court.
 
 His knowledge and interests currently revolve around programming machine learning applications and all its related aspects. To the core, he considers himself a problem solver of complex environments, which is reflected in his various projects.
 
