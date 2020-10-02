@@ -218,6 +218,7 @@ His knowledge and interests currently revolve around programming machine learnin
 Don't hesitate to get in touch if you have ideas, projects, or problems.
 
 ![You can support me on https://www.buymeacoffee.com/createdd](/2020/assets/template_2020-09-25-22-32-52.png)
+
 You can support me on https://www.buymeacoffee.com/createdd
 
 ![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
