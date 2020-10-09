@@ -2,7 +2,9 @@
 
 ![]()
 
-Today I want to talk about CNNs used in Neural Style Transfer. There are great tutorials available online. (See my Inspiration Section) However, I struggle sometimes with grasping the main concepts. The reason for that is that there are always different implementation details. This article will firstly give an overview and dive deeper afterwards.
+Today I want to talk about CNNs used in Neural Style Transfer. There are great tutorials available online. However, I struggle sometimes with grasping the main concepts. The reason for that is that there are always different implementation details.
+
+This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners. (And sparking curiosity for the original research paper and subsequent implementations)
 
 ## Table of Contents
 
@@ -10,6 +12,7 @@ Today I want to talk about CNNs used in Neural Style Transfer. There are great t
   - [Table of Contents](#table-of-contents)
 - [Disclaimer](#disclaimer)
   - [Neural Style Transfer](#neural-style-transfer)
+  - [Overview on how it works](#overview-on-how-it-works)
   - [Starting point for implementation](#starting-point-for-implementation)
   - [Inspriation](#inspriation)
   - [About](#about)
@@ -36,6 +39,17 @@ Research paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508
 
 > The system uses neural representations to separate and recombine content and style of arbitrary images, providing a neural algorithm for the creation of artistic images. Moreover, in light of the striking similarities between performance-optimised artificial neural networks and biological vision, our work offers a path forward to an algorithmic understanding of how humans create and perceive artistic imagery.
 
+## Overview on how it works
+
+There are many good visualizations on how the cnn works with neural style transfer.
+I wanted to draw it myself, but then I realised that there are already very nice ones available. So I will just show those and reference the creators for credit.
+
+The following I consider to be fantastic:
+
+
+![](../assets/understandingCNN_2020-10-09-22-29-08.png)
+
+from his [blog](https://www.mikegao.net/graphics/summary/neural_style.html) und the [creative commons licnece](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
 
@@ -55,6 +69,8 @@ Gist: https://gist.github.com/Createdd/2fa6fa0770135a34a8f1f022007dda69
 
 Absolutely great work by Thushan Ganegedara in his article: https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
 
+- https://www.mikegao.net/graphics/summary/neural_style.html by [Mike Gao](https://www.mikegao.net/)
+- https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398 original tutorial from tensorflow
 
 
 ---
