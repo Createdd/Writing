@@ -13,6 +13,9 @@ This article can be considered as an overview and comprehension of other article
 - [Disclaimer](#disclaimer)
   - [Neural Style Transfer](#neural-style-transfer)
   - [Overview on how it works](#overview-on-how-it-works)
+  - [Loss calculation](#loss-calculation)
+    - [Content cost](#content-cost)
+    - [Style cost](#style-cost)
   - [Starting point for implementation](#starting-point-for-implementation)
   - [Inspriation](#inspriation)
   - [About](#about)
@@ -44,13 +47,86 @@ Research paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508
 There are many good visualizations on how the cnn works with neural style transfer.
 I wanted to draw it myself, but then I realised that there are already very nice ones available. So I will just show those and reference the creators for credit.
 
-The following I consider to be fantastic:
+The following I consider to be fantastic.
 
+
+First this one. It shows very beautifully how the loss is calculated, and how it fits together in the overall result.
 
 ![](../assets/understandingCNN_2020-10-09-22-29-08.png)
 
 from his [blog](https://www.mikegao.net/graphics/summary/neural_style.html) und the [creative commons licnece](https://creativecommons.org/licenses/by-nc/4.0/)
 
+This one is also good. Showing the reconstructions development over the different layers.
+
+![](../assets/understandingCNN_2020-10-10-10-10-17.png)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+
+
+It is necessary to say what the different layers of a CNN represent in order to understand the subsquent calculations.
+
+- The shallower layers of a CNN tend to detect lower-level features such as edges and simple textures.
+- The deeper layers tend to detect higher-level features such as more complex textures as well as object classes.
+
+As the generated image shall have similar content as the input image. It is advisable to use a layer in the middle, representing content to a high degree.
+
+Another important concept is that a pre-trained network is used. Most often VGG-19.
+
+## Loss calculation
+
+As we can see the central element for this process is the loss calculation. There are 3 costs that need to be caluclated:
+
+1. Content cost
+2. Style cost
+3. Total variation cost
+
+This is in my understing the hardest part to understand when starting. So lets dive into it one by one.
+
+### Content cost
+
+What is content cost?
+
+When we visualize a CNN, feature maps in higher layers are activated in the presence of different objects. So if two images to have the same content, they should have similar activations in the higher layers.
+
+That is the premise for defining the cost function.
+
+The formula represents that as:
+
+![](../assets/understandingCNN_2020-10-10-10-16-57.png)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+
+> where F is the activation of the i th filter at position j in layer l.
+> So let ~p and ~x be the original image and the image that is generated and P l and F l their respective feature representation in layer l.
+
+it is in fact just the root mean squared error between the feature representation of the generated image and the content image.
+
+
+The question is how we get the feature representation?
+
+![](../assets/understandingCNN_2020-10-10-10-38-35.png)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+
+> This is done by minimising the mean-squared distance between the entries of the Gram matrix from the original image and the Gram matrix of the image to be generated
+
+> Gl ij is the inner product between the vectorised feature map i and j in layer l:
+> So let ~a and ~x be the original image and the image that is generated and Al and Gl their respective style representations in layer l.
+> A layer with Nl distinct filters has Nl feature maps each of size Ml , where Ml is the height times the width of the feature map
+
+The following image helps to understand how N and M are calculated.
+
+![](../assets/understandingCNN_2020-10-10-10-24-54.png)
+from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
+
+So why is it divided by 4?
+
+
+### Style cost
+
+What is meant by style? In this context it is measured as the amount of correlation present between feature maps in a layer. The cost again is the difference between those correlation matrices.
+
+The novel idea here is how the correlation is captuered. This is done via the gram matrix.
+
+![](../assets/understandingCNN_2020-10-10-11-34-54.png)
+from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
 
 
 ## Starting point for implementation
