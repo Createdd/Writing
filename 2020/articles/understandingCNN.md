@@ -189,6 +189,8 @@ The interesting approach is how the correlation is captuered. This is done via t
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
 
 
+
+
 ## Starting point for implementation
 
 We will start with the tutorial from [Keras](https://keras.io/examples/generative/neural_style_transfer/).
@@ -212,6 +214,14 @@ Absolutely great work by Thushan Ganegedara in his article: https://towardsdatas
 - https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
 - https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
 - https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
+- https://github.com/aleju/papers/blob/master/neural-nets/A_Neural_Algorithm_for_Artistic_Style.md summary of publication paper
+
+
+Implementations with code:
+
+- https://towardsdatascience.com/neural-style-transfer-4d7c8138e7f6
+
+
 
 
 ---
