@@ -13,6 +13,9 @@ This article can be considered as an overview and comprehension of other article
 - [Disclaimer](#disclaimer)
   - [Neural Style Transfer](#neural-style-transfer)
   - [Overview on how it works](#overview-on-how-it-works)
+  - [Transfer learning and style transfer](#transfer-learning-and-style-transfer)
+    - [1. Transfer learning](#1-transfer-learning)
+    - [2. Style Transfer](#2-style-transfer)
   - [Loss calculation](#loss-calculation)
     - [Content cost](#content-cost)
     - [Style cost](#style-cost)
@@ -69,7 +72,39 @@ It is necessary to say what the different layers of a CNN represent in order to 
 
 As the generated image shall have similar content as the input image. It is advisable to use a layer in the middle, representing content to a high degree.
 
-Another important concept is that a pre-trained network is used. Most often VGG-19.
+## Transfer learning and style transfer
+
+Another important concept is that a pre-trained network is used. Most often VGG-19. It is noteworthy that we make use of so called "transfer learning".
+
+We have 2 concepts here to distinguish:
+1. Transfer learning
+2. Style transfer
+
+Though, both use the word "transfer" they are quite different from an implementation standpoint.
+
+### 1. Transfer learning
+
+The concept itself is extremely interesting and potent to create new solutions by the use of established models.
+
+I do not want to expand on this concept in this article. For a fantastic introduction I can recommend this article: https://machinelearningmastery.com/transfer-learning-for-deep-learning/. However, it is crucial to understand how it is used in the concept of style transfer.
+
+In short we can say
+> Transfer learning and domain adaptation refer to the situation where what has been learned in one setting … is exploited to improve generalization in another setting
+
+This is especially useful in computer vision, as the computation and training of those models are quite resource hungry. Using a model that has been trained on a huge dataset, where the result is now freely available is actually very nice for inidvidual experimentation.
+
+You can use transfer learning as:
+1. direct use of a pre-trained model
+2. feature extraction of pre-trained models
+3. changing weights of the last layer of a pre-trained model
+
+
+
+### 2. Style Transfer
+
+From the original paper:
+> Conceptually most closely related are methods using texture transfer to achieve artistic style transfer.
+
 
 ## Loss calculation
 
@@ -147,6 +182,9 @@ Absolutely great work by Thushan Ganegedara in his article: https://towardsdatas
 
 - https://www.mikegao.net/graphics/summary/neural_style.html by [Mike Gao](https://www.mikegao.net/)
 - https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398 original tutorial from tensorflow
+- https://machinelearningmastery.com/transfer-learning-for-deep-learning/
+- https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/
+- https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
 
 
 ---
