@@ -11,6 +11,7 @@ This article can be considered as an overview and comprehension of other article
 - [Understanding Neural Style Transfer with CNNs better](#understanding-neural-style-transfer-with-cnns-better)
   - [Table of Contents](#table-of-contents)
 - [Disclaimer](#disclaimer)
+  - [Requirements](#requirements)
   - [Neural Style Transfer](#neural-style-transfer)
   - [Overview on how it works](#overview-on-how-it-works)
   - [Transfer learning and style transfer](#transfer-learning-and-style-transfer)
@@ -36,6 +37,10 @@ This was written on XXXXXXXDATEXXXXXXXXXX.
 I cannot monitor all my articles. There is a high probability that, when you read this article the tipps are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
+
+## Requirements
+
+Even though I want to explain everything from the ground, I assume understanding of **convolutional neural networks (CNNs)**. The principle concept is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4)
 
 ## Neural Style Transfer
 
@@ -98,12 +103,22 @@ You can use transfer learning as:
 2. feature extraction of pre-trained models
 3. changing weights of the last layer of a pre-trained model
 
+In our case we will use the second approach. Using feature extraction, where, the output of the model from a layer prior to the output layer is used as input for a new classifier.
+
 
 
 ### 2. Style Transfer
 
 From the original paper:
-> Conceptually most closely related are methods using texture transfer to achieve artistic style transfer.
+
+> Conceptually most closely related are methods using texture transfer to achieve artistic style transfer. However, these previous approaches mainly rely on non-parametric techniques to directly manipulate the pixel representation of an image. In contrast, by using Deep Neural Networks trained on object recognition, we carry out manipulations in feature spaces that explicitly represent the high level content of an image.
+
+So this means that the spcialty of the deep learning approach is to extract the style of an image not with mere pixel observation of the style picture, but rather the extracted features of the pre-trained model combined with the content of the style image. So, in essence, to discover the style of an image, we
+1. process the style image by analyzing its pixels
+2. feeding this information to the layer of a pre-trained model to "understand"/classify the provided input as objects
+
+How this is done we will explore in the section "style cost".
+
 
 
 ## Loss calculation
@@ -156,9 +171,19 @@ So why is it divided by 4?
 
 ### Style cost
 
-What is meant by style? In this context it is measured as the amount of correlation present between feature maps in a layer. The cost again is the difference between those correlation matrices.
 
-The novel idea here is how the correlation is captuered. This is done via the gram matrix.
+Again, make sure to understand the difference between what the style is in this context, and what the style loss is. Both calculations are different. One is to detect the "style representation" (meaning to classify the input pixels under the pre-trained classifications), the other is to compare the style of the original image with the style of the generated image.
+
+What is meant by style?
+
+From the original paper:
+> On top of the CNN responses in each layer of the network we built a style representation that computes the correlations between the different filter responses, where the expectation is taken over the spatial extend of the input image.
+
+
+
+In this context it is measured as the amount of correlation present between feature maps in a layer. The cost again is the difference between those correlation matrices.
+
+The interesting approach is how the correlation is captuered. This is done via the gram matrix.
 
 ![](../assets/understandingCNN_2020-10-10-11-34-54.png)
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
@@ -185,6 +210,8 @@ Absolutely great work by Thushan Ganegedara in his article: https://towardsdatas
 - https://machinelearningmastery.com/transfer-learning-for-deep-learning/
 - https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/
 - https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
+- https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
+- https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
 
 
 ---
