@@ -17,6 +17,7 @@ This article can be considered as an overview and comprehension of other article
   - [Transfer learning and style transfer](#transfer-learning-and-style-transfer)
     - [1. Transfer learning](#1-transfer-learning)
     - [2. Style Transfer](#2-style-transfer)
+  - [Style and content](#style-and-content)
   - [Loss calculation](#loss-calculation)
     - [Content cost](#content-cost)
     - [Style cost](#style-cost)
@@ -119,6 +120,18 @@ So this means that the spcialty of the deep learning approach is to extract the 
 
 How this is done we will explore in the section "style cost".
 
+## Style and content
+
+The basic idea is to transfer the style of an image on the content of an image.
+
+Therefore we need to understand two things:
+1. What is the content of an image
+2. What is the style of an image
+
+Loosely speaking the content of an image is what we humans identify as objects in an image. A car, a bridge, houses, etc.
+Style is a harder to define. It heavily depends on the image. It is overall texture, color selection, contrast, etc.
+
+Those definitions need to be expressed in a mathematical way to be implemented in the world of machine learning.
 
 
 ## Loss calculation
