@@ -2,9 +2,9 @@
 
 ![]()
 
-Today I want to talk about CNNs used in Neural Style Transfer. There are great tutorials available online. However, I struggle sometimes with grasping the main concepts. The reason for that is that there are always different implementation details.
+Today I want to talk about CNNs used in Neural Style Transfer. There are already quite a few articles and tutorials available. Sometimes some content is just copied, some provide novel implementation. What all have in common is a very fast dive into specifics. Too specific in my opinion. Not only that, but there are often implementation details that make it harder to focus on the main concept as a whole.
 
-This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners. (And sparking curiosity for the original research paper and subsequent implementations)
+This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners (snd sparking curiosity for the original research paper and subsequent implementations).
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This article can be considered as an overview and comprehension of other article
 - [Disclaimer](#disclaimer)
   - [Requirements](#requirements)
   - [Neural Style Transfer](#neural-style-transfer)
-  - [Overview on how it works](#overview-on-how-it-works)
+  - [Architectural and process overview](#architectural-and-process-overview)
   - [Transfer learning and style transfer](#transfer-learning-and-style-transfer)
     - [1. Transfer learning](#1-transfer-learning)
     - [2. Style Transfer](#2-style-transfer)
@@ -21,6 +21,7 @@ This article can be considered as an overview and comprehension of other article
   - [Loss calculation](#loss-calculation)
     - [Content cost](#content-cost)
     - [Style cost](#style-cost)
+    - [Total variation cost](#total-variation-cost)
   - [Starting point for implementation](#starting-point-for-implementation)
   - [Inspriation](#inspriation)
   - [Appendix](#appendix)
@@ -53,7 +54,7 @@ Research paper [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508
 
 > The system uses neural representations to separate and recombine content and style of arbitrary images, providing a neural algorithm for the creation of artistic images. Moreover, in light of the striking similarities between performance-optimised artificial neural networks and biological vision, our work offers a path forward to an algorithmic understanding of how humans create and perceive artistic imagery.
 
-## Overview on how it works
+## Architectural and process overview
 
 There are many good visualizations on how the cnn works with neural style transfer.
 I wanted to draw it myself, but then I realised that there are already very nice ones available. So I will just show those and reference the creators for credit.
@@ -79,6 +80,10 @@ It is necessary to say what the different layers of a CNN represent in order to 
 - The deeper layers tend to detect higher-level features such as more complex textures as well as object classes.
 
 As the generated image shall have similar content as the input image. It is advisable to use a layer in the middle, representing content to a high degree.
+
+![](../assets/understandingCNN_2020-10-16-15-29-00.png)
+
+VGG19 architecture from research paper [Automatic Mass Detection in Breast Using Deep Convolutional Neural Network and SVM Classifier](https://www.researchgate.net/publication/334388209_Automatic_Mass_Detection_in_Breast_Using_Deep_Convolutional_Neural_Network_and_SVM_Classifier) und the [creative commons licnece](https://creativecommons.org/licenses/by/4.0/)
 
 ## Transfer learning and style transfer
 
@@ -142,9 +147,9 @@ As we can see the central element for this process is the loss calculation. Ther
 
 1. Content cost
 2. Style cost
-3. Total variation cost
+3. Total (variation) cost
 
-This is in my understing the hardest part to understand when starting. So lets dive into it one by one.
+Those steps are in my opinion the hardest to understand, so lets dive into it one by one.
 
 ### Content cost
 
@@ -169,23 +174,30 @@ from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT Lice
 ### Style cost
 
 
-Again, make sure to understand the difference between what the style is in this context, and what the style loss is. Both calculations are different. One is to detect the "style representation" (meaning to classify the input pixels under the pre-trained classifications), the other is to compare the style of the original image with the style of the generated image.
+Again, make sure to understand the difference between style of an image and style loss of an image.. Both calculations are different. One is to detect the "style representation" (texture, colors, etc), the other is to compare the style of the original image with the style of the generated image.
 
-What is meant by style?
-
-From the original paper:
-> On top of the CNN responses in each layer of the network we built a style representation that computes the correlations between the different filter responses, where the expectation is taken over the spatial extend of the input image.
-
+The novel idea here is to identify style of an image. This is done by
+1. Getting the feature vectors from a convolutional layer
+2. Comparing those vectors with feature vectors from another layer (finding its correlation)
 
 
-In this context it is measured as the amount of correlation present between feature maps in a layer. The cost again is the difference between those correlation matrices.
 
-The interesting approach is how the correlation is captuered. This is done via the gram matrix.
+The correlation is captuered by multiplying the feature map to its transpose, resulting in the gram matrix.
 
 ![](../assets/understandingCNN_2020-10-10-11-34-54.png)
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
 
+Luckily the CNN provides us with multiple layers we can choose of to find its styles correctly. Comparing various layers and its correlations we can identify the style of an image.
 
+Comparing this style with the style
+
+
+The cost is the difference between those gram matrices, ie the difference of correlations.
+
+### Total variation cost
+
+It acts like a regularizer that encourages spatial smoothness in the generated image.
+This was not used in the original paper but sometimes improves the results.
 
 
 ## Starting point for implementation
@@ -212,11 +224,13 @@ Absolutely great work by Thushan Ganegedara in his article: https://towardsdatas
 - https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
 - https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
 - https://github.com/aleju/papers/blob/master/neural-nets/A_Neural_Algorithm_for_Artistic_Style.md summary of publication paper
+- https://towardsdatascience.com/art-with-ai-neural-style-transfer-63d0ef76596a
 
 
 Implementations with code:
 
 - https://towardsdatascience.com/neural-style-transfer-4d7c8138e7f6
+- http://ziqingguan.net/index.php/2020/05/30/deep-learning-art-neural-style-transfer/
 
 ## Appendix
 
