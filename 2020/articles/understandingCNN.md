@@ -184,15 +184,18 @@ from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT Lice
 
 ### Style cost
 
+Now it is getting sophisticated.
 
-Again, make sure to understand the difference between style of an image and style loss of an image. Both calculations are different. One is to detect the "style representation" (texture, colors, etc), the other is to compare the style of the original image with the style of the generated image.
+Make sure to understand the difference between style of an image and style loss of an image. Both calculations are different. One is to detect the "style representation" (texture, colors, etc), the other is to compare the style of the original image with the style of the generated image.
 
-The novel idea here is to identify style of an image. This is done by
-1. Getting the feature vectors from a convolutional layer
-2. Comparing those vectors with feature vectors from another layer (finding its correlation)
+The **total** style cost is calculated in two steps:
+1. the style cost of all conv layers. Identifiying the style of the style image
+   a. Getting the feature vectors from a convolutional layer
+   b. Comparing those vectors with feature vectors from another layer (finding its correlation)
+2. the style cost between the original (the original style image!) and the generated image.
 
-The correlation is captuered by multiplying the feature map to its transpose, resulting in the gram matrix.
 
+To find the style the correlation is captuered by multiplying the feature map to its transpose, resulting in the gram matrix.
 
 ![](../assets/understandingCNN_2020-10-10-11-34-54.png)
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
@@ -201,16 +204,18 @@ Luckily the CNN provides us with multiple layers we can choose of to find its st
 
 So instead of using a layer’s raw output, we use the gram matrix of the feature map of an individual layer to identify the style of an image.
 
-The cost is the difference between those gram matrices, ie the difference of correlations.
+The fisrt cost is the difference between those gram matrices, ie the difference of correlations. The second cost is again the difference between the original image and the generated one. This is in essence the "style transfer".
 
-Now the **total** style cost is calculated in two steps:
-1. the style cost of the conv layer
-2. the style cost is multiplied to each conv layer
+
+
+
+
+
 
 ### Total variation cost
 
 It acts like a regularizer that encourages spatial smoothness in the generated image.
-This was not used in the original paper but sometimes improves the results.
+This was not used in the original paper but sometimes improves the results. In essence we smooth out the differences between style and content transferal.
 
 
 ## Starting point for implementation
