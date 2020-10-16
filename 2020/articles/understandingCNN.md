@@ -4,7 +4,7 @@
 
 Today I want to talk about CNNs used in Neural Style Transfer. There are already quite a few articles and tutorials available. Sometimes some content is just copied, some provide novel implementation. What all have in common is a very fast dive into specifics. Too specific in my opinion. Not only that, but there are often implementation details that make it harder to focus on the main concept as a whole.
 
-This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners (snd sparking curiosity for the original research paper and subsequent implementations).
+This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners (and sparking curiosity for the original research paper and subsequent implementations).
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ This article can be considered as an overview and comprehension of other article
     - [1. Transfer learning](#1-transfer-learning)
     - [2. Style Transfer](#2-style-transfer)
   - [Style and content](#style-and-content)
-  - [Loss calculation](#loss-calculation)
+  - [Cost calculation](#cost-calculation)
     - [Content cost](#content-cost)
     - [Style cost](#style-cost)
     - [Total variation cost](#total-variation-cost)
@@ -44,7 +44,9 @@ If you need more information on certain parts, feel free to point it out in the 
 
 ## Requirements
 
-Even though I want to explain everything from the ground, I assume understanding of **convolutional neural networks (CNNs)**. The principle concept is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4)
+Even though I want to explain everything from the ground, I assume understanding of **convolutional neural networks (CNNs)**. The principle concept is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4).
+
+Of course I also assume familiarity with basic machine learning / deep learning concepts.
 
 ## Neural Style Transfer
 
@@ -66,12 +68,12 @@ First this one. It shows very beautifully how the loss is calculated, and how it
 
 ![](../assets/understandingCNN_2020-10-09-22-29-08.png)
 
-from his [blog](https://www.mikegao.net/graphics/summary/neural_style.html) und the [creative commons licnece](https://creativecommons.org/licenses/by-nc/4.0/)
+from his [blog](https://www.mikegao.net/graphics/summary/neural_style.html) und the [creative commons license](https://creativecommons.org/licenses/by-nc/4.0/)
 
 This one is also good. Showing the reconstructions development over the different layers.
 
 ![](../assets/understandingCNN_2020-10-10-10-10-17.png)
-from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv license requirements](https://arxiv.org/help/license)
 
 
 It is necessary to say what the different layers of a CNN represent in order to understand the subsquent calculations.
@@ -141,7 +143,12 @@ Style is a harder to define. It heavily depends on the image. It is overall text
 Those definitions need to be expressed in a mathematical way to be implemented in the world of machine learning.
 
 
-## Loss calculation
+## Cost calculation
+
+First, why cost/loss calculation?
+It is important to understand that in this context the cost is the mere difference of the original and the generated image. There are multiple ways on how to calculte it (MSE, euclidean distance, etc). By minimizing the differences of the images we are able to transfer styles.
+
+When we start out with big differences on the loss, we will see that the style transfer is not that good. We can see that styles are transferred, but it seems rough and unintuitive. With each cost minimization step we go in the direction of a better merger of the style and content and ultimately a better resulting image.
 
 As we can see the central element for this process is the loss calculation. There are 3 costs that need to be caluclated:
 
@@ -150,6 +157,10 @@ As we can see the central element for this process is the loss calculation. Ther
 3. Total (variation) cost
 
 Those steps are in my opinion the hardest to understand, so lets dive into it one by one.
+
+**Always keep in mind that we are comparing the original input with the generated image. Those differences are the cost and this cost we want to minimize.**
+
+It is so important to understand this, because in the process other differences will also be calculated.
 
 ### Content cost
 
@@ -174,25 +185,27 @@ from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT Lice
 ### Style cost
 
 
-Again, make sure to understand the difference between style of an image and style loss of an image.. Both calculations are different. One is to detect the "style representation" (texture, colors, etc), the other is to compare the style of the original image with the style of the generated image.
+Again, make sure to understand the difference between style of an image and style loss of an image. Both calculations are different. One is to detect the "style representation" (texture, colors, etc), the other is to compare the style of the original image with the style of the generated image.
 
 The novel idea here is to identify style of an image. This is done by
 1. Getting the feature vectors from a convolutional layer
 2. Comparing those vectors with feature vectors from another layer (finding its correlation)
 
-
-
 The correlation is captuered by multiplying the feature map to its transpose, resulting in the gram matrix.
+
 
 ![](../assets/understandingCNN_2020-10-10-11-34-54.png)
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
 
 Luckily the CNN provides us with multiple layers we can choose of to find its styles correctly. Comparing various layers and its correlations we can identify the style of an image.
 
-Comparing this style with the style
-
+So instead of using a layer’s raw output, we use the gram matrix of the feature map of an individual layer to identify the style of an image.
 
 The cost is the difference between those gram matrices, ie the difference of correlations.
+
+Now the **total** style cost is calculated in two steps:
+1. the style cost of the conv layer
+2. the style cost is multiplied to each conv layer
 
 ### Total variation cost
 
