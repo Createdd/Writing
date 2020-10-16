@@ -23,6 +23,8 @@ This article can be considered as an overview and comprehension of other article
     - [Style cost](#style-cost)
   - [Starting point for implementation](#starting-point-for-implementation)
   - [Inspriation](#inspriation)
+  - [Appendix](#appendix)
+    - [Content cost](#content-cost-1)
   - [About](#about)
 
 # Disclaimer
@@ -148,38 +150,20 @@ This is in my understing the hardest part to understand when starting. So lets d
 
 What is content cost?
 
-When we visualize a CNN, feature maps in higher layers are activated in the presence of different objects. So if two images to have the same content, they should have similar activations in the higher layers.
+As we found out before, we define the content of an image by its objects. Things that we as humans can recognize as things.
+
+Having understood the structure of a CNN, it now becomes apaprent that at the end of the neural network we can access a layer, that represents the objects (the content) quite well. Going through the pooling layers we lose the stylistic parts of the image, but in terms of getting the content this is desired.
+
+Now the feature maps in higher layers of the CNN are activated in the presence of different objects. So if two images to have the same content, they should have similar activations in the higher layers.
 
 That is the premise for defining the cost function.
 
-The formula represents that as:
 
-![](../assets/understandingCNN_2020-10-10-10-16-57.png)
-from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
-
-> where F is the activation of the i th filter at position j in layer l.
-> So let ~p and ~x be the original image and the image that is generated and P l and F l their respective feature representation in layer l.
-
-it is in fact just the root mean squared error between the feature representation of the generated image and the content image.
-
-
-The question is how we get the feature representation?
-
-![](../assets/understandingCNN_2020-10-10-10-38-35.png)
-from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
-
-> This is done by minimising the mean-squared distance between the entries of the Gram matrix from the original image and the Gram matrix of the image to be generated
-
-> Gl ij is the inner product between the vectorised feature map i and j in layer l:
-> So let ~a and ~x be the original image and the image that is generated and Al and Gl their respective style representations in layer l.
-> A layer with Nl distinct filters has Nl feature maps each of size Ml , where Ml is the height times the width of the feature map
-
-The following image helps to understand how N and M are calculated.
+The following image helps to understand how the layer is rolled out to be prepared for calculations (which are not covered in this article):
 
 ![](../assets/understandingCNN_2020-10-10-10-24-54.png)
 from [Aditya Guptas article](https://github.com/Adi-iitd/AI-Art) under [MIT License](https://github.com/Adi-iitd/AI-Art/blob/add-license-1/LICENSE)
 
-So why is it divided by 4?
 
 
 ### Style cost
@@ -234,7 +218,34 @@ Implementations with code:
 
 - https://towardsdatascience.com/neural-style-transfer-4d7c8138e7f6
 
+## Appendix
 
+I put formulas in this section. I wanted to keep the article quite basic. Providing the formulas sparks avoidance in some people and for the purpose of my article they are not necessary. Nevertheless I put some thoughts to it as you can see in the following lines.
+
+### Content cost
+
+
+The formula represents that as:
+
+![](../assets/understandingCNN_2020-10-10-10-16-57.png)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+
+> where F is the activation of the i th filter at position j in layer l.
+> So let ~p and ~x be the original image and the image that is generated and P l and F l their respective feature representation in layer l.
+
+it is in fact just the root mean squared error between the feature representation of the generated image and the content image.
+
+
+The question is how we get the feature representation?
+
+![](../assets/understandingCNN_2020-10-10-10-38-35.png)
+from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
+
+> This is done by minimising the mean-squared distance between the entries of the Gram matrix from the original image and the Gram matrix of the image to be generated
+
+> Gl ij is the inner product between the vectorised feature map i and j in layer l:
+> So let ~a and ~x be the original image and the image that is generated and Al and Gl their respective style representations in layer l.
+> A layer with Nl distinct filters has Nl feature maps each of size Ml , where Ml is the height times the width of the feature map
 
 
 ---
