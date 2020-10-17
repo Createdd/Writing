@@ -255,6 +255,7 @@ Implementations with code:
 - https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398
 - https://medium.com/analytics-vidhya/nst-creating-artworks-with-the-help-of-machine-56ebd3eb780c
 - https://keras.io/examples/generative/neural_style_transfer/
+- https://medium.com/gradientcrescent/neural-art-style-transfer-with-keras-theory-and-implementation-91b7fb08ee81
 
 Research papers:
 
