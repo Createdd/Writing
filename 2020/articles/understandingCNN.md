@@ -1,6 +1,7 @@
 # Understanding Neural Style Transfer with CNNs better
 
-![]()
+![](https://images.unsplash.com/photo-1599895101823-d28c285b191d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
+by Paolo Bendandi https://unsplash.com/photos/hZUlyk-EeuU
 
 Today I want to talk about CNNs used in Neural Style Transfer. There are already quite a few articles and tutorials available. Sometimes some content is just copied, some provide novel implementation. What all have in common is a very fast dive into specifics. Too specific in my opinion. Not only that, but there are often implementation details that make it harder to focus on the main concept as a whole.
 
@@ -22,10 +23,7 @@ This article can be considered as an overview and comprehension of other article
     - [Content cost](#content-cost)
     - [Style cost](#style-cost)
     - [Total variation cost](#total-variation-cost)
-  - [Starting point for implementation](#starting-point-for-implementation)
   - [Inspriation](#inspriation)
-  - [Appendix](#appendix)
-    - [Content cost](#content-cost-1)
   - [About](#about)
 
 # Disclaimer
@@ -206,25 +204,10 @@ So instead of using a layer’s raw output, we use the gram matrix of the featur
 The fisrt cost is the difference between those gram matrices, ie the difference of correlations. The second cost is again the difference between the original image and the generated one. This is in essence the "style transfer".
 
 
-
-
-
-
-
 ### Total variation cost
 
-It acts like a regularizer that encourages spatial smoothness in the generated image.
-This was not used in the original paper but sometimes improves the results. In essence we smooth out the differences between style and content transferal.
-
-
-## Starting point for implementation
-
-We will start with the tutorial from [Keras](https://keras.io/examples/generative/neural_style_transfer/).
-
-- Github Source: https://github.com/keras-team/keras-io/blob/master/examples/generative/neural_style_transfer.py
-- License: https://github.com/keras-team/keras-io/blob/master/LICENSE
-
-Gist: https://gist.github.com/Createdd/2fa6fa0770135a34a8f1f022007dda69
+It acts like a regularizer that improves smoothness in the generated image.
+This was not used in the original paper but sometimes improves the results. In essence we smooth out the differences between style and content transferal within the generated image.
 
 
 
@@ -232,7 +215,7 @@ Gist: https://gist.github.com/Createdd/2fa6fa0770135a34a8f1f022007dda69
 ## Inspriation
 
 
-Absolutely great work by Thushan Ganegedara in his article: https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
+- https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
 - https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
 - https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
 - https://towardsdatascience.com/art-with-ai-neural-style-transfer-63d0ef76596a
@@ -261,34 +244,6 @@ Research papers:
 - https://arxiv.org/pdf/1508.06576.pdf A Neural Algorithm of Artistic Style
 - https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
 
-## Appendix
-
-I put formulas in this section. I wanted to keep the article quite basic. Providing the formulas sparks avoidance in some people and for the purpose of my article they are not necessary. Nevertheless I put some thoughts to it as you can see in the following lines.
-
-### Content cost
-
-
-The formula represents that as:
-
-![](../assets/understandingCNN_2020-10-10-10-16-57.png)
-from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
-
-> where F is the activation of the i th filter at position j in layer l.
-> So let ~p and ~x be the original image and the image that is generated and P l and F l their respective feature representation in layer l.
-
-it is in fact just the root mean squared error between the feature representation of the generated image and the content image.
-
-
-The question is how we get the feature representation?
-
-![](../assets/understandingCNN_2020-10-10-10-38-35.png)
-from the [original research paper](https://arxiv.org/pdf/1508.06576.pdf) under [arxiv licenses requirements](https://arxiv.org/help/license)
-
-> This is done by minimising the mean-squared distance between the entries of the Gram matrix from the original image and the Gram matrix of the image to be generated
-
-> Gl ij is the inner product between the vectorised feature map i and j in layer l:
-> So let ~a and ~x be the original image and the image that is generated and Al and Gl their respective style representations in layer l.
-> A layer with Nl distinct filters has Nl feature maps each of size Ml , where Ml is the height times the width of the feature map
 
 
 ---
