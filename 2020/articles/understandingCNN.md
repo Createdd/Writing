@@ -3,9 +3,9 @@
 ![](https://images.unsplash.com/photo-1599895101823-d28c285b191d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
 by Paolo Bendandi https://unsplash.com/photos/hZUlyk-EeuU
 
-Today I want to talk about CNNs used in Neural Style Transfer. There are already quite a few articles and tutorials available. Sometimes some content is just copied, some provide novel implementation. What all have in common is a very fast dive into specifics. Too specific in my opinion. Not only that, but there are often implementation details that make it harder to focus on the main concept as a whole.
+Today I want to talk about CNNs used in Neural Style Transfer. There are already quite a few articles and tutorials available. Sometimes content is just copied, some provide novel implementation. What all have in common is a very fast dive into specifics. Too specific in my opinion. Not only that, but there are often implementation details that make it harder to focus on the main concept as a whole.
 
-This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, but being high level enough for beginners (and sparking curiosity for the original research paper and subsequent implementations).
+This article can be considered as an overview and comprehension of other articles (listed in my "Inspiration" section), to understand the concept on a higher level. My intention is to strip away some implemenation details, being high level enough for beginners and sparking curiosity for the original research paper and subsequent implementations.
 
 ## Table of Contents
 
@@ -41,9 +41,8 @@ If you need more information on certain parts, feel free to point it out in the 
 
 ## Requirements
 
-Even though I want to explain everything from the ground, I assume understanding of **convolutional neural networks (CNNs)**. The principle concept is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4).
+I assume understanding of **convolutional neural networks (CNNs)**. This architecture is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4).
 
-Of course I also assume familiarity with basic machine learning / deep learning concepts.
 
 ## Neural Style Transfer
 
@@ -98,7 +97,7 @@ Though, both use the word "transfer" they are quite different from an implementa
 
 The concept itself is extremely interesting and potent to create new solutions by the use of established models.
 
-I do not want to expand on this concept in this article. For a fantastic introduction I can recommend this article: https://machinelearningmastery.com/transfer-learning-for-deep-learning/. However, it is crucial to understand how it is used in the concept of style transfer.
+For a fantastic introduction I can recommend this article: https://machinelearningmastery.com/transfer-learning-for-deep-learning/. However, it is crucial to understand how it is used in the concept of style transfer.
 
 In short we can say
 > Transfer learning and domain adaptation refer to the situation where what has been learned in one setting … is exploited to improve generalization in another setting
