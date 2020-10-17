@@ -232,23 +232,34 @@ Gist: https://gist.github.com/Createdd/2fa6fa0770135a34a8f1f022007dda69
 
 ## Inspriation
 
-Absolutely great work by Thushan Ganegedara in his article: https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
 
-- https://www.mikegao.net/graphics/summary/neural_style.html by [Mike Gao](https://www.mikegao.net/)
-- https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398 original tutorial from tensorflow
+Absolutely great work by Thushan Ganegedara in his article: https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-neural-style-transfer-ef88e46697ee
+- https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
+- https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
+- https://towardsdatascience.com/art-with-ai-neural-style-transfer-63d0ef76596a
+- https://medium.com/@sanjivgautamofficial/understanding-neural-style-transfer-from-another-medium-post-c61d19afdf1d
 - https://machinelearningmastery.com/transfer-learning-for-deep-learning/
 - https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/
-- https://towardsdatascience.com/what-is-deep-transfer-learning-and-why-is-it-becoming-so-popular-91acdcc2717a
-- https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
-- https://towardsdatascience.com/neural-networks-intuitions-2-dot-product-gram-matrix-and-neural-style-transfer-5d39653e7916
 - https://github.com/aleju/papers/blob/master/neural-nets/A_Neural_Algorithm_for_Artistic_Style.md summary of publication paper
-- https://towardsdatascience.com/art-with-ai-neural-style-transfer-63d0ef76596a
+- https://www.mikegao.net/graphics/summary/neural_style.html by [Mike Gao](https://www.mikegao.net/)
+- https://github.com/Adi-iitd/AI-Art
+
+
 
 
 Implementations with code:
 
 - https://towardsdatascience.com/neural-style-transfer-4d7c8138e7f6
 - http://ziqingguan.net/index.php/2020/05/30/deep-learning-art-neural-style-transfer/
+- https://www.tensorflow.org/tutorials/generative/style_transfer
+- https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398
+- https://medium.com/analytics-vidhya/nst-creating-artworks-with-the-help-of-machine-56ebd3eb780c
+- https://keras.io/examples/generative/neural_style_transfer/
+
+Research papers:
+
+- https://arxiv.org/pdf/1508.06576.pdf A Neural Algorithm of Artistic Style
+- https://arxiv.org/pdf/1701.01036.pdf Demystifying Neural Style Transfer
 
 ## Appendix
 
