@@ -1,4 +1,4 @@
-# Understanding Neural Style Transfer with CNNs better
+# Neural Style Transfer - A high level approach
 
 ![](https://images.unsplash.com/photo-1599895101823-d28c285b191d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
 by Paolo Bendandi https://unsplash.com/photos/hZUlyk-EeuU
@@ -9,7 +9,7 @@ This article can be considered as an overview and comprehension of other article
 
 ## Table of Contents
 
-- [Understanding Neural Style Transfer with CNNs better](#understanding-neural-style-transfer-with-cnns-better)
+- [Neural Style Transfer - A high level approach](#neural-style-transfer-a-high-levelapproach)
   - [Table of Contents](#table-of-contents)
 - [Disclaimer](#disclaimer)
   - [Requirements](#requirements)
