@@ -11,8 +11,9 @@ The article shall on one side present what elements build a picture and also pro
 - [Behind famous pictures - The esence of pictures - An AI approach](#behind-famous-pictures---the-esence-of-pictures---an-ai-approach)
   - [Table of Contents](#table-of-contents)
 - [Disclaimer](#disclaimer)
-  - [Base Image and style image](#base-image-and-style-image)
+- [The base image](#the-base-image)
   - [Visualize with code](#visualize-with-code)
+  - [A neural transfer approach](#a-neural-transfer-approach)
   - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -31,24 +32,21 @@ I cannot monitor all my articles. There is a high probability that, when you rea
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-## Base Image and style image
+# The base image
 
 Base image
 
 ![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
 *Source https://unsplash.com/photos/hJKkyoG8_ng by Hadi Yazdi Aznaveh - Unsplash Award 2019 selected in "Current events"*
 
-To explain why I chose this image I quote directly Joel Tellier, Design Director of Vice (from Unplash Awards page):
+I like this image because it has story, which sparks emotion, but also provides rich structure on a photographical level.
+
+To explain why I chose this image I quote directly Joel Tellier, Design Director of Vice (from [Unplash Awards page](https://awards.unsplash.com/2019/#/current-events)):
 > Compositionally this photo is incredible. There are layers story and history in every element. The casual nature of the subject suggests that she is completely comfortable in a place where she and her gender have never been welcome in history. Her injury and therefore struggle to attend that day, adds to the relaxed nature of her patriotic celebration alluding to a much more involved story. The numbers on the seats help to suggest the history, leaving me to wonder how many men sat where she is sitting before one (the first) woman was allowed.
 
-Style image
-![](../assets/visualizeLayersCNN_2020-10-22-16-22-51.png)
-*Soruce https://en.wikipedia.org/wiki/File:The_Persistence_of_Memory.jpg under free use license (low quality for the use of critical commentary on technique of the work of art*
+This makes it a very interesting image for extracting information with a CNN.
 
-For the image I chose "The Persistence of Memory" (Spanish: La persistencia de la memoria), a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism.
-
-It is by far one of my favorit paintings and a great image for implementing style.
-
+#
 
 
 
@@ -135,13 +133,23 @@ for layer in layer_names:
     plt.show()
 ```
 
+## A neural transfer approach
 
+Style image
+![](../assets/visualizeLayersCNN_2020-10-22-16-22-51.png)
+*Soruce https://en.wikipedia.org/wiki/File:The_Persistence_of_Memory.jpg under free use license (low quality for the use of critical commentary on technique of the work of art*
+
+For the image I chose "The Persistence of Memory" (Spanish: La persistencia de la memoria), a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism.
+
+It is by far one of my favorit paintings and a great image for implementing style.
 
 ## Inspiration
 
 On visualization of CNN layers:
 - https://towardsdatascience.com/visualising-filters-and-feature-maps-for-deep-learning-d814e13bd671#:~:text=The%20feature%20maps%20of%20a,what%20features%20our%20CNN%20detects.
 - https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
+- https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
+- https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030 understand how a neural network recognizes a certain pattern
 
 
 ---
