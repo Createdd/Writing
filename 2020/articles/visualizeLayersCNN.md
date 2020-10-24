@@ -146,6 +146,21 @@ As expected we can see that 1. the
 
 ![](../assets/block1_conv1_fm.gif)
 
+
+Lets have a look at the last convolutional layer of each block:
+
+![](../assets/visualizeLayersCNN_2020-10-24-16-09-43.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-16-11-18.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-16-11-39.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-16-12-00.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-16-12-17.png)
+
+
+
 ## Visualize with code
 
 On my research to visualize feature maps of CNN layers I often came to find tutorials and implemenations that offer insight on how to approach visualization but not following through to really see and understand what the images are showing.
