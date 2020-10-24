@@ -132,7 +132,19 @@ _________________________________________________________________
 
 Lets have a look at the first convolutional layer of each block:
 
+![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
 
+![](../assets/visualizeLayersCNN_2020-10-24-15-55-06.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-15-55-29.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-15-55-50.png)
+
+![](../assets/visualizeLayersCNN_2020-10-24-15-56-10.png)
+
+As expected we can see that 1. the
+
+![](../assets/block1_conv1_fm.gif)
 
 ## Visualize with code
 
