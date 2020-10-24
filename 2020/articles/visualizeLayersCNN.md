@@ -10,15 +10,17 @@ The article shall on one side present what elements build a picture and also pro
 
 - [Behind famous pictures - The esence of pictures - An AI approach](#behind-famous-pictures---the-esence-of-pictures---an-ai-approach)
   - [Table of Contents](#table-of-contents)
-- [Disclaimer](#disclaimer)
-- [The base image](#the-base-image)
+  - [Disclaimer](#disclaimer)
+  - [The base image](#the-base-image)
+  - [Using a VGG network](#using-a-vgg-network)
+  - [Convolutional Layer Feature Maps](#convolutional-layer-feature-maps)
   - [Visualize with code](#visualize-with-code)
   - [A neural transfer approach](#a-neural-transfer-approach)
   - [Inspiration](#inspiration)
   - [About](#about)
 
 
-# Disclaimer
+## Disclaimer
 
 I am not associated with any of the services I use in this article.
 
@@ -32,7 +34,7 @@ I cannot monitor all my articles. There is a high probability that, when you rea
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-# The base image
+## The base image
 
 Base image
 
@@ -46,7 +48,89 @@ To explain why I chose this image I quote directly Joel Tellier, Design Director
 
 This makes it a very interesting image for extracting information with a CNN.
 
-#
+## Using a VGG network
+
+
+I assume an understanding of **convolutional neural networks (CNNs)**. This architecture is very crucial for many things in computer vision and deep learning. There are many resources online available. As a refresher, I suggest this [article](https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4).
+
+
+It is necessary to say what the different layers of a CNN represent in order to understand the subsequent visualizations.
+
+- The shallower layers of a CNN tend to detect lower-level features such as edges and simple textures.
+- The deeper layers tend to detect higher-level features such as more complex textures as well as object classes.
+
+
+![](../assets/understandingCNN_2020-10-16-15-29-00.png)
+
+VGG19 architecture from research paper [Automatic Mass Detection in Breast Using Deep Convolutional Neural Network and SVM Classifier](https://www.researchgate.net/publication/334388209_Automatic_Mass_Detection_in_Breast_Using_Deep_Convolutional_Neural_Network_and_SVM_Classifier) und the [creative commons license](https://creativecommons.org/licenses/by/4.0/)
+
+
+It is possible to visualize both the filter and the feature maps. The filters are also an image that depict a particular feature. Applying those filters lead to the feature maps. In essence, the shallower the layer is the more the feature map looks like the original input. In this article I want to focus on the feature maps and their visualization as those give a nice impression on what the CNN "sees" and learns.
+
+
+
+## Convolutional Layer Feature Maps
+
+So this is the original picture:
+![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
+
+The VGG19 model has the following structure and layers:
+
+```py
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+input_1 (InputLayer)         (None, None, None, 3)     0
+_________________________________________________________________
+block1_conv1 (Conv2D)        (3, 800, 1199, 64)        1792
+_________________________________________________________________
+block1_conv2 (Conv2D)        (3, 800, 1199, 64)        36928
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (3, 400, 599, 64)         0
+_________________________________________________________________
+block2_conv1 (Conv2D)        (3, 400, 599, 128)        73856
+_________________________________________________________________
+block2_conv2 (Conv2D)        (3, 400, 599, 128)        147584
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (3, 200, 299, 128)        0
+_________________________________________________________________
+block3_conv1 (Conv2D)        (3, 200, 299, 256)        295168
+_________________________________________________________________
+block3_conv2 (Conv2D)        (3, 200, 299, 256)        590080
+_________________________________________________________________
+block3_conv3 (Conv2D)        (3, 200, 299, 256)        590080
+_________________________________________________________________
+block3_conv4 (Conv2D)        (3, 200, 299, 256)        590080
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (3, 100, 149, 256)        0
+_________________________________________________________________
+block4_conv1 (Conv2D)        (3, 100, 149, 512)        1180160
+_________________________________________________________________
+block4_conv2 (Conv2D)        (3, 100, 149, 512)        2359808
+_________________________________________________________________
+block4_conv3 (Conv2D)        (3, 100, 149, 512)        2359808
+_________________________________________________________________
+block4_conv4 (Conv2D)        (3, 100, 149, 512)        2359808
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (3, 50, 74, 512)          0
+_________________________________________________________________
+block5_conv1 (Conv2D)        (3, 50, 74, 512)          2359808
+_________________________________________________________________
+block5_conv2 (Conv2D)        (3, 50, 74, 512)          2359808
+_________________________________________________________________
+block5_conv3 (Conv2D)        (3, 50, 74, 512)          2359808
+_________________________________________________________________
+block5_conv4 (Conv2D)        (3, 50, 74, 512)          2359808
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (3, 25, 37, 512)          0
+=================================================================
+Total params: 20,024,384
+Trainable params: 20,024,384
+Non-trainable params: 0
+_________________________________________________________________
+```
+
+Lets have a look at the first convolutional layer of each block:
 
 
 
@@ -150,6 +234,9 @@ On visualization of CNN layers:
 - https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
 - https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
 - https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030 understand how a neural network recognizes a certain pattern
+- https://arxiv.org/pdf/1804.11191.pdf HOW CONVOLUTIONAL NEURAL NETWORKS SEE THE WORLD — A SURVEY OF CONVOLUTIONAL NEURAL NETWORK VISUALIZATION METHODS
+- https://www.deeplearningbook.org/contents/convnets.html
+- https://www.analyticsvidhya.com/blog/2019/05/understanding-visualizing-neural-networks/
 
 
 ---
