@@ -16,7 +16,7 @@ The article shall on one side present what elements build a picture and also pro
   - [Using a VGG network](#using-a-vgg-network)
   - [Convolutional Layer Feature Maps](#convolutional-layer-feature-maps)
   - [Visualize with code](#visualize-with-code)
-  - [A neural transfer approach](#a-neural-transfer-approach)
+  - [Bonus -  A neural transfer approach](#bonus---a-neural-transfer-approach)
   - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -279,12 +279,14 @@ for index in range(feature_maps.shape[-1]):
     im = Image.fromarray(im).resize(display_size)
     display(im)
 ```
-Scrolling through them looks like this:
+Scrolling through them looks like this (I created a .gif file):
 
 ![](../assets/block1_conv1_fm.gif)
 
+With the resize fuctionality it is possible to inspect all images at a proper size.
 
-## A neural transfer approach
+
+## Bonus -  A neural transfer approach
 
 Style image
 ![](../assets/visualizeLayersCNN_2020-10-22-16-22-51.png)
