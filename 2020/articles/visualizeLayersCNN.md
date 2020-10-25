@@ -1,6 +1,7 @@
-# Behind famous pictures - The esence of pictures - An AI approach
+# The essence behind an award winning photo - an AI approach
 
-![]()
+![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
+*Source https://unsplash.com/photos/hJKkyoG8_ng by Hadi Yazdi Aznaveh - Unsplash Award 2019 selected in "Current events"*
 
 Convolutional neural networks (CNNs) allow the computer to classify images. Apart from classifiying objects they also are able to give us insights on what makes a picture. What is the essence of a picture? By visualizing the layers of CNN architecturs we dive into the understanding of how machines process images. This gives provides also insights on how the human "sees" pictures.
 
@@ -8,7 +9,7 @@ The article shall on one side present what elements build a picture and also pro
 
 ## Table of Contents
 
-- [Behind famous pictures - The esence of pictures - An AI approach](#behind-famous-pictures---the-esence-of-pictures---an-ai-approach)
+- [The essence behind an award winning photo - an AI approach](#the-essence-behind-an-award-winning-photo---an-ai-approach)
   - [Table of Contents](#table-of-contents)
   - [Disclaimer](#disclaimer)
   - [The base image](#the-base-image)
@@ -142,10 +143,6 @@ Lets have a look at the first convolutional layer of each block:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-56-10.png)
 
-As expected we can see that 1. the
-
-![](../assets/block1_conv1_fm.gif)
-
 
 Lets have a look at the last convolutional layer of each block:
 
@@ -159,6 +156,15 @@ Lets have a look at the last convolutional layer of each block:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-16-12-17.png)
 
+
+What can we observe?
+
+Two things:
+1. we can clearly see that in deeper layers objects are detected. Seeing the woman that is abstracted, but also a seat or the seats in the stadion.
+2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings.
+
+
+![](../assets/block1_conv1_fm.gif)
 
 
 ## Visualize with code
