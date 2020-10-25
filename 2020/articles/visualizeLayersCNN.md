@@ -1,15 +1,15 @@
-# The essence behind an award winning photo - an AI approach
+# The structure behind an award-winning photo - a deep learning approach
 
 ![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
 *Source https://unsplash.com/photos/hJKkyoG8_ng by Hadi Yazdi Aznaveh - Unsplash Award 2019 selected in "Current events"*
 
-Convolutional neural networks (CNNs) allow the computer to classify images. Apart from classifiying objects they also are able to give us insights on what makes a picture. What is the essence of a picture? By visualizing the layers of CNN architecturs we dive into the understanding of how machines process images. This gives provides also insights on how the human "sees" pictures.
+Convolutional neural networks (CNNs) allow the computer to classify images. Apart from classifying objects they also are able to give us insights on what makes a picture. What is the essence of a picture? By visualizing the layers of CNN architectures we dive into the understanding of how machines process images. This gives provides also insights on how the human "sees" pictures.
 
-The article shall on one side present what elements build a picture and also provide code for python implementation with Keras.
+The article shall on one side present what elements build a picture and also provide code for a Python implementation with Keras.
 
 ## Table of Contents
 
-- [The essence behind an award winning photo - an AI approach](#the-essence-behind-an-award-winning-photo---an-ai-approach)
+- [The structure behind an award-winning photo - a deep learning approach](#the-structure-behind-an-award-winning-photo-a-deep-learningapproach)
   - [Table of Contents](#table-of-contents)
   - [Disclaimer](#disclaimer)
   - [The base image](#the-base-image)
@@ -45,7 +45,7 @@ Base image
 ![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
 *Source https://unsplash.com/photos/hJKkyoG8_ng by Hadi Yazdi Aznaveh - Unsplash Award 2019 selected in "Current events"*
 
-I like this image because it has story, which sparks emotion, but also provides rich structure on a photographical level.
+I like this image because it has a story, which sparks emotion but also provides rich structure on a photographic level.
 
 To explain why I chose this image I quote directly Joel Tellier, Design Director of Vice (from [Unplash Awards page](https://awards.unsplash.com/2019/#/current-events)):
 > Compositionally this photo is incredible. There are layers story and history in every element. The casual nature of the subject suggests that she is completely comfortable in a place where she and her gender have never been welcome in history. Her injury and therefore struggle to attend that day, adds to the relaxed nature of her patriotic celebration alluding to a much more involved story. The numbers on the seats help to suggest the history, leaving me to wonder how many men sat where she is sitting before one (the first) woman was allowed.
@@ -69,14 +69,13 @@ It is necessary to say what the different layers of a CNN represent in order to 
 VGG19 architecture from research paper [Automatic Mass Detection in Breast Using Deep Convolutional Neural Network and SVM Classifier](https://www.researchgate.net/publication/334388209_Automatic_Mass_Detection_in_Breast_Using_Deep_Convolutional_Neural_Network_and_SVM_Classifier) und the [creative commons license](https://creativecommons.org/licenses/by/4.0/)
 
 
-It is possible to visualize both the filter and the feature maps. The filters are also an image that depict a particular feature. Applying those filters lead to the feature maps. In essence, the shallower the layer is the more the feature map looks like the original input. In this article I want to focus on the feature maps and their visualization as those give a nice impression on what the CNN "sees" and learns.
+It is possible to visualize both the filter and the feature maps. The filters are also an image that depicts a particular feature. Applying those filters lead to the feature maps. In essence, the shallower the layer is the more the feature map looks like the original input. In this article, I want to focus on the feature maps and their visualization as those give a nice impression on what the CNN "sees" and learns.
 
 
 
 ## Convolutional Layer Feature Maps
 
-So this is the original picture:
-![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
+
 
 The VGG19 model has the following structure and layers:
 
@@ -133,10 +132,13 @@ Trainable params: 20,024,384
 Non-trainable params: 0
 _________________________________________________________________
 ```
+So this is the original picture:
+![](https://images.unsplash.com/photo-1570731601191-d7effdc8f7cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
 
-Going through the different layers of the CNN we will can observe the results of different filtes being applied to the orgiginal. I will display it in a "hot" colormap. Simply because I think it highlights the features better than other colormaps.
 
-Note that the dimensions and number of filters change over the number of blocks. For simplicity I will plot only the 8*8 grids.
+Going through the different layers of the CNN we can observe the results of different filters being applied to the original. I will display it in a "hot" colormap. Simply because I think it highlights the features better than other colormaps.
+
+Note that the dimensions and number of filters change over the number of blocks. For simplicity, I will plot only the 8*8 grids.
 
 Lets have a look at the first convolutional layer of each block:
 
@@ -167,10 +169,10 @@ Lets have a look at the last convolutional layer of each block:
 ### What can we observe?
 
 Two things:
-1. we can clearly see that in deeper layers objects are detected. For example the isolated woman, but also a seat, the flag or even the colored seats stand out.
-2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings. It seems to be appealing to the eye because structure is broken with roundness. Elements of roundness that allow the observer to focus on this unique object rather than the similar seats.
+1. we can clearly see that in deeper layers objects are detected. For , the isolated woman, but also a seat, the flag, or even the colored seats stand out.
+2. A big part of what makes the image appealing is its structure itself. We can see how the woman in the picture brings softness in the very structured surroundings. It seems to be appealing to the eye because the structure is broken with roundness. Elements of roundness that allow the observer to focus on this unique object rather than the similar seats.
 
-In essence, we can see a quite interesting composition of an image. We have a lot of texture and structure provided through seats in a stadion, but a distortion of that structure in form of a human being. This guides the eyes of the observer directly to the protagonist of the image, namely the woman. It fits perfectly the storyline. I would say this is what distinguish a good picture from an excellent one. Backing up a story line through visualization.
+In essence, we can see a quite interesting composition of an image. We have a lot of texture and structure provided through seats in the arena, but a distortion of that structure in form of a human being. This guides the eyes of the observer directly to the protagonist of the image, namely the woman. It fits perfectly the storyline. I would say this is what distinguishes a good picture from an excellent one. Backing up a storyline through visualization.
 
 It is like a video that has perfectly cut music to its visual expression. See what I mean with this video:
 https://www.youtube.com/watch?v=pvK9bTsoaO0&ab_channel=ArthurMoore
@@ -183,7 +185,7 @@ At least those are my observations. What do you think? Let me know in the commen
 
 ### Features in grid
 
-On my research to visualize feature maps of CNN layers I often came to find tutorials and implemenations that offer insight on how to approach visualization but not following through to really see and understand what the images are showing.
+In my research to visualize feature maps of CNN layers I often came to find tutorials and implementations that offer insight on how to approach visualization but not following through to really see and understand what the images are showing.
 
 Multiple times you can things like those:
 
@@ -277,7 +279,7 @@ This leads to the 8*8 grid per layer:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
 
-The images are bigger and and can qickly spot what type you want to inspect in more detail. Especially in a jupyter notebook. One word of caution: If you render too many images with too much details in the grid, at some point, your notebook will crash.
+The images are bigger and can quickly spot what type you want to inspect in more detail. Especially in a jupyter notebook. One word of caution: If you render too many images with too many details in the grid, at some point, your notebook will crash.
 
 ### Features with notebook display
 
@@ -289,7 +291,7 @@ for index in range(feature_maps.shape[-1]):
         'RGB').resize(display_size))
 ```
 
-This would display the images in a grayscale.
+This would display the images in grayscale.
 If you want a specific color map you would need to do something like:
 
 ```py
@@ -310,16 +312,16 @@ for index in range(feature_maps.shape[-1]):
     display(im)
 ```
 
-Scrolling through them looks like this (I created a .gif file):
+Scrolling through them looks like this (as a .gif file):
 
 ![](../assets/block1_conv1_fm.gif)
 
-With the resize fuctionality it is possible to inspect all images at a proper size.
+With the resize functionality it is possible to inspect all images at a proper size.
 
 
 ## Bonus - a neural transfer approach
 
-In my previous aerticle [Neural Style Transfer — A high-level approach ](https://towardsdatascience.com/neural-style-transfer-a-high-level-approach-250d4414c56b) I provided an overview about neural style transfer. Using the ideas with the following style image.
+In my previous article [Neural Style Transfer — A high-level approach ](https://towardsdatascience.com/neural-style-transfer-a-high-level-approach-250d4414c56b) I provided an overview of neural style transfer. Using the ideas with the following style image.
 
 ![](https://images.unsplash.com/photo-1529869980459-ccdf511edf32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
 *Source https://unsplash.com/photos/Cj8h7-b47ko by JOSHUA COLEMAN*
@@ -332,7 +334,7 @@ would lead to an image like this:
 
 ## Inspiration
 
-Reading list on visualization of CNN layers (in no particular order):
+Reading list on the visualization of CNN layers (in no particular order):
 
 - https://towardsdatascience.com/visualising-filters-and-feature-maps-for-deep-learning-d814e13bd671#:~:text=The%20feature%20maps%20of%20a,what%20features%20our%20CNN%20detects.
 - https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
