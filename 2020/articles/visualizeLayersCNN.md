@@ -332,7 +332,8 @@ would lead to an image like this:
 
 ## Inspiration
 
-On visualization of CNN layers:
+Reading list on visualization of CNN layers (in no particular order):
+
 - https://towardsdatascience.com/visualising-filters-and-feature-maps-for-deep-learning-d814e13bd671#:~:text=The%20feature%20maps%20of%20a,what%20features%20our%20CNN%20detects.
 - https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
 - https://debuggercafe.com/visualizing-filters-and-feature-maps-in-convolutional-neural-networks-using-pytorch/
@@ -340,6 +341,7 @@ On visualization of CNN layers:
 - https://arxiv.org/pdf/1804.11191.pdf HOW CONVOLUTIONAL NEURAL NETWORKS SEE THE WORLD — A SURVEY OF CONVOLUTIONAL NEURAL NETWORK VISUALIZATION METHODS
 - https://www.deeplearningbook.org/contents/convnets.html
 - https://www.analyticsvidhya.com/blog/2019/05/understanding-visualizing-neural-networks/
+- https://towardsdatascience.com/convolutional-neural-network-feature-map-and-filter-visualization-f75012a5a49c
 
 
 ---
