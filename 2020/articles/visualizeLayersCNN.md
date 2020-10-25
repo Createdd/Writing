@@ -289,12 +289,10 @@ With the resize fuctionality it is possible to inspect all images at a proper si
 ## Bonus -  A neural transfer approach
 
 Style image
-![](../assets/visualizeLayersCNN_2020-10-22-16-22-51.png)
-*Soruce https://en.wikipedia.org/wiki/File:The_Persistence_of_Memory.jpg under free use license (low quality for the use of critical commentary on technique of the work of art*
 
-For the image I chose "The Persistence of Memory" (Spanish: La persistencia de la memoria), a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism.
 
-It is by far one of my favorit paintings and a great image for implementing style.
+
+
 
 ## Inspiration
 
