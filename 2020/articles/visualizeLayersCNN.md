@@ -187,18 +187,7 @@ At least those are my observations. What do you think? Let me know in the commen
 
 In my research to visualize feature maps of CNN layers I often came to find tutorials and implementations that offer insight on how to approach visualization but not following through to really see and understand what the images are showing.
 
-Multiple times you can things like those:
-
-![](../assets/visualizeLayersCNN_2020-10-22-11-06-21.png)
-from https://towardsdatascience.com/extract-features-visualize-filters-and-feature-maps-in-vgg16-and-vgg19-cnn-models-d2da6333edd0
-
-![](../assets/visualizeLayersCNN_2020-10-22-11-03-18.png)
-from https://towardsdatascience.com/visualising-filters-and-feature-maps-for-deep-learning-d814e13bd671#:~:text=The%20feature%20maps%20of%20a,what%20features%20our%20CNN%20detects
-
-![](../assets/visualizeLayersCNN_2020-10-22-11-04-22.png)
-https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/
-
-The approach to extract the images are great. I just always found them to be too small for actually making their point.
+Under my "inspiration" section you can find various implementations of visualizing the images. Often the approach to extract the images is great. I just always found them to be too small for actually making their point.
 
 If you follow already available solutions, you can do something like this:
 
@@ -229,14 +218,12 @@ model = Model(inputs=model.inputs, outputs=layer_dict[layer_name].output)
 
 feature_maps = model.predict(image)
 
-square = 8
+tiles = 8
 index = 1
 fig, ax = plt.subplots(figsize=(size, size))
-for _ in range(square):
-    for _ in range(square):
-
-
-        ax = plt.subplot(square, square, index)
+for _ in range(tiles):
+    for _ in range(tiles):
+        ax = plt.subplot(tiles, tiles, index)
         ax.set_xticks([])
         ax.set_yticks([])
 
@@ -257,14 +244,12 @@ for layer in layer_names:
     feature_maps = model.predict(image)
     print(feature_maps.shape)
 
-    square = 4
+    tiles = 8
     index = 1
     fig, ax = plt.subplots(figsize=(size, size))
-    for _ in range(square):
-        for _ in range(square):
-
-
-            ax = plt.subplot(square, square, index)
+    for _ in range(tiles):
+        for _ in range(tiles):
+            ax = plt.subplot(tiles, tiles, index)
             ax.set_xticks([])
             ax.set_yticks([])
 
