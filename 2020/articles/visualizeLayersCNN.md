@@ -19,7 +19,7 @@ The article shall on one side present what elements build a picture and also pro
   - [Visualize with code](#visualize-with-code)
     - [Features in grid](#features-in-grid)
     - [Features with notebook display](#features-with-notebook-display)
-  - [Bonus -  A neural transfer approach](#bonus---a-neural-transfer-approach)
+  - [Bonus - a neural transfer approach](#bonus---a-neural-transfer-approach)
   - [Inspiration](#inspiration)
   - [About](#about)
 
@@ -317,7 +317,7 @@ Scrolling through them looks like this (I created a .gif file):
 With the resize fuctionality it is possible to inspect all images at a proper size.
 
 
-## Bonus -  A neural transfer approach
+## Bonus - a neural transfer approach
 
 In my previous aerticle [Neural Style Transfer — A high-level approach ](https://towardsdatascience.com/neural-style-transfer-a-high-level-approach-250d4414c56b) I provided an overview about neural style transfer. Using the ideas with the following style image.
 
