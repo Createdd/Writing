@@ -164,7 +164,6 @@ Two things:
 2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings.
 
 
-![](../assets/block1_conv1_fm.gif)
 
 
 ## Visualize with code
@@ -215,7 +214,7 @@ for _ in range(square):
         ax.set_xticks([])
         ax.set_yticks([])
 
-        plt.imshow(feature_maps[0, :, :, index-1], aspect='auto', cmap='gray')
+        plt.imshow(feature_maps[0, :, :, index-1], aspect='auto', cmap='hot')
         index += 1
 
 plt.tight_layout()
@@ -243,12 +242,47 @@ for layer in layer_names:
             ax.set_xticks([])
             ax.set_yticks([])
 
-            plt.imshow(feature_maps[0, :, :, index-1], aspect='auto', cmap='gray')
+            plt.imshow(feature_maps[0, :, :, index-1], aspect='auto', cmap='hot')
             index += 1
 
     plt.tight_layout()
     plt.show()
 ```
+
+This leads to the following visulaizations per layer:
+
+![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
+
+The images are bigger and and can qickly spot what type you want to inspect in more detail.
+
+But let's say you want to display each image in full size image per image. Then the following would be helpful:
+
+```py
+for index in range(feature_maps.shape[-1]):
+    display(Image.fromarray(np.uint8(feature_maps[0, :, :, index])).convert(
+        'RGB').resize(display_size))
+```
+
+This would display the images in a grayscale.
+If you want a specific color map you would need to do something like:
+
+```py
+
+from matplotlib import cm
+cmap = cm.get_cmap('hot')
+
+for index in range(feature_maps.shape[-1]):
+    im = Image.fromarray(np.uint8(feature_maps[0, :, :, index])).convert('L').resize(display_size)
+    im = np.array(im)
+    im = cmap(im)
+    im = np.uint8(im * 255)
+    im = Image.fromarray(im).resize(display_size)
+    display(im)
+```
+Scrolling through them looks like this:
+
+![](../assets/block1_conv1_fm.gif)
+
 
 ## A neural transfer approach
 
