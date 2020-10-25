@@ -17,6 +17,8 @@ The article shall on one side present what elements build a picture and also pro
   - [Convolutional Layer Feature Maps](#convolutional-layer-feature-maps)
     - [What can we observe?](#what-can-we-observe)
   - [Visualize with code](#visualize-with-code)
+    - [Features in grid](#features-in-grid)
+    - [Features with notebook display](#features-with-notebook-display)
   - [Bonus -  A neural transfer approach](#bonus---a-neural-transfer-approach)
   - [Inspiration](#inspiration)
   - [About](#about)
@@ -134,13 +136,15 @@ _________________________________________________________________
 
 Going through the different layers of the CNN we will can observe the results of different filtes being applied to the orgiginal. I will display it in a "hot" colormap. Simply because I think it highlights the features better than other colormaps.
 
+Note that the dimensions and number of filters change over the number of blocks. For simplicity I will plot only the 8*8 grids.
+
 Lets have a look at the first convolutional layer of each block:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
 
-![](../assets/visualizeLayersCNN_2020-10-24-15-55-06.png)
-
 ![](../assets/visualizeLayersCNN_2020-10-24-15-55-29.png)
+
+![](../assets/visualizeLayersCNN_2020-10-25-17-40-22.png)
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-55-50.png)
 
@@ -163,8 +167,8 @@ Lets have a look at the last convolutional layer of each block:
 ### What can we observe?
 
 Two things:
-1. we can clearly see that in deeper layers objects are detected. Seeing the woman that is abstracted, but also a seat or the seats in the stadion.
-2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings.
+1. we can clearly see that in deeper layers objects are detected. For example the isolated woman, but also a seat, the flag or even the colored seats stand out.
+2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings. It seems to be appealing to the eye because structure is broken with roundness. Elements of roundness that allow the observer to focus on this unique object rather than the similar seats.
 
 In essence, we can see a quite interesting composition of an image. We have a lot of texture and structure provided through seats in a stadion, but a distortion of that structure in form of a human being. This guides the eyes of the observer directly to the protagonist of the image, namely the woman. It fits perfectly the storyline. I would say this is what distinguish a good picture from an excellent one. Backing up a story line through visualization.
 
@@ -172,10 +176,12 @@ It is like a video that has perfectly cut music to its visual expression. See wh
 https://www.youtube.com/watch?v=pvK9bTsoaO0&ab_channel=ArthurMoore
 
 
-
+At least those are my observations. What do you think? Let me know in the comments.
 
 
 ## Visualize with code
+
+### Features in grid
 
 On my research to visualize feature maps of CNN layers I often came to find tutorials and implemenations that offer insight on how to approach visualization but not following through to really see and understand what the images are showing.
 
@@ -190,11 +196,20 @@ from https://towardsdatascience.com/visualising-filters-and-feature-maps-for-dee
 ![](../assets/visualizeLayersCNN_2020-10-22-11-04-22.png)
 https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/
 
-The approach to extract the images are great. I need them bigger for proper examination though.
+The approach to extract the images are great. I just always found them to be too small for actually making their point.
 
-so if you follow already available solutions, you can do something like this:
+If you follow already available solutions, you can do something like this:
 
 ```py
+import numpy as np
+from keras.preprocessing.image import save_img, load_img, img_to_array
+from PIL import Image
+from keras.applications.vgg19 import preprocess_input
+from keras.models import Model
+from keras.applications import vgg19
+import matplotlib.pyplot as plt
+
+
 size = 224
 
 image = load_img(image_path).resize((size, size))
@@ -258,13 +273,15 @@ for layer in layer_names:
     plt.show()
 ```
 
-This leads to the following visulaizations per layer:
+This leads to the 8*8 grid per layer:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
 
-The images are bigger and and can qickly spot what type you want to inspect in more detail.
+The images are bigger and and can qickly spot what type you want to inspect in more detail. Especially in a jupyter notebook. One word of caution: If you render too many images with too much details in the grid, at some point, your notebook will crash.
 
-But let's say you want to display each image in full size image per image. Then the following would be helpful:
+### Features with notebook display
+
+Let's say you want to display each image in full size image per image. Then the following would be helpful:
 
 ```py
 for index in range(feature_maps.shape[-1]):
@@ -276,9 +293,13 @@ This would display the images in a grayscale.
 If you want a specific color map you would need to do something like:
 
 ```py
-
+from keras.preprocessing.image import img_to_array
+from IPython.display import display
+from PIL import Image
 from matplotlib import cm
+
 cmap = cm.get_cmap('hot')
+display_size = 1000, 1000
 
 for index in range(feature_maps.shape[-1]):
     im = Image.fromarray(np.uint8(feature_maps[0, :, :, index])).convert('L').resize(display_size)
@@ -288,6 +309,7 @@ for index in range(feature_maps.shape[-1]):
     im = Image.fromarray(im).resize(display_size)
     display(im)
 ```
+
 Scrolling through them looks like this (I created a .gif file):
 
 ![](../assets/block1_conv1_fm.gif)
@@ -304,10 +326,7 @@ In my previous aerticle [Neural Style Transfer — A high-level approach ](https
 
 would lead to an image like this:
 
-
-
-
-
+![](../assets/visualizeLayersCNN_unsplash_award_pop_art.gif)
 
 
 
