@@ -15,6 +15,7 @@ The article shall on one side present what elements build a picture and also pro
   - [The base image](#the-base-image)
   - [Using a VGG network](#using-a-vgg-network)
   - [Convolutional Layer Feature Maps](#convolutional-layer-feature-maps)
+    - [What can we observe?](#what-can-we-observe)
   - [Visualize with code](#visualize-with-code)
   - [Bonus -  A neural transfer approach](#bonus---a-neural-transfer-approach)
   - [Inspiration](#inspiration)
@@ -30,7 +31,7 @@ I do not consider myself an expert. If you have the feeling that I am missing im
 I am always happy for constructive input and how to improve.
 
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on 25-10-2020.
 I cannot monitor all my articles. There is a high probability that, when you read this article the tipps are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
@@ -131,6 +132,8 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
+Going through the different layers of the CNN we will can observe the results of different filtes being applied to the orgiginal. I will display it in a "hot" colormap. Simply because I think it highlights the features better than other colormaps.
+
 Lets have a look at the first convolutional layer of each block:
 
 ![](../assets/visualizeLayersCNN_2020-10-24-15-54-42.png)
@@ -157,11 +160,17 @@ Lets have a look at the last convolutional layer of each block:
 ![](../assets/visualizeLayersCNN_2020-10-24-16-12-17.png)
 
 
-What can we observe?
+### What can we observe?
 
 Two things:
 1. we can clearly see that in deeper layers objects are detected. Seeing the woman that is abstracted, but also a seat or the seats in the stadion.
 2. A big part of what makes the image appealing is its structure itself. We can see how the woman on the picture brings softness in the very structured surroundings.
+
+In essence, we can see a quite interesting composition of an image. We have a lot of texture and structure provided through seats in a stadion, but a distortion of that structure in form of a human being. This guides the eyes of the observer directly to the protagonist of the image, namely the woman. It fits perfectly the storyline. I would say this is what distinguish a good picture from an excellent one. Backing up a story line through visualization.
+
+It is like a video that has perfectly cut music to its visual expression. See what I mean with this video:
+https://www.youtube.com/watch?v=pvK9bTsoaO0&ab_channel=ArthurMoore
+
 
 
 
@@ -288,7 +297,15 @@ With the resize fuctionality it is possible to inspect all images at a proper si
 
 ## Bonus -  A neural transfer approach
 
-Style image
+In my previous aerticle [Neural Style Transfer — A high-level approach ](https://towardsdatascience.com/neural-style-transfer-a-high-level-approach-250d4414c56b) I provided an overview about neural style transfer. Using the ideas with the following style image.
+
+![](https://images.unsplash.com/photo-1529869980459-ccdf511edf32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)
+*Source https://unsplash.com/photos/Cj8h7-b47ko by JOSHUA COLEMAN*
+
+would lead to an image like this:
+
+
+
 
 
 
