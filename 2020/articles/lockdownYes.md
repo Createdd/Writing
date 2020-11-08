@@ -11,7 +11,11 @@ Most countries experience another lockdown or variation of it. As many consider 
   - [Disclaimer and current situation](#disclaimer-and-current-situation)
   - [Lockdown as Limitation; Limitation as Clarification](#lockdown-as-limitation-limitation-as-clarification)
   - [Experimentation as Opportunity](#experimentation-as-opportunity)
-  - [Physicial](#physicial)
+  - [Physical Health](#physical-health)
+    - [Regarding 1.](#regarding-1)
+    - [Regarding 2.](#regarding-2)
+  - [Mental health](#mental-health)
+    - [Regarding being alone](#regarding-being-alone)
   - [About](#about)
 
 ## Disclaimer and current situation
@@ -31,10 +35,11 @@ This leads to the following situation:
 - all my university assignments are either reading, programming, or online meetings. Again, in front of a computer
 - Vienna currently has a variation of lockdown in place, which does not allow to leave the apartment after 8pm, moving or meeting in public is restricted, spare-time services like a gym are closed, restaurant and bars only allow to-go services
 - Vienna was also recently hit by a terror attack, before the lockdown rules were in force
+- I live alone in my apartment and don't have a family I have to take care of
 
-In this article I want to address various aspects of being in lockdown. And illustrate how I handle it from a health perspective. I do this because I was asked several times by friends and maybe it helps others as well.
+In this article I want to address various aspects of being in lockdown. And illustrate how I handle it from a mental perspective. I do this because I was asked several times by friends and maybe it helps others as well.
 
-I will split this into mental and physical health aspects. It is merely a way I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
+I will split this into mental and physical health aspects. It is merely a way how I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
 
 ## Lockdown as Limitation; Limitation as Clarification
 
@@ -79,14 +84,43 @@ Again, see for yourself where you can experiment with your lifestyle choices dur
 
 
 
+## Physical Health
+
+Physical health is one of the first things that come to mind thinking about a lockdown. The new challenge is to find ways of being active, when sport facilities are closed and the general opinion is "to stay at home".
+
+What I have seen so far there are two critical things to consider:
+1. Being/staying healthy being isolated at home
+2. Activating the body in a new way
+
+### Regarding 1.
+
+The new reality is that you are tied to your home all the time. You don't have access to facilities you are used to. Nearly all your activity evolve around your computer. This imposes
+- being glued to the computer
+- less overall movement
+
+Being all day in front of a computer is a problem for the body, because you sit for many hours in a certain position to accomplish your day. Now the opportunity arises to change the way you pursue your computer activity. Transforming into a standing desk (by placing a chair on my table) is one way to avoid sitting. Make sure to have enough breaks from all the screen watching. Trying to do smaller non-computer tasks between helps to reduce strain on eyes and gets your body out of the static standing/sitting position.
+
+For me switching to a standing desk situation worked wonders.
+
+### Regarding 2.
+
+The other issues stems from less overall movement. Normally you would travel to the office, going for food, going to meetings, etc. All those movements are reduced to walk from the kitchen to the living room (or something similar). This sometimes dramatic change in movement leads to various health issues. Therefore a new way for moving the body needs to be implemented to cope with this stress.
+
+As mentioned before, getting some outdoor walks is a great way that can be combined to also meet people. Walking is also a great activity because you can evcen do it when you are not in perfect physical health. Apart from that experimenting at home with new ways of movement. You shall not be limited with traditional approaches. Check out Ido Portal to get inspiration. Yet again, the limitation allows you to explore new and even more efficient ways of handling life. You don't need to spend time traveling but rather just get the amount of time necessary for your body.
+
+## Mental health
+
+This is of course a little bit more complex and can not be covered in an article like this. However, I want to address problems I have encountered most often:
+1. Being alone
+2. Developing fear over the pandamic
+3. Developing other fears
+4. Getting bored
+5. Feeling unimportant
+6. 2020 is a bad year
+
+### Regarding being alone
 
 
-
-## Physicial
-
-I want to start with the physical aspects, because they seem to be easier to deal with, as many can at least acknowledge issues in this area.
-
-As mentioned in the disclaimer, I work as a programmer and have not ideal physical health right now.
 
 
 ---
