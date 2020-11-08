@@ -56,11 +56,28 @@ So what we can do is to use this limit as a limit test for our behavior. Example
 From my experience I enjoy the limitation of food for example. During normal times I am used to go out and eat at a restaurant at least once a day. May it be convenience or because I combine it with meeting people. Living in a big city I have hundreds of options on what to eat. The type of food, the quality. I indulge in this freedom and enjoy it a lot. Yet, I am happy to make this clear in times of lockdown. I consciously choose to eat very simple food. For example soup of oats. Not many spices. This is great for re-calibrating my taste and appreciating the previous freedom.
 
 Another example from my life is the amount of consumption and the need for doing things. I am quite busy. To a degree being busy is a task in its own.
-Now I deliberately take time to just be. Few minutes. Not accomplishing something. Not consuming something. Just being. This goes in the direction of meditation, but for now I don't even label it. I simply exist as part of the limitation. The limitation that shows me what has changed to the previous lifestyle and how my mind creates its own reality of what life is. Therefore the limitation is the freeing of myself and allows me to grow in my personality.
+Now I deliberately take time to just be. Few minutes. Not accomplishing something. Not consuming something. Just being. This goes in the direction of meditation, but for now I don't even label it. I simply exist as part of the limitation. The limitation that shows me what has changed to the previous lifestyle and how my mind creates its own reality of what life is. Therefore the limitation is the freeing of myself and allows me to grow in my personality. I am able to see more clearly what has been to see myself in the now.
 
+There are many more examples. It is best for you to think about yourself and see where the limitation is in fact a clarification for you.
 
 
 ## Experimentation as Opportunity
+
+Another great thing of the restrictions are the possibility to explore the unknown. As the space of opportunity is narrowed down a bit (we shall be at home as much as possible) we can spark creativity within the new reality. It is a fantastic way of experimenting with new ideas. Some of those ideas might be necessary to make the isolation bearable, other ideas might be just for exploring something you didn't have the time to do before.
+
+For me one experiment with adaption was to go for walks with people. Previously my meetings where in cafes or restaurants. Now, as (distance) walks are the only option to see people in real life, I came to the conclusion that those walks are quite beneficial for the overall system. Having a job where I sit all day demands some sort of movement in between. This is perfectly done after lunch for example. Doing my walks after lunch allow me to
+- meet people in real life
+- help me digest the food I ate
+- get some movement and blood circulation for improved health
+- get some sun (which is more and more important in the approaching winter season)
+- get some fresh air
+- calibrate myself for a good afternoon
+
+As this practice has emerged through the first lockdown in spring; I continued to do it in the less restrictive times through summer just because the benefits are quite nice for me.
+
+Again, see for yourself where you can experiment with your lifestyle choices during lockdown and you may benefit in the same way as I did so far.
+
+
 
 
 
