@@ -8,10 +8,11 @@ Most countries experience another lockdown or variation of it. As many consider 
 
 - [Another lockdown? Yes!](#another-lockdown-yes)
   - [Table of Contents](#table-of-contents)
-- [Disclaimer and current situation](#disclaimer-and-current-situation)
+  - [Disclaimer and current situation](#disclaimer-and-current-situation)
+  - [Physicial](#physicial)
   - [About](#about)
 
-# Disclaimer and current situation
+## Disclaimer and current situation
 
 This was written on XXXXXXXDATEXXXXXXXXXX.
 
@@ -19,7 +20,7 @@ If you need more information on certain parts, feel free to point it out in the 
 
 First, I want to illustrate my situation right now. This will be helpful in understanding why I chose certain solutions for my lifestyle but also why I came to those conclusions.
 
-I currently live in Vienna, study at a university (remotely), work part-time, do various projects on the side. My health is not quite optimal as I was recently diagnosed with a disc prolapse (probably from doing too much sport).
+I currently live in Vienna, study at a university (remotely), work part-time, do various projects on the side. I am in my twenties, have a university degree, and always did a lot of sport (at least every second day). Right now, my health is not quite optimal as I was recently diagnosed with a disc prolapse (probably from doing too much sport).
 
 This leads to the following situation:
 - regarding my employment I am a 100% at home office
@@ -31,10 +32,14 @@ This leads to the following situation:
 
 In this article I want to address various aspects of being in lockdown. And illustrate how I handle it from a health perspective. I do this because I was asked several times by friends and maybe it helps others as well.
 
-I will split this into mental and physical health aspects. It is merely a way I deal with the situation. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related.
+I will split this into mental and physical health aspects. It is merely a way I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
 
 
-##
+## Physicial
+
+I want to start with the physical aspects, because they seem to be easier to deal with, as many can at least acknowledge issues in this are.
+
+As mentioned in the disclaimer, I work as a programmer and have not ideal physical health right now.
 
 
 ---
