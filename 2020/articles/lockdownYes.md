@@ -9,6 +9,8 @@ Most countries experience another lockdown or variation of it. As many consider 
 - [Another lockdown? Yes!](#another-lockdown-yes)
   - [Table of Contents](#table-of-contents)
   - [Disclaimer and current situation](#disclaimer-and-current-situation)
+  - [Lockdown as Limitation; Limitation as Clarification](#lockdown-as-limitation-limitation-as-clarification)
+  - [Experimentation as Opportunity](#experimentation-as-opportunity)
   - [Physicial](#physicial)
   - [About](#about)
 
@@ -34,10 +36,38 @@ In this article I want to address various aspects of being in lockdown. And illu
 
 I will split this into mental and physical health aspects. It is merely a way I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
 
+## Lockdown as Limitation; Limitation as Clarification
+
+A lockdown implies certain restrictions. May it be in restricting your freedom of spending your leisure time, meeting people, or just following your routine.
+
+As human beings are creatures of habit, measurements that disrupt our habits are considered as bad. Yet, maybe it are those restrictions that may free us from bad habits? Maybe they are not bad but at least there is the opportunity to check whether a current lifestyle habit is good or bad.
+
+In this essence, the restriction is the chance to monitor our normal behavior. The limitation shows what we are used to and what we are addicted to. Putting the behavior in the spotlight is one aspect. The other one is how we deal with it.
+
+Limitation is very fruitful. Like a plant that cannot grow with too much water, it needs limitation as much as we human need limitation of our own excesses.
+
+So what we can do is to use this limit as a limit test for our behavior. Examples for those limits can be:
+- amount and variety of food
+- number of meetings with people
+- consumption of media
+- number of tasks that are completed during the day
+- many more
+
+From my experience I enjoy the limitation of food for example. During normal times I am used to go out and eat at a restaurant at least once a day. May it be convenience or because I combine it with meeting people. Living in a big city I have hundreds of options on what to eat. The type of food, the quality. I indulge in this freedom and enjoy it a lot. Yet, I am happy to make this clear in times of lockdown. I consciously choose to eat very simple food. For example soup of oats. Not many spices. This is great for re-calibrating my taste and appreciating the previous freedom.
+
+Another example from my life is the amount of consumption and the need for doing things. I am quite busy. To a degree being busy is a task in its own.
+Now I deliberately take time to just be. Few minutes. Not accomplishing something. Not consuming something. Just being. This goes in the direction of meditation, but for now I don't even label it. I simply exist as part of the limitation. The limitation that shows me what has changed to the previous lifestyle and how my mind creates its own reality of what life is. Therefore the limitation is the freeing of myself and allows me to grow in my personality.
+
+
+
+## Experimentation as Opportunity
+
+
+
 
 ## Physicial
 
-I want to start with the physical aspects, because they seem to be easier to deal with, as many can at least acknowledge issues in this are.
+I want to start with the physical aspects, because they seem to be easier to deal with, as many can at least acknowledge issues in this area.
 
 As mentioned in the disclaimer, I work as a programmer and have not ideal physical health right now.
 
