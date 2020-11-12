@@ -12,10 +12,9 @@ Most countries experience another lockdown or variation of it. As many consider 
   - [Lockdown as Limitation; Limitation as Clarification](#lockdown-as-limitation-limitation-as-clarification)
   - [Experimentation as Opportunity](#experimentation-as-opportunity)
   - [Physical Health](#physical-health)
-    - [Regarding 1.](#regarding-1)
-    - [Regarding 2.](#regarding-2)
+    - [Regarding isolation at home](#regarding-isolation-at-home)
+    - [Regarding body activation](#regarding-body-activation)
   - [Mental health](#mental-health)
-    - [Regarding being alone](#regarding-being-alone)
   - [About](#about)
 
 ## Disclaimer and current situation
@@ -39,7 +38,7 @@ This leads to the following situation:
 
 In this article I want to address various aspects of being in lockdown. And illustrate how I handle it from a mental perspective. I do this because I was asked several times by friends and maybe it helps others as well.
 
-I will split this into mental and physical health aspects. It is merely a way how I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
+I will split this into mental and physical health aspects. My writings are merely a way how I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
 
 ## Lockdown as Limitation; Limitation as Clarification
 
@@ -83,7 +82,6 @@ As this practice has emerged through the first lockdown in spring; I continued t
 Again, see for yourself where you can experiment with your lifestyle choices during lockdown and you may benefit in the same way as I did so far.
 
 
-
 ## Physical Health
 
 Physical health is one of the first things that come to mind thinking about a lockdown. The new challenge is to find ways of being active, when sport facilities are closed and the general opinion is "to stay at home".
@@ -92,7 +90,7 @@ What I have seen so far there are two critical things to consider:
 1. Being/staying healthy being isolated at home
 2. Activating the body in a new way
 
-### Regarding 1.
+### Regarding isolation at home
 
 The new reality is that you are tied to your home all the time. You don't have access to facilities you are used to. Nearly all your activity evolve around your computer. This imposes
 - being glued to the computer
@@ -102,7 +100,7 @@ Being all day in front of a computer is a problem for the body, because you sit 
 
 For me switching to a standing desk situation worked wonders.
 
-### Regarding 2.
+### Regarding body activation
 
 The other issues stems from less overall movement. Normally you would travel to the office, going for food, going to meetings, etc. All those movements are reduced to walk from the kitchen to the living room (or something similar). This sometimes dramatic change in movement leads to various health issues. Therefore a new way for moving the body needs to be implemented to cope with this stress.
 
@@ -110,17 +108,40 @@ As mentioned before, getting some outdoor walks is a great way that can be combi
 
 ## Mental health
 
-This is of course a little bit more complex and can not be covered in an article like this. However, I want to address problems I have encountered most often:
+This is of course a little bit more complex and can not be covered in an article like this. However, I want to address problems I have encountered most often, and elaborate on how I deal with it:
 1. Being alone
-2. Developing fear over the pandamic
+2. Developing fear over the pandemic
 3. Developing other fears
 4. Getting bored
 5. Feeling unimportant
 6. 2020 is a bad year
 
-### Regarding being alone
 
+Being alone is encountered very often in isolation. When you read certain psychology books you can come to the realization that social interaction can, in fact, be a very important part in mental health. Being forced to be at home, and sometimes this means to be alone, and also not having opportunity to meet in public places is quite a strong restriction for this health aspect.
 
+One solution is, of course, meeting online. You can see each other via videochat or talk on the phone. This already does it for some people.
+
+I personally do not have any pleasure in doing this. As I spent much time in front of the computer I want to get away from it as often as possible. As I mentioned before, going outside and meeting for distance walks (keeping social distance requirement of >= 1 meter) helps a lot. This way I can see and meet everyone and keep in touch with real beings in front of me.
+
+Another issue is the development of certain fears. This depends heavily on your type of personality. Some people are fearful, others aren't. Being exposed to various threats all day long encourages the development of lots of thought processes. Those often trigger development of fear scenarios. Have a fear management technique might be useful, but can be hard to train during this situation.
+
+What helps me, apart from doing quite a lot of meditation and having dealt with fear before, is to restrict the consumption of media. Media makes money with emotion. Fear being one of them, and a very strong one. So, sticking to a media page that provides validated news regarding the crisis is crucial for staying sane in this times. This works for the pandemic information but also any other threat. As we had a terrorist attack in Vienna, it became very clear to me that you should only consume one reliable source of information and avoid emotion-inflated sources.
+
+Some people get bored in quarantine. This is a scenario I can not understand. My personality doesn't allow me to be bored. It is something that is truthfully alien to me. However, if you are bored I would suggest to:
+- search and try out a new hobby,
+- learn something new (books, internet, etc)
+- build something
+- express yourself in some way (music, art, etc)
+- learn about yourself with meditation or experimentation (as mentioned above)
+
+Feeling unimportant sometimes goes hand in hand with being bored. This is especially the case if you are alone and do not have a job. I think, in general, having a job is a great cure for many problems related with the psyche. Therefore I would always stay on top of my application process and always keep applying to jobs. Every day.
+Feeling of unimportance is often deeper rooted. One first needs to identify what is important to oneself to cure this problem. Quite often, importance can be derived from providing value to the community. So this is what I would do. Either searching for ways to help others, or building towards ways to do something like that (eg developing a product or service in terms of self-employment).
+
+Last thing is the often phrased "2020 is a bad year". First of all, I would dismiss this attitude overall. Because the events happen as they do. Calling them "bad" doesn't make it any different. It only makes your mental health bad. Instead it is helpful to welcome the new challenges. Humans are the number one species in the world because they were able to adapt to difficulties. Hence, it is actually events like this that let us shine and allow us to show our strengths.
+
+If you cannot relate to anything I have mentioned but still feel bad there are some hotlines and places you can look for that provide mental help. Some services are even developed for the pandemic crisis.
+
+I would always put health first. May it be physical or mental. Ultimately your consciousness is limited to it.
 
 
 ---
