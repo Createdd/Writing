@@ -1,4 +1,4 @@
-# Another lockdown? Yes!
+# Another lockdown? Yes, I am enjoying it!
 
 ![](https://images.unsplash.com/photo-1526543442223-5782117b0235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1020&q=80)
 Original by https://unsplash.com/photos/uDrSKh_z-SE
@@ -7,7 +7,7 @@ Most countries experience another lockdown or variation of it. As many consider 
 
 ## Table of Contents
 
-- [Another lockdown? Yes!](#another-lockdown-yes)
+- [Another lockdown? Yes, I am enjoying it!](#another-lockdown-yes-i-am-enjoyingit)
   - [Table of Contents](#table-of-contents)
   - [Disclaimer and current situation](#disclaimer-and-current-situation)
   - [Lockdown as Limitation; Limitation as Clarification](#lockdown-as-limitation-limitation-as-clarification)
