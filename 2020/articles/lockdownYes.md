@@ -2,7 +2,7 @@
 
 ![]()
 
-Most countries experience another lockdown or variation of it. As many consider 2020 one of the baddest in their lives, I would like to propose otherwsise. Read why.
+Most countries experience another lockdown or variation of it. As many consider 2020 one of the worst in their lives, I would like to propose otherwise. Read why.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Most countries experience another lockdown or variation of it. As many consider 
 
 ## Disclaimer and current situation
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on 13-11-2020.
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
@@ -44,11 +44,11 @@ I will split this into mental and physical health aspects. My writings are merel
 
 A lockdown implies certain restrictions. May it be in restricting your freedom of spending your leisure time, meeting people, or just following your routine.
 
-As human beings are creatures of habit, measurements that disrupt our habits are considered as bad. Yet, maybe it are those restrictions that may free us from bad habits? Maybe they are not bad but at least there is the opportunity to check whether a current lifestyle habit is good or bad.
+As human beings are creatures of habit, measurements that disrupt our habits are considered as bad. Yet, maybe it is those restrictions that may free us from bad habits? Maybe they are not bad but at least there is the opportunity to check whether a current lifestyle habit is good or bad.
 
 In this essence, the restriction is the chance to monitor our normal behavior. The limitation shows what we are used to and what we are addicted to. Putting the behavior in the spotlight is one aspect. The other one is how we deal with it.
 
-Limitation is very fruitful. Like a plant that cannot grow with too much water, it needs limitation as much as we human need limitation of our own excesses.
+Limitation is very fruitful. Like a plant that cannot grow with too much water, it needs limitation as much as we humans need limitation of our own excesses.
 
 So what we can do is to use this limit as a limit test for our behavior. Examples for those limits can be:
 - amount and variety of food
@@ -57,9 +57,9 @@ So what we can do is to use this limit as a limit test for our behavior. Example
 - number of tasks that are completed during the day
 - many more
 
-From my experience I enjoy the limitation of food for example. During normal times I am used to go out and eat at a restaurant at least once a day. May it be convenience or because I combine it with meeting people. Living in a big city I have hundreds of options on what to eat. The type of food, the quality. I indulge in this freedom and enjoy it a lot. Yet, I am happy to make this clear in times of lockdown. I consciously choose to eat very simple food. For example soup of oats. Not many spices. This is great for re-calibrating my taste and appreciating the previous freedom.
+From my experience, I enjoy the limitation of food for example. During normal times I am used to go out and eat at a restaurant at least once a day. May it be convenience or because I combine it with meeting people. Living in a big city I have hundreds of options on what to eat. The type of food, the quality. I indulge in this freedom and enjoy it a lot. Yet, I am happy to make this clear in times of lockdown. I consciously choose to eat very simple food. For example soup of oats. Not many spices. This is great for re-calibrating my taste and appreciating the previous freedom.
 
-Another example from my life is the amount of consumption and the need for doing things. I am quite busy. To a degree being busy is a task in its own.
+Another example from my life is the amount of consumption and the need for doing things. I am quite busy. To a degree being busy is a task on its own.
 Now I deliberately take time to just be. Few minutes. Not accomplishing something. Not consuming something. Just being. This goes in the direction of meditation, but for now I don't even label it. I simply exist as part of the limitation. The limitation that shows me what has changed to the previous lifestyle and how my mind creates its own reality of what life is. Therefore the limitation is the freeing of myself and allows me to grow in my personality. I am able to see more clearly what has been to see myself in the now.
 
 There are many more examples. It is best for you to think about yourself and see where the limitation is in fact a clarification for you.
@@ -67,15 +67,15 @@ There are many more examples. It is best for you to think about yourself and see
 
 ## Experimentation as Opportunity
 
-Another great thing of the restrictions are the possibility to explore the unknown. As the space of opportunity is narrowed down a bit (we shall be at home as much as possible) we can spark creativity within the new reality. It is a fantastic way of experimenting with new ideas. Some of those ideas might be necessary to make the isolation bearable, other ideas might be just for exploring something you didn't have the time to do before.
+Another great thing about the restrictions is the possibility to explore the unknown. As the space of opportunity is narrowed down a bit (we shall be at home as much as possible) we can spark creativity within the new reality. It is a fantastic way of experimenting with new ideas. Some of those ideas might be necessary to make the isolation bearable, other ideas might be just for exploring something you didn't have the time to do before.
 
-For me one experiment with adaption was to go for walks with people. Previously my meetings where in cafes or restaurants. Now, as (distance) walks are the only option to see people in real life, I came to the conclusion that those walks are quite beneficial for the overall system. Having a job where I sit all day demands some sort of movement in between. This is perfectly done after lunch for example. Doing my walks after lunch allow me to
+For me one experiment with adaption was to go for walks with people. Previously my meetings were in cafes or restaurants. Now, as (distance) walks are the only option to see people in real life, I came to the conclusion that those walks are quite beneficial for the overall system. Having a job where I sit all day demands some sort of movement in between. This is perfectly done after lunch for example. Doing my walks after lunch allow me to
 - meet people in real life
 - help me digest the food I ate
 - get some movement and blood circulation for improved health
 - get some sun (which is more and more important in the approaching winter season)
 - get some fresh air
-- calibrate myself for a good afternoon
+- calibrate me for a good afternoon
 
 As this practice has emerged through the first lockdown in spring; I continued to do it in the less restrictive times through summer just because the benefits are quite nice for me.
 
@@ -102,9 +102,9 @@ For me switching to a standing desk situation worked wonders.
 
 ### Regarding body activation
 
-The other issues stems from less overall movement. Normally you would travel to the office, going for food, going to meetings, etc. All those movements are reduced to walk from the kitchen to the living room (or something similar). This sometimes dramatic change in movement leads to various health issues. Therefore a new way for moving the body needs to be implemented to cope with this stress.
+The other issues stem from less overall movement. Normally you would travel to the office, going for food, going to meetings, etc. All those movements are reduced to walk from the kitchen to the living room (or something similar). This sometimes dramatic change in movement leads to various health issues. Therefore a new way of moving the body needs to be implemented to cope with this stress.
 
-As mentioned before, getting some outdoor walks is a great way that can be combined to also meet people. Walking is also a great activity because you can evcen do it when you are not in perfect physical health. Apart from that experimenting at home with new ways of movement. You shall not be limited with traditional approaches. Check out Ido Portal to get inspiration. Yet again, the limitation allows you to explore new and even more efficient ways of handling life. You don't need to spend time traveling but rather just get the amount of time necessary for your body.
+As mentioned before, getting some outdoor walks is a great way that can be combined to also meet people. Walking is also a great activity because you can even do it when you are not in perfect physical health. Apart from that experimenting at home with new ways of movement. You shall not be limited to traditional approaches. Check out Ido Portal to get inspiration. Yet again, the limitation allows you to explore new and even more efficient ways of handling life. You don't need to spend time traveling but rather just get the amount of time necessary for your body.
 
 ## Mental health
 
@@ -117,27 +117,27 @@ This is of course a little bit more complex and can not be covered in an article
 6. 2020 is a bad year
 
 
-Being alone is encountered very often in isolation. When you read certain psychology books you can come to the realization that social interaction can, in fact, be a very important part in mental health. Being forced to be at home, and sometimes this means to be alone, and also not having opportunity to meet in public places is quite a strong restriction for this health aspect.
+Being alone is encountered very often in isolation. When you read certain psychology books you can come to the realization that social interaction can, in fact, be a very important part of mental health. Being forced to be at home, and sometimes this means to be alone, and also not having opportunity to meet in public places is quite a strong restriction for this health aspect.
 
 One solution is, of course, meeting online. You can see each other via videochat or talk on the phone. This already does it for some people.
 
-I personally do not have any pleasure in doing this. As I spent much time in front of the computer I want to get away from it as often as possible. As I mentioned before, going outside and meeting for distance walks (keeping social distance requirement of >= 1 meter) helps a lot. This way I can see and meet everyone and keep in touch with real beings in front of me.
+I personally do not have any pleasure in doing this. As I spent a lot of time in front of the computer I want to get away from it as often as possible. As I mentioned before, going outside and meeting for distance walks (keeping social distance requirement of >= 1 meter) helps a lot. This way I can see and meet everyone and keep in touch with real beings in front of me.
 
 Another issue is the development of certain fears. This depends heavily on your type of personality. Some people are fearful, others aren't. Being exposed to various threats all day long encourages the development of lots of thought processes. Those often trigger development of fear scenarios. Have a fear management technique might be useful, but can be hard to train during this situation.
 
-What helps me, apart from doing quite a lot of meditation and having dealt with fear before, is to restrict the consumption of media. Media makes money with emotion. Fear being one of them, and a very strong one. So, sticking to a media page that provides validated news regarding the crisis is crucial for staying sane in this times. This works for the pandemic information but also any other threat. As we had a terrorist attack in Vienna, it became very clear to me that you should only consume one reliable source of information and avoid emotion-inflated sources.
+What helps me, apart from doing quite a lot of meditation and having dealt with fear before, is to restrict the consumption of media. Media makes money with emotion. Fear being one of them, and a very strong one. So, sticking to a media page that provides validated news regarding the crisis is crucial for staying sane in these times. This works for the pandemic information but also any other threat. As we had a terrorist attack in Vienna, it became very clear to me that you should only consume one reliable source of information and avoid emotion-inflated sources.
 
-Some people get bored in quarantine. This is a scenario I can not understand. My personality doesn't allow me to be bored. It is something that is truthfully alien to me. However, if you are bored I would suggest to:
+Some people get bored in quarantine. This is a scenario I can not understand. My personality doesn't allow me to be bored. It is something that is truly alien to me. However, if you are bored I would suggest to:
 - search and try out a new hobby,
 - learn something new (books, internet, etc)
 - build something
 - express yourself in some way (music, art, etc)
 - learn about yourself with meditation or experimentation (as mentioned above)
 
-Feeling unimportant sometimes goes hand in hand with being bored. This is especially the case if you are alone and do not have a job. I think, in general, having a job is a great cure for many problems related with the psyche. Therefore I would always stay on top of my application process and always keep applying to jobs. Every day.
+Feeling unimportant sometimes goes hand in hand with being bored. This is especially the case if you are alone and do not have a job. I think, in general, having a job is a great cure for many problems related to the psyche. Therefore I would always stay on top of my application process and always keep applying to jobs. Every day.
 Feeling of unimportance is often deeper rooted. One first needs to identify what is important to oneself to cure this problem. Quite often, importance can be derived from providing value to the community. So this is what I would do. Either searching for ways to help others, or building towards ways to do something like that (eg developing a product or service in terms of self-employment).
 
-Last thing is the often phrased "2020 is a bad year". First of all, I would dismiss this attitude overall. Because the events happen as they do. Calling them "bad" doesn't make it any different. It only makes your mental health bad. Instead it is helpful to welcome the new challenges. Humans are the number one species in the world because they were able to adapt to difficulties. Hence, it is actually events like this that let us shine and allow us to show our strengths.
+Last thing is the often phrased "2020 is a bad year". First of all, I would dismiss this attitude overall. Because the events happen as they do. Calling them "bad" doesn't make it any different. It only makes your mental health worse. Instead, it is helpful to welcome  new challenges. Humans are the number one species in the world because they were able to adapt to difficulties. Hence, it is actually events like this that let us shine and allow us to show our strengths.
 
 If you cannot relate to anything I have mentioned but still feel bad there are some hotlines and places you can look for that provide mental help. Some services are even developed for the pandemic crisis.
 
