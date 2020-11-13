@@ -1,6 +1,7 @@
 # Another lockdown? Yes!
 
-![]()
+![](https://images.unsplash.com/photo-1526543442223-5782117b0235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1020&q=80)
+Original by https://unsplash.com/photos/uDrSKh_z-SE
 
 Most countries experience another lockdown or variation of it. As many consider 2020 one of the worst in their lives, I would like to propose otherwise. Read why.
 
@@ -166,5 +167,9 @@ You can support me on https://www.buymeacoffee.com/createdd
 - [Twitter](https://twitter.com/_createdd)
 - [Instagram](https://www.instagram.com/create.dd/)
 - [createdd.com](https://www.createdd.com/)
+
+Art-related:
+- [Medium/the-art-of-art](https://medium.com/the-art-of-art)
+- [Instagram/art_and_ai](https://www.instagram.com/art_and_ai/)
 
 <!-- Written by Daniel Deutsch -->
