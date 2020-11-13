@@ -1,7 +1,7 @@
 # Another lockdown? Yes, I am enjoying it!
 
 ![](https://images.unsplash.com/photo-1526543442223-5782117b0235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1020&q=80)
-Original by https://unsplash.com/photos/uDrSKh_z-SE
+Original Photo by Kaloyan Draganov https://unsplash.com/photos/uDrSKh_z-SE
 
 Most countries experience another lockdown or variation of it. As many consider 2020 one of the worst in their lives, I would like to propose otherwise. Read why.
 
