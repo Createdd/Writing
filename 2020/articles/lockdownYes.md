@@ -42,7 +42,8 @@ In this article I want to address various aspects of being in lockdown. And illu
 I will split this into mental and physical health aspects. My writings are merely a way how I deal with the situation. The idea of the style of writing is the motivational aspect of dealing with difficult situations. Everything that is discussed and described stems from my own experience and awareness. I have no education in the field of health or anything related. Therefore it is not intended to be advice for living a certain way.
 
 ![](https://images.unsplash.com/photo-1518776139882-8534d0198d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80)
-*Source https://unsplash.com/photos/F5uMqm4gGBo*
+
+*Source https://unsplash.com/photos/F5uMqm4gGBo Photo by Ari Spada*
 
 ## Lockdown as Limitation; Limitation as Clarification
 
