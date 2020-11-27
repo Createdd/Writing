@@ -6,24 +6,14 @@
 *Photo by Arthur V. on https://unsplash.com/photos/b5zOkA3swe8*
 
 
-## Table of Contents
-
 # Disclaimer
 
-I am not associated with any of the services I use in this article.
-
-I do not consider myself an expert. I am not a blogger or something. I merely document things beside doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
-
-I am always happy for constructive input and how to improve.
-
-
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on 27-11-2020.
 I cannot monitor all my articles. There is a high probability that, when you read this article the tipps are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-## How
-
+# How
 
 The original image is this:
 
@@ -38,7 +28,7 @@ I wonder what an AI would transform it to when supplied with various style ideas
 2. the styles of images and
 3. brings both together
 
-## Styled
+# Styled
 
 Here are the results. You can guess what style inspiration was used for the AI.
 
@@ -56,7 +46,7 @@ Here are the results. You can guess what style inspiration was used for the AI.
 
 ---
 
-## About
+# About
 
 Daniel is an entrepreneur, software developer, and business law graduate. He has worked at various IT companies, tax advisory, management consulting, and at the Austrian court.
 
