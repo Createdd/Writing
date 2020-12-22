@@ -39,6 +39,43 @@ So, this understanding is very helpful to me. I do not give advise any more. I o
 
 I also came to understand that this is neither good nor bad. I stopped judging those realities. It can be quit interesting to spice up life with fictional drama. Because what is ultimately the purpose of life? Running in the system like a sheep? I don't think so. So why not build your own reality and enjoying it in this short time on earth.
 
+## Second biggest takeaway
+
+In addition to the previous understanding, the pandemic showed my that I can cluster the people in two basic types. First, the ones that are poor victims in this crucial bad world, and second, the ones that simply enjoy it no matter what.
+
+It is closely related to the first understanding.For me however, there came the understanding that you will never change those types of people. It is in fact my decision if I want the victim type of people in my life. And I do. To some degree. They balance your own life. However, one should not have the close circle with those people. As at some point they will draw you into their miserable lives (from my perspective).
+
+So, what I like to do is to focus on the people that are "successful", "happy", "humble", "grateful". People that have attributes like these. Because as I mentioned above, it IS their reality. The unsuccessful ones will remain unsuccessful. Not because the are like this, but because they build their reality around it. Often the key attribute here is the factor "openess" to new things. The less open you are, the less prone you are to successful changes in your life.
+
+So if you thought 2020 was a "shit, bad year". Consider being more open in life. Change the majority of your related people and stay aware about yourself.
+
+---
+
+Some of those statements are provocative. See them as those. I can not elaborate on every detail, but take it as inspiration for further thoughts on the topic.
+
+---
+
+
+## Dating
+
+Without a doubt 2020 was an intense dating year for me. I want to touch multiple issues in this regard.
+
+### Disclaimer
+
+I will share my experiences with women. As I am heterosexual I can only share those experiences. However, as I have a lot of male friends as well, I consider most of my findings to be applicable to the "other side" as well. So when I refer to "women" in this section, the reader can see them as "desired sexual partner". May it be male or female.
+
+In total I used three online dating platforms, approached many women on the street (or somewhere in public), and also approached girls from my friend circle in a romantic way. Leading to multiple dating experiences in the range from the age of 18 to 40. I build my experiences only from those encounters. Meaning it is of course very biased, yet I draw some conclusions for my personal life.
+
+
+### Online Dating
+
+It started by my airbnb host suggesting me to use Tinder during my stay on Gran Canaria. There were mainly old people around so this seemed a good approach to find young people. And, in fact, it was.I was quite successful. Having many matches and multiple great meetings with woman. Some being in sexual nature and some not.
+
+Things radically changed when being back to Vienna. Very few matches, and overall very low effort of the women. I expanded to two more platforms totallying out three dating platforms (Tinder, Bumble, OKCupid)
+
+My findings are, that:
+
+Tinder is totally overrun and the best I got out of it are one-night stands. There is no commitment from the women there.
 
 
 
