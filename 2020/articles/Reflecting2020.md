@@ -12,6 +12,16 @@ Trivia: I am always writing those articles on my travel. This time, during coron
 
 ## Table of Contents
 
+- [xxxxxxxxx](#xxxxxxxxx)
+  - [Table of Contents](#table-of-contents)
+  - [Covid pandemic](#covid-pandemic)
+  - [Biggest takeaway](#biggest-takeaway)
+  - [Second biggest takeaway](#second-biggest-takeaway)
+  - [Dating](#dating)
+    - [Disclaimer](#disclaimer)
+    - [Online Dating](#online-dating)
+    - [Findings](#findings)
+  - [About](#about)
 
 
 ## Covid pandemic
@@ -102,7 +112,41 @@ Overall I enjoyed the experience of online dating platforms, leading to the foll
 
 ### Findings
 
-For most woman, if they have been disappointed in 2 or more longer lasting relationships, they have tremndous issues trusting someone again.
+I very important topic was "feminism". It is a quite emotional and very misued word. I tend to not use it any more. Everybody interprets it differently. I had multiple discussions on levels of friendship, dating and during my studies.
+
+Overall I have mainly negative associations with this term or "movement". THe reason for this is that mostly women with low intelligence use it. And they use it as an excuse or base for their aggression. It does not mean that a woman using this term is avoidable. I would say that 95% of woman actively consider themselves as a feminist. However, be careful on the amount of importance to their life. If a woman mentiones it every date you have, you can safely assume that she has a problem and not objective view on the topic. That is just my personal experience with it in real life.
+
+I have dealt with it during my studies as well, and real feminism is a great thing. On the base of statics and with proper action. However, there was not a single time I met a women this year that could quote one proper book or study on this topic. As usual the majority follows a bandwagon of some "influencer" or "newspaper" without any critical thought. Leading to extremly stupid arguments and a completly miserable life.
+
+Furthermore, and this is something for me as a man was very annoying, was this wave were women tend to see themselves as treasures that shall only be praised for the mere fact that they have a vagina. I am already annoyed while writing this, but it was and probably will in the future be a very present issue for all man dating.
+
+Let me explain.
+
+This summer there is this wave or movement of women attacking men for being approached. With "approached" I mean every act of men that are on the base of sexuality. This starts from just looking at women to actully approaching them and asking for their number. As a law graduate for me the line is the criminal law. That is quite simple. However, some women build their identify of displaying themselves in sexual manners to provoke feedback of men, just to attack them afterwards. I have seen this on all channels in various ways.
+
+Here I do provide advice. This is the only time I actually give advice. And it is this: Block and ignore those "women". Those are not really women. Those creatures are traumatized beings craving for attention. The will annoy your life and even get you in legal troubles. So my approach and advice is: Leave them alone. Don't give them any attention. Not as man, not as woman. They will worsen your life by fictional drama. The reason I write about this issue in more emotional manner is that it actually cripples quite a lot of men. There are fortunately just very very few of those. But I was shocked to see that there are even communities building around this topic.
+
+
+Apart from this, some bullet point findings. Some of them are designed to be provokingly short for reader to reflect on his own experience.
+
+- For most woman, if they have been disappointed in 2 or more longer lasting relationships, they have tremndous issues trusting someone again.
+- Regarding paying as man: Do what you want.
+- Multiple women love being hunted. They enjoy the race of running and being caught.
+- Multiple women love sex. But most of them are scared of being hurt. A lot.
+- Good looking girls in the age of 18-27 do what they want. They have thousands or million men wanting to fuck them. If they have no interest in you then it probably stays like this.
+- Woman from 27 upwards drastically change their behavior. The are often looking for a valuable partner and actually care for a man.
+- This applies also to ugly women. The delure themselves into this unwritten law but by just not getting good partners. Simply because if you are ugly you will have very low success in attracting "good men".
+
+
+Ultimately: Make your own experiences. Try out many things. See what works for you. As a man or a woman. Build you dating skills. Get to know yourself. What you want in a relationship and what you can provide in a relationship.
+
+Because that's something I have seen very often. Most people really don't know what they are doing. And then they are puzzled why it doesn't work out. My approach was quite analytical but very fruitful for me.
+
+The reason why I wrote in more detail in this article is because I know many many men and women that have real issues in this area. They are led by fear and uncertainty making their "love life" uninteresting, stale and virtually non-existant.
+
+So try to experiment a little bit more and put in more effort :)
+
+
 
 
 
