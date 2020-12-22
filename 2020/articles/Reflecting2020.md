@@ -75,7 +75,34 @@ Things radically changed when being back to Vienna. Very few matches, and overal
 
 My findings are, that:
 
-Tinder is totally overrun and the best I got out of it are one-night stands. There is no commitment from the women there.
+**Tinder** is totally overrun and the best I got out of it are one-night stands. There is no commitment from the women there. It is filled with weirdos. I do not consider it a real dating platform. For me it is a platform where you can "watch things". No real dating opportunities in my experience. You will find:
+- people that look for threesomes
+- men that pretend to be women
+- underage girls craving male attention
+- young girls craving male attention
+- older woman looking for toyboys
+- and
+- a
+- lot
+- of psychically damaged people that are, and probably never will, be able to enter a "normal" love relationship ever again
+
+In fact, it was mindlowing to me to see what happens to women/people in their lives and how they interpret it. It is a platform where very unfortunat part of society gathers to crave the one thing they cannot get: Real love.
+
+
+**Bumble** is much better. Women there are much more commited. I had multiple nice dates. There are much more "real" people online. And those you meet are in fact real human beings living in Vienna and want to meet, do something for fun or have sex.
+
+**OkCupid** is also much better than Tinder, and also better than Bumble. The unique feature is that you have a matching score with various questions you have to answer. I personally do not care about this, but women do. A lot. The result is way more commitment of them. Often they select you because of your answers and expect something specific already. Often they are willing to text and meet.
+
+Overall I enjoyed the experience of online dating platforms, leading to the following conclusions:
+- do not ONLY use them for dating. It will be frustrating
+- do not waste time texting if you don't like it
+- meet as fast as possible to see if the person is real
+- only spent very little them with those apps. They lure you with hopes that can only fulfilled by yourself and not the app
+
+
+### Findings
+
+For most woman, if they have been disappointed in 2 or more longer lasting relationships, they have tremndous issues trusting someone again.
 
 
 
