@@ -17,10 +17,13 @@ Trivia: I am always writing those articles on my travel. This time, during coron
   - [Covid pandemic](#covid-pandemic)
   - [Biggest takeaway](#biggest-takeaway)
   - [Second biggest takeaway](#second-biggest-takeaway)
+  - [Work and studies](#work-and-studies)
   - [Dating](#dating)
     - [Disclaimer](#disclaimer)
     - [Online Dating](#online-dating)
     - [Findings](#findings)
+  - [Sport  and cold showers](#sport--and-cold-showers)
+  - [Finally](#finally)
   - [About](#about)
 
 
@@ -64,6 +67,15 @@ So if you thought 2020 was a "shit, bad year". Consider being more open in life.
 Some of those statements are provocative. See them as those. I can not elaborate on every detail, but take it as inspiration for further thoughts on the topic.
 
 ---
+
+## Work and studies
+
+This year was not so special in this reagard for me.
+
+I found a great company to work with. I consider them very good in many aspects, making it a pleasure to work. A lot of freedom and a lot of interesting fields. I am grateful for them. And with "them" I mean the people in it. Primarily the executive board, making a proper organization possible.
+
+Same with studies. I elaborated a lot about it in the past. Currently for me the studies serve as inspiration. It is challenging and hard. That makes it great. I learn a lot.
+
 
 
 ## Dating
@@ -146,6 +158,15 @@ The reason why I wrote in more detail in this article is because I know many man
 
 So try to experiment a little bit more and put in more effort :)
 
+## Sport  and cold showers
+
+This year was a  tremendous good year for sport. I enjoyed it a lot. I did so much that I even injured myself during the end of summer. Even though I really enjoyed every moment of being able to do so many things and enjoying a healthy body. I spend a good amount playing Beachvolleyball again which brought me great joy.
+
+As I mentioned cold showers in every reflection of the year, here I do it again. Unfortunately My streak was broken this year. My disc prolapse of my spine forced me to stop this practice for now. Reason for this is that the cold water forces the muscles uncounsiously to tighten up. In case of my injury this leads to a downward spiral of pain and reduction of healing. So, I will slowly ease back into it as soon as the spine allows it. I have already great plans for it.
+
+## Finally
+
+I have many plans for the new year coming. Having already scheduled a lot, I am confident that 2021 will top 2020. The economic recesion will build a great base for economic activies and I look forward to it. I am happy that the crisis destroys all the bad business and worng behaviors in the market. Forcing out all the participants that got there without much work, and providing room for new ventures. Like a phoenix out of the ashes those shall rise.
 
 
 
