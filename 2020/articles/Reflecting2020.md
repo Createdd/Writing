@@ -1,6 +1,6 @@
 [artist checklist for success](https://www.trevorjonesart.com/blog/artist-checklist-for-success)
 
-# xxxxxxxxx
+# Reflecting on 2020
 
 ![]()
 
@@ -12,7 +12,7 @@ Trivia: I am always writing those articles on my travel. This time, during coron
 
 ## Table of Contents
 
-- [xxxxxxxxx](#xxxxxxxxx)
+- [Reflecting on 2020](#reflecting-on-2020)
   - [Table of Contents](#table-of-contents)
   - [Covid pandemic](#covid-pandemic)
   - [Biggest takeaway](#biggest-takeaway)
