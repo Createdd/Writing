@@ -41,13 +41,13 @@ What do I mean with that and how do I come to this conclusion?
 
 During the start of the crisis I finally came to read Eckhart Tolle's "Power of Now". This was the base for most of my personal development this year. I am hesitant to call it the best book I have ever read, but it is for sure one of the best in my reading history.
 
-He elaborates on multiple concepts, one of them being the "pain body", and how people build their identity around pain. He explains how the fact being in pain or being a poor human being on this earth is in fact part of their identity. Meaning, that if you want to take the pain away of those people you are threatening their identity and ultimately their persone. Helping them is considered as an attack.
+He elaborates on multiple concepts, one of them being the "pain body", and how people build their identity around pain. He explains how the fact being in pain or being a poor human being on this earth is in fact part of their identity. Meaning, that if you want to take the pain away of those people you are threatening their identity and ultimately their person. They treat the effort to help as an attack.
 
-It is mindblowing to me. I was always someone to see things quite positive in this world. I thought that everyone wants to be happy and have a pain free life. I realised over the years that this is not true.
+It is mindblowing to me. I was always someone to see things quite positive in this world. I thought that everyone wants to be happy and have a pain free life. I realized over the years that this is not true.
 
 The psyche is very complex and allows humans to build their own realities. They prefer living in those realities instead of the objective reality of life. This can often be seen in the gaming industry, where people life lives of fictional dreams and prefer those world over the "real" one.
 
-So, this understanding is very helpful to me. I do not give advise any more. I observe and ask questions. I accept that some people life in their own world and observe how they like or dislike it. I am reduced to a mere observer of people's lifes. How to act in their theatric dramas.
+So, this understanding is very helpful to me. I do not give advise any more. I observe and ask questions. I accept that some people life in their own world and observe how they like or dislike it. I am reduced to a mere observer of people's lives. How to act in their theatric dramas.
 
 I also came to understand that this is neither good nor bad. I stopped judging those realities. It can be quit interesting to spice up life with fictional drama. Because what is ultimately the purpose of life? Running in the system like a sheep? I don't think so. So why not build your own reality and enjoying it in this short time on earth.
 
