@@ -57,7 +57,7 @@ In addition to the previous understanding, the pandemic showed my that I can clu
 
 It is closely related to the first understanding.For me however, there came the understanding that you will never change those types of people. It is in fact my decision if I want the victim type of people in my life. And I do. To some degree. They balance your own life. However, one should not have the close circle with those people. As at some point they will draw you into their miserable lives (from my perspective).
 
-So, what I like to do is to focus on the people that are "successful", "happy", "humble", "grateful". People that have attributes like these. Because as I mentioned above, it IS their reality. The unsuccessful ones will remain unsuccessful. Not because the are like this, but because they build their reality around it. Often the key attribute here is the factor "openess" to new things. The less open you are, the less prone you are to successful changes in your life.
+So, what I like to do is to focus on the people that are "successful", "happy", "humble", "grateful". People that have attributes like these. Because as I mentioned above, it IS their reality. The unsuccessful ones will remain unsuccessful. Not because the are like this, but because they build their reality around it. Often the key attribute here is the factor "openness" to new things. The less open you are, the less prone you are to successful changes in your life.
 
 So if you thought 2020 was a "shit, bad year". Consider being more open in life. Change the majority of your related people and stay aware about yourself.
 
@@ -69,12 +69,11 @@ Some of those statements are provocative. See them as those. I can not elaborate
 
 ## Work and studies
 
-This year was not so special in this reagard for me.
+This year was not so special in this regard for me.
 
 I found a great company to work with. I consider them very good in many aspects, making it a pleasure to work. A lot of freedom and a lot of interesting fields. I am grateful for them. And with "them" I mean the people in it. Primarily the executive board, making a proper organization possible.
 
 Same with studies. I elaborated a lot about it in the past. Currently for me the studies serve as inspiration. It is challenging and hard. That makes it great. I learn a lot.
-
 
 
 ## Dating
@@ -90,9 +89,9 @@ In total I used three online dating platforms, approached many women on the stre
 
 ### Online Dating
 
-It started by my airbnb host suggesting me to use Tinder during my stay on Gran Canaria. There were mainly old people around so this seemed a good approach to find young people. And, in fact, it was.I was quite successful. Having many matches and multiple great meetings with woman. Some being in sexual nature and some not.
+It started by my airbnb host suggesting me to use Tinder during my stay on Gran Canaria. There were mainly old people around so this seemed a good approach to find young people. And, in fact, it was. I was quite successful. Having many matches and multiple great meetings with woman. Some being in sexual nature and some not.
 
-Things radically changed when being back to Vienna. Very few matches, and overall very low effort of the women. I expanded to two more platforms totallying out three dating platforms (Tinder, Bumble, OKCupid)
+Things radically changed when being back to Vienna. Very few matches, and overall very low effort of the women. I expanded to two more platforms totalying out three dating platforms (Tinder, Bumble, OKCupid)
 
 My findings are, that:
 
@@ -102,12 +101,9 @@ My findings are, that:
 - underage girls craving male attention
 - young girls craving male attention
 - older woman looking for toyboys
-- and
-- a
-- lot
-- of psychically damaged people that are, and probably never will, be able to enter a "normal" love relationship ever again
+- and a lot of psychically interesting people that will provide you opportunity for off the norm relationships
 
-In fact, it was mindlowing to me to see what happens to women/people in their lives and how they interpret it. It is a platform where very unfortunat part of society gathers to crave the one thing they cannot get: Real love.
+In fact, it was mindlowing to me to see what happens to women/people in their lives and how they interpret it. It is a platform where very unfortunat part of society gathers to crave the one thing they cannot seem to get: Attention.
 
 
 **Bumble** is much better. Women there are much more commited. I had multiple nice dates. There are much more "real" people online. And those you meet are in fact real human beings living in Vienna and want to meet, do something for fun or have sex.
@@ -125,25 +121,21 @@ Overall I enjoyed the experience of online dating platforms, leading to the foll
 
 I very important topic was "feminism". It is a quite emotional and very misued word. I tend to not use it any more. Everybody interprets it differently. I had multiple discussions on levels of friendship, dating and during my studies.
 
-Overall I have mainly negative associations with this term or "movement". THe reason for this is that mostly women with low intelligence use it. And they use it as an excuse or base for their aggression. It does not mean that a woman using this term is avoidable. I would say that 95% of woman actively consider themselves as a feminist. However, be careful on the amount of importance to their life. If a woman mentiones it every date you have, you can safely assume that she has a problem and not objective view on the topic. That is just my personal experience with it in real life.
+Overall I have mainly negative associations with this term or "movement". The reason for this is that mostly women with negative view on femininity use it. And they use it as an excuse or base for their aggression. It does not mean that a woman using this term is avoidable. I would say that 95% of woman actively consider themselves as a feminist. However, be careful on the amount of importance to their life. If a woman mentiones it every date you have, you can safely assume that she has a problem and not objective view on the topic. That is just my personal experience with it in real life.
 
-I have dealt with it during my studies as well, and real feminism is a great thing. On the base of statics and with proper action. However, there was not a single time I met a women this year that could quote one proper book or study on this topic. As usual the majority follows a bandwagon of some "influencer" or "newspaper" without any critical thought. Leading to extremly stupid arguments and a completly miserable life.
+I have dealt with it during my studies as well, and real feminism is a great thing. On the base of statistics and with proper action. However, there was not a single time I met a women this year that could quote one proper book or study on this topic. As usual, the majority follows a bandwagon of some "influencer" or newspaper without any critical thought. Leading to extremly stupid arguments and a completly miserable life.
 
-Furthermore, and this is something for me as a man was very annoying, was this wave were women tend to see themselves as treasures that shall only be praised for the mere fact that they have a vagina. I am already annoyed while writing this, but it was and probably will in the future be a very present issue for all man dating.
+<!-- Furthermore, and this is something for me as a man was very annoying, was this wave were women tend to see themselves as treasures that shall only be praised for the mere fact that they have a vagina. I am already annoyed while writing this, but it was and probably will in the future be a very present issue for all man dating.
 
-Let me explain.
-
-This summer there is this wave or movement of women attacking men for being approached. With "approached" I mean every act of men that are on the base of sexuality. This starts from just looking at women to actully approaching them and asking for their number. As a law graduate for me the line is the criminal law. That is quite simple. However, some women build their identify of displaying themselves in sexual manners to provoke feedback of men, just to attack them afterwards. I have seen this on all channels in various ways.
-
-Here I do provide advice. This is the only time I actually give advice. And it is this: Block and ignore those "women". Those are not really women. Those creatures are traumatized beings craving for attention. The will annoy your life and even get you in legal troubles. So my approach and advice is: Leave them alone. Don't give them any attention. Not as man, not as woman. They will worsen your life by fictional drama. The reason I write about this issue in more emotional manner is that it actually cripples quite a lot of men. There are fortunately just very very few of those. But I was shocked to see that there are even communities building around this topic.
-
+Let me explain. -->
+<!--
+This summer there is this wave or movement of women attacking men for being approached. With "approached" I mean every act of men that are on the base of sexuality. This starts from just looking at women to actully approaching them and asking for their number. As a law graduate for me the line is the criminal law. That is quite simple. However, some women build their identify of displaying themselves in sexual manners to provoke feedback of men, just to attack them afterwards. I have seen this on all channels in various ways. Thankfully I never met one of these in real life, but I was shocked to see that there are even communities building around this topic. -->
 
 Apart from this, some bullet point findings. Some of them are designed to be provokingly short for reader to reflect on his own experience.
 
-- For most woman, if they have been disappointed in 2 or more longer lasting relationships, they have tremndous issues trusting someone again.
+- For most woman, if they have been disappointed in 2 or more longer lasting relationships, they tend to have tremndous issues trusting someone again.
 - Regarding paying as man: Do what you want.
 - Multiple women love being hunted. They enjoy the race of running and being caught.
-- Multiple women love sex. But most of them are scared of being hurt. A lot.
 - Good looking girls in the age of 18-27 do what they want. They have thousands or million men wanting to fuck them. If they have no interest in you then it probably stays like this.
 - Woman from 27 upwards drastically change their behavior. The are often looking for a valuable partner and actually care for a man.
 - This applies also to ugly women. The delure themselves into this unwritten law but by just not getting good partners. Simply because if you are ugly you will have very low success in attracting "good men".
@@ -161,14 +153,11 @@ So try to experiment a little bit more and put in more effort :)
 
 This year was a  tremendous good year for sport. I enjoyed it a lot. I did so much that I even injured myself during the end of summer. Even though I really enjoyed every moment of being able to do so many things and enjoying a healthy body. I spend a good amount playing Beachvolleyball again which brought me great joy.
 
-As I mentioned cold showers in every reflection of the year, here I do it again. Unfortunately My streak was broken this year. My disc prolapse of my spine forced me to stop this practice for now. Reason for this is that the cold water forces the muscles uncounsiously to tighten up. In case of my injury this leads to a downward spiral of pain and reduction of healing. So, I will slowly ease back into it as soon as the spine allows it. I have already great plans for it.
+As I mentioned cold showers in every reflection of the year, here I do it again. Unfortunately my streak was broken this year. My disc prolapse of my spine forced me to stop this practice for now. Reason for this is that the cold water forces the muscles uncounsiously to tighten up. In case of my injury this leads to a downward spiral of pain and reduction of healing. So, I will slowly ease back into it as soon as the spine allows it. I have already great plans for it.
 
 ## Finally
 
 I have many plans for the new year coming. Having already scheduled a lot, I am confident that 2021 will top 2020. The economic recesion will build a great base for economic activies and I look forward to it. I am happy that the crisis destroys all the bad business and worng behaviors in the market. Forcing out all the participants that got there without much work, and providing room for new ventures. Like a phoenix out of the ashes those shall rise.
-
-
-
 
 
 ---
