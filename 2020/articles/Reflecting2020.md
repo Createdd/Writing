@@ -1,8 +1,7 @@
-[artist checklist for success](https://www.trevorjonesart.com/blog/artist-checklist-for-success)
-
 # Reflecting on 2020
 
-![]()
+![title image](https://images.unsplash.com/photo-1608638317448-3b56d09560f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80)
+*Photo by Hugo Delauney on https://unsplash.com/photos/kjCf8jFSkb8*
 
 Year 2020 comes to an end. Again, it is time to close it by reflecting on it and drawing some conclusions for ones own personal development. Upon request I share some of my findings with this community here. Feel free to comment and share your thoughts as well.
 
