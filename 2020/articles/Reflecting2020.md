@@ -37,29 +37,29 @@ The pandemic also led to my biggest takeaway this year. It is that **humans buil
 
 This is an extremely potent understanding. I consider it to be one of my greatest revelations I had in my life so far.
 
-What do I mean with that and how do I come to this conclusion?
+What do I mean by that and how do I come to this conclusion?
 
-During the start of the crisis I finally came to read Eckhart Tolle's "Power of Now". This was the base for most of my personal development this year. I am hesitant to call it the best book I have ever read, but it is for sure one of the best in my reading history.
+During the start of the crisis, I finally came to read Eckhart Tolle's "Power of Now". This was the base for most of my personal development this year. I am hesitant to call it the best book I have ever read, but it is for sure one of the best in my reading history.
 
 He elaborates on multiple concepts, one of them being the "pain body", and how people build their identity around pain. He explains how the fact being in pain or being a poor human being on this earth is in fact part of their identity. Meaning, that if you want to take the pain away of those people you are threatening their identity and ultimately their person. They treat the effort to help as an attack.
 
 It is mindblowing to me. I was always someone to see things quite positive in this world. I thought that everyone wants to be happy and have a pain free life. I realized over the years that this is not true.
 
-The psyche is very complex and allows humans to build their own realities. They prefer living in those realities instead of the objective reality of life. This can often be seen in the gaming industry, where people life lives of fictional dreams and prefer those world over the "real" one.
+The psyche is very complex and allows humans to build their own realities. They prefer living in those realities instead of the objective reality of life. This can often be seen in the gaming industry, where people live lives of fictional dreams and prefer those worlds over the "real" one.
 
-So, this understanding is very helpful to me. I do not give advise any more. I observe and ask questions. I accept that some people life in their own world and observe how they like or dislike it. I am reduced to a mere observer of people's lives. How to act in their theatric dramas.
+So, this understanding is very helpful to me. I do not give advice anymore. I observe and ask questions. I accept that some people live in their own world and observe how they like or dislike it. I am reduced to a mere observer of people's lives. How to act in their theatric dramas.
 
-I also came to understand that this is neither good nor bad. I stopped judging those realities. It can be quit interesting to spice up life with fictional drama. Because what is ultimately the purpose of life? Running in the system like a sheep? I don't think so. So why not build your own reality and enjoying it in this short time on earth.
+I also came to understand that this is neither good nor bad. I stopped judging those realities. It can be quite interesting to spice up life with fictional drama. Because what is ultimately the purpose of life? Running in the system like a sheep? I don't think so. So why not build your own reality and enjoying it in this short time on earth.
 
 ## Second biggest takeaway
 
-In addition to the previous understanding, the pandemic showed my that I can cluster the people in two basic types. First, the ones that are poor victims in this crucial bad world, and second, the ones that simply enjoy it no matter what.
+In addition to the previous understanding, the pandemic showed me that I can cluster the people into two basic types. First, the ones that are poor victims in this crucial bad world, and second, the ones that simply enjoy it no matter what.
 
 It is closely related to the first understanding.For me however, there came the understanding that you will never change those types of people. It is in fact my decision if I want the victim type of people in my life. And I do. To some degree. They balance your own life. However, one should not have the close circle with those people. As at some point they will draw you into their miserable lives (from my perspective).
 
 So, what I like to do is to focus on the people that are "successful", "happy", "humble", "grateful". People that have attributes like these. Because as I mentioned above, it IS their reality. The unsuccessful ones will remain unsuccessful. Not because the are like this, but because they build their reality around it. Often the key attribute here is the factor "openness" to new things. The less open you are, the less prone you are to successful changes in your life.
 
-So if you thought 2020 was a "shit, bad year". Consider being more open in life. Change the majority of your related people and stay aware about yourself.
+So if you thought 2020 was a "shit, bad year". Consider being more open in life. Change the majority of your related people and stay aware of yourself.
 
 ---
 
@@ -78,18 +78,18 @@ Same with studies. I elaborated a lot about it in the past. Currently for me the
 
 ## Dating
 
-Without a doubt 2020 was an intense dating year for me. I want to touch multiple issues in this regard.
+Without a doubt 2020 was an intense dating year for me. I want to touch on multiple issues in this regard.
 
 ### Disclaimer
 
 I will share my experiences with women. As I am heterosexual I can only share those experiences. However, as I have a lot of male friends as well, I consider most of my findings to be applicable to the "other side" as well. So when I refer to "women" in this section, the reader can see them as "desired sexual partner". May it be male or female.
 
-In total I used three online dating platforms, approached many women on the street (or somewhere in public), and also approached girls from my friend circle in a romantic way. Leading to multiple dating experiences in the range from the age of 18 to 40. I build my experiences only from those encounters. Meaning it is of course very biased, yet I draw some conclusions for my personal life.
+In total I used three online dating platforms, approached many women on the street (or somewhere in public), and also approached girls from my friend circle in a romantic way. Leading to multiple dating experiences in the range from the age of 18 to 40. I build my experiences only from those encounters. Meaning it is of course very biased, yet I draw some conclusions about my personal life.
 
 
 ### Online Dating
 
-It started by my airbnb host suggesting me to use Tinder during my stay on Gran Canaria. There were mainly old people around so this seemed a good approach to find young people. And, in fact, it was. I was quite successful. Having many matches and multiple great meetings with woman. Some being in sexual nature and some not.
+It started with my airbnb host suggesting me to use Tinder during my stay on Gran Canaria. There were mainly old people around so this seemed a good approach to find young people. And, in fact, it was. I was quite successful. Having many matches and multiple great meetings with woman. Some being in sexual nature and some not.
 
 Things radically changed when being back to Vienna. Very few matches, and overall very low effort of the women. I expanded to two more platforms totalying out three dating platforms (Tinder, Bumble, OKCupid)
 
