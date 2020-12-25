@@ -7,6 +7,15 @@
 
 ## Table of Contents
 
+- [Analyzing Art from AI](#analyzing-art-from-ai)
+  - [Table of Contents](#table-of-contents)
+- [Disclaimer](#disclaimer)
+  - [The original](#the-original)
+  - [The styling process](#the-styling-process)
+  - [Result](#result)
+  - [Process on Video](#process-on-video)
+  - [About](#about)
+
 # Disclaimer
 
 I am not associated with any of the services I use in this article.
@@ -42,8 +51,21 @@ In the next steps we need to find suitable inspiration for the AI to learn some 
 
 ![](../assets/searchStyles.gif)
 
+I wrote about the algorithmic approach here in my article [Neural Style Transfer — A high-level approach](https://towardsdatascience.com/neural-style-transfer-a-high-level-approach-250d4414c56b).
 
+And more about the object identification within AI in [The structure behind an award-winning photo — a deep learning approach](https://towardsdatascience.com/the-essence-behind-an-award-winning-photo-an-ai-approach-f044d908d412)
 
+Of course there is much more to my processing of images. However this is a starter.
+
+## Result
+
+![](../assets/analyzingArtAndAi_2020-12-25-11-06-44.png)
+
+![](../assets/analyzingArtAndAi_2020-12-25-12-03-32.png)
+
+As you can see there are clearly resolution cuts. Those are due to training cost of the algorithm, as the styles are transferred over pixels, which is quite calculation expensive, and therefore cost real GPU computation power. This is also the reason why you see most of the results in very low resolution and low images size.
+
+However, one can clearly see the artistic transfer to create a new image. Styles are not merely transfered and layed over the original image. The new image is created in the algorithm.
 
 ## Process on Video
 
