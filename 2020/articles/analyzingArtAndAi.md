@@ -122,4 +122,9 @@ Art-related:
 - [Medium/the-art-of-art](https://medium.com/the-art-of-art)
 - [Instagram/art_and_ai](https://www.instagram.com/art_and_ai/)
 
+- [Open Sea](https://opensea.io/accounts/createdd )
+- [Known Origin](https://knownorigin.io/profile/0xC36b01231a8F857B8751431c8011b09130ef92eC)
+- [Rarible](https://app.rarible.com/createdd/collectibles)
+- [Devian Art](https://www.deviantart.com/createdd1010/)
+
 <!-- Written by Daniel Deutsch -->
