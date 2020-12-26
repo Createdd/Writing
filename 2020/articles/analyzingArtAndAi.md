@@ -1,18 +1,18 @@
-# Analyzing Art from AI
-
-![]()
+# How AI creates art with style transfer
 
 ![](../assets/analyzingArtAndAi_2020-12-25-11-06-44.png)
 
 
 ## Table of Contents
 
-- [Analyzing Art from AI](#analyzing-art-from-ai)
+- [How AI creates art with style transfer](#how-ai-creates-art-with-style-transfer)
   - [Table of Contents](#table-of-contents)
 - [The original](#the-original)
 - [The styling process](#the-styling-process)
+- [Controlling styles](#controlling-styles)
 - [Result](#result)
 - [Process on Video](#process-on-video)
+- [The art perspective](#the-art-perspective)
 - [About](#about)
 
 
@@ -43,6 +43,16 @@ And more about the object identification within AI in [The structure behind an a
 
 Of course there is much more to my processing of images. However this is a starter.
 
+# Controlling styles
+
+There is an own research paper on how styles can be controlled in an algorithm.
+
+The paper is called ["Controlling Perceptual Factors in Neural Style Transfer"](https://arxiv.org/pdf/1611.07865.pdf), and shows various ways to detect styles from images.
+
+![](../assets/analyzingArtAndAi_2020-12-26-10-49-33.png)
+Source: Controlling Perceptual Factors in Neural Style Transfer - https://arxiv.org/pdf/1611.07865.pdf under [Arxiv License](https://arxiv.org/help/license)
+
+
 # Result
 
 ![](../assets/analyzingArtAndAi_2020-12-25-11-06-44.png)
@@ -53,11 +63,35 @@ Of course there is much more to my processing of images. However this is a start
 
 As you can see there are clearly resolution cuts. Those are due to training cost of the algorithm, as the styles are transferred over pixels, which is quite calculation expensive, and therefore cost real GPU computation power. This is also the reason why you see most of the results in very low resolution and low images size.
 
-However, one can clearly see the artistic transfer to create a new image. Styles are not merely transfered and layed over the original image. The new image is created in the algorithm.
+However, one can clearly see the artistic transfer to create a new image. Styles are not merely transfered and layed over the original image. The new image is created within the algorithm.
 
 # Process on Video
 
 https://www.youtube.com/watch?v=2wKLaQHG5kE&ab_channel=Createdd
+
+
+# The art perspective
+
+This novel approach allows to merge art with technology.
+
+Expression with declaration.
+
+Knowing about the output, without fully understanding the processes on the way.
+
+Knowing methodology without all detail steps.
+
+This process of not knowing allows to enter a new age of art.
+
+Knowing why but not how.
+
+Ultimately it is up to the observer to convey meaning to the piece.
+
+A piece, made up of the old and the new.
+
+Clarity and chaos.
+
+The known and the unknow.
+
 
 
 ---
