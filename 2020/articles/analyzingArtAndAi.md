@@ -1,11 +1,11 @@
-# How AI creates art with style transfer
+# How AI creates art with neural style transfer - an example
 
 ![](../assets/analyzingArtAndAi_2020-12-25-11-06-44.png)
 
 
 ## Table of Contents
 
-- [How AI creates art with style transfer](#how-ai-creates-art-with-style-transfer)
+- [How AI creates art with neural style transfer - an example](#how-ai-creates-art-with-neural-style-transfer---an-example)
   - [Table of Contents](#table-of-contents)
 - [The original](#the-original)
 - [The styling process](#the-styling-process)
