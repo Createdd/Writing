@@ -14,7 +14,6 @@
   - [3. Send some money to your wallet](#3-send-some-money-to-your-wallet)
   - [4. Choose an art platform to sell](#4-choose-an-art-platform-to-sell)
   - [5. Set up on the platform (Here: Rarible.com)](#5-set-up-on-the-platform-here-rariblecom)
-    - [Mintbase](#mintbase)
   - [Further Reading](#further-reading)
   - [About](#about)
 
@@ -49,7 +48,7 @@ This can be hard and simple at the same time. It is simple because everyone can 
 
 There are many great artists that nobody knows about because they cannot market and sell themselves.
 
-In my case I create art with AI. I have worked a lot of time refining the processes and the algorithms to create unique images. [Here is a primer on how I do it](https://medium.com/the-art-of-art/how-ai-creates-art-with-neural-style-transfer-an-example-b350dc933fe8)
+In my case I create art with AI. I have worked a lot of time refining the processes and the algorithms to create unique images. [Here is a primer on how I do it](https://medium.com/the-art-of-art/how-ai-creates-art-with-neural-style-transfer-an-example-b350dc933fe8).
 
 ## 2. Get a wallet for your crypto currency
 
@@ -99,22 +98,6 @@ https://app.rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:86740:0
 And that's it. That's how fast you can sell your art online via rarible. I was amazed how easy and fast it is.
 
 One note though: Currently the Ether "gas fees" (transaction fees) are quite high. Those fees are dependent on the current value of ETH and the processing time. Those are the only costs that arise when you provide your art on a blockchain platform.
-
-
-
-
-### Mintbase
-
-Originally I wanted to write about the Mintbase platform.
-Unfortunately, at the time of writing, there were always some issues with their homepage. The interactions were at various points buggy and I was not even able to create a market.
-
-On this platform you can mint your own tokens, create (smart) contracts and create own markets. It seems quite interesting.
-
-Maybe it works for you. Here are some starters to get going on their platform:
-
-This youtube video was also helpful for me: https://www.youtube.com/watch?v=j-f9bs86t_U&ab_channel=NateGeier
-
-Here is a [small tutorial](https://medium.com/mintbase/selling-music-art-with-hidden-files-312c5ca4da5f) you can also check out.
 
 
 
