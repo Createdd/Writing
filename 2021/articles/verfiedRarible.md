@@ -11,28 +11,38 @@
 
 As with other online platforms, the verified badge shows others that your profile was somehow checked by some people of the platform to verify if your profile and content is authentic.
 
-![](../assets/verfiedRarible_2021-01-06-17-07-27.png)
+As I recently got into Rarible more and more and enjoy the platform I thought I give a quick look on how I did it.
 
-Some platforms rank verified profiles better than others. I don't know if this is the case for rarible. However, it helps as a sort of social proof. So if you are a creator on this platform I would suggest to go throught the very short and precise process of getting your badge.
+
 
 
 ## Table of Contents
 
 # Disclaimer
 
-I am not associated with any of the services I use in this article.
+I am not associated with any of the services I use in this article. I simply enjoy the platform.
 
 I do not consider myself an expert. I am not a blogger or something. I merely document things beside doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
 I am always happy for constructive input and how to improve.
 
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **6.1.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-## Verified
+## What and why
+
+![](../assets/verfiedRarible_2021-01-06-17-07-27.png)
+
+Some platforms rank verified profiles better than others. I don't know if this is the case for rarible. However, it helps as a sort of social proof. So if you are a creator on this platform I would suggest to go throught the very short and precise process of getting your badge.
+
+From there [FAQ page](https://www.notion.so/rarible-com-FAQ-a47b276aa1994f7c8e3bc96d700717c5):
+
+![](../assets/verfiedRarible_2021-01-06-17-15-49.png)
+
+## How to
 
 The way to get verified is well explained and straight forward.
 
@@ -48,8 +58,11 @@ After that you will have to provide links to your online presence. May it be soc
 
 After you have filled out everything you will get an email after a few days if you are verified.
 
+And that's about it. I love how uncomplicated they made the whole procedure. Well done!
 
+![](../assets/verfiedRarible_2021-01-06-16-59-05.png)
 
+Any questions left? Send me a message ;)
 
 
 ---
