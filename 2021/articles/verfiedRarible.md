@@ -1,7 +1,20 @@
-# xxxxxxxxx
+# How I got verified on Rarible
 
-![]()
-*Source:*
+![https://unsplash.com/photos/bj8U389A9N8](https://images.unsplash.com/photo-1519995451813-39e29e054914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80)
+*Source: https://unsplash.com/photos/bj8U389A9N8*
+
+
+
+
+![](../assets/verfiedRarible_2021-01-06-16-59-05.png)
+
+
+As with other online platforms, the verified badge shows others that your profile was somehow checked by some people of the platform to verify if your profile and content is authentic.
+
+![](../assets/verfiedRarible_2021-01-06-17-07-27.png)
+
+Some platforms rank verified profiles better than others. I don't know if this is the case for rarible. However, it helps as a sort of social proof. So if you are a creator on this platform I would suggest to go throught the very short and precise process of getting your badge.
+
 
 ## Table of Contents
 
@@ -19,17 +32,23 @@ I cannot monitor all of my articles. There is a high probability that when you r
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-##
+## Verified
 
-## Affiliate Links
+The way to get verified is well explained and straight forward.
 
-As I started to get into the crypto world, I was looking for an affiliate programm. Coinbase is one of the largest platforms for exchanging cryptocurrancies. They offer an [affiliate programm](https://www.coinbase.com/de/affiliates).
+In the community tab you will find a "Get verified" section.
 
-In this [article](https://www.businessofapps.com/affiliate/crypto/) you can fing an overview about other affiliate platforms as well.
+![](../assets/verfiedRarible_2021-01-06-17-01-43.png)
 
-Use my affilite links to get started on
-- [Binance](https://www.binance.com/en/register?ref=62985194)
-- [Bitpanda](https://www.bitpanda.com/?ref=195257848367289193)
+Which will send you to a typeform page:
+
+![](../assets/verfiedRarible_2021-01-06-17-03-39.png)
+
+After that you will have to provide links to your online presence. May it be social media or other homepages. There are also some questions on how you create your art.
+
+After you have filled out everything you will get an email after a few days if you are verified.
+
+
 
 
 
@@ -60,9 +79,9 @@ You can support me on https://www.buymeacoffee.com/createdd or with crypto https
 Art-related:
 - [Medium/the-art-of-art](https://medium.com/the-art-of-art)
 - [Instagram/art_and_ai](https://www.instagram.com/art_and_ai/)
+- [Rarible](https://app.rarible.com/createdd/collectibles)
 - [Open Sea](https://opensea.io/accounts/createdd )
 - [Known Origin](https://knownorigin.io/profile/0xC36b01231a8F857B8751431c8011b09130ef92eC)
-- [Rarible](https://app.rarible.com/createdd/collectibles)
 - [Devian Art](https://www.deviantart.com/createdd1010/)
 
 <!-- Written by Daniel Deutsch -->
