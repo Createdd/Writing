@@ -1,24 +1,13 @@
 # How I got verified on Rarible
 
-![https://unsplash.com/photos/bj8U389A9N8](https://images.unsplash.com/photo-1519995451813-39e29e054914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80)
-*Source: https://unsplash.com/photos/bj8U389A9N8*
-
-
-
-
 ![](../assets/verfiedRarible_2021-01-06-16-59-05.png)
-
 
 As with other online platforms, the verified badge shows others that your profile was somehow checked by some people of the platform to verify if your profile and content is authentic.
 
 As I recently got into Rarible more and more and enjoy the platform I thought I give a quick look on how I did it.
 
 
-
-
-## Table of Contents
-
-# Disclaimer
+## Disclaimer
 
 I am not associated with any of the services I use in this article. I simply enjoy the platform.
 
