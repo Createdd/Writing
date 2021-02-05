@@ -31,6 +31,12 @@ Use my affilite links to get started on
 - [Binance](https://www.binance.com/en/register?ref=62985194)
 - [Bitpanda](https://www.bitpanda.com/?ref=195257848367289193)
 
+## Donations
+
+Buymecoffee
+https://www.buymeacoffee.com/createdd
+
+(also acts as a referral link!)
 
 
 ---
