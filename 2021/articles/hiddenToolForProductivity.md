@@ -28,6 +28,26 @@ I did not want to talk about how to google things. Every gets a feeling for it i
 
 I talk about the browser and tabs.
 
+## The problem
+
+It doesn't matter if I check of TODOs or research on a certain problem. I always end up having multiple tabs.
+
+It looks like this:
+![](../assets/hiddenToolForProductivity_2021-02-11-19-50-43.png)
+
+In this example I want to work on further ideas in the cryptoart world. As you can see it gets messy very quickly.
+
+
+## The solution
+
+Manging tabs with a chrome extension called [Cluster - Window & Tab Manager
+](https://chrome.google.com/webstore/detail/cluster-window-tab-manage/aadahadfdmiibmdhfmpbeeebejmjnkef).
+
+It allows you to cluster your tabs and browser windows in an own tab.
+
+![](2021/assets/openTabCluster.gif)
+
+
 
 
 ## Disclaimer
