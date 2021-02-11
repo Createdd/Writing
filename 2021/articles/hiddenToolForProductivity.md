@@ -45,9 +45,7 @@ Manging tabs with a chrome extension called [Cluster - Window & Tab Manager
 
 It allows you to cluster your tabs and browser windows in an own tab.
 
-![](2021/assets/openTabCluster.gif)
-
-
+![](../assets/openTabCluster.gif)
 
 
 ## Disclaimer
