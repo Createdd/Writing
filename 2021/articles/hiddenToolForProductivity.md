@@ -8,11 +8,9 @@ I am have been working as a developer for quite some time now. In nearly all pos
 
 ## Table of Contents
 
-- [The most effective but hidden productivity tool for a data scientist](#the-most-effective-but-hidden-productivity-tool-for-a-data-scientist)
-  - [Table of Contents](#table-of-contents)
   - [Key aspects of productivity](#key-aspects-of-productivity)
   - [The problem](#the-problem)
-    - [ML related](#ml-related)
+    - [Research on the job](#research-on-the-job)
   - [The solution](#the-solution)
     - [Clustering of tabs](#clustering-of-tabs)
     - [Suspending tabs/windows](#suspending-tabswindows)
@@ -43,14 +41,14 @@ I talk about the browser and tabs.
 
 ## The problem
 
-It doesn't matter if I check of TODOs or research on a certain problem. I always end up having multiple tabs.
+It doesn't matter if I check off TODOs or research on a certain problem. I always end up having multiple tabs open.
 
 It looks like this:
 ![](../assets/hiddenToolForProductivity_2021-02-11-19-50-43.png)
 
-In this example I want to work on further ideas in the cryptoart world. As you can see it gets messy very quickly. As you can see I have various thoughts that need to be elaborated on. Things like what are the best platforms to sell your art, how to get more followers, articles on the development of crypto etc. Those are necessary things to consider when researching a topic.
+In this example I want to work on further ideas in the cryptoart world. As you can see it gets messy very quickly. As you can see I have various thoughts that need to be elaborated on. Things like, what are the best platforms to sell your art, how to get more followers, articles on the development of crypto etc. Those are necessary things to consider when researching a topic.
 
-### ML related
+### Research on the job
 
 The same goes for researching a ML implementation. I decide on an algorithm and during this research there come up new ideas or even better approaches.
 
