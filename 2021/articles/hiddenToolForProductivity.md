@@ -116,7 +116,7 @@ I found this a major help in my work so far and I hope it does for you as well.
 
 I also think that the future of productivity related work circles around things like this. It is not the amount of information that is valuable, but the quality. Separating nonsene from important information is the most important skill you can have these days.
 
-Let me know your thoughts on this.
+There is much more to discuss in this area. Let me know your thoughts on this.
 
 
 ## Disclaimer
@@ -154,8 +154,9 @@ You can support me on https://www.buymeacoffee.com/createdd or with crypto https
 
 **Connect on:**
 
+- [Allmylinks](https://allmylinks.com/createdd)
 
-
+Direct:
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@createdd)
