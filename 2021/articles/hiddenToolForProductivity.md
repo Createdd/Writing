@@ -89,8 +89,21 @@ You can do this with individual tabs or groups.
 
 ### Saving tabs/windows
 
-The last cool feature is to save
+The last cool feature is to save windows and tabs. If you work on multiple things interdisciplinary you will have multiple windows for different work groups. This tool helps you by allowing to save tabs and closing them when not needed for the moment. Restoring is fast and easy if you need them later again.
 
+
+![](../assets/savingTabs.gif)
+
+
+## Why I think this is important
+
+I see proper work with browser and google as one of the most important skills of a data scientist these days. It is often overlooked and I have seen weird problems arising in this areas. People having hundreds of tabs and windows open. Crashing the browser multiple times. Losing valuable progress along the way.
+
+I found this a major help in my work so far and I hope it does for you as well.
+
+I also think that the future of productivity related work circles around things like this. It is not the amount of information that is valuable, but the quality. Separating nonsene from important information is the most important skill you can have these days.
+
+Let me know your thoughts on this.
 
 
 ## Disclaimer
