@@ -8,6 +8,19 @@ I am have been working as a developer for quite some time now. In nearly all pos
 
 ## Table of Contents
 
+- [The most effective but hidden productivity tool for a data scientist](#the-most-effective-but-hidden-productivity-tool-for-a-data-scientist)
+  - [Table of Contents](#table-of-contents)
+  - [Key aspects of productivity](#key-aspects-of-productivity)
+  - [The problem](#the-problem)
+    - [ML related](#ml-related)
+  - [The solution](#the-solution)
+    - [Clustering of tabs](#clustering-of-tabs)
+    - [Suspending tabs/windows](#suspending-tabswindows)
+    - [Saving tabs/windows](#saving-tabswindows)
+  - [Why I think this is important](#why-i-think-this-is-important)
+  - [Disclaimer](#disclaimer)
+  - [About](#about)
+
 
 ## Key aspects of productivity
 
@@ -44,7 +57,7 @@ The same goes for researching a ML implementation. I decide on an algorithm and 
 So, for example here I start with the idea of implementing a decision tree classifier. Along the research process there are multiple other aspects that need to be considered. As you can see in the last leaf on the left. There is the question if a different algorithm might be better if too much imputation need to be conducted.
 
 ![](../assets/hiddenToolForProductivity_2021-02-12-09-25-41.png)
-
+Done with [Smartdraw](https://www.smartdraw.com/)
 
 ## The solution
 
@@ -115,12 +128,12 @@ I do not consider myself an expert. I am not a blogger or something. I merely do
 I am always happy for constructive input and how to improve.
 
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **12.02.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
 
-##
+
 
 
 ---
@@ -140,6 +153,9 @@ You can support me on https://www.buymeacoffee.com/createdd or with crypto https
 ![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
 
 **Connect on:**
+
+
+
 - [LinkedIn](https://www.linkedin.com/in/createdd)
 - [Github](https://github.com/Createdd)
 - [Medium](https://medium.com/@createdd)
