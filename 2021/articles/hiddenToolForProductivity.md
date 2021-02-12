@@ -1,7 +1,7 @@
 # The most effective but hidden productivity tool for a data scientist
 
-![](https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80)
-*Source: https://unsplash.com/photos/oyXis2kALVg*
+![](../assets/hiddenToolForProductivity_2021-02-12-08-21-36.png)
+*AI created Art. More examples on https://www.instagram.com/art_and_ai/*
 
 I am have been working as a developer for quite some time now. In nearly all positions and specializations there are discussion on what are the best tools to use. It goes with software tools like IDEs (VSCode, Webstorm, Vim, etc), or hardware tools (mac, pc, linux). It is always nice to discuss, however at the end everyone discovers his own style that fits his workflow best. As everyone does some things a little different this makes perfect sense. There is one tool that I had never discussed so far but helped me enormously at my work.
 
@@ -35,17 +35,62 @@ It doesn't matter if I check of TODOs or research on a certain problem. I always
 It looks like this:
 ![](../assets/hiddenToolForProductivity_2021-02-11-19-50-43.png)
 
-In this example I want to work on further ideas in the cryptoart world. As you can see it gets messy very quickly.
+In this example I want to work on further ideas in the cryptoart world. As you can see it gets messy very quickly. As you can see I have various thoughts that need to be elaborated on. Things like what are the best platforms to sell your art, how to get more followers, articles on the development of crypto etc. Those are necessary things to consider when researching a topic.
+
+### ML related
+
+The same goes for researching a ML implementation. I decide on an algorithm and during this research there come up new ideas or even better approaches.
+
+So, for example here I start with the idea of implementing a decision tree classifier. Along the research process there are multiple other aspects that need to be considered. As you can see in the last leaf on the left. There is the question if a different algorithm might be better if too much imputation need to be conducted.
+
+![](../assets/hiddenToolForProductivity_2021-02-12-09-25-41.png)
 
 
 ## The solution
 
-Manging tabs with a chrome extension called [Cluster - Window & Tab Manager
+### Clustering of tabs
+
+is to manage tabs with a chrome extension called [Cluster - Window & Tab Manager
 ](https://chrome.google.com/webstore/detail/cluster-window-tab-manage/aadahadfdmiibmdhfmpbeeebejmjnkef).
 
 It allows you to cluster your tabs and browser windows in an own tab.
 
 ![](../assets/openTabCluster.gif)
+
+This allows a perfect overview over all your tabs and windows.
+
+You can **Sort tabs to domain** where related tabs are clustered.
+
+![](../assets/hiddenToolForProductivity_2021-02-12-09-31-42.png)
+
+In this case it is clustered to google, medium and other.
+
+This is tremendously helpful especially when you look up various implementation questions on Stackoverflow. Often I find that I have similar questions already open. This clustering helps me.
+
+Also with articles I read. Often I read something and while reading investigate a thought. This helps me to keep the elaboration on track with corresponding article.
+
+### Suspending tabs/windows
+
+This is also huge. You probably came to the realization that chrome takes quite some memory now when numerous tabs are opened.
+![](../assets/hiddenToolForProductivity_2021-02-12-09-38-07.png)
+
+This is a performance issue.
+
+Not only does it get slower, but also crashes sometimes. This happens to me in my data science work because I research content and also have jupyter notebook/lab open. Or google colab. All of this is done with chrome.
+
+![](../assets/hiddenToolForProductivity_2021-02-12-09-39-53.png)
+As you can see, window 1 has execution related notebooks open.
+
+To help here you can suspend unused tabs.
+
+![](../assets/suspendTabs.gif)
+
+You can do this with individual tabs or groups.
+
+### Saving tabs/windows
+
+The last cool feature is to save
+
 
 
 ## Disclaimer
