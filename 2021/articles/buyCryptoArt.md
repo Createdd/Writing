@@ -11,18 +11,74 @@ Many people right now are talking about NFTs, buying and selling them. Here is a
 
 You will find a detailled tutorial on their [docs](https://academy.binance.com/en/articles/how-to-use-metamask)
 
+Be aware that this is just a starter. Be careful to inform yourself more about the concepts if you plan on investing higher amounts.
+
 ### Install metamask
 
 Install the metamask from their homepage https://metamask.io/
 I simply use it as a chrome browser extension.
 
+A detailled step-through can be found [here](https://medium.com/@mark.lasia/how-to-set-up-an-erc20-compatible-ethereum-wallet-cda8dabc4b89)
+
+
+
 ### Initialize your wallet
 
-There will be guided steps through the setup. Create a password and a seed phrase. Store them savely and you are ready with your own wallet.
+There will be guided steps through the setup. Create a password and a seed phrase. Store them savely and you are ready with your own wallet. There are detailled instruction provided by metamask on how to do this.
 
-### Get some Ethereum
+### Configure wallet for Binance
 
-You need a place where you can change traditional money (USD, EUR, etc) with digital money. I use  [Binance](https://www.binance.com/en/register?ref=62985194) here. But you can use other platforms as well (like [Bitpanda](https://www.bitpanda.com/?ref=195257848367289193)).
+To set it up with Binance we need to configure it in the settings.
+
+![](../assets/buyCryptoArt_2021-02-14-09-33-33.png)
+
+
+If you are having troubles here, refer to the original [docs](https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain)
+
+### Verifiying yourself
+
+Along the process you will be asked to verify yourself with photo. Basically all payments companies will request this. Simply follow the steps, when asked.
+
+![](../assets/buyCryptoArt_2021-02-14-09-08-47.png)
+
+You can do it manually in the [settings](https://www.binance.com/en/my/settings/profile?ref=62985194)
+
+
+
+## Get some Ethereum
+
+You need a place where you can change traditional money, also called FIAT money (USD, EUR, etc) with digital money. I use  [Binance](https://www.binance.com/en/register?ref=62985194) here. But you can use other platforms as well (like [Bitpanda](https://www.bitpanda.com/?ref=195257848367289193)).
+
+Be aware that there are scam sites out there, so I recommend to go with the bigger ones.
+
+
+### Verify Address Ownership (Binance)
+
+Start by verifying ownership [here](https://www.binance.com/en/my/wallet/verify-address-ownership?ref=62985194).
+
+
+
+
+
+
+Afterwards go to ["buy and sell crypto"](https://www.binance.com/en/buy-sell-crypto?ref=62985194)
+
+It looks like this:
+
+![](../assets/buyCryptoArt_2021-02-14-09-04-04.png)
+
+Then select what you want to buy and the amount. I will start with the minimum of 15EUR and a Visa card. For bank transfers (SEPA) there is a higher amount required. So you can start with a smaller amount and credit card and see if all transactions work well, and then you can move to higher amounts.
+
+![](../assets/buyCryptoArt_2021-02-14-09-11-46.png)
+
+Make sure that you have added your credit card.
+
+
+
+
+### Check wallet on Etherscan
+
+https://etherscan.io/address/0xc36b01231a8f857b8751431c8011b09130ef92ec
 
 
 
