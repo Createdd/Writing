@@ -1,9 +1,25 @@
-# xxxxxxxxx
+# Quick Intro to buy Cryptoart
 
 ![]()
 *Source:*
 
 ## Table of Contents
+
+- [Quick Intro to buy Cryptoart](#quick-intro-to-buy-cryptoart)
+  - [Table of Contents](#table-of-contents)
+  - [Hop in](#hop-in)
+    - [Install metamask](#install-metamask)
+    - [Initialize your wallet](#initialize-your-wallet)
+    - [Configure wallet for Binance](#configure-wallet-for-binance)
+    - [Verifiying yourself](#verifiying-yourself)
+  - [Get some Ethereum](#get-some-ethereum)
+    - [Verify Address Ownership (Binance)](#verify-address-ownership-binance)
+    - [Buy with credit card](#buy-with-credit-card)
+    - [Buy with bank transfer](#buy-with-bank-transfer)
+    - [Convert to ETH](#convert-to-eth)
+    - [Check wallet on Etherscan](#check-wallet-on-etherscan)
+  - [Disclaimer](#disclaimer)
+  - [About](#about)
 
 ## Hop in
 
@@ -43,6 +59,12 @@ Along the process you will be asked to verify yourself with photo. Basically all
 
 You can do it manually in the [settings](https://www.binance.com/en/my/settings/profile?ref=62985194)
 
+![](../assets/buyCryptoArt_2021-02-14-09-49-17.png)
+
+If the webversion is buggy (it was when I tried), do it over the mobile app. Then you will receive something like this:
+
+![](../assets/buyCryptoArt_2021-02-14-14-52-36.png)
+
 
 
 ## Get some Ethereum
@@ -59,7 +81,7 @@ Start by verifying ownership [here](https://www.binance.com/en/my/wallet/verify-
 
 
 
-
+### Buy with credit card
 
 Afterwards go to ["buy and sell crypto"](https://www.binance.com/en/buy-sell-crypto?ref=62985194)
 
@@ -72,6 +94,31 @@ Then select what you want to buy and the amount. I will start with the minimum o
 ![](../assets/buyCryptoArt_2021-02-14-09-11-46.png)
 
 Make sure that you have added your credit card.
+
+
+Afterwards:
+
+![](../assets/buyCryptoArt_2021-02-14-15-01-09.png)
+
+### Buy with bank transfer
+
+If you are in the EU you can use SEPA Transfer
+
+![](../assets/buyCryptoArt_2021-02-16-15-17-53.png)
+
+You will see the payment details on the right. Simply head to your online banking and send the amount to the address (Binance). Do not forget the reference number. They need this one to reference your payment. After one or two days you will have the amount transferred to your Binance account.
+
+Then you receive a confirmation per Email
+
+![](../assets/buyCryptoArt_2021-02-16-15-17-03.png)
+
+Afterwards you will see the new amount at your "Fiat and Spot" Overview tab:
+
+![](../assets/buyCryptoArt_2021-02-16-15-20-28.png)
+
+Now you have sent money to your Binance account. The next step is to convert it to the desired crypto currency.
+
+### Convert to ETH
 
 
 
