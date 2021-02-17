@@ -197,7 +197,17 @@ And you will see it on your nifty profile
 
 ![](../assets/buyCryptoArt_2021-02-17-16-23-15.png)
 
-and after a while it will be open on [Opensea](https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec). But this is done slowly to manage fraud. See their [post](https://help.niftygateway.com/2020/03/13/why-are-my-nifties-not-showing-up-to-deposit-why-can-i-only-deposit-some-nifties/) on that.
+
+Then you can withdraw your nifty to your metamask wallet:
+
+![](../assets/buyCryptoArt_2021-02-17-16-59-15.png)
+
+and after a while it will be open on [Opensea](https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec).
+
+![](../assets/buyCryptoArt_2021-02-17-17-03-46.png)
+
+
+https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec
 
 
 
@@ -252,7 +262,7 @@ Art-related:
 - [Medium/the-art-of-art](https://medium.com/the-art-of-art)
 - [Instagram/art_and_ai](https://www.instagram.com/art_and_ai/)
 - [Rarible](https://app.rarible.com/createdd/collectibles)
-- [Open Sea](https://opensea.io/accounts/createdd )
+- [Open Sea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec )
 - [Known Origin](https://knownorigin.io/profile/0xC36b01231a8F857B8751431c8011b09130ef92eC)
 - [Devian Art](https://www.deviantart.com/createdd1010/)
 
