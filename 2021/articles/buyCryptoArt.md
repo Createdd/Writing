@@ -1,11 +1,11 @@
-# Quick Intro to buy Cryptoart
+# Step by step intro to buy Cryptoart
 
 ![]()
 *Source:*
 
 ## Table of Contents
 
-- [Quick Intro to buy Cryptoart](#quick-intro-to-buy-cryptoart)
+- [Step by step intro to buy Cryptoart](#step-by-step-intro-to-buy-cryptoart)
   - [Table of Contents](#table-of-contents)
   - [Hop in](#hop-in)
     - [Install metamask](#install-metamask)
@@ -17,8 +17,9 @@
     - [Buy with credit card](#buy-with-credit-card)
     - [Buy with bank transfer](#buy-with-bank-transfer)
     - [Convert to ETH](#convert-to-eth)
-  - [Send to Metamask Wallet to buy Art](#send-to-metamask-wallet-to-buy-art)
+  - [Send to Metamask Wallet](#send-to-metamask-wallet)
     - [Check wallet on Etherscan](#check-wallet-on-etherscan)
+  - [Buy some crypto art](#buy-some-crypto-art)
   - [Disclaimer](#disclaimer)
   - [About](#about)
 
@@ -28,7 +29,7 @@ Many people right now are talking about NFTs, buying and selling them. Here is a
 
 You will find a detailled tutorial on their [docs](https://academy.binance.com/en/articles/how-to-use-metamask)
 
-Be aware that this is just a starter. Be careful to inform yourself more about the concepts if you plan on investing higher amounts.
+Be aware that this is just a starter. Be careful to inform yourself more about the concepts if you plan on investing higher amounts. I will use **Metamask** and **Binance** for the tutorial steps.
 
 ### Install metamask
 
@@ -133,7 +134,9 @@ Going to your SPOT Wallet you can now see that you have successfully converted E
 
 ![](../assets/buyCryptoArt_2021-02-17-15-01-08.png)
 
-## Send to Metamask Wallet to buy Art
+Now if you only want to have some ETH and make money by its increasing value you are already done and benefit from the rising. But if you want to have a little more risky investments you can buy some art. To do this read the following.
+
+## Send to Metamask Wallet
 
 Next you need to copy your Metamask wallet address:
 
@@ -143,12 +146,60 @@ The go to "withdraw" Crypto, fill in the address, transfer network and amount:
 
 ![](../assets/buyCryptoArt_2021-02-17-14-52-55.png)
 
+If you want to be careful you can send at first only a small amount to check if everything goes correctly. Be aware that you have to pay a fee for each transaction!
+
+After your email and SMS validation you get:
+
+![](../assets/buyCryptoArt_2021-02-17-15-09-16.png)
+
+The processing can take some time. You will recevie some email after successful withdraw:
+
+![](../assets/buyCryptoArt_2021-02-17-15-29-06.png)
+
+and you can see it in your metamask as well:
+
+![](../assets/buyCryptoArt_2021-02-17-15-30-29.png)
 
 
 
 ### Check wallet on Etherscan
 
-https://etherscan.io/address/0xc36b01231a8f857b8751431c8011b09130ef92ec
+
+You can check your wallet on Etherscan as well. Just add your wallet address instead of mine: https://etherscan.io/address/0xc36b01231a8f857b8751431c8011b09130ef92ec
+
+You can see the new amount and the corresponding transaction. Congrats! You just send ETH to your Metamask wallet.
+
+## Buy some crypto art
+
+I will buy something on Nifty Gateway
+
+
+- First create an account
+- Validate your account (phone authentication)
+
+https://niftygateway.com/deposit
+
+![](../assets/buyCryptoArt_2021-02-17-16-19-00.png)![](../assets/buyCryptoArt_2021-02-17-16-19-04.png)
+
+And after a while you have the new balance:
+
+![](../assets/buyCryptoArt_2021-02-17-16-21-14.png)
+
+Afterwards select an art piece you like and confirm:
+
+![](../assets/buyCryptoArt_2021-02-17-16-22-14.png)
+
+![](../assets/buyCryptoArt_2021-02-17-16-22-38.png)
+
+And you will see it on your nifty profile
+
+
+
+![](../assets/buyCryptoArt_2021-02-17-16-23-15.png)
+
+and after a while it will be open on [Opensea](https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec). But this is done slowly to manage fraud. See their [post](https://help.niftygateway.com/2020/03/13/why-are-my-nifties-not-showing-up-to-deposit-why-can-i-only-deposit-some-nifties/) on that.
+
+
 
 
 
