@@ -17,6 +17,7 @@
     - [Buy with credit card](#buy-with-credit-card)
     - [Buy with bank transfer](#buy-with-bank-transfer)
     - [Convert to ETH](#convert-to-eth)
+  - [Send to Metamask Wallet to buy Art](#send-to-metamask-wallet-to-buy-art)
     - [Check wallet on Etherscan](#check-wallet-on-etherscan)
   - [Disclaimer](#disclaimer)
   - [About](#about)
@@ -119,6 +120,28 @@ Afterwards you will see the new amount at your "Fiat and Spot" Overview tab:
 Now you have sent money to your Binance account. The next step is to convert it to the desired crypto currency.
 
 ### Convert to ETH
+
+First you need to buy ETH in the "buy crypto" section. As you have already send FIAT money to your Binance Account you can choose "Cash balance":
+
+![](../assets/buyCryptoArt_2021-02-17-14-57-21.png)
+
+After confirming you get:
+
+![](../assets/buyCryptoArt_2021-02-17-15-00-06.png)
+
+Going to your SPOT Wallet you can now see that you have successfully converted EUR into ETH:
+
+![](../assets/buyCryptoArt_2021-02-17-15-01-08.png)
+
+## Send to Metamask Wallet to buy Art
+
+Next you need to copy your Metamask wallet address:
+
+![](../assets/buyCryptoArt_2021-02-17-14-51-56.png)
+
+The go to "withdraw" Crypto, fill in the address, transfer network and amount:
+
+![](../assets/buyCryptoArt_2021-02-17-14-52-55.png)
 
 
 
