@@ -138,7 +138,7 @@ I do not consider myself an expert. I am not a blogger or something. I merely do
 I am always happy for constructive input and how to improve.
 
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **18.02.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
