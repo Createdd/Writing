@@ -1,12 +1,14 @@
 # Step by step intro to buy Cryptoart
 
-![]()
-*Source:*
+![](../assets/buyCryptoArt_2021-02-17-17-10-28.png)
+*Source: AI created Art by author. More examples on https://www.instagram.com/art_and_ai/* or you can buy it on my [Open Sea account](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec )
+
 
 ## Table of Contents
 
 - [Step by step intro to buy Cryptoart](#step-by-step-intro-to-buy-cryptoart)
   - [Table of Contents](#table-of-contents)
+  - [Disclaimer](#disclaimer)
   - [Hop in](#hop-in)
     - [Install metamask](#install-metamask)
     - [Initialize your wallet](#initialize-your-wallet)
@@ -20,8 +22,21 @@
   - [Send to Metamask Wallet](#send-to-metamask-wallet)
     - [Check wallet on Etherscan](#check-wallet-on-etherscan)
   - [Buy some crypto art](#buy-some-crypto-art)
-  - [Disclaimer](#disclaimer)
   - [About](#about)
+
+
+
+## Disclaimer
+
+First of all, this article is not considered advice in any sense. Explicitly not financial advice. I merely document how I pursue the crypto industry and elaborate my thoughts on certain steps. Make sure to do your own research. Investing money has always a risk factor involved. Investing in art can be lucrative or a huge loss. Be aware of that.
+
+I do not consider myself an expert. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+
+I am always happy for constructive input and how to improve.
+
+This was written on **18.02.2021**.
+I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
+
 
 ## Hop in
 
@@ -209,25 +224,6 @@ and after a while it will be open on [Opensea](https://opensea.io?ref=0xc36b0123
 
 https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec
 
-
-
-
-
-## Disclaimer
-
-I am not associated with any of the services I use in this article.
-
-I do not consider myself an expert. I am not a blogger or something. I merely document things beside doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
-
-I am always happy for constructive input and how to improve.
-
-
-This was written on **18.02.2021**.
-I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
-
-If you need more information on certain parts, feel free to point it out in the comments.
-
-##
 
 
 ---
