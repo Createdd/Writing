@@ -37,6 +37,8 @@ I am always happy for constructive input and how to improve.
 This was written on **18.02.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
+I also have affiliate links with Binance and Bitpanda. If you sign up with my link I will get a percentage. Everyone can apply for those links. I am not associated with those services in any other way. As this is a step by step tutorial, I use the services I see fit in the time of writing.
+
 
 ## Hop in
 
@@ -224,6 +226,8 @@ and after a while it will be open on [Opensea](https://opensea.io?ref=0xc36b0123
 
 https://opensea.io?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec
 
+
+Congrats! That's it ;)
 
 
 ---
