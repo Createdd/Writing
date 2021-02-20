@@ -21,7 +21,7 @@
 
 # 1. Create project formalities
 
-It's always the same but necessary. I do it along with these steps:
+The local setup steps. I use a Conda environment and Git + Github. And do it along these steps:
 
 1. Create a local folder `mkdir NAME`
 2. Create a new repository on Github with `NAME`
@@ -38,9 +38,9 @@ git push -u origin master
 
 # 2. Dependency Management
 
-As we will develop a Machine Learning solution, a Jupyter Notebook will be very useful.
+I develop for quite a while in Python and still improve the dependency managment setup. This is how I currently do it.
 
-As pip doesn't provice its own proper dependency management, as
+Pip doesn't provide its own proper dependency management, as
 - requirements file with pip freeze provide no structure
 - installed versions are not pinnend, which leads to different installs every single time
 - there is no dependency resolution
@@ -55,7 +55,7 @@ There are helpful additional libraries:
 ## Install dependencies in a better way
 
 
-We have established an automated workflow in regards of dependency listing and compiling.
+I use an automated workflow in regards of dependency listing and compiling.
 
 - `pip-compile` will update the requirements file with pinned sub-dependencies and create the requirements file.
 
@@ -167,19 +167,18 @@ afterward for making the hook executable (on mac)
 chmod +x .git/hooks/pre-commit
 ```
 
+Now, before commiting changes of a jupyter notebook the file is converted to a python file and the changes will be reflected beautifully as it should be.
+
 # Disclaimer
 
 I am not associated with any of the services I use in this article.
 
-I do not consider myself an expert. I am not a blogger or something. I merely document things beside doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+I do not consider myself an expert. I am not a blogger or something. I merely document workflows. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things.
 
 I am always happy for constructive input and how to improve.
 
-
 This was written on **20.02.2021**.
-I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
-
-If you need more information on certain parts, feel free to point it out in the comments.
+I cannot monitor all of my articles. There is a high probability that when you read this article after time has past, the tips are outdated and the processes have changed.
 
 ---
 
