@@ -4,7 +4,6 @@
 *AI created Art by Author. More examples on https://www.instagram.com/art_and_ai/; inspired by Shannon Potter https://unsplash.com/photos/bHlZX1D4I8g*
 
 # Table of Contents
-
 - [How to start a data science project boilerplate in 2021?](#how-to-start-a-data-science-project-boilerplate-in-2021)
 - [Table of Contents](#table-of-contents)
 - [Why](#why)
@@ -17,7 +16,6 @@
   - [Install githook for jupytext](#install-githook-for-jupytext)
 - [Disclaimer](#disclaimer)
 - [About](#about)
-
 
 # Why
 
