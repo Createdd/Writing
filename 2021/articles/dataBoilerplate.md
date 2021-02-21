@@ -7,6 +7,7 @@
 
 - [How to start a data science project boilerplate in 2021?](#how-to-start-a-data-science-project-boilerplate-in-2021)
 - [Table of Contents](#table-of-contents)
+- [Why](#why)
 - [1. Create project formalities](#1-create-project-formalities)
 - [2. Dependency Management](#2-dependency-management)
   - [Install dependencies in a better way](#install-dependencies-in-a-better-way)
@@ -18,6 +19,19 @@
 - [About](#about)
 
 
+# Why
+
+Every data science project I start has its different outcomes, but the start is always the same. In this article I want to show three steps how I prepare a data science project. It covers the main areas of
+- dealing with a virtual environment
+- managing dependencies and
+- tracking jupyter notebook changes properly
+
+I want to cover those aspects as I did not find a proper boilerplate that does this for me. I am aware of the cookiecutter project. However, I am not looking for a folder structure, because this can easily be adapted. I am looking for automated  steps that ensure me to keep a proper standard during development.
+
+The bare boilerplate setup is available on:
+ :arrow_forward:  https://github.com/Createdd/data_science_boilerplate
+
+It is focused on developing a proof of concept within jupyter notebook and not production. If you would like a production setup as well let me know.
 
 # 1. Create project formalities
 
@@ -33,7 +47,8 @@ The local setup steps. I use a Conda environment and Git + Github. And do it alo
 
 ```sh
 git remote add origin URL_TO_GIT_REPO
-git push -u origin master
+git branch -M main
+git push -u origin main
 ```
 
 # 2. Dependency Management
@@ -65,12 +80,7 @@ Therefore we need to install the library with
 python -m pip install pip-tools
 ```
 
-To use it, instead of writing the conventional
-
-
-```sh
-pip install jupyter jupytext
-```
+To use it, instead of writing the conventional `pip install jupyter jupytext`,
 
 we create an `requirements_dev.in` file by
 
@@ -80,7 +90,7 @@ touch requirements_dev.in
 
 Then we open this file and add the libaries we want to add. We will follow this style in the whole repository!
 
-Let's start with
+Let's start with dependencies
 - jupyter notebook
 - jupytext (for conversion of .ipynb files)
 - pipdeptree (for showing dependency tree)
@@ -96,6 +106,8 @@ pip install -r requirements_dev.txt
 ```
 
 This generates a nice `requirements_dev.txt` file with nice formatting, and then installs everything
+
+![](../assets/dataBoilerplate_2021-02-21-14-08-31.png)
 
 So every time we added a library we need to run the compile command. This is a step that can be automated as well.
 
@@ -136,6 +148,8 @@ bash startup.sh
 
 Now both commands run parallel in the same terminal window.
 
+![](../assets/bundle_script.gif)
+
 # 3. Tracking jupyter notebook changes properly
 
 ## Convert to python files
@@ -144,7 +158,7 @@ We will use jupytext to convert the `.ipynb` files into `.py` files. This allows
 
 We have already installed the package in the previous steps. Now we simply need to add a githook to automatically do the conversion.
 
-$$  $$
+
 ## Install githook for jupytext
 
 
@@ -167,7 +181,17 @@ afterward for making the hook executable (on mac)
 chmod +x .git/hooks/pre-commit
 ```
 
-Now, before commiting changes of a jupyter notebook the file is converted to a python file and the changes will be reflected beautifully as it should be.
+Now, before commiting changes of a jupyter notebook the file is converted to a python file and the changes will be reflected beautifully as it should be:
+
+![](../assets/dataBoilerplate_2021-02-21-14-07-26.png)
+
+---
+
+
+The bare boilerplate setup is available on:
+ :arrow_forward:  https://github.com/Createdd/data_science_boilerplate
+
+---
 
 # Disclaimer
 
