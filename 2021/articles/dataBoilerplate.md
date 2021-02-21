@@ -179,7 +179,7 @@ afterward for making the hook executable (on mac)
 chmod +x .git/hooks/pre-commit
 ```
 
-Now, before commiting changes of a jupyter notebook the file is converted to a python file and the changes will be reflected beautifully as it should be:
+Now, before committing changes of a jupyter notebook the file is converted to a python file and the changes will be reflected beautifully as they should be:
 
 ![](../assets/dataBoilerplate_2021-02-21-14-07-26.png)
 
@@ -200,7 +200,7 @@ I do not consider myself an expert. I am not a blogger or something. I merely do
 I am always happy for constructive input and how to improve.
 
 This was written on **20.02.2021**.
-I cannot monitor all of my articles. There is a high probability that when you read this article after time has past, the tips are outdated and the processes have changed.
+I cannot monitor all of my articles. There is a high probability that when you read this article after time has passed, the tips are outdated and the processes have changed.
 
 ---
 
