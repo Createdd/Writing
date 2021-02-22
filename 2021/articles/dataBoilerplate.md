@@ -131,7 +131,8 @@ Then insert the executing commands, like
 #!/bin/bash
 
 jupyter notebook &
-when-changed requirements_dev.in pip-compile requirements_dev.in;pip install -r requirements_dev.txt
+when-changed requirements_dev.in pip-compile requirements_dev.in &
+when-changed requirements_dev.in pip install -r requirements_dev.txt
 ```
 
 Then make the file executable (on mac) and start the script.
@@ -239,3 +240,23 @@ Art-related:
 - [Devian Art](https://www.deviantart.com/createdd1010/)
 
 <!-- Written by Daniel Deutsch -->
+
+
+
+https://allmylinks.com/createdd
+
+Direct:
+https://www.linkedin.com/in/createdd
+https://github.com/Createdd
+https://medium.com/@createdd
+https://twitter.com/_createdd
+https://www.instagram.com/create.dd/
+https://www.createdd.com/
+
+Art-related:
+https://medium.com/the-art-of-art
+https://www.instagram.com/art_and_ai/
+https://app.rarible.com/createdd/collectibles
+https://opensea.io/accounts/createdd?=0xc36b01231a8f857b8751431c8011b09130ef92ec
+https://knownorigin.io/profile/
+https://www.deviantart.com/createdd1010/
