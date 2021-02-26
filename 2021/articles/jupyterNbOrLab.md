@@ -10,11 +10,26 @@ I am working with various IDEs for my Python developement over the last years. R
 
 - [Jupyter Notebook or Lab? Why you do not need to decide](#jupyter-notebook-or-lab-why-you-do-not-need-to-decide)
   - [Table of Contents](#table-of-contents)
-  - [My current setup](#my-current-setup)
+  - [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
   - [Disclaimer](#disclaimer)
   - [About](#about)
 
-## My current setup
+## Why you don't need to decide which is better
+
+Currently I use a mix of
+- Jupyter Notebook
+- Jupyter Lab
+- VS Code
+
+I am always asking myself if Jupyter Lab is alreafdy so far developed that it can replace my Jupyter Notebook (NB) workflow. The short answer is no. There are still many advantages of NB over Lab, which I will elaborate in the following. However, and this is important to understand, it doesn't need to be replaced. You can easily use both of the for the tasks they are good in.
+
+Therefore I use
+- NB for developing a Data Science Proof-of-concept (POC)
+- Jupyter Lab for managing and re-aranging my POCs
+- VS Code for everything that is not Jupyter related.
+
+In essence, I use all three tools to various degrees in a data science project.
+
 
 
 
