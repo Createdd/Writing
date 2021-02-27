@@ -4,5 +4,19 @@
     "pasteImage.path": "${projectRoot}/2021/assets",
     "pasteImage.basePath": "${projectRoot}/2021/assets",
     "pasteImage.forceUnixStyleSeparator": true,
-    "pasteImage.prefix": "../assets/"
+    "pasteImage.prefix": "../assets/",
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/2021/articles/jupyterNbOrLab.md"
+            ],
+            "config": {
+                "audience": "knowledgeable",
+                "dialect": "american",
+                "domain": "general",
+                "emotions": [],
+                "goals": []
+            }
+        }
+    ]
 }

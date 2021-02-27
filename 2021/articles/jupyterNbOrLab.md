@@ -3,41 +3,66 @@
 ![]()
 *Source:*
 
-I am working with various IDEs for my Python developement over the last years. Recently I asked myself if it would make sense to check if it is useful to update my current practice and see if alternatives offer better productivity. There is often the question if one IDE is better than the other. In this article I want to show that the best way is to use the best tool for a specific task.
+I am working with various IDEs for my Python development over the last years. Recently I asked myself if it would make sense to check if it is useful to update my current practice and see if alternatives offer better productivity. There is often the question if one IDE is better than the other. In this article, I want to show that the best way is to use the best tool for a specific task.
 
 
-## Table of Contents
+# Table of Contents
 
 - [Jupyter Notebook or Lab? Why you do not need to decide](#jupyter-notebook-or-lab-why-you-do-not-need-to-decide)
-  - [Table of Contents](#table-of-contents)
-  - [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
-  - [Disclaimer](#disclaimer)
-  - [About](#about)
+- [Table of Contents](#table-of-contents)
+- [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
+- [Jupyter Notebook](#jupyter-notebook)
+  - [Theming and syntax highlighting](#theming-and-syntax-highlighting)
+  - [Cell and Code Folding](#cell-and-code-folding)
+- [Disclaimer](#disclaimer)
+- [About](#about)
 
-## Why you don't need to decide which is better
+# Why you don't need to decide which is better
 
-Currently I use a mix of
+Currently, I use a mix of
 - Jupyter Notebook
 - Jupyter Lab
 - VS Code
 
-I am always asking myself if Jupyter Lab is alreafdy so far developed that it can replace my Jupyter Notebook (NB) workflow. The short answer is no. There are still many advantages of NB over Lab, which I will elaborate in the following. However, and this is important to understand, it doesn't need to be replaced. You can easily use both of the for the tasks they are good in.
+I am always asking myself if Jupyter Lab is already so far developed that it can replace my Jupyter Notebook (NB) workflow. The short answer is no. There are still many advantages of NB over Lab, which I will elaborate in the following. However, and this is important to understand, it doesn't need to be replaced. You can easily use both of them for the tasks they are good in.
 
 Therefore I use
 - NB for developing a Data Science Proof-of-concept (POC)
-- Jupyter Lab for managing and re-aranging my POCs
+- Jupyter Lab for managing and re-arranging my POCs
 - VS Code for everything that is not Jupyter related.
 
 In essence, I use all three tools to various degrees in a data science project.
 
 
+# Jupyter Notebook
+
+I still use the NB for most of my POC work.
+Here are some reasons why:
+
+## Theming and syntax highlighting
+
+With jupyterthemes you can easily adapt the theme to your needs. I use `jt -t chesterish -T -N` which looks like
+
+![](../assets/jupyterNbOrLab_2021-02-27-07-49-10.png)
+
+I use prefer the dark theme because I work quite a lot in front of the monitor and what ever helps to reduce strain on my eyes is very welcome.
+
+## Cell and Code Folding
 
 
-## Disclaimer
+
+
+
+
+
+
+
+
+# Disclaimer
 
 I am not associated with any of the services I use in this article.
 
-I do not consider myself an expert. I am not a blogger or something. I merely document things beside doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
+I do not consider myself an expert. I am not a blogger or something. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
 I am always happy for constructive input and how to improve.
 
@@ -51,7 +76,7 @@ If you need more information on certain parts, feel free to point it out in the 
 
 ---
 
-## About
+# About
 
 Daniel is an artist, entrepreneur, software developer, and business law graduate. He has worked at various IT companies, tax advisory, management consulting, and at the Austrian court.
 
