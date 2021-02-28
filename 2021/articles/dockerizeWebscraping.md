@@ -1,60 +1,26 @@
-# Jupyter Notebook or Lab? Why you do not need to decide
+# Deploy your webscraping with Docker
 
 ![]()
 *Source:*
 
-I am working with various IDEs for my Python development over the last years. Recently I asked myself if it would make sense to check if it is useful to update my current practice and see if alternatives offer better productivity. There is often the question if one IDE is better than the other. In this article, I want to show that the best way is to use the best tool for a specific task.
-
-
 # Table of Contents
-
-- [Jupyter Notebook or Lab? Why you do not need to decide](#jupyter-notebook-or-lab-why-you-do-not-need-to-decide)
+- [Deploy your webscraping with Docker](#deploy-your-webscraping-with-docker)
 - [Table of Contents](#table-of-contents)
-- [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
-- [Jupyter Notebook](#jupyter-notebook)
-  - [Theming and syntax highlighting](#theming-and-syntax-highlighting)
-  - [Cell and Code Folding](#cell-and-code-folding)
+- [Why](#why)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
-# Why you don't need to decide which is better
 
-Currently, I use a mix of
-- Jupyter Notebook
-- Jupyter Lab
-- VS Code
+# Why
 
-I am always asking myself if Jupyter Lab is already so far developed that it can replace my Jupyter Notebook (NB) workflow. The short answer is no. There are still many advantages of NB over Lab, which I will elaborate in the following. However, and this is important to understand, it doesn't need to be replaced. You can easily use both of them for the tasks they are good in.
+Webscraping is one of the most often used methods to get data for further analysis. Lately, I used it as well and realized that there are various issues when containerizing (ie using Docker) your scraping function. However, as you need to deploy your webscraping when you need the most recent data, you will face different issues. I want to summarize my solution to save everyone the time of endless hours of online research.
 
-Therefore I use
-- NB for developing a Data Science Proof-of-concept (POC)
-- Jupyter Lab for managing and re-arranging my POCs
-- VS Code for everything that is not Jupyter related.
-
-In essence, I use all three tools to various degrees in a data science project.
-
-
-# Jupyter Notebook
-
-I still use the NB for most of my POC work.
-Here are some reasons why:
-
-## Theming and syntax highlighting
-
-With jupyterthemes you can easily adapt the theme to your needs. I use `jt -t chesterish -T -N` which looks like
-
-![](../assets/jupyterNbOrLab_2021-02-27-07-49-10.png)
-
-I prefer the dark theme because I work quite a lot in front of the monitor and whatever helps to reduce strain on my eyes is very welcome.
-
-## Cell and Code Folding
-
-
-
-
-
-
-
+I am using:
+- Python
+- Conda environment
+- Pip for installing
+- Docker for building images and containers
+- Selenium and the chromebrowser for web scraping
 
 
 
@@ -71,7 +37,6 @@ This was written on XXXXXXXDATEXXXXXXXXXX.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
-
 
 
 ---
