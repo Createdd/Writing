@@ -70,6 +70,12 @@ if __name__ == '__main__':
 ## Scraping script
 
 ```py
+import time
+import pandas as pd
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
 def scrape_site(SAMPLE_URL):
     options = webdriver.ChromeOptions()
     options.headless = True
@@ -155,6 +161,8 @@ EXPOSE 8080
 
 CMD ["gunicorn", "--bind", "0.0.0.0:8080","--timeout", "90", "app:app"]
 ```
+
+Note the section on installing chrome and chromedriver.
 
 When you scrape larger sites or data you might run into a **timeout error**. That's why we add the '"--timeout", "90"' flag in the Dockerfile CMD section.
 
