@@ -5,9 +5,10 @@
 *Source:*
 
 # Table of Contents
+
 - [Deploy your webscraping with Docker](#deploy-your-webscraping-with-docker)
 - [Table of Contents](#table-of-contents)
-- [Why](#why)
+- [Why dockerizing your scraper](#why-dockerizing-your-scraper)
 - [Versions](#versions)
 - [Scraping sample](#scraping-sample)
   - [Flask file](#flask-file)
@@ -20,7 +21,7 @@
 - [About](#about)
 
 
-# Why
+# Why dockerizing your scraper
 
 Webscraping is one of the most often used methods to get data for further analysis. Lately, I used it as well and realized that there are various issues when containerizing (ie using Docker) your scraping function. However, as you need to deploy your webscraping when you need the most recent data, you will face different issues. I want to summarize my solution to save everyone the time of endless hours of online research.
 
