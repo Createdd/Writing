@@ -2,7 +2,7 @@
 
 
 ![](../assets/dockerizeWebscraping_2021-02-28-19-08-43.png)
-*Source:*
+*Source: AI created Art by Author. More examples on https://www.instagram.com/art_and_ai/; inspired by Lina Silivanova https://unsplash.com/photos/9wLq0zC_sOE*
 
 # Table of Contents
 
