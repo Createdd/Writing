@@ -19,6 +19,7 @@
 - [Execute Task](#execute-task)
 - [Expose defined port within webpage](#expose-defined-port-within-webpage)
 - [Watch your app online](#watch-your-app-online)
+- [Bonus: Investigate Errors](#bonus-investigate-errors)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -208,6 +209,20 @@ In the task tab you will see your public IP displayed. Simply navigate to the pa
 ![](../assets/deployingFargate_2021-03-02-14-27-49.png)
 
 
+# Bonus: Investigate Errors
+
+Due to some specific flags I run on my local container development I get some errors for specific functions within my app.
+
+In your task overview under containers you can check the logs in cloudwatch. click on the link and it shows you why your app crashes:
+
+![](../assets/deployingFargate_2021-03-02-14-34-05.png)
+
+![](../assets/deployingFargate_2021-03-02-14-34-20.png)
+
+Now you can debug your app.
+
+Happy coding!
+
 
 
 
@@ -225,7 +240,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **4.3.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.
