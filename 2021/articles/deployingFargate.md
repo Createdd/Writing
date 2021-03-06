@@ -226,7 +226,7 @@ In the task tab you will see your public IP displayed. Simply navigate to the pa
 
 ![](../assets/deployingFargate_2021-03-02-14-27-49.png)
 
-The IP address shown in the screenshot is not working anymore to avoid exploding AWS costs. However, this article is part of a larger project, which I will launch under www.shouldibuycryptoart.com. The app is under development. If you wish to follow its development feel free to reach out to me.
+The IP address shown in the screenshot is not working anymore to avoid AWS costs. However, this article is part of a larger project, which I will launch under www.shouldibuycryptoart.com. The app is under development. If you wish to follow its development feel free to reach out to me.
 
 
 # Bonus: Investigate Errors
