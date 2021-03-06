@@ -1,12 +1,14 @@
 # Deploy your Python app with AWS Fargate
 
-![]()
-*Source:*
+
+![](../assets/deployingFargate_2021-03-06-15-14-01.png)
+*AI created art by Author. More examples on https://www.instagram.com/art_and_ai/; inspired by Jakob Owens https://unsplash.com/photos/1HFzTWbWA-A
 
 # Table of Contents
 
 - [Deploy your Python app with AWS Fargate](#deploy-your-python-app-with-aws-fargate)
 - [Table of Contents](#table-of-contents)
+- [About this article](#about-this-article)
 - [What AWS infrastructure type should I use](#what-aws-infrastructure-type-should-i-use)
 - [AWS account](#aws-account)
 - [Set up AWS credentials](#set-up-aws-credentials)
@@ -23,13 +25,29 @@
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
+# About this article
+
+In this article I will go over the steps to launch a sample web app within AWS.
+In my last articles, I talked about creating an own web app with python and also how to deploy it with AWS Lambda:
+
+- [Develop and sell a machine learning app](https://towardsdatascience.com/develop-and-sell-a-machine-learning-app-from-start-to-end-tutorial-ed5b5a2b6b2b)
+- [Develop and sell a python app](https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966)
+
+Now I want to test out another infrastructure type. This article assumes that you are familiar with building and containerizing a web app. In a python setting I always use Flask and Docker (see previous articles). However, this article focuses on the "devops" perspective of deploying such an app. There are still more aspects that I will cover in following articles, like setting up a proper domain name and use additional services like load balancing.
+
+I use AWS because I already got into it in my last projects and find it well documented and intuitive to handle even though there are so many options to choose from.
+
+As you can see from the table of contens the main parts of this article will be:
+- set up and connect local development with AWS credentials
+- create a repository in an Elastic Container Registry (AWS ECR)
+- create cluster and task to run a docker container in the cloud
 
 
 # What AWS infrastructure type should I use
 
 Here is a fantastic article I want to recommend: https://medium.com/thundra/getting-it-right-between-ec2-fargate-and-lambda-bb42220b8c79
 
-He summarized it perfectly in my opinion. So what I want is to deplay my container, but do not want to get any deeper into the infrastructure.  That's why I go with AWS Fargate.
+He summarized it perfectly in my opinion. So what I want is to deploy my container, but do not want to get any deeper into the infrastructure.  That's why I go with AWS Fargate.
 
 # AWS account
 
@@ -208,6 +226,8 @@ In the task tab you will see your public IP displayed. Simply navigate to the pa
 
 ![](../assets/deployingFargate_2021-03-02-14-27-49.png)
 
+The IP address shown in the screenshot is not working anymore to avoid exploding AWS costs. However, this article is part of a larger project, which I will launch under www.shouldibuycryptoart.com. The app is under development. If you wish to follow its development feel free to reach out to me.
+
 
 # Bonus: Investigate Errors
 
@@ -240,7 +260,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on **4.3.2021**.
+This was written on **6.3.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.

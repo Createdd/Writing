@@ -10,6 +10,7 @@
 - [All out of one box](#all-out-of-one-box)
 - [Buy domain](#buy-domain)
 - [Connect domain with your AWS public IP address](#connect-domain-with-your-aws-public-ip-address)
+- [Enable HTTPS](#enable-https)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -59,6 +60,14 @@ Get the public address from you ec2 task overview page and add it as static valu
 Couple of things to keep in mind:
 - this is a static link, which means if the IP address changes then you need to update this entry
 - this requires your application to send its content to the IP address and not some other port (often 8080). You can not specifiy a port here. You must change this in your EC instance/cluster/task where you set up your Docker container.
+
+![](../assets/awsAppAndDomain_2021-03-06-14-33-02.png)
+
+However, as you can see, the webpage is served over HTTP instead HTTPS. So the next step is to add a security certificate.
+
+# Enable HTTPS
+
+
 
 
 
