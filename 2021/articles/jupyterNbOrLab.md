@@ -13,6 +13,7 @@ I am working with various IDEs for my Python development over the last years. Re
 - [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
 - [Jupyter Notebook](#jupyter-notebook)
   - [Theming and syntax highlighting](#theming-and-syntax-highlighting)
+  - [Notebook configs](#notebook-configs)
   - [Cell and Code Folding](#cell-and-code-folding)
 - [Disclaimer](#disclaimer)
 - [About](#about)
@@ -41,11 +42,45 @@ Here are some reasons why:
 
 ## Theming and syntax highlighting
 
-With jupyterthemes you can easily adapt the theme to your needs. I use `jt -t chesterish -T -N` which looks like
+With jupyterthemes you can easily adapt the theme to your needs. I used a lot the "chesterish" theme (`jt -t chesterish -T -N`) which looks like
 
 ![](../assets/jupyterNbOrLab_2021-02-27-07-49-10.png)
 
+You can specify a with various jupyterthemes flags. Currently I use it with `!jt -t chesterish -f fira -fs 10 -nf ptsans -nfs 11 -N -kl -cursw 2 -cursc r -cellw 95% -T` ( you will find similar setups on other articles). Check the official [website](https://github.com/dunovank/jupyter-themes) to see a full list of the flags and their meanings. This setup looks like this:
+
+![](../assets/jupyterNbOrLab_2021-03-11-16-57-19.png)
+
+![](../assets/exampleChesterishTheme.gif)
+
 I prefer the dark theme because I work quite a lot in front of the monitor and whatever helps to reduce strain on my eyes is very welcome.
+
+
+## Notebook configs
+
+```py
+%load_ext autoreload
+%autoreload 2
+%matplotlib inline
+# %matplotlib notebook
+# %precision %.4f
+%config IPCompleter.greedy = True
+
+pd.options.display.max_columns = None
+pd.options.display.max_rows = 200
+# pd.options.display.float_format = '{:,.4f}'.format
+sns.set_palette("bright")
+sns.set(style="darkgrid")
+sns.set(rc={'figure.figsize':(30,30)})
+# sns.set_context('poster')
+
+InteractiveShell.ast_node_interactivity = "all"
+
+ip = get_ipython()
+ip.register_magics(jupyternotify.JupyterNotifyMagics)
+%autonotify -a 120
+
+from IPython.display import HTML
+```
 
 ## Cell and Code Folding
 
