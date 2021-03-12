@@ -14,7 +14,7 @@ I am working with various IDEs for my Python development over the last years. Re
 - [Jupyter Notebook](#jupyter-notebook)
   - [Theming and syntax highlighting](#theming-and-syntax-highlighting)
   - [Notebook configs](#notebook-configs)
-  - [Cell and Code Folding](#cell-and-code-folding)
+  - [NB extensions](#nb-extensions)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -57,32 +57,37 @@ I prefer the dark theme because I work quite a lot in front of the monitor and w
 
 ## Notebook configs
 
+I use some specific NB configuartions which might be helpful for you as well.
+
 ```py
+
 %load_ext autoreload
 %autoreload 2
 %matplotlib inline
-# %matplotlib notebook
-# %precision %.4f
 %config IPCompleter.greedy = True
 
 pd.options.display.max_columns = None
 pd.options.display.max_rows = 200
-# pd.options.display.float_format = '{:,.4f}'.format
+
 sns.set_palette("bright")
 sns.set(style="darkgrid")
 sns.set(rc={'figure.figsize':(30,30)})
-# sns.set_context('poster')
 
 InteractiveShell.ast_node_interactivity = "all"
 
 ip = get_ipython()
 ip.register_magics(jupyternotify.JupyterNotifyMagics)
 %autonotify -a 120
-
-from IPython.display import HTML
 ```
 
-## Cell and Code Folding
+- The autoreload allows me to reload imported .py files when I evaluate a cell. Due to interaction between Jupyter NB and VS Code files I need to develop in both environments and want everything up to date in my notebook
+- The greedy IP completer allows me to list all options in python dictionaries and tab throught them instead of looking up every option. Be careful though, as having too many big objects in a NB might slow down everything.
+- The pandas (pd) and seaborn (sns) options are simply a preference setup of mine. I do not want to have truncated rows within pandas dataframes often and also prefer a bigger figuresize within seaborn
+- The node interactivity "all" simply outputs all statements instead of the last one. This allows me to not allways have to type "print" for my statements and can simply type variable names. Be aware that this also leads to different behavior for plotting figures.
+- Last one is jupyternotify. It is very helpful as some calculations need time (for example training a model, or optimizing hyperparameters). With this option you can set a timer and notifies you when the calculation is done. Extremely helpful when you want to work on other parts while caluclation.
+
+
+## NB extensions
 
 
 
