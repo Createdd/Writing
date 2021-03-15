@@ -11,10 +11,12 @@ I am working with various IDEs for my Python development over the last years. Re
 - [Jupyter Notebook or Lab? Why you do not need to decide](#jupyter-notebook-or-lab-why-you-do-not-need-to-decide)
 - [Table of Contents](#table-of-contents)
 - [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
-- [Jupyter Notebook](#jupyter-notebook)
+- [Why Jupyter Notebook](#why-jupyter-notebook)
   - [Theming and syntax highlighting](#theming-and-syntax-highlighting)
   - [Notebook configs](#notebook-configs)
   - [NB extensions](#nb-extensions)
+- [Why Jupyter Lab](#why-jupyter-lab)
+- [Why VS Code](#why-vs-code)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -30,12 +32,12 @@ I am always asking myself if Jupyter Lab is already so far developed that it can
 Therefore I use
 - NB for developing a Data Science Proof-of-concept (POC)
 - Jupyter Lab for managing and re-arranging my POCs
-- VS Code for everything that is not Jupyter related.
+- VS Code for everything that is not notebook related.
 
 In essence, I use all three tools to various degrees in a data science project.
 
 
-# Jupyter Notebook
+# Why Jupyter Notebook
 
 I still use the NB for most of my POC work.
 Here are some reasons why:
@@ -89,13 +91,52 @@ ip.register_magics(jupyternotify.JupyterNotifyMagics)
 
 ## NB extensions
 
+There are various [notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) for jupyter NB. Here are the ones I use:
+
+![](../assets/jupyterNbOrLab_2021-03-12-08-35-32.png)
 
 
 
+- [autopep8](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/code_prettify/README_autopep8.html) for formatting code and making it more readable
+- [hide input](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hide_input_all/readme.html)  and [collapsible headings](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) for  showing the results of the cells and not the code. And also focusing on certain parts in the notebook. Helpful for presentations
+- [highlight selected word](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/highlight_selected_word/README.html) for showing me where I used the same variable I want to edit
+- [code folding](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/codefolding/readme.html#) for more complex and longer functions in cells
+- [table of contents](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html) for showing the headings of the notebook. Absolutely essential for navigating through the notebook and making it more readable.
+- [execution time](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/execute_time/readme.html) for knowing how long an execution took. Very useful in training and comparing ML models and parameter optimization.
+- finally [comment hotkey](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/comment-uncomment/readme.html) this is a must if you are using a different keyboard layout than the english one. I use a german keyboard within macOS and therefore the code comment key shortcut does not work. with jupyter NB you have the option to set a different hotkey. this is one big reason why I still do not use jupyter lab. Because there you still do not have this option and there is no way for commenting/uncommenting code parts apart from manually typing "#". This is unbearable if you want proper efficient coding.
+
+I do not use the "Hinterland" extension for code completion. I have used it in the past, but the performance is not good and it also slows down the whole notebook.
+
+Same goes for "Variable Inspector". As soon as you have a few more dataframes or models stored it will slow down the notebook and make it unusable. It took me a while to figure out that those extensions are causing problems. Therefore I do not use it anymore and can recommend not using it if your notebooks are larger.
+
+
+# Why Jupyter Lab
+
+Currently, I only use Jupyter Lab for notebook organization. My repository is managed with VS Code but sometimes I need to re-arange notebooks. This can not be done within VS Code and is cumbersome with Jupyter NB. Either I want to check what steps I have done in similar notebooks or I want to copy certain cells. Also splitting notebooks is  much easier within Juypter Lab, where you have
+- a nice overview of your notebooks,
+- open multiple notebooks within one tab
+- copy and drag multiple cells within a notebook
+
+![](../assets/jupyterNbOrLab_2021-03-15-21-52-45.png)
 
 
 
+# Why VS Code
 
+For everything that is not done in Jupyter NB I use VS Code. I am aware that VS Code supports .ipynb files with a "notebook style" approach. However, until now, it comes not close to the benefits of real Jupyter NB (see my list above) and is also extremely slow. The loading always takes so long that I am already annoyed by it.
+
+But as soon as I leave the notebook environment I do everything in VS Code. I have been using it for many years and it is still the best option in my opinion.
+
+Reasons for this are:
+- Syntax highlighting
+- Code completion and suggestions
+- Navigation through functions and files
+- Extensions and Integrations (eg Docker, linting, formatting, testing, snippets)
+- Git
+
+Basically everything that is needed when developing an app after the notebook proof of concept is great in VS Code.
+
+If you are using another IDE (eg PyCharm) instead of VS Code it will also be sufficient I would say. If you have developed a certain workflow with an IDE and it works it doesn't makes too much sense to switch in my opinion. The reason I prefer VS Code is the lightweight and customizeability. It is extremely intuitive and easy to get started with. You don't need to create projects or whatever. Just add the extensions you need and start programming. You can add as much as you like or you can keep it super slim. It can also support many other languages which makes it great to use if you have bigger projects where you use other languages like GO for the backend and React in the frontend.
 
 
 # Disclaimer
