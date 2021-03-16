@@ -1,4 +1,4 @@
-# Jupyter Notebook or Lab? Why you do not need to decide
+# Jupyter Notebook or Lab or VS Code? Why not all?
 
 ![]()
 *Source:*
@@ -8,7 +8,7 @@ I am working with various IDEs for my Python development over the last years. Re
 
 # Table of Contents
 
-- [Jupyter Notebook or Lab? Why you do not need to decide](#jupyter-notebook-or-lab-why-you-do-not-need-to-decide)
+- [Jupyter Notebook or Lab or VS Code? Why not all?](#jupyter-notebook-or-lab-or-vs-code-why-not-all)
 - [Table of Contents](#table-of-contents)
 - [Why you don't need to decide which is better](#why-you-dont-need-to-decide-which-is-better)
 - [Why Jupyter Notebook](#why-jupyter-notebook)
