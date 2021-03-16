@@ -134,9 +134,9 @@ Reasons for this are:
 - Extensions and Integrations (eg Docker, linting, formatting, testing, snippets)
 - Git
 
-Basically everything that is needed when developing an app after the notebook proof of concept is great in VS Code.
+Basically, everything that is needed when developing an app after the notebook proof of concept is great in VS Code.
 
-If you are using another IDE (eg PyCharm) instead of VS Code it will also be sufficient I would say. If you have developed a certain workflow with an IDE and it works it doesn't makes too much sense to switch in my opinion. The reason I prefer VS Code is the lightweight and customizeability. It is extremely intuitive and easy to get started with. You don't need to create projects or whatever. Just add the extensions you need and start programming. You can add as much as you like or you can keep it super slim. It can also support many other languages which makes it great to use if you have bigger projects where you use other languages like GO for the backend and React in the frontend.
+If you are using another IDE (eg PyCharm) instead of VS Code it will also be sufficient I would say. If you have developed a certain workflow with an IDE and it works it doesn't make too much sense to switch in my opinion. The reason I prefer VS Code is the lightweight and customizability. It is extremely intuitive and easy to get started with. You don't need to create projects or whatever. Just add the extensions you need and start programming. You can add as much as you like or you can keep it super slim. It can also support many other languages which makes it great to use if you have bigger projects.
 
 
 # Disclaimer
@@ -148,7 +148,7 @@ I do not consider myself an expert. I am not a blogger or something. I merely do
 I am always happy for constructive input and how to improve.
 
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **16.03.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 If you need more information on certain parts, feel free to point it out in the comments.
