@@ -1,6 +1,7 @@
 # Jupyter Notebook or Lab or VS Code? Why not all?
 
 ![]()
+![](../assets/jupyterNbOrLab_2021-03-20-18-24-57.png)
 *Source:*
 
 I am working with various IDEs for my Python development over the last years. Recently I asked myself if it would make sense to check if it is useful to update my current practice and see if alternatives offer better productivity. There is often the question if one IDE is better than the other. In this article, I want to show that the best way is to use the best tool for a specific task.
@@ -134,7 +135,9 @@ Reasons for this are:
 - Extensions and Integrations (eg Docker, linting, formatting, testing, snippets)
 - Git
 
-Basically, everything that is needed when developing an app after the notebook proof of concept is great in VS Code.
+![](../assets/jupyterNbOrLab_2021-03-20-18-26-23.png)
+
+Basically everything that is needed when developing an app after the notebook proof of concept is great in VS Code.
 
 If you are using another IDE (eg PyCharm) instead of VS Code it will also be sufficient I would say. If you have developed a certain workflow with an IDE and it works it doesn't make too much sense to switch in my opinion. The reason I prefer VS Code is the lightweight and customizability. It is extremely intuitive and easy to get started with. You don't need to create projects or whatever. Just add the extensions you need and start programming. You can add as much as you like or you can keep it super slim. It can also support many other languages which makes it great to use if you have bigger projects.
 
