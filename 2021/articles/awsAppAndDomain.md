@@ -14,6 +14,9 @@
   - [Add Rules to cluster](#add-rules-to-cluster)
   - [Get certificate](#get-certificate)
 - [Add load balancer](#add-load-balancer)
+- [Update Route53](#update-route53)
+- [Create Service of cluster](#create-service-of-cluster)
+- [See your result with https loadbalancer](#see-your-result-with-https-loadbalancer)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -124,15 +127,38 @@ In the security settings tab you will be able to choose your certificate you hav
 ![](../assets/awsAppAndDomain_2021-03-21-15-57-27.png)
 
 - Set up a security group. I chose the default setup.
-- Configure routing. I took the default again
+- Configure routing. Make sure to use target [type "IP" for Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-application-load-balancer.html)
 
-![](../assets/awsAppAndDomain_2021-03-21-16-04-08.png)
+![](../assets/awsAppAndDomain_2021-03-21-21-59-18.png)
 
 - Review everything and create your load balancer
+- in case you want to set the route directly to the dns address you can copy the DNS name of your load balancer
+
+![](../assets/awsAppAndDomain_2021-03-21-18-58-15.png)
+
+# Update Route53
+
+- Go to Route 53 > Routes Zones > click on the domain name >
+- Go to Records Sets
+- create a hosted zone with Domain Name
+- create/edit record set with name empty, type A,
+- alias to application load balancer and select your created dns
+
+![](../assets/awsAppAndDomain_2021-03-21-19-02-01.png)
 
 
 
+If you have problems in this process check out [this SO question.](https://stackoverflow.com/questions/5309910/https-setup-in-amazon-ec2)
 
+
+# Create Service of cluster
+
+Within a service you can add the previous defined load balancer.
+
+
+# See your result with https loadbalancer
+
+![](../assets/awsAppAndDomain_2021-03-21-23-14-50.png)
 
 
 # Disclaimer
