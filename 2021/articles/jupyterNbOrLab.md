@@ -1,8 +1,7 @@
 # Jupyter Notebook or Lab or VS Code? Why not all?
 
-![]()
 ![](../assets/jupyterNbOrLab_2021-03-20-18-24-57.png)
-*Source:*
+*Source: AI created art by Author. [See on opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec); inspired by Amanda Phung  https://unsplash.com/photos/1w2xsyc2wwI*
 
 I am working with various IDEs for my Python development over the last years. Recently I asked myself if it would make sense to check if it is useful to update my current practice and see if alternatives offer better productivity. There is often the question if one IDE is better than the other. In this article, I want to show that the best way is to use the best tool for a specific task.
 

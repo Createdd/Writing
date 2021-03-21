@@ -11,6 +11,9 @@
 - [Buy domain](#buy-domain)
 - [Connect domain with your AWS public IP address](#connect-domain-with-your-aws-public-ip-address)
 - [Enable HTTPS](#enable-https)
+  - [Add Rules to cluster](#add-rules-to-cluster)
+  - [Get certificate](#get-certificate)
+- [Add load balancer](#add-load-balancer)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -53,13 +56,13 @@ Go to the Route 53 menu and navigate to the "hosted zones" page to  create a new
 Then create a new record.
 
 
-Get the public address from you ec2 task overview page and add it as static value for your domain. For the record name simple add a "www" to the name:
+Get the public address from your ec2 task overview page and add it as static value for your domain. For the record name simple add a "www" to the name:
 
 ![](../assets/awsAppAndDomain_2021-03-06-07-37-34.png)
 
 Couple of things to keep in mind:
 - this is a static link, which means if the IP address changes then you need to update this entry
-- this requires your application to send its content to the IP address and not some other port (often 8080). You can not specifiy a port here. You must change this in your EC instance/cluster/task where you set up your Docker container.
+- this requires your application to send its content to the IP address and not some other port (often 8080). You can not specify a port here. You must change this in your EC instance/cluster/task where you set up your Docker container.
 
 ![](../assets/awsAppAndDomain_2021-03-06-14-33-02.png)
 
@@ -67,6 +70,65 @@ However, as you can see, the webpage is served over HTTP instead HTTPS. So the n
 
 # Enable HTTPS
 
+This was honestly more work than I expected in the beginning. It is important to know why.
+
+## Add Rules to cluster
+
+Go to the security group of your EC2 cluster and make sure you add (or have added) the corresponding inbound rules to allow for https setting.
+
+![](../assets/awsAppAndDomain_2021-03-21-18-41-13.png)
+
+## Get certificate
+
+Navigate to the AWS Certificate Manager
+
+![](../assets/awsAppAndDomain_2021-03-21-11-26-37.png)
+
+Add your domain
+
+
+![](../assets/awsAppAndDomain_2021-03-21-11-28-46.png)
+
+and fill out the remaining questions as you see fit.
+
+I chose validation by email. After approving this mail you will have succcessfully issued the certificate.
+
+![](../assets/awsAppAndDomain_2021-03-21-15-55-32.png)
+
+
+
+
+
+
+
+# Add load balancer
+
+Just type in Load Balancer and select the EC2 feature:
+
+![](../assets/awsAppAndDomain_2021-03-21-09-41-16.png)
+
+then we select application load balancer:
+
+![](../assets/awsAppAndDomain_2021-03-21-09-42-02.png)
+
+
+1. Give your load balancer a name
+2. The scheme will be internet facing, and
+3. select https,
+4. select available subnets
+
+![](../assets/awsAppAndDomain_2021-03-21-11-09-59.png)
+
+In the security settings tab you will be able to choose your certificate you have set up previously (fromn ACM)
+
+![](../assets/awsAppAndDomain_2021-03-21-15-57-27.png)
+
+- Set up a security group. I chose the default setup.
+- Configure routing. I took the default again
+
+![](../assets/awsAppAndDomain_2021-03-21-16-04-08.png)
+
+- Review everything and create your load balancer
 
 
 
