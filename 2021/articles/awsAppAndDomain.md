@@ -1,13 +1,14 @@
-# Connect your AWS app with a domain
+# Buy a domain within AWS, connect to your app, and secure with SSL - tutorial
 
-![]()
-*Source:*
+*AI created art by Author. See on opensea as NFT: XXXXX; inspired by XXXX hXXXXX*
+
 
 # Table of Contents
 
-- [Connect your AWS app with a domain](#connect-your-aws-app-with-a-domain)
+- [Buy a domain within AWS, connect to your app, and secure with SSL - tutorial](#buy-a-domain-within-aws-connect-to-your-app-and-secure-with-ssl---tutorial)
 - [Table of Contents](#table-of-contents)
-- [All out of one box](#all-out-of-one-box)
+- [About this article](#about-this-article)
+- [What AWS infrastructure type should I use](#what-aws-infrastructure-type-should-i-use)
 - [Buy domain](#buy-domain)
 - [Connect domain with your AWS public IP address](#connect-domain-with-your-aws-public-ip-address)
 - [Enable HTTPS](#enable-https)
@@ -17,20 +18,49 @@
 - [Update Route53](#update-route53)
 - [Create Service of cluster](#create-service-of-cluster)
 - [See your result with https loadbalancer](#see-your-result-with-https-loadbalancer)
+- [Helpful articles](#helpful-articles)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
-# All out of one box
+# About this article
 
-I came to use many services from AWS. The more I use it the more I tend to like it. It is very straight-forward to set up everything and you find great official and unofficial documentation. I realized however that most articles cover launching of apps but not how to tie it to an own domain name. This is nice for testing, but if you want to launch a prototype you would of course need your own domain. Especially as the domain itself is often quite cheap.
+In this article I will go over the steps to launch a sample web app within AWS.
+In my last articles, I talked about creating an own web app with python and also how to deploy it with AWS Lambda, or to do so with AWS Fargate:
 
-In my last articles, I talked about creating an own web app with python and also how to deploy it. TODO: Link articles
+- [Develop and sell a machine learning app](https://towardsdatascience.com/develop-and-sell-a-machine-learning-app-from-start-to-end-tutorial-ed5b5a2b6b2b)
+- [Develop and sell a python app](https://towardsdatascience.com/develop-and-sell-a-python-api-from-start-to-end-tutorial-9a038e433966)
+- [Deploy your Python app with AWS Fargate](https://towardsdatascience.com/deploy-your-python-app-with-aws-fargate-tutorial-7a48535da586)
+
+
+I use AWS because I already got into it in my last projects and find it well documented and intuitive to handle even though there are so many options to choose from. It is very straight-forward to set up everything and you find great official and unofficial documentation. I realized however that most articles cover launching of apps but not how to tie it to an own domain name. This is nice for testing, but if you want to launch a prototype you would of course need your own domain. Especially as the domain itself is often quite cheap.
 
 So now I want to show how to buy and register a domain within AWS for your web app.
 
-One official documentation you can find [here](https://aws.amazon.com/getting-started/hands-on/get-a-domain/).
-
 I will illustrate how I did it with some personal points.
+
+As you can see from the table of contens the main parts of this article will be:
+- Buying the domain
+- Connecting the domain to your application
+- Adding a loadbalancer
+- Enabeling https
+
+Prerequisites:
+- Having a containerized (Docker) application with a webpage
+- Willingness to buy a domain
+- Using a Fargate cluster within AWS (though many steps are similar for any similar container management services within AWS)
+
+If you are having trouble getting to that point, check out my previous articles on those topics.
+
+
+# What AWS infrastructure type should I use
+
+Here is a [fantastic article](https://medium.com/thundra/getting-it-right-between-ec2-fargate-and-lambda-bb42220b8c79) I want to recommend. He summarized it perfectly in my opinion. So what I want is to deploy my container, but do not want to get any deeper into the infrastructure.  That's why I go with AWS Fargate.
+
+![](../assets/awsAppAndDomain_2021-03-22-09-56-20.png)
+
+However, what is important to note here is, that AWS Fargate does NOT come with the free tier option! (At the time of writing). Small setups are quite cheap, but keep it in mind.
+
+
 
 # Buy domain
 
@@ -104,6 +134,8 @@ I chose validation by email. After approving this mail you will have succcessful
 
 # Add load balancer
 
+One way in AWS to add a SSL certificate is to add a loadbalancer. As I want to balance the server load anyways I will show how I do it.
+
 Just type in Load Balancer and select the EC2 feature:
 
 ![](../assets/awsAppAndDomain_2021-03-21-09-41-16.png)
@@ -131,11 +163,8 @@ In the security settings tab you will be able to choose your certificate you hav
 
 - Configure routing. Make sure to use target [type "IP" for Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-application-load-balancer.html)
 
-WTONG:
 
-![](../assets/awsAppAndDomain_2021-03-21-21-59-18.png)
-
-Correct: Listen for HTTP port!
+- Listen for HTTP protocol in the target group
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-03-44.png)
 
@@ -145,6 +174,10 @@ Correct: Listen for HTTP port!
 - in case you want to set the route directly to the dns address you can copy the DNS name of your load balancer
 
 ![](../assets/awsAppAndDomain_2021-03-21-18-58-15.png)
+
+Note, that I simply set up the https requests here. Ideally you can also set up the redirect from your http to https domain here as well. Additional info can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/elb-redirect-http-to-https-using-alb/).
+
+
 
 # Update Route53
 
@@ -158,12 +191,9 @@ Correct: Listen for HTTP port!
 
 
 
-If you have problems in this process check out [this SO question.](https://stackoverflow.com/questions/5309910/https-setup-in-amazon-ec2)
-
-
 # Create Service of cluster
 
-Within a service you can add the previous defined load balancer.
+Within a service you can add the previous defined load balancer. To understand the difference between a service and a task, see this [SO question](https://stackoverflow.com/questions/42960678/what-is-the-difference-between-a-task-and-a-service-in-aws-ecs).
 
 - Go to the service tab in your ECS Cluster
 - Fill everything out as desired
@@ -181,10 +211,6 @@ Within a service you can add the previous defined load balancer.
 Now you will have to wait a bit until everything is set up and running.
 
 
-
-
-
-
 # See your result with https loadbalancer
 
 
@@ -196,7 +222,15 @@ And of course to your https domain:
 
 ![](../assets/awsAppAndDomain_2021-03-21-23-14-50.png)
 
-Note: As this application is under development it might be that the domain is not reachable. This is desired as I am still playing around with AWS archtitecture setups and want to avoid too much costs.
+If you have problems in the whole process check out [this SO question](https://stackoverflow.com/questions/5309910/https-setup-in-amazon-ec2) on how to set up https. I found it quite useful.
+
+Note: As this application is under development. It might be that the domain is not reachable when you try it. This is desired as I am still playing around with AWS archtitectural setups and want to avoid too much costs.
+
+This article is part of a larger project, which I will launch under www.shouldibuycryptoart.com. The app is under development. If you wish to follow its development feel free to reach out to me or follow my social media accounts.
+
+# Helpful articles
+
+- https://dev.to/ryands17/deploy-a-node-app-to-aws-ecs-with-dynamic-port-mapping-38gd
 
 
 # Disclaimer
@@ -205,7 +239,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **22.03.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.
