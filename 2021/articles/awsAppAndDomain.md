@@ -1,6 +1,8 @@
 # Buy a domain within AWS, connect to your app, and secure with SSL - tutorial
 
-*AI created art by Author. See on opensea as NFT: XXXXX; inspired by XXXX hXXXXX*
+
+![](../assets/awsAppAndDomain_2021-03-22-10-34-38.png)
+*AI created art by Author. See on [opensea as NFT](https://opensea.io/accounts/createdd); inspired by XXXX hXXXXX*
 
 
 # Table of Contents
