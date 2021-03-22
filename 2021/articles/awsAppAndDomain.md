@@ -66,6 +66,7 @@ Get the public address from your ec2 task overview page and add it as static val
 Couple of things to keep in mind:
 - this is a static link, which means if the IP address changes then you need to update this entry
 - this requires your application to send its content to the IP address and not some other port (often 8080). You can not specify a port here. You must change this in your EC instance/cluster/task where you set up your Docker container.
+- When we add a loadbalancer and enable https this entry will be changed! (See below)
 
 ![](../assets/awsAppAndDomain_2021-03-06-14-33-02.png)
 
@@ -101,9 +102,6 @@ I chose validation by email. After approving this mail you will have succcessful
 
 
 
-
-
-
 # Add load balancer
 
 Just type in Load Balancer and select the EC2 feature:
@@ -126,10 +124,22 @@ In the security settings tab you will be able to choose your certificate you hav
 
 ![](../assets/awsAppAndDomain_2021-03-21-15-57-27.png)
 
-- Set up a security group. I chose the default setup.
+- Set up a security group. Make sure to allow https and http traffic
+
+
+![](../assets/awsAppAndDomain_2021-03-22-09-02-17.png)
+
 - Configure routing. Make sure to use target [type "IP" for Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-application-load-balancer.html)
 
+WTONG:
+
 ![](../assets/awsAppAndDomain_2021-03-21-21-59-18.png)
+
+Correct: Listen for HTTP port!
+
+![](../assets/awsAppAndDomain_2021-03-22-09-03-44.png)
+
+- leave default in targets as it will be allocated automatically!
 
 - Review everything and create your load balancer
 - in case you want to set the route directly to the dns address you can copy the DNS name of your load balancer
@@ -155,10 +165,38 @@ If you have problems in this process check out [this SO question.](https://stack
 
 Within a service you can add the previous defined load balancer.
 
+- Go to the service tab in your ECS Cluster
+- Fill everything out as desired
+
+![](../assets/awsAppAndDomain_2021-03-22-09-06-36.png)
+
+- in the next step (network setting), use the defaults for VPCs
+- add application load balancer and set the listener to https (Port 443) and specify your target group ( you had defined in routing of the load balancer)
+
+
+![](../assets/awsAppAndDomain_2021-03-22-09-10-00.png)
+
+- finish the steps and create the service
+
+Now you will have to wait a bit until everything is set up and running.
+
+
+
+
+
 
 # See your result with https loadbalancer
 
+
+Now you can navigate to the public IP of your task:
+
+![](../assets/awsAppAndDomain_2021-03-22-09-12-44.png)
+
+And of course to your https domain:
+
 ![](../assets/awsAppAndDomain_2021-03-21-23-14-50.png)
+
+Note: As this application is under development it might be that the domain is not reachable. This is desired as I am still playing around with AWS archtitecture setups and want to avoid too much costs.
 
 
 # Disclaimer
