@@ -23,7 +23,7 @@ If you need more information on certain parts, feel free to point it out in the 
 
 ## Affiliate Links
 
-As I started to get into the crypto world, I was looking for an affiliate programm. Coinbase is one of the largest platforms for exchanging cryptocurrancies. They offer an [affiliate programm](https://www.coinbase.com/de/affiliates).
+As I started to get into the crypto world, I was looking for an affiliate programm. Coinbase is one of the largest platforms for exchanging cryptocurrencies. They offer an [affiliate programm](https://www.coinbase.com/de/affiliates).
 
 In this [article](https://www.businessofapps.com/affiliate/crypto/) you can fing an overview about other affiliate platforms as well.
 
