@@ -21,7 +21,15 @@ In this article, I quickly want to show how easy it is to create and sell an NFT
 
 [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) has their [own article](https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) on why they consider their platform to be one of the best to create and sell NFTs. I agree and that's why I want to show how I do it.
 
+---
+
 If you want to have a more detailed guide, feel free to check out [my course on createddseries](https://www.createddseries.com/).
+
+---
+
+I have also written articles:
+- https://medium.com/the-art-of-art/make-money-with-crypto-art-a-starter-on-rarible-99676b79806d
+- https://medium.com/coinmonks/step-by-step-introduction-to-buy-cryptoart-b02c46a4b66e
 
 # 1. Get Metamask for access to Opensea
 
