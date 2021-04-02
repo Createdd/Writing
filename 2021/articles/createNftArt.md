@@ -23,13 +23,24 @@ In this article, I quickly want to show how easy it is to create and sell a NFT 
 
 # 1. Get Metamask for access to Opensea
 
+Install the metamask from their homepage https://metamask.io/
+I simply use it as a chrome browser extension.
+
+A detailled step-through can be found [here](https://medium.com/@mark.lasia/how-to-set-up-an-erc20-compatible-ethereum-wallet-cda8dabc4b89)
+
 # 2. Create an account on Opensea
+
+After you have set up your meta mask wallet you simply create your account.
+
+A step by step guide can be found on their [help site](https://openseahelp.zendesk.com/hc/en-us/articles/360061676254-How-do-I-create-an-OpenSea-account-).
 
 # 3. Create an art piece
 
+How you create your digital art piece is up to you as an artist. Be creative. I wrote a detailed [article on how I do it](https://medium.com/the-art-of-art/how-ai-creates-art-with-neural-style-transfer-an-example-b350dc933fe8). Be aware that you don't have to be that technical. Check out other NFT marketplaces to see what other people are creating and get inspired. Creative new approach tend to be rewarded by the market ;)
+
 # 4. Mint and sell your art piece
 
-1. Navigate to [Opensea]()
+1. Navigate to [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec)
 2. Go to Create -> My Collections
 3. Create new collection
 4. Add new Item
