@@ -37,8 +37,9 @@ In this article, I quickly want to show how easy it is to create and sell a NFT 
 6. Visit your creation and go to "Sell"
 7. Set fixed price or sell as auction. NOTE: If this is your first listing you will have to pay gas fee. This is the only time! If you choose auction (like I did in the screenshot) you will have to pay a small transaction fee.
 8. Post your listing
-9. Pay fee if neceessary
+9. Pay fee if necessary
 10. Sign transaction
+11. View your creation and share on social media and with friends
 
 
 ![](../assets/createNftArt_2021-04-02-11-29-52.png)
@@ -46,6 +47,7 @@ In this article, I quickly want to show how easy it is to create and sell a NFT 
 ![](../assets/createNftArt_2021-04-02-11-32-36.png)
 ![](../assets/createNftArt_2021-04-02-11-37-18.png)
 ![](../assets/createNftArt_2021-04-02-11-37-46.png)
+![](../assets/createNftArt_2021-04-02-11-39-02.png)
 
 
 
