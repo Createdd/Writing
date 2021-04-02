@@ -1,25 +1,27 @@
-# How to create a NFT art piece
+# How I create a NFT art piece for free
 
 ![](../assets/createNftArt_2021-04-02-11-21-01.png)
 *AI created art by Author. [See on Opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [Piwnicki](https://unsplash.com/photos/JnXebVlsVrg)*
 
 # Table of Contents
 
-- [How to create a NFT art piece](#how-to-create-a-nft-art-piece)
+- [How I create a NFT art piece for free](#how-i-create-a-nft-art-piece-for-free)
 - [Table of Contents](#table-of-contents)
-- [About](#about)
+- [About this article](#about-this-article)
 - [1. Get Metamask for access to Opensea](#1-get-metamask-for-access-to-opensea)
 - [2. Create an account on Opensea](#2-create-an-account-on-opensea)
 - [3. Create an art piece](#3-create-an-art-piece)
 - [4. Mint and sell your art piece](#4-mint-and-sell-your-art-piece)
 - [Disclaimer](#disclaimer)
-- [About](#about-1)
+- [About](#about)
 
-# About
+# About this article
 
-In this article, I quickly want to show how easy it is to create and sell a NFT art piece on opensea. You only have to pay one time a gas fee and the rest is for free. So you can circumvent the high gas fees.
+In this article, I quickly want to show how easy it is to create and sell a NFT art piece on [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec). You only have to pay one time a gas fee and the rest is for free. So you can circumvent the high gas fees.
 
 [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) has their [own article](https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) on why they consider their platform to be one of the best to create and sell NFTs. I agree and that's why I want to show how I do it.
+
+If you want to have a more detailed guide, feel free to check out [my course on createddseries](https://www.createddseries.com/).
 
 # 1. Get Metamask for access to Opensea
 
