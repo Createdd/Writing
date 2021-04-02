@@ -1,11 +1,11 @@
-# How I create a NFT art piece for free
+# How I create an NFT art piece for free
 
 ![](../assets/createNftArt_2021-04-02-11-21-01.png)
 *AI created art by Author. [See on Opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [Piwnicki](https://unsplash.com/photos/JnXebVlsVrg)*
 
 # Table of Contents
 
-- [How I create a NFT art piece for free](#how-i-create-a-nft-art-piece-for-free)
+- [How I create an NFT art piece for free](#how-i-create-an-nft-art-piece-for-free)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [1. Get Metamask for access to Opensea](#1-get-metamask-for-access-to-opensea)
@@ -17,7 +17,7 @@
 
 # About this article
 
-In this article, I quickly want to show how easy it is to create and sell a NFT art piece on [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec). You only have to pay one time a gas fee and the rest is for free. So you can circumvent the high gas fees.
+In this article, I quickly want to show how easy it is to create and sell an NFT art piece on [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec). You only have to pay one time a gas fee and the rest is for free. So you can circumvent the high gas fees.
 
 [Opensea](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) has their [own article](https://opensea.io/blog/guides/7-reasons-to-sell-your-nfts-on-opensea/?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) on why they consider their platform to be one of the best to create and sell NFTs. I agree and that's why I want to show how I do it.
 
@@ -101,6 +101,7 @@ Direct:
 - [Twitter](https://twitter.com/_createdd)
 - [Instagram](https://www.instagram.com/create.dd/)
 - [createdd.com](https://www.createdd.com/)
+- [courses](https://www.createddseries.com/)
 
 Art-related:
 - [Medium/the-art-of-art](https://medium.com/the-art-of-art)
