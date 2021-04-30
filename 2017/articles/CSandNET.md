@@ -184,6 +184,7 @@ It will be interesting to see how it evolves in the near future.
 - [🌐 "Introduction to ASP.NET Core" - Microsoft ](afgafgadgads)
 - [📄 "Introduction to NET Core" - Pradeep Shet (article) ](https://www.codeproject.com/Articles/1126303/Introduction-to-NET-Core)
 - [📄 ".NET Core Introduction" - Radu Matei (6min article)](https://radu-matei.github.io/blog/dot-net-core-introduction/)
+- [🌐 "C# Tutorial" - Tutlane (guide)](https://www.tutlane.com/tutorial/csharp)
 
 
 ```
