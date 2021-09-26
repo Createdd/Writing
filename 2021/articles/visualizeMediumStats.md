@@ -8,10 +8,35 @@
 
 - [Make your own Medium Stats visualization](#make-your-own-medium-stats-visualization)
 - [Table of Contents](#table-of-contents)
+- [Get your stats as csv file](#get-your-stats-as-csv-file)
+- [Result on Tableau Public](#result-on-tableau-public)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
-#
+# Get your stats as csv file
+
+There are 2 chrom extensions that grab your stats:
+
+The first one is [**Medium Enhanced Stats**](https://chrome.google.com/webstore/detail/medium-enhanced-stats/jnomnfoenpdinfkpaaigokicgcfkomjo/support), which unfortunately lacks a proper date formatting when I tested it.
+
+![](https://lh3.googleusercontent.com/qwNhoe0Dho29H7Rj6ATJtoCkJJR7wGMzLL5y0UFNHFft9lVc69TzFbEAEceaGFJGnOLzG65wUFmkcBEAHxZ17eQqR4E=w640-h400-e365-rj-sc0x00ffffff)
+
+Source: https://chrome.google.com/webstore/detail/medium-enhanced-stats/jnomnfoenpdinfkpaaigokicgcfkomjo/support
+
+There is a second option is called [**Better Medium Stats**](https://chrome.google.com/webstore/detail/better-medium-stats/pdehepohihkkmeclfnlnipieffkomajc), which is the one I was using.
+
+![](https://lh3.googleusercontent.com/fD2H5xELqvC4n8t45uX6Y9LKfWcdJScsiK1-AzGJxMLQH3JIS3FbqUL83-Fofu0Bq1VOmXRbrYzd7mRL4pU2PD0W=w640-h400-e365-rj-sc0x00ffffff)
+Source: https://chrome.google.com/webstore/detail/better-medium-stats/pdehepohihkkmeclfnlnipieffkomajc
+
+By clicking the export option you can download your stats as CSV file.
+
+
+# Result on Tableau Public
+
+The result can be seen on my profile on [Tableau Public](https://public.tableau.com/app/profile/createdd/viz/MediumStats_16326458688770/Dashboard?publish=yes)
+
+![](https://i.imgur.com/TOZv0An.gif)
+
 
 # Disclaimer
 
