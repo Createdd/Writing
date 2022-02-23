@@ -1,4 +1,4 @@
-# How to set up my new Macbook Pro for programming and data science
+# How I set up my new Macbook Pro for programming and data science
 
 ![](https://lh3.googleusercontent.com/xsCpYJtJp1CQYsq42j2usmWAuSypRij7m52-89VkQ0a23kBdnE0ndrk79C6T6YmRZ9WEPTOA7muWu9HYXmGRwu3x0piyqXNuVZz7Bg=w600)
 
@@ -7,10 +7,10 @@
 
 # Table of Contents
 
-- [How to set up my new Macbook Pro for programming and data science](#how-to-set-up-my-new-macbook-pro-for-programming-and-data-science)
+- [How I set up my new Macbook Pro for programming and data science](#how-i-set-up-my-new-macbook-pro-for-programming-and-data-science)
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
-- [Software to install an why](#software-to-install-an-why)
+- [Software to install and why](#software-to-install-and-why)
   - [Rectangle - Arranging windows](#rectangle-arranging-windows)
   - [iTerm and zsh - terminal and shell](#iterm-and-zsh-terminal-and-shell)
     - [iterm - better terminal](#iterm-better-terminal)
@@ -38,10 +38,10 @@
 # Intro
 
 Every time I am getting a new Macbook I go over the same steps on how to set it up for my working experience. I thought I will gather my thoughts and show the applications I install in order to get the most out of my working setup.
-I use a Macbook Pro. You could use some of the tips and thoughts for a Windows setup as well, however I focus on Mac. Reason for that is that I have worked with both systems and I found Mac always easier to use.
+I use a Macbook Pro. You could use some of the tips and thoughts for a Windows setup as well, however, I focus on Mac. The reason for that is that I have worked with both systems and I found Mac always easier to use.
 
 
-# Software to install an why
+# Software to install and why
 
 ## Rectangle - Arranging windows
 
@@ -68,7 +68,7 @@ From official docs; Screenshot by author
 
 
 
-iTerm is basically a better terminal with configurable options. A list of features can be found on their offical docs: https://iterm2.com/features.html 
+iTerm is basically a better terminal with configurable options. A list of features can be found on their official docs: https://iterm2.com/features.html 
 
 Then, I change a few settings:
 1. in General > Closing: I remove the confirmation of closing iTerm. It always blocks a restart and I didn't have any usecase that the confirmation saved anything. 
@@ -120,7 +120,7 @@ It can be customised and powered up with multiple (open source) extensions:
 In 2017 I wrote an article about my favorite extensions. Feel free to check it out as well -> https://medium.com/free-code-camp/favorite-vs-code-extensions-2017-786ea235812f
 
 
-I also use pycharm for developing most of my code, yet I still use for VS Code as my alternative. Sometimes I just want to change a few files without the whole pycharm initialization. That's when I use VS Code. Also for markdown writing. Like I do with my articles.
+I also use pycharm for developing most of my code, yet I still use VS Code as my alternative. Sometimes I just want to change a few files without the whole pycharm initialization. That's when I use VS Code. Also for markdown writing. Like I do with my articles.
 
 
 After downloading VSCode and putting it in the applications folder, open the command palette with the Keyboard Shortcut: `⇧⌘P` and select `"Install 'code' command in PATH"`. This way you can open files by just typing the pre-fix code in your terminal. We will use it in the next step.
@@ -142,7 +142,7 @@ I always use robbyrussell
 From official docs; Screenshot by author
 
 
-It is straight forward and gives me all the infos I need when working with my code. This is set by default. However if you want to change it or have a look in the file follow the instructions.
+It is straightforward and gives me all the info I need when working with my code. This is set by default. However, if you want to change it or have a look in the file follow the instructions.
 
 
 For setting the theme I refer to the docs:
@@ -212,7 +212,7 @@ From official docs; Screenshot by author
 
 Check out their official homepage to browse through the reasons why it is a good fit for your needs: https://www.jetbrains.com/pycharm/
 
-The reason for using pycharm bei jetbrains is that it showed me throughout my work experience that this is the best all-in-one solution for dealing with larger data science projects. Even though you can customize VS code to be usable for large projects as well, I think that Pycharm still has an edge over the others.
+The reason for using Pycharm by Jetbrains is that it showed me throughout my work experience that this is the best all-in-one solution for dealing with larger data science projects. Even though you can customize VS code to be usable for large projects as well, I think that Pycharm still has an edge over the others.
 
 The datagrip extension for connecting with databases and handling queries is a blast to use and makes my life much easier.
 
@@ -235,13 +235,13 @@ More about it on the official docs: https://www.microsoft.com/en/microsoft-365 
 
 ## Nightshift
 
-Years ago I used various software to help my reduce blue light on my computer screen. Nowadays you can easily use macOS nigh shift funcitonality.
+Years ago I used various software to help me reduce blue light on my computer screen. Nowadays you can easily use macOS nigh shift functionality.
 
 
 Read about it here: https://support.apple.com/en-us/HT207513
 
 
-In essence it makes your screen more "orange" in the night time. Reason for this are studies that showed that blue light can hinder good sleep. As many programmers work into the night, this was a game changer for me. It helped me quite a bit. That's why I set it always to on, and put it to as much warmth tone as possible. For a designer that wouldn't work but for a programmer that is not an issue. Simply be aware of the stronger orange tone.
+In essence, it makes your screen more "orange" in the nighttime. The reason for this are studies that showed that blue light can hinder good sleep. As many programmers work into the night, this was a game-changer for me. It helped me quite a bit. That's why I set it always to on and put it to as much warmth tone as possible. For a designer that wouldn't work but for a programmer that is not an issue. Simply be aware of the stronger orange tone.
 
 
 ## Dock
