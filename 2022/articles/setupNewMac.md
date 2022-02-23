@@ -17,8 +17,8 @@
     - [zsh - better shell](#zsh-better-shell)
   - [Brew - Installing packages](#brew-installing-packages)
   - [VS Code](#vs-code)
-  - [oh-my-zsh - plugins/themes for zsh](#oh-my-zsh-pluginsthemes-for-zsh)
-    - [theme](#theme)
+  - [oh-my-zsh -> plugins for zsh](#oh-my-zsh---plugins-for-zsh)
+    - [themes](#themes)
     - [syntax highlighting for terminal](#syntax-highlighting-for-terminal)
     - [autocomplete for terminal](#autocomplete-for-terminal)
   - [Data science related](#data-science-related)
@@ -48,6 +48,7 @@ I use a Macbook Pro. You could use some of the tips and thoughts for a Windows s
 First, I will install [Rectangle](https://rectangleapp.com/)
 
 ![](https://user-images.githubusercontent.com/13651296/101402672-57ab5300-38d4-11eb-9e8c-6a3147d26711.png)
+From official docs;Screenshot by author
 
 
 The reason for that is to re-arrange window size with key shortcuts. It doesn't matter which desktop setup I am on. Multiple monitors, docking station, etc. I always need shortcuts for arranging windows. Either to the side, centering or maximizing them in the current virtual desktop.
@@ -63,6 +64,8 @@ After installing it, simply add its accessibility within the security & privacy 
 
 
 ![](https://iterm2.com/img/screenshots/split_panes.png)
+From official docs; Screenshot by author
+
 
 
 iTerm is basically a better terminal with configurable options. A list of features can be found on their offical docs: https://iterm2.com/features.html 
@@ -78,44 +81,81 @@ Then, I change a few settings:
 Feel free to explore more options!
 
 ### zsh - better shell
-https://ohmyz.sh
+
+![](https://ohmyz.sh/img/themes/eastwood.jpg)
+
+https://ohmyz.sh; from official docs; Screenshot by author
+
+
+
 You can find an overview of the Plugins here: https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview 
 
-Follow the official guide for installing it. Simply type `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` into your terminal. And that's it for now.
+Follow the official guide for installing it.
+Simply type
+ `$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+ into your terminal.
+
+And that's it for now.
 
 ## Brew - Installing packages
-Homebrew
-The Missing Package Manager for macOS (or Linux).brew.sh
+
+[Homebrew](https://brew.sh/) is "the Missing Package Manager for macOS (or Linux)."
+
 Simply follow their installation guide 
-pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` into the terminal
-After that, make sure to also execute the two commands mentioned terminal, namely echo 'eval .... and eval " ... which exports the bin into your PATH. You will need this to execute the `brew` command through the terminal.
+pasting
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+into the terminal
+
+After that, make sure to also execute the two commands mentioned terminal, namely `echo 'eval ....` and `eval " ...` which exports the bin into your PATH. You will need this to execute the `brew` command through the terminal.
+
 
 ## VS Code
-I always use VS Code as my lightweight editor of choice. It has so many options to be customized and in its basic form is one of the best environments for dealing with code. 
-Download Visual Studio Code - Mac, Linux, Windows
-Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows. Download Visual Studio…code.visualstudio.com
+
+![](https://code.visualstudio.com/assets/blogs/2021/10/20/vscode-dev.png)
+From official blog: https://code.visualstudio.com/blogs/2021/10/20/vscode-dev, from official docs; Screenshot by author
+
+I always use VS Code as my lightweight editor of choice. It has so many options to be customized and in its basic form is one of the best environments for dealing with code.
+
 It can be customised and powered up with multiple (open source) extensions:
-In 2019 I wrote an article about my favorite extensions: Feel free to check it out as well.
-I also use pycharm for developing most of my code, yet I still use for VS Code as my alternative. Sometimes I just want to change a few files without the whole pycharm initialization. That's when I use VS Code. Also for markdown writing. Like I do with my articles. 
-After downloading VSCode and putting it in the applications folder, open the command palette with the Keyboard Shortcut: ⇧⌘P and select "Install 'code' command in PATH" . This way you can open files by just typing the pre-fix code in your terminal. We will use it in the next step.
+In 2017 I wrote an article about my favorite extensions. Feel free to check it out as well -> https://medium.com/free-code-camp/favorite-vs-code-extensions-2017-786ea235812f
 
-## oh-my-zsh - plugins/themes for zsh
 
-https://ohmyz.sh/img/themes/nebirhos.jpg
-GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,000+ contributors) framework for…
-🙃 A delightful community-driven (with 2,000+ contributors) framework for managing your zsh configuration. Includes…github.com
-### theme 
-There are multiple themes you can choose from: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes 
+I also use pycharm for developing most of my code, yet I still use for VS Code as my alternative. Sometimes I just want to change a few files without the whole pycharm initialization. That's when I use VS Code. Also for markdown writing. Like I do with my articles.
+
+
+After downloading VSCode and putting it in the applications folder, open the command palette with the Keyboard Shortcut: `⇧⌘P` and select `"Install 'code' command in PATH"`. This way you can open files by just typing the pre-fix code in your terminal. We will use it in the next step.
+
+## oh-my-zsh -> plugins for zsh
+
+![](https://ohmyz.sh/img/themes/nebirhos.jpg)
+https://ohmyz.sh/, from official docs; Screenshot by author
+
+
+
+### themes
+
+There are multiple themes you can choose from: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
 I always use robbyrussell
-https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg
-It is straight forward and gives me all the infos I need when working with my code. This is set by default. However if you want to change it or have a look in the file follow the instructions. 
-For setting the theme I refer to the docs
+
+![](https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg)
+From official docs; Screenshot by author
+
+
+It is straight forward and gives me all the infos I need when working with my code. This is set by default. However if you want to change it or have a look in the file follow the instructions.
+
+
+For setting the theme I refer to the docs:
 > In order to enable a theme, set ZSH_THEME to the name of the theme in your ~/.zshrc, before sourcing Oh My Zsh; for example: ZSH_THEME=robbyrussell If you do not want any theme enabled, just set ZSH_THEME to blank: ZSH_THEME=""
-Therefore I just type in code ~/.zshrc which opens my zsh config file in vs code. 
+Therefore I just type in code ~/.zshrc which opens my zsh config file in vs code.
+
+
 Restarting iTerm afterwards reloads your theme and it should look like in the screenshot:
-https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg
+![](https://user-images.githubusercontent.com/49100982/108254738-764b8700-716c-11eb-9a59-4deb8c8c6193.jpg)
+From official docs; Screenshot by author
+
 ### syntax highlighting for terminal
+
 > This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors.
 zsh-syntax-highlighting/after2.png at master · zsh-users/zsh-syntax-highlighting
 Fish shell like syntax highlighting for Zsh. Contribute to zsh-users/zsh-syntax-highlighting development by creating an…github.com
@@ -128,30 +168,43 @@ See also repology's cross-distro index Simply clone this repository and source t
 We do that by downloading `zsh-syntax-highlighting` from
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 and add it to the plugins list in the .zshrc file. 
-Restarting the iterm or opening a new session and you are ready to go. 
+Restarting the iterm or opening a new session and you are ready to go.
+
 ### autocomplete for terminal
 GitHub - zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh
 It suggests commands as you type based on history and completions. Requirements: Zsh v4.3.11 or later See INSTALL.md…github.com
+
 > It suggests commands as you type based on history and completions.
 Installing zsh-autosuggestions
+
 Edit descriptionasciinema.org
+
 Again, for installing, simply follow the instructions in their docs: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 and add it to the plugins section in your zshrc file.
 Restarting the iterm or opening a new session and you are ready to go.
+
 ## Data science related
+
 ### Anaconda
+
 Anaconda | The World's Most Popular Data Science Platform
 The modern world of data science is incredibly dynamic. Every day, new challenges surface - and so do incredible…www.anaconda.com
-Main reason for this installation is the package management system. For most things and proof of concepts this is a fantastic starter for creating a proper environment for your data science related work. Especially managing it with different python versions it can be a life saver. I tried multiple other approaches and until now anaconda is still the least pain for managing environments/packages. 
-You can just download the version for your desired OS with their provided installer package. 
-### Tableau 
+Main reason for this installation is the package management system. For most things and proof of concepts this is a fantastic starter for creating a proper environment for your data science related work. Especially managing it with different python versions it can be a life saver. I tried multiple other approaches and until now anaconda is still the least pain for managing environments/packages.
+
+You can just download the version for your desired OS with their provided installer package.
+
+### Tableau
+
 When my team uses Tableau and desktop license is bought, I install the Tableau Desktop version for doing most of my Tableau workbooks. Reason for this is that to this day of writing, Tableau Server still lacks some crucial functions for handling big Business Intelligence Analysis. The desktop versions are pricy though in my opinion. Nevertheless a good product.
 
 ## Pycharm for Data Science work
-https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg
 
-Check out their official homepage to browse through the reasons why it is a good fit for your needs: https://www.jetbrains.com/pycharm/ 
+![](https://www.jetbrains.com/pycharm/img/screenshots/simpleLook@2x.jpg)
+
+From official docs; Screenshot by author
+
+Check out their official homepage to browse through the reasons why it is a good fit for your needs: https://www.jetbrains.com/pycharm/
 
 The reason for using pycharm bei jetbrains is that it showed me throughout my work experience that this is the best all-in-one solution for dealing with larger data science projects. Event though you can customize VS code to be usable for large projects as well, I think that Pycharm still has an edge over the others. 
 The datagrip extension for connecting with databases and handling queries is a blast to use and makes my life much easier. 
@@ -170,10 +223,12 @@ Main reason for using microsoft office is Excel. Excel is used so often by so ma
 More about it on the official docs: https://www.microsoft.com/en/microsoft-365 
 
 # OS related
+
 ## Nightshift
 Years ago I used various software to help my reduce blue light on my computer screen. Nowadays you can easily use macOS nigh shift funcitonality.
 Read about it here: https://support.apple.com/en-us/HT207513
-In essence it makes your screen more "orange" in the night time. Reason for this are studies that showed that blue light can hinder good sleep. As many programmers work into the night, this was a game changer for me. It helped me quite a bit. That's why I set it always to on, and put it to as much warmth tone as possible. For a designer that wouldn't work but for a programmer that is not an issue. Simply be aware of the stronger orange tone. 
+In essence it makes your screen more "orange" in the night time. Reason for this are studies that showed that blue light can hinder good sleep. As many programmers work into the night, this was a game changer for me. It helped me quite a bit. That's why I set it always to on, and put it to as much warmth tone as possible. For a designer that wouldn't work but for a programmer that is not an issue. Simply be aware of the stronger orange tone.
+
 ## Dock
 When getting a new Mac, you will have the Dock on the bottom of the screen with lots of trash applications. So, what I do is
 Remove all the unnecessary things. I remove everything except apps that I use on a frequent basis. Like pycharm, iterm, chrome, finder. That's it. Since the spotlight feature was introduced with mac there is no need for any apps lying around in the Dock. it just clutters the view
@@ -192,7 +247,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on **23.02.2022**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.
