@@ -1,4 +1,4 @@
-# How to set up your new mac for programming and data science
+# How to set up my new Macbook Pro for programming and data science
 
 ![](https://lh3.googleusercontent.com/xsCpYJtJp1CQYsq42j2usmWAuSypRij7m52-89VkQ0a23kBdnE0ndrk79C6T6YmRZ9WEPTOA7muWu9HYXmGRwu3x0piyqXNuVZz7Bg=w600)
 
@@ -7,7 +7,7 @@
 
 # Table of Contents
 
-- [How to set up your new mac for programming and data science](#how-to-set-up-your-new-mac-for-programming-and-data-science)
+- [How to set up my new Macbook Pro for programming and data science](#how-to-set-up-my-new-macbook-pro-for-programming-and-data-science)
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
 - [Software to install an why](#software-to-install-an-why)
@@ -53,7 +53,7 @@ From official docs;Screenshot by author
 
 The reason for that is to re-arrange window size with key shortcuts. It doesn't matter which desktop setup I am on. Multiple monitors, docking station, etc. I always need shortcuts for arranging windows. Either to the side, centering or maximizing them in the current virtual desktop.
 
-After installing it, simply add its accessibility within the security & privacy setting. And then you can use it. :white_check_mark:
+After installing it, simply add its accessibility within the security & privacy setting. And then you can use it.
 
 
 ## iTerm and zsh - terminal and shell
@@ -157,40 +157,46 @@ From official docs; Screenshot by author
 ### syntax highlighting for terminal
 
 > This package provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors.
-zsh-syntax-highlighting/after2.png at master · zsh-users/zsh-syntax-highlighting
-Fish shell like syntax highlighting for Zsh. Contribute to zsh-users/zsh-syntax-highlighting development by creating an…github.com
 
-GitHub - zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.
-Requirements: zsh 4.3.11+. This package provides syntax highlighting for the shell zsh. It enables highlighting of…github.com
-For installing it just follow the install guide: 
-zsh-syntax-highlighting/INSTALL.md at master · zsh-users/zsh-syntax-highlighting
-See also repology's cross-distro index Simply clone this repository and source the script: git clone…github.com
+![](../assets/setupNewMac_2022-02-23-18-24-52.png)
+From official docs; Screenshot by author
+
+
+
+For installing it just follow the install guide:
+[zsh-syntax-highlighting/INSTALL.md](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
+
 We do that by downloading `zsh-syntax-highlighting` from
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-and add it to the plugins list in the .zshrc file. 
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+and add it to the plugins list in the `.zshrc file`.
+
 Restarting the iterm or opening a new session and you are ready to go.
 
 ### autocomplete for terminal
-GitHub - zsh-users/zsh-autosuggestions: Fish-like autosuggestions for zsh
-It suggests commands as you type based on history and completions. Requirements: Zsh v4.3.11 or later See INSTALL.md…github.com
+
+![](https://github.com/marlonrichert/zsh-autocomplete/raw/main/.img/file-search.gif)
+https://github.com/marlonrichert/zsh-autocomplete, from official docs; Screenshot by author
+
 
 > It suggests commands as you type based on history and completions.
-Installing zsh-autosuggestions
-
-Edit descriptionasciinema.org
 
 Again, for installing, simply follow the instructions in their docs: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 and add it to the plugins section in your zshrc file.
+
 Restarting the iterm or opening a new session and you are ready to go.
 
 ## Data science related
 
 ### Anaconda
 
-Anaconda | The World's Most Popular Data Science Platform
-The modern world of data science is incredibly dynamic. Every day, new challenges surface - and so do incredible…www.anaconda.com
-Main reason for this installation is the package management system. For most things and proof of concepts this is a fantastic starter for creating a proper environment for your data science related work. Especially managing it with different python versions it can be a life saver. I tried multiple other approaches and until now anaconda is still the least pain for managing environments/packages.
+-> www.anaconda.com
+
+Main reason for this installation is its package management system. For most things and proof of concepts this is a fantastic starter for creating a proper environment for your data science related work. Especially managing it with different python versions it can be a life saver. I tried multiple other approaches and until now Anaconda is still the least pain for managing environments/packages.
 
 You can just download the version for your desired OS with their provided installer package.
 
@@ -206,12 +212,15 @@ From official docs; Screenshot by author
 
 Check out their official homepage to browse through the reasons why it is a good fit for your needs: https://www.jetbrains.com/pycharm/
 
-The reason for using pycharm bei jetbrains is that it showed me throughout my work experience that this is the best all-in-one solution for dealing with larger data science projects. Event though you can customize VS code to be usable for large projects as well, I think that Pycharm still has an edge over the others. 
-The datagrip extension for connecting with databases and handling queries is a blast to use and makes my life much easier. 
-Everything from debugging, structuring project, executing code etc., comes to the best experience you can get currently. I not only deals with the database part but also allows for webdevelopment integration and other things like jupyter notebooks. I still use jupyter notebook for my detailed exploration code (check out my article on juypter notebook: XXXXX), but overall this is my go-to software and a must-have on my programmer laptop.
+The reason for using pycharm bei jetbrains is that it showed me throughout my work experience that this is the best all-in-one solution for dealing with larger data science projects. Even though you can customize VS code to be usable for large projects as well, I think that Pycharm still has an edge over the others.
+
+The datagrip extension for connecting with databases and handling queries is a blast to use and makes my life much easier.
+
+Everything from debugging, structuring project, executing code etc., comes to the best experience you can get currently. I not only deals with the database part but also allows for webdevelopment integration and other things like jupyter notebooks. I still use jupyter notebook for my detailed exploration code (check out my [article on juypter notebooks](https://towardsdatascience.com/jupyter-notebook-or-lab-or-vs-code-b772f8388911?source=user_profile---------0-------------------------------)), but overall this is my go-to software and a must-have on my programmer laptop.
 
 ## Github
-For working with Github it is great to install the Github CLI. 
+For working with Github it is great to install the Github CLI.
+
 Follow the instructions on their docs. Install it with brew by simply executing `brew install gh` 
 Before cloning a repo, you would need to set up authentication. This is done via `gh auth login`. Simply follow all instructions.
 Then you can clone gh repositories directly with `gh repo clone REPO_NAME`
@@ -225,18 +234,25 @@ More about it on the official docs: https://www.microsoft.com/en/microsoft-365 
 # OS related
 
 ## Nightshift
+
 Years ago I used various software to help my reduce blue light on my computer screen. Nowadays you can easily use macOS nigh shift funcitonality.
+
+
 Read about it here: https://support.apple.com/en-us/HT207513
+
+
 In essence it makes your screen more "orange" in the night time. Reason for this are studies that showed that blue light can hinder good sleep. As many programmers work into the night, this was a game changer for me. It helped me quite a bit. That's why I set it always to on, and put it to as much warmth tone as possible. For a designer that wouldn't work but for a programmer that is not an issue. Simply be aware of the stronger orange tone.
 
+
 ## Dock
+
 When getting a new Mac, you will have the Dock on the bottom of the screen with lots of trash applications. So, what I do is
 Remove all the unnecessary things. I remove everything except apps that I use on a frequent basis. Like pycharm, iterm, chrome, finder. That's it. Since the spotlight feature was introduced with mac there is no need for any apps lying around in the Dock. it just clutters the view
 Move the Dock to the right side. The modern screens are always longer than higher. We do not want to lose more space in height due to this Dock bar
 Auto-hide the Dock. As I said, we do not want to lose screen size.
 
 # Wrap up
-That's it. This is my setup for every Macbook I start using for my (coding) work. Apart from these changes there are of course various setting changes for specific software, but those shall be addressed in another article.
+That's it. This is my setup for every Macbook I start using for my (coding) work. Apart from these changes there are of course various setting changes for specific software, but those shall be addressed in another article. Leave some claps if you liked the article and comment if you have any remarks.
 
 
 
