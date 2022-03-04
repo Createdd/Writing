@@ -1,23 +1,24 @@
-# Make your own Medium Stats visualization
+# How I visualize my Medium Stats
 
 
-![](https://lh3.googleusercontent.com/xsCpYJtJp1CQYsq42j2usmWAuSypRij7m52-89VkQ0a23kBdnE0ndrk79C6T6YmRZ9WEPTOA7muWu9HYXmGRwu3x0piyqXNuVZz7Bg=w600)
+![](https://lh3.googleusercontent.com/oq42SSvLJ-h_Mb34vNS7hjzc-gVi-rUgzn1HPF9Qgs3L7WGh-HXWo-xlt5-NW0d686d_d8UNBB06_db9jZfWzMlHtRJXOLS_6rDSvQ=w600)
 
 
-*AI created art by Author. [See on Opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [Peter Herrmann](https://unsplash.com/@tama66)*
+*AI created art by Author. [See on Opensea as NFT](hhttps://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88390065957809873866367897922463892968640043892905418644832853814922214113281) inspired by [Michelle McEwen](https://unsplash.com/@michellem18)*
 
 # Table of Contents
 
-- [Make your own Medium Stats visualization](#make-your-own-medium-stats-visualization)
+- [How I visualize my Medium Stats](#how-i-visualize-my-medium-stats)
 - [Table of Contents](#table-of-contents)
 - [Get your stats as csv file](#get-your-stats-as-csv-file)
 - [Result on Tableau Public](#result-on-tableau-public)
+- [Why is this useful?](#why-is-this-useful)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
 # Get your stats as csv file
 
-There are 2 chrom extensions that grab your stats:
+There are 2 chrome extensions that grab your stats:
 
 The first one is [**Medium Enhanced Stats**](https://chrome.google.com/webstore/detail/medium-enhanced-stats/jnomnfoenpdinfkpaaigokicgcfkomjo/support), which unfortunately lacks a proper date formatting when I tested it.
 
@@ -40,13 +41,20 @@ The result can be seen on my profile on [Tableau Public](https://public.tableau.
 ![](https://i.imgur.com/TOZv0An.gif)
 
 
+# Why is this useful?
+
+Well, having the performance data of your old Medium articles, gives you a powerful tool for analysing what works for your target audience and what doesn't. It allows for proper A/B testing of your writing strategy.
+
+There are already a few articles that analyse the effectiveness of writing on Medium. Yet, with this tool youcan adapt everything to your needs and makes improving easier.
+
+
 # Disclaimer
 
 I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on XXXXXXXDATEXXXXXXXXXX.
+This was written on 9.2021.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.

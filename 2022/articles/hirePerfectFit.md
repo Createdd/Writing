@@ -23,7 +23,7 @@
 
 # Intro
 
-I recently read an article ["If I Were to Hire a Data Scientist, I Would Ask These 2 Questions" by Soner Yildirim](https://towardsdatascience.com/if-i-were-to-hire-a-data-scientist-i-would-ask-these-2-questions-c85c3624911d), where he elaborates on the two questions he would ask a data scientist. This inspired me to also write an article about the topic of hiring a data scientist, or in general, to hire someone that deals with data.
+I recently read an article ["If I Were to Hire a Data Scientist, I Would Ask These 2 Questions" by Soner Yildirim](https://towardsdatascience.com/if-i-were-to-hire-a-data-scientist-i-would-ask-these-2-questions-c85c3624911d), where he elaborates on the two questions he would ask a data scientist. This inspired me to also write an article about the topic of hiring a data scientist, or in general, to hire someone who deals with data.
 
 The reason I also want to express my thoughts on this is because it is
 1. important for the whole company structure
@@ -83,7 +83,7 @@ How does the person perform in times of stress? What are his action plans for no
 ## Reward
 If you found someone that is a good fit, make sure to reward them often and generously. Never forget that companies are made of people. Losing people means losing the company.
 
-I value customers the most. Directly afterward come employees.
+In terms of business, I value customers the most. Directly afterward come employees.
 
 # What if you can't find a good fit?
 
@@ -132,6 +132,7 @@ You can support me on https://www.buymeacoffee.com/createdd or with crypto https
 ![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
 
 -> subscribe here on https://medium.com/subscribe/@createdd or read more on medium
+
 -> https://medium.com/@createdd/membership
 
 **Connect on:**
