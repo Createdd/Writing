@@ -26,7 +26,7 @@
 
 # About this article
 
-In this article I will go over the steps to launch a sample web app within AWS.
+In this article, I will go over the steps to launch a sample web app within AWS.
 In my last articles, I talked about creating an own web app with python and also how to deploy it with AWS Lambda, or to do so with AWS Fargate:
 
 - [Develop and sell a machine learning app](https://towardsdatascience.com/develop-and-sell-a-machine-learning-app-from-start-to-end-tutorial-ed5b5a2b6b2b)
@@ -40,7 +40,7 @@ So now I want to show how to buy and register a domain within AWS for your web a
 
 I will illustrate how I did it with some personal points.
 
-As you can see from the table of contens the main parts of this article will be:
+As you can see from the table of contents the main parts of this article will be:
 - Buying the domain
 - Connecting the domain to your application
 - Adding a loadbalancer
@@ -87,6 +87,7 @@ There are multiple ways on how to do this. I will just show one way.
 Go to the Route 53 menu and navigate to the "hosted zones" page to  create a new record for your domain.
 
 ![](../assets/awsAppAndDomain_2021-03-06-07-36-43.png)
+Screenshot by author
 
 Then create a new record.
 
@@ -101,6 +102,7 @@ Couple of things to keep in mind:
 - When we add a loadbalancer and enable https this entry will be changed! (See below)
 
 ![](../assets/awsAppAndDomain_2021-03-06-14-33-02.png)
+Screenshot by author
 
 However, as you can see, the webpage is served over HTTP instead HTTPS. So the next step is to add a security certificate.
 
@@ -113,23 +115,27 @@ This was honestly more work than I expected in the beginning. It is important to
 Go to the security group of your EC2 cluster and make sure you add (or have added) the corresponding inbound rules to allow for https setting.
 
 ![](../assets/awsAppAndDomain_2021-03-21-18-41-13.png)
+Screenshot by author
 
 ## Get certificate
 
 Navigate to the AWS Certificate Manager
 
 ![](../assets/awsAppAndDomain_2021-03-21-11-26-37.png)
+Screenshot by author
 
 Add your domain
 
 
 ![](../assets/awsAppAndDomain_2021-03-21-11-28-46.png)
+Screenshot by author
 
 and fill out the remaining questions as you see fit.
 
 I chose validation by email. After approving this mail you will have succcessfully issued the certificate.
 
 ![](../assets/awsAppAndDomain_2021-03-21-15-55-32.png)
+Screenshot by author
 
 
 
@@ -141,10 +147,12 @@ One way in AWS to add a SSL certificate is to add a loadbalancer. As I want to b
 Just type in Load Balancer and select the EC2 feature:
 
 ![](../assets/awsAppAndDomain_2021-03-21-09-41-16.png)
+Screenshot by author
 
 then we select application load balancer:
 
 ![](../assets/awsAppAndDomain_2021-03-21-09-42-02.png)
+Screenshot by author
 
 
 1. Give your load balancer a name
@@ -153,15 +161,18 @@ then we select application load balancer:
 4. select available subnets
 
 ![](../assets/awsAppAndDomain_2021-03-21-11-09-59.png)
+Screenshot by author
 
 In the security settings tab you will be able to choose your certificate you have set up previously (fromn ACM)
 
 ![](../assets/awsAppAndDomain_2021-03-21-15-57-27.png)
+Screenshot by author
 
 - Set up a security group. Make sure to allow https and http traffic
 
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-02-17.png)
+Screenshot by author
 
 - Configure routing. Make sure to use target [type "IP" for Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/create-application-load-balancer.html)
 
@@ -169,6 +180,7 @@ In the security settings tab you will be able to choose your certificate you hav
 - Listen for HTTP protocol in the target group
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-03-44.png)
+Screenshot by author
 
 - leave default in targets as it will be allocated automatically!
 
@@ -176,8 +188,9 @@ In the security settings tab you will be able to choose your certificate you hav
 - in case you want to set the route directly to the dns address you can copy the DNS name of your load balancer
 
 ![](../assets/awsAppAndDomain_2021-03-21-18-58-15.png)
+Screenshot by author
 
-Note, that I simply set up the https requests here. Ideally you can also set up the redirect from your http to https domain here as well. Additional info can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/elb-redirect-http-to-https-using-alb/).
+Note, that I simply set up the https requests here. Ideally, you can also set up the redirect from your http to https domain here as well. Additional info can be found [here](https://aws.amazon.com/premiumsupport/knowledge-center/elb-redirect-http-to-https-using-alb/).
 
 
 
@@ -190,6 +203,7 @@ Note, that I simply set up the https requests here. Ideally you can also set up 
 - alias to application load balancer and select your created dns
 
 ![](../assets/awsAppAndDomain_2021-03-21-19-02-01.png)
+Screenshot by author
 
 
 
@@ -201,12 +215,14 @@ Within a service you can add the previous defined load balancer. To understand t
 - Fill everything out as desired
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-06-36.png)
+Screenshot by author
 
 - in the next step (network setting), use the defaults for VPCs
 - add application load balancer and set the listener to https (Port 443) and specify your target group ( you had defined in routing of the load balancer)
 
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-10-00.png)
+Screenshot by author
 
 - finish the steps and create the service
 
@@ -219,16 +235,19 @@ Now you will have to wait a bit until everything is set up and running.
 Now you can navigate to the public IP of your task:
 
 ![](../assets/awsAppAndDomain_2021-03-22-09-12-44.png)
+Screenshot by author
 
 And of course to your https domain:
 
 ![](../assets/awsAppAndDomain_2021-03-21-23-14-50.png)
+Screenshot by author
 
 If you have problems in the whole process check out [this SO question](https://stackoverflow.com/questions/5309910/https-setup-in-amazon-ec2) on how to set up https. I found it quite useful.
 
 Note: As this application is under development. It might be that the domain is not reachable when you try it. This is desired as I am still playing around with AWS archtitectural setups and want to avoid too much costs.
 
 This article is part of a larger project, which I will launch under www.shouldibuycryptoart.com. The app is under development. If you wish to follow its development feel free to reach out to me or follow my social media accounts.
+
 
 # Helpful articles
 
@@ -241,7 +260,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on **22.03.2021**.
+This was written developed from **22.03.2021**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.

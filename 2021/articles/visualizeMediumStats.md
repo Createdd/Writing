@@ -4,7 +4,7 @@
 ![](https://lh3.googleusercontent.com/oq42SSvLJ-h_Mb34vNS7hjzc-gVi-rUgzn1HPF9Qgs3L7WGh-HXWo-xlt5-NW0d686d_d8UNBB06_db9jZfWzMlHtRJXOLS_6rDSvQ=w600)
 
 
-*AI created art by Author. [See on Opensea as NFT](hhttps://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88390065957809873866367897922463892968640043892905418644832853814922214113281) inspired by [Michelle McEwen](https://unsplash.com/@michellem18)*
+*AI created art by Author. [See on Opensea as NFT](https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/88390065957809873866367897922463892968640043892905418644832853814922214113281?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [Michelle McEwen](https://unsplash.com/@michellem18)*
 
 # Table of Contents
 
