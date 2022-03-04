@@ -1,4 +1,4 @@
-# Buy a domain within AWS, connect to your app, and secure with SSL - tutorial
+# Buy a domain, connect to your app, and secure with SSL - Tutorial within AWS
 
 
 ![](https://lh3.googleusercontent.com/o5OyaPfU6NjakfAD4uhkvyBs3NcTCtQFqM2Dh9vgnOZJAaGVXmot0BWMUVr64Op3ZTptC9ITxDSRqVprg1uNoExKLuHzw8g-6sMTZA=w600)
@@ -8,7 +8,7 @@
 
 # Table of Contents
 
-- [Buy a domain within AWS, connect to your app, and secure with SSL - tutorial](#buy-a-domain-within-aws-connect-to-your-app-and-secure-with-ssl---tutorial)
+- [Buy a domain, connect to your app, and secure with SSL - Tutorial within AWS](#buy-a-domain-connect-to-your-app-and-secure-with-ssl---tutorial-within-aws)
 - [Table of Contents](#table-of-contents)
 - [About this article](#about-this-article)
 - [What AWS infrastructure type should I use](#what-aws-infrastructure-type-should-i-use)
