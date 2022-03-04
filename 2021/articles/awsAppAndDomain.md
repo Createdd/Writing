@@ -1,8 +1,9 @@
 # Buy a domain within AWS, connect to your app, and secure with SSL - tutorial
 
 
-![](../assets/awsAppAndDomain_2021-03-22-10-34-38.png)
-*AI created art by Author. See on [opensea as NFT](https://opensea.io/accounts/createdd); inspired by XXXX hXXXXX*
+![](https://lh3.googleusercontent.com/o5OyaPfU6NjakfAD4uhkvyBs3NcTCtQFqM2Dh9vgnOZJAaGVXmot0BWMUVr64Op3ZTptC9ITxDSRqVprg1uNoExKLuHzw8g-6sMTZA=w600)
+
+*AI created art by Author. See on [opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec); inspired by Amanda Phung on [Unsplash](https://unsplash.com/photos/1w2xsyc2wwI)*
 
 
 # Table of Contents
@@ -278,6 +279,9 @@ You can support me on https://www.buymeacoffee.com/createdd or with crypto https
 
 
 ![picture of myself](https://avatars2.githubusercontent.com/u/22077628?s=460&v=4)
+
+-> subscribe here on https://medium.com/subscribe/@createdd or read more on medium 
+-> https://medium.com/@createdd/membership
 
 **Connect on:**
 
