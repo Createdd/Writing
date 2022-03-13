@@ -1,4 +1,4 @@
-How I progressed my meditation levels
+How I progress my meditation levels
 
 ![](https://lh3.googleusercontent.com/oq42SSvLJ-h_Mb34vNS7hjzc-gVi-rUgzn1HPF9Qgs3L7WGh-HXWo-xlt5-NW0d686d_d8UNBB06_db9jZfWzMlHtRJXOLS_6rDSvQ=w600)
 
