@@ -1,20 +1,21 @@
-# The easiest way you can switch from Excel to Python
+# How to switch from Excel to Python
 
-![](https://lh3.googleusercontent.com/xsCpYJtJp1CQYsq42j2usmWAuSypRij7m52-89VkQ0a23kBdnE0ndrk79C6T6YmRZ9WEPTOA7muWu9HYXmGRwu3x0piyqXNuVZz7Bg=w600)
+![](https://lh3.googleusercontent.com/vs5eTzHzcNfXKqrl7H0zcF5fMyE77rqopQbj2qb6ayFQcc94rdkBqTYo85bFAAWvVuOhzuXBim2dUMM-gwD1C8bj-Pk5GRyr-1ScEg=w600)
 
 
-*AI created art by Author. [See on Opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [Peter Herrmann](https://unsplash.com/@tama66)*
+*AI created art by Author. [See on Opensea as NFT](https://opensea.io/accounts/createdd?ref=0xc36b01231a8f857b8751431c8011b09130ef92ec) inspired by [SIMON LEE](https://unsplash.com/@simonppt)*
+
 
 # Table of Contents
 
-- [The easiest way you can switch from Excel to Python](#the-easiest-way-you-can-switch-from-excel-to-python)
+- [How to switch from Excel to Python](#how-to-switch-from-excel-to-python)
 - [Table of Contents](#table-of-contents)
 - [Intro](#intro)
 - [Analyze a data set](#analyze-a-data-set)
   - [1 Install Libraries](#1-install-libraries)
   - [2 Add mitosheet](#2-add-mitosheet)
   - [3 Get and work with Dataset](#3-get-and-work-with-dataset)
-- [Why is this valuable](#why-is-this-valuable)
+- [Why is this valuable?](#why-is-this-valuable)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -30,12 +31,8 @@ How do you close that gap? 
 Slowly and step by step. 
 
 Let's talk about a way to ease into python programming when all you can do is Excel. 
-Install Anaconda, a Python programming environment
-Create an environment
-Install Mito to close the gap between excel sheets and python
 
-
-[Mito](https://docs.trymito.io/ ) allows you to do Excel calculations within Python and generates the [Pandas](https://pandas.pydata.org/ ) code for you. In essence, it is like a guide to your Python coding.
+There is a library that tries to close this gap. [Mito](https://docs.trymito.io/ ) allows you to do Excel calculations within Python and generates the [Pandas](https://pandas.pydata.org/ ) code for you. In essence, it is like a guide to your Python coding.
 
 
 Let's have a look at an example
@@ -66,12 +63,14 @@ mitosheet.sheet()
 
 ## 3 Get and work with Dataset
 
-I wanted to have a quick look at the latest happiness dataset https://www.kaggle.com/datasets/mathurinache/world-happiness-report-2022 to see where it is nice to live right now. ![](../assets/mito/import_csv_file.png)
+I wanted to have a quick look at the latest happiness dataset https://www.kaggle.com/datasets/mathurinache/world-happiness-report-2022 to see where it is nice to live right now. 
+
+
+![](../assets/mito/import_csv_file.png)
+
 
 
 So, first I sort the column with happiness score in descending order. I know this from Excel.
-
-![](../assets/mito/sort_happiness.png)
 
 Immediately afterward, the python code with comments is generated. 
 
@@ -95,9 +94,8 @@ I thought about moving to a warmer country, so I need to look for something else
 
 ![](../assets/mito/unique_values.png)
 
-So I rather look for Spain:
+So I rather look for Spain. Its rank is 29. So, not bad either. 
 
-Its rank is 29. So, not bad either. 
 I want to have a closer look at healthy life expectations, which is very important for me. So I go and do some plotting
 
 ![](../assets/mito/plotting_healthy_life.png)
@@ -106,7 +104,7 @@ Now, this is too much for me. I want to get into some python code now. Which I e
 
 ![](../assets/mito/execute_healthy_life_snippet.png)
 
- - 
+
 I want to re-sort the y-axis. So I check out the plotly docs. And see on https://plotly.com/python/bar-charts/#bar-chart-with-sorted-or-ordered-categories that I can just pass some arguments.
 So I add 
 
@@ -156,8 +154,12 @@ I want to know how those numbers correlate. I want to dive into more Pandas now.
 As we can see clearly that health life expectancy and freedom of choice correlate strongly with happiness score, those two correlate only around 43% here. Looking at the graphs, we can see that in the higher-ranked countries both values are quite high, whereas in the lower end both of those variables seem to sometimes compensate each other. This is quite interesting to see and would be something worth elaborating on in more detail. 
 
 
+---
 
-# Why is this valuable
+And that's it for a start. As you can see it is extremely easy to combine the world of Excel with Python.
+
+
+# Why is this valuable?
 
 There is a certain challenge in getting qualified developers and people who are able to work with code. 
 You can either hire experienced people, which is often very hard and expensive, or you can try democratize the process of dealing with data and allow non-coders to get into coding. 
@@ -170,10 +172,9 @@ I am glad that there is such a strong open source community that makes day-to-da
 
 
 
-
 # Disclaimer
 
-I am not associated with any of the services I use in this article.
+One of the creators of the library reached out to me and we got in a discussion about how to get people more easily into Python. This library is his project and he wanted me to write about it. I definitely see the purpose of this library, so that's why I thought I elaborate on it a bit.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
