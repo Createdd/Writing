@@ -14,8 +14,7 @@
   - [1 Install Libraries](#1-install-libraries)
   - [2 Add mitosheet](#2-add-mitosheet)
   - [3 Get and work with Dataset](#3-get-and-work-with-dataset)
-- [Construct the graph and style it. Further customize your graph by editing this code.](#construct-the-graph-and-style-it-further-customize-your-graph-by-editing-this-code)
-- [See Plotly Documentation for help: https://plotly.com/python/plotly-express/](#see-plotly-documentation-for-help-httpsplotlycompythonplotly-express)
+- [Why is this valuable](#why-is-this-valuable)
 - [Disclaimer](#disclaimer)
 - [About](#about)
 
@@ -72,7 +71,12 @@ I wanted to have a quick look at the latest happiness dataset https://www.kaggle
 
 So, first I sort the column with happiness score in descending order. I know this from Excel.
 
+![](../assets/mito/sort_happiness.png)
+
 Immediately afterward, the python code with comments is generated. 
+
+![](../assets/mito/python_code_generated.png)
+
 
 ```# Sorted Happiness score in df_2022 in descending order
 df_2022 = df_2022.sort_values(by='Happiness score', ascending=False, na_position='last')
@@ -83,19 +87,30 @@ df_2022 = df_2022.sort_values(by='Happiness score', ascending=False, na_position
 This is fantastic.
 Executing the provided cell and calling the DataFrame leads me to show the pandas data frame:
 
-I can see that Austria is still quite high in the happiness ranking, which satisfies me to some degree. (As I live in Austria right now) 
+![](../assets/mito/show_pd_df.png)
+
+
+I can see that Austria is still quite high in the happiness ranking, which satisfies me to some degree. (as I live in Austria right now) 
 I thought about moving to a warmer country, so I need to look for something else. I want to check out Tenerife. However, it is not here:
+
+![](../assets/mito/unique_values.png)
 
 So I rather look for Spain:
 
 Its rank is 29. So, not bad either. 
 I want to have a closer look at healthy life expectations, which is very important for me. So I go and do some plotting
 
+![](../assets/mito/plotting_healthy_life.png)
+
 Now, this is too much for me. I want to get into some python code now. Which I easily can after copying the code snippet for this. When executing the snippet I get 
+
+![](../assets/mito/execute_healthy_life_snippet.png)
+
  - 
 I want to re-sort the y-axis. So I check out the plotly docs. And see on https://plotly.com/python/bar-charts/#bar-chart-with-sorted-or-ordered-categories that I can just pass some arguments.
 So I add 
-`import plotly.express as px
+
+```import plotly.express as px
 # Construct the graph and style it. Further customize your graph by editing this code.
 # See Plotly Documentation for help: https://plotly.com/python/plotly-express/
 fig = px.strip(df_2022, x='Country', y='Explained by: Healthy life expectancy')
@@ -111,22 +126,46 @@ fig.update_layout(
  categoryorder='category ascending'
  )
 )
-fig.show(renderer="iframe")`
+fig.show(renderer="iframe")
+```
+
+
 
 This leads to the sorting I desire:
-graph_sorted
+
+![](../assets/mito/graph_sorted.png)
+
+
 I can see that Austria performs still quite well. I see that the "cold" countries in the North are extremely good in this regard. Looking at Spain, I can see that this is not bad either. I have other options like Malta, Italy, Costa Rica. This inspires me to to go one of those countries.
 
 Now, let's add more information in form of a line chart.
- - 
-And then export the code with sorted y-axis:
- - 
-I want to know how those numbers correlate. I want to dive into more Pandas now. I re-format the numbers as the dataset did not provide them as numbers. And calculate the Pearson correlation with the Pandas function. As we can see clearly that health life expectancy and freedom of choice correlate strongly with happiness score, those two correlate only around 43% here. Looking at the graphs, we can see that in the higher-ranked countries both values are quite high, whereas in the lower end both of those variables seem to sometimes compensate each other. This is quite interesting to see and would be something worth elaborating on in more detail. 
 
-3 Why is this valuable
+
+![](../assets/mito/more_lines.png)
+ 
+
+And then export the code with sorted y-axis:
+
+![](../assets/mito/more_lines_sorted.png)
+
+
+I want to know how those numbers correlate. I want to dive into more Pandas now. I re-format the numbers as the dataset did not provide them as numbers. And calculate the Pearson correlation with the Pandas function.
+
+![](../assets/mito/correlations.png)
+
+As we can see clearly that health life expectancy and freedom of choice correlate strongly with happiness score, those two correlate only around 43% here. Looking at the graphs, we can see that in the higher-ranked countries both values are quite high, whereas in the lower end both of those variables seem to sometimes compensate each other. This is quite interesting to see and would be something worth elaborating on in more detail. 
+
+
+
+# Why is this valuable
+
 There is a certain challenge in getting qualified developers and people who are able to work with code. 
 You can either hire experienced people, which is often very hard and expensive, or you can try democratize the process of dealing with data and allow non-coders to get into coding. 
+
+
 As I experienced often, many people consider themselves either programmers or non-programmers. Often I hear "I am not a developer, I cannot do this". However, with little introduction, anyone is able to work with code syntax. Step by step. Once at a time. And libraries like this one showed helps in this process. They allow people to feed on skills they already have, expand them and acquire new ones that will improve their work. 
+
+
 I am glad that there is such a strong open source community that makes day-to-day lives easier. I think that one of the best ways to align the competencies of people in a company/project is when strengths can be shared like in this example. There is always a need for strong expertise. Distributing expertise is one of the keys to growing in a team and making projects yield outstanding results.
 
 
@@ -138,7 +177,7 @@ I am not associated with any of the services I use in this article.
 
 I do not consider myself an expert. I merely document things besides doing other things. Therefore the content does not represent the quality of any of my professional work, nor does it fully reflect my view on things. If you have the feeling that I am missing important steps or neglected something, consider pointing it out in the comment section or get in touch with me.
 
-This was written on **XXXXXXXX**.
+This was written on **20.3.2022**.
 I cannot monitor all of my articles. There is a high probability that when you read this article the tips are outdated and the processes have changed.
 
 I am always happy for constructive input and how to improve.
